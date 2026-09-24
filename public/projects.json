@@ -1,0 +1,146 @@
+[
+  {
+    "name": "horologium",
+    "description": "What time is it in Babylon? A live, Antikythera-inspired clock for 13 calendars of the ancient world, oracle-tested.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/horologium",
+    "demoUrl": "https://antonsoo.github.io/horologium/",
+    "thumbnail": "thumbs/horologium.webp",
+    "status": "published"
+  },
+  {
+    "name": "gnomon",
+    "description": "Design accurate sundials for any place on Earth: horizontal, vertical, equatorial, analemmatic, with scale-exact SVG/PDF export.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/gnomon",
+    "demoUrl": "https://antonsoo.github.io/gnomon/",
+    "thumbnail": "thumbs/gnomon.webp",
+    "status": "published"
+  },
+  {
+    "name": "planisphere",
+    "description": "Print a star wheel for any latitude and any century, precessed to the sky the Babylonians, Ptolemy, or the Maya actually saw.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/planisphere",
+    "demoUrl": "https://antonsoo.github.io/planisphere/",
+    "thumbnail": "thumbs/planisphere.webp",
+    "status": "soon"
+  },
+  {
+    "name": "tonemirror",
+    "description": "See your intonation: overlay your pitch contour on a reference and practice tones and pitch accent, in the browser.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/tonemirror",
+    "demoUrl": "https://antonsoo.github.io/tonemirror/",
+    "thumbnail": "thumbs/tonemirror.webp",
+    "status": "published"
+  },
+  {
+    "name": "errorbars",
+    "description": "Error bars for LLM evals: clustered SEs, paired comparisons, leaderboards, and power analysis. Python + web calculator.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/errorbars",
+    "demoUrl": "https://antonsoo.github.io/errorbars/",
+    "thumbnail": "thumbs/errorbars.webp",
+    "status": "published"
+  },
+  {
+    "name": "contextscope",
+    "description": "See what's actually in your LLM context window, and why your prompt cache keeps missing. Local-first, Anthropic + OpenAI.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/contextscope",
+    "demoUrl": "https://antonsoo.github.io/contextscope/",
+    "thumbnail": "thumbs/contextscope.webp",
+    "status": "published"
+  },
+  {
+    "name": "fieldproof",
+    "description": "Document extraction that shows its work: every LLM-extracted field grounded to its source words, verified, and reviewable.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/fieldproof",
+    "demoUrl": "https://antonsoo.github.io/fieldproof/",
+    "thumbnail": "thumbs/fieldproof.webp",
+    "status": "published"
+  },
+  {
+    "name": "mcplint",
+    "description": "Lint your MCP server's tools the way the model sees them: token cost, clarity, and hidden instructions.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/mcplint",
+    "demoUrl": "https://antonsoo.github.io/mcplint/",
+    "thumbnail": "thumbs/mcplint.webp",
+    "status": "published"
+  },
+  {
+    "name": "veil",
+    "description": "Reversible PII masking for LLM calls. Mask personal data before the prompt leaves your network, then restore it in the answer.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/veil",
+    "demoUrl": "https://antonsoo.github.io/veil/",
+    "thumbnail": "thumbs/veil.webp",
+    "status": "soon"
+  },
+  {
+    "name": "tracelens",
+    "description": "Coming soon.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/tracelens",
+    "demoUrl": null,
+    "thumbnail": "thumbs/tracelens.webp",
+    "status": "soon"
+  },
+  {
+    "name": "trainspotter",
+    "description": "Spot what went wrong in a training run before you burn another GPU-day. Automatic diagnosis of loss curves and training logs.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/trainspotter",
+    "demoUrl": null,
+    "thumbnail": "thumbs/trainspotter.webp",
+    "status": "soon"
+  },
+  {
+    "name": "ghostchars",
+    "description": "See the characters you can't: catch Trojan Source bidi tricks, invisible and lookalike Unicode, and ASCII smuggling in code and LLM prompts.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/ghostchars",
+    "demoUrl": "https://antonsoo.github.io/ghostchars/",
+    "thumbnail": "thumbs/ghostchars.webp",
+    "status": "published"
+  },
+  {
+    "name": "logdelta",
+    "description": "Diff logs by meaning, not by bytes: masks variables, mines templates, and shows what's new in the failing run.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/logdelta",
+    "demoUrl": null,
+    "thumbnail": "thumbs/logdelta.webp",
+    "status": "published"
+  },
+  {
+    "name": "stutterscope",
+    "description": "Frame-time analysis for PC gamers and reviewers: PresentMon, FrameView, CapFrameX, MangoHud and OCAT captures, in your browser.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/stutterscope",
+    "demoUrl": "https://antonsoo.github.io/stutterscope/",
+    "thumbnail": "thumbs/stutterscope.webp",
+    "status": "published"
+  },
+  {
+    "name": "splitscope",
+    "description": "Private, in-browser LiveSplit analyzer: time save, consistency, reset survival, and Monte Carlo odds of your next PB.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/splitscope",
+    "demoUrl": "https://antonsoo.github.io/splitscope/",
+    "thumbnail": "thumbs/splitscope.webp",
+    "status": "published"
+  },
+  {
+    "name": "am-i-unlucky",
+    "description": "Exact drop-rate and pity math for gamers: Markov-chain pity solver, collection odds, luck percentiles. SciPy-verified.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/am-i-unlucky",
+    "demoUrl": "https://antonsoo.github.io/am-i-unlucky/",
+    "thumbnail": "thumbs/am-i-unlucky.webp",
+    "status": "published"
+  }
+]
