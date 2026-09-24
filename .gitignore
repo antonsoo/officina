@@ -1,0 +1,13 @@
+# Node
+node_modules/
+dist/
+npm-debug.log*
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Local scratch
+*.local.json
