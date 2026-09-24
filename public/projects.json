@@ -91,12 +91,12 @@
   },
   {
     "name": "trainspotter",
-    "description": "Spot what went wrong in a training run before you burn another GPU-day. Automatic diagnosis of loss curves and training logs.",
+    "description": "Automatic diagnosis of training runs from their logs: divergence, loss spikes, overfitting, LR and throughput problems.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/trainspotter",
-    "demoUrl": null,
+    "demoUrl": "https://antonsoo.github.io/trainspotter/",
     "thumbnail": "thumbs/trainspotter.webp",
-    "status": "soon"
+    "status": "published"
   },
   {
     "name": "ghostchars",
