@@ -1,0 +1,155 @@
+[
+  {
+    "name": "horologium",
+    "description": "What time is it in Babylon? A live, Antikythera-inspired clock for 13 calendars of the ancient world, oracle-tested.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/horologium",
+    "demoUrl": "https://antonsoo.github.io/horologium/",
+    "thumbnail": "thumbs/horologium.webp",
+    "status": "published"
+  },
+  {
+    "name": "gnomon",
+    "description": "Design accurate sundials for any place on Earth: horizontal, vertical, equatorial, analemmatic, with scale-exact SVG/PDF export.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/gnomon",
+    "demoUrl": "https://antonsoo.github.io/gnomon/",
+    "thumbnail": "thumbs/gnomon.webp",
+    "status": "published"
+  },
+  {
+    "name": "planisphere",
+    "description": "Print a star wheel for any latitude and any century: precession-accurate planispheres, ready to print or laser-cut.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/planisphere",
+    "demoUrl": "https://antonsoo.github.io/planisphere/",
+    "thumbnail": "thumbs/planisphere.webp",
+    "status": "published"
+  },
+  {
+    "name": "tonemirror",
+    "description": "See your intonation: overlay your pitch contour on a reference and practice tones and pitch accent, in the browser.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/tonemirror",
+    "demoUrl": "https://antonsoo.github.io/tonemirror/",
+    "thumbnail": "thumbs/tonemirror.webp",
+    "status": "published"
+  },
+  {
+    "name": "errorbars",
+    "description": "Error bars for LLM evals: clustered SEs, paired comparisons, leaderboards, and power analysis. Python + web calculator.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/errorbars",
+    "demoUrl": "https://antonsoo.github.io/errorbars/",
+    "thumbnail": "thumbs/errorbars.webp",
+    "status": "published"
+  },
+  {
+    "name": "contextscope",
+    "description": "See what's actually in your LLM context window, and why your prompt cache keeps missing. Local-first, Anthropic + OpenAI.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/contextscope",
+    "demoUrl": "https://antonsoo.github.io/contextscope/",
+    "thumbnail": "thumbs/contextscope.webp",
+    "status": "published"
+  },
+  {
+    "name": "fieldproof",
+    "description": "Document extraction that shows its work: every LLM-extracted field grounded to its source words, verified, and reviewable.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/fieldproof",
+    "demoUrl": "https://antonsoo.github.io/fieldproof/",
+    "thumbnail": "thumbs/fieldproof.webp",
+    "status": "published"
+  },
+  {
+    "name": "mcplint",
+    "description": "Lint your MCP server's tools the way the model sees them: token cost, clarity, and hidden instructions.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/mcplint",
+    "demoUrl": "https://antonsoo.github.io/mcplint/",
+    "thumbnail": "thumbs/mcplint.webp",
+    "status": "published"
+  },
+  {
+    "name": "veil",
+    "description": "Reversible PII masking for LLM calls. Mask personal data before the prompt leaves your network, then restore it in the answer.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/veil",
+    "demoUrl": "https://antonsoo.github.io/veil/",
+    "thumbnail": "thumbs/veil.webp",
+    "status": "published"
+  },
+  {
+    "name": "tracelens",
+    "description": "Zero-install viewer for LLM agent traces: OTLP/JSON in, waterfall, span tree, tool calls, tokens and cost out.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/tracelens",
+    "demoUrl": "https://antonsoo.github.io/tracelens/",
+    "thumbnail": "thumbs/tracelens.webp",
+    "status": "published"
+  },
+  {
+    "name": "trainspotter",
+    "description": "Automatic diagnosis of training runs from their logs: divergence, loss spikes, overfitting, LR and throughput problems.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/trainspotter",
+    "demoUrl": "https://antonsoo.github.io/trainspotter/",
+    "thumbnail": "thumbs/trainspotter.webp",
+    "status": "published"
+  },
+  {
+    "name": "ghostchars",
+    "description": "See the characters you can't: catch Trojan Source bidi tricks, invisible and lookalike Unicode, and ASCII smuggling in code and LLM prompts.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/ghostchars",
+    "demoUrl": "https://antonsoo.github.io/ghostchars/",
+    "thumbnail": "thumbs/ghostchars.webp",
+    "status": "published"
+  },
+  {
+    "name": "logdelta",
+    "description": "Diff logs by meaning, not by bytes: masks variables, mines templates, and shows what's new in the failing run.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/logdelta",
+    "demoUrl": null,
+    "thumbnail": "thumbs/logdelta.webp",
+    "status": "published"
+  },
+  {
+    "name": "flakemap",
+    "description": "Find the flaky tests in your CI history: JUnit XML from past runs in, a ranked, statistically honest flake report out.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/flakemap",
+    "demoUrl": "https://antonsoo.github.io/flakemap/",
+    "thumbnail": "thumbs/flakemap.webp",
+    "status": "published"
+  },
+  {
+    "name": "stutterscope",
+    "description": "Frame-time analysis for PC gamers and reviewers: PresentMon, FrameView, CapFrameX, MangoHud and OCAT captures, in your browser.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/stutterscope",
+    "demoUrl": "https://antonsoo.github.io/stutterscope/",
+    "thumbnail": "thumbs/stutterscope.webp",
+    "status": "published"
+  },
+  {
+    "name": "splitscope",
+    "description": "Private, in-browser LiveSplit analyzer: time save, consistency, reset survival, and Monte Carlo odds of your next PB.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/splitscope",
+    "demoUrl": "https://antonsoo.github.io/splitscope/",
+    "thumbnail": "thumbs/splitscope.webp",
+    "status": "published"
+  },
+  {
+    "name": "am-i-unlucky",
+    "description": "Exact drop-rate and pity math for gamers: Markov-chain pity solver, collection odds, luck percentiles. SciPy-verified.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/am-i-unlucky",
+    "demoUrl": "https://antonsoo.github.io/am-i-unlucky/",
+    "thumbnail": "thumbs/am-i-unlucky.webp",
+    "status": "published"
+  }
+]
