@@ -19,12 +19,12 @@
   },
   {
     "name": "planisphere",
-    "description": "Print a star wheel for any latitude and any century, precessed to the sky the Babylonians, Ptolemy, or the Maya actually saw.",
+    "description": "Print a star wheel for any latitude and any century: precession-accurate planispheres, ready to print or laser-cut.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/planisphere",
     "demoUrl": "https://antonsoo.github.io/planisphere/",
     "thumbnail": "thumbs/planisphere.webp",
-    "status": "soon"
+    "status": "published"
   },
   {
     "name": "tonemirror",
@@ -82,12 +82,12 @@
   },
   {
     "name": "tracelens",
-    "description": "Coming soon.",
+    "description": "Zero-install viewer for LLM agent traces: OTLP/JSON in, waterfall, span tree, tool calls, tokens and cost out.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/tracelens",
-    "demoUrl": null,
+    "demoUrl": "https://antonsoo.github.io/tracelens/",
     "thumbnail": "thumbs/tracelens.webp",
-    "status": "soon"
+    "status": "published"
   },
   {
     "name": "trainspotter",
@@ -114,6 +114,15 @@
     "repoUrl": "https://github.com/antonsoo/logdelta",
     "demoUrl": null,
     "thumbnail": "thumbs/logdelta.webp",
+    "status": "published"
+  },
+  {
+    "name": "flakemap",
+    "description": "Find the flaky tests in your CI history: JUnit XML from past runs in, a ranked, statistically honest flake report out.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/flakemap",
+    "demoUrl": "https://antonsoo.github.io/flakemap/",
+    "thumbnail": "thumbs/flakemap.webp",
     "status": "published"
   },
   {
