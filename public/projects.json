@@ -82,10 +82,10 @@
   },
   {
     "name": "tracelens",
-    "description": "Zero-install viewer for LLM agent traces: OTLP/JSON in, waterfall, span tree, tool calls, tokens and cost out.",
+    "description": "Inspect and compare agent runs locally: operation changes, per-call evidence, tokens and estimated cost from OTLP/JSON traces.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/tracelens",
-    "demoUrl": "https://antonsoo.github.io/tracelens/",
+    "demoUrl": "https://antonsoo.github.io/tracelens/?example=compare",
     "thumbnail": "thumbs/tracelens.webp",
     "status": "published"
   },
