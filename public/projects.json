@@ -42,7 +42,8 @@
     "repoUrl": "https://github.com/antonsoo/errorbars",
     "demoUrl": "https://antonsoo.github.io/errorbars/",
     "thumbnail": "thumbs/errorbars.webp",
-    "status": "published"
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/errorbars"
   },
   {
     "name": "contextscope",
@@ -78,7 +79,8 @@
     "repoUrl": "https://github.com/antonsoo/veil",
     "demoUrl": "https://antonsoo.github.io/veil/",
     "thumbnail": "thumbs/veil.webp",
-    "status": "published"
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/veil"
   },
   {
     "name": "tracelens",
@@ -96,7 +98,8 @@
     "repoUrl": "https://github.com/antonsoo/trainspotter",
     "demoUrl": "https://antonsoo.github.io/trainspotter/",
     "thumbnail": "thumbs/trainspotter.webp",
-    "status": "published"
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/trainspotter"
   },
   {
     "name": "ghostchars",
@@ -123,7 +126,8 @@
     "repoUrl": "https://github.com/antonsoo/flakemap",
     "demoUrl": "https://antonsoo.github.io/flakemap/",
     "thumbnail": "thumbs/flakemap.webp",
-    "status": "published"
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/flakemap"
   },
   {
     "name": "stutterscope",

@@ -5,11 +5,7 @@ import { GROUP_ORDER } from "./types";
 const app = document.getElementById("app")!;
 
 function esc(value: string): string {
-  return value
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
+  return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
 function currentTheme(): "light" | "dark" {
@@ -42,6 +38,9 @@ function groupSort(a: string, b: string): number {
 function renderCard(p: Project): string {
   const base = import.meta.env.BASE_URL;
   const links = [`<a href="${esc(p.repoUrl)}">Source</a>`];
+  if (p.spaceUrl) {
+    links.unshift(`<a href="${esc(p.spaceUrl)}">Hugging Face</a>`);
+  }
   if (p.demoUrl) {
     links.unshift(`<a href="${esc(p.demoUrl)}">Live demo</a>`);
   }
@@ -79,10 +78,7 @@ function renderGroups(projects: Project[]): string {
         <div class="rule"><span class="lozenge"></span></div>
       </div>
       <ul class="grid">
-        ${groups
-          .get(name)!
-          .map(renderCard)
-          .join("")}
+        ${groups.get(name)!.map(renderCard).join("")}
       </ul>
     </section>
   `,

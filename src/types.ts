@@ -4,6 +4,7 @@ export interface Project {
   group: string;
   repoUrl: string;
   demoUrl: string | null;
+  spaceUrl?: string;
   thumbnail: string;
   status: "published" | "soon";
 }
