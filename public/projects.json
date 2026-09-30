@@ -115,7 +115,7 @@
     "description": "Diff logs by meaning, not by bytes: masks variables, mines templates, and shows what's new in the failing run.",
     "group": "Developer tools",
     "repoUrl": "https://github.com/antonsoo/logdelta",
-    "demoUrl": null,
+    "demoUrl": "https://antonsoo.github.io/logdelta/",
     "thumbnail": "thumbs/logdelta.webp",
     "status": "published"
   },
