@@ -5,6 +5,8 @@ export interface Project {
   repoUrl: string;
   demoUrl: string | null;
   spaceUrl?: string;
+  /** Where the tool installs from, once it is on a registry: shown as a link named after the registry. */
+  package?: { registry: "PyPI" | "npm" | "crates.io"; url: string };
   thumbnail: string;
   status: "published" | "soon";
 }

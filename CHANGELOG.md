@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## Unreleased
+
+### Added
+
+- A card links to its package once the tool is on a registry (PyPI, crates.io
+  or npm), next to the demo and source links: an optional `package` entry in
+  `public/projects.json`.
+
 ## [0.1.0] - 2026-09-24
 
 Initial release.

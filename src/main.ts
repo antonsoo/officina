@@ -38,6 +38,9 @@ function groupSort(a: string, b: string): number {
 function renderCard(p: Project): string {
   const base = import.meta.env.BASE_URL;
   const links = [`<a href="${esc(p.repoUrl)}">Source</a>`];
+  if (p.package) {
+    links.unshift(`<a href="${esc(p.package.url)}">${esc(p.package.registry)}</a>`);
+  }
   if (p.spaceUrl) {
     links.unshift(`<a href="${esc(p.spaceUrl)}">Hugging Face</a>`);
   }
