@@ -10,6 +10,15 @@ All notable changes to this project are documented in this file.
   or npm), next to the demo and source links: an optional `package` entry in
   `public/projects.json`.
 
+### Changed
+
+- The page's fonts are served by the page itself. They came from Google Fonts,
+  the one request the page made to another origin; the same font files (every
+  subset, as Google serves them to a current browser) are now in
+  `src/fonts/`, with their SIL Open Font License texts. Nothing looks
+  different: screenshots before and after match. The page now loads with
+  every other host blocked.
+
 ## [0.1.0] - 2026-09-24
 
 Initial release.

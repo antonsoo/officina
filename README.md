@@ -58,8 +58,8 @@ Imperial Roman: a parchment ground, a crimson accent, gold hairlines,
 project names, [EB Garamond](https://fonts.google.com/specimen/EB+Garamond)
 for everything read at length. Light and dark themes follow the system
 preference, with a manual toggle persisted in `localStorage`. No
-tracking, no analytics, no external requests beyond the two Google Fonts
-stylesheets.
+tracking, no analytics, and no request to any other host: the fonts are
+served from the site itself (`src/fonts/`, under the SIL Open Font License).
 
 ## Contributing
 

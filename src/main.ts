@@ -1,3 +1,4 @@
+import "./fonts/fonts.css";
 import "./style.css";
 import type { Project } from "./types";
 import { GROUP_ORDER } from "./types";
