@@ -6,7 +6,11 @@
     "repoUrl": "https://github.com/antonsoo/horologium",
     "demoUrl": "https://antonsoo.github.io/horologium/",
     "thumbnail": "thumbs/horologium.webp",
-    "status": "published"
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/horologium"
+    }
   },
   {
     "name": "gnomon",
@@ -56,7 +60,11 @@
     "repoUrl": "https://github.com/antonsoo/contextscope",
     "demoUrl": "https://antonsoo.github.io/contextscope/",
     "thumbnail": "thumbs/contextscope.webp",
-    "status": "published"
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/contextscope"
+    }
   },
   {
     "name": "fieldproof",
@@ -78,7 +86,11 @@
     "repoUrl": "https://github.com/antonsoo/mcplint",
     "demoUrl": "https://antonsoo.github.io/mcplint/",
     "thumbnail": "thumbs/mcplint.webp",
-    "status": "published"
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/mcplint"
+    }
   },
   {
     "name": "veil",
@@ -101,7 +113,11 @@
     "repoUrl": "https://github.com/antonsoo/tracelens",
     "demoUrl": "https://antonsoo.github.io/tracelens/?example=compare",
     "thumbnail": "thumbs/tracelens.webp",
-    "status": "published"
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/tracelens"
+    }
   },
   {
     "name": "trainspotter",
@@ -124,7 +140,11 @@
     "repoUrl": "https://github.com/antonsoo/ghostchars",
     "demoUrl": "https://antonsoo.github.io/ghostchars/",
     "thumbnail": "thumbs/ghostchars.webp",
-    "status": "published"
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/ghostchars"
+    }
   },
   {
     "name": "logdelta",
@@ -160,7 +180,11 @@
     "repoUrl": "https://github.com/antonsoo/stutterscope",
     "demoUrl": "https://antonsoo.github.io/stutterscope/",
     "thumbnail": "thumbs/stutterscope.webp",
-    "status": "published"
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/stutterscope"
+    }
   },
   {
     "name": "splitscope",
