@@ -65,7 +65,11 @@
     "repoUrl": "https://github.com/antonsoo/fieldproof",
     "demoUrl": "https://antonsoo.github.io/fieldproof/",
     "thumbnail": "thumbs/fieldproof.webp",
-    "status": "published"
+    "status": "published",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/fieldproof/"
+    }
   },
   {
     "name": "mcplint",
