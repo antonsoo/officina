@@ -28,6 +28,14 @@ All notable changes to this project are documented in this file.
   event handlers and `eval` are not allowed. Every control was exercised
   in Chromium and Firefox with a listener for policy violations: none.
 
+### Accessibility
+
+- Checked with axe-core (WCAG 2.1 A and AA, and its best-practice rules) in light and dark,
+  at desktop and phone widths: no findings now. The faint text (2.97:1) and,
+  in the dark theme, the
+  crimson of links and group names (3.4:1) are now above 4.5:1, and the group
+  names are `h2` headings between the page's `h1` and the cards' `h3`.
+
 ## [0.1.0] - 2026-09-24
 
 Initial release.

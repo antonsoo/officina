@@ -78,7 +78,7 @@ function renderGroups(projects: Project[]): string {
       (name) => `
     <section class="group">
       <div class="group-header">
-        <span class="group-title">${esc(name)}</span>
+        <h2 class="group-title">${esc(name)}</h2>
         <div class="rule"><span class="lozenge"></span></div>
       </div>
       <ul class="grid">
