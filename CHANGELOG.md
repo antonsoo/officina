@@ -6,6 +6,12 @@ All notable changes to this project are documented in this file.
 
 ### Added
 
+- Search by project, description, audience, or package registry, combined
+  with audience filters and a live result count. Search stays in the page.
+- Clear filters, an empty-results action, and a skip link for keyboard users.
+- Catalogue validation at build and load time, with a retry for failed loads.
+- Unit and Chromium/Firefox regression tests, including mobile layouts,
+  keyboard focus, content escaping, local filtering, and accessibility.
 - A card links to its package once the tool is on a registry (PyPI, crates.io
   or npm), next to the demo and source links: an optional `package` entry in
   `public/projects.json`.

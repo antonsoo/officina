@@ -8,7 +8,7 @@ on:
 
 jobs:
   web:
-    name: Typecheck, lint, build
+    name: Typecheck, lint, tests, build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -27,5 +27,17 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Format check
+        run: npm run format:check
+
+      - name: Catalogue tests
+        run: npm test
+
       - name: Build
         run: npm run build
+
+      - name: Install browsers
+        run: npx playwright install --with-deps chromium firefox
+
+      - name: Browser regression tests
+        run: npx playwright test

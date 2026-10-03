@@ -1,7 +1,7 @@
 import "./fonts/fonts.css";
 import "./style.css";
 import type { Project } from "./types";
-import { GROUP_ORDER } from "./types";
+import { filterProjects, groupNames, parseCatalogue } from "./catalogue";
 
 const app = document.getElementById("app")!;
 
@@ -24,16 +24,10 @@ function toggleTheme(): void {
     /* private browsing - the toggle still works for this page view */
   }
   const btn = document.getElementById("theme-toggle");
-  if (btn) btn.textContent = next === "dark" ? "☀️ Light" : "☽ Dark";
-}
-
-function groupSort(a: string, b: string): number {
-  const ia = GROUP_ORDER.indexOf(a as (typeof GROUP_ORDER)[number]);
-  const ib = GROUP_ORDER.indexOf(b as (typeof GROUP_ORDER)[number]);
-  if (ia === -1 && ib === -1) return a.localeCompare(b);
-  if (ia === -1) return 1;
-  if (ib === -1) return -1;
-  return ia - ib;
+  if (btn) {
+    btn.textContent = next === "dark" ? "☀ Light" : "☽ Dark";
+    btn.setAttribute("aria-label", `Switch to ${next === "dark" ? "light" : "dark"} theme`);
+  }
 }
 
 function renderCard(p: Project): string {
@@ -49,9 +43,9 @@ function renderCard(p: Project): string {
     links.unshift(`<a href="${esc(p.demoUrl)}">Live demo</a>`);
   }
   return `
-    <li class="card">
+    <li class="card" data-project="${esc(p.name)}">
       <div class="card-thumb">
-        <img src="${base}${p.thumbnail}" alt="${esc(p.name)} screenshot" loading="lazy" width="1200" height="750" />
+        <img src="${base}${esc(p.thumbnail)}" alt="${esc(p.name)} screenshot" loading="lazy" width="1200" height="750" />
       </div>
       <div class="card-body">
         <span class="tag">${esc(p.group)}</span>
@@ -71,9 +65,7 @@ function renderGroups(projects: Project[]): string {
     list.push(p);
     groups.set(p.group, list);
   }
-  const groupNames = [...groups.keys()].sort(groupSort);
-
-  return groupNames
+  return groupNames(visible)
     .map(
       (name) => `
     <section class="group">
@@ -81,7 +73,7 @@ function renderGroups(projects: Project[]): string {
         <h2 class="group-title">${esc(name)}</h2>
         <div class="rule"><span class="lozenge"></span></div>
       </div>
-      <ul class="grid">
+      <ul class="grid" role="list">
         ${groups.get(name)!.map(renderCard).join("")}
       </ul>
     </section>
@@ -90,12 +82,107 @@ function renderGroups(projects: Project[]): string {
     .join("");
 }
 
-async function main(): Promise<void> {
-  const base = import.meta.env.BASE_URL;
+function renderCatalogue(projects: Project[], container: HTMLElement): void {
+  const published = filterProjects(projects);
+  if (!published.length) {
+    container.innerHTML = '<p class="catalogue-message" role="status">No tools are listed yet.</p>';
+    return;
+  }
+  container.innerHTML = `
+    <form class="catalogue-controls" role="search" aria-label="Find a tool">
+      <div class="search-row">
+        <div class="search-field">
+          <label for="tool-search">Find a tool</label>
+          <input id="tool-search" type="search" placeholder="Try traces, calendars, or logs" autocomplete="off" aria-controls="groups" />
+        </div>
+        <button class="clear-filters" type="reset">Clear filters</button>
+      </div>
+      <div class="audiences" role="group" aria-label="Filter by audience">
+        <button type="button" data-group="" aria-pressed="true">All tools <span>${published.length}</span></button>
+        ${groupNames(published)
+          .map(
+            (group) =>
+              `<button type="button" data-group="${esc(group)}" aria-pressed="false">${esc(group)} <span>${published.filter((p) => p.group === group).length}</span></button>`,
+          )
+          .join("")}
+      </div>
+    </form>
+    <p class="result-count" role="status" aria-live="polite" aria-atomic="true"></p>
+    <div id="groups">${renderGroups(published)}</div>
+    <div class="empty-results" hidden>
+      <h2>No matching tools</h2>
+      <p>Try a different search or audience.</p>
+      <button type="button" class="clear-filters" id="show-all">Show all tools</button>
+    </div>
+  `;
+  const search = container.querySelector<HTMLInputElement>("#tool-search")!;
+  const form = container.querySelector("form")!;
+  const buttons = [...container.querySelectorAll<HTMLButtonElement>("[data-group]")];
+  const cards = [...container.querySelectorAll<HTMLElement>("[data-project]")];
+  const sections = [...container.querySelectorAll<HTMLElement>(".group")];
+  const count = container.querySelector<HTMLElement>(".result-count")!;
+  const empty = container.querySelector<HTMLElement>(".empty-results")!;
+  let audience = "";
 
+  const update = (): void => {
+    const matching = new Set(filterProjects(published, search.value, audience).map((p) => p.name));
+    // Keep the controls and cards mounted so typing never steals focus or reloads images.
+    for (const card of cards) card.hidden = !matching.has(card.dataset.project!);
+    for (const section of sections) section.hidden = !section.querySelector(".card:not([hidden])");
+    for (const button of buttons) {
+      button.setAttribute("aria-pressed", String(button.dataset.group === audience));
+    }
+    count.textContent = `Showing ${matching.size} of ${published.length} tools`;
+    empty.hidden = matching.size !== 0;
+  };
+  const reset = (): void => {
+    search.value = "";
+    audience = "";
+    update();
+    search.focus();
+  };
+  form.addEventListener("submit", (event) => event.preventDefault());
+  form.addEventListener("reset", (event) => {
+    event.preventDefault();
+    reset();
+  });
+  search.addEventListener("input", update);
+  for (const button of buttons) {
+    button.addEventListener("click", () => {
+      audience = button.dataset.group!;
+      update();
+    });
+  }
+  container.querySelector("#show-all")!.addEventListener("click", reset);
+  update();
+}
+
+async function loadCatalogue(container: HTMLElement, restoreFocus = false): Promise<void> {
+  container.setAttribute("aria-busy", "true");
+  container.innerHTML = '<p class="catalogue-message" role="status">Loading tools&hellip;</p>';
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}projects.json`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    renderCatalogue(parseCatalogue(await res.json()), container);
+    if (restoreFocus) container.querySelector<HTMLInputElement>("#tool-search")?.focus();
+  } catch {
+    container.innerHTML = `
+      <div class="catalogue-message">
+        <p role="alert">The tool list couldn't be loaded. Try again, or browse <a href="https://github.com/antonsoo">GitHub</a> directly.</p>
+        <button class="clear-filters" id="retry" type="button">Try again</button>
+      </div>`;
+    container.querySelector("#retry")!.addEventListener("click", () => void loadCatalogue(container, true));
+    if (restoreFocus) container.querySelector<HTMLButtonElement>("#retry")!.focus();
+  } finally {
+    container.setAttribute("aria-busy", "false");
+  }
+}
+
+async function main(): Promise<void> {
   app.innerHTML = `
-    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
-      ${currentTheme() === "dark" ? "☀️ Light" : "☽ Dark"}
+    <a class="skip-link" href="#catalogue">Skip to tools</a>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to ${currentTheme() === "dark" ? "light" : "dark"} theme">
+      ${currentTheme() === "dark" ? "☀ Light" : "☽ Dark"}
     </button>
     <header class="masthead">
       <div class="wrap">
@@ -114,9 +201,7 @@ async function main(): Promise<void> {
         </p>
       </div>
     </header>
-    <main class="wrap" id="groups">
-      <p class="intro" style="text-align:center">Loading&hellip;</p>
-    </main>
+    <main class="wrap" id="catalogue" tabindex="-1"></main>
     <footer>
       <div class="wrap">MIT-licensed. Source for this page: <a href="https://github.com/antonsoo/officina">github.com/antonsoo/officina</a></div>
     </footer>
@@ -124,17 +209,7 @@ async function main(): Promise<void> {
 
   document.getElementById("theme-toggle")!.addEventListener("click", toggleTheme);
 
-  const groupsEl = document.getElementById("groups")!;
-  try {
-    const res = await fetch(`${base}projects.json`);
-    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-    const projects = (await res.json()) as Project[];
-    groupsEl.innerHTML = renderGroups(projects);
-  } catch (err) {
-    groupsEl.innerHTML = `<p class="intro" style="text-align:center">Couldn't load the project list (${esc(
-      String(err instanceof Error ? err.message : err),
-    )}). Try <a href="https://github.com/antonsoo">github.com/antonsoo</a> directly.</p>`;
-  }
+  await loadCatalogue(document.getElementById("catalogue")!);
 }
 
 void main();

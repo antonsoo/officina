@@ -9,6 +9,10 @@ A single static page that lists every published tool in one place - built
 so there is one link to share on Upwork or with a client instead of a
 dozen. Officina is Latin for workshop.
 
+Search by name, task, or package registry, and narrow the list by audience.
+Search stays in the page: it makes no requests and is not saved in the URL
+or browser storage. Clear filters returns to the full catalogue.
+
 ![The officina index page, showing the header and the Ancient world section](docs/assets/hero.png)
 
 ## Live demo
@@ -25,14 +29,19 @@ so a project can be added to the data ahead of its public launch and
 switched on later by flipping one field. Adding a project is one JSON
 entry and one image - no other file changes.
 
+The build checks the catalogue's fields, links, duplicate names, and thumbnail
+files. The browser validates the fetched data too; a failed load offers a
+retry and a link to the GitHub profile.
+
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
 --height 750 --scale 1`) or a cover-fit crop of a CLI-only project's own
 README hero image, compressed to stay under about 200 KB each.
 
 The page itself is a single TypeScript module (`src/main.ts`) that fetches
-the JSON, groups by audience, and renders the cards - no framework, no
-router, no build-time templating.
+the JSON, groups by audience, and renders the cards. Catalogue validation
+and filtering live in `src/catalogue.ts` - no framework, no router,
+no build-time templating.
 
 ## Quickstart
 
@@ -44,12 +53,22 @@ npm run dev
 
 ## Development
 
+Use Node.js 24 or later.
+
 ```bash
 npm ci
 npm run typecheck
 npm run lint
+npm run format:check
+npm test
 npm run build      # -> dist/, base '/officina/'
+npx playwright install chromium firefox   # once per machine
+npm run test:browser
 ```
+
+The browser tests exercise the production build in Chromium and Firefox,
+including search, keyboard focus, load recovery, light/dark mobile layouts,
+accessibility checks, and Content-Security-Policy violations.
 
 ## Design
 
