@@ -17,9 +17,8 @@ All notable changes to this project are documented in this file.
   `public/projects.json`.
 - A card states what its tool found on real, public data, in one sentence that
   links to the study: an optional `study` entry (`finding`, at most 160
-  characters, and `url`). Five tools have one: errorbars (SWE-bench Verified),
-  trainspotter (training logs on the Hugging Face Hub), mcplint (a public MCP
-  registry), flakemap and logdelta (Kubernetes' CI). Findings are searchable.
+  characters, and `url`). Fifteen tools have one, each from a study in the
+  tool's own repository. Findings are searchable.
 
 ### Changed
 

@@ -28,7 +28,11 @@
     "repoUrl": "https://github.com/antonsoo/planisphere",
     "demoUrl": "https://antonsoo.github.io/planisphere/",
     "thumbnail": "thumbs/planisphere.webp",
-    "status": "published"
+    "status": "published",
+    "study": {
+      "finding": "Four historical star catalogues, 4,201 positions: computed places match the editors' reduction to 0.04 arcmin, and Ptolemy's stars show stellar motion.",
+      "url": "https://github.com/antonsoo/planisphere/tree/main/studies/historical-catalogues"
+    }
   },
   {
     "name": "tonemirror",
@@ -37,7 +41,11 @@
     "repoUrl": "https://github.com/antonsoo/tonemirror",
     "demoUrl": "https://antonsoo.github.io/tonemirror/",
     "thumbnail": "thumbs/tonemirror.webp",
-    "status": "published"
+    "status": "published",
+    "study": {
+      "finding": "Pitch tracking against a laryngograph, 20 speakers: 2% gross error as drawn, level with Praat and behind pYIN. The synthetic tests had said 0%.",
+      "url": "https://github.com/antonsoo/tonemirror/tree/main/studies/real-voice"
+    }
   },
   {
     "name": "errorbars",
@@ -53,7 +61,7 @@
       "url": "https://pypi.org/project/errorbars/"
     },
     "study": {
-      "finding": "SWE-bench Verified, 173 submissions: the leader cannot be told from ranks 2 to 9; a gap under 3 points was significant once in 874 pairs.",
+      "finding": "SWE-bench Verified, 78 submissions at 60% or more: two tie at 79.2% and are level with ranks 3 to 9; 1 of 874 gaps under 3 points was significant.",
       "url": "https://github.com/antonsoo/errorbars/tree/main/studies/swe-bench-verified"
     }
   },
@@ -68,6 +76,10 @@
     "package": {
       "registry": "npm",
       "url": "https://www.npmjs.com/package/@antonsoloviev/contextscope"
+    },
+    "study": {
+      "finding": "12,760 real agent requests against provider usage: the Claude token estimate was 15 to 25% low; cache-read predictions now agree with Anthropic on 96 to 100%.",
+      "url": "https://github.com/antonsoo/contextscope/tree/main/studies/real-trajectories"
     }
   },
   {
@@ -81,6 +93,10 @@
     "package": {
       "registry": "PyPI",
       "url": "https://pypi.org/project/fieldproof/"
+    },
+    "study": {
+      "finding": "1,052 real receipts: 0.2.7 verified 78% of names with one letter changed and 42% of totals a cent off. Now neither, and OCR-repaired names go to review.",
+      "url": "https://github.com/antonsoo/fieldproof/tree/main/studies/cord-grounding"
     }
   },
   {
@@ -96,7 +112,7 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/mcplint"
     },
     "study": {
-      "finding": "11,545 tool definitions from 418 public MCP servers: one server in ten costs over 16,000 tokens before the first message.",
+      "finding": "418 registry MCP servers: 6.7% put over 16,000 tokens of tool definitions in the prompt. On 886 unseen servers the attack rules raise 5 errors, none an attack.",
       "url": "https://github.com/antonsoo/mcplint/tree/main/studies/registry-census"
     }
   },
@@ -112,6 +128,10 @@
     "package": {
       "registry": "PyPI",
       "url": "https://pypi.org/project/veil-pii/"
+    },
+    "study": {
+      "finding": "32,741 real phone numbers written with a +: 0.4.4 masked 60%, 9% in France; now 99.6%. False maskings in logs and code: 11 per 1,000 words, now 0.1.",
+      "url": "https://github.com/antonsoo/veil/tree/main/studies/real-text"
     }
   },
   {
@@ -125,6 +145,10 @@
     "package": {
       "registry": "npm",
       "url": "https://www.npmjs.com/package/@antonsoloviev/tracelens"
+    },
+    "study": {
+      "finding": "1,442 model calls from 21 instrumentation libraries: 0.3.3 showed cache-read tokens in 49 of 86, reasoning tokens in 21 of 280, tool calls in 171 of 291.",
+      "url": "https://github.com/antonsoo/tracelens/tree/main/studies/instrumentation-census"
     }
   },
   {
@@ -141,7 +165,7 @@
       "url": "https://pypi.org/project/trainspotter/"
     },
     "study": {
-      "finding": "3,145 public training logs from the Hugging Face Hub: the released version raised an error on 21% of the runs that ended well. Now none.",
+      "finding": "537 held-out public training runs that ended well: 0.2.6 warned on 73%, now 6.9%. Of injected faults, lasting rises are caught and short bursts mostly missed.",
       "url": "https://github.com/antonsoo/trainspotter/tree/main/studies/hub-census"
     }
   },
@@ -156,6 +180,10 @@
     "package": {
       "registry": "npm",
       "url": "https://www.npmjs.com/package/@antonsoloviev/ghostchars"
+    },
+    "study": {
+      "finding": "83,494 public prompts and agent rule files: 3 carry hidden Unicode payloads, all in one jailbreak repository, and half of 0.1.5's findings hid nothing.",
+      "url": "https://github.com/antonsoo/ghostchars/tree/main/studies/prompt-census"
     }
   },
   {
@@ -171,7 +199,7 @@
       "url": "https://crates.io/crates/logdelta"
     },
     "study": {
-      "finding": "264 failed Kubernetes builds against passing ones of the same commit: the failed test is named every time, in a median of 4 findings.",
+      "finding": "264 failed Kubernetes builds diffed against passing ones: the failing assertion is in the report in 159 of 239, in 34 lines. A raw diff takes 1,275.",
       "url": "https://github.com/antonsoo/logdelta/tree/main/studies/kubernetes-ci"
     }
   },
@@ -189,7 +217,7 @@
       "url": "https://pypi.org/project/flakemap/"
     },
     "study": {
-      "finding": "4,334 Kubernetes CI builds: of 314 failures on a commit built more than once, 310 passed the other time. Flakes come and go.",
+      "finding": "4,334 Kubernetes CI builds: 310 of 314 rechecked package failures passed on the same commit, and 10 of the 16 most frequent flakes had stopped weeks before.",
       "url": "https://github.com/antonsoo/flakemap/tree/main/studies/kubernetes-ci"
     }
   },
@@ -204,6 +232,10 @@
     "package": {
       "registry": "npm",
       "url": "https://www.npmjs.com/package/@antonsoloviev/stutterscope"
+    },
+    "study": {
+      "finding": "8 public captures: four tools' percentile \"1% low\" agree to 0.13%, while mean-of-slowest and time-weighted lows sit 17% and 10% lower at the median.",
+      "url": "https://github.com/antonsoo/stutterscope/tree/main/studies/real-captures"
     }
   },
   {
@@ -213,7 +245,11 @@
     "repoUrl": "https://github.com/antonsoo/splitscope",
     "demoUrl": "https://antonsoo.github.io/splitscope/",
     "thumbnail": "thumbs/splitscope.webp",
-    "status": "published"
+    "status": "published",
+    "study": {
+      "finding": "51 real speedrun histories: the PB odds expected 484 personal bests in the next 50 attempts and 1,457 came. Low by three, yet ahead of simple baselines at 10.",
+      "url": "https://github.com/antonsoo/splitscope/tree/main/studies/pb-odds-backtest"
+    }
   },
   {
     "name": "am-i-unlucky",
@@ -222,6 +258,10 @@
     "repoUrl": "https://github.com/antonsoo/am-i-unlucky",
     "demoUrl": "https://antonsoo.github.io/am-i-unlucky/",
     "thumbnail": "thumbs/am-i-unlucky.webp",
-    "status": "published"
+    "status": "published",
+    "study": {
+      "finding": "26.9M logged Genshin five-stars: the soft-pity ramp holds to pull 83, and a 55% featured rate, not 50%, lifts one copy in 90 pulls from 59% to 64%.",
+      "url": "https://github.com/antonsoo/am-i-unlucky/tree/main/studies/paimon-pity"
+    }
   }
 ]
