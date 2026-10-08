@@ -165,7 +165,7 @@
       "url": "https://pypi.org/project/trainspotter/"
     },
     "study": {
-      "finding": "537 held-out public training runs that ended well: 0.2.6 warned on 73%, now 6.9%. Of injected faults, lasting rises are caught and short bursts mostly missed.",
+      "finding": "537 held-out public runs that ended well: 0.2.6 warned on 73%, now 6.9%. Injected rises that last are caught 99% of the time, large short bursts 92% or more.",
       "url": "https://github.com/antonsoo/trainspotter/tree/main/studies/hub-census"
     }
   },
