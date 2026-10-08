@@ -9,6 +9,8 @@ export interface Project {
   package?: { registry: "PyPI" | "npm" | "crates.io"; url: string };
   thumbnail: string;
   status: "published" | "soon";
+  /** What the tool found when it was run on real, public data: one sentence, and where the study is. */
+  study?: { finding: string; url: string };
 }
 
 /** Display order for groups - anything not listed sorts after, alphabetically. */

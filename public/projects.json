@@ -51,6 +51,10 @@
     "package": {
       "registry": "PyPI",
       "url": "https://pypi.org/project/errorbars/"
+    },
+    "study": {
+      "finding": "SWE-bench Verified, 173 submissions: the leader cannot be told from ranks 2 to 9; a gap under 3 points was significant once in 874 pairs.",
+      "url": "https://github.com/antonsoo/errorbars/tree/main/studies/swe-bench-verified"
     }
   },
   {
@@ -90,6 +94,10 @@
     "package": {
       "registry": "npm",
       "url": "https://www.npmjs.com/package/@antonsoloviev/mcplint"
+    },
+    "study": {
+      "finding": "11,545 tool definitions from 418 public MCP servers: one server in ten costs over 16,000 tokens before the first message.",
+      "url": "https://github.com/antonsoo/mcplint/tree/main/studies/registry-census"
     }
   },
   {
@@ -131,6 +139,10 @@
     "package": {
       "registry": "PyPI",
       "url": "https://pypi.org/project/trainspotter/"
+    },
+    "study": {
+      "finding": "3,145 public training logs from the Hugging Face Hub: the released version raised an error on 21% of the runs that ended well. Now none.",
+      "url": "https://github.com/antonsoo/trainspotter/tree/main/studies/hub-census"
     }
   },
   {
@@ -157,6 +169,10 @@
     "package": {
       "registry": "crates.io",
       "url": "https://crates.io/crates/logdelta"
+    },
+    "study": {
+      "finding": "264 failed Kubernetes builds against passing ones of the same commit: the failed test is named every time, in a median of 4 findings.",
+      "url": "https://github.com/antonsoo/logdelta/tree/main/studies/kubernetes-ci"
     }
   },
   {
@@ -171,6 +187,10 @@
     "package": {
       "registry": "PyPI",
       "url": "https://pypi.org/project/flakemap/"
+    },
+    "study": {
+      "finding": "4,334 Kubernetes CI builds: of 314 failures on a commit built more than once, 310 passed the other time. Flakes come and go.",
+      "url": "https://github.com/antonsoo/flakemap/tree/main/studies/kubernetes-ci"
     }
   },
   {

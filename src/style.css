@@ -437,6 +437,34 @@ main.wrap {
   flex: 1;
 }
 
+/* What the tool found on real data: set off from the description, and a link to the study. */
+.card-study {
+  margin: 0;
+  padding-left: 10px;
+  border-left: 2px solid var(--gold);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.card-study a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.card-study a:hover,
+.card-study a:focus-visible {
+  text-decoration: underline;
+}
+
+.study-label {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 10.5px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--crimson);
+}
+
 .tag {
   align-self: flex-start;
   font-family: var(--font-display);

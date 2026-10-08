@@ -15,6 +15,11 @@ All notable changes to this project are documented in this file.
 - A card links to its package once the tool is on a registry (PyPI, crates.io
   or npm), next to the demo and source links: an optional `package` entry in
   `public/projects.json`.
+- A card states what its tool found on real, public data, in one sentence that
+  links to the study: an optional `study` entry (`finding`, at most 160
+  characters, and `url`). Five tools have one: errorbars (SWE-bench Verified),
+  trainspotter (training logs on the Hugging Face Hub), mcplint (a public MCP
+  registry), flakemap and logdelta (Kubernetes' CI). Findings are searchable.
 
 ### Changed
 

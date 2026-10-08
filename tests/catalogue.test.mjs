@@ -116,3 +116,22 @@ test("search treats markup and regular expressions as literal text", () => {
   assert.deepEqual(filterProjects(catalogue, "<img src=x>"), []);
   assert.deepEqual(filterProjects(catalogue, ".*"), []);
 });
+
+test("a study is one sentence with a link, and its finding is searchable", () => {
+  const study = {
+    finding: "264 failed builds: the failed test is named every time.",
+    url: "https://example.com/study",
+  };
+  const [parsed] = parseCatalogue([{ ...entry, study }]);
+  assert.deepEqual(parsed.study, study);
+  assert.deepEqual(
+    filterProjects([parsed], "failed builds").map((p) => p.name),
+    ["trace-tool"],
+  );
+  assert.throws(
+    () => parseCatalogue([{ ...entry, study: { ...study, url: "http://example.com" } }]),
+    /HTTPS/,
+  );
+  assert.throws(() => parseCatalogue([{ ...entry, study: { ...study, finding: "x".repeat(161) } }]), /160/);
+  assert.throws(() => parseCatalogue([{ ...entry, study: "a string" }]), /object/);
+});

@@ -204,3 +204,15 @@ for (const colorScheme of ["light", "dark"]) {
     });
   }
 }
+
+test("cards with a field study state its finding and link to it", async ({ page }) => {
+  await page.goto("./");
+  const studies = page.locator(".card-study a");
+  await expect(studies).toHaveCount(5);
+  const flakemap = page.locator('[data-project="flakemap"] .card-study a');
+  await expect(flakemap).toContainText("On real data");
+  await expect(flakemap).toHaveAttribute("href", /github\.com\/antonsoo\/flakemap\/tree\/main\/studies\//);
+  // The finding is searchable like the description.
+  await search(page).fill("kubernetes builds");
+  await expect(cards(page)).toHaveCount(2);
+});

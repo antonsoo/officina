@@ -21,9 +21,11 @@ This is a personal index page, but issues and PRs are welcome.
    full-page shot and the interesting part is near the top).
 
 Project names must be unique. Links must use HTTPS without credentials;
-thumbnail paths must stay under `thumbs/`. Optional fields are `spaceUrl`
-and `package` (`registry`: `PyPI`, `npm`, or `crates.io`; `url`: the package
-page). Run `npm run check:catalogue` to validate entries and image files.
+thumbnail paths must stay under `thumbs/`. Optional fields are `spaceUrl`,
+`package` (`registry`: `PyPI`, `npm`, or `crates.io`; `url`: the package
+page) and `study` (`finding`: one sentence, at most 160 characters, saying
+what the tool found on real data, with a number in it; `url`: the study).
+Run `npm run check:catalogue` to validate entries and image files.
 
 ## Development
 

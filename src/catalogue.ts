@@ -61,6 +61,13 @@ export function parseCatalogue(value: unknown): Project[] {
       }
       project.package = { registry: pkg.registry, url: link(pkg.url, `${name}.package.url`) };
     }
+    if (entry.study !== undefined) {
+      const study = record(entry.study, `${name}.study`);
+      const finding = text(study.finding, `${name}.study.finding`);
+      // One sentence on a card, not a paragraph.
+      if (finding.length > 160) throw new Error(`${name}.study.finding must be at most 160 characters`);
+      project.study = { finding, url: link(study.url, `${name}.study.url`) };
+    }
     return project;
   });
 }
@@ -86,7 +93,13 @@ export function filterProjects(projects: readonly Project[], query = "", group =
   return projects.filter((project) => {
     if (project.status !== "published" || (group && project.group !== group)) return false;
     const haystack = searchable(
-      [project.name, project.description, project.group, project.package?.registry ?? ""].join(" "),
+      [
+        project.name,
+        project.description,
+        project.group,
+        project.package?.registry ?? "",
+        project.study?.finding ?? "",
+      ].join(" "),
     );
     return words.every((word) => haystack.includes(word));
   });

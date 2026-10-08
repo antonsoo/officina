@@ -51,6 +51,11 @@ function renderCard(p: Project): string {
         <span class="tag">${esc(p.group)}</span>
         <h3 class="card-name">${esc(p.name)}</h3>
         <p class="card-desc">${esc(p.description)}</p>
+        ${
+          p.study
+            ? `<p class="card-study"><a href="${esc(p.study.url)}"><span class="study-label">On real data</span> ${esc(p.study.finding)}</a></p>`
+            : ""
+        }
         <div class="card-links">${links.join('<span class="sep">&middot;</span>')}</div>
       </div>
     </li>
