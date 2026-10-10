@@ -24,7 +24,12 @@ Project names must be unique. Links must use HTTPS without credentials;
 thumbnail paths must stay under `thumbs/`. Optional fields are `spaceUrl`,
 `package` (`registry`: `PyPI`, `npm`, or `crates.io`; `url`: the package
 page) and `study` (`finding`: one sentence, at most 160 characters, saying
-what the tool found on real data, with a number in it; `url`: the study).
+what was measured and a material limit; `url`: the evidence at an immutable
+source revision). Link to a public commit, not a moving branch. Keep the
+population, denominator and statistic precise: a median is not a maximum,
+and a nonsignificant difference is not proof of equivalence. A digital
+artifact check must not imply physical validation. Check the underlying
+record before changing a finding; do not infer a release from a source push.
 Run `npm run check:catalogue` to validate entries and image files.
 
 ## Development

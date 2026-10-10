@@ -22,6 +22,11 @@ All notable changes to this project are documented in this file.
 
 ### Changed
 
+- All 17 cards link to recorded evidence at public, immutable source revisions.
+  Correct stale Logdelta and ToneMirror measurements, identify the statistic
+  behind Planisphere and Stutterscope figures, and remove unsupported
+  equivalence claims. Calendar and sundial cards now state their verification
+  boundaries. The page distinguishes study revisions from demos and packages.
 - The page's fonts are served by the page itself. They came from Google Fonts,
   the one request the page made to another origin; the same font files (every
   subset, as Google serves them to a current browser) are now in

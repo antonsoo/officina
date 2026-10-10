@@ -205,13 +205,13 @@ for (const colorScheme of ["light", "dark"]) {
   }
 }
 
-test("cards with a field study state its finding and link to it", async ({ page }) => {
+test("cards state their recorded evidence and link to its source revision", async ({ page }) => {
   await page.goto("./");
   const studies = page.locator(".card-study a");
-  await expect(studies).toHaveCount(5);
+  await expect(studies).toHaveCount(visible.filter((project) => project.study).length);
   const flakemap = page.locator('[data-project="flakemap"] .card-study a');
-  await expect(flakemap).toContainText("On real data");
-  await expect(flakemap).toHaveAttribute("href", /github\.com\/antonsoo\/flakemap\/tree\/main\/studies\//);
+  await expect(flakemap).toContainText("Recorded evidence");
+  await expect(flakemap).toHaveAttribute("href", /github\.com\/antonsoo\/flakemap\/tree\/[0-9a-f]{40}\/studies\//);
   // The finding is searchable like the description.
   await search(page).fill("kubernetes builds");
   await expect(cards(page)).toHaveCount(2);

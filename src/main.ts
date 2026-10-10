@@ -53,7 +53,7 @@ function renderCard(p: Project): string {
         <p class="card-desc">${esc(p.description)}</p>
         ${
           p.study
-            ? `<p class="card-study"><a href="${esc(p.study.url)}"><span class="study-label">On real data</span> ${esc(p.study.finding)}</a></p>`
+            ? `<p class="card-study"><a href="${esc(p.study.url)}"><span class="study-label">Recorded evidence</span> ${esc(p.study.finding)}</a></p>`
             : ""
         }
         <div class="card-links">${links.join('<span class="sep">&middot;</span>')}</div>
@@ -112,6 +112,7 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
           .join("")}
       </div>
     </form>
+    <p class="evidence-note">Evidence links open the recorded source revision. Demos and registry packages may use a different version.</p>
     <p class="result-count" role="status" aria-live="polite" aria-atomic="true"></p>
     <div id="groups">${renderGroups(published)}</div>
     <div class="empty-results" hidden>
