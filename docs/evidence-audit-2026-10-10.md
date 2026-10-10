@@ -35,6 +35,14 @@ dates, measurements and limitations. A future study update requires updating
 both the finding and its revision link. The page explains that demos and
 registry packages may have a different version.
 
+The later Splitscope link refresh points to `0e2a6b8`, where its own study and
+app assumptions now distinguish the binary PB event from overlapping threshold
+counts. That source file was fetched again and matched byte for byte; the
+manifest records its separate recheck time. The finding and visible catalogue
+layout did not change. Catalogue validation, 32 data checks and the production
+build passed after this link update. See the [source update index](source-updates-2026-10-10.md)
+for the corresponding work across repositories.
+
 ## Production verification
 
 A fresh archive of `3db59d2` passed `npm ci`, lint, strict types, formatting,

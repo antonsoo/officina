@@ -155,12 +155,13 @@
     {
       "project": "splitscope",
       "finding": "51 speedrun histories: at 50 attempts, the mean PB forecast was 14.3% and observed frequency 30.9%; only nine runners supplied forecasts.",
-      "evidence_url": "https://github.com/antonsoo/splitscope/tree/f017c100d6df4e60f87c0a48f09f5a5b8fa3623d/studies/pb-odds-backtest",
+      "evidence_url": "https://github.com/antonsoo/splitscope/tree/0e2a6b80e7e8abdb75f76c73489a05426eedb128/studies/pb-odds-backtest",
       "source_file": "studies/pb-odds-backtest/README.md",
-      "source_revision": "f017c100d6df4e60f87c0a48f09f5a5b8fa3623d",
+      "source_revision": "0e2a6b80e7e8abdb75f76c73489a05426eedb128",
       "http_status": 200,
-      "bytes": 10821,
-      "sha256": "a6a5e9a8d06950555dcade2fd02169114249247ed7702b75162505f499ee7e7b"
+      "bytes": 12806,
+      "sha256": "81385b7ec8617bb674224877fad65e41e43cca76465be679d8780e7400de70ee",
+      "rechecked_at": "2026-10-10T10:11:54.561991+00:00"
     },
     {
       "project": "am-i-unlucky",

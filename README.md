@@ -38,6 +38,8 @@ at an immutable source revision. Findings name the measured population or
 conditions and a material limit. They describe that record, not necessarily
 the linked demo or registry release. They are searchable alongside the
 description. See the [2026-10-10 evidence audit](docs/evidence-audit-2026-10-10.md).
+The [source update index](docs/source-updates-2026-10-10.md) links to the
+corresponding fixes, reproductions and artifact checks across the repositories.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200

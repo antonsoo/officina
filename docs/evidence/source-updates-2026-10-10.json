@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-10T10:13:04.150711+00:00",
+  "scope": "Source revisions and clean local trees, with actual origin/main heads checked; not registry or hosted version claims.",
+  "repositories": [
+    {
+      "repository": "errorbars",
+      "sourceRevision": "cdc24d7924e278da497449fee63a9aa089890d33",
+      "evidence": "https://github.com/antonsoo/errorbars/blob/cdc24d7924e278da497449fee63a9aa089890d33/studies/lm-eval-evidence/README.md",
+      "work": "New fix",
+      "localTreeClean": true
+    },
+    {
+      "repository": "mcplint",
+      "sourceRevision": "38f936699d70848cadd270d87da812a4037fddd9",
+      "evidence": "https://github.com/antonsoo/mcplint/blob/38f936699d70848cadd270d87da812a4037fddd9/studies/connection-deadlines/README.md",
+      "work": "New fix",
+      "localTreeClean": true
+    },
+    {
+      "repository": "am-i-unlucky",
+      "sourceRevision": "97455f92eb3aedf0467e710f03c87d6c52ac9082",
+      "evidence": "https://github.com/antonsoo/am-i-unlucky/blob/97455f92eb3aedf0467e710f03c87d6c52ac9082/studies/pity-tails/README.md",
+      "work": "New fix",
+      "localTreeClean": true
+    },
+    {
+      "repository": "stutterscope",
+      "sourceRevision": "124f67eebfe9662a2fc1c609f754fb5c04700979",
+      "evidence": "https://github.com/antonsoo/stutterscope/blob/124f67eebfe9662a2fc1c609f754fb5c04700979/studies/csv-integrity/README.md",
+      "work": "New fix",
+      "localTreeClean": true
+    },
+    {
+      "repository": "ghostchars",
+      "sourceRevision": "a9d54cf9a283b0a43b1b6f9b1dba02a7576c84ae",
+      "evidence": "https://github.com/antonsoo/ghostchars/blob/a9d54cf9a283b0a43b1b6f9b1dba02a7576c84ae/studies/discovery-evidence/README.md",
+      "work": "New fix",
+      "localTreeClean": true
+    },
+    {
+      "repository": "veil",
+      "sourceRevision": "4a404a632f94892aef6af0e39d5985fe99d4a984",
+      "evidence": "https://github.com/antonsoo/veil/blob/4a404a632f94892aef6af0e39d5985fe99d4a984/studies/surrogate-collisions/README.md",
+      "work": "New fix",
+      "localTreeClean": true
+    },
+    {
+      "repository": "tonemirror",
+      "sourceRevision": "43a1dc72bc7ecc6a7c467d5a4b7a5d99d11f315e",
+      "evidence": "https://github.com/antonsoo/tonemirror/blob/43a1dc72bc7ecc6a7c467d5a4b7a5d99d11f315e/docs/verification-2026-10-10.md",
+      "work": "New fix and remeasurement",
+      "localTreeClean": true
+    },
+    {
+      "repository": "splitscope",
+      "sourceRevision": "0062a149613ec07264ee6abd81064511a2372f29",
+      "evidence": "https://github.com/antonsoo/splitscope/blob/0062a149613ec07264ee6abd81064511a2372f29/docs/large-histories.md",
+      "work": "New fix",
+      "localTreeClean": true,
+      "recheckedAt": "2026-10-10T10:14:15.222110+00:00"
+    },
+    {
+      "repository": "flakemap",
+      "sourceRevision": "8542d333521e210c98681b73e67df412dfb7ebf4",
+      "evidence": "https://github.com/antonsoo/flakemap/blob/8542d333521e210c98681b73e67df412dfb7ebf4/docs/verification-2026-10-10.md",
+      "work": "Fresh verification and source publication",
+      "localTreeClean": true
+    },
+    {
+      "repository": "gnomon",
+      "sourceRevision": "4bdf1ebee39f832bcc579aeb11b55a0f77663da9",
+      "evidence": "https://github.com/antonsoo/gnomon/blob/4bdf1ebee39f832bcc579aeb11b55a0f77663da9/docs/verification-2026-10-10.md",
+      "work": "Fresh verification and source publication",
+      "localTreeClean": true
+    },
+    {
+      "repository": "planisphere",
+      "sourceRevision": "efa33746b52f0d77b98af29604fe18f06a1082b0",
+      "evidence": "https://github.com/antonsoo/planisphere/blob/efa33746b52f0d77b98af29604fe18f06a1082b0/docs/verification-2026-10-10.md",
+      "work": "Fresh verification and source publication",
+      "localTreeClean": true
+    },
+    {
+      "repository": "horologium",
+      "sourceRevision": "43fd938bb2e1bbd9ed8965da44984e631505d2be",
+      "evidence": "https://github.com/antonsoo/horologium/blob/43fd938bb2e1bbd9ed8965da44984e631505d2be/docs/verification-2026-10-10.md",
+      "work": "Fresh verification and source publication",
+      "localTreeClean": true
+    }
+  ]
+}

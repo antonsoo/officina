@@ -256,7 +256,7 @@
     "status": "published",
     "study": {
       "finding": "51 speedrun histories: at 50 attempts, the mean PB forecast was 14.3% and observed frequency 30.9%; only nine runners supplied forecasts.",
-      "url": "https://github.com/antonsoo/splitscope/tree/f017c100d6df4e60f87c0a48f09f5a5b8fa3623d/studies/pb-odds-backtest"
+      "url": "https://github.com/antonsoo/splitscope/tree/0e2a6b80e7e8abdb75f76c73489a05426eedb128/studies/pb-odds-backtest"
     }
   },
   {
