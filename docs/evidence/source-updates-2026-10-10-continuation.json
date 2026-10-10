@@ -1,0 +1,98 @@
+{
+  "checkedAt": "2026-10-10T20:17:36.304098+00:00",
+  "scope": "Five clean local source heads matched origin/main; six pinned public evidence documents matched local bytes. This snapshot makes no registry package, tag, hosted demo, or remote CI claim.",
+  "repositories": [
+    {
+      "repository": "errorbars",
+      "sourceRevision": "c6826fe55edf60916bb3954ef6f6756280589ccb",
+      "remoteMain": "c6826fe55edf60916bb3954ef6f6756280589ccb",
+      "localTreeClean": true,
+      "work": "New scoring-provenance fix",
+      "checkedAt": "2026-10-10T20:17:36.138992+00:00",
+      "evidence": [
+        {
+          "path": "docs/verification-scoring-2026-10-10.md",
+          "url": "https://github.com/antonsoo/errorbars/blob/c6826fe55edf60916bb3954ef6f6756280589ccb/docs/verification-scoring-2026-10-10.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/errorbars/c6826fe55edf60916bb3954ef6f6756280589ccb/docs/verification-scoring-2026-10-10.md",
+          "sha256": "34c31666af337ddbb6c1ff2c9a6253a9afb4763d4959a035a25d7d0156f5a4d1",
+          "bytes": 5337
+        }
+      ]
+    },
+    {
+      "repository": "contextscope",
+      "sourceRevision": "227d6d81b81d7919ea49deae900d0f9f6dd60725",
+      "remoteMain": "227d6d81b81d7919ea49deae900d0f9f6dd60725",
+      "localTreeClean": true,
+      "work": "New cache-settings fix",
+      "checkedAt": "2026-10-10T20:17:36.215383+00:00",
+      "evidence": [
+        {
+          "path": "docs/verification-cache-settings-2026-10-10.md",
+          "url": "https://github.com/antonsoo/contextscope/blob/227d6d81b81d7919ea49deae900d0f9f6dd60725/docs/verification-cache-settings-2026-10-10.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/contextscope/227d6d81b81d7919ea49deae900d0f9f6dd60725/docs/verification-cache-settings-2026-10-10.md",
+          "sha256": "8b1156011e6477c59cda77602f7e3a5e1f53419ea2ebe5893fff160d75649b72",
+          "bytes": 5210
+        }
+      ]
+    },
+    {
+      "repository": "stutterscope",
+      "sourceRevision": "b1c33fd913938dc6c53d6b3ae9310da9e3e23855",
+      "remoteMain": "b1c33fd913938dc6c53d6b3ae9310da9e3e23855",
+      "localTreeClean": true,
+      "work": "New timestamp-adjacency fix",
+      "checkedAt": "2026-10-10T20:17:36.164890+00:00",
+      "evidence": [
+        {
+          "path": "studies/timestamp-gaps/README.md",
+          "url": "https://github.com/antonsoo/stutterscope/blob/b1c33fd913938dc6c53d6b3ae9310da9e3e23855/studies/timestamp-gaps/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/stutterscope/b1c33fd913938dc6c53d6b3ae9310da9e3e23855/studies/timestamp-gaps/README.md",
+          "sha256": "d66a5dfcaf82177189fde652682a3c5bb7601a144023a8283b74f801153b5475",
+          "bytes": 3654
+        }
+      ]
+    },
+    {
+      "repository": "mcplint",
+      "sourceRevision": "ff233d8973fd5522b8f910c6f754f813be01c3f5",
+      "remoteMain": "ff233d8973fd5522b8f910c6f754f813be01c3f5",
+      "localTreeClean": true,
+      "work": "Two new metadata-audit fixes",
+      "checkedAt": "2026-10-10T20:17:36.244415+00:00",
+      "evidence": [
+        {
+          "path": "studies/required-properties/README.md",
+          "url": "https://github.com/antonsoo/mcplint/blob/ff233d8973fd5522b8f910c6f754f813be01c3f5/studies/required-properties/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/mcplint/ff233d8973fd5522b8f910c6f754f813be01c3f5/studies/required-properties/README.md",
+          "sha256": "421ff974d777eec83e4a47a88bb01db9cb5baaf41c9ddcef61a749dce7554cb0",
+          "bytes": 4704
+        },
+        {
+          "path": "studies/resource-identity/README.md",
+          "url": "https://github.com/antonsoo/mcplint/blob/ff233d8973fd5522b8f910c6f754f813be01c3f5/studies/resource-identity/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/mcplint/ff233d8973fd5522b8f910c6f754f813be01c3f5/studies/resource-identity/README.md",
+          "sha256": "eaa9eaf8766fd7dd882fd238e62a76834f14752b54553c03ae91e07f9aeb08bd",
+          "bytes": 4686
+        }
+      ]
+    },
+    {
+      "repository": "flakemap",
+      "sourceRevision": "a423cadc5fc134de9c64fd341fac931e1c88ff47",
+      "remoteMain": "a423cadc5fc134de9c64fd341fac931e1c88ff47",
+      "localTreeClean": true,
+      "work": "Fresh verification and publication of existing counter-reconciliation commits",
+      "checkedAt": "2026-10-10T20:17:36.303537+00:00",
+      "evidence": [
+        {
+          "path": "docs/verification-summary-counters-2026-10-10.md",
+          "url": "https://github.com/antonsoo/flakemap/blob/a423cadc5fc134de9c64fd341fac931e1c88ff47/docs/verification-summary-counters-2026-10-10.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/flakemap/a423cadc5fc134de9c64fd341fac931e1c88ff47/docs/verification-summary-counters-2026-10-10.md",
+          "sha256": "ec280eaf385b4ad8511b2988b779603da3115c2943967b2f4b5522b7ae3d9c02",
+          "bytes": 10103
+        }
+      ]
+    }
+  ]
+}

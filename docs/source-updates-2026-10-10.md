@@ -41,3 +41,7 @@ Splitscope subsequently corrected a misleading historical forecast summary:
 14.3% mean probability versus a PB in 30.9% of evaluated windows. Its old
 484/1,457 count refers to finishes below frozen earlier PBs in overlapping windows,
 not distinct records. The catalogue now links to the corrected study revision.
+
+A [later continuation](source-updates-2026-10-10-continuation.md) records newer
+Errorbars, Mcplint, Stutterscope and Flakemap source revisions, plus Contextscope,
+with separate public-byte verification. This original receipt remains historical.

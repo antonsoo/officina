@@ -40,6 +40,9 @@ the linked demo or registry release. They are searchable alongside the
 description. See the [2026-10-10 evidence audit](docs/evidence-audit-2026-10-10.md).
 The [source update index](docs/source-updates-2026-10-10.md) links to the
 corresponding fixes, reproductions and artifact checks across the repositories.
+The [later source batch](docs/source-updates-2026-10-10-continuation.md) adds
+grading provenance, cache-setting boundaries, timestamp gaps, MCP metadata
+integrity, and freshly verified test-counter reconciliation.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
