@@ -1,55 +1,83 @@
 {
-  "checkedAt": "2026-10-10T10:13:04.150711+00:00",
-  "scope": "Source revisions and clean local trees, with actual origin/main heads checked; not registry or hosted version claims.",
+  "checkedAt": "2026-10-10T11:08:11.665921+00:00",
+  "scope": "Source revisions and clean local trees, with actual origin/main heads checked and pinned public evidence bytes compared with each checkout; not registry or hosted version claims.",
   "repositories": [
     {
       "repository": "errorbars",
       "sourceRevision": "cdc24d7924e278da497449fee63a9aa089890d33",
       "evidence": "https://github.com/antonsoo/errorbars/blob/cdc24d7924e278da497449fee63a9aa089890d33/studies/lm-eval-evidence/README.md",
       "work": "New fix",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "cdc24d7924e278da497449fee63a9aa089890d33",
+      "checkedAt": "2026-10-10T11:05:50.504859+00:00",
+      "evidenceSha256": "4f8723a2b1d7cd6799fff84772081ae56a8ccdb139eefdfdf059a487ae1a4ac2",
+      "evidenceBytes": 6734
     },
     {
       "repository": "mcplint",
       "sourceRevision": "38f936699d70848cadd270d87da812a4037fddd9",
       "evidence": "https://github.com/antonsoo/mcplint/blob/38f936699d70848cadd270d87da812a4037fddd9/studies/connection-deadlines/README.md",
       "work": "New fix",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "38f936699d70848cadd270d87da812a4037fddd9",
+      "checkedAt": "2026-10-10T11:05:50.529521+00:00",
+      "evidenceSha256": "eac674c110e370f619966657cbb353322ac823377f5b06c5ef2225a52a9b26d7",
+      "evidenceBytes": 7073
     },
     {
       "repository": "am-i-unlucky",
       "sourceRevision": "97455f92eb3aedf0467e710f03c87d6c52ac9082",
       "evidence": "https://github.com/antonsoo/am-i-unlucky/blob/97455f92eb3aedf0467e710f03c87d6c52ac9082/studies/pity-tails/README.md",
       "work": "New fix",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "97455f92eb3aedf0467e710f03c87d6c52ac9082",
+      "checkedAt": "2026-10-10T11:05:50.517953+00:00",
+      "evidenceSha256": "7ac3590215d2fa606caab1c5afcbc0beb6dbf0fd47ef1e6fb9e034f8506bf8a0",
+      "evidenceBytes": 7776
     },
     {
       "repository": "stutterscope",
       "sourceRevision": "124f67eebfe9662a2fc1c609f754fb5c04700979",
       "evidence": "https://github.com/antonsoo/stutterscope/blob/124f67eebfe9662a2fc1c609f754fb5c04700979/studies/csv-integrity/README.md",
       "work": "New fix",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "124f67eebfe9662a2fc1c609f754fb5c04700979",
+      "checkedAt": "2026-10-10T11:05:50.515809+00:00",
+      "evidenceSha256": "f764276b8aaa0e82150cc47f478146b0d45b40d28b74e785728d455131ea33dd",
+      "evidenceBytes": 7251
     },
     {
       "repository": "ghostchars",
       "sourceRevision": "a9d54cf9a283b0a43b1b6f9b1dba02a7576c84ae",
       "evidence": "https://github.com/antonsoo/ghostchars/blob/a9d54cf9a283b0a43b1b6f9b1dba02a7576c84ae/studies/discovery-evidence/README.md",
       "work": "New fix",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "a9d54cf9a283b0a43b1b6f9b1dba02a7576c84ae",
+      "checkedAt": "2026-10-10T11:05:51.662811+00:00",
+      "evidenceSha256": "0860ed01a8319a934c93007efc1e945349f38ddf95236e8fa8c887f6a2ad244e",
+      "evidenceBytes": 6788
     },
     {
       "repository": "veil",
       "sourceRevision": "4a404a632f94892aef6af0e39d5985fe99d4a984",
       "evidence": "https://github.com/antonsoo/veil/blob/4a404a632f94892aef6af0e39d5985fe99d4a984/studies/surrogate-collisions/README.md",
       "work": "New fix",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "4a404a632f94892aef6af0e39d5985fe99d4a984",
+      "checkedAt": "2026-10-10T11:05:51.864285+00:00",
+      "evidenceSha256": "c570dee74188b4c3974dc527750b0ad1a83a2aabfaabdb686fcbd17d1507dd5b",
+      "evidenceBytes": 7656
     },
     {
       "repository": "tonemirror",
       "sourceRevision": "43a1dc72bc7ecc6a7c467d5a4b7a5d99d11f315e",
       "evidence": "https://github.com/antonsoo/tonemirror/blob/43a1dc72bc7ecc6a7c467d5a4b7a5d99d11f315e/docs/verification-2026-10-10.md",
       "work": "New fix and remeasurement",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "43a1dc72bc7ecc6a7c467d5a4b7a5d99d11f315e",
+      "checkedAt": "2026-10-10T11:05:51.691863+00:00",
+      "evidenceSha256": "43fc42dd6413dd9292216e70ae749069b00eabac8bf579964f4016c33d359408",
+      "evidenceBytes": 3640
     },
     {
       "repository": "splitscope",
@@ -57,35 +85,87 @@
       "evidence": "https://github.com/antonsoo/splitscope/blob/0062a149613ec07264ee6abd81064511a2372f29/docs/large-histories.md",
       "work": "New fix",
       "localTreeClean": true,
-      "recheckedAt": "2026-10-10T10:14:15.222110+00:00"
+      "remoteMain": "0062a149613ec07264ee6abd81064511a2372f29",
+      "checkedAt": "2026-10-10T11:05:51.693996+00:00",
+      "evidenceSha256": "89342d143bc9c7d8905e3124115de726437360b97f5ed7f91c6a82d898d4a8c7",
+      "evidenceBytes": 8701
     },
     {
       "repository": "flakemap",
       "sourceRevision": "8542d333521e210c98681b73e67df412dfb7ebf4",
       "evidence": "https://github.com/antonsoo/flakemap/blob/8542d333521e210c98681b73e67df412dfb7ebf4/docs/verification-2026-10-10.md",
       "work": "Fresh verification and source publication",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "8542d333521e210c98681b73e67df412dfb7ebf4",
+      "checkedAt": "2026-10-10T11:05:52.858170+00:00",
+      "evidenceSha256": "cdda13104229b3fe13c24a33335e1d4fa8baafe3ae00faed9eec354a92132097",
+      "evidenceBytes": 2510
     },
     {
       "repository": "gnomon",
       "sourceRevision": "4bdf1ebee39f832bcc579aeb11b55a0f77663da9",
       "evidence": "https://github.com/antonsoo/gnomon/blob/4bdf1ebee39f832bcc579aeb11b55a0f77663da9/docs/verification-2026-10-10.md",
       "work": "Fresh verification and source publication",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "4bdf1ebee39f832bcc579aeb11b55a0f77663da9",
+      "checkedAt": "2026-10-10T11:05:52.838209+00:00",
+      "evidenceSha256": "9b07d473794150c47e90ee7036a1fa37e28536205eef1fb2600f00c1e447b35c",
+      "evidenceBytes": 2144
     },
     {
       "repository": "planisphere",
       "sourceRevision": "efa33746b52f0d77b98af29604fe18f06a1082b0",
       "evidence": "https://github.com/antonsoo/planisphere/blob/efa33746b52f0d77b98af29604fe18f06a1082b0/docs/verification-2026-10-10.md",
       "work": "Fresh verification and source publication",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "efa33746b52f0d77b98af29604fe18f06a1082b0",
+      "checkedAt": "2026-10-10T11:05:52.838642+00:00",
+      "evidenceSha256": "5d9000bc3e40c825a7d0952e57d3d6fdf065d64cc1c191294ffa87deab7a9a4f",
+      "evidenceBytes": 2468
     },
     {
       "repository": "horologium",
       "sourceRevision": "43fd938bb2e1bbd9ed8965da44984e631505d2be",
       "evidence": "https://github.com/antonsoo/horologium/blob/43fd938bb2e1bbd9ed8965da44984e631505d2be/docs/verification-2026-10-10.md",
       "work": "Fresh verification and source publication",
-      "localTreeClean": true
+      "localTreeClean": true,
+      "remoteMain": "43fd938bb2e1bbd9ed8965da44984e631505d2be",
+      "checkedAt": "2026-10-10T11:05:53.041366+00:00",
+      "evidenceSha256": "57f802191369b518dd6479a6a8a9c7bf7f3179900135c4df88c6db4b0a14ca44",
+      "evidenceBytes": 2205
+    },
+    {
+      "repository": "logdelta",
+      "work": "New fix",
+      "sourceRevision": "67caad720f297a09a677c056241f74b8e2190940",
+      "remoteMain": "67caad720f297a09a677c056241f74b8e2190940",
+      "localTreeClean": true,
+      "checkedAt": "2026-10-10T11:05:54.026768+00:00",
+      "evidence": "https://github.com/antonsoo/logdelta/blob/67caad720f297a09a677c056241f74b8e2190940/studies/streaming-inputs/README.md",
+      "evidenceSha256": "93e71f8b1b5272e0ae93c733343dcd0266c2e3ad3edaf764f1c9e3230c3e5b2b",
+      "evidenceBytes": 5126
+    },
+    {
+      "repository": "fieldproof",
+      "work": "New fix",
+      "sourceRevision": "0330e8afcd9357cd797edaa39d6f948bc2131cec",
+      "remoteMain": "0330e8afcd9357cd797edaa39d6f948bc2131cec",
+      "localTreeClean": true,
+      "checkedAt": "2026-10-10T11:05:54.031193+00:00",
+      "evidence": "https://github.com/antonsoo/fieldproof/blob/0330e8afcd9357cd797edaa39d6f948bc2131cec/studies/boolean-evidence/README.md",
+      "evidenceSha256": "22ba1f241a72b7228407f86589cc7dc4df6050384cfc18b4d84fdbe7a1b45d56",
+      "evidenceBytes": 5200
+    },
+    {
+      "repository": "tracelens",
+      "work": "New fix",
+      "sourceRevision": "cd114bee1e51299caeb966132a78442b52671acf",
+      "remoteMain": "cd114bee1e51299caeb966132a78442b52671acf",
+      "localTreeClean": true,
+      "checkedAt": "2026-10-10T11:08:11.665810+00:00",
+      "evidence": "https://github.com/antonsoo/tracelens/blob/cd114bee1e51299caeb966132a78442b52671acf/studies/protobuf-identities/README.md",
+      "evidenceSha256": "86022f9b6182c228de947c15594817cd51001a3fd524fbe693595d6c307894d1",
+      "evidenceBytes": 6763
     }
   ]
 }

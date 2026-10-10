@@ -18,12 +18,16 @@ artifacts and the limits of each comparison.
 | [gnomon](https://github.com/antonsoo/gnomon/blob/4bdf1ebee39f832bcc579aeb11b55a0f77663da9/docs/verification-2026-10-10.md) | Fresh verification and source publication | Verify the existing full-scale construction exports before publishing their source. 26 PDFs / 192 pages measured digitally, plus actual browser downloads. Printing, assembly and outdoor accuracy remain unverified. |
 | [planisphere](https://github.com/antonsoo/planisphere/blob/efa33746b52f0d77b98af29604fe18f06a1082b0/docs/verification-2026-10-10.md) | Fresh verification and source publication | Verify the existing stellar-motion and star-inspection changes before publishing their source. 20,055 positions against ERFA, including high-motion cases, and real JSON/SVG downloads. Physical construction remains unverified. |
 | [horologium](https://github.com/antonsoo/horologium/blob/43fd938bb2e1bbd9ed8965da44984e631505d2be/docs/verification-2026-10-10.md) | Fresh verification and source publication | Verify the existing Chinese-calendar corrections and lunar-year inspector before publishing their source. All 200 pinned HKO tables: zero mismatches on 62,821 modern civil days, with 90 historical differences retained. This does not validate all calendars. |
+| [logdelta](https://github.com/antonsoo/logdelta/blob/67caad720f297a09a677c056241f74b8e2190940/studies/streaming-inputs/README.md) | New fix | Decode gzip and Unicode headers split across pipe writes without corrupting records or reporting damaged gzip as a successful scan. Actual live CLI pipes, a 6,000-response capture and 32,000 public Loghub lines: 172/172 replay outcomes after the fix, versus 34/172 before. |
+| [fieldproof](https://github.com/antonsoo/fieldproof/blob/0330e8afcd9357cd797edaa39d6f948bc2131cec/studies/boolean-evidence/README.md) | New fix | Stop approving Boolean claims from a stray negative word in prose. Single explicit yes/no/true/false answers remain verifiable; ambiguous prose retains its source and needs review. Real text layers in 32 synthetic PDFs, paired claims and installed-wheel replays; deliberately narrower automatic coverage. |
+| [tracelens](https://github.com/antonsoo/tracelens/blob/cd114bee1e51299caeb966132a78442b52671acf/studies/protobuf-identities/README.md) | New fix | Preserve case-sensitive Protobuf byte IDs so separate traces and spans cannot collide, and decode original typed attribute names. Actual SDK serialization, 84 parser/CLI outcomes, installed Node 20/26 packages and offline browser navigation with downloaded IDs. The 22-file prior corpus is unchanged. |
 | [officina](evidence-audit-2026-10-10.md) | New correction | Correct misleading findings on 17 project cards, preserve denominators and limitations, and pin every evidence link to a public source revision. |
 
 ## Source and release boundaries
 
-The twelve project revisions in the [source snapshot](evidence/source-updates-2026-10-10.json)
-were compared with their actual remote `main` heads. Officina carries this index
+The fifteen project revisions in the [source snapshot](evidence/source-updates-2026-10-10.json)
+were compared with their actual remote `main` heads. Every pinned report was
+fetched from the public source and matched against its local bytes. Officina carries this index
 and the catalogue correction. These are source updates. No registry package, tag
 or manual hosted deployment was made as part of this batch; a demo may serve a
 different revision.
