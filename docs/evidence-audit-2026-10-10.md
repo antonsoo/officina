@@ -34,3 +34,29 @@ of all historical analyses. The linked studies describe their own methods,
 dates, measurements and limitations. A future study update requires updating
 both the finding and its revision link. The page explains that demos and
 registry packages may have a different version.
+
+## Production verification
+
+A fresh archive of `3db59d2` passed `npm ci`, lint, strict types, formatting,
+32 catalogue tests, the production build and 32 Chromium/Firefox workflows
+on Node 26.7.0/npm 12.0.1. The browser checks exercise search, audience
+filters, keyboard navigation, retry after network or malformed-data errors,
+theme persistence and local operation. The old browser assertion expected
+five study cards after the catalogue had grown to fifteen; it now uses the
+actual visible entries instead of a fixed count.
+
+All eight browser-suite screenshots and four additional production captures
+were opened and inspected. The latter cover the other three audiences and
+the ToneMirror card at 320 pixels, with external requests blocked. Each had
+no page errors, CSP violations, horizontal overflow or WCAG 2.1 A/AA axe
+findings. The [build and capture manifest](evidence/catalogue-verification-2026-10-10.json)
+retains output hashes and the checks' scope.
+
+- [Ancient-world cards](assets/evidence-ancient-desktop.png)
+- [AI engineering cards](assets/evidence-engineering-desktop.png)
+- [Developer tools in dark mode](assets/evidence-developers-desktop.png)
+- [320-pixel ToneMirror card](assets/evidence-tone-mobile.png)
+
+`npm run build` produces `dist/` with base `/officina/`. This source push does
+not deploy that directory: GitHub Actions reports `enabled: false`, and no
+hosted deployment or registry release was performed.
