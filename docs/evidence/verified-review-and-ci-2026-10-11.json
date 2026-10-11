@@ -1,0 +1,194 @@
+{
+  "checked_at": "2026-10-11T23:33:15.239654+00:00",
+  "scope": "Public source availability and byte agreement. Registry release, tags and manual hosted deployment were not performed. Hosted assets were not checked in this receipt.",
+  "repositories": [
+    {
+      "repository": "errorbars",
+      "source_commit": "6adea05815b239b5dd945b104e92f3033a3167e7",
+      "remote_main": "6adea05815b239b5dd945b104e92f3033a3167e7",
+      "local_tree_clean": true,
+      "observed_gh_pages": "70fecf1644fbe3a5ed8b63c68c0ab845e9ece09d",
+      "public_files": [
+        {
+          "path": "studies/leaderboard-overlap/README.md",
+          "url": "https://github.com/antonsoo/errorbars/blob/6adea05815b239b5dd945b104e92f3033a3167e7/studies/leaderboard-overlap/README.md",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/errorbars/6adea05815b239b5dd945b104e92f3033a3167e7/studies/leaderboard-overlap/README.md",
+          "bytes": 6389,
+          "sha256": "34f9443668deb0a8b419272c461ddc070ed55f31d27b937ce3a24ba4c800a06b"
+        },
+        {
+          "path": "studies/leaderboard-overlap/results/after.json",
+          "url": "https://github.com/antonsoo/errorbars/blob/6adea05815b239b5dd945b104e92f3033a3167e7/studies/leaderboard-overlap/results/after.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/errorbars/6adea05815b239b5dd945b104e92f3033a3167e7/studies/leaderboard-overlap/results/after.json",
+          "bytes": 7159,
+          "sha256": "c3cf2bc9a92a72c5f0792f78d8d0f6a4f7dbaa4c8a90d101dc0e1e705f7a7dbe"
+        },
+        {
+          "path": "studies/leaderboard-overlap/results/performance-before.json",
+          "url": "https://github.com/antonsoo/errorbars/blob/6adea05815b239b5dd945b104e92f3033a3167e7/studies/leaderboard-overlap/results/performance-before.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/errorbars/6adea05815b239b5dd945b104e92f3033a3167e7/studies/leaderboard-overlap/results/performance-before.json",
+          "bytes": 2875,
+          "sha256": "35ac6d5f193f2d39d199cfa63b192064ebf86c58826073ca4594e5856c93e14b"
+        },
+        {
+          "path": "studies/leaderboard-overlap/results/performance-after.json",
+          "url": "https://github.com/antonsoo/errorbars/blob/6adea05815b239b5dd945b104e92f3033a3167e7/studies/leaderboard-overlap/results/performance-after.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/errorbars/6adea05815b239b5dd945b104e92f3033a3167e7/studies/leaderboard-overlap/results/performance-after.json",
+          "bytes": 2870,
+          "sha256": "796f85a5248a3437ba798fa69477ca5c491799e68c096a42ae8de34ee6d17d87"
+        },
+        {
+          "path": "studies/leaderboard-overlap/results/verification.json",
+          "url": "https://github.com/antonsoo/errorbars/blob/6adea05815b239b5dd945b104e92f3033a3167e7/studies/leaderboard-overlap/results/verification.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/errorbars/6adea05815b239b5dd945b104e92f3033a3167e7/studies/leaderboard-overlap/results/verification.json",
+          "bytes": 1155,
+          "sha256": "0c5485cef7ee23de34b2b6453e5e647238f6b53c5151319693273bcd9d260740"
+        }
+      ]
+    },
+    {
+      "repository": "flakemap",
+      "source_commit": "b1b2084a89f61a02f70fd9b91069b68fb51fa1b9",
+      "remote_main": "b1b2084a89f61a02f70fd9b91069b68fb51fa1b9",
+      "local_tree_clean": true,
+      "observed_gh_pages": "a336738e0c0af6e210dfe659f0a3d722ce394b7b",
+      "public_files": [
+        {
+          "path": "studies/retry-activity/README.md",
+          "url": "https://github.com/antonsoo/flakemap/blob/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/README.md",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/flakemap/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/README.md",
+          "bytes": 7999,
+          "sha256": "fec99dda6f3f28417d4c6674857b1b3136904664072209af916bb4a168c2a7d1"
+        },
+        {
+          "path": "studies/retry-activity/fixtures/recovered.xml",
+          "url": "https://github.com/antonsoo/flakemap/blob/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/fixtures/recovered.xml",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/flakemap/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/fixtures/recovered.xml",
+          "bytes": 2808,
+          "sha256": "1fa11586bbc27b1f967fb87c8a2c3e685bd135118ac7ccc81d5622dca8a45a40"
+        },
+        {
+          "path": "studies/retry-activity/results/before.json",
+          "url": "https://github.com/antonsoo/flakemap/blob/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/results/before.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/flakemap/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/results/before.json",
+          "bytes": 6288,
+          "sha256": "c71828a35ffcbd8cf1004d964537b9fa9be0ce61daa4af62d47f392af17cd664"
+        },
+        {
+          "path": "studies/retry-activity/results/after.json",
+          "url": "https://github.com/antonsoo/flakemap/blob/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/results/after.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/flakemap/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/results/after.json",
+          "bytes": 6995,
+          "sha256": "e327386c3c06199990c8c3bb766bcff1fa5434e70ead0ed041b976c4e793d22d"
+        },
+        {
+          "path": "studies/retry-activity/results/verification.json",
+          "url": "https://github.com/antonsoo/flakemap/blob/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/results/verification.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/flakemap/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/results/verification.json",
+          "bytes": 7725,
+          "sha256": "0cb7c45e8dca2af95eadeb56f2b0a7001fc976306ed649b933849b356523632b"
+        },
+        {
+          "path": "studies/retry-activity/results/browser.json",
+          "url": "https://github.com/antonsoo/flakemap/blob/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/results/browser.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/flakemap/b1b2084a89f61a02f70fd9b91069b68fb51fa1b9/studies/retry-activity/results/browser.json",
+          "bytes": 7294,
+          "sha256": "c2cba8d249bf8e1dce65aa4ffd1d88fb3cfead60eb528c5e0646f6c28f56c31e"
+        }
+      ]
+    },
+    {
+      "repository": "fieldproof",
+      "source_commit": "c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9",
+      "remote_main": "c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9",
+      "local_tree_clean": true,
+      "observed_gh_pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+      "public_files": [
+        {
+          "path": "studies/grounding-reuse/README.md",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/grounding-reuse/README.md",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/grounding-reuse/README.md",
+          "bytes": 7117,
+          "sha256": "3066c2bda11537ee2d20892475de9e613efc5ef99e6561e88918a06e9aedcb67"
+        },
+        {
+          "path": "studies/grounding-reuse/results/before.json",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/grounding-reuse/results/before.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/grounding-reuse/results/before.json",
+          "bytes": 2855,
+          "sha256": "ab5711123ea4827d8cd7385ad16c3a8835f59c9dfb72b7be377c2b3f97a3cea7"
+        },
+        {
+          "path": "studies/grounding-reuse/results/after.json",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/grounding-reuse/results/after.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/grounding-reuse/results/after.json",
+          "bytes": 3748,
+          "sha256": "2205b353e1acd55a6476e4203887d58b3adf27e470634d5369596eb438380555"
+        },
+        {
+          "path": "studies/grounding-reuse/results/installed-verification.json",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/grounding-reuse/results/installed-verification.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/grounding-reuse/results/installed-verification.json",
+          "bytes": 4765,
+          "sha256": "fc27ef47fd6d7dc60fc0f46b0cd5d5544b8356247fa1c995c9dfc510c09abcf2"
+        },
+        {
+          "path": "studies/grounding-reuse/fixtures/rows-100.pdf",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/grounding-reuse/fixtures/rows-100.pdf",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/grounding-reuse/fixtures/rows-100.pdf",
+          "bytes": 3990,
+          "sha256": "6f46ffb1457c1bd8f8e25c515e896b442587f5828070ddf4e012b1f8a372a07f"
+        },
+        {
+          "path": "studies/unicode-grounding/README.md",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/README.md",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/README.md",
+          "bytes": 6541,
+          "sha256": "6689005baff76057d97c3193599478192270af4acc969932e588ccedea5e17ce"
+        },
+        {
+          "path": "studies/unicode-grounding/results/before.json",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/results/before.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/results/before.json",
+          "bytes": 33284,
+          "sha256": "d1f52d256ec5db0f74aff412573257ebdb5c59df960ed7b4e3744355a768c1c0"
+        },
+        {
+          "path": "studies/unicode-grounding/results/after.json",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/results/after.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/results/after.json",
+          "bytes": 37219,
+          "sha256": "49b9f9f5fe50e3db30baad39f13ff0da8c55839ea492e5acc3fcc58215ab6b14"
+        },
+        {
+          "path": "studies/unicode-grounding/results/installed-verification.json",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/results/installed-verification.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/results/installed-verification.json",
+          "bytes": 5281,
+          "sha256": "b48dba4bebc415551b30d4fdf2ba136b5cece2b2cdb7ee583e198a89921e6f78"
+        },
+        {
+          "path": "studies/unicode-grounding/results/browser-installed.json",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/results/browser-installed.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/results/browser-installed.json",
+          "bytes": 5977,
+          "sha256": "db8a8c4be279569e36e055a08796a38101542a7e23443ff6a65b94ca0dcde110"
+        },
+        {
+          "path": "studies/unicode-grounding/results/receipt-compatibility.json",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/results/receipt-compatibility.json",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/studies/unicode-grounding/results/receipt-compatibility.json",
+          "bytes": 544,
+          "sha256": "e5037401b780392e489fa916ab43c1a5ba6b8f207880e5534e74fa5b2e04061a"
+        },
+        {
+          "path": "src/fieldproof/ground/align.py",
+          "url": "https://github.com/antonsoo/fieldproof/blob/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/src/fieldproof/ground/align.py",
+          "raw_url": "https://raw.githubusercontent.com/antonsoo/fieldproof/c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9/src/fieldproof/ground/align.py",
+          "bytes": 25986,
+          "sha256": "519441050c619a0ef8e62bca94072fc200f467e49ebb2b4f12e41e5916577f4c"
+        }
+      ]
+    }
+  ]
+}
