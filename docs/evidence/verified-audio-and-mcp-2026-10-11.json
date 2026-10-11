@@ -1,0 +1,102 @@
+{
+  "checkedAt": "2026-10-11T02:44:05.686590+00:00",
+  "scope": "Three further reproduced defects across two repositories. Source pushed; ToneMirror deployed. No npm release, tag or remote CI success claim.",
+  "repositories": [
+    {
+      "repository": "mcplint",
+      "sourceRevision": "f8170b3c91fd4ff7cbce46661e64b833ef114576",
+      "remoteMain": "f8170b3c91fd4ff7cbce46661e64b833ef114576",
+      "localTreeClean": true,
+      "actionsEnabled": false,
+      "evidence": [
+        {
+          "path": "studies/name-comparisons/README.md",
+          "url": "https://github.com/antonsoo/mcplint/blob/f8170b3c91fd4ff7cbce46661e64b833ef114576/studies/name-comparisons/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/mcplint/f8170b3c91fd4ff7cbce46661e64b833ef114576/studies/name-comparisons/README.md",
+          "bytes": 6140,
+          "sha256": "b8ca7e58ffc6a66e690937426bfa86a0d5a31a233a27dd08bd0ed59f87f5741a",
+          "servedMatchesLocal": true
+        },
+        {
+          "path": "studies/name-comparisons/verification.json",
+          "url": "https://github.com/antonsoo/mcplint/blob/f8170b3c91fd4ff7cbce46661e64b833ef114576/studies/name-comparisons/verification.json",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/mcplint/f8170b3c91fd4ff7cbce46661e64b833ef114576/studies/name-comparisons/verification.json",
+          "bytes": 718,
+          "sha256": "e039b33f59aa11bf307d3443d04bbae813b32afd5633efa8a6ca1d4baefec6a7",
+          "servedMatchesLocal": true
+        },
+        {
+          "path": "studies/duplicate-names/README.md",
+          "url": "https://github.com/antonsoo/mcplint/blob/f8170b3c91fd4ff7cbce46661e64b833ef114576/studies/duplicate-names/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/mcplint/f8170b3c91fd4ff7cbce46661e64b833ef114576/studies/duplicate-names/README.md",
+          "bytes": 5869,
+          "sha256": "39bdcaf3100cbd2f2bd2448aa0a7a6ab0b12b926645d612d5a9dfb88bad4ed92",
+          "servedMatchesLocal": true
+        },
+        {
+          "path": "studies/duplicate-names/verification.json",
+          "url": "https://github.com/antonsoo/mcplint/blob/f8170b3c91fd4ff7cbce46661e64b833ef114576/studies/duplicate-names/verification.json",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/mcplint/f8170b3c91fd4ff7cbce46661e64b833ef114576/studies/duplicate-names/verification.json",
+          "bytes": 653,
+          "sha256": "d3eaa12e32bcffb53ac7ea9630dcf814378c00d501046b19d924a6097be66038",
+          "servedMatchesLocal": true
+        }
+      ],
+      "codeRevisions": [
+        "7ead9d876ab331b24fb4b30380fb4cabc3d5a034",
+        "2353df47a6451987e45a2a044c7df2eb2ae17b9b"
+      ],
+      "registry": {
+        "package": "@antonsoloviev/mcplint",
+        "version": "0.3.3",
+        "publishedThisBatch": false
+      },
+      "pages": {
+        "redeployedThisBatch": false,
+        "reason": "Pre-generated example reports; the changes affect audit collection/rules."
+      }
+    },
+    {
+      "repository": "tonemirror",
+      "sourceRevision": "c9131e6e2589b9509a566c23964bc3a635f759b5",
+      "remoteMain": "c9131e6e2589b9509a566c23964bc3a635f759b5",
+      "localTreeClean": true,
+      "actionsEnabled": false,
+      "evidence": [
+        {
+          "path": "studies/offline-start/README.md",
+          "url": "https://github.com/antonsoo/tonemirror/blob/c9131e6e2589b9509a566c23964bc3a635f759b5/studies/offline-start/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/tonemirror/c9131e6e2589b9509a566c23964bc3a635f759b5/studies/offline-start/README.md",
+          "bytes": 6934,
+          "sha256": "6d3203b92870eb3a49d43825c64140617224600e5182016eda6822d23db54403",
+          "servedMatchesLocal": true
+        },
+        {
+          "path": "studies/offline-start/served-files.json",
+          "url": "https://github.com/antonsoo/tonemirror/blob/c9131e6e2589b9509a566c23964bc3a635f759b5/studies/offline-start/served-files.json",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/tonemirror/c9131e6e2589b9509a566c23964bc3a635f759b5/studies/offline-start/served-files.json",
+          "bytes": 5977,
+          "sha256": "69e3b7f3ed66a05a4f515938f7b72f8e413bc0bfa368b332d3e7f7e36d5decf5",
+          "servedMatchesLocal": true
+        }
+      ],
+      "codeRevisions": [
+        "7db19768e64cf202b9f671b85724fcd5b9b93ed2"
+      ],
+      "pages": {
+        "url": "https://antonsoo.github.io/tonemirror/",
+        "revision": "95b8bdc0863e88e13049487f114637aa76640ce4",
+        "buildSourceRevision": "7db19768e64cf202b9f671b85724fcd5b9b93ed2",
+        "buildCommand": "npm run build",
+        "buildDirectory": "dist",
+        "matchingServedFiles": 28,
+        "servedFilesCheckedAt": "2026-10-11T02:28:02.547740+00:00",
+        "hostedBrowserWorkflowsPassed": 51,
+        "hostedBrowserWorkflowsSkipped": 3,
+        "skipReason": "Firefox cases require the Chromium test audio device.",
+        "freshOfflineCases": 5,
+        "scope": "The local server was physically stopped for the local cases. Hosted cases use browser offline emulation and require local Blob worklet loading."
+      }
+    }
+  ]
+}

@@ -46,6 +46,9 @@ integrity, and freshly verified test-counter reconciliation.
 The [verified updates and deployments](docs/verified-updates-2026-10-11.md) record
 seven further fixes and six public builds, with before/after captures, installed
 artifacts and 151 served-file hash comparisons.
+The [audio and MCP continuation](docs/verified-audio-and-mcp-2026-10-11.md) adds
+first offline audio use, bounded name comparisons and duplicate-name detection,
+with installed CLI captures and 28 matching ToneMirror production files.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
