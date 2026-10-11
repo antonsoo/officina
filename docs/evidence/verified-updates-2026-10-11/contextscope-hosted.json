@@ -1,0 +1,40 @@
+{
+  "url": "https://antonsoo.github.io/contextscope/",
+  "stats": {
+    "startTime": "2026-10-11T00:55:53.994Z",
+    "duration": 23559.118,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "checks": [
+    {
+      "file": "fast-mode.spec.ts",
+      "title": "processing speed preserves tool entries, prices fast input, and survives offline exports",
+      "engine": "chromium",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 11089,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "file": "fast-mode.spec.ts",
+      "title": "processing speed preserves tool entries, prices fast input, and survives offline exports",
+      "engine": "firefox",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 9337,
+          "errors": []
+        }
+      ]
+    }
+  ],
+  "scope": "Source tests/browser/fast-mode.spec.ts adapted only for hosted URL, fixture paths and expected origin. Uploaded speed-change fixture, inspected invalidation and prices, keyboard detail, offline JSON/HTML downloads, accessibility at 1440 and 375px."
+}

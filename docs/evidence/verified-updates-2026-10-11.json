@@ -1,0 +1,214 @@
+{
+  "checkedAt": "2026-10-11T01:35:42.607900+00:00",
+  "scope": "Six new defect fixes across five repositories; two existing source repairs additionally deployed. Seven clean source checkouts match remote main. Five public builds have 121 matching served files. No registry release, tag, or remote CI success claim.",
+  "repositories": [
+    {
+      "repository": "trainspotter",
+      "sourceRevision": "a7148057cb3b4c3a920dd24d379438c952c88edd",
+      "remoteMain": "a7148057cb3b4c3a920dd24d379438c952c88edd",
+      "localTreeClean": true,
+      "codeRevision": "b7fa078efeeb11e86b088265cf0d09d71673c488",
+      "work": "New selected-run TensorBoard failure scoping",
+      "actionsEnabled": false,
+      "evidence": [
+        {
+          "path": "studies/tensorboard-scope/README.md",
+          "url": "https://github.com/antonsoo/trainspotter/blob/a7148057cb3b4c3a920dd24d379438c952c88edd/studies/tensorboard-scope/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/trainspotter/a7148057cb3b4c3a920dd24d379438c952c88edd/studies/tensorboard-scope/README.md",
+          "bytes": 3148,
+          "sha256": "44eb6f53b7051c83173e3b5b4824d3c92370df1d24b5f1189d836b4a7aaf61fe",
+          "servedMatchesLocal": true
+        }
+      ],
+      "checkedAt": "2026-10-11T01:33:17.333874+00:00",
+      "pages": {
+        "url": "https://antonsoo.github.io/trainspotter/",
+        "revision": "62d47fa508e7b47afdc6816f0a3310a1cf97a400",
+        "buildSourceRevision": "b7fa078efeeb11e86b088265cf0d09d71673c488",
+        "buildCommand": "uv run python scripts/build_site.py --out-dir site",
+        "buildDirectory": "site",
+        "matchingServedFiles": 18,
+        "scope": "All output files compared byte for byte after pushing to the existing gh-pages branch; details in linked ledgers. Later documentation commits are not a rebuild."
+      }
+    },
+    {
+      "repository": "flakemap",
+      "sourceRevision": "3d2dcd02e0dc7842c59ff042f854fe37950e9763",
+      "remoteMain": "3d2dcd02e0dc7842c59ff042f854fe37950e9763",
+      "localTreeClean": true,
+      "codeRevision": "4da7c39d075fcdb87cc7916deacfa35baac6bd3e",
+      "work": "New chronology evidence requirement",
+      "actionsEnabled": false,
+      "evidence": [
+        {
+          "path": "studies/ordering-evidence/README.md",
+          "url": "https://github.com/antonsoo/flakemap/blob/3d2dcd02e0dc7842c59ff042f854fe37950e9763/studies/ordering-evidence/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/flakemap/3d2dcd02e0dc7842c59ff042f854fe37950e9763/studies/ordering-evidence/README.md",
+          "bytes": 5920,
+          "sha256": "366e406e5310e52ac44bd446b8814fef52a7cd5f99636ecb986badad98916cd7",
+          "servedMatchesLocal": true
+        }
+      ],
+      "checkedAt": "2026-10-11T01:33:17.317545+00:00",
+      "pages": {
+        "url": "https://antonsoo.github.io/flakemap/",
+        "revision": "a336738e0c0af6e210dfe659f0a3d722ce394b7b",
+        "buildSourceRevision": "4da7c39d075fcdb87cc7916deacfa35baac6bd3e",
+        "buildCommand": "uv run python scripts/build_demo_site.py",
+        "buildDirectory": "site",
+        "matchingServedFiles": 9,
+        "scope": "All output files compared byte for byte after pushing to the existing gh-pages branch; details in linked ledgers. Later documentation commits are not a rebuild."
+      }
+    },
+    {
+      "repository": "contextscope",
+      "sourceRevision": "c1adf86f375d606145840cc20d530c9a9e5fd34f",
+      "remoteMain": "c1adf86f375d606145840cc20d530c9a9e5fd34f",
+      "localTreeClean": true,
+      "codeRevision": "5588d381077a014da7480fb3131d3dd914f58e86",
+      "work": "New processing-speed cache scope and input pricing",
+      "actionsEnabled": false,
+      "evidence": [
+        {
+          "path": "studies/fast-mode/README.md",
+          "url": "https://github.com/antonsoo/contextscope/blob/c1adf86f375d606145840cc20d530c9a9e5fd34f/studies/fast-mode/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/contextscope/c1adf86f375d606145840cc20d530c9a9e5fd34f/studies/fast-mode/README.md",
+          "bytes": 6621,
+          "sha256": "f086fa99159d798e31712eab328c74eb8421db93a7eba5b6d482cb850575bc97",
+          "servedMatchesLocal": true
+        }
+      ],
+      "checkedAt": "2026-10-11T01:35:42.607900+00:00",
+      "pages": {
+        "url": "https://antonsoo.github.io/contextscope/",
+        "revision": "3496b0635263f82117196596cd18a068e601b9c3",
+        "buildSourceRevision": "5588d381077a014da7480fb3131d3dd914f58e86",
+        "buildCommand": "npm run build",
+        "buildDirectory": "web/dist",
+        "matchingServedFiles": 41,
+        "scope": "All output files compared byte for byte after pushing to the existing gh-pages branch; details in linked ledgers. Later documentation commits are not a rebuild."
+      }
+    },
+    {
+      "repository": "veil",
+      "sourceRevision": "7bec64d6bd76a19cf37a9bb3b56e6e77c1bd533b",
+      "remoteMain": "7bec64d6bd76a19cf37a9bb3b56e6e77c1bd533b",
+      "localTreeClean": true,
+      "codeRevision": "e6b4ab676aa5b7d59a255e45ae75b2ee5db9eb5d",
+      "work": "Two new corrections: decoded JSON argument masking and complete-response token preservation",
+      "actionsEnabled": false,
+      "evidence": [
+        {
+          "path": "studies/json-tool-arguments/README.md",
+          "url": "https://github.com/antonsoo/veil/blob/7bec64d6bd76a19cf37a9bb3b56e6e77c1bd533b/studies/json-tool-arguments/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/veil/7bec64d6bd76a19cf37a9bb3b56e6e77c1bd533b/studies/json-tool-arguments/README.md",
+          "bytes": 4467,
+          "sha256": "5bcfe4e10f1b4819ad481556c9340a4105a8ef5a874c88fea0ba2b2f81096f50",
+          "servedMatchesLocal": true
+        },
+        {
+          "path": "studies/json-tool-restoration/README.md",
+          "url": "https://github.com/antonsoo/veil/blob/7bec64d6bd76a19cf37a9bb3b56e6e77c1bd533b/studies/json-tool-restoration/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/veil/7bec64d6bd76a19cf37a9bb3b56e6e77c1bd533b/studies/json-tool-restoration/README.md",
+          "bytes": 3602,
+          "sha256": "6e644006bb8a77d32e47a1624b26efd2963460862426100d74707ceac68eeb03",
+          "servedMatchesLocal": true
+        }
+      ],
+      "checkedAt": "2026-10-11T01:33:17.785667+00:00",
+      "pages": {
+        "updated": false,
+        "scope": "API/backend source correction. Existing static demo not redeployed."
+      }
+    },
+    {
+      "repository": "fieldproof",
+      "sourceRevision": "7a0b35eea2af477fd3886a30daaeca72ff223c47",
+      "remoteMain": "7a0b35eea2af477fd3886a30daaeca72ff223c47",
+      "localTreeClean": true,
+      "codeRevision": "639ef2d155e98678a3b328d704708c9f189ec1ea",
+      "work": "New strict extracted-date claims and cross-field review boundary",
+      "actionsEnabled": false,
+      "evidence": [
+        {
+          "path": "studies/date-claims/README.md",
+          "url": "https://github.com/antonsoo/fieldproof/blob/7a0b35eea2af477fd3886a30daaeca72ff223c47/studies/date-claims/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/fieldproof/7a0b35eea2af477fd3886a30daaeca72ff223c47/studies/date-claims/README.md",
+          "bytes": 4851,
+          "sha256": "e1ecff2fb495983d7e3dd337b991e6b51bb6f847c46e9d0f96bb51dc7d09563f",
+          "servedMatchesLocal": true
+        }
+      ],
+      "checkedAt": "2026-10-11T01:33:20.609796+00:00",
+      "pages": {
+        "updated": false,
+        "scope": "API/backend source correction. Existing static demo not redeployed."
+      }
+    },
+    {
+      "repository": "am-i-unlucky",
+      "sourceRevision": "a9398382c94d17f324dcdf5746eb17982a42db35",
+      "remoteMain": "a9398382c94d17f324dcdf5746eb17982a42db35",
+      "localTreeClean": true,
+      "codeRevision": "1d3b0452c259f3212f7c3317c8f559f0b57cb9eb",
+      "work": "Existing pity-tail repair independently rebuilt and deployed",
+      "actionsEnabled": false,
+      "evidence": [
+        {
+          "path": "studies/publication/README.md",
+          "url": "https://github.com/antonsoo/am-i-unlucky/blob/a9398382c94d17f324dcdf5746eb17982a42db35/studies/publication/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/a9398382c94d17f324dcdf5746eb17982a42db35/studies/publication/README.md",
+          "bytes": 2457,
+          "sha256": "c7189e6cec517845a9b2151570a026ba06832c6835ab931be24fd4840cbcfc54",
+          "servedMatchesLocal": true
+        }
+      ],
+      "checkedAt": "2026-10-11T01:33:20.626067+00:00",
+      "pages": {
+        "url": "https://antonsoo.github.io/am-i-unlucky/",
+        "revision": "fd366562798ab8b74dfb91c17b6c1371f6697425",
+        "buildSourceRevision": "97455f92eb3aedf0467e710f03c87d6c52ac9082",
+        "buildCommand": "npm run build",
+        "buildDirectory": "dist",
+        "matchingServedFiles": 35,
+        "scope": "All output files compared byte for byte after pushing to the existing gh-pages branch; details in linked ledgers. Later documentation commits are not a rebuild."
+      }
+    },
+    {
+      "repository": "splitscope",
+      "sourceRevision": "3fda8d483fdb07d138fbaf0d38c96bd56fbe7248",
+      "remoteMain": "3fda8d483fdb07d138fbaf0d38c96bd56fbe7248",
+      "localTreeClean": true,
+      "codeRevision": "2758b4697939b8aae3f5778a26524a8d3adca53e",
+      "work": "Existing large-history recovery and forecast wording independently rebuilt and deployed",
+      "actionsEnabled": false,
+      "evidence": [
+        {
+          "path": "docs/publication-2026-10-11.md",
+          "url": "https://github.com/antonsoo/splitscope/blob/3fda8d483fdb07d138fbaf0d38c96bd56fbe7248/docs/publication-2026-10-11.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/splitscope/3fda8d483fdb07d138fbaf0d38c96bd56fbe7248/docs/publication-2026-10-11.md",
+          "bytes": 4380,
+          "sha256": "a29d44f1d405144c001903d1616d9a9521c8963e8cd5f755173603ee3ee6d9b0",
+          "servedMatchesLocal": true
+        }
+      ],
+      "checkedAt": "2026-10-11T01:33:20.846639+00:00",
+      "pages": {
+        "url": "https://antonsoo.github.io/splitscope/",
+        "revision": "fb235031f72932456d5a229d5bd03b8f6d4a1828",
+        "buildSourceRevision": "0062a149613ec07264ee6abd81064511a2372f29",
+        "buildCommand": "npm run build",
+        "buildDirectory": "dist",
+        "matchingServedFiles": 18,
+        "scope": "All output files compared byte for byte after pushing to the existing gh-pages branch; details in linked ledgers. Later documentation commits are not a rebuild."
+      }
+    }
+  ],
+  "publicationLedgers": {
+    "firstThree": "verified-updates-2026-10-11/first-three-served-files.json",
+    "trainspotterAndFlakemapWorkflows": "verified-updates-2026-10-11/trainspotter-flakemap-hosted.json",
+    "contextscopeWorkflows": "verified-updates-2026-10-11/contextscope-hosted.json",
+    "amIUnlucky": "https://github.com/antonsoo/am-i-unlucky/blob/a9398382c94d17f324dcdf5746eb17982a42db35/studies/publication/results/served-bytes.json",
+    "splitscope": "https://github.com/antonsoo/splitscope/blob/3fda8d483fdb07d138fbaf0d38c96bd56fbe7248/docs/evidence/large-histories/publication/served-bytes.json"
+  }
+}
