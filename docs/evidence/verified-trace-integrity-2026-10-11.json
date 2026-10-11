@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-11T03:20:27.100441+00:00",
+  "repository": "tracelens",
+  "sourceRevision": "6d55a073678b27e483a59656610d33a9da3a1a49",
+  "remoteMain": "6d55a073678b27e483a59656610d33a9da3a1a49",
+  "localTreeClean": true,
+  "productionSourceRevision": "65d885c70c72b5e4d578b0e8852776a665423477",
+  "verificationSourceRevision": "b8468f0d9007c45472b7e62ef44369e2817c3f4d",
+  "pagesRevision": "8c725416992fab1eec778f2731e8bff3210ab3b8",
+  "url": "https://antonsoo.github.io/tracelens/",
+  "buildCommand": "npm run build",
+  "webOutput": "dist",
+  "servedFilesMatchingCleanBuild": 33,
+  "localBrowserPassed": 116,
+  "hostedBrowserPassed": 116,
+  "browserSkipped": 0,
+  "corePassed": 297,
+  "cliPassed": 30,
+  "actionsEnabled": false,
+  "registry": {
+    "package": "@antonsoloviev/tracelens",
+    "version": "0.3.3",
+    "publishedThisBatch": false
+  },
+  "tagPublished": false,
+  "closedBeads": [
+    "officina-ppet",
+    "officina-7m1y"
+  ],
+  "evidence": [
+    {
+      "path": "studies/dropped-evidence/README.md",
+      "url": "https://github.com/antonsoo/tracelens/blob/6d55a073678b27e483a59656610d33a9da3a1a49/studies/dropped-evidence/README.md",
+      "rawUrl": "https://raw.githubusercontent.com/antonsoo/tracelens/6d55a073678b27e483a59656610d33a9da3a1a49/studies/dropped-evidence/README.md",
+      "bytes": 4865,
+      "sha256": "19edcdea20b5e9ca1eb52c2daa31a35ebfb91181b4072362d62b208a3b7f412c",
+      "servedMatchesLocal": true
+    },
+    {
+      "path": "studies/import-integrity/README.md",
+      "url": "https://github.com/antonsoo/tracelens/blob/6d55a073678b27e483a59656610d33a9da3a1a49/studies/import-integrity/README.md",
+      "rawUrl": "https://raw.githubusercontent.com/antonsoo/tracelens/6d55a073678b27e483a59656610d33a9da3a1a49/studies/import-integrity/README.md",
+      "bytes": 4467,
+      "sha256": "dcf44886b63cab95dd46f41113942706f064be41fea1a84a870831c66f08fd24",
+      "servedMatchesLocal": true
+    },
+    {
+      "path": "docs/verification-trace-integrity-2026-10-11.md",
+      "url": "https://github.com/antonsoo/tracelens/blob/6d55a073678b27e483a59656610d33a9da3a1a49/docs/verification-trace-integrity-2026-10-11.md",
+      "rawUrl": "https://raw.githubusercontent.com/antonsoo/tracelens/6d55a073678b27e483a59656610d33a9da3a1a49/docs/verification-trace-integrity-2026-10-11.md",
+      "bytes": 5846,
+      "sha256": "4e4d90b83a79d448f461d5f0245cbd336387224487760afc0b8f317ac8288312",
+      "servedMatchesLocal": true
+    },
+    {
+      "path": "docs/trace-integrity-2026-10-11/checks.json",
+      "url": "https://github.com/antonsoo/tracelens/blob/6d55a073678b27e483a59656610d33a9da3a1a49/docs/trace-integrity-2026-10-11/checks.json",
+      "rawUrl": "https://raw.githubusercontent.com/antonsoo/tracelens/6d55a073678b27e483a59656610d33a9da3a1a49/docs/trace-integrity-2026-10-11/checks.json",
+      "bytes": 4652,
+      "sha256": "475678058ef20ad5c3e139fa4e9246006c72418520f4057454a27952d867ccc0",
+      "servedMatchesLocal": true
+    },
+    {
+      "path": "docs/trace-integrity-2026-10-11/served-files.json",
+      "url": "https://github.com/antonsoo/tracelens/blob/6d55a073678b27e483a59656610d33a9da3a1a49/docs/trace-integrity-2026-10-11/served-files.json",
+      "rawUrl": "https://raw.githubusercontent.com/antonsoo/tracelens/6d55a073678b27e483a59656610d33a9da3a1a49/docs/trace-integrity-2026-10-11/served-files.json",
+      "bytes": 9954,
+      "sha256": "87018104a05e86aa90ef08198b56c8b2d50867ac5c51c3039db3332dc6e578b7",
+      "servedMatchesLocal": true
+    }
+  ]
+}
