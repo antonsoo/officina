@@ -44,8 +44,8 @@ The [later source batch](docs/source-updates-2026-10-10-continuation.md) adds
 grading provenance, cache-setting boundaries, timestamp gaps, MCP metadata
 integrity, and freshly verified test-counter reconciliation.
 The [verified updates and deployments](docs/verified-updates-2026-10-11.md) record
-six further fixes and five public builds, with before/after captures, installed
-artifacts and 121 served-file hash comparisons.
+seven further fixes and six public builds, with before/after captures, installed
+artifacts and 151 served-file hash comparisons.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200

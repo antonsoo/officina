@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-11T01:35:42.607900+00:00",
-  "scope": "Six new defect fixes across five repositories; two existing source repairs additionally deployed. Seven clean source checkouts match remote main. Five public builds have 121 matching served files. No registry release, tag, or remote CI success claim.",
+  "checkedAt": "2026-10-11T01:56:03.329550+00:00",
+  "scope": "Seven new defect fixes across six repositories and publication of existing repairs. Eight clean source checkouts match remote main. Six public builds have 151 matching served files. No registry release, tag, or remote CI success claim.",
   "repositories": [
     {
       "repository": "trainspotter",
@@ -20,7 +20,7 @@
           "servedMatchesLocal": true
         }
       ],
-      "checkedAt": "2026-10-11T01:33:17.333874+00:00",
+      "checkedAt": "2026-10-11T01:55:58.827937+00:00",
       "pages": {
         "url": "https://antonsoo.github.io/trainspotter/",
         "revision": "62d47fa508e7b47afdc6816f0a3310a1cf97a400",
@@ -49,7 +49,7 @@
           "servedMatchesLocal": true
         }
       ],
-      "checkedAt": "2026-10-11T01:33:17.317545+00:00",
+      "checkedAt": "2026-10-11T01:55:58.862295+00:00",
       "pages": {
         "url": "https://antonsoo.github.io/flakemap/",
         "revision": "a336738e0c0af6e210dfe659f0a3d722ce394b7b",
@@ -78,7 +78,7 @@
           "servedMatchesLocal": true
         }
       ],
-      "checkedAt": "2026-10-11T01:35:42.607900+00:00",
+      "checkedAt": "2026-10-11T01:55:58.873433+00:00",
       "pages": {
         "url": "https://antonsoo.github.io/contextscope/",
         "revision": "3496b0635263f82117196596cd18a068e601b9c3",
@@ -115,7 +115,7 @@
           "servedMatchesLocal": true
         }
       ],
-      "checkedAt": "2026-10-11T01:33:17.785667+00:00",
+      "checkedAt": "2026-10-11T01:55:59.103788+00:00",
       "pages": {
         "updated": false,
         "scope": "API/backend source correction. Existing static demo not redeployed."
@@ -139,7 +139,7 @@
           "servedMatchesLocal": true
         }
       ],
-      "checkedAt": "2026-10-11T01:33:20.609796+00:00",
+      "checkedAt": "2026-10-11T01:56:02.639110+00:00",
       "pages": {
         "updated": false,
         "scope": "API/backend source correction. Existing static demo not redeployed."
@@ -163,7 +163,7 @@
           "servedMatchesLocal": true
         }
       ],
-      "checkedAt": "2026-10-11T01:33:20.626067+00:00",
+      "checkedAt": "2026-10-11T01:56:02.588208+00:00",
       "pages": {
         "url": "https://antonsoo.github.io/am-i-unlucky/",
         "revision": "fd366562798ab8b74dfb91c17b6c1371f6697425",
@@ -192,7 +192,7 @@
           "servedMatchesLocal": true
         }
       ],
-      "checkedAt": "2026-10-11T01:33:20.846639+00:00",
+      "checkedAt": "2026-10-11T01:56:02.585791+00:00",
       "pages": {
         "url": "https://antonsoo.github.io/splitscope/",
         "revision": "fb235031f72932456d5a229d5bd03b8f6d4a1828",
@@ -202,6 +202,43 @@
         "matchingServedFiles": 18,
         "scope": "All output files compared byte for byte after pushing to the existing gh-pages branch; details in linked ledgers. Later documentation commits are not a rebuild."
       }
+    },
+    {
+      "repository": "stutterscope",
+      "sourceRevision": "fc44ae257011a33aaee50207efa20bd4b5619934",
+      "remoteMain": "fc44ae257011a33aaee50207efa20bd4b5619934",
+      "localTreeClean": true,
+      "codeRevision": "6201044621e96c445b77d006e32c599862873a18",
+      "work": "New first-import offline worker correction; existing timestamp and telemetry corrections also deployed",
+      "actionsEnabled": false,
+      "evidence": [
+        {
+          "path": "studies/offline-import/README.md",
+          "url": "https://github.com/antonsoo/stutterscope/blob/fc44ae257011a33aaee50207efa20bd4b5619934/studies/offline-import/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/stutterscope/fc44ae257011a33aaee50207efa20bd4b5619934/studies/offline-import/README.md",
+          "bytes": 5054,
+          "sha256": "97ce7f91b482c1f63fbcc33b778ea538e66e2d34d29952e3cb7163a86ad3ca6a",
+          "servedMatchesLocal": true
+        },
+        {
+          "path": "studies/publication/README.md",
+          "url": "https://github.com/antonsoo/stutterscope/blob/fc44ae257011a33aaee50207efa20bd4b5619934/studies/publication/README.md",
+          "rawUrl": "https://raw.githubusercontent.com/antonsoo/stutterscope/fc44ae257011a33aaee50207efa20bd4b5619934/studies/publication/README.md",
+          "bytes": 4036,
+          "sha256": "da75b2a8ad8f42d9b2bfc6856f4ffcf2150b0b07315bf6b0d70614a905087527",
+          "servedMatchesLocal": true
+        }
+      ],
+      "checkedAt": "2026-10-11T01:56:03.327403+00:00",
+      "pages": {
+        "url": "https://antonsoo.github.io/stutterscope/",
+        "revision": "4dabfd35b268b5d241749b077153969d8df0aca7",
+        "buildSourceRevision": "6201044621e96c445b77d006e32c599862873a18",
+        "buildCommand": "npm run build",
+        "buildDirectory": "dist",
+        "matchingServedFiles": 30,
+        "scope": "All output files compared byte for byte after pushing to the existing gh-pages branch; details in linked ledgers. Later documentation commits are not a rebuild."
+      }
     }
   ],
   "publicationLedgers": {
@@ -209,6 +246,7 @@
     "trainspotterAndFlakemapWorkflows": "verified-updates-2026-10-11/trainspotter-flakemap-hosted.json",
     "contextscopeWorkflows": "verified-updates-2026-10-11/contextscope-hosted.json",
     "amIUnlucky": "https://github.com/antonsoo/am-i-unlucky/blob/a9398382c94d17f324dcdf5746eb17982a42db35/studies/publication/results/served-bytes.json",
-    "splitscope": "https://github.com/antonsoo/splitscope/blob/3fda8d483fdb07d138fbaf0d38c96bd56fbe7248/docs/evidence/large-histories/publication/served-bytes.json"
+    "splitscope": "https://github.com/antonsoo/splitscope/blob/3fda8d483fdb07d138fbaf0d38c96bd56fbe7248/docs/evidence/large-histories/publication/served-bytes.json",
+    "stutterscope": "https://github.com/antonsoo/stutterscope/blob/fc44ae257011a33aaee50207efa20bd4b5619934/studies/offline-import/served-bytes.json"
   }
 }
