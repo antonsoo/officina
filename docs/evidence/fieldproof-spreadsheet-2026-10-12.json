@@ -1,0 +1,355 @@
+{
+  "repository": "fieldproof",
+  "baselineCommit": "0e2b6825c9de53854b84e935c9cfb34a6e02c0e9",
+  "sourceCommit": "f11b663a1a4abe434fb8f06c5ee963a3913f0ef2",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "refs/heads/main": "0e2b6825c9de53854b84e935c9cfb34a6e02c0e9",
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "refs/heads/main": "f11b663a1a4abe434fb8f06c5ee963a3913f0ef2",
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/CHANGELOG.md",
+      "bytes": 25255,
+      "sha256": "5f1781e8fcb338b6118bff5864ab47253465676b3449a902082835a4139a3782",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/README.md",
+      "bytes": 38141,
+      "sha256": "089e967e1809056f502c6735db3e0e95a462323e4be33c78ca52c12d0b2c84ac",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/spreadsheet-export/chromium-demo-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/docs/assets/spreadsheet-export/chromium-demo-1440.png",
+      "bytes": 125430,
+      "sha256": "b23219bcfe21f0c5aed71b94671e416f406e5a558f09a71e69b9bdb0607931ea",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/spreadsheet-export/chromium-demo-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/docs/assets/spreadsheet-export/chromium-demo-375.png",
+      "bytes": 44077,
+      "sha256": "8a6ae03a9ecbde7f3b2610e8b25ed97b27c5f4ee99f2dc5acce8dd4c8881b307",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/spreadsheet-export/chromium-live-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/docs/assets/spreadsheet-export/chromium-live-1440.png",
+      "bytes": 120453,
+      "sha256": "ab7309b300157d40f631ce715e124bb3f9b83658b22e8acc229da29b72f45724",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/spreadsheet-export/chromium-live-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/docs/assets/spreadsheet-export/chromium-live-375.png",
+      "bytes": 40164,
+      "sha256": "33d4796b573cac65674b210c6c4b1450f2dc6f2ac501919f82b74ec6a056167b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/spreadsheet-export/firefox-demo-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/docs/assets/spreadsheet-export/firefox-demo-1440.png",
+      "bytes": 158504,
+      "sha256": "03b953e6f2848d98072acdd2f126765117764152ced652ea1b34f19342775f42",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/spreadsheet-export/firefox-demo-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/docs/assets/spreadsheet-export/firefox-demo-375.png",
+      "bytes": 54636,
+      "sha256": "0835c52846285d533f0022320af9fdbe6af7c23cc540e37e050fcaf87c010472",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/spreadsheet-export/firefox-live-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/docs/assets/spreadsheet-export/firefox-live-1440.png",
+      "bytes": 152777,
+      "sha256": "c1b3429d08e33dfb1c63e3db2dc442c48ed5dbe8b61a1819fcb5e9d497cd6d97",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/spreadsheet-export/firefox-live-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/docs/assets/spreadsheet-export/firefox-live-375.png",
+      "bytes": 49896,
+      "sha256": "47d9d28044fc676629b1a60e1a5ca89708de3971af2fd6a441c0ed9d40bd0943",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/server/app.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/src/fieldproof/server/app.py",
+      "bytes": 19204,
+      "sha256": "1134ede98dbea73070d3f513f66e0a644fa412dd4d77c3f087e8ca3a70b7c95d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/server/spreadsheet.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/src/fieldproof/server/spreadsheet.py",
+      "bytes": 5143,
+      "sha256": "2e2cc428ffec82b8e0ccea8844a6bb416b4386605711cfd063c107255db5781c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/Dockerfile",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/Dockerfile",
+      "bytes": 151,
+      "sha256": "a439fc92fc985694aa2e7a506b83972c5c10856138284b51955e0e33374f1342",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/README.md",
+      "bytes": 7247,
+      "sha256": "24c6a34754db7ed27583dcbab6e4ca81ed9443e62966d8bd6c4d6a7996bef8c5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/cases.json",
+      "bytes": 5787,
+      "sha256": "2926bca46195d6bba3949c20d010cbed130db165dff65a01d3df2ae2afdce988",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/check_results.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/check_results.py",
+      "bytes": 3902,
+      "sha256": "41ef6e748dff74cca5172a20d7c7a0de3324b4672a977cd1446f5ead19bc0f38",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/generate-browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/generate-browser.mjs",
+      "bytes": 401,
+      "sha256": "421a22f3bc4621ffd01c0c60328e5bfd609bd21eb3379b5d8e1446284db17b05",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/generate.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/generate.py",
+      "bytes": 1962,
+      "sha256": "12b7d5016055825e47ea964863850fb6b502551a54ff4e4518620dd319c87406",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/inspect_calc.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/inspect_calc.py",
+      "bytes": 3298,
+      "sha256": "658bcc02358d5cddd0aaec75aabf5204986633918d1404700aaf17aed267d229",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/openxml/Dockerfile",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/openxml/Dockerfile",
+      "bytes": 274,
+      "sha256": "53255227fef3c58ed34bd8d9be57fb325211d18fd2a1717ebd76bbab252bd314",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/openxml/Program.cs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/openxml/Program.cs",
+      "bytes": 624,
+      "sha256": "abc5f42530cb6e9ebf8d434cc751f059fca4665e071d752bce97177a997f634c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/api.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/api.xlsx",
+      "bytes": 2867,
+      "sha256": "4b0a5517c6456b4b0240e1f770f95fd2ac15c03f56054095f9a78ddcbb3df196",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/baseline.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/baseline.csv",
+      "bytes": 1799,
+      "sha256": "453cda91feeaedc5853064be765fc752b9198a8657165be7dd9250e204c19f7e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/baseline.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/baseline.json",
+      "bytes": 4314,
+      "sha256": "5cbf7818c54080e5c002b1451ce71d0f19732e89f53b52f74fec7baab0768beb",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/browser-all.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/browser-all.json",
+      "bytes": 5294,
+      "sha256": "bfc35d7795a05ab6ccc898af0966822cbf2ea6b38acccfa462bec1bc07d8b1ec",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/browser-all.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/browser-all.xlsx",
+      "bytes": 2953,
+      "sha256": "ae764cc04b111edc3c172f3277c59af12fb761fababc4824a7ec1841911ed3a7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/browser-reviewed.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/browser-reviewed.json",
+      "bytes": 1136,
+      "sha256": "c315c02e3bdbeea8c71ad7872de5ec0d09b95951e1c016d9778a8430697fe8e0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/browser-reviewed.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/browser-reviewed.xlsx",
+      "bytes": 2171,
+      "sha256": "1d442f0e352898da39891977448061d461bdb8c775d4e41fa8b0e96b1d00dc47",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/calc-summary.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/calc-summary.json",
+      "bytes": 9115,
+      "sha256": "f0869e8aa8058ba4a3f1fdacce468701a81eed3ce2c0229c01582b3abf44acfa",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/cases-browser.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/cases-browser.xlsx",
+      "bytes": 2863,
+      "sha256": "5ce59a630a246010c82d12263cee493e9901f651f1652b236f0941ce7051539f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/cases-python.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/cases-python.xlsx",
+      "bytes": 2836,
+      "sha256": "d71d14bd513359c88680c7f90cb756a1cd21fde3ae1f82467b80a3556b56ff5f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/results/openxml-validation.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/results/openxml-validation.json",
+      "bytes": 1262,
+      "sha256": "09dcd2c79192923b2333b6f0633417face39843a83c324288831fce90586effb",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/spreadsheet-export/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/studies/spreadsheet-export/verification.json",
+      "bytes": 9181,
+      "sha256": "f8cb0046d9cc93264334e8a0c2411db49af74cca23fe7aae9e78bd52582da207",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_api.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/tests/test_api.py",
+      "bytes": 20751,
+      "sha256": "03f3276e9880b43583030dfdd447d5c9cd4b58f58991646d9b3be439a097ab07",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_spreadsheet.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/tests/test_spreadsheet.py",
+      "bytes": 3070,
+      "sha256": "bbe7162395ace61b5942e70dc74f6f0f42bc96b03576ea15c33ff7a65a36f741",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/package-lock.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/web/package-lock.json",
+      "bytes": 93811,
+      "sha256": "a357df4675b9a16f09fb60963d439edcb457f59f50b2c2b9ee0cddc97c4651e6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/package.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/web/package.json",
+      "bytes": 1243,
+      "sha256": "8687b56ea47b76181381f6c7cc37d853144688b9af0240661b34d0c64aefa6ec",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/src/export.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/web/src/export.ts",
+      "bytes": 2348,
+      "sha256": "cba7fd7bf7e930f516faa14e653b3919a32cee700e6a9e792e1f6f0caa738703",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/src/main.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/web/src/main.ts",
+      "bytes": 50581,
+      "sha256": "241c45f29b909749ec306f00373a4cd6996bfcf377e2a6b1cebb61d4d671c7b5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/src/spreadsheet.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/web/src/spreadsheet.test.ts",
+      "bytes": 2153,
+      "sha256": "fbfb592d2032f30ed5e536eecf6e7ed97610fd7cd260d1da365511dbdabe8527",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/src/spreadsheet.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/web/src/spreadsheet.ts",
+      "bytes": 4265,
+      "sha256": "15b337d6f9dd91d9b5447dca40d2f2cf6bd72c9efb804faaa65f099991dc0853",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/tests/browser/demo.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/web/tests/browser/demo.spec.mjs",
+      "bytes": 18908,
+      "sha256": "1a0e5b787e80424bbb697b88f2b3341f5af9461378e51e7d6fe47b8271a019fd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/tests/browser/live.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/web/tests/browser/live.spec.mjs",
+      "bytes": 49012,
+      "sha256": "33eb5187cc740aff47bec8b825945543bb39b953d8f511d57f8eee512b691eb0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/tests/browser/spreadsheet.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/f11b663a1a4abe434fb8f06c5ee963a3913f0ef2/web/tests/browser/spreadsheet.mjs",
+      "bytes": 3983,
+      "sha256": "1d14191ce9bdbc98420230a3c6cfecc6911f2664d349c19c817d100ae9976c13",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 44,
+  "bytes": 1153242,
+  "scope": "main source only; tags and gh-pages unchanged"
+}

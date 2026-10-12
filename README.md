@@ -167,6 +167,9 @@ and removes stale cards immediately while preserving valid sharing.
 The [Horologium Qadimi correction](docs/horologium-qadimi-2026-10-12.md)
 identifies the calendar variant and replaces a false seasonal-alignment claim
 with a community-calendar reference; the date arithmetic remains unchanged.
+The [Fieldproof spreadsheet export](docs/fieldproof-spreadsheet-2026-10-12.md)
+keeps identifiers and formula-like text literal in XLSX, with actual spreadsheet
+imports, offline browser downloads and installed-package evidence.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
