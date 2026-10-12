@@ -95,6 +95,9 @@ history, integer-arithmetic replay and actual offline exports.
 The [ToneMirror correlation study](docs/tonemirror-correlation-2026-10-12.md)
 records faster real-speech uploads, an unchanged 580-recording pitch replay,
 and verified source bytes, with separate native and browser timing limits.
+The [Errorbars feasibility repair](docs/errorbars-binary-feasibility-2026-10-12.md)
+rejects impossible binary evaluation plans and explains correlation-imposed
+minimum gaps, with independent joint tables and replayed offline downloads.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
