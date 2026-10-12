@@ -125,6 +125,9 @@ with measured before/after playback in Chromium and Firefox.
 The [TraceLens text-integrity repair](docs/tracelens-text-integrity-2026-10-12.md)
 rejects damaged encodings before they can merge different operation names,
 with installed CLI checks and offline comparison-preservation evidence.
+The [Contextscope numeric-integrity repair](docs/contextscope-numeric-integrity-2026-10-12.md)
+rejects precision loss that made distinct record IDs look like identical cached
+prompts, with SDK captures, Decimal comparisons and installed/browser evidence.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200

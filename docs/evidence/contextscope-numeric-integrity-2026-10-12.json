@@ -1,0 +1,300 @@
+{
+  "repository": "contextscope",
+  "baselineCommit": "f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c",
+  "sourceCommit": "71f3a1a02d6975f395b38a499b9a3881a6123a1b",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "3496b0635263f82117196596cd18a068e601b9c3",
+    "refs/heads/main": "f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c",
+    "refs/tags/v0.3.2": "b6f4fb90b2dea78aa96db62e776de638c13adee1",
+    "refs/tags/v0.3.2^{}": "277b103104677a530e019165ca204044c4b2028b",
+    "refs/tags/v0.3.3": "ec1c1646cb0a1656645780e7f22733cdf4bd6ed5",
+    "refs/tags/v0.3.3^{}": "4bef9ea4a570353f8131ec449bee1a29f4774fe7"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "3496b0635263f82117196596cd18a068e601b9c3",
+    "refs/heads/main": "71f3a1a02d6975f395b38a499b9a3881a6123a1b",
+    "refs/tags/v0.3.2": "b6f4fb90b2dea78aa96db62e776de638c13adee1",
+    "refs/tags/v0.3.2^{}": "277b103104677a530e019165ca204044c4b2028b",
+    "refs/tags/v0.3.3": "ec1c1646cb0a1656645780e7f22733cdf4bd6ed5",
+    "refs/tags/v0.3.3^{}": "4bef9ea4a570353f8131ec449bee1a29f4774fe7"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/CHANGELOG.md",
+      "bytes": 26131,
+      "sha256": "aa2bc13eeb30d12febaf55b2167f3b2ca7d0a2b7f40f7314b946b90ab8cad876",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/README.md",
+      "bytes": 42458,
+      "sha256": "99638b69679094bf0ec2cbc8cdd024d04e1b6966ecca12d8ebdfe96145dd54d1",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/core/read-json.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/src/core/read-json.ts",
+      "bytes": 3571,
+      "sha256": "e3964821e6a72e4797220f623e674b5a98bb91db4d901510e0088ca4203a0fc1",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/README.md",
+      "bytes": 7448,
+      "sha256": "1c951a610f1197d3e9f915928586d3cd062e5573077b1f8d937b9ec874ae7926",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/browser.mjs",
+      "bytes": 6582,
+      "sha256": "b491fd033cc47768924c808565b016d335bd787d2f78797dc79c93864ea174c9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/capture.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/capture.py",
+      "bytes": 2888,
+      "sha256": "d8ef74d118806de894ae68c78ac66de5dc6138158ccca0cc8f03cf8479ba7eed",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/cases.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/cases.mjs",
+      "bytes": 1716,
+      "sha256": "f086c53eb66f10313e2f2ff7bdf8cbf23b6bd070e1a0e9acbb3cadc39423eb80",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/compatibility.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/compatibility.mjs",
+      "bytes": 2875,
+      "sha256": "e22d68201254cb93b7390c17b0609ce987ea2a5f0caa380240a7f45b76e1e115",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/decimal-oracle.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/decimal-oracle.py",
+      "bytes": 1978,
+      "sha256": "373bf0bee74535c896419128894bd27052e171351e7c229a03c99802faf9b595",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/artifacts.json",
+      "bytes": 73134,
+      "sha256": "f3e64e0ca9c489ea819d9d59a6fe8a76ab49ca4ff2dad19087f46e9632b2071c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/browser-after.json",
+      "bytes": 21948,
+      "sha256": "e847928e6e54eab50b6af3c8524e80c981f5decd066b2ab2b61b052c2040ac6b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/browser-before.json",
+      "bytes": 13390,
+      "sha256": "07d89b2a0637d6aa977f9cfdba77ed752117d38a9818f2f3785e014aca9ca238",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/clean-browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/clean-browser.json",
+      "bytes": 21948,
+      "sha256": "e847928e6e54eab50b6af3c8524e80c981f5decd066b2ab2b61b052c2040ac6b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/clean-replay.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/clean-replay.json",
+      "bytes": 11982,
+      "sha256": "131fed96f576baa6bdb68d4195f6181acae3588df525d1be5f2d777da6803e81",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/compatibility.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/compatibility.json",
+      "bytes": 91873,
+      "sha256": "c7d7ae9dec65ad7b1e4e8f10918c6990ec530bf3356ad812421971894d3a532d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/decimal-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/decimal-after.json",
+      "bytes": 139,
+      "sha256": "a8a100bda97eb8f45e012dd639a8be16a6f27f4a74664218e9004b6f9087f9f9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/decimal-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/decimal-before.json",
+      "bytes": 116751,
+      "sha256": "6ee276e308a4672a0cf4e6e6effa2188a6eb141bf9384285c3e502c96199dc6e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/decimal-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/decimal-node20.json",
+      "bytes": 139,
+      "sha256": "edc7a95faf6c76a85f2f40a502a11a685748a51845f19381a8da1a4d28d14d25",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/decimal-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/decimal-node24.json",
+      "bytes": 140,
+      "sha256": "b4b24e2df915234a4309a099911f3715764a989e325e0cc24eed5d1aa23b1602",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/installed-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/installed-node20.json",
+      "bytes": 11982,
+      "sha256": "23d89bb858479629bd9d5a4939aa28e0eba94d2791ae74fb865abd7585a38d6f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/installed-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/installed-node24.json",
+      "bytes": 11983,
+      "sha256": "9b24d9ada9a1b339078da48b40eaa8f7db4de29dab96a1f6ba905910ebe45b62",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/numbers.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/numbers.json",
+      "bytes": 59852,
+      "sha256": "5220e6ee63e636fa1c3d52252c7479a0dccd560f85548a64b1bff05a19520d4a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/replay-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/replay-after.json",
+      "bytes": 11982,
+      "sha256": "131fed96f576baa6bdb68d4195f6181acae3588df525d1be5f2d777da6803e81",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/replay-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/replay-before.json",
+      "bytes": 17224,
+      "sha256": "bf4f3870c98f1f19a65c814ba41039bf73c99320cc2954f064ad65db51c78cfc",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/sdk-provenance.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/sdk-provenance.json",
+      "bytes": 534,
+      "sha256": "ba76e3d6cc3be62cefe91291193d970bcde090a06a4fbe339a3dcd5068b6c9e0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/sdk-requests.jsonl",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/sdk-requests.jsonl",
+      "bytes": 14240,
+      "sha256": "752a2ed3033a16f4ce2e7293359be0925706b7b35b5cd68b369b0d6267dd507a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/evidence/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/evidence/verification.json",
+      "bytes": 1464,
+      "sha256": "e9eb623fec37d62171a9d79a7a3f6ee5f1ee2f82bfe528d1759c73c7e0e390ed",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/numbers.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/numbers.mjs",
+      "bytes": 813,
+      "sha256": "b1788afb9b0e1d9d7ee3643286a25d2c08c1ac616574694a89334d02de2f100e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/replay.mjs",
+      "bytes": 2831,
+      "sha256": "a97c6e4b6dd5aaa271c2bca19a90fe1ddc05b52f60d13e0ce1704e14803a6872",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/screenshots/baseline-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/screenshots/baseline-chromium-1440.png",
+      "bytes": 136463,
+      "sha256": "fee132750c7c28221cb717a1fbafb3f5b74635ac56be991dc94fa92673ecac07",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/screenshots/baseline-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/screenshots/baseline-chromium-375.png",
+      "bytes": 127166,
+      "sha256": "6b5cba73637c5b4acf95b6a774f3a1405427c2df88fe4322dd003e16cbb90a04",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/screenshots/baseline-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/screenshots/baseline-firefox-1440.png",
+      "bytes": 213998,
+      "sha256": "61214c48439db25d2bee530c6e35d608b757d513af1d44ebb76423f68bba7690",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/screenshots/baseline-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/screenshots/baseline-firefox-375.png",
+      "bytes": 189522,
+      "sha256": "708e512f5e1098dd06a0b23106cedaa765729dbda7622d563e70eccaa206d5f6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/screenshots/verify-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/screenshots/verify-chromium-1440.png",
+      "bytes": 154061,
+      "sha256": "29047ea3d8b8915ceed1b4d78edef0da808e1c2be55112e8aee525b28b775822",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/screenshots/verify-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/screenshots/verify-chromium-375.png",
+      "bytes": 147333,
+      "sha256": "6484e3740ab46ddc736147e49389796ef0f7dd935f3245f02c225d4b0f2a82e9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/screenshots/verify-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/screenshots/verify-firefox-1440.png",
+      "bytes": 242663,
+      "sha256": "df06da4294522a25b49d33380d549b4268de8be93a975fe3995950495c8cd5cf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/screenshots/verify-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/screenshots/verify-firefox-375.png",
+      "bytes": 218669,
+      "sha256": "33d99f7391a63a9b00a6151ed8cb2569bcd776464b77b55741b80883dc516c70",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/numeric-integrity/verify-artifacts.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/studies/numeric-integrity/verify-artifacts.py",
+      "bytes": 2984,
+      "sha256": "f770b1a92e327a5d5a6b0b7d72c20011e0a4a578231ad99c8d514144cc8ff77a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/input-integrity.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/71f3a1a02d6975f395b38a499b9a3881a6123a1b/tests/input-integrity.test.ts",
+      "bytes": 10561,
+      "sha256": "deecd6e01dd78cd1e5e11f4dbe965168e71ccf65aca8c806208c4660c0c996cc",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 39,
+  "bytes": 2023416,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
