@@ -63,6 +63,9 @@ byte-preservation evidence from desktop and phone browsers.
 The [duplicate-evidence repair](docs/contextscope-duplicate-evidence-2026-10-11.md)
 keeps Contextscope from treating chains of edits as interchangeable content,
 with inspectable originals and a hash-checked public-history audit.
+The [tied-outcome repair](docs/am-i-unlucky-tied-outcomes-2026-10-12.md)
+keeps common first-attempt wins and guarantee ties from becoming false unlucky
+results in Am I Unlucky, including its downloaded cards and offline fonts.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200

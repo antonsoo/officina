@@ -1,0 +1,403 @@
+{
+  "checked_at_utc": "2026-10-12T02:39:49.383909+00:00",
+  "repository": "antonsoo/am-i-unlucky",
+  "head": "b9a9a62d99dc1488263e162a5cf2291d20d13e14",
+  "origin_main": "b9a9a62d99dc1488263e162a5cf2291d20d13e14",
+  "clean_worktree": true,
+  "gh_pages_observed": "b8a5df1b2dd38919bb49c6dd881bbc621f173b54",
+  "scope": "Authorized source push only. No package release, tag, or hosted deployment. Push workflows skipped using the documented [skip ci] marker; gh-pages unchanged. Local browser checks apply to retained build artifacts, not the hosted demo.",
+  "files": [
+    {
+      "path": ".prettierignore",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/.prettierignore",
+      "bytes": 474,
+      "sha256": "731fc28256dd0ae782de7443bcc7aed7243a3f55810bcda117431cddd937347b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/CHANGELOG.md",
+      "bytes": 12599,
+      "sha256": "2c677a59f3694d848093bf43b36565d7f4390024f553c4473f3f0397358c31e2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/README.md",
+      "bytes": 15912,
+      "sha256": "f143c902bbf40e9301cbdc2e70d97206d90bb11c7132b95e98313c0ed34fbb40",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/MATH.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/MATH.md",
+      "bytes": 27824,
+      "sha256": "e16492192524aefa2b13b39433ef89e0122bd17c78448223cd2850c3f39176fb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/after/chromium-1440-first-try-common-drop.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/after/chromium-1440-first-try-common-drop.png",
+      "bytes": 160627,
+      "sha256": "2b94222d6235d22f43d43bb67fc185901f7a1aaf116ad58acee52e4db1619745",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/after/chromium-375-first-try-common-drop-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/after/chromium-375-first-try-common-drop-card.png",
+      "bytes": 1445006,
+      "sha256": "08ed5ab1fab3346c37c7a005626fb8cb8aa950fae1eeae35504c75fc61d58287",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/after/chromium-375-first-try-common-drop.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/after/chromium-375-first-try-common-drop.png",
+      "bytes": 142418,
+      "sha256": "c304dc18f10e2d295b309b34bd61f076fb4cc40494e1f8cfbd10df68501e2e70",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/after/firefox-1440-second-roll-guarantee.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/after/firefox-1440-second-roll-guarantee.png",
+      "bytes": 329050,
+      "sha256": "fa44ea4757d0c3a9cc70835c264ad8837f982b588d38f8970f048bda5b29057d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/after/firefox-375-second-roll-guarantee-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/after/firefox-375-second-roll-guarantee-card.png",
+      "bytes": 346536,
+      "sha256": "3a7c6214d00d3983c6c1c32e2ab9f0a37a2a8d3a8636cb40d1a0da7997216fdb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/after/firefox-375-second-roll-guarantee.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/after/firefox-375-second-roll-guarantee.png",
+      "bytes": 268387,
+      "sha256": "94447fae65aac40b9e1c3ec3b7cf3f18ce0ee42f44c72343e670cab9a473a002",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/before/chromium-1440-first-try-common-drop.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/before/chromium-1440-first-try-common-drop.png",
+      "bytes": 154679,
+      "sha256": "20455551651c3e328614d23e4ec4569caae8f66aa83d518b33eb2c388ad782db",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/before/chromium-375-first-try-common-drop-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/before/chromium-375-first-try-common-drop-card.png",
+      "bytes": 1124336,
+      "sha256": "41ccbb5eb52bc818e13356ab47208888f38c4ae1a06577b1425def8dace31772",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/before/chromium-375-first-try-common-drop.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/before/chromium-375-first-try-common-drop.png",
+      "bytes": 136707,
+      "sha256": "093843260c742e6420335cb16eda4cfb8c5bdc67b1c3c37651d3770b91ac6d06",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/before/firefox-1440-second-roll-guarantee.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/before/firefox-1440-second-roll-guarantee.png",
+      "bytes": 314709,
+      "sha256": "6144dbac80f6b1758736201f6b4cca19d287efbac9126d7ffaba11680f564c36",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/before/firefox-375-second-roll-guarantee-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/before/firefox-375-second-roll-guarantee-card.png",
+      "bytes": 349303,
+      "sha256": "eee04c9cae77e9e25b3390b84085c4dbc8a657b478d66102a84546b216f1a66e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/tied-outcomes/before/firefox-375-second-roll-guarantee.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/docs/assets/tied-outcomes/before/firefox-375-second-roll-guarantee.png",
+      "bytes": 255223,
+      "sha256": "5dc6ee056b8f5471b4cf04824d6f9b6f549a9e6d854885c1019950af18d8ebf9",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/fonts/fonts.css",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/fonts/fonts.css",
+      "bytes": 9293,
+      "sha256": "da2071fed182cb15d7755eea6568998fce166949bc182eac763cd21cadde2460",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/main.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/main.ts",
+      "bytes": 13807,
+      "sha256": "09c3854e2189d059aba52b3dae87ff660f49167a7c3bf4f9c62a0b13c1d98ac7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/math/index.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/math/index.ts",
+      "bytes": 228,
+      "sha256": "ca3344cddb06d4df5db010c9a3be87c1fa00ebebbf2a57b827d30e29a9bbeab4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/math/luck.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/math/luck.ts",
+      "bytes": 1219,
+      "sha256": "e08206e3454a9674ba564240076fd5d4663f1450d54cc968b446276db22eef6e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/math/pity.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/math/pity.ts",
+      "bytes": 14501,
+      "sha256": "5db38570f399beb13fa86feda6e6df842f1f0df9807b6a3260f57f55b2e3f1f7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/math/simple.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/math/simple.ts",
+      "bytes": 9774,
+      "sha256": "f8a5df4de97180ee3abe7c3a38dfc2fcdf9d725efa0e40a2296eb9cfefafe57e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/math/tiers.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/math/tiers.ts",
+      "bytes": 2978,
+      "sha256": "82dace7d0764ebba3c6d857ae80404e7a170b8a1e4b52478b2bc27b4d8e2d2bb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/style.css",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/style.css",
+      "bytes": 19264,
+      "sha256": "efb46da81983f3e8ef0766eb25f72a72b5cf8e3027c4471b7ca8a149a187e937",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/ui/luck-card.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/ui/luck-card.ts",
+      "bytes": 5236,
+      "sha256": "db75235bb4d4f3cfd192767453f27be9b79736becacb6b06da7df731fe3c471f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/ui/luck-meter.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/ui/luck-meter.ts",
+      "bytes": 2211,
+      "sha256": "873da1568e7fe563acf6185934b18e63d352931723665839d20dd04b3595da4e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/ui/modes/pity.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/ui/modes/pity.ts",
+      "bytes": 17367,
+      "sha256": "727366094cd2583f04345e9f77f31bda0824a8885ddc91436b44dab80c1a072f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/ui/modes/simple.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/ui/modes/simple.ts",
+      "bytes": 11327,
+      "sha256": "bfb8693a8d8d9a42f3b727fee2c2bee333aa9aa9f02ca6eefec4f37c0f9368da",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/ui/pity-plan.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/ui/pity-plan.ts",
+      "bytes": 1542,
+      "sha256": "a58a9a13e95bf41cd8eb3d560a2977f49f47b479ca5fec2d106789535c151bd9",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/ui/verdict.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/src/ui/verdict.ts",
+      "bytes": 2339,
+      "sha256": "dedb759a9d6ff5ee8121194210ccc2a9676b442dd5f624e6c12fe5f2957370bc",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pity-tails/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/pity-tails/README.md",
+      "bytes": 8450,
+      "sha256": "ce6061a712c8cbebf7fe94280271a6a9012252cb7377f15cfdc415f1e3640ef5",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/publication/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/publication/README.md",
+      "bytes": 2708,
+      "sha256": "dec3fbad341421475de9769a0895d1e9dd9e64c6ea5e28da5999fd485667336b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/README.md",
+      "bytes": 10632,
+      "sha256": "5ff2c205c83923fcbc5ea26eb99de83d2440b60eba153224c5fa1493c9421d62",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/after.json",
+      "bytes": 652379,
+      "sha256": "2cac73f6c0978662f7dc79e0e1eebeb3c2140625f136436d88274199175ce843",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/artifacts.json",
+      "bytes": 23251,
+      "sha256": "85647c92ced552f39c2d900bd88f399e98ae13d9a59facaecc1bc760f0ede41e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/before.json",
+      "bytes": 465040,
+      "sha256": "2a8bd91fdc55615f533f4e2e8e9ccee00883776b182112d4244a381090149837",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/browser-after.json",
+      "bytes": 16572,
+      "sha256": "f3e6ba6785db8fc7f00838de802f59a91f115e802faad50c61445e0f34995153",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/browser-before.json",
+      "bytes": 14898,
+      "sha256": "8294f9145e4680e15b619a3af2ed126560362296b24a7684f3c643c62ec6fce7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/browser.mjs",
+      "bytes": 7359,
+      "sha256": "03c4084bd861f9787876ee4825b0e3c1ad90ff7ea290acc099eb8892667a3679",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/cases.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/cases.mjs",
+      "bytes": 606,
+      "sha256": "c4ea0e3352ba6601d21a2646451220d75b89b289587cc2d1cd7bf9a0ad1e58c4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/compare.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/compare.mjs",
+      "bytes": 2425,
+      "sha256": "1b938f5adf020d5d226eaf88bc8d208ce05834db9bfbb186e75d99e56c66ff76",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/comparison.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/comparison.json",
+      "bytes": 2494,
+      "sha256": "902d0553592998b96c04cc809e738839363133b21ac3a92b2c1a1bc88934c340",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/oracle.json",
+      "bytes": 563426,
+      "sha256": "1ac4f25e8c331333e5e5b96017b43bea04359af5fc4d18ec63158a09c4397064",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/oracle.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/oracle.py",
+      "bytes": 2345,
+      "sha256": "f75fd0faabe5a327160995df9c53e37487b4834c2e55d6e67b5492999ac5477b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/tied-outcomes/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/studies/tied-outcomes/replay.mjs",
+      "bytes": 5890,
+      "sha256": "a7bc4e5874cc64054429133d550ceded889b36af427b43383a8ade67fb80d527",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/browser/ties.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/tests/browser/ties.spec.mjs",
+      "bytes": 7315,
+      "sha256": "9a37e083f6f2fcd0554c8b64b28e73537e5608364150cfe532fb081a444ef775",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/luck-comparison.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/tests/luck-comparison.test.ts",
+      "bytes": 2534,
+      "sha256": "12e2c4b1b21a4f49d102cd8ada2308f2748117aa67de40c1d1ca840259cb7472",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/luck-meter.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/tests/luck-meter.test.ts",
+      "bytes": 1892,
+      "sha256": "2a7951c050277a4a6b7a2289c78306130ad3cf82b6d09f5e4eda1ca760957976",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/verdict.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b9a9a62d99dc1488263e162a5cf2291d20d13e14/tests/verdict.test.ts",
+      "bytes": 3527,
+      "sha256": "f4ccb31215dead42bdf597ac540c6fa979000261769aadb47e0f4bca197df580",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ]
+}
