@@ -185,6 +185,9 @@ JavaScript evidence and installed CLI/browser verification.
 The [ToneMirror audio download](docs/tonemirror-wav-export-2026-10-12.md)
 takes recordings and kept excerpts out of browser storage, with exact-sample
 WAVs, retained synthetic labels and independently decoded speech downloads.
+The [Fieldproof review archive](docs/fieldproof-review-archives-2026-10-12.md)
+reopens PDFs, claims and all saved decisions after a server restart, with fresh
+verification and unchanged exports checked through installed browsers.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
