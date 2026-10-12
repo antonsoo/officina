@@ -1,0 +1,152 @@
+{
+  "repository": "am-i-unlucky",
+  "baselineCommit": "b9a9a62d99dc1488263e162a5cf2291d20d13e14",
+  "sourceCommit": "b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "b8a5df1b2dd38919bb49c6dd881bbc621f173b54",
+    "refs/heads/main": "b9a9a62d99dc1488263e162a5cf2291d20d13e14"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "b8a5df1b2dd38919bb49c6dd881bbc621f173b54",
+    "refs/heads/main": "b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/CHANGELOG.md",
+      "bytes": 12928,
+      "sha256": "09f6f70f7b88deaefd5c5a9de579d68bde3d19159f112048dc88ebd1db8b0481",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/README.md",
+      "bytes": 16340,
+      "sha256": "a64e1ac4e483a822a6ccafb1a1b87ff90a0f71010a8ffb67a4aea7b7f21a688d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/ui/modes/simple.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/src/ui/modes/simple.ts",
+      "bytes": 13360,
+      "sha256": "e512b3bf44c24559fc583b804c9421cf1004e3b73ddb67150930163414a20206",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/README.md",
+      "bytes": 3931,
+      "sha256": "b3942cfdec1b8fa53b3a368da209bf1c7ed4885c133db555d9f5786f99989f23",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/after/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/after/chromium-1440.png",
+      "bytes": 94133,
+      "sha256": "f9d0d31f7f0e999aa2e67c4630e6e6bf3ed42638db8a947349a6fc91c00151f9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/after/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/after/chromium-375.png",
+      "bytes": 81745,
+      "sha256": "622718c28233a03a912252fc55dbd1deeab4fe257a7eba080a16a0d70d16f586",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/after/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/after/firefox-1440.png",
+      "bytes": 145728,
+      "sha256": "18295db6f72acb59a37bdae89b070011ea2e28607eb0613efa5dd5295eaebd5d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/after/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/after/firefox-375.png",
+      "bytes": 121079,
+      "sha256": "4b7fba4164d11940fa133ff2e615c2f8ed9d42efa07d26ed7a966bd85a11a021",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/after/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/after/results.json",
+      "bytes": 112323,
+      "sha256": "acd67d3d2695e3900f30da2f6982a610fc7d23267ae964ed8d6cf15851a47813",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/artifacts.json",
+      "bytes": 6363,
+      "sha256": "8159971c69b26211d2cf2e560ae95a2859ddcf5954212ab5e99bb742db836eb5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/before/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/before/chromium-1440.png",
+      "bytes": 168817,
+      "sha256": "d11950b0e18dc8ae63a9e1bc3ef30b13582c2c3ca92bc850eb4036160cadf9e0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/before/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/before/chromium-375.png",
+      "bytes": 147237,
+      "sha256": "e8740dc4c5c18a2ab7a7eb6aebb53b21c6187edfdda32557d95a87d6f4d7718f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/before/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/before/firefox-1440.png",
+      "bytes": 243445,
+      "sha256": "6e71fa78aaabd2b6e247b6e3c905936ec1776e69c952358a247c46bb8a11c13b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/before/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/before/firefox-375.png",
+      "bytes": 204293,
+      "sha256": "4747c728061192bbc973b7bc0417f923b11f9a406c9bd56a155a2db6d3be2c73",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/before/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/before/results.json",
+      "bytes": 132367,
+      "sha256": "88a3b96bf5f355b6b0513c2c995b9926d34ecedef27c728de141844f55fd77d2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/browser.mjs",
+      "bytes": 8378,
+      "sha256": "2cb494ae4ff9e246194909567831c176d2635fb5df7aa84e3a4aee168f792e64",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/compare.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/compare.py",
+      "bytes": 2740,
+      "sha256": "7f3e4ffb7b876c729ea903a424b445397d335c6e4d223be955763d5327c3e27e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/simple-inputs/comparison.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/studies/simple-inputs/comparison.json",
+      "bytes": 296,
+      "sha256": "9ec934b8a248e6acecf740b69abbbdbb6d4eb19039167f9b39e8dc7700ee4fb0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/browser/simple.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/am-i-unlucky/b6d947e2def54aa0b3ff3f62c98c9b7ec084ff4d/tests/browser/simple.spec.mjs",
+      "bytes": 7403,
+      "sha256": "38563955abc57a7076c77646270592027a2611d3391f34f6b5a514c215291b77",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 19,
+  "bytes": 1522906,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
