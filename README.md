@@ -122,6 +122,9 @@ SDK-generated examples, exact restoration and actual browser downloads.
 The [ToneMirror loop playback repair](docs/tonemirror-loop-playback-2026-10-12.md)
 keeps the waveform cursor aligned with native audio after loop entry and edits,
 with measured before/after playback in Chromium and Firefox.
+The [TraceLens text-integrity repair](docs/tracelens-text-integrity-2026-10-12.md)
+rejects damaged encodings before they can merge different operation names,
+with installed CLI checks and offline comparison-preservation evidence.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
