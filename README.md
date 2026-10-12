@@ -101,6 +101,9 @@ minimum gaps, with independent joint tables and replayed offline downloads.
 The [Ghostchars repair-write fix](docs/ghostchars-atomic-repair-2026-10-12.md)
 preserves source bytes under real kernel write failures and interrupted writes,
 with installed-package replays and explicit metadata and I/O-cost limits.
+The [Trainspotter LR gap repair](docs/trainspotter-lr-gaps-2026-10-12.md)
+keeps supported schedule changes visible around damaged readings, with a
+controlled optimizer capture and unchanged findings on the available public logs.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
