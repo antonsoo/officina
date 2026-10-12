@@ -152,6 +152,9 @@ locations, installed review flows and explicit negative external coverage.
 The [Veil IPv6 literal repair](docs/veil-ip-literals-2026-10-12.md)
 closes mixed-address and scope-ID leaks, with complete CLI/SDK redactions,
 exact restoration and unchanged public-text detections.
+The [Contextscope literal-token repair](docs/contextscope-token-literals-2026-10-12.md)
+lets tokenizer code and delimiter strings survive import, with native ordinary-text
+counts, installed CLI/browser replays and unchanged historical reports.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
