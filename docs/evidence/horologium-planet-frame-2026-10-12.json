@@ -1,0 +1,191 @@
+{
+  "repository": "horologium",
+  "baselineCommit": "26e8bbdf28e668cf034dd2277eab9b03d93f6e5d",
+  "sourceCommit": "a2ce92063118165d009612512ecbb6109fdd4b63",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "89a9d0f9c12cd32fbd1b675b46dab92124073552",
+    "refs/heads/main": "26e8bbdf28e668cf034dd2277eab9b03d93f6e5d",
+    "refs/tags/v0.2.3": "5909b09498b0400a9727ec132d059fdc74d787fd",
+    "refs/tags/v0.2.3^{}": "4098d8c9f8ea03fcf29d5777911bdfcdc0d4ef80"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "89a9d0f9c12cd32fbd1b675b46dab92124073552",
+    "refs/heads/main": "a2ce92063118165d009612512ecbb6109fdd4b63",
+    "refs/tags/v0.2.3": "5909b09498b0400a9727ec132d059fdc74d787fd",
+    "refs/tags/v0.2.3^{}": "4098d8c9f8ea03fcf29d5777911bdfcdc0d4ef80"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/CHANGELOG.md",
+      "bytes": 11716,
+      "sha256": "809b32fbdff7b6dd4cbfbc8601cada89757bbf8c1728aeeedd3c7e44e56e2072",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/README.md",
+      "bytes": 12753,
+      "sha256": "b4e0345c900037cbdb2b13edf0e631a91ee879188567aae631d1c4eb7ea24d99",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "biome.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/biome.json",
+      "bytes": 865,
+      "sha256": "c4d424224387ac8814d0c22f8e8fcea97f2c230fb30b5bd6d45dd5e5e8d3f17d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/CALENDARS.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/docs/CALENDARS.md",
+      "bytes": 20718,
+      "sha256": "b38ef7dfabf7cc3c3b28ea71acd35cbc7256bf7ef59eaa36926b5746799f988f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/planet-frame-after-desktop.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/docs/assets/planet-frame-after-desktop.png",
+      "bytes": 235016,
+      "sha256": "f35121eb067bb16a0462a23c27b3af6fd50075ddea39a8d138894681008c2a89",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/planet-frame-after-phone.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/docs/assets/planet-frame-after-phone.png",
+      "bytes": 161775,
+      "sha256": "c339c34b959e69cc1b039455d555ebfc900285bd5c4d76c832f2fd3d5911e39f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/planet-frame-before-desktop.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/docs/assets/planet-frame-before-desktop.png",
+      "bytes": 234830,
+      "sha256": "969e1362cc5782df1ea4feaa6883b41d7a46f13515a988eb7ca347b836b2f288",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/planet-frame-before-phone.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/docs/assets/planet-frame-before-phone.png",
+      "bytes": 161833,
+      "sha256": "e8c578f15e8a64eb10b7163c6c12ba22802383ae301df563e7597732823633a2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/lib/astronomy/planets.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/src/lib/astronomy/planets.ts",
+      "bytes": 6245,
+      "sha256": "3154782644beb2343f61b574dd347c37dac100d29e46e6af458a55c6912a0a08",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/lib/astronomy/precession.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/src/lib/astronomy/precession.ts",
+      "bytes": 2107,
+      "sha256": "71aa43e5da5f4403ee5b651cec7b7803169904c3bb43b010870971a210c5a169",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/README.md",
+      "bytes": 8121,
+      "sha256": "1a6b454e1b90130346e6f31241bfcddc13f400fbd4356d40ff2dc7207c41b491",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/artifacts.json",
+      "bytes": 39969,
+      "sha256": "0ed75a9a64fbba8f0e9254c3d06b0b85a0c7e0c09ed11a2d2cd041f13f9d803a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/browser-after.json",
+      "bytes": 97422,
+      "sha256": "ccc30ed90e1ba7f0ed935ed8dc2e90c59448b658704c24370cd55decdef174c6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/browser-before.json",
+      "bytes": 97459,
+      "sha256": "3a94d3297408e65f55eff6a257560da19789779440d8e97a5f94c956752d74ee",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/browser.mjs",
+      "bytes": 8901,
+      "sha256": "81b598d58667959028cbef2357f1d66b9bfc9b46df89c415ad5ef29133b50388",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/installed-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/installed-node20.json",
+      "bytes": 9211,
+      "sha256": "a38dd5b133b6d277a58ed36149f1cedce61747a44b525cf41787b9272e7258aa",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/installed-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/installed-node24.json",
+      "bytes": 9212,
+      "sha256": "2ab9f48e016f2d42669e783f124abbf75940fa15f68448af6a94e1c559b6d28d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/installed-quickstart.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/installed-quickstart.json",
+      "bytes": 1232,
+      "sha256": "3c1af33fc3d2b9d4028928df81dc25c9ecc73abac503f8e3a4b61967eecca78d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/oracle.json",
+      "bytes": 919330,
+      "sha256": "9f3fdf4a96fc9e1501d412fe8c03fb5cc3fc643583ca65e089a099c424ea2b4f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/oracle.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/oracle.py",
+      "bytes": 3576,
+      "sha256": "cac416e543ec3e4030b4e2044720057a4a9a44468a958c5e1f83d80acdd943a5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/results.json",
+      "bytes": 9211,
+      "sha256": "1e77ccdc871ffbb8f7d87556a325492d41ee6926459dcfcd460f77b4a64475c4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/verify.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/studies/planet-frame/verify.mjs",
+      "bytes": 4869,
+      "sha256": "c64643be0f6c4d9021205ed6498ddc3d99b75281084a0fbe4796019d2b78455a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/astronomy.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/tests/astronomy.test.ts",
+      "bytes": 2572,
+      "sha256": "195ac40c9004785af7827a8cf8a9a87fb2239715ef33f1939cca8a5bd1934159",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/planet-frame.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/a2ce92063118165d009612512ecbb6109fdd4b63/tests/planet-frame.test.ts",
+      "bytes": 2275,
+      "sha256": "4e06b5bec5464030ca472785db76f25648f551290ca9603b28d7b0d91fe8ccf0",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 24,
+  "bytes": 2061218,
+  "scope": "main source only; tags and gh-pages unchanged"
+}

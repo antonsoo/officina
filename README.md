@@ -137,6 +137,9 @@ receiver-side captures and installed CLI checks for both HTTP transports.
 The [Logdelta Markdown repair](docs/logdelta-markdown-literals-2026-10-12.md)
 keeps logged backticks, images and links literal in review reports, with
 reference-renderer captures and an installed minimum-Rust replay.
+The [Horologium planetary-frame correction](docs/horologium-planet-frame-2026-10-12.md)
+aligns planet pointers with the selected date's equinox, with independent JPL/ERFA
+comparisons, settled browser-needle measurements and explicit remaining errors.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
