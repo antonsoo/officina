@@ -43,8 +43,8 @@ A clean archive of implementation commit
 `6dfb2ee51953698522a91b4166efd1b2c402f1ef` passes lint, type checks and
 437 Python tests under 3.12.12; one real-Tesseract check is skipped because the
 engine is unavailable. A wheel built from the clean sdist is installed separately
-under Python 3.11.13 and 3.14.7. Each repeats those checks, all 308 cases, and ten
-actual CLI extract/verify pairs. All 20 JSON outputs match between interpreters;
+under Python 3.11.13 and 3.14.7. Each passes 437 tests with the same OCR skip,
+all 308 cases, and ten actual CLI extract/verify pairs. All 20 JSON outputs match between interpreters;
 the installed study reports match the inspected source reports byte for byte.
 
 The web build passes type checks, lint, formatting and 50 unit checks.
