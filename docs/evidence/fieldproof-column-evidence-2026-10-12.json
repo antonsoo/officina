@@ -1,0 +1,348 @@
+{
+  "repository": "fieldproof",
+  "baselineCommit": "4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25",
+  "sourceCommit": "0e2b6825c9de53854b84e935c9cfb34a6e02c0e9",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "refs/heads/main": "4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25",
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "refs/heads/main": "0e2b6825c9de53854b84e935c9cfb34a6e02c0e9",
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/CHANGELOG.md",
+      "bytes": 24900,
+      "sha256": "40ac049731f946f71640c2d7dfa3d7889f56ae98737f09bbd9925b0adbd7b3a1",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/README.md",
+      "bytes": 37569,
+      "sha256": "fe1bd286a46d774685bdd03df6f9378865d442249e5b478b168905e2d744c302",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/column-evidence/after-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/docs/assets/column-evidence/after-chromium-1440.png",
+      "bytes": 100346,
+      "sha256": "e17cc0a768b5d39fc19c4ed693b84182eab1d8c31b701b02dac0f2698b07a8ec",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/column-evidence/after-chromium.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/docs/assets/column-evidence/after-chromium.json",
+      "bytes": 16604,
+      "sha256": "4e6750d0d135cbac87552f12fdb56e38a02b0d7ca183efab5bed8bb2a62b28c5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/column-evidence/after-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/docs/assets/column-evidence/after-firefox-375.png",
+      "bytes": 77377,
+      "sha256": "899794f73cadb4045dc87f3f535802a3ee92690a6c250186510f38c4279e65f0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/column-evidence/after-firefox.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/docs/assets/column-evidence/after-firefox.json",
+      "bytes": 16604,
+      "sha256": "4e6750d0d135cbac87552f12fdb56e38a02b0d7ca183efab5bed8bb2a62b28c5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/column-evidence/before-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/docs/assets/column-evidence/before-chromium-1440.png",
+      "bytes": 86206,
+      "sha256": "5ab25e6303be673d6b708ac17a98e9552d270af227de3618990349910c10b174",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/column-evidence/before-chromium.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/docs/assets/column-evidence/before-chromium.json",
+      "bytes": 9971,
+      "sha256": "2659355436b693816b55870f935e964fcd8229b8a52139b27c231ae0d857cf8f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/column-evidence/before-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/docs/assets/column-evidence/before-firefox-375.png",
+      "bytes": 61721,
+      "sha256": "f0ed0fb36655d9be97370044a1bdbd07fb598ac7532f2713e647e5653a9761e3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/column-evidence/before-firefox.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/docs/assets/column-evidence/before-firefox.json",
+      "bytes": 9971,
+      "sha256": "2659355436b693816b55870f935e964fcd8229b8a52139b27c231ae0d857cf8f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/verification-column-evidence-2026-10-12.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/docs/verification-column-evidence-2026-10-12.md",
+      "bytes": 3587,
+      "sha256": "ed89240c61f34b1eb1cec2a8fcbe585fd6d177aeb1c170ba0e91ad97d080930f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "examples/column-evidence.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/examples/column-evidence.pdf",
+      "bytes": 1821,
+      "sha256": "2fc2b5be11dfb49eacc82b72bc1833c64d9109c6e9db373126f2995fef3f88ef",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "examples/fixtures/column-evidence.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/examples/fixtures/column-evidence.json",
+      "bytes": 1442,
+      "sha256": "68ad7ff164573a8aec505dc17b3291ec7ea620fb8d2adc67dc9f69d64d962dc2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/server/pdf_work.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/src/fieldproof/server/pdf_work.py",
+      "bytes": 5128,
+      "sha256": "c3fd361d0b5fe32c5016e0c3dfdaf297c184a5ab71d6e2835f01f85747ce941d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/verify/__init__.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/src/fieldproof/verify/__init__.py",
+      "bytes": 1025,
+      "sha256": "740faaaab55c8f47f78091074d3e6d73174a23f2c0255d375b2ff8917ba0d933",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/verify/columns.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/src/fieldproof/verify/columns.py",
+      "bytes": 10559,
+      "sha256": "55ec511208f495d3a4893a58864b2dc2faee35288c8d1d143c2a8dd734d4fd25",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/verify/engine.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/src/fieldproof/verify/engine.py",
+      "bytes": 20311,
+      "sha256": "d1a8c232f843dbfba298e545040cb0e52dd80c70af0ea9cc14d8fca90d77ab53",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/verify/rows.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/src/fieldproof/verify/rows.py",
+      "bytes": 8974,
+      "sha256": "410f8363ab9b4b89c7f0ed0185cff8b88fd4bbf63e68d92ffe3ef1a3fc397765",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/README.md",
+      "bytes": 10451,
+      "sha256": "6c2f487fe8dd9a0174f11cce5bb269439dd096527637d20930ed81f78916bfc9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/browser.config.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/browser.config.mjs",
+      "bytes": 1127,
+      "sha256": "fdf17b0e19d7496e5b08c2c17cc6657b4c8f7ffcec291c8a7575e6d372837be8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/cli_replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/cli_replay.py",
+      "bytes": 1731,
+      "sha256": "ae5917fe5f8cbf961512791c14f80143823795fed1d91746f7ca37a74d786d75",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/compare.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/compare.py",
+      "bytes": 1658,
+      "sha256": "f3520730f10f319cdfc0cf2d1043b838dbe589e41cfbb8e557a29f77bca9f04e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/compatibility.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/compatibility.py",
+      "bytes": 4607,
+      "sha256": "4d1abea7d38c2246df756496ba52301bf2737b44b73c6f5565371f1f6b819058",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/coverage.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/coverage.py",
+      "bytes": 2465,
+      "sha256": "8a44e7ad502930f8a0ce88949f0491298b4184ef32604944e7bb0749c6e0ff46",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/artifacts.json",
+      "bytes": 3465,
+      "sha256": "724b1e40f64fe15337807ac92de75f99842ce65c6fe612afdd8c838cdfc2a386",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/before-0-1-2-3-left-correct-row.report.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/before-0-1-2-3-left-correct-row.report.json",
+      "bytes": 8877,
+      "sha256": "fd889ba20f91a91018ebb063780c930c8510aca2b27e5c5351fe56c7b4720c40",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/before-0-1-2-3-left-swapped-token.report.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/before-0-1-2-3-left-swapped-token.report.json",
+      "bytes": 8807,
+      "sha256": "542bb1cfbf4dfcfdf49ea054c2733bec356390819a44d37fb8967005975f41b8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/before-cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/before-cases.json",
+      "bytes": 319325,
+      "sha256": "5a89e45b0e54bcee8a45157462b92e3623b6a0656c80bfe63e9d033da9ea55e7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/before-compatibility.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/before-compatibility.json",
+      "bytes": 5813,
+      "sha256": "8bc03e13f89617d7b3d6573cab75daa3607903c401f2900eb66b5d0cfb48abe4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/before-equal_numbers-correct.report.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/before-equal_numbers-correct.report.json",
+      "bytes": 8806,
+      "sha256": "8fd389c608ef491ebbbce07f288e088aa8d5a65242bb7f4145083507d239c072",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/before-no_headers-swapped.report.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/before-no_headers-swapped.report.json",
+      "bytes": 8871,
+      "sha256": "c2782ff4bdc7bf56a37d52e3857c5da273e7643afe12a5b73efd7bb626770e4d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/comparison.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/comparison.json",
+      "bytes": 24856,
+      "sha256": "61e05c239f974e222f4566d5f14a43c242a8d7741e868215a3649ae0738522cd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/current-0-1-2-3-left-correct-row.report.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/current-0-1-2-3-left-correct-row.report.json",
+      "bytes": 14758,
+      "sha256": "b09041d6d44c98c1c0b5325e6fc7871f188039c0349b9d9fb42bc27091362a44",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/current-0-1-2-3-left-swapped-token.report.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/current-0-1-2-3-left-swapped-token.report.json",
+      "bytes": 14970,
+      "sha256": "c0acf7fc67886a0d4e5187d6d691f9b070adff5f900dc600b0d973b786bd6849",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/current-cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/current-cases.json",
+      "bytes": 331977,
+      "sha256": "786b4c6fab41b8e5befbc2d28c6cb3504c3536bd592ca75385cf827959ffdf0f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/current-compatibility.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/current-compatibility.json",
+      "bytes": 6553,
+      "sha256": "ddf99b26fc92b6012e409606c58d5c9440c530ea8e9e67c319ac75f07395d0fd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/current-equal_numbers-correct.report.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/current-equal_numbers-correct.report.json",
+      "bytes": 15243,
+      "sha256": "c02bfe714394827f93ece4a76ad8835a1df1f303c1100157d78e718a7d4d7d58",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/current-no_headers-swapped.report.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/current-no_headers-swapped.report.json",
+      "bytes": 9643,
+      "sha256": "81702f2bbdabc53a4b4a0553a4616a58067cb1990f97ca6f31c98682f3f4c6d5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/results/external-coverage.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/results/external-coverage.json",
+      "bytes": 2685,
+      "sha256": "f3a5df07c522285ffc039be29a2d7c5a09f0857906e68cf544c1aac9c1eb8ab8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/run.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/run.py",
+      "bytes": 9195,
+      "sha256": "3f3ac12f518a21a2b81bf9eccda7dfd67d8eb9977feda214e787c92fa48262a4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/column-evidence/verify_artifacts.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/studies/column-evidence/verify_artifacts.py",
+      "bytes": 6770,
+      "sha256": "ddadaaaea0819863d97c0694a5070e1d4bf456b81d7f37c29b1fa399fc0ab8cd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_column_evidence.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/tests/test_column_evidence.py",
+      "bytes": 5607,
+      "sha256": "74f76e5550cce17097eede3013a26da1d76c7c9b614fc683b952fd2c591e5617",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/tests/browser/live.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/0e2b6825c9de53854b84e935c9cfb34a6e02c0e9/web/tests/browser/live.spec.mjs",
+      "bytes": 48738,
+      "sha256": "c4ca3b10d486ad36fa216bb68b9f7baf3e3b48cc5f8e53d493dd2fc45b3f25f3",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 43,
+  "bytes": 1371114,
+  "scope": "main source only; tags and gh-pages unchanged"
+}

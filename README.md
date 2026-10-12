@@ -146,6 +146,9 @@ with independent ephemeris evidence and bounded reuse for repeated calculations.
 The [Flakemap Markdown repair](docs/flakemap-markdown-literals-2026-10-12.md)
 keeps test names and run evidence literal in PR reports, with actual pytest XML,
 reference-rendered output and installed-package/browser verification.
+The [Fieldproof column-evidence check](docs/fieldproof-column-evidence-2026-10-12.md)
+flags quantity/price swaps that preserve multiplication, with retained header
+locations, installed review flows and explicit negative external coverage.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
