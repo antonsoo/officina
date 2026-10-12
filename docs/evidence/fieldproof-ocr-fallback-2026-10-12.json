@@ -1,0 +1,583 @@
+{
+  "checkedAtUTC": "2026-10-12T11:37:54.430038+00:00",
+  "repository": "git@github.com:antonsoo/fieldproof.git",
+  "baseline": "b6158f654986099945b563ca7a32bfc51558fb74",
+  "head": "4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25",
+  "cleanTree": true,
+  "packageVersion": "0.2.7",
+  "refsBefore": {
+    "refs/heads/gh-pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "refs/heads/main": "b6158f654986099945b563ca7a32bfc51558fb74",
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "refsAfter": {
+    "refs/heads/gh-pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "refs/heads/main": "4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25",
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "pagesAndTagsUnchanged": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/.gitattributes",
+      "bytes": 231,
+      "sha256": "85b9276d967cc800cbeda3f828b97bb8cd69f23255f26de5472438bb80202855"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/CHANGELOG.md",
+      "bytes": 24142,
+      "sha256": "2987d270f5d07438808df3919e0b67c99cf1982681da90cfb78f8ff31c5d192e"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/README.md",
+      "bytes": 36815,
+      "sha256": "f557aff55a417853a4c474b0f81437b1c23af742fee10c5413c52cd3e2d0ad4d"
+    },
+    {
+      "path": "docs/assets/ocr-fallback/cli.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/docs/assets/ocr-fallback/cli.png",
+      "bytes": 78438,
+      "sha256": "39b6b3aa9b987b1c3053cd2eced9a69c41bfd81a289dab3ccee2ce6699c6f8cc"
+    },
+    {
+      "path": "docs/assets/ocr-fallback/receipt.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/docs/assets/ocr-fallback/receipt.png",
+      "bytes": 146636,
+      "sha256": "77bb3b527c181565e70f1a0f352f7c85b4c8b99670bcecea0e20e46dee30662e"
+    },
+    {
+      "path": "src/fieldproof/cli.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/src/fieldproof/cli.py",
+      "bytes": 9409,
+      "sha256": "6339be5c503941b1f64a79cd6918480e3d00a2e34a111e67cc97e5e85f1d254a"
+    },
+    {
+      "path": "src/fieldproof/document/model.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/src/fieldproof/document/model.py",
+      "bytes": 4275,
+      "sha256": "cd230415e6ccd8b664779a9d74210ef8c317b51a310504266694cec5454d6f23"
+    },
+    {
+      "path": "src/fieldproof/document/ocr.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/src/fieldproof/document/ocr.py",
+      "bytes": 6347,
+      "sha256": "5a260a5d29206df3dd00533c646e0b18b26996ba137219e610427abe98365f29"
+    },
+    {
+      "path": "src/fieldproof/server/pdf_work.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/src/fieldproof/server/pdf_work.py",
+      "bytes": 4982,
+      "sha256": "72b36ae66d90af38f034e99d4ece7f2c6621678d4ca998c900cd59803b813a48"
+    },
+    {
+      "path": "src/fieldproof/verify/engine.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/src/fieldproof/verify/engine.py",
+      "bytes": 18815,
+      "sha256": "387edc16242f19644a162d43de53f72bf59b148ac2faaf421f60e40cfd7571fd"
+    },
+    {
+      "path": "studies/ocr-fallback/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/README.md",
+      "bytes": 9031,
+      "sha256": "48812375172fd0d1bd60f2dcc20d23f1b4327b4c24d3ecb618796a8e06ab3909"
+    },
+    {
+      "path": "studies/ocr-fallback/inputs.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/inputs.json",
+      "bytes": 1165,
+      "sha256": "4c93c755349877a5429d2b9781a3a8ad8609072ba2779076cc674775cd12aac8"
+    },
+    {
+      "path": "studies/ocr-fallback/inputs/blank-then-invoice.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/inputs/blank-then-invoice.pdf",
+      "bytes": 117234,
+      "sha256": "cd2fbab0decd16423d0713d36f20a4fa8701acac328e5382ef65a8b21e547872"
+    },
+    {
+      "path": "studies/ocr-fallback/inputs/blank.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/inputs/blank.pdf",
+      "bytes": 1298,
+      "sha256": "d90f5c0ad72a67341295f79c67274f934f38c68518de29fc6f62b39f541629cf"
+    },
+    {
+      "path": "studies/ocr-fallback/inputs/scanned-contract.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/inputs/scanned-contract.pdf",
+      "bytes": 125709,
+      "sha256": "1fedced64f4136dd77e7ef78e05601c1c6a62de01574c35aeb4b29d3502523c8"
+    },
+    {
+      "path": "studies/ocr-fallback/inputs/scanned-invoice.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/inputs/scanned-invoice.pdf",
+      "bytes": 116843,
+      "sha256": "0528fa2649d5c9c98f171585643e945e7efd05460bccf9e0842c6b4a275122f0"
+    },
+    {
+      "path": "studies/ocr-fallback/inputs/scanned-receipt.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/inputs/scanned-receipt.pdf",
+      "bytes": 55571,
+      "sha256": "744967c8493dc50cba58e8aa69a05f38e9a8752479121b5639ba375e859a9c2d"
+    },
+    {
+      "path": "studies/ocr-fallback/make_inputs.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/make_inputs.py",
+      "bytes": 2812,
+      "sha256": "dc53c1d576f8137ce98158ee3a624664f55a29462fb7a7736cecd97e770daadb"
+    },
+    {
+      "path": "studies/ocr-fallback/oracle.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/oracle.py",
+      "bytes": 7181,
+      "sha256": "97c7f2b051742be90f41f7b15acd5e4a24cbd513629ec3d7bd6e03dd6c6f44ec"
+    },
+    {
+      "path": "studies/ocr-fallback/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/replay.py",
+      "bytes": 6570,
+      "sha256": "48a0ff5970ce1e7f2bb5af0de452b28c9da3c2946c72192aaa68e5bb33c1f676"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/blank-first-page-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/blank-first-page-extract.json",
+      "bytes": 33553,
+      "sha256": "38a319bc921c52992f288c7d1de8ada0edd86913a324fd0d813271281aacee2d"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/blank-first-page-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/blank-first-page-verify.json",
+      "bytes": 33553,
+      "sha256": "0a74ba73b62ddc57ac577493cc58f03a6b998f5937620b4ee792e24478a8296f"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/native-contract-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/native-contract-extract.json",
+      "bytes": 6914,
+      "sha256": "dee3af0024eba5da5c42d0b0dda9bb7245dfc533413caea50c6e0194527e48fe"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/native-contract-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/native-contract-verify.json",
+      "bytes": 6922,
+      "sha256": "1b82ef46a953855f57bc413a4fff468087dc3b4c90ce973d6670dd38c886441d"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/native-invoice-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/native-invoice-extract.json",
+      "bytes": 33179,
+      "sha256": "201b4323bd8a185a9533aa4cbc6bdd304d31d6ec06ccd70e93ae2ecdc94026e3"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/native-invoice-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/native-invoice-verify.json",
+      "bytes": 33179,
+      "sha256": "69b9d25b6d131de565e60c0265c8eecbe627d340ab853b3da6fa95b2c4631292"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/native-receipt-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/native-receipt-extract.json",
+      "bytes": 20200,
+      "sha256": "19b3c0db2787bcf07f526c3fa9244a66e1356a26b55e5efb8f85f04f04042197"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/native-receipt-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/native-receipt-verify.json",
+      "bytes": 20200,
+      "sha256": "82d6a72d77fd9b24359e59fb1bd2e80ea4d6f8b6bb82a7474d408d63bc9538e0"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/native-without-engine-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/native-without-engine-extract.json",
+      "bytes": 33179,
+      "sha256": "201b4323bd8a185a9533aa4cbc6bdd304d31d6ec06ccd70e93ae2ecdc94026e3"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/native-without-engine-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/native-without-engine-verify.json",
+      "bytes": 33179,
+      "sha256": "69b9d25b6d131de565e60c0265c8eecbe627d340ab853b3da6fa95b2c4631292"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/replay.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/replay.json",
+      "bytes": 11936,
+      "sha256": "df4efb76815f5b90ce68fa212d67fd8899a3eb2bcdca7291613de95edab4227b"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/scanned-contract-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/scanned-contract-extract.json",
+      "bytes": 6821,
+      "sha256": "73cbf2517ffe1550905d0ce28823e5e4dbcbaea907b2e432e88c4ce66c0e6f06"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/scanned-contract-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/scanned-contract-verify.json",
+      "bytes": 6829,
+      "sha256": "51733df234e0c4fb50f639991400a944df3d2976bc36e6a64a1107a0c095c91c"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/scanned-invoice-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/scanned-invoice-extract.json",
+      "bytes": 33536,
+      "sha256": "bf6b644e54477a6d2f03964ddba9dab8e27664ceca24e4c26ab10fbaa043813e"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/scanned-invoice-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/scanned-invoice-verify.json",
+      "bytes": 33536,
+      "sha256": "01f8d7bd004ea15d5960b31e9687c8161eefa1725be75ec6adee680d5a75ce6e"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/scanned-receipt-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/scanned-receipt-extract.json",
+      "bytes": 20934,
+      "sha256": "919b2da9dadd4450e90a87a4452920bf041f3b08a06239c28ca6c48b3ea7fbb5"
+    },
+    {
+      "path": "studies/ocr-fallback/results/after/scanned-receipt-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/after/scanned-receipt-verify.json",
+      "bytes": 20934,
+      "sha256": "73089a420f39da07927efca68ae0d1d5a74659f6369204c450e915fe2cfc0075"
+    },
+    {
+      "path": "studies/ocr-fallback/results/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/artifacts.json",
+      "bytes": 25378,
+      "sha256": "0d66e516d5459823efdc4bdbc372e91d506af7c35c43cb0c85bd35476efde3b7"
+    },
+    {
+      "path": "studies/ocr-fallback/results/before/native-contract-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/before/native-contract-extract.json",
+      "bytes": 6914,
+      "sha256": "dee3af0024eba5da5c42d0b0dda9bb7245dfc533413caea50c6e0194527e48fe"
+    },
+    {
+      "path": "studies/ocr-fallback/results/before/native-contract-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/before/native-contract-verify.json",
+      "bytes": 6922,
+      "sha256": "1b82ef46a953855f57bc413a4fff468087dc3b4c90ce973d6670dd38c886441d"
+    },
+    {
+      "path": "studies/ocr-fallback/results/before/native-invoice-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/before/native-invoice-extract.json",
+      "bytes": 33179,
+      "sha256": "201b4323bd8a185a9533aa4cbc6bdd304d31d6ec06ccd70e93ae2ecdc94026e3"
+    },
+    {
+      "path": "studies/ocr-fallback/results/before/native-invoice-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/before/native-invoice-verify.json",
+      "bytes": 33179,
+      "sha256": "69b9d25b6d131de565e60c0265c8eecbe627d340ab853b3da6fa95b2c4631292"
+    },
+    {
+      "path": "studies/ocr-fallback/results/before/native-receipt-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/before/native-receipt-extract.json",
+      "bytes": 20200,
+      "sha256": "19b3c0db2787bcf07f526c3fa9244a66e1356a26b55e5efb8f85f04f04042197"
+    },
+    {
+      "path": "studies/ocr-fallback/results/before/native-receipt-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/before/native-receipt-verify.json",
+      "bytes": 20200,
+      "sha256": "82d6a72d77fd9b24359e59fb1bd2e80ea4d6f8b6bb82a7474d408d63bc9538e0"
+    },
+    {
+      "path": "studies/ocr-fallback/results/before/native-without-engine-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/before/native-without-engine-extract.json",
+      "bytes": 33179,
+      "sha256": "201b4323bd8a185a9533aa4cbc6bdd304d31d6ec06ccd70e93ae2ecdc94026e3"
+    },
+    {
+      "path": "studies/ocr-fallback/results/before/native-without-engine-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/before/native-without-engine-verify.json",
+      "bytes": 33179,
+      "sha256": "69b9d25b6d131de565e60c0265c8eecbe627d340ab853b3da6fa95b2c4631292"
+    },
+    {
+      "path": "studies/ocr-fallback/results/before/replay.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/before/replay.json",
+      "bytes": 9452,
+      "sha256": "84c6e5441cca68073ee12d068b31a291a23e670441d72061d540aa8c73447ff8"
+    },
+    {
+      "path": "studies/ocr-fallback/results/build.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/build.txt",
+      "bytes": 3253,
+      "sha256": "9183487b6f8909bf56930c6a1e63e6869a3bb3b2b3bbd3c6d77490828b530438"
+    },
+    {
+      "path": "studies/ocr-fallback/results/clean-browser.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/clean-browser.txt",
+      "bytes": 16538,
+      "sha256": "5eb2d70b743f95cb133c6e84a870ffd0daf6103212ad90656fd0db5540ee02cb"
+    },
+    {
+      "path": "studies/ocr-fallback/results/clean-python.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/clean-python.txt",
+      "bytes": 2075,
+      "sha256": "66ee93ab6ce2735ba0215b0947cd4ccb0691f5636fabfeb8300bcb755e4130d0"
+    },
+    {
+      "path": "studies/ocr-fallback/results/clean-web.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/clean-web.txt",
+      "bytes": 720,
+      "sha256": "906fd17b5ea9462a69c5148374c069f0b812cbe74a9c9c4962e68a41cf74cc44"
+    },
+    {
+      "path": "studies/ocr-fallback/results/cli.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/cli.txt",
+      "bytes": 206,
+      "sha256": "ea73c563a5c0e04ab423f71b3d21bd5966c3bac37e54b087748af83548caa0da"
+    },
+    {
+      "path": "studies/ocr-fallback/results/compatibility.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/compatibility.json",
+      "bytes": 674,
+      "sha256": "19f1750b3fa47aee39dcd0d72c359caa1db037592f394779e6a568ee9470b8ba"
+    },
+    {
+      "path": "studies/ocr-fallback/results/core311.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/core311.json",
+      "bytes": 472,
+      "sha256": "3e1120f91e5c90e491d7e1aaecec3a98307ff7bc235fdc262a8f74e7d66d80cd"
+    },
+    {
+      "path": "studies/ocr-fallback/results/installed311.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/installed311.txt",
+      "bytes": 2700,
+      "sha256": "47dedc12ef6e1edbe64ebbe1f46e8586d3d41cf648379a9d2666bc34c88b14bf"
+    },
+    {
+      "path": "studies/ocr-fallback/results/installed314.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/installed314.txt",
+      "bytes": 1964,
+      "sha256": "0a6ff4c34d6b7d725bb388e4736bf4f09034bf721a6a21e88413fd1a15bea7b9"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/blank-first-page-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/blank-first-page-extract.json",
+      "bytes": 33553,
+      "sha256": "38a319bc921c52992f288c7d1de8ada0edd86913a324fd0d813271281aacee2d"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/blank-first-page-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/blank-first-page-verify.json",
+      "bytes": 33553,
+      "sha256": "0a74ba73b62ddc57ac577493cc58f03a6b998f5937620b4ee792e24478a8296f"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/native-contract-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/native-contract-extract.json",
+      "bytes": 6914,
+      "sha256": "dee3af0024eba5da5c42d0b0dda9bb7245dfc533413caea50c6e0194527e48fe"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/native-contract-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/native-contract-verify.json",
+      "bytes": 6922,
+      "sha256": "1b82ef46a953855f57bc413a4fff468087dc3b4c90ce973d6670dd38c886441d"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/native-invoice-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/native-invoice-extract.json",
+      "bytes": 33179,
+      "sha256": "201b4323bd8a185a9533aa4cbc6bdd304d31d6ec06ccd70e93ae2ecdc94026e3"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/native-invoice-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/native-invoice-verify.json",
+      "bytes": 33179,
+      "sha256": "69b9d25b6d131de565e60c0265c8eecbe627d340ab853b3da6fa95b2c4631292"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/native-receipt-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/native-receipt-extract.json",
+      "bytes": 20200,
+      "sha256": "19b3c0db2787bcf07f526c3fa9244a66e1356a26b55e5efb8f85f04f04042197"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/native-receipt-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/native-receipt-verify.json",
+      "bytes": 20200,
+      "sha256": "82d6a72d77fd9b24359e59fb1bd2e80ea4d6f8b6bb82a7474d408d63bc9538e0"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/native-without-engine-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/native-without-engine-extract.json",
+      "bytes": 33179,
+      "sha256": "201b4323bd8a185a9533aa4cbc6bdd304d31d6ec06ccd70e93ae2ecdc94026e3"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/native-without-engine-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/native-without-engine-verify.json",
+      "bytes": 33179,
+      "sha256": "69b9d25b6d131de565e60c0265c8eecbe627d340ab853b3da6fa95b2c4631292"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/replay.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/replay.json",
+      "bytes": 11969,
+      "sha256": "428e4497f3c05e43b8179d475d5a0bc4ab10cad731cc3f7a9ce23b7aa501cacb"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/scanned-contract-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/scanned-contract-extract.json",
+      "bytes": 6821,
+      "sha256": "73cbf2517ffe1550905d0ce28823e5e4dbcbaea907b2e432e88c4ce66c0e6f06"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/scanned-contract-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/scanned-contract-verify.json",
+      "bytes": 6829,
+      "sha256": "51733df234e0c4fb50f639991400a944df3d2976bc36e6a64a1107a0c095c91c"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/scanned-invoice-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/scanned-invoice-extract.json",
+      "bytes": 33536,
+      "sha256": "bf6b644e54477a6d2f03964ddba9dab8e27664ceca24e4c26ab10fbaa043813e"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/scanned-invoice-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/scanned-invoice-verify.json",
+      "bytes": 33536,
+      "sha256": "01f8d7bd004ea15d5960b31e9687c8161eefa1725be75ec6adee680d5a75ce6e"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/scanned-receipt-extract.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/scanned-receipt-extract.json",
+      "bytes": 20934,
+      "sha256": "919b2da9dadd4450e90a87a4452920bf041f3b08a06239c28ca6c48b3ea7fbb5"
+    },
+    {
+      "path": "studies/ocr-fallback/results/minimum/scanned-receipt-verify.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/minimum/scanned-receipt-verify.json",
+      "bytes": 20934,
+      "sha256": "73089a420f39da07927efca68ae0d1d5a74659f6369204c450e915fe2cfc0075"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/blank-then-invoice-document.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/blank-then-invoice-document.json",
+      "bytes": 22316,
+      "sha256": "72f51160808ebda4c9eb7b173052516d33cea538019de6880faadb5f2fa6d745"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/blank-then-invoice-page-1.tsv",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/blank-then-invoice-page-1.tsv",
+      "bytes": 113,
+      "sha256": "0e35719be49f9866a059d5af5214c8bfcc3539daa95ee030d75e07366d94a9e0"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/blank-then-invoice-page-2.tsv",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/blank-then-invoice-page-2.tsv",
+      "bytes": 5491,
+      "sha256": "f835e7919b12aeea8405a7a55381d4268d51d1d3e21d3a42f423916aae87126f"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/oracle.json",
+      "bytes": 2747,
+      "sha256": "9f20669a86fe457dd9f8f77ab72ea5b7835f0b6dcfce41382ad62bb91255a622"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/receipt-evidence.html",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/receipt-evidence.html",
+      "bytes": 81574,
+      "sha256": "92ace8d6d90603904d8150c5ce58b20b3224fa0e0e89dcfd7cb402e682be3e13"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/scanned-contract-document.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/scanned-contract-document.json",
+      "bytes": 43848,
+      "sha256": "81ac395f5133ad43fee96154b396e0e69907296320674f46e87876e5671253af"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/scanned-contract-page-1.tsv",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/scanned-contract-page-1.tsv",
+      "bytes": 7318,
+      "sha256": "248aadf23091db876061e62b1d94d34caaf6bab7c1785cfc953a2033d3db3e59"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/scanned-contract-page-2.tsv",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/scanned-contract-page-2.tsv",
+      "bytes": 2139,
+      "sha256": "5a23522c8390c99e959faf075a142765728db4a98fbd378ed8d86ad6171cad8e"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/scanned-invoice-document.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/scanned-invoice-document.json",
+      "bytes": 22187,
+      "sha256": "2e3507789421f05569988f6fe90dbe7fbc5b2175759cf6dd0cab3269f1d871ce"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/scanned-invoice-page-1.tsv",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/scanned-invoice-page-1.tsv",
+      "bytes": 5491,
+      "sha256": "f835e7919b12aeea8405a7a55381d4268d51d1d3e21d3a42f423916aae87126f"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/scanned-receipt-document.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/scanned-receipt-document.json",
+      "bytes": 14040,
+      "sha256": "72b941061900b4761874ab4ea74ded731a4ec81dbabd01ffc2ee518aa0760685"
+    },
+    {
+      "path": "studies/ocr-fallback/results/oracle/scanned-receipt-page-1.tsv",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/oracle/scanned-receipt-page-1.tsv",
+      "bytes": 3670,
+      "sha256": "7b54b36a60d4e48002f4fc94d0817dd1a35d03ce5f3eab9e85f5c51ba47642c1"
+    },
+    {
+      "path": "studies/ocr-fallback/results/source-tests.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/source-tests.txt",
+      "bytes": 501,
+      "sha256": "c53b629cdd13d1b4a710df042b72b982c278174ac667f5781ac3248063a4dba9"
+    },
+    {
+      "path": "studies/ocr-fallback/results/tesseract-packages.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/tesseract-packages.json",
+      "bytes": 1427,
+      "sha256": "354e23d9bf49320e2833eee76b9dd5bbb78a1bd4df1df29d4e2341c0181da0fc"
+    },
+    {
+      "path": "studies/ocr-fallback/results/visuals.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/studies/ocr-fallback/results/visuals.json",
+      "bytes": 512,
+      "sha256": "b647dc58482326726ae1aa135261d4b85947f8be169cda6af7bd4367f5544ebc"
+    },
+    {
+      "path": "tests/test_ocr.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/4cb9624f6a8342003bd81d7aea11e5e7cc1ddb25/tests/test_ocr.py",
+      "bytes": 7847,
+      "sha256": "c7d8c91828d1d80a30c2b866a8a74fa4b908a72e5cd75f8342df24811ed9465e"
+    }
+  ],
+  "totalBytes": 2022310,
+  "publicationScope": "Source commits only; no package release, tag, or hosted deployment."
+}

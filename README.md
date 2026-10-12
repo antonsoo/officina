@@ -104,6 +104,9 @@ with installed-package replays and explicit metadata and I/O-cost limits.
 The [Trainspotter LR gap repair](docs/trainspotter-lr-gaps-2026-10-12.md)
 keeps supported schedule changes visible around damaged readings, with a
 controlled optimizer capture and unchanged findings on the available public logs.
+The [Fieldproof OCR fallback repair](docs/fieldproof-ocr-fallback-2026-10-12.md)
+makes the documented scanned-PDF CLI workflow work, with actual Tesseract
+captures, explicit OCR provenance and installed-package coordinate checks.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
