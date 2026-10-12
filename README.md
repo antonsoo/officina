@@ -49,6 +49,9 @@ artifacts and 151 served-file hash comparisons.
 The [document review and CI repairs](docs/verified-review-and-ci-2026-10-11.md)
 cover invoice verification budgets, Unicode source locations, partial leaderboards
 and failures recovered on retry, with installed checks and pinned public evidence.
+The [Logdelta source repairs](docs/logdelta-integrity-and-offline-2026-10-11.md)
+cover exact watches on damaged encoded logs and offline worker recreation, with
+retained input bytes, native/browser parity and clean-build verification.
 The [audio and MCP continuation](docs/verified-audio-and-mcp-2026-10-11.md) adds
 first offline audio use, bounded name comparisons and duplicate-name detection,
 with installed CLI captures and 28 matching ToneMirror production files.

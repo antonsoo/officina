@@ -1,0 +1,339 @@
+{
+  "checked_at_utc": "2026-10-12T00:08:13.615423+00:00",
+  "repository": "antonsoo/logdelta",
+  "head": "3823694b53abe9d36f05ac719b5d519e51a6eaa2",
+  "origin_main": "3823694b53abe9d36f05ac719b5d519e51a6eaa2",
+  "clean_worktree": true,
+  "gh_pages_observed": "f8c1e783c0d9b7e024f8d6c9f4ca554e389d4bdb",
+  "scope": "Authorized source push only. No package release, tag, or manual hosted deployment. Local browser checks apply to retained build artifacts, not the hosted demo.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/CHANGELOG.md",
+      "bytes": 27496,
+      "sha256": "e1fe1d888f792f6e82c4e6180cbe16e91c10baa1be6085aac92e264a192fb014",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/README.md",
+      "bytes": 41730,
+      "sha256": "119841e55086e22e85ad43221734c174d7477091b93a3a2b4931a4d057270562",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/offline-lifecycle/chromium-1440-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/offline-lifecycle/chromium-1440-after.png",
+      "bytes": 68456,
+      "sha256": "042619f672559c95aa6ffb6a5c3f3383117be8e76feb7227f13c668a8564e13b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/offline-lifecycle/chromium-1440-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/offline-lifecycle/chromium-1440-before.png",
+      "bytes": 64193,
+      "sha256": "c8f61ce2d2b617a0e7a4a2924139d8430cd9c622a078dee55b9b27b573bb32d1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/offline-lifecycle/chromium-375-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/offline-lifecycle/chromium-375-after.png",
+      "bytes": 54115,
+      "sha256": "cd2c2922cea246f280fe20c455313876d10465d10c5b0b6127303a96f04b5433",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/offline-lifecycle/chromium-375-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/offline-lifecycle/chromium-375-before.png",
+      "bytes": 45408,
+      "sha256": "6035473741e6c209d926e7b9af3a8942cd1f8e28aed96073d37777396b063b1b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/offline-lifecycle/firefox-1440-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/offline-lifecycle/firefox-1440-after.png",
+      "bytes": 106076,
+      "sha256": "a2bb2b6a6fa2c554e6ecc0efbf42397d9cbb9587344360d00c885aceea97c870",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/offline-lifecycle/firefox-1440-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/offline-lifecycle/firefox-1440-before.png",
+      "bytes": 105604,
+      "sha256": "bac353c945615136acc46371b16da9992bd4584ba7b9fa266969c77289cc42a2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/offline-lifecycle/firefox-375-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/offline-lifecycle/firefox-375-after.png",
+      "bytes": 83573,
+      "sha256": "543eba7873d91225a416b64ca216861d882b2029de920a7187e49bce03e86e29",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/offline-lifecycle/firefox-375-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/offline-lifecycle/firefox-375-before.png",
+      "bytes": 82928,
+      "sha256": "ea8337d4f8a8b0607a28207ccd9827ffe846cde3d5f8c83e8623777041e05b35",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/text-integrity/before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/text-integrity/before.png",
+      "bytes": 69237,
+      "sha256": "cbe56d81486452a8d830320d7140609bc2b1640b537ad48b8959405871689ba4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/text-integrity/chromium-1440-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/text-integrity/chromium-1440-after.png",
+      "bytes": 83234,
+      "sha256": "621a01aaf1f228b700350566852458024d42a029db0c938057726d4524337b3c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/text-integrity/chromium-375-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/text-integrity/chromium-375-after.png",
+      "bytes": 51945,
+      "sha256": "3742159abccfb561f8d3ce58cdcd76d3929ba44b983a4bcf4ce98aa16563d99a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/text-integrity/firefox-1440-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/text-integrity/firefox-1440-after.png",
+      "bytes": 121902,
+      "sha256": "9dd873f0dba91d0962f4200c726978f6dce694929fdbc5371c83ee1a99263905",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/text-integrity/firefox-375-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/docs/assets/text-integrity/firefox-375-after.png",
+      "bytes": 86776,
+      "sha256": "dbfbf9cf4dbb0ee84aad4ab6a8a759d05fe02ffc8fe0e5578658f4d3219343aa",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/analysis.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/src/analysis.rs",
+      "bytes": 35360,
+      "sha256": "ee6710c9240d83dfc2e20446fa382559174ea4602db466f6eb33bfdbed4f740a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/io.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/src/io.rs",
+      "bytes": 23518,
+      "sha256": "1d91add06cb1919655dba79d264bc7c927ba652994a2fb2c0d650a78afcd540f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/offline-lifecycle/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/offline-lifecycle/README.md",
+      "bytes": 6331,
+      "sha256": "6efb48f636cced439f21b149f040a2d7f96eb43135f0657f08124c6ae6c07d6b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/offline-lifecycle/check_native.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/offline-lifecycle/check_native.py",
+      "bytes": 1962,
+      "sha256": "697a200d2a640e621d34455a5e2630763de05a63ef8aaa3d69796855b1b60751",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/offline-lifecycle/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/offline-lifecycle/replay.mjs",
+      "bytes": 7987,
+      "sha256": "c00e15eccd3310532c767fe3827860c2c7ddcbe1eee0cb73d86e29160655744b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/offline-lifecycle/results/artifact-checks.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/offline-lifecycle/results/artifact-checks.json",
+      "bytes": 20940,
+      "sha256": "f4cde084850e035abcb5595e0c4f3c677670df09ba8711480e5e4fbad940cdeb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/offline-lifecycle/results/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/offline-lifecycle/results/browser-after.json",
+      "bytes": 107928,
+      "sha256": "b4e61012bc0c09f3d0cf9da3ac2077f18974161dfb915073b9918fdc3c82e127",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/offline-lifecycle/results/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/offline-lifecycle/results/browser-before.json",
+      "bytes": 39996,
+      "sha256": "e89be21e868c0ae81b1e85ff2bcf5030969157be84c5dc8765043463136e8fab",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/offline-lifecycle/results/native-parity.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/offline-lifecycle/results/native-parity.json",
+      "bytes": 5212,
+      "sha256": "dd42342540bc161bff61b39789fcfbc6acdf8f46706b325c5898dbd29429fc96",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/README.md",
+      "bytes": 6867,
+      "sha256": "0c4b5a92009707c61ef8332417a38d188adf8f74a415610f168ec953c641160f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/check_browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/check_browser.mjs",
+      "bytes": 7218,
+      "sha256": "a87be22888c3a484b1fb5f44a96a2ce3f8ee1f815be1abddd1f4e1cdf1dc115a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/replay.py",
+      "bytes": 4147,
+      "sha256": "3f79e0342d9c254bb42559107f4240e522fca2e68192473433b371382e83fd23",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/results/after.json",
+      "bytes": 85627,
+      "sha256": "906cf5a7aaa29616c03d826d73d47cb0e8674d427018cba3d1e98c8fe237afd1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/results/artifact-checks.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/results/artifact-checks.json",
+      "bytes": 21981,
+      "sha256": "35eadd17bba6ae3d373916c4c3229965702fc7df6a2b878fcbf70a22c982ef42",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/results/before.json",
+      "bytes": 127727,
+      "sha256": "15d93bd94006ac265e761b608fcff19dfb673d98cd29f08118eecee06baf8c86",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/results/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/results/browser-after.json",
+      "bytes": 49159,
+      "sha256": "3302798be3bdb86d72c1490ae617163444ca5e83a018b9ecf40b02fbd5ed7180",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/results/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/results/browser-before.json",
+      "bytes": 3973,
+      "sha256": "b654ff2bb1bb881ab4f0f476dc8af438f80aae8a4cc0fe0afb024aefc81c315d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/results/corpus-inputs.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/results/corpus-inputs.json",
+      "bytes": 2523,
+      "sha256": "81aa357f13e9e52506e1c07e4c7ac4bd06b6160a4201d58895aec068fed80a6c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/results/installed.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/results/installed.json",
+      "bytes": 85627,
+      "sha256": "4c1cf99077915181743b3b37cead7511fb1cc98e994534a6bd4c45e19c4f2f7d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/results/streaming-compatibility.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/results/streaming-compatibility.json",
+      "bytes": 198579,
+      "sha256": "f9f80eb0e1bc2ffce889f6a508796d26bedea19f402c6585ff2f9406f9359865",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/text-integrity/results/wasm-build.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/studies/text-integrity/results/wasm-build.json",
+      "bytes": 3761,
+      "sha256": "bd660488e6395c8ea17c9cb9a4fdf69328c1e97377b51cb8d0ad624ddd222e45",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "web/src/decode.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/web/src/decode.ts",
+      "bytes": 1373,
+      "sha256": "9432aad924d41b943632cc03c1445418a66ffdaa88c8e916cdcd45849396ff78",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "web/src/engine.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/web/src/engine.ts",
+      "bytes": 6653,
+      "sha256": "07cd346d57c727b1eedfb1eb1795ab2d34d6196f06d8b88e5cfc7761feb87cb8",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "web/src/report.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/web/src/report.ts",
+      "bytes": 6319,
+      "sha256": "4524ca03ee16e8c32b8d29e5c8b5d760848123b88971c7a74db9377f563027bc",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "web/src/worker.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/web/src/worker.ts",
+      "bytes": 3850,
+      "sha256": "9b8b7834c6c9cb99336949c8189edb619a433bd44b51b444a6c4e03a41202125",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "web/vite.config.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/3823694b53abe9d36f05ac719b5d519e51a6eaa2/web/vite.config.ts",
+      "bytes": 311,
+      "sha256": "4e0894ec3d1e23d1434df47d3d23e9485012a19b356c501ecb201dda318fa290",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ]
+}
