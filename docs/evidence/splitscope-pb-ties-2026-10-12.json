@@ -1,0 +1,1055 @@
+{
+  "checked_at_utc": "2026-10-12T08:43:31.404733+00:00",
+  "repository": "antonsoo/splitscope",
+  "baseline": "2759bed1482866cdaab8b556c71f2dd927490274",
+  "head": "403d5c6e87265a409758ff4cd4ad1a69128c893e",
+  "origin_main": "403d5c6e87265a409758ff4cd4ad1a69128c893e",
+  "clean_worktree": true,
+  "gh_pages_before": "fb235031f72932456d5a229d5bd03b8f6d4a1828",
+  "gh_pages_after": "fb235031f72932456d5a229d5bd03b8f6d4a1828",
+  "release_tag_refs_unchanged": true,
+  "release_tag_refs": {},
+  "scope": "Authorized source push only. No package release, tag or hosted deployment. Final push commit uses [skip ci]; gh-pages and tag refs unchanged. Browser checks apply to the retained local build.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/.gitignore",
+      "bytes": 227,
+      "sha256": "7249c22c0014135f44010daa989473116379663e86e7309664a31eb3169f5e38",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/CHANGELOG.md",
+      "bytes": 9955,
+      "sha256": "4833418730b416082324f802179a2d3a53f26df75aabdbba5f92fab8f0d9f2d6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/README.md",
+      "bytes": 21885,
+      "sha256": "6259544dffa8c6fde2e3bf51d5b7513e7df00166400f8f5fd3d554fc87a01720",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/chromium-exact-tie-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/chromium-exact-tie-1440.png",
+      "bytes": 45454,
+      "sha256": "3397e20fbce1a7d189d1bfebe45a115c07a68dc477ab06f6b793b683a96a744e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/chromium-exact-tie-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/chromium-exact-tie-375.png",
+      "bytes": 50099,
+      "sha256": "2fb8eda89baf5a6bcbc8ed4db1ac9a7f34fac1469ff967f78575a7e26b57f832",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/chromium-exact-tie-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/chromium-exact-tie-card.png",
+      "bytes": 90487,
+      "sha256": "c9b65449d02d0a154f3fb269dc528107c27ee163e9f08f43b450b5762208a486",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/chromium-recorded-psychic-force-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/chromium-recorded-psychic-force-1440.png",
+      "bytes": 44926,
+      "sha256": "02d4aa9bcc183b6f376be3bfd59f1c8815d79df533491af03643df708919e698",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/chromium-recorded-psychic-force-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/chromium-recorded-psychic-force-375.png",
+      "bytes": 49790,
+      "sha256": "98c11f61b7274a909d978987c5eeb10cf8e76ca5e6c0e2d2dfc975282d4bed0c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/chromium-recorded-psychic-force-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/chromium-recorded-psychic-force-card.png",
+      "bytes": 93665,
+      "sha256": "c9b25afdd466f3d2f6de989c3432a779feff3c567da1fb68c2f0ee3ee14a8448",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/firefox-exact-tie-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/firefox-exact-tie-1440.png",
+      "bytes": 52117,
+      "sha256": "181bee9f8d944fad54e28eeaf3409703acc43872187e479a01d74ad87a6d9581",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/firefox-exact-tie-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/firefox-exact-tie-375.png",
+      "bytes": 54877,
+      "sha256": "477dee26bad9d05acf834dffaa937d8ffcef23d57c793f14517ce5b3ca805704",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/firefox-exact-tie-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/firefox-exact-tie-card.png",
+      "bytes": 63060,
+      "sha256": "e923d5233b4a3de3fa2056b59096f4e8d87a300e1e9ed542e5efc5de0563dc49",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/firefox-recorded-psychic-force-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/firefox-recorded-psychic-force-1440.png",
+      "bytes": 51747,
+      "sha256": "fa01b7f350d07c249bf041449d03993606594538142f7e02cf082cdb5c603d74",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/firefox-recorded-psychic-force-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/firefox-recorded-psychic-force-375.png",
+      "bytes": 54243,
+      "sha256": "ccaca6a0a57f27bb36d1a8f68a04503eaf35cfe44accd633c40df4ada1c6c4b1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/after/firefox-recorded-psychic-force-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/after/firefox-recorded-psychic-force-card.png",
+      "bytes": 64753,
+      "sha256": "cfc63731c7cd5d28380d80b27797e66cf62146547c81c46f806ae05c69b65204",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/chromium-exact-tie-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/chromium-exact-tie-1440.png",
+      "bytes": 45399,
+      "sha256": "fcd1b19743d45b5379fcce507f1c6eb74b9129a7040914c1f8ffa59a43535a1a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/chromium-exact-tie-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/chromium-exact-tie-375.png",
+      "bytes": 50052,
+      "sha256": "8579a938eb674fb4a99f60508dbb8617b8a536df0d5253c31d54e019da979adc",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/chromium-exact-tie-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/chromium-exact-tie-card.png",
+      "bytes": 92030,
+      "sha256": "e87e7c4fe55e41ffc1cce9956b59b60ef89b597d604412703a505b066a2b27df",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/chromium-recorded-psychic-force-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/chromium-recorded-psychic-force-1440.png",
+      "bytes": 44742,
+      "sha256": "53c61fd413966cc3eab539597c2560a75c01cc5a3baa488d2ecf5d9daeeb09dc",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/chromium-recorded-psychic-force-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/chromium-recorded-psychic-force-375.png",
+      "bytes": 49735,
+      "sha256": "f9928b8d7919cfdb8337f743b7854e96643e7907ab0917f519910fa96c6138ed",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/chromium-recorded-psychic-force-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/chromium-recorded-psychic-force-card.png",
+      "bytes": 94654,
+      "sha256": "ad939ef076ecb87056e04494a88e8d1c683fb92501e48b95806984005d1545a1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/firefox-exact-tie-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/firefox-exact-tie-1440.png",
+      "bytes": 52079,
+      "sha256": "91f14730307cf475e9cf00c9082675fce5b2d11214ebb25377cc2ae2c24a316d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/firefox-exact-tie-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/firefox-exact-tie-375.png",
+      "bytes": 55009,
+      "sha256": "98ab528e45f62cbaf3ca05315a18fa7c47d34596c3fe1d6a099cfa604ddea427",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/firefox-exact-tie-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/firefox-exact-tie-card.png",
+      "bytes": 64639,
+      "sha256": "815d9be983238e3c50b5f65a6ef19326492abe7e9bbe48b6d549d2cad6c14674",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/firefox-recorded-psychic-force-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/firefox-recorded-psychic-force-1440.png",
+      "bytes": 51704,
+      "sha256": "7182bd05972fa2b78683a3b38c95e7963c7be334baeb5fa17739f4eb7f3d30a3",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/firefox-recorded-psychic-force-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/firefox-recorded-psychic-force-375.png",
+      "bytes": 54341,
+      "sha256": "d4b88b46b57e69f3127c9ef2ea835134cfb727ca384f7ebed65e4b2a58c20478",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/pb-ties/before/firefox-recorded-psychic-force-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/assets/pb-ties/before/firefox-recorded-psychic-force-card.png",
+      "bytes": 66258,
+      "sha256": "5040cfedec71f17826a0f805110cb69597c262edb43c85e31f22e467f48a1b57",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/format.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/docs/format.md",
+      "bytes": 13014,
+      "sha256": "17ad5025dc3b2e76361894d506f9b7b9c369985ec895eaa501da96a40da087d0",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/montecarlo.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/src/core/montecarlo.ts",
+      "bytes": 14369,
+      "sha256": "0ead32edbb11408a44a4435cd8c1bf8b9321881f10ab25a51b22d3b1d682806a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-odds-backtest/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-odds-backtest/README.md",
+      "bytes": 13111,
+      "sha256": "65348a32f75698e2bc7dbc4eb466ca7fc58526a2dcb56c30de9d4f705b68be53",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/README.md",
+      "bytes": 9384,
+      "sha256": "47df527c69d134687c6ca088003997e11adbf3180355a972313bd83cd7224254",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/analyze.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/analyze.ts",
+      "bytes": 1084,
+      "sha256": "618944a1fa9c8571442ac7e735e715ffcba392030ba97c8e4a972e8d4b414a21",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/backtest.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/backtest.py",
+      "bytes": 2702,
+      "sha256": "6103560217a16fe81bfd95a17b4262ea29bd3477474116b5711beffc9ac34f3b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/browser.mjs",
+      "bytes": 6678,
+      "sha256": "173f97ec98dbcaf5aa3b50370a0d7b7afbd6fab0f35b4090d6df282997eaacbd",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/cancellation-tie.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/cancellation-tie.lss",
+      "bytes": 1833,
+      "sha256": "0f6c83327a01425e71dc37c97e3592995cf2a1fa8a3701e06d1206eca0ea7ac7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/day-crossing.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/day-crossing.lss",
+      "bytes": 454035,
+      "sha256": "4574d24f4e7d0a2e0714ab705b989ebea08213089036d36b605daa1524acfcbb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/exact-tie.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/exact-tie.lss",
+      "bytes": 1796,
+      "sha256": "62d08fb961c993f4f542f2484266495b88fabe1362743f1f657b4af76773eac8",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/manifest.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/manifest.json",
+      "bytes": 17699,
+      "sha256": "9507424acd05e1a94bd92d026ce031710e0d14d0f3d6edbbca2affe2ab1a88f5",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/many-segments.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/many-segments.lss",
+      "bytes": 454036,
+      "sha256": "501de293e21194fec8789425be5f01dc0cfacfdd4d30695e6a6deef043ee13d2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/mixed-ties.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/mixed-ties.lss",
+      "bytes": 1797,
+      "sha256": "d21d61ed8ba53e8e65b1f2ef255b4107112f9ff7072deb0e1487a61972b79d73",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/mixed-with-resets.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/mixed-with-resets.lss",
+      "bytes": 1858,
+      "sha256": "695e01b252e360a8930015dd82c9e3c1f1241443de5b8e379dce765dd93c5ce1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/negative-offset-tie.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/negative-offset-tie.lss",
+      "bytes": 1817,
+      "sha256": "301521a158c3634c9660ef1829781dfab0600f4a5aeffd88c8c3fdb6c244f57c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/one-nanosecond-faster.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/one-nanosecond-faster.lss",
+      "bytes": 1808,
+      "sha256": "042892ddad7d060a5b5674f78d26cafe3287a1df996906cc1e7c5f0bcdd42ce5",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/one-nanosecond-slower.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/one-nanosecond-slower.lss",
+      "bytes": 1808,
+      "sha256": "2bb101544dc94eaaab738546c902765abde204a0a1bc9d5afb9b8003c073e3d6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/one-tick-faster.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/one-tick-faster.lss",
+      "bytes": 1802,
+      "sha256": "9242c6b48ec57c92a63bd923abcc3f70f554ad3ae1643e2d081c0cff1661c6f7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/one-tick-slower.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/one-tick-slower.lss",
+      "bytes": 1802,
+      "sha256": "89f736db8a90c6d33815152a5812f2f0361524e7d4d391c2bee4f938cbb17f49",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/precision-boundary-faster.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/precision-boundary-faster.lss",
+      "bytes": 1838,
+      "sha256": "a41cfb0ae20bede899c990d52065214be918c13d1a23f512f10e362efa0452f9",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/precision-boundary-slower.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/precision-boundary-slower.lss",
+      "bytes": 1830,
+      "sha256": "ce11faf2a67199348da64effa1f60233106d187efee1ce1149f183dcb0ea424b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/precision-boundary-tie.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/precision-boundary-tie.lss",
+      "bytes": 1827,
+      "sha256": "daf9ccd7f78b5f72091aaf708188b46e4d5865534b13e66c54a372db0a20afe9",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/precision-unavailable.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/precision-unavailable.lss",
+      "bytes": 1196,
+      "sha256": "04f859fa96e8c8a9006515ae7a6c74cd168eb202a8b9b17f376c05ac5ef20922",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/fixtures/sum-unavailable.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/fixtures/sum-unavailable.lss",
+      "bytes": 6949,
+      "sha256": "9c2fd8944c77daca4a90159554e34a43439788248341bd84db9145d1d7dc635d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/generate.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/generate.py",
+      "bytes": 5334,
+      "sha256": "0d00e129d37d9fa48663f279d5414b1e578069221377031564d8143192718ff8",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/recorded/LICENSE",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/recorded/LICENSE",
+      "bytes": 1067,
+      "sha256": "ec7710f84321e57785f1d72131e5464e235b83013e5d2ab23ff2eb7924b07eb7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/recorded/provenance.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/recorded/provenance.json",
+      "bytes": 574,
+      "sha256": "1163d8dbf8cef0691e285689facef0b54df15431f0b3dcd96352afd545b44260",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/recorded/psychic-force.lss",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/recorded/psychic-force.lss",
+      "bytes": 246568,
+      "sha256": "156a18549136a063b3e848038c278f873c32b3b078ab0169828fec1854fd31e6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after.json",
+      "bytes": 1235539,
+      "sha256": "61dc688a28ea48c59f02720ce301e9ccf9b36a8046319fb5680b0434c7d9557b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/browser.json",
+      "bytes": 26458,
+      "sha256": "87beff01f6c16ffb217d0c2a96113eef5a244a5300d57741c8931d749f4ff6d5",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-exact-tie-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-exact-tie-igt.md",
+      "bytes": 1326,
+      "sha256": "588f8cc75c2d9ccba8dcbb379d3768c13b7441e0392a52bcf252db0fb39b8f2d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-exact-tie-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-exact-tie-rta.md",
+      "bytes": 1326,
+      "sha256": "da913f3f9179e8fe2814fe0a298a9596a988f4e74e626f070ac36f110a7d203c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-mixed-ties-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-mixed-ties-igt.md",
+      "bytes": 1328,
+      "sha256": "2cdcd6c914bc57ba4675307a79db11b8c309711e04ef71b6d593be2bb3e0e2ea",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-mixed-ties-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-mixed-ties-rta.md",
+      "bytes": 1328,
+      "sha256": "cb8a4c1bb8dafa07a8797d042e88de5586318796477dffafd56eb030cf3cdcf7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-one-nanosecond-faster-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-one-nanosecond-faster-igt.md",
+      "bytes": 1342,
+      "sha256": "f4ebd11d0ca1f9e39987fa8ea259af72c45af39f7c9beed2cc073ff7857a8f3e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-one-nanosecond-faster-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-one-nanosecond-faster-rta.md",
+      "bytes": 1342,
+      "sha256": "e3addccb3a2babdd000d3b74bbcf9abc1024cdf46ef5927052b78b8fe7dec59b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-one-nanosecond-slower-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-one-nanosecond-slower-igt.md",
+      "bytes": 1316,
+      "sha256": "8d5a733a2e05607b1197f9aaee84c79c4835ea46deb902427818b6af837b384e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-one-nanosecond-slower-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-one-nanosecond-slower-rta.md",
+      "bytes": 1316,
+      "sha256": "d101f8b376cd2f2ced5f80ea33668f628f23888ce15e8033c2f509a95e9cd92a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-one-tick-faster-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-one-tick-faster-igt.md",
+      "bytes": 1336,
+      "sha256": "c1eeac68d6071ba997f1d3954e4c1c4b85fe7d304fd4898814ed06c0ae403bde",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-one-tick-faster-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-one-tick-faster-rta.md",
+      "bytes": 1336,
+      "sha256": "e2df814dae614bf6694cd4e4fd89ceccb1a2afe3b2abc2eb613f141f8619fb20",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-precision-unavailable-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-precision-unavailable-igt.md",
+      "bytes": 1130,
+      "sha256": "24e7bc2e580b9acec0775f3a8e3707d99bdf109613b82beb169123d9d75d5cba",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-precision-unavailable-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-precision-unavailable-rta.md",
+      "bytes": 1130,
+      "sha256": "5c77ea65795bdab8967c832c95bee8be19b5e1987a9b11fa4646ec9597fde080",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-recorded-psychic-force-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-recorded-psychic-force-igt.md",
+      "bytes": 888,
+      "sha256": "22ea2abdbb0c0a2ee8f220e128d9f24f73bd213f73d68ddb88fe1dba18017fff",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/chromium-recorded-psychic-force-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/chromium-recorded-psychic-force-rta.md",
+      "bytes": 1481,
+      "sha256": "650efe01b91b1088ed532067471e6450f055625f41e5ec85c6c882383acc4566",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-exact-tie-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-exact-tie-igt.md",
+      "bytes": 1326,
+      "sha256": "588f8cc75c2d9ccba8dcbb379d3768c13b7441e0392a52bcf252db0fb39b8f2d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-exact-tie-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-exact-tie-rta.md",
+      "bytes": 1326,
+      "sha256": "da913f3f9179e8fe2814fe0a298a9596a988f4e74e626f070ac36f110a7d203c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-mixed-ties-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-mixed-ties-igt.md",
+      "bytes": 1328,
+      "sha256": "2cdcd6c914bc57ba4675307a79db11b8c309711e04ef71b6d593be2bb3e0e2ea",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-mixed-ties-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-mixed-ties-rta.md",
+      "bytes": 1328,
+      "sha256": "cb8a4c1bb8dafa07a8797d042e88de5586318796477dffafd56eb030cf3cdcf7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-one-nanosecond-faster-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-one-nanosecond-faster-igt.md",
+      "bytes": 1342,
+      "sha256": "f4ebd11d0ca1f9e39987fa8ea259af72c45af39f7c9beed2cc073ff7857a8f3e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-one-nanosecond-faster-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-one-nanosecond-faster-rta.md",
+      "bytes": 1342,
+      "sha256": "e3addccb3a2babdd000d3b74bbcf9abc1024cdf46ef5927052b78b8fe7dec59b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-one-nanosecond-slower-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-one-nanosecond-slower-igt.md",
+      "bytes": 1316,
+      "sha256": "8d5a733a2e05607b1197f9aaee84c79c4835ea46deb902427818b6af837b384e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-one-nanosecond-slower-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-one-nanosecond-slower-rta.md",
+      "bytes": 1316,
+      "sha256": "d101f8b376cd2f2ced5f80ea33668f628f23888ce15e8033c2f509a95e9cd92a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-one-tick-faster-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-one-tick-faster-igt.md",
+      "bytes": 1336,
+      "sha256": "c1eeac68d6071ba997f1d3954e4c1c4b85fe7d304fd4898814ed06c0ae403bde",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-one-tick-faster-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-one-tick-faster-rta.md",
+      "bytes": 1336,
+      "sha256": "e2df814dae614bf6694cd4e4fd89ceccb1a2afe3b2abc2eb613f141f8619fb20",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-precision-unavailable-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-precision-unavailable-igt.md",
+      "bytes": 1130,
+      "sha256": "24e7bc2e580b9acec0775f3a8e3707d99bdf109613b82beb169123d9d75d5cba",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-precision-unavailable-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-precision-unavailable-rta.md",
+      "bytes": 1130,
+      "sha256": "5c77ea65795bdab8967c832c95bee8be19b5e1987a9b11fa4646ec9597fde080",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-recorded-psychic-force-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-recorded-psychic-force-igt.md",
+      "bytes": 888,
+      "sha256": "22ea2abdbb0c0a2ee8f220e128d9f24f73bd213f73d68ddb88fe1dba18017fff",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/after/firefox-recorded-psychic-force-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/after/firefox-recorded-psychic-force-rta.md",
+      "bytes": 1481,
+      "sha256": "650efe01b91b1088ed532067471e6450f055625f41e5ec85c6c882383acc4566",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/backtest.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/backtest.json",
+      "bytes": 7856,
+      "sha256": "efb09c289c0adfbd3bd2d1a309b0b0ea0f23adc994120588bfdb01f4e393ee44",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before.json",
+      "bytes": 1267687,
+      "sha256": "7c6eb8004a3d1826fa376141a46aede90ccbdce4ac16b85d43d3a0e9bcd6620e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/browser.json",
+      "bytes": 27365,
+      "sha256": "e86992d244655123156acdeb83ffad6f3e818fa94b13b0e88d4f162d927f5c46",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-exact-tie-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-exact-tie-igt.md",
+      "bytes": 1329,
+      "sha256": "c36f213bb63c0bcd63e3aacb90c0506abf9d41854333f2c6284b8e604497cf27",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-exact-tie-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-exact-tie-rta.md",
+      "bytes": 1329,
+      "sha256": "6c8137f74955e1371d992739a2357b25dc3560fc714c8886d5b82279299d5fec",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-mixed-ties-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-mixed-ties-igt.md",
+      "bytes": 1328,
+      "sha256": "6ac6a7d1e58113b3c1eed88d725c73f3b1777f1c78510171618680ac7af9eb8d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-mixed-ties-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-mixed-ties-rta.md",
+      "bytes": 1328,
+      "sha256": "85e7653991af4d6f651a4982518068b0098b392dd10047c4a2d15c8b45505c45",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-one-nanosecond-faster-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-one-nanosecond-faster-igt.md",
+      "bytes": 1342,
+      "sha256": "f4ebd11d0ca1f9e39987fa8ea259af72c45af39f7c9beed2cc073ff7857a8f3e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-one-nanosecond-faster-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-one-nanosecond-faster-rta.md",
+      "bytes": 1342,
+      "sha256": "e3addccb3a2babdd000d3b74bbcf9abc1024cdf46ef5927052b78b8fe7dec59b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-one-nanosecond-slower-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-one-nanosecond-slower-igt.md",
+      "bytes": 1316,
+      "sha256": "8d5a733a2e05607b1197f9aaee84c79c4835ea46deb902427818b6af837b384e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-one-nanosecond-slower-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-one-nanosecond-slower-rta.md",
+      "bytes": 1316,
+      "sha256": "d101f8b376cd2f2ced5f80ea33668f628f23888ce15e8033c2f509a95e9cd92a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-one-tick-faster-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-one-tick-faster-igt.md",
+      "bytes": 1336,
+      "sha256": "c1eeac68d6071ba997f1d3954e4c1c4b85fe7d304fd4898814ed06c0ae403bde",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-one-tick-faster-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-one-tick-faster-rta.md",
+      "bytes": 1336,
+      "sha256": "e2df814dae614bf6694cd4e4fd89ceccb1a2afe3b2abc2eb613f141f8619fb20",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-precision-unavailable-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-precision-unavailable-igt.md",
+      "bytes": 1300,
+      "sha256": "5ef9cdd26b96a38c97ca42bab90b54283efef587c1099988a20f6d63630861e2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-precision-unavailable-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-precision-unavailable-rta.md",
+      "bytes": 1300,
+      "sha256": "f66be964b728c237efeb4a9c3dc7b6f2419f8e003f8a1b75d48f761b8ff08eaa",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-recorded-psychic-force-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-recorded-psychic-force-igt.md",
+      "bytes": 888,
+      "sha256": "22ea2abdbb0c0a2ee8f220e128d9f24f73bd213f73d68ddb88fe1dba18017fff",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/chromium-recorded-psychic-force-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/chromium-recorded-psychic-force-rta.md",
+      "bytes": 1484,
+      "sha256": "768564ca419240f610d16c25a1caca333c08fb560ac3ae885d24a3ecfe293c38",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-exact-tie-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-exact-tie-igt.md",
+      "bytes": 1329,
+      "sha256": "c36f213bb63c0bcd63e3aacb90c0506abf9d41854333f2c6284b8e604497cf27",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-exact-tie-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-exact-tie-rta.md",
+      "bytes": 1329,
+      "sha256": "6c8137f74955e1371d992739a2357b25dc3560fc714c8886d5b82279299d5fec",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-mixed-ties-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-mixed-ties-igt.md",
+      "bytes": 1328,
+      "sha256": "6ac6a7d1e58113b3c1eed88d725c73f3b1777f1c78510171618680ac7af9eb8d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-mixed-ties-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-mixed-ties-rta.md",
+      "bytes": 1328,
+      "sha256": "85e7653991af4d6f651a4982518068b0098b392dd10047c4a2d15c8b45505c45",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-one-nanosecond-faster-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-one-nanosecond-faster-igt.md",
+      "bytes": 1342,
+      "sha256": "f4ebd11d0ca1f9e39987fa8ea259af72c45af39f7c9beed2cc073ff7857a8f3e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-one-nanosecond-faster-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-one-nanosecond-faster-rta.md",
+      "bytes": 1342,
+      "sha256": "e3addccb3a2babdd000d3b74bbcf9abc1024cdf46ef5927052b78b8fe7dec59b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-one-nanosecond-slower-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-one-nanosecond-slower-igt.md",
+      "bytes": 1316,
+      "sha256": "8d5a733a2e05607b1197f9aaee84c79c4835ea46deb902427818b6af837b384e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-one-nanosecond-slower-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-one-nanosecond-slower-rta.md",
+      "bytes": 1316,
+      "sha256": "d101f8b376cd2f2ced5f80ea33668f628f23888ce15e8033c2f509a95e9cd92a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-one-tick-faster-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-one-tick-faster-igt.md",
+      "bytes": 1336,
+      "sha256": "c1eeac68d6071ba997f1d3954e4c1c4b85fe7d304fd4898814ed06c0ae403bde",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-one-tick-faster-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-one-tick-faster-rta.md",
+      "bytes": 1336,
+      "sha256": "e2df814dae614bf6694cd4e4fd89ceccb1a2afe3b2abc2eb613f141f8619fb20",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-precision-unavailable-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-precision-unavailable-igt.md",
+      "bytes": 1300,
+      "sha256": "5ef9cdd26b96a38c97ca42bab90b54283efef587c1099988a20f6d63630861e2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-precision-unavailable-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-precision-unavailable-rta.md",
+      "bytes": 1300,
+      "sha256": "f66be964b728c237efeb4a9c3dc7b6f2419f8e003f8a1b75d48f761b8ff08eaa",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-recorded-psychic-force-igt.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-recorded-psychic-force-igt.md",
+      "bytes": 888,
+      "sha256": "22ea2abdbb0c0a2ee8f220e128d9f24f73bd213f73d68ddb88fe1dba18017fff",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/before/firefox-recorded-psychic-force-rta.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/before/firefox-recorded-psychic-force-rta.md",
+      "bytes": 1484,
+      "sha256": "768564ca419240f610d16c25a1caca333c08fb560ac3ae885d24a3ecfe293c38",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/logs/after-complete.log",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/logs/after-complete.log",
+      "bytes": 113,
+      "sha256": "f6230b0a459e3623fb5787095efd654fbb33ce6513875e33c2310c833ad26d2b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/logs/backtest-after.log",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/logs/backtest-after.log",
+      "bytes": 106,
+      "sha256": "14270f820faa1bc3d7337f3094c3f84a7cbf8ce0892a94ad3c2546ad4fac67f6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/logs/backtest-before.log",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/logs/backtest-before.log",
+      "bytes": 106,
+      "sha256": "14270f820faa1bc3d7337f3094c3f84a7cbf8ce0892a94ad3c2546ad4fac67f6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/logs/before-complete.log",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/logs/before-complete.log",
+      "bytes": 113,
+      "sha256": "287721fab32b0c386f872351c17ee8012e7183effac658ac472b9b9957139da2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/logs/browser-before-final.log",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/logs/browser-before-final.log",
+      "bytes": 122,
+      "sha256": "b7868eacd3b9b83bc883679f3419e4e60c571eb68041da3803180c6d928a55b1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/logs/browser-clean.log",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/logs/browser-clean.log",
+      "bytes": 121,
+      "sha256": "4d2bba2d4cced742e40ed3d848e0c070447f797fbf0d9ab124eaaf6d31b3a573",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/logs/clean-browser-retry-final.log",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/logs/clean-browser-retry-final.log",
+      "bytes": 555,
+      "sha256": "ef148764385bbf023785304baeff0164e7b0042076dcda19288d49f969d629fb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/logs/clean-browser-tests.log",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/logs/clean-browser-tests.log",
+      "bytes": 14718,
+      "sha256": "fe352ecca3eb809089116d865c0eeca2fc714cb4b2b9b01c2cb9a655582d352a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/logs/clean-gate-attempt.log",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/logs/clean-gate-attempt.log",
+      "bytes": 15833,
+      "sha256": "867d48100296facfbaf3e1ecf551a95c83fb90f6c2055e0d33bef9e91b4afb23",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/logs/clean-gate.log",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/logs/clean-gate.log",
+      "bytes": 14020,
+      "sha256": "523b1aad06a3a70beb69b28cdd2420fac79c9d638a12e01c6252ecaa18c29832",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/recorded-calculation.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/recorded-calculation.json",
+      "bytes": 1212,
+      "sha256": "a379a7c90ef723cab13928536df5959b607f74a166d199684075fe76a471c7f4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/results/verification.json",
+      "bytes": 17319,
+      "sha256": "fb1bbb092ff832a209a55aa38f81a9e8b8eec555029d33e199a5ee7200235795",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/pb-ties/verify.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/studies/pb-ties/verify.py",
+      "bytes": 10283,
+      "sha256": "074b219c11e437b6782547ed1146a7d34333da278570c92fa2946f31a65f20f1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/pb-ties.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/splitscope/403d5c6e87265a409758ff4cd4ad1a69128c893e/tests/pb-ties.test.ts",
+      "bytes": 2936,
+      "sha256": "4c6291bdbc8f35e61559e891dada1d023a8bb75c60b8314964a99b88ab1bcae3",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ]
+}

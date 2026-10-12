@@ -89,6 +89,9 @@ partly masked, with synthetic SDK captures, actual downloads and source evidence
 The [Fieldproof convention repair](docs/fieldproof-mixed-conventions-2026-10-12.md)
 keeps caller defaults from verifying contradictory interpretations of the same
 PDF quote, with receipt compatibility and installed review/export evidence.
+The [Splitscope exact-tie repair](docs/splitscope-pb-ties-2026-10-12.md)
+keeps equal recorded times from inflating PB forecasts, with an unchanged public
+history, integer-arithmetic replay and actual offline exports.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
