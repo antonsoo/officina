@@ -116,6 +116,9 @@ child-process observations and installed checks on Node 20 and 24.
 The [mcplint environment-file syntax repair](docs/mcplint-envfile-syntax-2026-10-12.md)
 keeps inline comments out of credentials and preserves quoted values, verified
 against VS Code's parser and actual local authentication fixtures.
+The [Veil credential-URL repair](docs/veil-credential-urls-2026-10-12.md)
+masks complete signed cloud links and OAuth fragment tokens, with offline
+SDK-generated examples, exact restoration and actual browser downloads.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
