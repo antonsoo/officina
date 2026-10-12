@@ -1,0 +1,307 @@
+{
+  "checked_at_utc": "2026-10-12T04:05:56.870654+00:00",
+  "repository": "antonsoo/ghostchars",
+  "head": "94580b4718596f9c464883813ad2e79664af64d7",
+  "origin_main": "94580b4718596f9c464883813ad2e79664af64d7",
+  "clean_worktree": true,
+  "gh_pages_observed": "1850946585995ad189416c171873a0be96aaf4e9",
+  "scope": "Authorized source push only. No package release, tag, or hosted deployment. Push workflows skipped using the documented [skip ci] marker; gh-pages unchanged. Local browser checks apply to retained build artifacts, not the hosted demo.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/CHANGELOG.md",
+      "bytes": 17238,
+      "sha256": "c586f5743beb8f95c08257150b90ec28302729b5662d23087eb6061771c05bfe",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/README.md",
+      "bytes": 28060,
+      "sha256": "bdab94d6691b4e5cf7647af7bc6498db440473ee779b391aed00999b6a12b707",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "dist/cli.js",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/dist/cli.js",
+      "bytes": 259942,
+      "sha256": "d3ccd26aa81a7ffd8a2b50466f303dd27a0e5c10efcad816bd3b7cfd0956e658",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/standardized-variants/after/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/docs/assets/standardized-variants/after/chromium-1440.png",
+      "bytes": 61818,
+      "sha256": "995ff4fc3da79f06c84ed29811cc618c44df62287b7cfb3fc1612557c4ff4ba5",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/standardized-variants/after/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/docs/assets/standardized-variants/after/chromium-375.png",
+      "bytes": 45440,
+      "sha256": "dade8be0c7fdfffcb6f5190167ed3817f0a91fc8ad82518f4091a1a74ce8d5d0",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/standardized-variants/after/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/docs/assets/standardized-variants/after/firefox-1440.png",
+      "bytes": 98429,
+      "sha256": "37f6037d79b10c672c742001abf339df13a6be010b57736569a6227ec03f6e13",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/standardized-variants/after/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/docs/assets/standardized-variants/after/firefox-375.png",
+      "bytes": 69899,
+      "sha256": "05d4e0459fb1c0a54cf492d359b464cee9fb8786673e0a62cebff1197b86d8b2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/standardized-variants/before/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/docs/assets/standardized-variants/before/chromium-1440.png",
+      "bytes": 67651,
+      "sha256": "5b38babcd8688b81c0a76ad3f7bafc66f243182d2928587700ab1fe9af98fe8e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/standardized-variants/before/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/docs/assets/standardized-variants/before/chromium-375.png",
+      "bytes": 48573,
+      "sha256": "a19a4a8968a7a7bf240b3db9765d2dace4b7bee8157bdfc087ba79551ddb427a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/standardized-variants/before/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/docs/assets/standardized-variants/before/firefox-1440.png",
+      "bytes": 110258,
+      "sha256": "263baeb476ad4f2463bda5f4e222f0a5e02321a6c02e1de2bc5f1c61b2ffd8e1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/standardized-variants/before/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/docs/assets/standardized-variants/before/firefox-375.png",
+      "bytes": 75317,
+      "sha256": "b0349c50b80d04f4cd8cb4d43efe6f4f77939c8bec992243a8d713d628c3145a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "scripts/generate-unicode-data.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/scripts/generate-unicode-data.mjs",
+      "bytes": 12435,
+      "sha256": "6ceab70a7777b53ea5b68911c4b1cb5055dca4180e7c6f2f37f00c7f361b9f9b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/decodeVariationSelectors.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/src/core/decodeVariationSelectors.ts",
+      "bytes": 9186,
+      "sha256": "243b0364919e2f35257f1991efb04dcb7712b06a1051173e892f534b2f7411ce",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/rules/variationSelectors.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/src/core/rules/variationSelectors.ts",
+      "bytes": 4483,
+      "sha256": "2d9f13a4c3948371c9ca5620855e75f61f4243ae588dcb7e57eb37d4d0c4388d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/generated/manifest.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/src/generated/manifest.json",
+      "bytes": 1605,
+      "sha256": "034f754d5d4962b345869800eeae397235dd0bf4af06ae3bbaad956242442f81",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/generated/standardized-variants.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/src/generated/standardized-variants.ts",
+      "bytes": 25213,
+      "sha256": "61bcc8246410424c5a2116bd45279a44217e41a05c9d40b897cb1c941b6056d3",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/README.md",
+      "bytes": 8329,
+      "sha256": "86d92c1256ce677175c151d62fb8cb07e84d08629aa59fd92457160457eb2f0a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/StandardizedVariants-17.0.0.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/StandardizedVariants-17.0.0.txt",
+      "bytes": 71251,
+      "sha256": "f55100b2fb11d3d75a37b8c1ab752192dbd1c4b12328c5ec6b38e3807c0ca597",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/artifacts.json",
+      "bytes": 26406,
+      "sha256": "60335504a40736ba09d814f5c63a5f9637f7ad8d12adcf043a3f161c8cf72ea3",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/browser-after.json",
+      "bytes": 13986,
+      "sha256": "28ad03bdbd821ea13a7e877159bf2509e34a4058421d5875dff5669787a049bb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/browser-before.json",
+      "bytes": 14178,
+      "sha256": "ec8ff979069f2cbb3e55661d7b1c9e0b79d910253371b755923f7167e9eb7beb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/browser.mjs",
+      "bytes": 7418,
+      "sha256": "6bb13502991f25ed5a669127b4bdf5a1509249d4d506788800ed21090a0ac59c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/cli.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/cli.json",
+      "bytes": 72003,
+      "sha256": "406892ae9bcd0c9d9ef24b5328c459c67e0d22bf6fd4b9bd28ff4a80bb7ce06e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/cli.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/cli.mjs",
+      "bytes": 4116,
+      "sha256": "4819a386d302fb99ef61a7b8408caf8bbc78e1311e999fdeb067b148db9fbf44",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/corpus.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/corpus.json",
+      "bytes": 882,
+      "sha256": "20964ee45187b90e6ddee081f6e473780f54d5e55b6a9ed0d7833de01c6cab94",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/corpus.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/corpus.mjs",
+      "bytes": 4492,
+      "sha256": "d7d8abc95ae1ba14d24779ee73ed61acdb97a411797d66594b1a391bd6b4f520",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/font-faces.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/font-faces.json",
+      "bytes": 2476,
+      "sha256": "f48c3426165777504b240f03682b8d13e64f724bace7e16fbba6a6381317ddf8",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/generator-verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/generator-verification.json",
+      "bytes": 1040,
+      "sha256": "d521079573e0e444ec8ec53c5094e318051d93490c4864fcc6523624b7f6c18a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/installed-cli-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/installed-cli-node20.json",
+      "bytes": 72028,
+      "sha256": "29b6f0a8b6710cd66f7a276c4a38a89aa3beb5db177b3720849bd31d6b886981",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/installed-cli-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/installed-cli-node24.json",
+      "bytes": 71999,
+      "sha256": "a9528207873ce20f25375373408659349b4517f5a4a35be84507e1e0e8cd550b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/installed-oracle-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/installed-oracle-node20.json",
+      "bytes": 371316,
+      "sha256": "caaabf0c8a39d336108fe3b72b16ba277c1fa9dca6ed74426c607cc3c562b3df",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/installed-oracle-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/installed-oracle-node24.json",
+      "bytes": 371317,
+      "sha256": "5de8b72a3d9f7689bbe03b9034be8bf6f2058e62fd55e196f1fe17f2a3d19471",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/oracle.json",
+      "bytes": 371316,
+      "sha256": "ea741afe6988f274311262d1931c72c472dc9c0c938bca08dca2eee1e0899cbe",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/standardized-variants/oracle.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/studies/standardized-variants/oracle.mjs",
+      "bytes": 5008,
+      "sha256": "edc3ea70a550efefb09b0f1a138460d3d391c529281f2da83bdf95c43902dbc3",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/variationSelectors.spec.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/tests/variationSelectors.spec.ts",
+      "bytes": 3290,
+      "sha256": "571c4f1bead6a7ded5cb6b282dc79d01eb6e2333cdfbdfde59525d2f11763254",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "web/src/fonts/fonts.css",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/web/src/fonts/fonts.css",
+      "bytes": 8939,
+      "sha256": "a6bbd3a6748c45c056356bc129deac5ce7c0308c4adb1198dd2482e64bba7495",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "web/tests/workspace.pw.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/94580b4718596f9c464883813ad2e79664af64d7/web/tests/workspace.pw.ts",
+      "bytes": 17645,
+      "sha256": "ce272407802aaa0ec6110141b839b4db7a385c458f7e94b5205dd8811f0b4a02",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ]
+}

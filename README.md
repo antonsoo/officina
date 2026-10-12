@@ -72,6 +72,10 @@ keeps known unreadable positions as trajectory boundaries, removes cross-gap
 claims and recovers a valid later setback. Installed CLI/browser evidence and
 an exact replay of 4,259 cached public reports retain the source and deployment
 boundaries.
+The [registered-variant repair](docs/ghostchars-standardized-variants-2026-10-12.md)
+keeps Ghostchars from deleting legitimate Unicode glyph selectors while
+preserving payload detection, with installed file-repair evidence and an exact
+scan/sanitizer/reveal replay of the cached public-text corpus.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
