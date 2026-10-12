@@ -107,6 +107,9 @@ controlled optimizer capture and unchanged findings on the available public logs
 The [Fieldproof OCR fallback repair](docs/fieldproof-ocr-fallback-2026-10-12.md)
 makes the documented scanned-PDF CLI workflow work, with actual Tesseract
 captures, explicit OCR provenance and installed-package coordinate checks.
+The [Stutterscope stream-identity repair](docs/stutterscope-stream-identity-2026-10-12.md)
+keeps applications separate after process IDs are removed, with corrected FPS
+and stutter results, installed CLI replays and unchanged public-capture controls.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
