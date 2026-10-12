@@ -113,6 +113,9 @@ and stutter results, installed CLI replays and unchanged public-capture controls
 The [mcplint environment-removal repair](docs/mcplint-env-unset-2026-10-12.md)
 honors variables explicitly removed from a server configuration, with actual
 child-process observations and installed checks on Node 20 and 24.
+The [mcplint environment-file syntax repair](docs/mcplint-envfile-syntax-2026-10-12.md)
+keeps inline comments out of credentials and preserves quoted values, verified
+against VS Code's parser and actual local authentication fixtures.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200

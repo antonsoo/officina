@@ -1,0 +1,153 @@
+{
+  "repository": "mcplint",
+  "baselineCommit": "a3012df766f87b5ee753fca93249cba0458bc47d",
+  "sourceCommit": "160cd9bae63649970c308af9f2d3b0c40d27b0f2",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "df5f219b817eed5414081a5052da0036a93b31a1",
+    "refs/heads/main": "a3012df766f87b5ee753fca93249cba0458bc47d",
+    "refs/tags/v0.3.2": "998e00937453f8b3a2b21c5c9504f88430b50a25",
+    "refs/tags/v0.3.2^{}": "0b244127c407a072b56470d363b970922d2bf30e",
+    "refs/tags/v0.3.3": "916cdcc69b9ca6acc530fe1d7633b11656bff568",
+    "refs/tags/v0.3.3^{}": "65afe9b252322d13b29e0efe39dced8725c62cc2"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "df5f219b817eed5414081a5052da0036a93b31a1",
+    "refs/heads/main": "160cd9bae63649970c308af9f2d3b0c40d27b0f2",
+    "refs/tags/v0.3.2": "998e00937453f8b3a2b21c5c9504f88430b50a25",
+    "refs/tags/v0.3.2^{}": "0b244127c407a072b56470d363b970922d2bf30e",
+    "refs/tags/v0.3.3": "916cdcc69b9ca6acc530fe1d7633b11656bff568",
+    "refs/tags/v0.3.3^{}": "65afe9b252322d13b29e0efe39dced8725c62cc2"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/CHANGELOG.md",
+      "bytes": 20169,
+      "sha256": "424147bd3206b286b225308005ae63356426b879e726939db4d3943fa1b06c02",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/README.md",
+      "bytes": 36653,
+      "sha256": "a18b691733bd337624469cccac824e2c8f465146ef55f71d4dd4f036affb253f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/envfile-syntax.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/docs/assets/envfile-syntax.png",
+      "bytes": 332839,
+      "sha256": "a8ec31664a097838b5fa0ae1dd0e397e974215b27058224f45c8299964e7e007",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/collectors/config.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/src/collectors/config.ts",
+      "bytes": 12737,
+      "sha256": "78864763849695ade734b2ee62237ccac9e83884e41bea77440c6216ca1b161b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/collectors/env-file.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/src/collectors/env-file.ts",
+      "bytes": 1666,
+      "sha256": "0e0672779ddc340f5c10ad560ddbf949e9a36b88c2ea4368e08b80fcdae1e4a7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/README.md",
+      "bytes": 4917,
+      "sha256": "d9de80d4caf4ec0746ae6868096a2eec86858e2f8dbbcab78a836aad465746bd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/cases.json",
+      "bytes": 2162,
+      "sha256": "ef24153b6d6f9edd94bbc5cae5eaf7e3a718c68c72bc1b4189e22d2ea05ea170",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/oracle.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/oracle.mjs",
+      "bytes": 2425,
+      "sha256": "ffe90a7d64a44bc07123c1026efa6f41209694e256612302b543d0bcdd483869",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/replay.py",
+      "bytes": 2897,
+      "sha256": "02d6773a0cc7de0a87757b9a04c04410829736c48cb88e0af7ba51e012d65948",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/results/after-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/results/after-node20.json",
+      "bytes": 5772,
+      "sha256": "a4e7175d34b641133af45bd898ba1e830ad31fcd1706ea1bcc620658a19519df",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/results/after-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/results/after-node24.json",
+      "bytes": 5773,
+      "sha256": "e9a54f580e0bef787df705115f71f95b436b81ca7bc50660d49350ff496d99bd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/results/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/results/artifacts.json",
+      "bytes": 32257,
+      "sha256": "a1706c094109f649b7354eee054f1548aec6b703647d8a803d5c8934125d75ea",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/results/before.json",
+      "bytes": 5993,
+      "sha256": "3889b710bfdf778f87a2a8b2e391170df94ed0c2300ed2bbe40625a1856be8d5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/results/oracle-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/results/oracle-after.json",
+      "bytes": 4700,
+      "sha256": "35a82e275358f274cceb6a6f32cb2264dffe7262d50d49be94bd9e7d08f0e48f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/results/oracle-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/results/oracle-before.json",
+      "bytes": 4825,
+      "sha256": "f15c36fdc5dc24c519d0752e0bf5eedc1f7eb0f04e10f4abbc091d6fc0cc6c0e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/server.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/server.mjs",
+      "bytes": 1409,
+      "sha256": "9b14e86d5aefa74e5b7d2273513657ce14e74fdd0d78bb04bb5012291361a90f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/envfile-syntax/summarize.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/studies/envfile-syntax/summarize.py",
+      "bytes": 1044,
+      "sha256": "ae1b2c86e80a219c1d345c954eb361af488ae9063f3d764dcea552687343c0ce",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/collectors/client-configs.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/160cd9bae63649970c308af9f2d3b0c40d27b0f2/tests/collectors/client-configs.test.ts",
+      "bytes": 15407,
+      "sha256": "fd42295f912db348d9c42d7713223c9817f62744f88abe3d61f77089690607de",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 18,
+  "bytes": 493645,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
