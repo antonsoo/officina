@@ -83,6 +83,9 @@ offline calendar evidence.
 The [TraceLens message-event repair](docs/tracelens-event-messages-2026-10-12.md)
 keeps damaged tool payloads inspectable and restores suppressed output events,
 with installed CLI replays, offline browser evidence and verified source bytes.
+The [Veil project-key repair](docs/veil-secret-formats-2026-10-12.md)
+masks complete long token bodies that previously passed through or were only
+partly masked, with synthetic SDK captures, actual downloads and source evidence.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
