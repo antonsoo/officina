@@ -1,0 +1,132 @@
+{
+  "repository": "mcplint",
+  "baselineCommit": "f9900d198a9dc5e86f5e4ffe9c0c19a041839874",
+  "sourceCommit": "a3012df766f87b5ee753fca93249cba0458bc47d",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "df5f219b817eed5414081a5052da0036a93b31a1",
+    "refs/heads/main": "f9900d198a9dc5e86f5e4ffe9c0c19a041839874",
+    "refs/tags/v0.3.2": "998e00937453f8b3a2b21c5c9504f88430b50a25",
+    "refs/tags/v0.3.2^{}": "0b244127c407a072b56470d363b970922d2bf30e",
+    "refs/tags/v0.3.3": "916cdcc69b9ca6acc530fe1d7633b11656bff568",
+    "refs/tags/v0.3.3^{}": "65afe9b252322d13b29e0efe39dced8725c62cc2"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "df5f219b817eed5414081a5052da0036a93b31a1",
+    "refs/heads/main": "a3012df766f87b5ee753fca93249cba0458bc47d",
+    "refs/tags/v0.3.2": "998e00937453f8b3a2b21c5c9504f88430b50a25",
+    "refs/tags/v0.3.2^{}": "0b244127c407a072b56470d363b970922d2bf30e",
+    "refs/tags/v0.3.3": "916cdcc69b9ca6acc530fe1d7633b11656bff568",
+    "refs/tags/v0.3.3^{}": "65afe9b252322d13b29e0efe39dced8725c62cc2"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/CHANGELOG.md",
+      "bytes": 19774,
+      "sha256": "6b3c5352220ef1fdcd6caf6b2e6f47cbcb51bbfa30376e2958298fcfa3ffb651",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/README.md",
+      "bytes": 36444,
+      "sha256": "32cae16043c228cfb79316a32f439527d9e7b93fc296a715bf6f0fb44f92f950",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/config-env-unset.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/docs/assets/config-env-unset.png",
+      "bytes": 219604,
+      "sha256": "b1bad6432cbd216df714198dd559acb9e2c8f7b9baf1a034305e41bfc9878aca",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/collectors/config.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/src/collectors/config.ts",
+      "bytes": 13219,
+      "sha256": "b930e2671a481be2f0426954c0c37b56b033b6fb1309e80d5e957b06267af7dd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/collectors/stdio.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/src/collectors/stdio.ts",
+      "bytes": 2968,
+      "sha256": "a37fede2771e3403599d64d81c08290d0833281a85c33b58f2f3895bfca70bee",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/config-env-unset/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/studies/config-env-unset/README.md",
+      "bytes": 5500,
+      "sha256": "44aa56dca06e660868554de20c0fd6eaf78401c2b8af78dbef442eab719f9504",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/config-env-unset/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/studies/config-env-unset/replay.py",
+      "bytes": 4590,
+      "sha256": "77baa22d1ce5ceb1b6860763b48446a5bb348022a98539fbc2c7271330204148",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/config-env-unset/results/after-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/studies/config-env-unset/results/after-node20.json",
+      "bytes": 24596,
+      "sha256": "3af2bb694b6e187cce2b0796087ae35779f697430bf8c585d014042a714cb287",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/config-env-unset/results/after-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/studies/config-env-unset/results/after-node24.json",
+      "bytes": 24597,
+      "sha256": "c1f179316052387ae8dee3da1780a3f47cb1e2784faafad24c03f4a5321b0a25",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/config-env-unset/results/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/studies/config-env-unset/results/artifacts.json",
+      "bytes": 31386,
+      "sha256": "91686d26e72491086beef37384cf87becd13231c17dee59822e8e638901c7a71",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/config-env-unset/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/studies/config-env-unset/results/before.json",
+      "bytes": 25035,
+      "sha256": "1aea5f7662c884c99c224093b12dbac6b712744f92a4046edf4d1ce44b9af446",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/config-env-unset/results/reference.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/studies/config-env-unset/results/reference.json",
+      "bytes": 488,
+      "sha256": "9459f809f8e83bdb857142f940df35d58c55b18943dcb142f9a6c45f617dc0de",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/config-env-unset/server.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/studies/config-env-unset/server.mjs",
+      "bytes": 1401,
+      "sha256": "fe9055dc38e703553592a6fea69471e9f528897de3dfc2357f2dd9ad7cef10d3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/config-env-unset/summarize.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/studies/config-env-unset/summarize.py",
+      "bytes": 1393,
+      "sha256": "d71e3b75ec146455afcdca79015a05cc226da1e59a1ad5db810ebf90602ff97c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/collectors/client-configs.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/a3012df766f87b5ee753fca93249cba0458bc47d/tests/collectors/client-configs.test.ts",
+      "bytes": 14959,
+      "sha256": "88ce6f459e168ee5da9cf92e7699c45ba63c6bd7019e6e2e07128eb33dde5c3c",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 15,
+  "bytes": 425954,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
