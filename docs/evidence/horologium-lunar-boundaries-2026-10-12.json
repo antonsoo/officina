@@ -1,0 +1,371 @@
+{
+  "checked_at_utc": "2026-10-12T04:33:28.862230+00:00",
+  "repository": "antonsoo/horologium",
+  "head": "26e8bbdf28e668cf034dd2277eab9b03d93f6e5d",
+  "origin_main": "26e8bbdf28e668cf034dd2277eab9b03d93f6e5d",
+  "clean_worktree": true,
+  "gh_pages_observed": "89a9d0f9c12cd32fbd1b675b46dab92124073552",
+  "scope": "Authorized source push only. No package release, tag, or hosted deployment. Push workflows skipped using the documented [skip ci] marker; gh-pages unchanged. Local browser checks apply to retained build artifacts, not the hosted demo.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/CHANGELOG.md",
+      "bytes": 11375,
+      "sha256": "ffcb31df10212bf744c7e50ef27a18f926f7e85471490ea82d870e06309d448e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/README.md",
+      "bytes": 12292,
+      "sha256": "cf1f18f6796f97aba536562f111a9a22f50951e72aab50e57f19112db4169331",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/CALENDARS.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/CALENDARS.md",
+      "bytes": 19894,
+      "sha256": "9ec92a64f2a369c1e222917fc9708532424a203d8b735dd66a2b04fd069fb5e4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/chromium-1440-ancient-year.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/chromium-1440-ancient-year.png",
+      "bytes": 46172,
+      "sha256": "cf1cb2c4e990a015394eba1224b225378b86dff9a6d14e9360d401a98e6f962e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/chromium-1440-babylonian-midnight.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/chromium-1440-babylonian-midnight.png",
+      "bytes": 40145,
+      "sha256": "25e0bbfde72f5db0b7e683870f994f5dfe5b45d5b8ead15cb8da5ed225114d1c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/chromium-1440-greek-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/chromium-1440-greek-gap.png",
+      "bytes": 38479,
+      "sha256": "46123ea5201d23cfc81e2c945f47699312dae7902b5fe3f06bc8f21445c413c1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/chromium-375-ancient-year.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/chromium-375-ancient-year.png",
+      "bytes": 47212,
+      "sha256": "45e77fba9349bc6fe2417d32eac16293f8c01c2c6d7ebc46d30331954da6360a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/chromium-375-babylonian-midnight.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/chromium-375-babylonian-midnight.png",
+      "bytes": 40946,
+      "sha256": "91009506f2b07fae238c7a46aa492545c6390e56b9a9158cf7e77a1a2aebfca7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/chromium-375-greek-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/chromium-375-greek-gap.png",
+      "bytes": 39330,
+      "sha256": "0b9e1d0cca547f4abe32846950180a536ce820d13c74b1d21dc59f723aed9467",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/firefox-1440-ancient-year.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/firefox-1440-ancient-year.png",
+      "bytes": 73975,
+      "sha256": "caf659e120c217e916523fd224bee69ebfa21acd2ff6aabb81d3a0ae54664a9f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/firefox-1440-babylonian-midnight.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/firefox-1440-babylonian-midnight.png",
+      "bytes": 66136,
+      "sha256": "15e0393dd212895711117181d108670dca98fa0f48150a67d3755bf77dbcd14a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/firefox-1440-greek-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/firefox-1440-greek-gap.png",
+      "bytes": 59582,
+      "sha256": "bd48380a83bd0a4a9c9a76bf1af4664778c8654b18c70a54bc886703189d9388",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/firefox-375-ancient-year.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/firefox-375-ancient-year.png",
+      "bytes": 70870,
+      "sha256": "55ce7fc33a063da4c42ad9e35a5bc3deda02352a9bdb286a7d239113b9eea3bf",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/firefox-375-babylonian-midnight.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/firefox-375-babylonian-midnight.png",
+      "bytes": 63050,
+      "sha256": "cd588e753e50d6ab9e87a1c90de6200be339b5c2c5fd90e16cbd6c626708f5c4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/after/firefox-375-greek-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/after/firefox-375-greek-gap.png",
+      "bytes": 56415,
+      "sha256": "7adb7c818a021ffd3b9f0f031a46a830a6f2bb6a61d549389bbf43315fb38f49",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/chromium-1440-ancient-year.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/chromium-1440-ancient-year.png",
+      "bytes": 40022,
+      "sha256": "caa967566af68dc2dfbd349cfd4ddea24f4afbb4d71f470b8c9a83e21df30206",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/chromium-1440-babylonian-midnight.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/chromium-1440-babylonian-midnight.png",
+      "bytes": 34817,
+      "sha256": "2b5ebbb61be902e24f9ed4b9e3d7d00625deef78438ab652630c45798f92d3f5",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/chromium-1440-greek-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/chromium-1440-greek-gap.png",
+      "bytes": 34476,
+      "sha256": "e98f6a4fba2059ba425cb29d5a45c361c9e527b297145c83582b5416706c9d69",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/chromium-375-ancient-year.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/chromium-375-ancient-year.png",
+      "bytes": 41157,
+      "sha256": "e26c2b413f2c7541ffea5f24475104d783425f7404feabd9791f1df84057d754",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/chromium-375-babylonian-midnight.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/chromium-375-babylonian-midnight.png",
+      "bytes": 35631,
+      "sha256": "31682faca9d347d90a96a65e30a2ad999a571797795e69ac1f6cb1b8a1fa9e07",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/chromium-375-greek-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/chromium-375-greek-gap.png",
+      "bytes": 34651,
+      "sha256": "14974e48bbe29d971fcbd3acfa86b78dfc2ab15a0866ce5ac271d8c2d3496d59",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/firefox-1440-ancient-year.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/firefox-1440-ancient-year.png",
+      "bytes": 63422,
+      "sha256": "95feb7affce8e36bb68134a7f3cd26a886f1482af41babc8b45ab3c005fb2fef",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/firefox-1440-babylonian-midnight.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/firefox-1440-babylonian-midnight.png",
+      "bytes": 56463,
+      "sha256": "8d5b4ff33066f203e5feb9292ba42be71421386a3bd7a4d385b108c755206e59",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/firefox-1440-greek-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/firefox-1440-greek-gap.png",
+      "bytes": 51208,
+      "sha256": "f67500d65009a5ff9ee716c2219d81e61f4896befe67dd7a4c6051a966249af2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/firefox-375-ancient-year.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/firefox-375-ancient-year.png",
+      "bytes": 61221,
+      "sha256": "f25fea1c87b1c80166eda309cc0244806d37b275fcf9c4bb7bd29b6c3a8b254e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/firefox-375-babylonian-midnight.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/firefox-375-babylonian-midnight.png",
+      "bytes": 53772,
+      "sha256": "d60047c5e6ff0beafa584fa46ccb1add30cf7d142b25ce7dbdf189b5eac2760d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/lunar-boundaries/before/firefox-375-greek-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/docs/assets/lunar-boundaries/before/firefox-375-greek-gap.png",
+      "bytes": 48689,
+      "sha256": "2e7dbaffecf5a9d4a14e92e00eb90bbb0c2ef4a2492171ffc6bc887b2692b0a6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/app/fonts/fonts.css",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/src/app/fonts/fonts.css",
+      "bytes": 8729,
+      "sha256": "ed8d1c7471941f9eb19a1d95e6791d5d06e39426cc50d68152ffd6dab3fef546",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/app/main.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/src/app/main.ts",
+      "bytes": 6390,
+      "sha256": "bba12e8f5c34dec177a47323633479121367fe983598365b3aed62fdb76111fa",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/lib/astronomy/sun-moon.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/src/lib/astronomy/sun-moon.ts",
+      "bytes": 16449,
+      "sha256": "c977c36f71d61065b18fc3fa343751bb1e8d18d5a7c46f1adb3db1d7aa47e51f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/lib/babylonian.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/src/lib/babylonian.ts",
+      "bytes": 7627,
+      "sha256": "67746bc9628a9a6e8785412bddaa4b425fdb8a8b8463bbb7f7106034f191dd19",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/lib/greek.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/src/lib/greek.ts",
+      "bytes": 7504,
+      "sha256": "00b05cae5eb112b72f779d0b7203b932d057bc7b9da48c60b1430dec71312871",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/README.md",
+      "bytes": 8269,
+      "sha256": "dd1f7f6debe18e53bf7576569758bee3cce4f89307cefaabfdbbcff382e91f6b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/artifacts.json",
+      "bytes": 61482,
+      "sha256": "6496ad65d4647fded2cd776ddf07a5d494d5de5f8e8dc3669e0b7d235e173ee1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/before-example.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/before-example.json",
+      "bytes": 1724,
+      "sha256": "9a5732493999335e05951191339554c36c44a34a2342d452e23f1603d28ea730",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/browser-after.json",
+      "bytes": 47872,
+      "sha256": "c56bcd91bee5e925c36c3baa624a644ff2a18dd9bbbda37466eecc71fa2d9e2e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/browser-before.json",
+      "bytes": 46726,
+      "sha256": "a3c52c2844854f18a76a236d667ac7dd79c894d88d5f22de839827d884189214",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/browser.mjs",
+      "bytes": 7991,
+      "sha256": "bbf88274a89f636e110a0c6d70ab12793b741216080c803ba9899f77a21d3f39",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/font-faces.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/font-faces.json",
+      "bytes": 7601,
+      "sha256": "5ce3de2061433aadeacea9139933c2121fe21864ab5727fa67fc37e336eebc3f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/installed-oracle-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/installed-oracle-node20.json",
+      "bytes": 13098,
+      "sha256": "183e96042312c0bc73e711b02a17465c7960adff8fbb0b335e8866e7ae5603e0",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/installed-oracle-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/installed-oracle-node24.json",
+      "bytes": 13098,
+      "sha256": "183e96042312c0bc73e711b02a17465c7960adff8fbb0b335e8866e7ae5603e0",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/installed-quickstart.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/installed-quickstart.json",
+      "bytes": 133,
+      "sha256": "067dd42f97fa2edc05f7d5cf7c904cffa8bdc65af8e6dd2c88bd9191d5ed0981",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/lunar-boundaries/verify.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/studies/lunar-boundaries/verify.mjs",
+      "bytes": 9400,
+      "sha256": "53072a3400e144effcc3eb8b84e66aa337ecfee09c44c36b1ce69b7d1f633b55",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/browser/clock.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/tests/browser/clock.spec.mjs",
+      "bytes": 15105,
+      "sha256": "37cd08fcc43949fb20c22b337c4cb927fbd1b8193f8107aeaf6d1a1ae15d4ac1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/lunar-boundaries.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/26e8bbdf28e668cf034dd2277eab9b03d93f6e5d/tests/lunar-boundaries.test.ts",
+      "bytes": 3315,
+      "sha256": "5326e1c2f77aa77be778a8d578145b0ff64587e370d544973cbf7ce917078cb4",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ]
+}

@@ -76,6 +76,10 @@ The [registered-variant repair](docs/ghostchars-standardized-variants-2026-10-12
 keeps Ghostchars from deleting legitimate Unicode glyph selectors while
 preserving payload detection, with installed file-repair evidence and an exact
 scan/sanitizer/reveal replay of the cached public-text corpus.
+The [lunar-boundary repair](docs/horologium-lunar-boundaries-2026-10-12.md)
+keeps Horologium from skipping nearby new moons or mixing reconstructed year
+labels, with independent interval checks, installed-package verification and
+offline calendar evidence.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
