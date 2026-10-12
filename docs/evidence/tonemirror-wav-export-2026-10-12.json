@@ -1,0 +1,152 @@
+{
+  "repository": "tonemirror",
+  "baselineCommit": "99894ff38323064f604d3440d70978ae92c024ae",
+  "sourceCommit": "96f6b5f118f8270129556853ef6a20103090109a",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "95b8bdc0863e88e13049487f114637aa76640ce4",
+    "refs/heads/main": "99894ff38323064f604d3440d70978ae92c024ae"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "95b8bdc0863e88e13049487f114637aa76640ce4",
+    "refs/heads/main": "96f6b5f118f8270129556853ef6a20103090109a"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/CHANGELOG.md",
+      "bytes": 11380,
+      "sha256": "5851dea33a5df344623a441a828430f2efe026b5b6b859dfdff6d7ad88f1086c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/README.md",
+      "bytes": 22771,
+      "sha256": "b394615a74c13409e6f6179b20977fe99850d84aafdb97e994c900f7feec29ec",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/wav-export/after-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/docs/assets/wav-export/after-chromium-1440.png",
+      "bytes": 197834,
+      "sha256": "1d5cdc1188838072e0e72bf4c663cdb3ca39f199d91d98590d74bf8fb8502ff1",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/wav-export/after-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/docs/assets/wav-export/after-chromium-375.png",
+      "bytes": 136879,
+      "sha256": "616fdab93bf2236e93f8715c0c42506052548e4ca948ee99695d7dec100a832e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/wav-export/after-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/docs/assets/wav-export/after-firefox-375.png",
+      "bytes": 169478,
+      "sha256": "4f82ef1894e0b5bfeff240406ba237abebf7b40dcb8bec58857a73aa965ec161",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/wav-export/before-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/docs/assets/wav-export/before-chromium-1440.png",
+      "bytes": 184647,
+      "sha256": "e6456741733faada2a94b3a7a4bbac86b0c4c228cd9e3e19c09ffde7d50f2aa2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/app.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/src/app.ts",
+      "bytes": 40483,
+      "sha256": "44e45596747972e37c1ca6d2076732a5f50f24fe059e22b109baa02b39579199",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/audio/fileLoader.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/src/audio/fileLoader.ts",
+      "bytes": 4815,
+      "sha256": "44452831eb450b281a806f462f6bc41920e82eaf6db873a4fb157b3ed9cb8dc3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/audio/wav.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/src/audio/wav.ts",
+      "bytes": 2925,
+      "sha256": "e644f028a134e69599d2253718eaf1e1c67f6a0a8de8e14276830ecbfb34102f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/wav-export/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/studies/wav-export/README.md",
+      "bytes": 6680,
+      "sha256": "61b62d026bf6a755e6167540cf461267c467015ecf16abf4abeb5cac7cc4d70c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/wav-export/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/studies/wav-export/browser-after.json",
+      "bytes": 46777,
+      "sha256": "7e883869ec8326f668d9083681feefa6b655f615e7ad5436fab987f3d9194c13",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/wav-export/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/studies/wav-export/browser-before.json",
+      "bytes": 16626,
+      "sha256": "76037fc7178ba96e92022982744e13969fee792dbcd146fd14951091f4d47e0c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/wav-export/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/studies/wav-export/browser.mjs",
+      "bytes": 10391,
+      "sha256": "586fbb9f8e4370bbd026e1a51aa2428d2c3327f7bde854710825da8c142f3f88",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/wav-export/format-check.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/studies/wav-export/format-check.mjs",
+      "bytes": 3224,
+      "sha256": "7f6e67be76af4827fd7d09123f4e95a707b31d3f7e4a4580200665749259289c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/wav-export/format.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/studies/wav-export/format.json",
+      "bytes": 2556,
+      "sha256": "77c53afcb265e059f1e94c8a0e7e212a7372fe7b59ee3d61c5e453fe522ffe96",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/wav-export/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/studies/wav-export/verification.json",
+      "bytes": 10344,
+      "sha256": "31fa33fb2ccc8d54ab844d2f54838ec8ff4996de0d74496ed4b62ce55f222ab4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/browser/wav.spec.js",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/tests/browser/wav.spec.js",
+      "bytes": 4841,
+      "sha256": "90f834274e28f7e7f3db0a7030ae4a8f80074a0f14e40527317ed29aec73daae",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/fileLoader.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/tests/fileLoader.test.ts",
+      "bytes": 4394,
+      "sha256": "e9f958e51de0721d4f9fcecd68bd70670a42e71e9d9731078d4fb3cd67847124",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/wav.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/96f6b5f118f8270129556853ef6a20103090109a/tests/wav.test.ts",
+      "bytes": 1822,
+      "sha256": "1428d30c0e3f770784d85249dfcd1fa2f3e1bb3dc0bedc56f4a003ddcaf767b9",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 19,
+  "bytes": 878867,
+  "scope": "main source only; tags and gh-pages unchanged"
+}

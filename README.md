@@ -182,6 +182,9 @@ keyboard selection, reversible trims and recorded-speech sample checks.
 The [Ghostchars Unicode security-data correction](docs/ghostchars-unicode-security-data-2026-10-12.md)
 recovers missed identifier lookalikes with upstream mapping checks, runnable
 JavaScript evidence and installed CLI/browser verification.
+The [ToneMirror audio download](docs/tonemirror-wav-export-2026-10-12.md)
+takes recordings and kept excerpts out of browser storage, with exact-sample
+WAVs, retained synthetic labels and independently decoded speech downloads.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
