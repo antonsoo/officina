@@ -143,6 +143,9 @@ comparisons, settled browser-needle measurements and explicit remaining errors.
 The [Horologium lunar-series correction](docs/horologium-lunar-series-2026-10-12.md)
 fixes malformed lunar terms that shifted conjunctions and reconstructed dates,
 with independent ephemeris evidence and bounded reuse for repeated calculations.
+The [Flakemap Markdown repair](docs/flakemap-markdown-literals-2026-10-12.md)
+keeps test names and run evidence literal in PR reports, with actual pytest XML,
+reference-rendered output and installed-package/browser verification.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
