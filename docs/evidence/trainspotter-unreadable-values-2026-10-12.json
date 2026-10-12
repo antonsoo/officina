@@ -1,0 +1,363 @@
+{
+  "checked_at_utc": "2026-10-12T03:43:32.640833+00:00",
+  "repository": "antonsoo/trainspotter",
+  "head": "44c5379f404d7016eb3ae49ef4d2e99fa0748429",
+  "origin_main": "44c5379f404d7016eb3ae49ef4d2e99fa0748429",
+  "clean_worktree": true,
+  "gh_pages_observed": "62d47fa508e7b47afdc6816f0a3310a1cf97a400",
+  "scope": "Authorized source push only. No package release, tag, or hosted deployment. Push workflows skipped using the documented [skip ci] marker; gh-pages unchanged. Local browser checks apply to generated standalone HTML from the retained source and installed wheel, not the hosted demo.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/CHANGELOG.md",
+      "bytes": 23494,
+      "sha256": "752b96fe933354e180dd3d237820bd93dd424ef56b0bb51009eea26acfac5405",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/README.md",
+      "bytes": 39611,
+      "sha256": "8e6f08e03ef459a45567f4d9d71e743bdb7039a0ff944560f6d896bf66174e8f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/unreadable-values/after/chromium-1440-captured-text-fault.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/docs/assets/unreadable-values/after/chromium-1440-captured-text-fault.png",
+      "bytes": 129307,
+      "sha256": "c333427c2a0af3d78ad30f28a0158d3bf023ca833fb80e2202dc836dec0c78f3",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/unreadable-values/after/chromium-375-captured-text-fault.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/docs/assets/unreadable-values/after/chromium-375-captured-text-fault.png",
+      "bytes": 125693,
+      "sha256": "aca8abb556781ed1961d10db7b16018c9fcff40ea8f7b54f996b3c780ffca6ac",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/unreadable-values/after/firefox-1440-genuine-after-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/docs/assets/unreadable-values/after/firefox-1440-genuine-after-gap.png",
+      "bytes": 268497,
+      "sha256": "5471691f02466344b88ff4a4f813c23b6e238e56a305b7b3679021a38c7bb36b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/unreadable-values/after/firefox-375-genuine-after-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/docs/assets/unreadable-values/after/firefox-375-genuine-after-gap.png",
+      "bytes": 243384,
+      "sha256": "a77ecbe4fc9de60a79cd6516b92399e011f3a8d46eb67af288ccf8fcd762d013",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/unreadable-values/before/chromium-1440-captured-text-fault.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/docs/assets/unreadable-values/before/chromium-1440-captured-text-fault.png",
+      "bytes": 137632,
+      "sha256": "655251989982cd299e8bb486573d03e0a99460a0d7ca29baafa195abea612463",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/unreadable-values/before/chromium-375-captured-text-fault.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/docs/assets/unreadable-values/before/chromium-375-captured-text-fault.png",
+      "bytes": 133240,
+      "sha256": "9707b581cbcb3a6e0ed22bf8df182c42a051122aa885f0bdd2f3ea39e7adf0ef",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/unreadable-values/before/firefox-1440-genuine-after-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/docs/assets/unreadable-values/before/firefox-1440-genuine-after-gap.png",
+      "bytes": 223962,
+      "sha256": "fc01b40e80959006b64de9f85743690d63692fa9377fbc85701937ba59e9439f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/unreadable-values/before/firefox-375-genuine-after-gap.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/docs/assets/unreadable-values/before/firefox-375-genuine-after-gap.png",
+      "bytes": 206481,
+      "sha256": "a2a944efcf49824ca7ac9157325c3eca6ac8f6cb972c28d2d00628037ec4760c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/input-integrity.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/docs/input-integrity.md",
+      "bytes": 16027,
+      "sha256": "a9bf78fce2f864ae203fa774da43d8c793291489975ada853e915ded5a17b265",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "scripts/browser_fixtures.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/scripts/browser_fixtures.py",
+      "bytes": 3959,
+      "sha256": "3a1f8be4be524358cbddc898e0242342598114736761281edbe48387cef90448",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/cli.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/cli.py",
+      "bytes": 12648,
+      "sha256": "2991d2a3d0f0cbd9ac078bba1e8e200b546b3b864f5cdaf3ac51998cb8c4e163",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/detectors/_rolling_slope.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/detectors/_rolling_slope.py",
+      "bytes": 5280,
+      "sha256": "bb5d8c31ad43864cca26a9633a7d616a80ccc26fc1c5cd199152c8a84c59e892",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/detectors/base.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/detectors/base.py",
+      "bytes": 18400,
+      "sha256": "a1b8ff3e7163f7b6aaa476b42565a8fccc46bfefd4e07270fbe3c69691c11bd8",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/detectors/divergence.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/detectors/divergence.py",
+      "bytes": 12240,
+      "sha256": "70721e99da4edbf8a5a67308d4222baeb1d951d8f076c745c698fe680fc557ac",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/detectors/grad_norm.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/detectors/grad_norm.py",
+      "bytes": 10115,
+      "sha256": "1a6e37d4b37324a089721f759999f4f8fd53d0d8bae06dde3a9cf016f6919089",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/detectors/loss_floor.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/detectors/loss_floor.py",
+      "bytes": 5943,
+      "sha256": "e50fed8be010eaa3fcd813f1d73b49871f3627d1035b0547d8bccdbd99bc3131",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/detectors/overfitting.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/detectors/overfitting.py",
+      "bytes": 10614,
+      "sha256": "b581df9ad6223916f03aa4341ba3168518d3dd7820559a5102e14b7e175f88db",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/detectors/plateau.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/detectors/plateau.py",
+      "bytes": 14729,
+      "sha256": "41f3aa5f785316de91cb3d6075ff57e18e3c231a25bbc7d4f39a02b94b39c1fa",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/detectors/setbacks.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/detectors/setbacks.py",
+      "bytes": 11987,
+      "sha256": "acabd69fdb7da9bc2bfd29004c43b8174a631fc7c35dc63a2bd3cd28ad2b65e0",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/detectors/spikes.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/detectors/spikes.py",
+      "bytes": 11291,
+      "sha256": "53a976289535bb047f135f88bfd04745d2d22992eb90ee723e89f9a5c70a626b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/model.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/model.py",
+      "bytes": 14445,
+      "sha256": "a1d613d48df2ba758712eca69d837bff49f244fe16c609695fa44eae30064355",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/readers/common.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/readers/common.py",
+      "bytes": 11610,
+      "sha256": "4626215e2730109b5161a438c5839ccf773125f3b7030a17659d71b0049b0e4b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/readers/hf.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/readers/hf.py",
+      "bytes": 4328,
+      "sha256": "96044ace7ad474a21d937c4cd8e2a587991e2a658596cb06c31208a3570b3cef",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/readers/tabular.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/readers/tabular.py",
+      "bytes": 6369,
+      "sha256": "273467122767e1c117d96173df41df38821575f89100eaad93b433efd7b25ede",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/readers/tensorboard.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/readers/tensorboard.py",
+      "bytes": 11247,
+      "sha256": "0a38835c840b3d2a05b217c981bc483b250054bae7433bd2243829b185a50f4d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/readers/wandb.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/readers/wandb.py",
+      "bytes": 9758,
+      "sha256": "a5ef4cc5c43dc3a0c70b873439588b084c86d27874388a7db7a96aa1ff2a2ab1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/report/html_report.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/report/html_report.py",
+      "bytes": 46652,
+      "sha256": "5f5407ccef4c41dcae35670ad63e2629acd7a1e87beec71fb3aea1938ffd7f33",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/trainspotter/report/json_report.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/src/trainspotter/report/json_report.py",
+      "bytes": 6378,
+      "sha256": "cdc432143cf1a7d65b14109f8ec7a15c4165fe27ee8901c7ed9f6a809b9239c7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/README.md",
+      "bytes": 9709,
+      "sha256": "d2ab6e52778196ea8aa9abae49c33cf3ddbb03a0b119969e1dafc74413a5d3b5",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/after.json",
+      "bytes": 32500,
+      "sha256": "6c59a2783783a0a422eefd53ccf6353cfd4fbac5337eddc2dcc590c97b7a1c10",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/artifacts.json",
+      "bytes": 18505,
+      "sha256": "4b28841c0c7ab8f64d174454682c5e56a2dccd2927c2944eee370b2536cdb99d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/before.json",
+      "bytes": 33586,
+      "sha256": "87bcd9b3973bd0b82c828180052728004ae74bd37bcd32d9ecfd1c9f3fdb0e9a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/browser-after.json",
+      "bytes": 12350,
+      "sha256": "283e78e9f11669c9d4d53ceb2881d1930234e2a8095b91ba28c558332c54a314",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/browser-before.json",
+      "bytes": 6104,
+      "sha256": "5737c07e66cc7cac342a1da4d0a4f4204673447ff38d30da9a98f878f145aa42",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/browser.mjs",
+      "bytes": 5174,
+      "sha256": "cc5ea07256a619930e895ea6a455631b80c61b82035bea90d6d5fef0828f4a5c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/compare.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/compare.py",
+      "bytes": 3625,
+      "sha256": "eedb6d08e7b8a8d7eafbb97a13ce72daafe86da9d5b8a85d237c5bba12e23a58",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/comparison.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/comparison.json",
+      "bytes": 4171,
+      "sha256": "38fe7bedbc8a4bd4fa54fe2bb8988981d8c0936cb5c955aa8b73ca9fc5b2e5fa",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/replay.py",
+      "bytes": 6850,
+      "sha256": "93e66cc428f035a91b84714011d457f47c86d7bfb9edf98de6b6559670c279b1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/unreadable-values/type-only-source-comparison.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/studies/unreadable-values/type-only-source-comparison.json",
+      "bytes": 784,
+      "sha256": "3197390ef8d1b9cf40cb0a195314986b2d8457cfcc6dd23bcc674569b648f1d9",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/tests/browser.mjs",
+      "bytes": 17800,
+      "sha256": "9ea568690cf098be8f613a82b526736bd468ddc0be3df3cc6ada42c887529acb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/test_tensorboard_evidence.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/tests/test_tensorboard_evidence.py",
+      "bytes": 15734,
+      "sha256": "de5d423350e25c86abf4605a1ae4f29bb0a69894a2195d949993673dc59fd4f2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/test_unreadable_values.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/44c5379f404d7016eb3ae49ef4d2e99fa0748429/tests/test_unreadable_values.py",
+      "bytes": 7196,
+      "sha256": "0bafa7dce362e045c15e5593d628ddf372bd89a7ce7a348d0a86d181f5cedfbe",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ]
+}

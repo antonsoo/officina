@@ -67,6 +67,12 @@ The [tied-outcome repair](docs/am-i-unlucky-tied-outcomes-2026-10-12.md)
 keeps common first-attempt wins and guarantee ties from becoming false unlucky
 results in Am I Unlucky, including its downloaded cards and offline fonts.
 
+The [Trainspotter unreadable-value repair](docs/trainspotter-unreadable-values-2026-10-12.md)
+keeps known unreadable positions as trajectory boundaries, removes cross-gap
+claims and recovers a valid later setback. Installed CLI/browser evidence and
+an exact replay of 4,259 cached public reports retain the source and deployment
+boundaries.
+
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
 --height 750 --scale 1`) or a cover-fit crop of a CLI-only project's own
