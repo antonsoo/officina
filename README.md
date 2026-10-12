@@ -158,6 +158,9 @@ counts, installed CLI/browser replays and unchanged historical reports.
 The [Errorbars table-import repair](docs/errorbars-table-imports-2026-10-12.md)
 refuses duplicate DataFrame columns and damaged quoted CSV, with preserved output
 files and unchanged valid comparisons in clean installed-package replays.
+The [Errorbars personal-run import check](docs/errorbars-own-run-imports-2026-10-12.md)
+prevents malformed SWE-bench reports from becoming zero scores, while retaining
+valid exports and the previous browser comparison.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
