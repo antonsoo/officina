@@ -131,6 +131,9 @@ prompts, with SDK captures, Decimal comparisons and installed/browser evidence.
 The [Ghostchars terminal-output repair](docs/ghostchars-pretty-preview-2026-10-12.md)
 keeps every finding inspectable without repeatedly printing entire long lines,
 with measured public-input output and unchanged machine reports and repairs.
+The [mcplint HTTP redirect repair](docs/mcplint-http-redirects-2026-10-12.md)
+keeps API keys and MCP session headers within the configured origin, with
+receiver-side captures and installed CLI checks for both HTTP transports.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
