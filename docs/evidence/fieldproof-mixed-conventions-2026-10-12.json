@@ -1,0 +1,278 @@
+{
+  "checked_at_utc": "2026-10-12T06:11:44.667928+00:00",
+  "repository": "antonsoo/fieldproof",
+  "baseline": "c006a5e7e1b93c7037b64cfb0f2229c9e9418cd9",
+  "head": "b6158f654986099945b563ca7a32bfc51558fb74",
+  "origin_main": "b6158f654986099945b563ca7a32bfc51558fb74",
+  "clean_worktree": true,
+  "gh_pages_before": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+  "gh_pages_after": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+  "release_tag_refs_unchanged": true,
+  "release_tag_refs": {
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "scope": "Authorized source push only. No package release, tag, or hosted deployment. Final push commit uses [skip ci]; gh-pages and release-tag refs unchanged. Local browser checks apply to retained build artifacts, not the hosted demo.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/CHANGELOG.md",
+      "bytes": 23557,
+      "sha256": "188b82289e09cf57c263c1eb427c41b66495f635d2fefd7817bbc8ddb0877edf",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/README.md",
+      "bytes": 35829,
+      "sha256": "5b5e1864dae6c5d20b800b1ed8c427fc74f20d941a82f12f168e9b402c0dec29",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/mixed-conventions/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/docs/assets/mixed-conventions/chromium-1440.png",
+      "bytes": 143265,
+      "sha256": "c5fb4d883bd35310c3610c5f808bd951e4336a03a30f895f4da13bd2275ee201",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/mixed-conventions/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/docs/assets/mixed-conventions/chromium-375.png",
+      "bytes": 62307,
+      "sha256": "9d664bbb396faee17dcf692ba7fad6e4079aca8166e2819f9785fc35df3d8ede",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/mixed-conventions/chromium-observations.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/docs/assets/mixed-conventions/chromium-observations.json",
+      "bytes": 4321,
+      "sha256": "87ce0fd200b91b96bd691eaf34f84d9672c059b7e6bdd38608ad6aeb77e7cd45",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/mixed-conventions/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/docs/assets/mixed-conventions/firefox-1440.png",
+      "bytes": 200401,
+      "sha256": "2fcb06307040a966103124f998d62fe912bf8b1a81e350ddf1041da455894b3b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/mixed-conventions/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/docs/assets/mixed-conventions/firefox-375.png",
+      "bytes": 85740,
+      "sha256": "950694f8fa4a15efc79c53e6e05864528193a1364b912d597533c4b57ca9ca72",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/mixed-conventions/firefox-observations.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/docs/assets/mixed-conventions/firefox-observations.json",
+      "bytes": 4321,
+      "sha256": "87ce0fd200b91b96bd691eaf34f84d9672c059b7e6bdd38608ad6aeb77e7cd45",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "examples/fixtures/mixed-conventions.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/examples/fixtures/mixed-conventions.json",
+      "bytes": 632,
+      "sha256": "3910a6bbe23c922c070725cb8eb9ce8e038f95137c468d654fa0ed3e4cf398a5",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "examples/mixed-conventions.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/examples/mixed-conventions.pdf",
+      "bytes": 2103,
+      "sha256": "c9165c388477d885bfd2510c53e8332960a9f783e012ff31b94372b9b640693c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/fieldproof/cli.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/src/fieldproof/cli.py",
+      "bytes": 9041,
+      "sha256": "4e329cd58696aa54c44b88c31684a22f09f2077c5649ce9e7f4918113f049dc1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/fieldproof/ground/values.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/src/fieldproof/ground/values.py",
+      "bytes": 13657,
+      "sha256": "1a876375896662382dde616fad06a08f54c750602a4f7063faf2f20ba168a340",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/fieldproof/verify/engine.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/src/fieldproof/verify/engine.py",
+      "bytes": 18660,
+      "sha256": "fe5e1c727f860ae226917aebc9b3d5cb5af6d4a9e787720aa5190e48f3a43d29",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/fieldproof/verify/value_checks.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/src/fieldproof/verify/value_checks.py",
+      "bytes": 18996,
+      "sha256": "7ba4980ae4c907f2fdea4f33bac0eb3546d24ce318df5ad25118e8d17acc17e1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/README.md",
+      "bytes": 9819,
+      "sha256": "b843c6db156ed81ae33fa7c78ff032360b733a63deaa0d40d85a957784952fc0",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/after.json",
+      "bytes": 419540,
+      "sha256": "e992ba019455e59568609d182461cf029f5f612415aa69ddf596be404b7242b0",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/before.json",
+      "bytes": 386271,
+      "sha256": "0785f0127c864b48ef663d933730d12af0a86eca8447a7df102303c0d626d71b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/browser.config.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/browser.config.mjs",
+      "bytes": 307,
+      "sha256": "d0e13bdd3896c96c90cb9076f178b47136a2dd63acebe23b8d994285970f1a00",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/cli-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/cli-after.json",
+      "bytes": 4644,
+      "sha256": "e54366ebbdaf147fc9358cee9c336676c97ddbc4a335debdec63832e68b5452a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/cli-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/cli-before.json",
+      "bytes": 4012,
+      "sha256": "58f75e3f1bfaeab7003de8c4140c1b60f53b18b9bd6ed27dcb1d0b3ff8b99605",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/cli.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/cli.py",
+      "bytes": 3702,
+      "sha256": "c877121276adba55389d1b8a99717039f647945b6f456c362d314bda3d2189ce",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/corpus-inputs.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/corpus-inputs.json",
+      "bytes": 1692,
+      "sha256": "9eec987eb5b402fb37053cdd3dd30aed2efd9cc21b4c1424f076cdab7c30d5ae",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/receipts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/receipts.json",
+      "bytes": 48986,
+      "sha256": "e963e4f78ecdc3a8677a4f2c382ce2ee728b6140f7765864675a8a938dab2ac2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/replay.py",
+      "bytes": 8343,
+      "sha256": "f88e3cbaa08b8ba8ac8ea2213e4c23ef5f107557cccf2f8f6ac8b5b646d28d71",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/review_example.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/review_example.py",
+      "bytes": 2633,
+      "sha256": "be04d3983c41980814339e1786d7bb937e4acf5b192ec51cb118e21870a4a235",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/served-assets.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/served-assets.json",
+      "bytes": 2609,
+      "sha256": "4562a6a0d5515edbf810bcc055fc4676db605954e4815399ba82d638779e6f5d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/served-assets.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/served-assets.mjs",
+      "bytes": 4036,
+      "sha256": "1d5bddaccbab01096fcd70cd3340bee9205ea5574f46eb7a8434aa5cfe6b60d9",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/mixed-conventions/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/studies/mixed-conventions/verification.json",
+      "bytes": 52080,
+      "sha256": "d6664f89fa40bec89df6a645795227fdebbc840fea9faf08926b68dbb902d064",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/test_mixed_conventions.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/tests/test_mixed_conventions.py",
+      "bytes": 4443,
+      "sha256": "b4ba146d40748318a6d1246ff50bc1d13b160acc839db38efeb9a0ba3a79e935",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/test_written_dates.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/tests/test_written_dates.py",
+      "bytes": 2266,
+      "sha256": "7ba8933ca3b9f1ec7ee765b7b9565070a7e4e512d974f7bb99983e5541e1af4c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "web/tests/browser/live.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/b6158f654986099945b563ca7a32bfc51558fb74/web/tests/browser/live.spec.mjs",
+      "bytes": 44529,
+      "sha256": "5cf8db898e7a9c11831a385c8618d7da4956a1828a80ee9f761f769e4b975a07",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ]
+}
