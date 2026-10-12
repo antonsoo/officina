@@ -170,6 +170,9 @@ with a community-calendar reference; the date arithmetic remains unchanged.
 The [Fieldproof spreadsheet export](docs/fieldproof-spreadsheet-2026-10-12.md)
 keeps identifiers and formula-like text literal in XLSX, with actual spreadsheet
 imports, offline browser downloads and installed-package evidence.
+The [Trainspotter chart-identity repair](docs/trainspotter-chart-identity-2026-10-12.md)
+preserves complete metric names under an explicit single-run declaration and
+rejects ambiguous labels that previously discarded or relabeled evaluation loss.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200

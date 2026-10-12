@@ -1,0 +1,237 @@
+{
+  "repository": "trainspotter",
+  "baselineCommit": "027f8562fc95492481f213d5fe894a2d5fe1141c",
+  "sourceCommit": "b91e658b6cc636d6a31e756e7e4fa9f94aac7c63",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "62d47fa508e7b47afdc6816f0a3310a1cf97a400",
+    "refs/heads/main": "027f8562fc95492481f213d5fe894a2d5fe1141c",
+    "refs/tags/v0.1.2": "5e9c478c20a49302b442dae703df7b5f0a6b8672",
+    "refs/tags/v0.1.2^{}": "573dbfc060037005ba2ba58bc50fd1ac060f5c21",
+    "refs/tags/v0.1.3": "d5659cc6ff72c6ae9efbc0c0f78290c324b5b418",
+    "refs/tags/v0.1.3^{}": "c72bd53de6e6cf1ff5aaa9c78d1808a04e0c9166",
+    "refs/tags/v0.2.0": "07f4369b5c704860cb9e7a58ad1b140b9c13c8dc",
+    "refs/tags/v0.2.0^{}": "39f87cd011b196ab18490f5e8623bd1a17e60a3d",
+    "refs/tags/v0.2.1": "f1610bf1c6a60e89ead3743dc0abf5cae1fd9d31",
+    "refs/tags/v0.2.1^{}": "87c33bfaef9c8126b6511202a00ce769bb0e74fa",
+    "refs/tags/v0.2.2": "1911194369b505ddfff45dcd5e86eada2c5f6754",
+    "refs/tags/v0.2.2^{}": "fdf4dff40e634b9c83d973d1b89233bfb62ed8c1",
+    "refs/tags/v0.2.3": "f7406ce1e863c166f12f4e359845175e5a2eebd6",
+    "refs/tags/v0.2.3^{}": "cecf3c91756a261f7da1caa68a56edfb96e13125",
+    "refs/tags/v0.2.4": "3d8eb77ade005322ad424463f37390dc22d9206b",
+    "refs/tags/v0.2.4^{}": "59aac3eb1eb6d3d8ce9432c5727aee18a9ef7343",
+    "refs/tags/v0.2.5": "c55845c8b49dbfa676381d8e0100e4f5342184ac",
+    "refs/tags/v0.2.5^{}": "e31d3107fbae884e248c11a97e63269243bc95a5",
+    "refs/tags/v0.2.6": "91e22258b06e15ac1bf136107edfd3d915f1c7a7",
+    "refs/tags/v0.2.6^{}": "f97f324382a4b80f8bf0118338c054ec96fd9b03"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "62d47fa508e7b47afdc6816f0a3310a1cf97a400",
+    "refs/heads/main": "b91e658b6cc636d6a31e756e7e4fa9f94aac7c63",
+    "refs/tags/v0.1.2": "5e9c478c20a49302b442dae703df7b5f0a6b8672",
+    "refs/tags/v0.1.2^{}": "573dbfc060037005ba2ba58bc50fd1ac060f5c21",
+    "refs/tags/v0.1.3": "d5659cc6ff72c6ae9efbc0c0f78290c324b5b418",
+    "refs/tags/v0.1.3^{}": "c72bd53de6e6cf1ff5aaa9c78d1808a04e0c9166",
+    "refs/tags/v0.2.0": "07f4369b5c704860cb9e7a58ad1b140b9c13c8dc",
+    "refs/tags/v0.2.0^{}": "39f87cd011b196ab18490f5e8623bd1a17e60a3d",
+    "refs/tags/v0.2.1": "f1610bf1c6a60e89ead3743dc0abf5cae1fd9d31",
+    "refs/tags/v0.2.1^{}": "87c33bfaef9c8126b6511202a00ce769bb0e74fa",
+    "refs/tags/v0.2.2": "1911194369b505ddfff45dcd5e86eada2c5f6754",
+    "refs/tags/v0.2.2^{}": "fdf4dff40e634b9c83d973d1b89233bfb62ed8c1",
+    "refs/tags/v0.2.3": "f7406ce1e863c166f12f4e359845175e5a2eebd6",
+    "refs/tags/v0.2.3^{}": "cecf3c91756a261f7da1caa68a56edfb96e13125",
+    "refs/tags/v0.2.4": "3d8eb77ade005322ad424463f37390dc22d9206b",
+    "refs/tags/v0.2.4^{}": "59aac3eb1eb6d3d8ce9432c5727aee18a9ef7343",
+    "refs/tags/v0.2.5": "c55845c8b49dbfa676381d8e0100e4f5342184ac",
+    "refs/tags/v0.2.5^{}": "e31d3107fbae884e248c11a97e63269243bc95a5",
+    "refs/tags/v0.2.6": "91e22258b06e15ac1bf136107edfd3d915f1c7a7",
+    "refs/tags/v0.2.6^{}": "f97f324382a4b80f8bf0118338c054ec96fd9b03"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/CHANGELOG.md",
+      "bytes": 24435,
+      "sha256": "dedebfa909a55c1621c3cb7473158bb5f5981f08303d6e436a1037535d185616",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/README.md",
+      "bytes": 40248,
+      "sha256": "0b6fb545a65a3a287c697e358cb86b33f867fd8e50202d74af3b40d8a2bae390",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/chart-identity/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/docs/assets/chart-identity/chromium-1440.png",
+      "bytes": 165450,
+      "sha256": "5414497e3679ce6490917927c0532ba24b439abb01c1371565a9e6a1628694c9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/chart-identity/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/docs/assets/chart-identity/chromium-375.png",
+      "bytes": 162271,
+      "sha256": "7b2c4de73bf7d966788baebb9944b9e671f2586842fcdb64d207412b558d6fcd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/chart-identity/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/docs/assets/chart-identity/firefox-1440.png",
+      "bytes": 189050,
+      "sha256": "5946fdda4ef5e3e2e192ab274247cef7e88bdd079ed26d6efdb1bb492210f2b0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/chart-identity/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/docs/assets/chart-identity/firefox-375.png",
+      "bytes": 174866,
+      "sha256": "99309ba9ca0c9b5b0ee31ef03bb94957e90fed1631f8f61f9bac25cb359f895e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/wandb-chart-identity.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/docs/wandb-chart-identity.md",
+      "bytes": 4246,
+      "sha256": "4be21203aa66c636e56a42d66323920dd418169a768c4f77655adf24dff39430",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "scripts/browser_fixtures.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/scripts/browser_fixtures.py",
+      "bytes": 4546,
+      "sha256": "a1abb46e730c58a60af212e72810ac999b5ccc4d0fdc0bcb3f3dbc99f225b229",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/trainspotter/cli.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/src/trainspotter/cli.py",
+      "bytes": 13458,
+      "sha256": "d12f6b810263ef7dc030048615d9f51119c6d8a381e34bd7b05bfa1b22be0624",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/trainspotter/model.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/src/trainspotter/model.py",
+      "bytes": 14969,
+      "sha256": "29fe7f9c1d5f4c5469420581b8144b942459037f6ee948193ae0975368a2283f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/trainspotter/readers/__init__.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/src/trainspotter/readers/__init__.py",
+      "bytes": 4344,
+      "sha256": "8de3d54b233d8a3f563e721841b3067fccfa9a30b0905563e4fae4de9d752398",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/trainspotter/readers/wandb.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/src/trainspotter/readers/wandb.py",
+      "bytes": 12042,
+      "sha256": "c4c7b1445dd102b2e2ef1ba9a97f1a7949d1b22ce04ee4fe23b8f35547a61229",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/trainspotter/report/html_report.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/src/trainspotter/report/html_report.py",
+      "bytes": 47024,
+      "sha256": "52443a7989585ffaa2aa627227f68cfe5c437f161ba0cbe9a1bc8adc7bce2e10",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/trainspotter/report/json_report.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/src/trainspotter/report/json_report.py",
+      "bytes": 6497,
+      "sha256": "76d6677dc7d74866296d6c75b6153f916d7a2d890f11b2ae7b4d974e453a0128",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/chart-identity/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/studies/chart-identity/README.md",
+      "bytes": 5671,
+      "sha256": "b1cd8df8e7a992930d8b9045f491627165722022638c9271f4f9b6ba6b487139",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/chart-identity/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/studies/chart-identity/after.json",
+      "bytes": 33452,
+      "sha256": "90c6b49064d6398391391c519a8268eac2b90159bb2f6a116ee9e90a315459b9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/chart-identity/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/studies/chart-identity/before.json",
+      "bytes": 35226,
+      "sha256": "994e0be91263302b668b1ec545da2669d6bcaa7b6a6681ebc24de43ea252a647",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/chart-identity/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/studies/chart-identity/browser.json",
+      "bytes": 4925,
+      "sha256": "b7b62dc37d776368a1a0a6df319d9fcb2e0b0712fc3f5319528785c3cde073c5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/chart-identity/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/studies/chart-identity/browser.mjs",
+      "bytes": 3658,
+      "sha256": "39e5c2ad06142673955a457307471379382b63b4a0d14c8069c4a4d142e81a6b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/chart-identity/fixtures/ambiguous.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/studies/chart-identity/fixtures/ambiguous.csv",
+      "bytes": 2550,
+      "sha256": "c0e87f4835fb7ac4d25b02fb551e451733e736da9db48005fc8481ee4cdc8c98",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/chart-identity/fixtures/history.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/studies/chart-identity/fixtures/history.csv",
+      "bytes": 1112,
+      "sha256": "138c239289a4ae700679714f5207222d061d28580e5f39fea5077ab8f7617869",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/chart-identity/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/studies/chart-identity/replay.py",
+      "bytes": 6175,
+      "sha256": "794ddc8968d477196eddd8d5df06e38ae34358c971723dbd3476b85cbc39a315",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/chart-identity/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/studies/chart-identity/verification.json",
+      "bytes": 2171,
+      "sha256": "f625779853720a500905cc7ee111590b1302a98258bae9332bcb4d7757f83139",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/tests/browser.mjs",
+      "bytes": 18367,
+      "sha256": "1d2c452b7b8ebf9cc8425a7aaaf83dd8841b27f997fb4e97e73131499349f4e6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_real_layouts.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/tests/test_real_layouts.py",
+      "bytes": 22853,
+      "sha256": "59e24cbd6aea1729243bc8857aa1ebce54a760a3af883d80c31b9000529bd081",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_wandb_chart_identity.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/b91e658b6cc636d6a31e756e7e4fa9f94aac7c63/tests/test_wandb_chart_identity.py",
+      "bytes": 6864,
+      "sha256": "6514374f18a4e0faee83bec6ab543a8f84441887dace0bfc9e28e012ea3df99a",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 26,
+  "bytes": 1006470,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
