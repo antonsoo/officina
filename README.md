@@ -55,6 +55,11 @@ retained input bytes, native/browser parity and clean-build verification.
 The [audio and MCP continuation](docs/verified-audio-and-mcp-2026-10-11.md) adds
 first offline audio use, bounded name comparisons and duplicate-name detection,
 with installed CLI captures and 28 matching ToneMirror production files.
+The [frame-continuity repair](docs/stutterscope-frame-gaps-2026-10-11.md) preserves
+Stutterscope's missing-row boundaries through analysis and export. The
+[saved-audio library repair](docs/tonemirror-library-loading-2026-10-11.md) avoids
+loading every recording just to browse ToneMirror's library, with migration and
+byte-preservation evidence from desktop and phone browsers.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200

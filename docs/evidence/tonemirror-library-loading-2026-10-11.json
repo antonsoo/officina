@@ -1,0 +1,211 @@
+{
+  "checked_at_utc": "2026-10-12T01:06:00.560777+00:00",
+  "repository": "antonsoo/tonemirror",
+  "head": "a8142edebde3a9708ba1a59541e0243136016fc7",
+  "origin_main": "a8142edebde3a9708ba1a59541e0243136016fc7",
+  "clean_worktree": true,
+  "gh_pages_observed": "95b8bdc0863e88e13049487f114637aa76640ce4",
+  "scope": "Authorized source push only. No package release, tag, or manual hosted deployment. Local browser checks apply to retained build artifacts, not the hosted demo.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/CHANGELOG.md",
+      "bytes": 9736,
+      "sha256": "3f551f9ed2e27880bf84f7265b2edc39398260af859e3c3be01c46a8da7d2abb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/README.md",
+      "bytes": 20724,
+      "sha256": "4002adbddc717901ca315a868a98450fe03fe4f452f8982e118c6a8be9e580c7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/library-loading/chromium-1440-analysis.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/docs/assets/library-loading/chromium-1440-analysis.png",
+      "bytes": 47487,
+      "sha256": "29d54c03c002e0f85d36861799256681f291f95cafc48815a9f550129bf6e99d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/library-loading/chromium-1440-library.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/docs/assets/library-loading/chromium-1440-library.png",
+      "bytes": 28706,
+      "sha256": "58d3d2b5dd3d428371f6e804106c41ee53b196fb7e51284d30cd7b70ca9581c2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/library-loading/chromium-375-analysis.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/docs/assets/library-loading/chromium-375-analysis.png",
+      "bytes": 36643,
+      "sha256": "3b0192747de745517203a258a6fcc973548f5d391377a8727f3b6190f420b739",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/library-loading/chromium-375-library.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/docs/assets/library-loading/chromium-375-library.png",
+      "bytes": 26670,
+      "sha256": "8f46ef8ddb6051d4c906da3c82631072ba519fdc6584c211471c78c2de597882",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/library-loading/firefox-1440-analysis.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/docs/assets/library-loading/firefox-1440-analysis.png",
+      "bytes": 59380,
+      "sha256": "18047547ef520dc82f281cf430f567fef8c65cbe8469a4e4dfd766e9a2278f9f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/library-loading/firefox-1440-library.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/docs/assets/library-loading/firefox-1440-library.png",
+      "bytes": 34061,
+      "sha256": "b70769bda4e7fa34cedf6a78173b8beec5bfa3ee0fbb955287cdf1021b323775",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/library-loading/firefox-375-analysis.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/docs/assets/library-loading/firefox-375-analysis.png",
+      "bytes": 46281,
+      "sha256": "d443f8c247d0c29a4675d63357164287c7bf205c8d8d44ecbab4eb8a0eb67632",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/library-loading/firefox-375-library.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/docs/assets/library-loading/firefox-375-library.png",
+      "bytes": 31038,
+      "sha256": "86ca4b950f867a159bc09e09c439caddcd379b5e85d905256e4321c649ca5ac8",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/audio-boundaries.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/docs/audio-boundaries.md",
+      "bytes": 5874,
+      "sha256": "f1603c3c86cf888804687d10bd634c7c0917e0f79a6f140365a4077eba5244df",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "package-lock.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/package-lock.json",
+      "bytes": 99655,
+      "sha256": "7e5000c2c9aa5a1f2a4840e482561b7440703eb34992f706b57c943234c6bd6d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "package.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/package.json",
+      "bytes": 1371,
+      "sha256": "f9d7b54c084f9b24ee50e2d9101920ef886c6357c76432a626c91bca191cf415",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/app.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/src/app.ts",
+      "bytes": 34197,
+      "sha256": "2a05f1637b7d1a4ee187485c01b8c16490cc71d45611e2607d01402b846d3ce1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/storage/db.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/src/storage/db.ts",
+      "bytes": 6717,
+      "sha256": "3e60169f6f96e3561f471ef436fa77103dd72015d437f8d0ae4b58b6dd753617",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/library-loading/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/studies/library-loading/README.md",
+      "bytes": 8647,
+      "sha256": "753e8e10e4c970bd3bb909c3b73ddeb497c68242d751bbe089ae784b178ea92d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/library-loading/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/studies/library-loading/after.json",
+      "bytes": 131706,
+      "sha256": "eea35d9190f14d8ee6f609d00063bb5182c591811a14a9655f655ca707342a6b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/library-loading/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/studies/library-loading/before.json",
+      "bytes": 131818,
+      "sha256": "f7d604a5c65f30cb059cacc08c61c5118f508cc44a4f81f773ee15bd69ccb253",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/library-loading/clean-checks.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/studies/library-loading/clean-checks.txt",
+      "bytes": 12868,
+      "sha256": "6daeea496f6c0e061436c083774786a5163f5e67914f67104f1d6abbb9af3fb6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/library-loading/compare.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/studies/library-loading/compare.mjs",
+      "bytes": 2247,
+      "sha256": "433f94e40bf4a2c7457fc6103f1d4ca7f35f1b674fdb12832835c2de19bb8cde",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/library-loading/parity.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/studies/library-loading/parity.json",
+      "bytes": 3086,
+      "sha256": "b7d272b985768de3353faea6deb19735dd2dde28b11f5e76b99cb39a3234b801",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/library-loading/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/studies/library-loading/verification.json",
+      "bytes": 28301,
+      "sha256": "783f2e864474ef589487760924929a5515db4cc2cf4ed7884247bec8ce6118b2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/library-loading/verify.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/studies/library-loading/verify.mjs",
+      "bytes": 18437,
+      "sha256": "466f1463d1a919ebe2c2b223f78ef0775253c659d0fe35f32faa547d71539176",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/browser/library.spec.js",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/tests/browser/library.spec.js",
+      "bytes": 7229,
+      "sha256": "199405d38f4634826228f955a09a31e8c54a6123d848a2febe0a58e2323e00e2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/storage.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a8142edebde3a9708ba1a59541e0243136016fc7/tests/storage.test.ts",
+      "bytes": 8518,
+      "sha256": "b236868eb0ce9a9bfc3ee66a5b9ff765b0efc514788ddd7012d93e2e8603a835",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ]
+}
