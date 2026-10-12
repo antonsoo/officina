@@ -173,6 +173,9 @@ imports, offline browser downloads and installed-package evidence.
 The [Trainspotter chart-identity repair](docs/trainspotter-chart-identity-2026-10-12.md)
 preserves complete metric names under an explicit single-run declaration and
 rejects ambiguous labels that previously discarded or relabeled evaluation loss.
+The [Contextscope grouping repair](docs/contextscope-finding-groups-2026-10-12.md)
+keeps warnings and distinct message variants visible while preserving repeated
+equivalent findings, request navigation and numerical output.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
