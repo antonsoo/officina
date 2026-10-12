@@ -1,0 +1,291 @@
+{
+  "checked_at_utc": "2026-10-12T04:59:41.958915+00:00",
+  "repository": "antonsoo/tracelens",
+  "head": "bea26a80aeadbca3659c493a7378597582c0f410",
+  "origin_main": "bea26a80aeadbca3659c493a7378597582c0f410",
+  "clean_worktree": true,
+  "gh_pages_observed": "0a09eefa2516409e9aff3367a8880cfbf114815d",
+  "scope": "Authorized source push only. No package release, tag, or hosted deployment. Push workflows skipped using the documented [skip ci] marker; gh-pages unchanged. Local browser checks apply to retained build artifacts, not the hosted demo.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/CHANGELOG.md",
+      "bytes": 20623,
+      "sha256": "e7474eebfd46ef3fe2fea6064c0f7526a56348367932484bc49e6ec34f860074",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/README.md",
+      "bytes": 27222,
+      "sha256": "3b4edfaead86ddfae3eddb1dc2a2b3c55c42aafc43ca30b1d9c6cd80328e26c9",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/after/chromium-1440-legacy-input-attribute.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/after/chromium-1440-legacy-input-attribute.png",
+      "bytes": 85434,
+      "sha256": "1ae2c5d304a148cda2452803004f53b8378671517ab97f1c4f16378b52354acd",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/after/chromium-1440-toolUse-string.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/after/chromium-1440-toolUse-string.png",
+      "bytes": 90963,
+      "sha256": "2eee5422924e478852387f541cf401d07013b9eab454b62cf3e3996fc9b2e795",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/after/chromium-375-legacy-input-attribute.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/after/chromium-375-legacy-input-attribute.png",
+      "bytes": 78227,
+      "sha256": "232379be12dcec91fd2077da037ac476a4576f3925e8ced191afb219ec7c5397",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/after/chromium-375-toolUse-string.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/after/chromium-375-toolUse-string.png",
+      "bytes": 86077,
+      "sha256": "8dde64e7450a66282366d0609bce8b7a635c14726121eeb0fc3ef3a1076959f7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/after/firefox-1440-legacy-input-attribute.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/after/firefox-1440-legacy-input-attribute.png",
+      "bytes": 115992,
+      "sha256": "46df59827551edce8f7a25c5ed3bfe3f89861b2508b7480f0717109761bf34c3",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/after/firefox-1440-toolUse-string.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/after/firefox-1440-toolUse-string.png",
+      "bytes": 125820,
+      "sha256": "1bb2dc5201eb652765de71d9aad72ee67e10b884e27423a635a68bda3e1e0d9a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/after/firefox-375-legacy-input-attribute.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/after/firefox-375-legacy-input-attribute.png",
+      "bytes": 106447,
+      "sha256": "a483d17cab13b77b41fe49acf846d027aa12d941cb9add083f15a5ba3601ae4f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/after/firefox-375-toolUse-string.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/after/firefox-375-toolUse-string.png",
+      "bytes": 116796,
+      "sha256": "8cdba93358bf3c7021fccddcdb5d063442edb452217632c5746218eb7d6f288e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/before/chromium-1440-legacy-input-attribute.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/before/chromium-1440-legacy-input-attribute.png",
+      "bytes": 83340,
+      "sha256": "8dc327d130f302daac1885b8a926ef50255d30a79761d3f6753150924f595c8f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/before/chromium-1440-toolUse-string.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/before/chromium-1440-toolUse-string.png",
+      "bytes": 48746,
+      "sha256": "1cccc6a62afc011a4a347abe120caf1f06c13ca05d2775261b92311d130e30a6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/before/chromium-375-legacy-input-attribute.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/before/chromium-375-legacy-input-attribute.png",
+      "bytes": 71395,
+      "sha256": "3821555bdea5d369a4dfea085f7d52af1cb9a80ec4cc08be568ec2d41333a276",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/before/chromium-375-toolUse-string.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/before/chromium-375-toolUse-string.png",
+      "bytes": 43150,
+      "sha256": "2691f22cbd1827b6797ac0da30da728c605ffb4ea30f5881e33419810bdaa63a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/before/firefox-1440-legacy-input-attribute.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/before/firefox-1440-legacy-input-attribute.png",
+      "bytes": 106977,
+      "sha256": "2dc7dd2de10962a612f63812b2312ddebaf02b1e50e78549b729cd5d7b8fc928",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/before/firefox-1440-toolUse-string.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/before/firefox-1440-toolUse-string.png",
+      "bytes": 72177,
+      "sha256": "1aa9fffcce3af9dde22d54c58d49dabb07898c044b7036d27c32ab660a461d49",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/before/firefox-375-legacy-input-attribute.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/before/firefox-375-legacy-input-attribute.png",
+      "bytes": 97962,
+      "sha256": "ffddcf704dd93fa7808d6a0b3e9ecbb3878d69a31cddb88347f2188761b238a4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/event-messages/before/firefox-375-toolUse-string.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/assets/event-messages/before/firefox-375-toolUse-string.png",
+      "bytes": 65597,
+      "sha256": "46dfd45608ad4747b5b0ad572e1388950e698f50353ff1f0c66aae5b5d148176",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/formats.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/docs/formats.md",
+      "bytes": 29371,
+      "sha256": "4b2d44578e381b967080984977ecb7746de87d3881a0e8c69ba60e28c603eb86",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/normalize.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/src/core/normalize.ts",
+      "bytes": 34827,
+      "sha256": "159f758c0ff1b05a2163edb6116ed9e9cd55729cc6f5d6491c7ba8ef999b97e2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/otlp-parser.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/src/core/otlp-parser.ts",
+      "bytes": 23248,
+      "sha256": "69f33a0b9c26e453392202684c42a925ee841279f089b2503143a682ecdaf9b5",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/web/main.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/src/web/main.ts",
+      "bytes": 25532,
+      "sha256": "fdef321ddb1671295468bc8ff0f5fc7eea735d98330278504739445209511686",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/README.md",
+      "bytes": 8624,
+      "sha256": "1973a5e7a42857f4217c971ce1bba61bed17a0eea454adfade0d59772beecd5a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/after.json",
+      "bytes": 139215,
+      "sha256": "21e71baf48f7357fec0e191d4c3f15912963eb983c31680fc1bb0d874bd9e19d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/before.json",
+      "bytes": 110267,
+      "sha256": "9721bf0b745a405ba186e18f794faf8f1c26f75cf227d88002a7b099528af05d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/browser-after.json",
+      "bytes": 256121,
+      "sha256": "0af1258b91ca83e5bfaee61c2d5e89a1485720721cf0942b182d3ac3355df07b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/browser-before.json",
+      "bytes": 162401,
+      "sha256": "bf83bc9a8bfa6efa55c260b39675d93d891949180902d083fdaf9b0046a085d4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/browser.mjs",
+      "bytes": 8481,
+      "sha256": "c50c4627ea316069f133f6f872706a301c7021200e5984328942f10667a6d6b1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/cases.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/cases.mjs",
+      "bytes": 4370,
+      "sha256": "c75caa74374a631027bcbefdf17c466a620391e66e97d58d1e74c72f0a954125",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/checks.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/checks.json",
+      "bytes": 48310,
+      "sha256": "22bd3ed89f09d625d25ab01f235c84907b4159843919159a12943f97914ffc2d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/corpus.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/corpus.json",
+      "bytes": 10195,
+      "sha256": "47223a80a62bbdad894c0581e68d04f2b4b3ef2bc0f5f62e61b36c9c18b50d9a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/performance.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/performance.json",
+      "bytes": 678,
+      "sha256": "21e8650835503da765647845573e52ae7dacb22424ec90c2905f5d33872edb41",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/event-messages/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/studies/event-messages/replay.mjs",
+      "bytes": 4382,
+      "sha256": "95ca164b89ed694353279b19106026f04660368a1ae2d6f0fdf75d2a6f433ebc",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/event-messages.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/bea26a80aeadbca3659c493a7378597582c0f410/tests/event-messages.test.ts",
+      "bytes": 4677,
+      "sha256": "3cdd3dc70ce74758afe7754d296dd8ad85bd03d3826db1875cd246aec4b40847",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ],
+  "baseline": "3d3343d50b2754ec109db80cdb51dfc8338ab607",
+  "release_tags_unchanged": true,
+  "release_tag_refs": {
+    "refs/tags/v0.3.2": "9a53f40e6ac4dfee369e953063cc2e7d7a700c91",
+    "refs/tags/v0.3.2^{}": "c6820a421ef93ee926282ddf7912bdc68a66902e",
+    "refs/tags/v0.3.3": "80b4168a2fa633bf2bb176b00c24175ec26cb4db",
+    "refs/tags/v0.3.3^{}": "bc6d90ab00af933abccc1e5ccc2e34b6f2833e79"
+  }
+}

@@ -80,6 +80,9 @@ The [lunar-boundary repair](docs/horologium-lunar-boundaries-2026-10-12.md)
 keeps Horologium from skipping nearby new moons or mixing reconstructed year
 labels, with independent interval checks, installed-package verification and
 offline calendar evidence.
+The [TraceLens message-event repair](docs/tracelens-event-messages-2026-10-12.md)
+keeps damaged tool payloads inspectable and restores suppressed output events,
+with installed CLI replays, offline browser evidence and verified source bytes.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
