@@ -155,6 +155,9 @@ exact restoration and unchanged public-text detections.
 The [Contextscope literal-token repair](docs/contextscope-token-literals-2026-10-12.md)
 lets tokenizer code and delimiter strings survive import, with native ordinary-text
 counts, installed CLI/browser replays and unchanged historical reports.
+The [Errorbars table-import repair](docs/errorbars-table-imports-2026-10-12.md)
+refuses duplicate DataFrame columns and damaged quoted CSV, with preserved output
+files and unchanged valid comparisons in clean installed-package replays.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
