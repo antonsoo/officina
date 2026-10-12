@@ -179,6 +179,9 @@ equivalent findings, request navigation and numerical output.
 The [ToneMirror practice-region workflow](docs/tonemirror-practice-regions-2026-10-12.md)
 extracts reusable passages from recordings for comparison and saving, with
 keyboard selection, reversible trims and recorded-speech sample checks.
+The [Ghostchars Unicode security-data correction](docs/ghostchars-unicode-security-data-2026-10-12.md)
+recovers missed identifier lookalikes with upstream mapping checks, runnable
+JavaScript evidence and installed CLI/browser verification.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
