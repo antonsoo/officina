@@ -1,0 +1,114 @@
+{
+  "repository": "horologium",
+  "baselineCommit": "5d249f7b115075a0e76656449daa77468db2099e",
+  "sourceCommit": "2ce803e4a78f31f57be013f4d21de4834052daad",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "89a9d0f9c12cd32fbd1b675b46dab92124073552",
+    "refs/heads/main": "5d249f7b115075a0e76656449daa77468db2099e",
+    "refs/tags/v0.2.3": "5909b09498b0400a9727ec132d059fdc74d787fd",
+    "refs/tags/v0.2.3^{}": "4098d8c9f8ea03fcf29d5777911bdfcdc0d4ef80"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "89a9d0f9c12cd32fbd1b675b46dab92124073552",
+    "refs/heads/main": "2ce803e4a78f31f57be013f4d21de4834052daad",
+    "refs/tags/v0.2.3": "5909b09498b0400a9727ec132d059fdc74d787fd",
+    "refs/tags/v0.2.3^{}": "4098d8c9f8ea03fcf29d5777911bdfcdc0d4ef80"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/CHANGELOG.md",
+      "bytes": 12450,
+      "sha256": "9fdd18dfa07525ae4796f66a660195ddd2e0d2debcd91102e621ca213371b503",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/README.md",
+      "bytes": 13323,
+      "sha256": "eb33685eb67c43a0517374113ed0faa07c10a30198dea36b27e38efcffc967a4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/CALENDARS.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/docs/CALENDARS.md",
+      "bytes": 23589,
+      "sha256": "8095f9631a7207921b41bd2add1cce8afb0b93a7c3c70f8b8107935a7513d603",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/qadimi-label/after-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/docs/assets/qadimi-label/after-chromium-1440.png",
+      "bytes": 28559,
+      "sha256": "5b8c002b6723b43a9aca7a168211e14a40420cba4d33e8af22bbaddcd6bc1559",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/qadimi-label/after-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/docs/assets/qadimi-label/after-chromium-375.png",
+      "bytes": 29619,
+      "sha256": "628aa5bfee00338b839c1ce8109b5a09b2e6dba916ae49404dcade38e877f414",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/qadimi-label/after-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/docs/assets/qadimi-label/after-firefox-1440.png",
+      "bytes": 44981,
+      "sha256": "8a89788078aa77625822a05ee953296483a86083738d03e8179ac14def87f91a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/qadimi-label/after-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/docs/assets/qadimi-label/after-firefox-375.png",
+      "bytes": 43190,
+      "sha256": "b850c951b474b983aea9155d3ff47e4c8dd53f995d100a1a081c19ad8d641733",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/qadimi-label/before-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/docs/assets/qadimi-label/before-chromium-1440.png",
+      "bytes": 26380,
+      "sha256": "3edce40815daf4f93b5b7e9af9e2b1f1cd6d3bd877411f5df1e91b370494470b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/qadimi-label/before-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/docs/assets/qadimi-label/before-chromium-375.png",
+      "bytes": 25968,
+      "sha256": "c12b436793c0aba45b40935033f005902ba7d6c11fc9ac0536ef5201e793fba6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/qadimi-label/before-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/docs/assets/qadimi-label/before-firefox-1440.png",
+      "bytes": 41281,
+      "sha256": "3cc5a0e9f6d60599dcfc4dff0d16dcb93241faf8bd9ca39f1e1db9418a70a8fa",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/qadimi-label/before-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/docs/assets/qadimi-label/before-firefox-375.png",
+      "bytes": 39260,
+      "sha256": "21613a055cdd59f0b709d5661dcd4ea79d78a9a01aa9937cde17cc7cc3791a0b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/qadimi-verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/docs/qadimi-verification.json",
+      "bytes": 14235,
+      "sha256": "5d45999f83dfc0a88ba5b24caef4d360b41e7fe6e11d8829c9c41355ac20a1c9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/lib/zoroastrian.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/2ce803e4a78f31f57be013f4d21de4834052daad/src/lib/zoroastrian.ts",
+      "bytes": 3995,
+      "sha256": "b7665f7c073c3c15d8f19af7735b23eafeb1180a24ca1d818fef9d50049db2df",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 13,
+  "bytes": 346830,
+  "scope": "main source only; tags and gh-pages unchanged"
+}

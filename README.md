@@ -164,6 +164,9 @@ valid exports and the previous browser comparison.
 The [Am I Unlucky input repair](docs/am-i-unlucky-simple-inputs-2026-10-12.md)
 prevents fractional and empty counts from silently becoming different observations,
 and removes stale cards immediately while preserving valid sharing.
+The [Horologium Qadimi correction](docs/horologium-qadimi-2026-10-12.md)
+identifies the calendar variant and replaces a false seasonal-alignment claim
+with a community-calendar reference; the date arithmetic remains unchanged.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
