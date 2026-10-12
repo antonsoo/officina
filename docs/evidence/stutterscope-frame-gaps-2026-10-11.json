@@ -1,0 +1,371 @@
+{
+  "checked_at_utc": "2026-10-12T00:35:38.161051+00:00",
+  "repository": "antonsoo/stutterscope",
+  "head": "b30d55b40dd2592c74b5f37ae13d742c0bbc5526",
+  "origin_main": "b30d55b40dd2592c74b5f37ae13d742c0bbc5526",
+  "clean_worktree": true,
+  "gh_pages_observed": "4dabfd35b268b5d241749b077153969d8df0aca7",
+  "scope": "Authorized source push only. No package release, tag, or manual hosted deployment. Local browser checks apply to retained build artifacts, not the hosted demo.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/CHANGELOG.md",
+      "bytes": 15132,
+      "sha256": "b10ddab8482528555d79873f25d342ee34cf6e88639837a884190ab2133b4081",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/README.md",
+      "bytes": 21556,
+      "sha256": "039d960b1e0b3568801501a9a7808b492b05c727edaf073dee76d6869127879a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/frame-gaps/after/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/assets/frame-gaps/after/chromium-1440.png",
+      "bytes": 292781,
+      "sha256": "1c1ae76fa884e3616b3993cbf794eab4160d3bd0572ceb8d396a1b8f2d074984",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/frame-gaps/after/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/assets/frame-gaps/after/chromium-375.png",
+      "bytes": 244223,
+      "sha256": "1d430ac187858ef6515130633912e5f871040cf18826ce4d41a9c21df7196cee",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/frame-gaps/after/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/assets/frame-gaps/after/firefox-1440.png",
+      "bytes": 323131,
+      "sha256": "8de0eb3d6851351c6eaa1f0154c7b754a7261509d3d528dfe326d1e4de9bf79f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/frame-gaps/after/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/assets/frame-gaps/after/firefox-375.png",
+      "bytes": 274217,
+      "sha256": "f0ef291243f2022abeb346c2cdb35846dbeca9e665c1826f54ebe605a2852dba",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/frame-gaps/after/report-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/assets/frame-gaps/after/report-card.png",
+      "bytes": 60750,
+      "sha256": "53fac46ee6f3988831020ba3fa029f7dd0904384aabeb97f47c452469a30ca9e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/frame-gaps/before/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/assets/frame-gaps/before/chromium-1440.png",
+      "bytes": 278424,
+      "sha256": "cf3699c8f0e28449754fc38387398c4bff3242bf4ba87321dce3cd24a07670bd",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/frame-gaps/before/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/assets/frame-gaps/before/chromium-375.png",
+      "bytes": 225236,
+      "sha256": "d48fd1927cf9fcc949c90d5aa78d24076ed7c2ef4de797668dd12f786deb7842",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/frame-gaps/before/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/assets/frame-gaps/before/firefox-1440.png",
+      "bytes": 304567,
+      "sha256": "7a0f8afc9bdda7fb07f7119f5b0fa412517ebad220af58e8339970d30b924331",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/frame-gaps/before/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/assets/frame-gaps/before/firefox-375.png",
+      "bytes": 254218,
+      "sha256": "9c6c66a3f663593fae9ec79860d189a4336ef4d7c2c468ffef1a392df3d424eb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/frame-gaps/before/report-card.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/assets/frame-gaps/before/report-card.png",
+      "bytes": 59565,
+      "sha256": "36ca3c8dd00e63a7cdf7c80d041138eb938263a5ea83865abb16c97879bb4bb1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/formats.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/formats.md",
+      "bytes": 20229,
+      "sha256": "09a3b1b3278586620b15e8dc26843cd1ae256c91dab487eda82cbedf653729cf",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/metrics.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/docs/metrics.md",
+      "bytes": 12715,
+      "sha256": "f8431193c42b271f48dc2222b09bf93edee4613d284283b11874f56fdc4141d4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/analysis.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/src/core/analysis.ts",
+      "bytes": 5054,
+      "sha256": "f93c0bcfbe947adadb37c3396983c24c7b215c790ed4a2f5688d764de5bfa2df",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/continuity.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/src/core/continuity.ts",
+      "bytes": 998,
+      "sha256": "89dd5a1e0ea47c0918fb3c49845ff0fa5c0b43878f3bbc63274d8588af83f360",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/episodes.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/src/core/episodes.ts",
+      "bytes": 2456,
+      "sha256": "78960d0fb3c5809485d78fe96c4ce97160f58ad07887c9bf883da673b6d4ddc6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/metrics.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/src/core/metrics.ts",
+      "bytes": 23967,
+      "sha256": "5e3613414b9d3f8cae296409e5d510b098c3dd84aa150ff537eed45da89e0323",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/report.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/src/core/report.ts",
+      "bytes": 2301,
+      "sha256": "8888c86bd636ac0b51a9ce4c86108c908ad1deb6bad6894bd04991109c042ce3",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/streams.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/src/core/streams.ts",
+      "bytes": 8444,
+      "sha256": "ef2ac5bfc9e5f7c4f0bcdd1e43119a97353b5e187ee63170270146b39814d7ad",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/ui/charts.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/src/ui/charts.ts",
+      "bytes": 16902,
+      "sha256": "355cff5a989f5da559dfaa01a002cd93d441f38034e7bd31c866b104368a26ec",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/ui/share.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/src/ui/share.ts",
+      "bytes": 12449,
+      "sha256": "38a9d141e35f78e69fda66d43acb98976467d664285373206999c4be2bf614dd",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/ui/traceData.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/src/ui/traceData.ts",
+      "bytes": 1153,
+      "sha256": "ca4e331fb231f1994d4505e043bf6fa456b258cf51565bb0fd6283c649d22832",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/README.md",
+      "bytes": 7378,
+      "sha256": "674538f91cbc8eed6a9eacb580bb4e0264cbeb039ea3ad4c320492f5ec121e97",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/benchmark.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/benchmark.py",
+      "bytes": 2188,
+      "sha256": "b9fdee0f56ca3d81ee250247860561049da56c51849a0457e17350c0ba7040fa",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/browser-parity.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/browser-parity.py",
+      "bytes": 1883,
+      "sha256": "8f283fde08090b4ac9776b27caaa23846c4ae0a313679ae27b7df899234fe737",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/corpus.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/corpus.py",
+      "bytes": 3058,
+      "sha256": "b497df9b04684b73cc306efdcebb91dfc447650dbcd9ad6e742db99a32f0a4f2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/fixtures/hitches.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/fixtures/hitches.csv",
+      "bytes": 36,
+      "sha256": "2fd4dbf023fc963d61fc06dbbf17219515633f61f1c8bd1321a9c788c500bfc6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/fixtures/interleaved.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/fixtures/interleaved.csv",
+      "bytes": 237,
+      "sha256": "a9232e71b3b59e5e9c73c3ead6d061ab4f1192bf60b13330dca28c090380a215",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/fixtures/regime.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/fixtures/regime.csv",
+      "bytes": 45,
+      "sha256": "aea3c316ae90f0faa79fa4e1cdf53b7e9b698afa33c8a79e00479fc96222a2ff",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/observe-browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/observe-browser.mjs",
+      "bytes": 6984,
+      "sha256": "7de0757018b783ebd5c7e15fcacfec8a6cf0f75028c70a1d02542dfb73836d23",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/replay.py",
+      "bytes": 6836,
+      "sha256": "a1a2ec461909e3a2b576fd312c51dba67e33282a18a6fdae8dfd6af76db08f4a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/artifacts.json",
+      "bytes": 20161,
+      "sha256": "dc2a29e667ca60f7c29c7a4765264c3280ac0b21efb65d926d93bdc7afb9a47b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/before-fc44ae2.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/before-fc44ae2.json",
+      "bytes": 163602,
+      "sha256": "fa210298a87c5d887273afdd30e55c8e16f2820cd58af45bee2eacccadfd99a9",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/benchmark.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/benchmark.json",
+      "bytes": 1343,
+      "sha256": "db48d2e05182174fc1c87b639acf94245cffff9826c589bcab201b02a81a1eb4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/browser-parity.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/browser-parity.json",
+      "bytes": 5571,
+      "sha256": "adc2b0dd5eab8d16909cb9da9f5ec52d86b3b9b937c3461466a54fd920e782da",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/browsers-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/browsers-after.json",
+      "bytes": 121837,
+      "sha256": "0d7c3698b7620c18c391e36780a311bb26171bcb0252c49f85242d49562deb0f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/browsers-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/browsers-before.json",
+      "bytes": 15602,
+      "sha256": "af735ca0cbe61a58dc5b28160a4816e9ccf972cb0d6d69146dc21fb33be5fc06",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/corpus.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/corpus.json",
+      "bytes": 19654,
+      "sha256": "370346df0b64377545b8e3d013cd6c9d066c9ff6ed3c9cfd37302d6c8ea001d2",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/installed-comparison.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/installed-comparison.json",
+      "bytes": 8530,
+      "sha256": "815cbc2edda41426a1ee1ee9398b37cc05cf725adcead50d10159049321e95ca",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/installed-node22.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/installed-node22.json",
+      "bytes": 191124,
+      "sha256": "221d1a9c30fca67da413a8eaf8f68fadc8796e37dc9dca4f94dbdaa10eecb7bc",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/installed-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/installed-node24.json",
+      "bytes": 191125,
+      "sha256": "47e8a520e30070d2af9d8a097b2c8ce82d32317a8cf19ba726464f6f95339462",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/installed-summary.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/installed-summary.txt",
+      "bytes": 921,
+      "sha256": "1d5ddc48a18b5962c3343ea03e361cd0821a64bac922d833bcea20ff0d3e6286",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/results/validation.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/results/validation.json",
+      "bytes": 1079,
+      "sha256": "238262bf27a6197ca7bccace35f64fcd53385e50b52dd0344ebbd78084e93a6b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/frame-gaps/verify-artifacts.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/b30d55b40dd2592c74b5f37ae13d742c0bbc5526/studies/frame-gaps/verify-artifacts.py",
+      "bytes": 2327,
+      "sha256": "c5c0f5fc7ab94f60ffc914c43148c0d43030f127bc2b334f985bd08d67640628",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ]
+}
