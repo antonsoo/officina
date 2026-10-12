@@ -1,0 +1,395 @@
+{
+  "checked_at_utc": "2026-10-12T01:47:14.410827+00:00",
+  "repository": "antonsoo/contextscope",
+  "head": "f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c",
+  "origin_main": "f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c",
+  "clean_worktree": true,
+  "gh_pages_observed": "3496b0635263f82117196596cd18a068e601b9c3",
+  "scope": "Authorized source push only. No package release, tag, or manual hosted deployment. Local browser checks apply to retained build artifacts, not the hosted demo.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/CHANGELOG.md",
+      "bytes": 25588,
+      "sha256": "8b3252750efd3ab057ddf8f318b13a3a1a5c53f3217807034c6455ac57469b50",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/README.md",
+      "bytes": 41858,
+      "sha256": "28251429a273beaeb417261d0574ccf65cf4bfa4d97d070d2813eaa291895083",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/after/chromium-1440-group.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/after/chromium-1440-group.png",
+      "bytes": 14636,
+      "sha256": "864ed216dd3200035bde1ea07188f1f2d7e85574102fdb7e19c7edc76377de1a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/after/chromium-1440-original.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/after/chromium-1440-original.png",
+      "bytes": 83684,
+      "sha256": "2b138dc25996def877e876adfd0a99383554bb11e208a9b21020eefa975627b4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/after/chromium-375-group.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/after/chromium-375-group.png",
+      "bytes": 14352,
+      "sha256": "eedc1710d0213174d5690e8615becfa875b724104680de180391ec5f10a50a77",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/after/chromium-375-original.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/after/chromium-375-original.png",
+      "bytes": 79784,
+      "sha256": "0bd3434c9539083fee9dfe93959701ed4204270cf3c1a7d6ea39090aa280fbeb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/after/firefox-1440-group.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/after/firefox-1440-group.png",
+      "bytes": 19559,
+      "sha256": "b66d92269e9352c23974fb0a2927ed062bf51ed543b6929f92617f19ee025c3f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/after/firefox-1440-original.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/after/firefox-1440-original.png",
+      "bytes": 155362,
+      "sha256": "7ce17a65937b650ad864f5ae5e98fd747d4135c10a6bb3351d3046c2598cba2f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/after/firefox-375-group.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/after/firefox-375-group.png",
+      "bytes": 19617,
+      "sha256": "5f9f31b0a42675e1bf5a3f480c2f6c6957410dbf0f5736a10e6fd00bc5ab1bdf",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/after/firefox-375-original.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/after/firefox-375-original.png",
+      "bytes": 90837,
+      "sha256": "319e446f2034887bd9896328aa2f3a889c3266fe5113379ad67c37987620cc7b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/before/chromium-1440-group.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/before/chromium-1440-group.png",
+      "bytes": 8155,
+      "sha256": "e7e6b39957850e5c82a8a4fc8df5dfe77a1ace32fef39badefe8640c50c2e334",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/before/chromium-375-group.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/before/chromium-375-group.png",
+      "bytes": 7603,
+      "sha256": "3e54feb33662a9771efc66449d234f3c4a8e0efe84f0b485b6592e6488cbb0f5",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/before/firefox-1440-group.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/before/firefox-1440-group.png",
+      "bytes": 10009,
+      "sha256": "7e8d684c29b754acfb171699e42c951936463b23eedc9a46891661e897b76d8d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/duplicate-evidence/before/firefox-375-group.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/docs/assets/duplicate-evidence/before/firefox-375-group.png",
+      "bytes": 9215,
+      "sha256": "99db9d0a701f1317ba956f9753cb96236a35e0d57f4fea53e18d1db96de1a503",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "examples/anthropic-edited-repeats.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/examples/anthropic-edited-repeats.json",
+      "bytes": 14264,
+      "sha256": "638896338f7e0d443b30e18a117b3f3c4bf7595831ab5f5c42a81bac049b3e0b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/cli/html-report.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/src/cli/html-report.ts",
+      "bytes": 9606,
+      "sha256": "c76c64b4554430da78a7d1f62e4246c2e2b32164b95fa8a726fbea802db6c1a6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/cli/terminal-report.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/src/cli/terminal-report.ts",
+      "bytes": 17161,
+      "sha256": "6e0f1a6ddb688402872046bed2a050a5fb204c1bc16fe3f383e40464582388f3",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/duplicates.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/src/core/duplicates.ts",
+      "bytes": 4665,
+      "sha256": "10b19990a3badcc5556a8b4ab8ecc91e7ce61466dcb51fd5a79720335937ce8f",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/findings.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/src/core/findings.ts",
+      "bytes": 25582,
+      "sha256": "486597cc6db5f5fde2a4065e3bca9cf447b8642fb81cc19a0e7a9be331cb3c30",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/group-findings.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/src/core/group-findings.ts",
+      "bytes": 3376,
+      "sha256": "f8c31e3bd4a859b86f29542b84f6ab411774a366854bb26bbf8975e3d035bf9b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/json-utils.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/src/core/json-utils.ts",
+      "bytes": 5039,
+      "sha256": "203f30877672216c9fe8d014269cf7ea3cadedb2baac241e7904849915c9162b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/core/types.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/src/core/types.ts",
+      "bytes": 13727,
+      "sha256": "e293dfb79d8b70b9fac478614423c9b5835f33cce51c039779a5a0049d3db993",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/README.md",
+      "bytes": 10030,
+      "sha256": "2c85137fe709d5bc7a1d7289a9c631a7b2b99e9cc6d80d0a0e8ec8f9c94fbad6",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/after.json",
+      "bytes": 20143,
+      "sha256": "5ab811e155ce6225ebd8559a9caa1389e0dd6450fa96dc02475eb2a3159bcf26",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/artifacts.json",
+      "bytes": 46438,
+      "sha256": "c0b3fe99536da0928895a6328d108cb776d622836e1dd3ca38935fdb5b135a9a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/audit-corpus.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/audit-corpus.mjs",
+      "bytes": 4082,
+      "sha256": "3fd2f6119cc6e5904ec720ee4c3e2adcc1d40eeafc1be63b98df23a31a3442ba",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/before.json",
+      "bytes": 18802,
+      "sha256": "356792e8b3105e9d02eaf9ed7af4d3ba9001c2a4889827f3c1a48e485814c18c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/benchmark.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/benchmark.json",
+      "bytes": 1355,
+      "sha256": "3a3f351965e757b95510886fc89c19192622f7401a6b8c82d8f20e776cccec4b",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/benchmark.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/benchmark.mjs",
+      "bytes": 2426,
+      "sha256": "ac19388161df13010948a4b491d1ec7b75a3d25f5e95d198a1e71beae767a2af",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/browser-after.json",
+      "bytes": 9068,
+      "sha256": "2e45ccaf09f038c6a94edcbc8eebf535bdbe1a180de637c0116952b8e70fb8f7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/browser-before.json",
+      "bytes": 6561,
+      "sha256": "36f86770b44316c17888ea9d8cdb93e839c47a963137d31b49302cf2045c9407",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/browser.mjs",
+      "bytes": 9177,
+      "sha256": "296d6071827679cd87884540f1994c3979f4842832fea6f79a4ed1cf570c3dbf",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/cases.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/cases.mjs",
+      "bytes": 2506,
+      "sha256": "ec01d275c87d78fcebbd5b7deab59761989408eaf99b59f632f0098b2abc0037",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/check-installed.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/check-installed.mjs",
+      "bytes": 3695,
+      "sha256": "f071bdd45cf19b0cab295dfd78d208552b2ccae1b465c943adf4997a8463a2f9",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/compare.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/compare.mjs",
+      "bytes": 4080,
+      "sha256": "e88667cc68ee3064867a56f077e3177608a450f572d945d9c280feea9cdd8b3a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/comparison.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/comparison.json",
+      "bytes": 4255,
+      "sha256": "5756508faa11b88594a868c7bff261a5abd88f723b72e4f52831d8aafe899bb7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/corpus-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/corpus-after.json",
+      "bytes": 397369,
+      "sha256": "9f8a71a95303e3ac6fb26df7eec96f2e4e3fe951ff33caacd43a9bdf8d000551",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/corpus-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/corpus-before.json",
+      "bytes": 398656,
+      "sha256": "4dd1ffa86c8273af4cab5fdb83680c05315d2f15fce786b2009b7690afd2c7bc",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/html-content.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/html-content.mjs",
+      "bytes": 458,
+      "sha256": "21f2083587472c2c32a431a6070be013722d4190f08c44663b787f93b9fd3579",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/installed.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/installed.json",
+      "bytes": 2071,
+      "sha256": "d0d568ab2b6abf478c45ad17909f0af2d78d17072d67b6dc580c9af277565cc3",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/duplicate-evidence/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/studies/duplicate-evidence/replay.mjs",
+      "bytes": 2786,
+      "sha256": "9ce063befcb2d4f869b68d7bb1332aa7d9c78d13bc18375b25253b475b4bbb68",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/browser/workspace.spec.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/tests/browser/workspace.spec.ts",
+      "bytes": 41238,
+      "sha256": "16f95b79a1394040c325cf7a681e3eb77d170f952722a2afad0fdd91245328eb",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/duplicates.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/tests/duplicates.test.ts",
+      "bytes": 5235,
+      "sha256": "ce0663471954ede60f3cb764b418c38abe49f0622f70d596f2fc342bb0b15fcc",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/findings.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/tests/findings.test.ts",
+      "bytes": 8914,
+      "sha256": "edcab277f1c94ba3041975cc5efd8415875390d9a2f07395162fc2272deff557",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/group-findings.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/tests/group-findings.test.ts",
+      "bytes": 3355,
+      "sha256": "fbe50aae58a07bc53f0717064fda2a853f46800c66dca14e9c794f4fc9bbfbde",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/threads.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/tests/threads.test.ts",
+      "bytes": 21912,
+      "sha256": "2ea510dec6fbc90a0ed8f29cec51eee50285cd48c423282612fd694175358996",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "web/src/app.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/web/src/app.ts",
+      "bytes": 49913,
+      "sha256": "058016574d5303de45b70782d936373ca4f7ffcc0e5c7a3aa324641b527bd020",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "web/src/style.css",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/f8dcdb0d2f3617b046d29aa42f396e7c4ce9721c/web/src/style.css",
+      "bytes": 25766,
+      "sha256": "fbcb77439802d948bd1c5111da7b9a7b53ad41ae4123aada0e9d947839e9d4bf",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ]
+}

@@ -60,6 +60,9 @@ Stutterscope's missing-row boundaries through analysis and export. The
 [saved-audio library repair](docs/tonemirror-library-loading-2026-10-11.md) avoids
 loading every recording just to browse ToneMirror's library, with migration and
 byte-preservation evidence from desktop and phone browsers.
+The [duplicate-evidence repair](docs/contextscope-duplicate-evidence-2026-10-11.md)
+keeps Contextscope from treating chains of edits as interchangeable content,
+with inspectable originals and a hash-checked public-history audit.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
