@@ -1,0 +1,191 @@
+{
+  "repository": "logdelta",
+  "baselineCommit": "3823694b53abe9d36f05ac719b5d519e51a6eaa2",
+  "sourceCommit": "7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "f8c1e783c0d9b7e024f8d6c9f4ca554e389d4bdb",
+    "refs/heads/main": "3823694b53abe9d36f05ac719b5d519e51a6eaa2",
+    "refs/tags/v0.2.1": "442072e11180a6fd655506ae037f5f6e92adea05",
+    "refs/tags/v0.2.1^{}": "229875568dea9320ad70ce2edfcb7365662aefbc",
+    "refs/tags/v0.2.2": "82a3c8ea3cdf723000efa17e6c00c9b9c54d5fc1",
+    "refs/tags/v0.2.2^{}": "d86d70e64ffd75377c2b8c5ffb76140401201ff5",
+    "refs/tags/v0.2.3": "0679f8c37e7c6e69e92636de1579452b7f4e0d41",
+    "refs/tags/v0.2.3^{}": "cff6481bebdae4a9cd15d0744a6a2cf8223a6e68",
+    "refs/tags/v0.3.0": "fa20038ff21cd7a2101942c3ff63bae2da844474",
+    "refs/tags/v0.3.0^{}": "e0bd2404b3c4cf6fd699e559a2007bdeb23c9240",
+    "refs/tags/v0.3.1": "9cb60d1586dba7e26a63c4224555130c1fff6e8b",
+    "refs/tags/v0.3.1^{}": "fa9a2f4a7322c09cff283b2746a37bb450a3b7b7",
+    "refs/tags/v0.3.2": "54002e2377a13dd6d4aa16a923702eb30315e62b",
+    "refs/tags/v0.3.2^{}": "65b855ace1e27be5c9a4a53147a8f1bbd54d9920",
+    "refs/tags/v0.3.3": "65615931133646686dbe43e1d2b506601ae559a4",
+    "refs/tags/v0.3.3^{}": "d1eea01c79a536284006b18296bacdb6bab9dbea",
+    "refs/tags/v0.3.4": "936a7c80de5918618192b70b7fcc88b4de1b8c16",
+    "refs/tags/v0.3.4^{}": "a0597f366db38b524b2a8f3f3ee16c4f9cd384bc"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "f8c1e783c0d9b7e024f8d6c9f4ca554e389d4bdb",
+    "refs/heads/main": "7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76",
+    "refs/tags/v0.2.1": "442072e11180a6fd655506ae037f5f6e92adea05",
+    "refs/tags/v0.2.1^{}": "229875568dea9320ad70ce2edfcb7365662aefbc",
+    "refs/tags/v0.2.2": "82a3c8ea3cdf723000efa17e6c00c9b9c54d5fc1",
+    "refs/tags/v0.2.2^{}": "d86d70e64ffd75377c2b8c5ffb76140401201ff5",
+    "refs/tags/v0.2.3": "0679f8c37e7c6e69e92636de1579452b7f4e0d41",
+    "refs/tags/v0.2.3^{}": "cff6481bebdae4a9cd15d0744a6a2cf8223a6e68",
+    "refs/tags/v0.3.0": "fa20038ff21cd7a2101942c3ff63bae2da844474",
+    "refs/tags/v0.3.0^{}": "e0bd2404b3c4cf6fd699e559a2007bdeb23c9240",
+    "refs/tags/v0.3.1": "9cb60d1586dba7e26a63c4224555130c1fff6e8b",
+    "refs/tags/v0.3.1^{}": "fa9a2f4a7322c09cff283b2746a37bb450a3b7b7",
+    "refs/tags/v0.3.2": "54002e2377a13dd6d4aa16a923702eb30315e62b",
+    "refs/tags/v0.3.2^{}": "65b855ace1e27be5c9a4a53147a8f1bbd54d9920",
+    "refs/tags/v0.3.3": "65615931133646686dbe43e1d2b506601ae559a4",
+    "refs/tags/v0.3.3^{}": "d1eea01c79a536284006b18296bacdb6bab9dbea",
+    "refs/tags/v0.3.4": "936a7c80de5918618192b70b7fcc88b4de1b8c16",
+    "refs/tags/v0.3.4^{}": "a0597f366db38b524b2a8f3f3ee16c4f9cd384bc"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/CHANGELOG.md",
+      "bytes": 27902,
+      "sha256": "3c6462eb778dabef8aa3430299cf888dc04cbba6ac539a5c363e553a9201770c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/README.md",
+      "bytes": 41968,
+      "sha256": "dd8b91f6a2a97881b3088cb1c7135b2c46288917b82274e54dedf9d9770c55a6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/markdown-literals-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/docs/assets/markdown-literals-after.png",
+      "bytes": 93592,
+      "sha256": "08f46daffc46cf29f9bda8539f4a4b8033cb7152a1b28aa12da68e7b09eadf8e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/markdown-literals-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/docs/assets/markdown-literals-before.png",
+      "bytes": 84951,
+      "sha256": "454c93ec0b0e6d96ea07863263f9e5a88dc6c127b5ac4e280b1a06c27a30726c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/output/field_rates.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/src/output/field_rates.rs",
+      "bytes": 5978,
+      "sha256": "49be9b62d7e6db0b97bad7695fec4d3d1b2f288a6edda77e40a2009e746ace14",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/output/fields.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/src/output/fields.rs",
+      "bytes": 10238,
+      "sha256": "f1e1fa346dc532a3f8abdcd68356c5c5a2c425a58a4c19760b1a315a3e756f93",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/output/markdown.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/src/output/markdown.rs",
+      "bytes": 10471,
+      "sha256": "7b1fca120ecdaf1c20a72bff26f31610e26400c99c18611e64cc638483ac8d1e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/README.md",
+      "bytes": 6395,
+      "sha256": "fe6c0d2d0f482234aa57d0e7e365d1e716ad7553fd41c4b8439d019250a796f9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/browser.mjs",
+      "bytes": 4794,
+      "sha256": "e5870a5fce1b556f7575cd070bc7918d43289dbd74bd3ae6eaff1b06afc0e2fc",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/capture.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/capture.py",
+      "bytes": 10162,
+      "sha256": "120f6cd1dbd51614385725198f82eeafe6d6f677aab7e2a015a5bde8f818de3b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/rendered/after.html",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/rendered/after.html",
+      "bytes": 2053,
+      "sha256": "4340bcee4ed23684b07bfe11b13385370b8ba74ff1f14bb9dfe41f098b2e4c19",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/rendered/after.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/rendered/after.md",
+      "bytes": 1053,
+      "sha256": "101293f53dde158b240d9c7310e35b3b2fda3cfe333cda032b92d10f7710bafa",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/rendered/before.html",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/rendered/before.html",
+      "bytes": 2101,
+      "sha256": "e4bac28f3d5fbce3c8c68b43d223f5fdd5133e910df6f201a2e1ebc83df1b018",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/rendered/before.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/rendered/before.md",
+      "bytes": 1119,
+      "sha256": "07fb0c50038217240652a6121d60f312e8c5d30fa18caa5c6bd33c8f1537d03a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/results/after.json",
+      "bytes": 26442,
+      "sha256": "ee0d1adb7ce3bafc4647dfd6dcff40595fb98678ab1790e88f03ebaa33145c5b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/results/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/results/artifacts.json",
+      "bytes": 31008,
+      "sha256": "2797633434ab32e7252a20d1cc018efac1f99924fe99b65fe7633e14989434a3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/results/before.json",
+      "bytes": 28730,
+      "sha256": "598b9f7d10081971e3bd3b843589f49368d7f52eba5f1b2a5f6be0204f430705",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/markdown-literals/results/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/studies/markdown-literals/results/browser.json",
+      "bytes": 39742,
+      "sha256": "05d7b2ff565b869a8b91f4e61885119a8b6c5ddb43a1c7a6b75bdf2b85992975",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/field_rates.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/tests/field_rates.rs",
+      "bytes": 10960,
+      "sha256": "59a23c2899710794c8059f85f9f36f3a1f395f62e66315ee223aa523eefc728f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/fields.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/7188302e5efd1a7cca9c4c9dd1a851c95f4a8d76/tests/fields.rs",
+      "bytes": 23472,
+      "sha256": "7bfd552513c51d602b70fbe6a6e81a40f6bd594b01024260c76837fd4607d4e4",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 20,
+  "bytes": 463131,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
