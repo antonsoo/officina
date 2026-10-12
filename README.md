@@ -98,6 +98,9 @@ and verified source bytes, with separate native and browser timing limits.
 The [Errorbars feasibility repair](docs/errorbars-binary-feasibility-2026-10-12.md)
 rejects impossible binary evaluation plans and explains correlation-imposed
 minimum gaps, with independent joint tables and replayed offline downloads.
+The [Ghostchars repair-write fix](docs/ghostchars-atomic-repair-2026-10-12.md)
+preserves source bytes under real kernel write failures and interrupted writes,
+with installed-package replays and explicit metadata and I/O-cost limits.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200

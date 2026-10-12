@@ -1,0 +1,308 @@
+{
+  "checked_at_utc": "2026-10-12T10:39:37.917418+00:00",
+  "repository": "antonsoo/ghostchars",
+  "baseline": "94580b4718596f9c464883813ad2e79664af64d7",
+  "head": "426a453a7679edd1e70e08318073dff9f37ff397",
+  "origin_main": "426a453a7679edd1e70e08318073dff9f37ff397",
+  "clean_worktree": true,
+  "gh_pages_before": "1850946585995ad189416c171873a0be96aaf4e9",
+  "gh_pages_after": "1850946585995ad189416c171873a0be96aaf4e9",
+  "release_tag_refs_unchanged": true,
+  "release_tag_refs": {
+    "refs/tags/v0.1.5": "4bd7e19694f8cbd50b194f0e4a34e29d29403398",
+    "refs/tags/v0.1.5^{}": "74b1c603a43aefc6a6b86fa2a24a72a037a8483b"
+  },
+  "scope": "Authorized source push only. No package release, tag or hosted deployment. Both source commits use [skip ci]. Runtime checks cover the clean local build and isolated packed artifact.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/CHANGELOG.md",
+      "bytes": 17723,
+      "sha256": "7bdd1a13954b0787806683ffe61889d9747abddc2dce54d2a1f601ed5b1c330a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/README.md",
+      "bytes": 29117,
+      "sha256": "3a9f0fe9a76582b4d921e3f9047949772dcffba1478a53ef952f9e0b4d0c6836",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "dist/cli.js",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/dist/cli.js",
+      "bytes": 265301,
+      "sha256": "69943f2809d8d643b5296cd8f0c69ca7f4406ba4d2f9277f4c9b7d0ae4365f4e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/assets/atomic-repair/installed-node20.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/docs/assets/atomic-repair/installed-node20.png",
+      "bytes": 201024,
+      "sha256": "c015f627d517339fbb18218c680f23882ae67530d7e2d3f294bab921783dc767",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "docs/verification-atomic-repair-2026-10-12.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/docs/verification-atomic-repair-2026-10-12.md",
+      "bytes": 4817,
+      "sha256": "ad3a9c1ba7fd7f0bad85ad148163254dc30c25fc1e51adab3a56d5e8e3b3877a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/cli/index.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/src/cli/index.ts",
+      "bytes": 8094,
+      "sha256": "b43015f749f1670e7215b6346376875aacfd7d97664737074d4b3dc093fb9917",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "src/cli/replaceFiles.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/src/cli/replaceFiles.ts",
+      "bytes": 7071,
+      "sha256": "e64830d35b0c0e074ecdecc152ec6358d669a90078fa55a7318cbfd26f285133",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/README.md",
+      "bytes": 6284,
+      "sha256": "2eaacc253a51b6bfbc2a06dd12c055e97187c433b9942a8e834180f4cc6eb011",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/kill-during-write.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/kill-during-write.mjs",
+      "bytes": 886,
+      "sha256": "6ed8b9ceeb4b220dc60bce5d7d08494e21451bf52706d0f57a0993c44d89c2ed",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/measure.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/measure.py",
+      "bytes": 3137,
+      "sha256": "754f956937b2fccac964a063d0198c54f31841ffca361330abf569496a8996be",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/replay.py",
+      "bytes": 7370,
+      "sha256": "95b9cbf6200a728febbea6f69931087943699d53c798531edc39963a114008e1",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/artifacts.json",
+      "bytes": 31443,
+      "sha256": "902528e2196c2b5c89b48a79c81080a257a4ec216bff3009a24c6cc2c0887ac4",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/before-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/before-node20.json",
+      "bytes": 21402,
+      "sha256": "11ad43c1d82e22a55d2b13d47bccdb37dba504074531aa5b572144ba83182c55",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/before-node20.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/before-node20.txt",
+      "bytes": 742,
+      "sha256": "be8117007332e345a94f47fd85dcb6aac3e8dd6fa1d5d064ebd762e96f29305d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/clean-benchmark.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/clean-benchmark.txt",
+      "bytes": 676,
+      "sha256": "4e4ca6648ec1cdb5062d6eefa071e2834ce3a1fd15b37f8c8599d1612b5eb427",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/clean-build.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/clean-build.txt",
+      "bytes": 317,
+      "sha256": "9e993204c89115a68e24a33ab4ec6bf1a45b72cb7eaf62d16f2ceff849b7e7af",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/clean-install.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/clean-install.txt",
+      "bytes": 468,
+      "sha256": "f0e0b04aca164fa267cbcb0fd680807cb96e0459c054165efd379ad256d1a78e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/clean-lint.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/clean-lint.txt",
+      "bytes": 76,
+      "sha256": "9816032d097de2b86ee0fe002a35bb3960ad089342879cf11d72cd62e427d9c8",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/clean-locale-tests.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/clean-locale-tests.txt",
+      "bytes": 521,
+      "sha256": "e867c6720fc23c39f715f254e988b9d84c67c12e1862e0c0fab672ca146f3769",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/clean-pack-stderr.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/clean-pack-stderr.txt",
+      "bytes": 187,
+      "sha256": "b102e06e1974abaa92e9d051b1b7c5d9b64c4f46898de74c7c366f770fcc5b11",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/clean-self-scan.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/clean-self-scan.txt",
+      "bytes": 47,
+      "sha256": "d284210d163d91e253422c3b73e8260fbdd84c84f7aca89482ad923c659efd5e",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/clean-tests.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/clean-tests.txt",
+      "bytes": 521,
+      "sha256": "a90765741ae01a73440d61d096ff3803e6a236e1f13a4c149904273d51da234d",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/clean-typecheck.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/clean-typecheck.txt",
+      "bytes": 85,
+      "sha256": "3b5b905dfcf2e8234c734b5f1bbc2762f973b949323ff45b44c651201f3ed004",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/installed-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/installed-node20.json",
+      "bytes": 22473,
+      "sha256": "0f90e525f46a9e503618b17e4e7b957f048ed8e4c5c82219833afa45c69086b9",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/installed-node20.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/installed-node20.txt",
+      "bytes": 758,
+      "sha256": "54265b6340acef1190d5aa917f3ef5ec31aef7b3beb9625b8286a6f3b6e79584",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/installed-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/installed-node24.json",
+      "bytes": 22456,
+      "sha256": "432811cf96d408ad18e4e9488529a927e361c97eae632df12f48f0f26e4fb2a3",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/installed-node24.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/installed-node24.txt",
+      "bytes": 758,
+      "sha256": "54265b6340acef1190d5aa917f3ef5ec31aef7b3beb9625b8286a6f3b6e79584",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/installed-performance.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/installed-performance.json",
+      "bytes": 1062,
+      "sha256": "d8eb7c6426277d12e6c7c0c077640e48f8bf2b7320c47d469f241e9b92937829",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/installed-performance.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/installed-performance.txt",
+      "bytes": 130,
+      "sha256": "4a142f2a530372e04290a28efd7c9f1ded57eaf8de37788ef87856f94b2de2c7",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/installed.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/installed.txt",
+      "bytes": 23,
+      "sha256": "da13ab9d025b19c91553bc7d4c450975d3e4e36dd7c5fef6f223f8008ba39547",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/web-browser.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/web-browser.txt",
+      "bytes": 5803,
+      "sha256": "6ad95501262b4cfac9a4bd77864dca6c2b7e0f74b0d8903186d3076104af6774",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/web-build.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/web-build.txt",
+      "bytes": 2438,
+      "sha256": "8ffccc4bd876cc81ad28fba3ca4fe7f456169c9ff558cfee1ecf2b37eff25345",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/web-install.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/web-install.txt",
+      "bytes": 281,
+      "sha256": "c2f2d7d8cbf29e6db497f16f5ca55da6d0e851edc479d397bb269e3a64af4a3c",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/web-lint.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/web-lint.txt",
+      "bytes": 65,
+      "sha256": "fccbc07fbf29c332497e42e0e6086b4bb6509fc86e47f77a2474be49164cb8df",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "studies/atomic-repair/results/web-typecheck.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/studies/atomic-repair/results/web-typecheck.txt",
+      "bytes": 112,
+      "sha256": "d527ccde703be6678288a298d1c2b6a89290dfb05a4f479f3f91d36882bc0a7a",
+      "http_status": 200,
+      "matches_checkout": true
+    },
+    {
+      "path": "tests/replaceFiles.spec.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/426a453a7679edd1e70e08318073dff9f37ff397/tests/replaceFiles.spec.ts",
+      "bytes": 7124,
+      "sha256": "3aa09f84634004aac16eab3398e65bfe9187d30a89a27a16c6a69fe0dabf4fd6",
+      "http_status": 200,
+      "matches_checkout": true
+    }
+  ],
+  "total_files": 36,
+  "total_bytes": 670792
+}
