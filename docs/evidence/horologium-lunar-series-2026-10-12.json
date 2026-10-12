@@ -1,0 +1,268 @@
+{
+  "repository": "horologium",
+  "baselineCommit": "a2ce92063118165d009612512ecbb6109fdd4b63",
+  "sourceCommit": "5d249f7b115075a0e76656449daa77468db2099e",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "89a9d0f9c12cd32fbd1b675b46dab92124073552",
+    "refs/heads/main": "a2ce92063118165d009612512ecbb6109fdd4b63",
+    "refs/tags/v0.2.3": "5909b09498b0400a9727ec132d059fdc74d787fd",
+    "refs/tags/v0.2.3^{}": "4098d8c9f8ea03fcf29d5777911bdfcdc0d4ef80"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "89a9d0f9c12cd32fbd1b675b46dab92124073552",
+    "refs/heads/main": "5d249f7b115075a0e76656449daa77468db2099e",
+    "refs/tags/v0.2.3": "5909b09498b0400a9727ec132d059fdc74d787fd",
+    "refs/tags/v0.2.3^{}": "4098d8c9f8ea03fcf29d5777911bdfcdc0d4ef80"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/CHANGELOG.md",
+      "bytes": 12247,
+      "sha256": "9b9c11ab38f5c4b20e582ac0de9300ea8323b75d5c236b84dcaf53ea1fae05b8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/README.md",
+      "bytes": 13311,
+      "sha256": "9c43a5953152b5e845dc04271f1199b58d448bb9fdfaed18acdc8cd22f2d11b6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/THIRD_PARTY_NOTICES.md",
+      "bytes": 1894,
+      "sha256": "ea300877a8c3f4e6553591317ae4b85a7c9dd1203a84c67e99f4a70c6b9c857a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "biome.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/biome.json",
+      "bytes": 906,
+      "sha256": "c5de39fde11680a633f84e9241d79d728f6a1124a8bbe001b49ad2c4a43c85c7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/CALENDARS.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/docs/CALENDARS.md",
+      "bytes": 21667,
+      "sha256": "ec17595ce833254c6e29f0e0a82b3c933aa282b90b7d885796259021d7a383db",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/lunar-series-after-babylonian.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/docs/assets/lunar-series-after-babylonian.png",
+      "bytes": 11913,
+      "sha256": "00ebac424f63051a92623ed54a5913a74729c7d4ee333312bf8010e9e730f84d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/lunar-series-after-greek.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/docs/assets/lunar-series-after-greek.png",
+      "bytes": 19943,
+      "sha256": "235a7d894092e20d33bffb958b641d906d56e9615f96e8bcae3d8513b902625c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/lunar-series-before-babylonian.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/docs/assets/lunar-series-before-babylonian.png",
+      "bytes": 11817,
+      "sha256": "bd90fc68c4070c759f52c8fd3a3be9e3f65e60fad173523c2236bb29d723d7b8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/lunar-series-before-greek.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/docs/assets/lunar-series-before-greek.png",
+      "bytes": 19828,
+      "sha256": "842c97523ba25c0d53dd192c6e5c91b6ca9293a6d3579d145db2bb98d63bf1b7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/lib/astronomy/moon-longitude.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/src/lib/astronomy/moon-longitude.ts",
+      "bytes": 3713,
+      "sha256": "c0e5d8316c5c61a959c86c7e0dcc50cb52b38647c215ede3e78568691588832c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/lib/astronomy/sun-moon.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/src/lib/astronomy/sun-moon.ts",
+      "bytes": 14902,
+      "sha256": "0ebfed82800a506a13f95b214b6643c858e8cca93dae31234fa3e8cbd71065ae",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/lib/babylonian.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/src/lib/babylonian.ts",
+      "bytes": 8359,
+      "sha256": "a285ce12c1b69cbda711d51544dc1104cfec72244df4a8d530ff0038294ce055",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/lib/greek.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/src/lib/greek.ts",
+      "bytes": 8062,
+      "sha256": "a188c5134039e025a77d9a0efc58a31b8e657fd5d417a0539b55301e3a9480ff",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-boundaries/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-boundaries/README.md",
+      "bytes": 8553,
+      "sha256": "698731fd169d3e4041d0ff1a98984664169198d00528114585eb0169023aa537",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/README.md",
+      "bytes": 10138,
+      "sha256": "3343ebae8dbfe36a5d852246fd23c8e16a721c998825646e2f1710d723a2a448",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/artifacts.json",
+      "bytes": 44836,
+      "sha256": "8dff4d6b52cf8c3eb9c236e6e5badfdb3ea10a6fc2f8f5a7e753479950a8f214",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/benchmark.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/benchmark.json",
+      "bytes": 4469,
+      "sha256": "8efe4fa4a789dd6927127d7d0b8e57a3927a5296512561c7abc2c7841980718a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/benchmark.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/benchmark.mjs",
+      "bytes": 1506,
+      "sha256": "1e2699da892ed84ab6bdeba97c568277532963547f282710cda84b592323fc64",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/browser-after.json",
+      "bytes": 91457,
+      "sha256": "032348fe7cdbba054a1c751d3914ed986ca7f236e79d545a4b5dbba2c1768bb2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/browser-before.json",
+      "bytes": 91492,
+      "sha256": "88630264e2de2c822055e15b895e724592eb81276104f5f99e0bc55457e8faf2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/browser.mjs",
+      "bytes": 9217,
+      "sha256": "db1f976e4b795b51a48baceaded32d12dd4a75200f145c03688b909d52bd7976",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/compare-implementation.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/compare-implementation.mjs",
+      "bytes": 2397,
+      "sha256": "96181884501eca0da595e036090f2f7ea22cb8b88006be4ad123d74b40a896df",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/implementation.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/implementation.json",
+      "bytes": 909,
+      "sha256": "52d089ca1d5cf3b7cf9f03e4de147bc1b1cfbd63a64a37feb15672af8db7d3cc",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/installed-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/installed-node20.json",
+      "bytes": 4131,
+      "sha256": "ddb1a5a795b62426871e00566dcdddc53f58e19ceca2015b2c43cc3ad5a6b6ae",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/installed-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/installed-node24.json",
+      "bytes": 4132,
+      "sha256": "3f5b242ecc8fa67cd33755a13a166c38169b6c1c3be44f5b3c6fdaf3e3deffcf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/installed-quickstart.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/installed-quickstart.json",
+      "bytes": 1322,
+      "sha256": "f2c0842b8775e25dc5bf377c914a08bd68ae33ef79f06acd4084c3dc16a66c3a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/intervals.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/intervals.json",
+      "bytes": 3216,
+      "sha256": "76427bdabe03a7098afc497ac29e2a62d111389d9878b0f67c94c2e8731878cb",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/oracle.json",
+      "bytes": 732806,
+      "sha256": "c604811e9062861c51d7644c7907dbc20e269f60183b7853ca5a06685d1afc4c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/oracle.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/oracle.py",
+      "bytes": 3518,
+      "sha256": "2fe82e41bfbb62195ed48c3151419b76aa1ea2399237938e03eb713853b9482c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/results.json",
+      "bytes": 4131,
+      "sha256": "ac95d35d959a41b0cd62b858a77f104c12cd1932aa4fe2348495c131c108c958",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/uncached-calendars.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/uncached-calendars.mjs",
+      "bytes": 1159,
+      "sha256": "fe03f630b57aa3496a48364115fc43fc73b235f78134a3235a731706da736c4d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/lunar-series/verify.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/lunar-series/verify.mjs",
+      "bytes": 8119,
+      "sha256": "466ba038d21e6b71fbef82ef8a984bd124ae6702eee492760d7a273fdaa58e41",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/planet-frame/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/studies/planet-frame/README.md",
+      "bytes": 8371,
+      "sha256": "2056009bdd99f6b9faffa8cfd5f82aa9baecc73fe33b3ca1ee933be33adb2896",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/astronomy.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/tests/astronomy.test.ts",
+      "bytes": 2566,
+      "sha256": "5aa6e9d853990aa261a540348ccbf9f8d6ea82947d4457354cd824dec4272c1a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/lunar-series.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/5d249f7b115075a0e76656449daa77468db2099e/tests/lunar-series.test.ts",
+      "bytes": 2461,
+      "sha256": "ab08e5056659ea2b15851864941ec8e9d78bac0c4a5340c3274fddfa5311ceb3",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 35,
+  "bytes": 1189468,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
