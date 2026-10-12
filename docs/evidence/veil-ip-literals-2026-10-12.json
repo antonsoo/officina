@@ -1,0 +1,201 @@
+{
+  "repository": "veil",
+  "baselineCommit": "33992a7b59f23cb158c17215f76de06604ef95d4",
+  "sourceCommit": "e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "8a15aaf198636907a1254f247f2159c6a53984d9",
+    "refs/heads/main": "33992a7b59f23cb158c17215f76de06604ef95d4",
+    "refs/tags/v0.3.1": "c83958aecf0c059647b4a452dbe40af5c843fbe4",
+    "refs/tags/v0.3.1^{}": "be00d4f29f126d484a47af18a659bf22e4940115",
+    "refs/tags/v0.3.2": "bce3e026dd5932ac1f1d8ef4b4a7ac6f7b8b8fae",
+    "refs/tags/v0.3.2^{}": "fe7cd46dcba641e74460d61b2e9e0cd6063a985e",
+    "refs/tags/v0.4.0": "44f81e981b7ac23f580824df04df6371cb229e16",
+    "refs/tags/v0.4.0^{}": "22afac90525fdaf815c89c25b917672602014225",
+    "refs/tags/v0.4.1": "5932666c4940ad7cb93529e5bb36304658e4b4b6",
+    "refs/tags/v0.4.1^{}": "0bec74fdf116d15027784278405e4e14f38c8f1c",
+    "refs/tags/v0.4.2": "5ffe63d816996342ca99a9307f8684a5fda090ec",
+    "refs/tags/v0.4.2^{}": "ff10b31d7ae7c8042907e4caa6035df8efa78450",
+    "refs/tags/v0.4.3": "59a08df32c449081268288e3b48eec14d78a9547",
+    "refs/tags/v0.4.3^{}": "ad561ca6458e79410f1465b0290066e2f1eed3d4",
+    "refs/tags/v0.4.4": "3b515136c8402e82533325f1f3d38eaaa8083fec",
+    "refs/tags/v0.4.4^{}": "88c19ef6164984c965226d4bcaac93e753a9ce00"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "8a15aaf198636907a1254f247f2159c6a53984d9",
+    "refs/heads/main": "e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b",
+    "refs/tags/v0.3.1": "c83958aecf0c059647b4a452dbe40af5c843fbe4",
+    "refs/tags/v0.3.1^{}": "be00d4f29f126d484a47af18a659bf22e4940115",
+    "refs/tags/v0.3.2": "bce3e026dd5932ac1f1d8ef4b4a7ac6f7b8b8fae",
+    "refs/tags/v0.3.2^{}": "fe7cd46dcba641e74460d61b2e9e0cd6063a985e",
+    "refs/tags/v0.4.0": "44f81e981b7ac23f580824df04df6371cb229e16",
+    "refs/tags/v0.4.0^{}": "22afac90525fdaf815c89c25b917672602014225",
+    "refs/tags/v0.4.1": "5932666c4940ad7cb93529e5bb36304658e4b4b6",
+    "refs/tags/v0.4.1^{}": "0bec74fdf116d15027784278405e4e14f38c8f1c",
+    "refs/tags/v0.4.2": "5ffe63d816996342ca99a9307f8684a5fda090ec",
+    "refs/tags/v0.4.2^{}": "ff10b31d7ae7c8042907e4caa6035df8efa78450",
+    "refs/tags/v0.4.3": "59a08df32c449081268288e3b48eec14d78a9547",
+    "refs/tags/v0.4.3^{}": "ad561ca6458e79410f1465b0290066e2f1eed3d4",
+    "refs/tags/v0.4.4": "3b515136c8402e82533325f1f3d38eaaa8083fec",
+    "refs/tags/v0.4.4^{}": "88c19ef6164984c965226d4bcaac93e753a9ce00"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/CHANGELOG.md",
+      "bytes": 22999,
+      "sha256": "35bf1a2af80472df096e7ecf758bbc6f1dd0cb94a90a5a9f822fb9bf299e11bd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/README.md",
+      "bytes": 31103,
+      "sha256": "a5a1a203a80b80274ffabcc74269e654654899cdac7344e255cca2fd00ed82bf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/ip-literals/after/chromium-1280.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/docs/assets/ip-literals/after/chromium-1280.png",
+      "bytes": 104646,
+      "sha256": "452dc5a72b744b2a8f45b6ce5a1b6c82cec053555ae70faf7efbf4b6b1dc43ee",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/ip-literals/after/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/docs/assets/ip-literals/after/firefox-375.png",
+      "bytes": 139882,
+      "sha256": "3fdf5dbe749f9f23147afbd039530ad53378897e3055f9c0b23a14fe155fa05d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/ip-literals/before/chromium-1280.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/docs/assets/ip-literals/before/chromium-1280.png",
+      "bytes": 105303,
+      "sha256": "698075a5d668d4b44d53259aabcd5c8b701d8eb493ed621e07142206651b38f2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/ip-literals/before/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/docs/assets/ip-literals/before/firefox-375.png",
+      "bytes": 140849,
+      "sha256": "c5469f0a777e0d23df89ab893bc420c6ff408c0a27f47832f3efe37708b176f7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/verification-ip-literals-2026-10-12.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/docs/verification-ip-literals-2026-10-12.md",
+      "bytes": 5070,
+      "sha256": "f12916eee19dcf197ebf9a7296de16c1448b3a1c95c2e8a8dd296c8fe92d6ab2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/veil/detectors/ip.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/src/veil/detectors/ip.py",
+      "bytes": 5935,
+      "sha256": "9ff388066ad7125a2c5f8c801fd6944c0ea2eaddcc357c07cb43c0d161ce542b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/README.md",
+      "bytes": 6830,
+      "sha256": "3bab4fd0281601ae29e94d535944f75cbcd7d137b5c5cc26d80a57e86b95d8b2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/browser.mjs",
+      "bytes": 8630,
+      "sha256": "8ca9c59fb13ba9d2096480216c80cacb0ffb9755c0bcb1dc44cbd1675e3befa2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/cases.json",
+      "bytes": 33507,
+      "sha256": "1ff3079d7751fdb6d7ab14cbc16b55fed191e323335854cca78664c98cec33d8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/generate.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/generate.py",
+      "bytes": 3316,
+      "sha256": "783ab69fd5f132bf0a777732c0f634475c69ff2d4724a584c5ad269082a33985",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/replay.py",
+      "bytes": 8330,
+      "sha256": "8af55f52d9a21aced5614c1d82e7254de6b6ac6226d5753d351c47055c533257",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/results/after.json",
+      "bytes": 38064,
+      "sha256": "3575677818e5f6c66e8231e625cd9686e510d4fdfd880517147f21f76bc96024",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/results/before.json",
+      "bytes": 40821,
+      "sha256": "56eee7de9a1b76153a44b991d0e18c2b4caecca6b987b1ba07ee1b66dbb919e7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/results/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/results/browser-after.json",
+      "bytes": 52450,
+      "sha256": "208ae63ba6f6693c72fbc3fcd4223f2391390f88a353a5e8fc993aeac5e7e614",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/results/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/results/browser-before.json",
+      "bytes": 52664,
+      "sha256": "f9fd8db76d0393a9961e8c0cd169668aa920142428e4f6eb3a850711a6c4d657",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/results/corpus.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/results/corpus.json",
+      "bytes": 504,
+      "sha256": "840518ae39be56801170d56c35468a15faafd7c64622511fd0ef1e48fac5aae2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/results/scaling.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/results/scaling.json",
+      "bytes": 4390,
+      "sha256": "2cd258aa9f35398879ddce7634d63f8adb5c29be75a24add3aebbfcd2f37852e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/results/verification.json",
+      "bytes": 24223,
+      "sha256": "31616eb3308bc85aaf92c1ce0844719b368cd8278af866c29c6ce5a6c7f61e67",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ip-literals/scaling.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/studies/ip-literals/scaling.py",
+      "bytes": 1646,
+      "sha256": "68cd9900f6b5b8f3aaf57d7776a7612470fa809eef9a36841c0204c75cd7a566",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_detectors_ip.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b/tests/test_detectors_ip.py",
+      "bytes": 5619,
+      "sha256": "097c0c78329da1c8eb66c71f0e0f127eac1b302f9c63eb0a6ab928e47cc4a025",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 22,
+  "bytes": 836781,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
