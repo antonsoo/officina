@@ -194,6 +194,9 @@ HTTP-and-queue workflow verified in offline browsers and installed CLIs.
 The [mcplint metadata review](docs/mcplint-metadata-review-2026-10-12.md) captures
 and compares actual server definitions across updates, exposing contract changes
 that leave audit scores unchanged and preserving incomplete collection states.
+The [Errorbars named-score workflow](docs/errorbars-inspect-values-2026-10-12.md)
+selects a value from native Inspect scores and preserves its meaning through
+exports and reports, preventing unlike dimensions from being compared silently.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
