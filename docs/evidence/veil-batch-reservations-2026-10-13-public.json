@@ -1,0 +1,173 @@
+{
+  "repository": "veil",
+  "baselineCommit": "7114765940556e43101de8fa44e53c5eb96404db",
+  "sourceCommit": "e417aa1750c4352a1778ad23f3e09765bbb9021d",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "8a15aaf198636907a1254f247f2159c6a53984d9",
+    "refs/heads/main": "7114765940556e43101de8fa44e53c5eb96404db",
+    "refs/tags/v0.3.1": "c83958aecf0c059647b4a452dbe40af5c843fbe4",
+    "refs/tags/v0.3.1^{}": "be00d4f29f126d484a47af18a659bf22e4940115",
+    "refs/tags/v0.3.2": "bce3e026dd5932ac1f1d8ef4b4a7ac6f7b8b8fae",
+    "refs/tags/v0.3.2^{}": "fe7cd46dcba641e74460d61b2e9e0cd6063a985e",
+    "refs/tags/v0.4.0": "44f81e981b7ac23f580824df04df6371cb229e16",
+    "refs/tags/v0.4.0^{}": "22afac90525fdaf815c89c25b917672602014225",
+    "refs/tags/v0.4.1": "5932666c4940ad7cb93529e5bb36304658e4b4b6",
+    "refs/tags/v0.4.1^{}": "0bec74fdf116d15027784278405e4e14f38c8f1c",
+    "refs/tags/v0.4.2": "5ffe63d816996342ca99a9307f8684a5fda090ec",
+    "refs/tags/v0.4.2^{}": "ff10b31d7ae7c8042907e4caa6035df8efa78450",
+    "refs/tags/v0.4.3": "59a08df32c449081268288e3b48eec14d78a9547",
+    "refs/tags/v0.4.3^{}": "ad561ca6458e79410f1465b0290066e2f1eed3d4",
+    "refs/tags/v0.4.4": "3b515136c8402e82533325f1f3d38eaaa8083fec",
+    "refs/tags/v0.4.4^{}": "88c19ef6164984c965226d4bcaac93e753a9ce00"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "8a15aaf198636907a1254f247f2159c6a53984d9",
+    "refs/heads/main": "e417aa1750c4352a1778ad23f3e09765bbb9021d",
+    "refs/tags/v0.3.1": "c83958aecf0c059647b4a452dbe40af5c843fbe4",
+    "refs/tags/v0.3.1^{}": "be00d4f29f126d484a47af18a659bf22e4940115",
+    "refs/tags/v0.3.2": "bce3e026dd5932ac1f1d8ef4b4a7ac6f7b8b8fae",
+    "refs/tags/v0.3.2^{}": "fe7cd46dcba641e74460d61b2e9e0cd6063a985e",
+    "refs/tags/v0.4.0": "44f81e981b7ac23f580824df04df6371cb229e16",
+    "refs/tags/v0.4.0^{}": "22afac90525fdaf815c89c25b917672602014225",
+    "refs/tags/v0.4.1": "5932666c4940ad7cb93529e5bb36304658e4b4b6",
+    "refs/tags/v0.4.1^{}": "0bec74fdf116d15027784278405e4e14f38c8f1c",
+    "refs/tags/v0.4.2": "5ffe63d816996342ca99a9307f8684a5fda090ec",
+    "refs/tags/v0.4.2^{}": "ff10b31d7ae7c8042907e4caa6035df8efa78450",
+    "refs/tags/v0.4.3": "59a08df32c449081268288e3b48eec14d78a9547",
+    "refs/tags/v0.4.3^{}": "ad561ca6458e79410f1465b0290066e2f1eed3d4",
+    "refs/tags/v0.4.4": "3b515136c8402e82533325f1f3d38eaaa8083fec",
+    "refs/tags/v0.4.4^{}": "88c19ef6164984c965226d4bcaac93e753a9ce00"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/CHANGELOG.md",
+      "bytes": 24161,
+      "sha256": "a543eb3247c35e216eb83a6287d3feca4e6109b7d0a6fe9dbb0d23726704b5bb",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/README.md",
+      "bytes": 32334,
+      "sha256": "cd8780a76b140dc5bf9752e95ace5c8d47dcbabfe78561947a185d97f30b0e7a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/veil/masker.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/src/veil/masker.py",
+      "bytes": 7348,
+      "sha256": "d1ab3df9739183e7023bb38358f57475c2f605f52da710767431c8fd9d2e15b6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/README.md",
+      "bytes": 7145,
+      "sha256": "06b90803e33b2762612e3cf3eb80b700d1a8af61b834f7ea91fc65a85acbc3e6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/benchmark.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/benchmark.py",
+      "bytes": 6094,
+      "sha256": "67924947a38459989773f58e2d67aaf04cf2abd162df62ac5a292eac214a2064",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/oracle.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/oracle.py",
+      "bytes": 2044,
+      "sha256": "b9413f437f24b45908c9830bbda537bd3351f6dbecc16fc1a2ab986c5b3b52af",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/after.json",
+      "bytes": 8385,
+      "sha256": "90db106e53884cb25adc5716b7ce62e8300f9bd2e7c25764ec386407f26d8e37",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/before.json",
+      "bytes": 8362,
+      "sha256": "f6991459a252c47803fccd4604ac0de739a2fb007a76fb6d2bd3b49725017c59",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/collision-cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/collision-cases.json",
+      "bytes": 25292,
+      "sha256": "241c13b6df3bee2fe7443c58965af231ab631ccc32175d49dc23338157e78cee",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/comparison.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/comparison.json",
+      "bytes": 2477,
+      "sha256": "f9525423ae74abc7eb6ba77e42a60cb9ab71aaf8c5b2cc526da07c04efd9c834",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/compatibility.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/compatibility.json",
+      "bytes": 334,
+      "sha256": "37c4c5939d7e0ce34019dd06addaad887bdbecacf2e5c19aae4e7954b5f63c3e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/corpus.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/corpus.json",
+      "bytes": 336,
+      "sha256": "890a4f7cf46a4c2942649f3f8ae9e5d40496968bcbfbc4a82e989ace9e869d50",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/host.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/host.json",
+      "bytes": 490,
+      "sha256": "8de02150bdfcd61c0771bf9b34e870b9dcdf55fb64faceb2a7ea28218f599ea2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/python310-benchmarks.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/python310-benchmarks.json",
+      "bytes": 7896,
+      "sha256": "2dad92db19c48987e5dae03aef17b05d692277597fdd3938242bc8916b9b544b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/python314-benchmarks.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/python314-benchmarks.json",
+      "bytes": 7891,
+      "sha256": "481a6088a353a2e416a8874ce156bd7ac0cc9b39453f7d1e99a77646fdc9945b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/sdk-captures.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/sdk-captures.json",
+      "bytes": 27271,
+      "sha256": "689c191c25f2b3ba6a3c12f423440fde5e9c931a8a57d4feda8bfa37130eb6d5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/batch-reservations/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/studies/batch-reservations/results/verification.json",
+      "bytes": 23116,
+      "sha256": "eb3f6980b6fac5c284ca27f11ac89f2ed1a586f0d22e7b8283343edfacb80702",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_mask_collisions.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/e417aa1750c4352a1778ad23f3e09765bbb9021d/tests/test_mask_collisions.py",
+      "bytes": 5972,
+      "sha256": "9bc0575cb29ee221492839785ec6ba050c0292c6d726133e03b038252302758b",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 18,
+  "bytes": 196948,
+  "scope": "main source only; tags and gh-pages unchanged"
+}

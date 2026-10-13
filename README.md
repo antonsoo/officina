@@ -170,6 +170,9 @@ exact restoration and unchanged public-text detections.
 The [Veil document-text repair](docs/veil-anthropic-documents-2026-10-12.md)
 masks Anthropic inline documents and metadata before SDK transport, with
 retained sync/async captures and explicit citation-coordinate limits.
+The [Veil batch optimization](docs/veil-batch-reservations-2026-10-13.md)
+reduces a constructed 8,000-message masking batch from 9.87 to 0.51 seconds,
+while preserving complete output, vault, collision and SDK-request evidence.
 The [Fieldproof report-write repair](docs/fieldproof-report-files-2026-10-12.md)
 preserves source PDFs, fixtures and previous reports through path collisions and
 short writes, with real CLI replays and clean installed-wheel evidence.
