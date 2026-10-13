@@ -155,6 +155,9 @@ exact restoration and unchanged public-text detections.
 The [Veil document-text repair](docs/veil-anthropic-documents-2026-10-12.md)
 masks Anthropic inline documents and metadata before SDK transport, with
 retained sync/async captures and explicit citation-coordinate limits.
+The [Fieldproof report-write repair](docs/fieldproof-report-files-2026-10-12.md)
+preserves source PDFs, fixtures and previous reports through path collisions and
+short writes, with real CLI replays and clean installed-wheel evidence.
 The [Contextscope literal-token repair](docs/contextscope-token-literals-2026-10-12.md)
 lets tokenizer code and delimiter strings survive import, with native ordinary-text
 counts, installed CLI/browser replays and unchanged historical reports.
