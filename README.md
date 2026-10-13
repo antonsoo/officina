@@ -79,6 +79,9 @@ The [registered-variant repair](docs/ghostchars-standardized-variants-2026-10-12
 keeps Ghostchars from deleting legitimate Unicode glyph selectors while
 preserving payload detection, with installed file-repair evidence and an exact
 scan/sanitizer/reveal replay of the cached public-text corpus.
+The [literal-directory repair](docs/ghostchars-literal-directories-2026-10-12.md)
+keeps Ghostchars' Git enumeration from skipping selected files or repairing
+unrelated directories, with exact installed-CLI file comparisons on Node 20/24.
 The [lunar-boundary repair](docs/horologium-lunar-boundaries-2026-10-12.md)
 keeps Horologium from skipping nearby new moons or mixing reconstructed year
 labels, with independent interval checks, installed-package verification and
