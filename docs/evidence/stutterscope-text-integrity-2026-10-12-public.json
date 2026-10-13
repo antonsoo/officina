@@ -1,0 +1,423 @@
+{
+  "repository": "stutterscope",
+  "baselineCommit": "fd04e5fc455e7034963433b7249eba6d3e130dc4",
+  "sourceCommit": "996b4421d2d9ab6f56731ecadd0b12d9c96d6043",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "4dabfd35b268b5d241749b077153969d8df0aca7",
+    "refs/heads/main": "fd04e5fc455e7034963433b7249eba6d3e130dc4",
+    "refs/tags/v0.2.3": "4e1142e607dce1a9c8b52e276b463f5954965835",
+    "refs/tags/v0.2.3^{}": "4cf13fa5f5f1cf9828b3d34d0f5f5549eee6c968",
+    "refs/tags/v0.2.4": "8c3271b9a8ca47a3ad9ca63bb610728e349fe53a",
+    "refs/tags/v0.2.4^{}": "c4a7c60fdc2873ef8ebd515e4774b743efc834de",
+    "refs/tags/v0.2.5": "9d93b0312e29e6f792b1c53652ad363ec065be37",
+    "refs/tags/v0.2.5^{}": "7da8a000704710b0dbe09c064a1d8bd96cf3f60d"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "4dabfd35b268b5d241749b077153969d8df0aca7",
+    "refs/heads/main": "996b4421d2d9ab6f56731ecadd0b12d9c96d6043",
+    "refs/tags/v0.2.3": "4e1142e607dce1a9c8b52e276b463f5954965835",
+    "refs/tags/v0.2.3^{}": "4cf13fa5f5f1cf9828b3d34d0f5f5549eee6c968",
+    "refs/tags/v0.2.4": "8c3271b9a8ca47a3ad9ca63bb610728e349fe53a",
+    "refs/tags/v0.2.4^{}": "c4a7c60fdc2873ef8ebd515e4774b743efc834de",
+    "refs/tags/v0.2.5": "9d93b0312e29e6f792b1c53652ad363ec065be37",
+    "refs/tags/v0.2.5^{}": "7da8a000704710b0dbe09c064a1d8bd96cf3f60d"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/CHANGELOG.md",
+      "bytes": 16393,
+      "sha256": "f71a55ea4b54eded841f6f002911937bf0761c5e123c09def46f9e77464a68c2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/README.md",
+      "bytes": 22517,
+      "sha256": "20fff7eb932ee34b7e1bd5f4e406baf086fdb062ca14ae363110210bedfd7bdc",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/text-integrity/after-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/docs/assets/text-integrity/after-chromium-1440.png",
+      "bytes": 215758,
+      "sha256": "5bf7e6e8580db3a25881032a69905b2436f5ebba2d5251daf97d0c37812ef686",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/text-integrity/after-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/docs/assets/text-integrity/after-chromium-375.png",
+      "bytes": 135274,
+      "sha256": "d68672a0dbd78609f80cc1c9ccdb9086a3011faf126fe48743fbd672e1b2d897",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/text-integrity/after-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/docs/assets/text-integrity/after-firefox-1440.png",
+      "bytes": 166044,
+      "sha256": "04116c4da3b7debe88c1c79831711179f42903410995c3eb7c6e8e83684592b8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/text-integrity/after-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/docs/assets/text-integrity/after-firefox-375.png",
+      "bytes": 99244,
+      "sha256": "7c68ead92b52c0a199d1a2014ca76d772ec24b03e54f46fb61eb1bcc03184672",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/text-integrity/before-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/docs/assets/text-integrity/before-chromium-1440.png",
+      "bytes": 184854,
+      "sha256": "435d1913a3e2bec98eea177cd2a2630b5a8f6111d884276ed3bcad2fe34a4142",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/text-integrity/before-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/docs/assets/text-integrity/before-chromium-375.png",
+      "bytes": 107836,
+      "sha256": "53ee86c1d6cd0cc509b31d282bbb26cc2f9699f9b546c7c4f102fd4da44f8fa7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/text-integrity/before-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/docs/assets/text-integrity/before-firefox-1440.png",
+      "bytes": 151869,
+      "sha256": "eced4c8b91e9c339e95e2b95662563b1cb43bf07a0cc3600ac77f787b6a7d8e9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/text-integrity/before-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/docs/assets/text-integrity/before-firefox-375.png",
+      "bytes": 85069,
+      "sha256": "0df02a4c9e5b67c040841150b8c22089eede59f7455cb09bfa125c9d4acde22c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/formats.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/docs/formats.md",
+      "bytes": 22309,
+      "sha256": "60723aba5790d1f02484be3650da8320813426bc4f4b0d13d7f1379e0cf39a2b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/core/encoding.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/src/core/encoding.ts",
+      "bytes": 2256,
+      "sha256": "9818018a0b46d8cb360cceecd87e767cc1686223dc775f429c45a9be47f37aba",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/core/stream.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/src/core/stream.ts",
+      "bytes": 4114,
+      "sha256": "8e7e29be864cdc274417afdeb34dc581f3c6eb1716b932e851115f6dad571d66",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/worker/parse.worker.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/src/worker/parse.worker.ts",
+      "bytes": 4877,
+      "sha256": "8a817498d487a045a2ec8afe36da978f35c9cf25284939ba17d8da262db574d8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/README.md",
+      "bytes": 8925,
+      "sha256": "f6c73ea53cffd629b0b1371ec13e031433dd11bad553489b43ed47e34c42448b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/browser.mjs",
+      "bytes": 8021,
+      "sha256": "46af1197b7842fd4a778adf1d6888b2cc12155f9f59e85afca18b29908771385",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/cases.json",
+      "bytes": 5596,
+      "sha256": "8f98f0b954a14ce03bcb845dd50d6c933ade6a0ad41d31c96722278d9e7cecf3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/legacy-names.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/legacy-names.csv",
+      "bytes": 515,
+      "sha256": "321d10df69de760775e808736091510dc4ec1c9041de06346244b8618d735b2a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/literal-replacement.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/literal-replacement.csv",
+      "bytes": 80,
+      "sha256": "de105ea9292db47137dc72b8a3fd169b96159a32a95bb12633f2026f79c8d404",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf16be-high-surrogate.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf16be-high-surrogate.csv",
+      "bytes": 100,
+      "sha256": "9635b1176a52d8d0f42db09158572b4864a9047f523b6d77a71e8cbd1519e940",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf16be-low-surrogate.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf16be-low-surrogate.csv",
+      "bytes": 100,
+      "sha256": "65906b3f0100e3e4806fc5d8340f66394a127457ee075d85ceb75c15b3d97c41",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf16be-names.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf16be-names.csv",
+      "bytes": 1032,
+      "sha256": "47ded58ce8b40e23a517c490a4724bc4d92f4ba97034183efd324a94dceaa3d3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf16be-odd-tail.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf16be-odd-tail.csv",
+      "bytes": 105,
+      "sha256": "444970274bb224aed4ef1ff42657da54ffb2e6df2a64e12607bc2d3107abe4e5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf16be-split-sample.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf16be-split-sample.csv",
+      "bytes": 65540,
+      "sha256": "50c96102ec28b2ffbd6ef940715025a6ecbba86927c65d6986c3068fc75ea112",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf16le-high-surrogate.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf16le-high-surrogate.csv",
+      "bytes": 100,
+      "sha256": "cede7721a4884eeca53bdef69913f8680866f542af93d941edbd67ca03b8ed3c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf16le-low-surrogate.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf16le-low-surrogate.csv",
+      "bytes": 100,
+      "sha256": "27cd23a8da4168460873bde4d1b1fa898dd08d2509ef34f976438e30c173dc9c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf16le-names.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf16le-names.csv",
+      "bytes": 1032,
+      "sha256": "b8fb0771b62f4780dfb75654798c5237dfa331909b331c03fa5cd1e43b6fb457",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf16le-odd-tail.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf16le-odd-tail.csv",
+      "bytes": 105,
+      "sha256": "5133232c82c1c47e966f4e08398f1703913adbb3bffb4c28ce29bbeabf4de823",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf16le-split-sample.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf16le-split-sample.csv",
+      "bytes": 65540,
+      "sha256": "74fd9356db543f4464dacdc144c318b81719cbb178c1c354924f354bca98ac57",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-bom.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-bom.csv",
+      "bytes": 542,
+      "sha256": "0e2b08e5cfd33a9817c955336f50ad3441bdf80aafb0127df492496c8d8b3526",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-complete-at-sample-limit.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-complete-at-sample-limit.csv",
+      "bytes": 65536,
+      "sha256": "38ffe1180c2e3d00b056fbbe129ac38beeb560c34383c50c818c2857a76f6f6e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-continuation.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-continuation.csv",
+      "bytes": 51,
+      "sha256": "e8cca13d2f13cf05e62c3c794e460fb994d0de71b153730433d71b60e30a4764",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-late-damage.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-late-damage.csv",
+      "bytes": 65542,
+      "sha256": "ea68ae91030e09b8c486b45ba61cc61870fc234b1e4b9f546638b57206d41fae",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-names.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-names.csv",
+      "bytes": 539,
+      "sha256": "74ceae5fb4cd87a44d7be129facd79b409564ddb6a141f26d813207462d64610",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-out-of-range.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-out-of-range.csv",
+      "bytes": 52,
+      "sha256": "a54256ed9748595b346e245d445d4da388ca855610d2b7c297db2887da215575",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-overlong.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-overlong.csv",
+      "bytes": 50,
+      "sha256": "dd3415fdd62fa588d861837c334fdb097365d58a380f7e5a277689a9659e2db2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-split-sample.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-split-sample.csv",
+      "bytes": 65540,
+      "sha256": "b0962c49afbcf0e3edb8cb2ef09a0cfa089ed80175d441b9728de6117c6d0318",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-stray.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-stray.csv",
+      "bytes": 49,
+      "sha256": "f48956d0534d4ef557c6255a7b80e7c4c2677c1dd4c47bc314190e6f5856e784",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-surrogate.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-surrogate.csv",
+      "bytes": 51,
+      "sha256": "7d4f663e3d6a1dbeda90124feb91abb3d5b8a699de1b72dc81c399f8ee7be717",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/fixtures/utf8-truncated.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/fixtures/utf8-truncated.csv",
+      "bytes": 49,
+      "sha256": "a82697d03e404ead02881165ebfa9f3e0dbe92a185a20ead81ec8b80f1be4657",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/generate.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/generate.py",
+      "bytes": 2774,
+      "sha256": "34acdf6be517d3a14d5aada3e7c3bc22d3773d43668e43b1f3b70bb5b2147254",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/replay.py",
+      "bytes": 4084,
+      "sha256": "547cf351e0c62da9785b89c5ae81d490f6785bd7bf7fcfd6cfecf3fe295d7f00",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/after.json",
+      "bytes": 14232,
+      "sha256": "661cc35c5d5ae55aadf2852e0b4427f7ae238de1f8c2f26cfa8361c1385c2e9f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/before.json",
+      "bytes": 20024,
+      "sha256": "671aa6f654a3640ca699304c4943334ef316890aadfa97b2394d7043d4f8c99f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/browser-after.json",
+      "bytes": 146517,
+      "sha256": "68f5248b85325281995fa0030037feac6eaf5018e1a7db7fd404845c214ffb10",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/browser-before.json",
+      "bytes": 120298,
+      "sha256": "15638c6e2f093263b6d5b78339cde9b66f06317ce2432eabf0ec5be6dc262e97",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/clean-browser.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/clean-browser.txt",
+      "bytes": 13730,
+      "sha256": "20e68d89fee36945bcacff90bbc2c25ad763d969de8b526e6b61e4f8fe9ace2b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/clean-tests-de.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/clean-tests-de.txt",
+      "bytes": 641,
+      "sha256": "9f1282e57930266c9d701881df739da7d9107b1a02cd7dd6602940284fc8bd78",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/clean-tests.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/clean-tests.txt",
+      "bytes": 641,
+      "sha256": "ba22cd639005b82dd7183b07418d810a949e91564cfe38fae52c44d145e573f0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/compare.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/compare.json",
+      "bytes": 545,
+      "sha256": "660f0f2aea5d6d314a4f6b6805ca6b33edb505d8113fca6ff45ccf15f7ad52e2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/corpus-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/corpus-after.json",
+      "bytes": 45144,
+      "sha256": "bf1a6e560b38d453f77649214d3f5d3718c08497889b3d2a23e554c858092102",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/corpus-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/corpus-before.json",
+      "bytes": 45145,
+      "sha256": "dde44ace6570fae02e2db3f193b7e2b59e87c2b2cf619722d47f25bd38ed3889",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/installed-node22.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/installed-node22.json",
+      "bytes": 14243,
+      "sha256": "5c48324c2ba8c8a0a5cd57069914e76850983df41f91a7d147f54e104993e4f9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/results/installed-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/results/installed-node24.json",
+      "bytes": 14244,
+      "sha256": "3c64da5638e26db912a6d695289b94dea9971c595322b8a194054f52b267eee4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/text-integrity/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/studies/text-integrity/verification.json",
+      "bytes": 11240,
+      "sha256": "b45318b22660ae5dbe0c6b93785b97540b27d60838d4b4b6fca5ca5394746178",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/core/text-integrity.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/stutterscope/996b4421d2d9ab6f56731ecadd0b12d9c96d6043/tests/core/text-integrity.test.ts",
+      "bytes": 2863,
+      "sha256": "faaeefa5d8eebc68d0c03de40e2290c561c68c99b42208a1dc52b4f83cf87daa",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 56,
+  "bytes": 2029671,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
