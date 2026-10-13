@@ -1,0 +1,321 @@
+{
+  "repository": "https://github.com/antonsoo/tracelens",
+  "baselineCommit": "bbfbe4407fe8d9c32e0151fe979b1071b80dece9",
+  "sourceCommit": "83a4bacafae0944e013149df1e3d834ca70db4af",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "0a09eefa2516409e9aff3367a8880cfbf114815d",
+    "refs/heads/main": "bbfbe4407fe8d9c32e0151fe979b1071b80dece9",
+    "refs/tags/v0.3.2": "9a53f40e6ac4dfee369e953063cc2e7d7a700c91",
+    "refs/tags/v0.3.2^{}": "c6820a421ef93ee926282ddf7912bdc68a66902e",
+    "refs/tags/v0.3.3": "80b4168a2fa633bf2bb176b00c24175ec26cb4db",
+    "refs/tags/v0.3.3^{}": "bc6d90ab00af933abccc1e5ccc2e34b6f2833e79"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "0a09eefa2516409e9aff3367a8880cfbf114815d",
+    "refs/heads/main": "83a4bacafae0944e013149df1e3d834ca70db4af",
+    "refs/tags/v0.3.2": "9a53f40e6ac4dfee369e953063cc2e7d7a700c91",
+    "refs/tags/v0.3.2^{}": "c6820a421ef93ee926282ddf7912bdc68a66902e",
+    "refs/tags/v0.3.3": "80b4168a2fa633bf2bb176b00c24175ec26cb4db",
+    "refs/tags/v0.3.3^{}": "bc6d90ab00af933abccc1e5ccc2e34b6f2833e79"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/CHANGELOG.md",
+      "bytes": 23147,
+      "sha256": "91bc60c2f433541f97e266341678fe9927e82a822ebfef8559536b604f122575",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/README.md",
+      "bytes": 28709,
+      "sha256": "c2fbd34b60b9589c54f2898191a3b645dce2ebfac329924137844ce51855e11f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/log-events/chromium-1440-logs.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/docs/assets/log-events/chromium-1440-logs.png",
+      "bytes": 110680,
+      "sha256": "e33ac53bf0b3066665b88008588365095388c94103928360da7c947fb83aaa54",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/log-events/chromium-1440-messages.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/docs/assets/log-events/chromium-1440-messages.png",
+      "bytes": 86267,
+      "sha256": "f3af94ef90cadca98f26351102e884bdc62c7c14f64f74e3f0b7dbcb9de7a2e9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/log-events/chromium-375-logs.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/docs/assets/log-events/chromium-375-logs.png",
+      "bytes": 96897,
+      "sha256": "e69d87d1a7ccc5e2c716e08c4f0b21e9e88a5bf14e00c8627681807689badf0d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/log-events/chromium-375-messages.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/docs/assets/log-events/chromium-375-messages.png",
+      "bytes": 80528,
+      "sha256": "d8ef67d4a88a769d0875221e9e02ce60216dfb50c7d77c44f7016184795bd329",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/log-events/firefox-1440-logs.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/docs/assets/log-events/firefox-1440-logs.png",
+      "bytes": 148929,
+      "sha256": "5704ea2c73800e9db0f8de8e61a4eb8a69cb5d104671335aa0a4cf0451f2d1fe",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/log-events/firefox-1440-messages.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/docs/assets/log-events/firefox-1440-messages.png",
+      "bytes": 117424,
+      "sha256": "386b558e0cd65f65952a97931720c1b7d45427426a891e8fb12330231087383f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/log-events/firefox-375-logs.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/docs/assets/log-events/firefox-375-logs.png",
+      "bytes": 128290,
+      "sha256": "56b309f06471a43a8ad54cb1813a60ecf8f7393ddd66c7eb6a60f9a22f1ad96a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/log-events/firefox-375-messages.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/docs/assets/log-events/firefox-375-messages.png",
+      "bytes": 107794,
+      "sha256": "3b853069b5d1bc01cc6dba939e3eb87119954832f63201d7d4c30aea84177cc6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/formats.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/docs/formats.md",
+      "bytes": 32003,
+      "sha256": "168d0f3f140538d7502007c97dc2dbdcd2b1567085075055419b56679af98b93",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "examples/genai-log-events.jsonl",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/examples/genai-log-events.jsonl",
+      "bytes": 6743,
+      "sha256": "45460fd1c80fba771db85199f8484aa7763097252766c9d7d2de9be3b172555d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "scripts/sync-examples.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/scripts/sync-examples.mjs",
+      "bytes": 916,
+      "sha256": "70c40ccb2f808c494f7d641aff1401969bc04bdc65914ae91e0dfa4fabae7331",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/cli/index.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/cli/index.ts",
+      "bytes": 15521,
+      "sha256": "10627794518bd116fc7264288b2e063e605a9d14ca07c7173fc6b3da2260b035",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/cli/logs-report.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/cli/logs-report.ts",
+      "bytes": 1180,
+      "sha256": "ce6659ba530c3deb56dbf095334d7da49f34d6693c087af16041fd05138752a3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/core/index.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/core/index.ts",
+      "bytes": 441,
+      "sha256": "824ffa8b05dc3af31e71c7b36014b21e424683a908fed5d8d821be22930de436",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/core/logs.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/core/logs.ts",
+      "bytes": 9359,
+      "sha256": "4f4e2fac78076797778cd7cc0205effa1bbab62d239afc2ee31b477f7afd1dd7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/core/normalize.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/core/normalize.ts",
+      "bytes": 35563,
+      "sha256": "98aa984cdb2eeac115511b0ac31e1391ce6d26184764961b0c8adc6f5d6a6daf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/core/otlp-parser.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/core/otlp-parser.ts",
+      "bytes": 28270,
+      "sha256": "2614b64915097c9e29f11b60fb07b3b427c6b13b7b45608c6ed383cb7227f36f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/core/types.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/core/types.ts",
+      "bytes": 6257,
+      "sha256": "128e0927a305c7108d44a7a16baeee43b1045187dc9dec069b81f983e65f7d7e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/web/detail-panel.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/web/detail-panel.ts",
+      "bytes": 11038,
+      "sha256": "0d15680eafa10f869b16b21237907ea5791abdc659a8a49a3e26b918b9db7334",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/web/dropzone.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/web/dropzone.ts",
+      "bytes": 4160,
+      "sha256": "6a4248e6213a2a797061634943d79432faca9ecc328942a2ff2234a4d2965918",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/web/main.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/web/main.ts",
+      "bytes": 26382,
+      "sha256": "7168d3b4b11eafca3e9e73f88ade0e65f72c90d429354d886cee93cf022b5a5a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/web/style.css",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/src/web/style.css",
+      "bytes": 30230,
+      "sha256": "ebb3955cc421f7240fa8949966e0944ddf027adda0a557d680297fcf5b6d7222",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/README.md",
+      "bytes": 8228,
+      "sha256": "1145f727a7283efa892278fd5e2d0ee23ad8cd392ac805aa3b712b1658c8e380",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/after.json",
+      "bytes": 59486,
+      "sha256": "4d35c0f5fcb895de20b2eeae4a2dfab921b3bf4a51998d7728d8030f635bc281",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/browser.mjs",
+      "bytes": 9354,
+      "sha256": "2f9eaca247328f9ee093f0cd74d9446223f0b8f4b4b00f7f717a5bdf49afa801",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/capture-event-only/baseline.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/capture-event-only/baseline.json",
+      "bytes": 1036,
+      "sha256": "1329aaac64d4daf49da07d5815328f483b08c96aef40ebf1611eb44b4707c61c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/capture-event-only/combined.jsonl",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/capture-event-only/combined.jsonl",
+      "bytes": 6743,
+      "sha256": "45460fd1c80fba771db85199f8484aa7763097252766c9d7d2de9be3b172555d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/capture-event-only/logs.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/capture-event-only/logs.json",
+      "bytes": 16009,
+      "sha256": "49fbb8340479ade552ff614691b7893f07d46636503716bd9000b207eee9cdf9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/capture-event-only/oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/capture-event-only/oracle.json",
+      "bytes": 3012,
+      "sha256": "05b33bda5a63061f16539604915af4c7b20d1c3e8a870ca2e2eb2f517046947d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/capture-event-only/traces.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/capture-event-only/traces.json",
+      "bytes": 5510,
+      "sha256": "685bacdf170b166fd542ede12f0b093e39d3525ba4fb8097eed66c27109ad51d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/capture-span-and-event/logs.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/capture-span-and-event/logs.json",
+      "bytes": 16009,
+      "sha256": "b074cd5b650458c20c4b811de1acaeaf946e13a4987831a082be3198e7af9611",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/capture-span-and-event/oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/capture-span-and-event/oracle.json",
+      "bytes": 3016,
+      "sha256": "09f65a7d20029ee087f4e575248f7306b490b68d85d2e4a85dfbb621af70019b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/capture-span-and-event/traces.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/capture-span-and-event/traces.json",
+      "bytes": 7164,
+      "sha256": "663bbc6a68911d0c05bd2d1fd074f1d66423fec7af5be4d2a964edd5f5c167a5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/capture.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/capture.py",
+      "bytes": 4668,
+      "sha256": "5a4061b1cae37707a7a2ac1fcc0053b7471e32d0e3c61393c75c6ec752dd5ac7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/capture.py.lock",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/capture.py.lock",
+      "bytes": 39027,
+      "sha256": "d1fbaaee62102734c58385c8d8c353153fe8efbaf40b192f45a3ebb28e182f2a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/replay.mjs",
+      "bytes": 5875,
+      "sha256": "e8edcaf31e2b8346ae0bdc30d011bd8e31a5b8402d8ad088c241d09a1e7ebec2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/log-events/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/studies/log-events/verification.json",
+      "bytes": 30887,
+      "sha256": "55411aaa22b47dfb5bc7ab3bba5a0ef71672b4794ecba6c0c9ee59cc5c972f44",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/cli.test.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/tests/cli.test.mjs",
+      "bytes": 18600,
+      "sha256": "7ff8a74f6e5783a30c4837e6d6624b6d28d490afe17b853bbf95734e4ac7a60c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/logs.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/tests/logs.test.ts",
+      "bytes": 9484,
+      "sha256": "a17e12d0845788214daa8a39fe21b0d767c1e4b569e3bbf224f22e4e67717caf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/trace-text.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/83a4bacafae0944e013149df1e3d834ca70db4af/tests/trace-text.test.ts",
+      "bytes": 11044,
+      "sha256": "2b6f00d71f168ab9887e65971e1df7e2c60a3483fcc6d1c1e64dd7cfededa3c8",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 42,
+  "bytes": 1391880,
+  "scope": "Source main only; no package release, tag change or hosted deployment."
+}

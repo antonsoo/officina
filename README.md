@@ -221,6 +221,9 @@ verification and unchanged exports checked through installed browsers.
 The [TraceLens combined import](docs/tracelens-multifile-2026-10-12.md) joins
 related service exports before resolving parents and links, with a captured
 HTTP-and-queue workflow verified in offline browsers and installed CLIs.
+The [TraceLens log-message import](docs/tracelens-log-events-2026-10-13.md)
+restores prompts, tool calls and completions exported separately as OTLP logs,
+with full identity matching, original-record downloads and actual SDK controls.
 The [mcplint metadata review](docs/mcplint-metadata-review-2026-10-12.md) captures
 and compares actual server definitions across updates, exposing contract changes
 that leave audit scores unchanged and preserving incomplete collection states.
