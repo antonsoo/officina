@@ -152,6 +152,9 @@ locations, installed review flows and explicit negative external coverage.
 The [Veil IPv6 literal repair](docs/veil-ip-literals-2026-10-12.md)
 closes mixed-address and scope-ID leaks, with complete CLI/SDK redactions,
 exact restoration and unchanged public-text detections.
+The [Veil document-text repair](docs/veil-anthropic-documents-2026-10-12.md)
+masks Anthropic inline documents and metadata before SDK transport, with
+retained sync/async captures and explicit citation-coordinate limits.
 The [Contextscope literal-token repair](docs/contextscope-token-literals-2026-10-12.md)
 lets tokenizer code and delimiter strings survive import, with native ordinary-text
 counts, installed CLI/browser replays and unchanged historical reports.

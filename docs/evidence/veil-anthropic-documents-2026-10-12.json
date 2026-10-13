@@ -1,0 +1,117 @@
+{
+  "repository": "veil",
+  "baselineCommit": "e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b",
+  "sourceCommit": "7114765940556e43101de8fa44e53c5eb96404db",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "8a15aaf198636907a1254f247f2159c6a53984d9",
+    "refs/heads/main": "e5444d1b1ab686bdf6fb3d3eba5ea86b2d254f3b",
+    "refs/tags/v0.3.1": "c83958aecf0c059647b4a452dbe40af5c843fbe4",
+    "refs/tags/v0.3.1^{}": "be00d4f29f126d484a47af18a659bf22e4940115",
+    "refs/tags/v0.3.2": "bce3e026dd5932ac1f1d8ef4b4a7ac6f7b8b8fae",
+    "refs/tags/v0.3.2^{}": "fe7cd46dcba641e74460d61b2e9e0cd6063a985e",
+    "refs/tags/v0.4.0": "44f81e981b7ac23f580824df04df6371cb229e16",
+    "refs/tags/v0.4.0^{}": "22afac90525fdaf815c89c25b917672602014225",
+    "refs/tags/v0.4.1": "5932666c4940ad7cb93529e5bb36304658e4b4b6",
+    "refs/tags/v0.4.1^{}": "0bec74fdf116d15027784278405e4e14f38c8f1c",
+    "refs/tags/v0.4.2": "5ffe63d816996342ca99a9307f8684a5fda090ec",
+    "refs/tags/v0.4.2^{}": "ff10b31d7ae7c8042907e4caa6035df8efa78450",
+    "refs/tags/v0.4.3": "59a08df32c449081268288e3b48eec14d78a9547",
+    "refs/tags/v0.4.3^{}": "ad561ca6458e79410f1465b0290066e2f1eed3d4",
+    "refs/tags/v0.4.4": "3b515136c8402e82533325f1f3d38eaaa8083fec",
+    "refs/tags/v0.4.4^{}": "88c19ef6164984c965226d4bcaac93e753a9ce00"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "8a15aaf198636907a1254f247f2159c6a53984d9",
+    "refs/heads/main": "7114765940556e43101de8fa44e53c5eb96404db",
+    "refs/tags/v0.3.1": "c83958aecf0c059647b4a452dbe40af5c843fbe4",
+    "refs/tags/v0.3.1^{}": "be00d4f29f126d484a47af18a659bf22e4940115",
+    "refs/tags/v0.3.2": "bce3e026dd5932ac1f1d8ef4b4a7ac6f7b8b8fae",
+    "refs/tags/v0.3.2^{}": "fe7cd46dcba641e74460d61b2e9e0cd6063a985e",
+    "refs/tags/v0.4.0": "44f81e981b7ac23f580824df04df6371cb229e16",
+    "refs/tags/v0.4.0^{}": "22afac90525fdaf815c89c25b917672602014225",
+    "refs/tags/v0.4.1": "5932666c4940ad7cb93529e5bb36304658e4b4b6",
+    "refs/tags/v0.4.1^{}": "0bec74fdf116d15027784278405e4e14f38c8f1c",
+    "refs/tags/v0.4.2": "5ffe63d816996342ca99a9307f8684a5fda090ec",
+    "refs/tags/v0.4.2^{}": "ff10b31d7ae7c8042907e4caa6035df8efa78450",
+    "refs/tags/v0.4.3": "59a08df32c449081268288e3b48eec14d78a9547",
+    "refs/tags/v0.4.3^{}": "ad561ca6458e79410f1465b0290066e2f1eed3d4",
+    "refs/tags/v0.4.4": "3b515136c8402e82533325f1f3d38eaaa8083fec",
+    "refs/tags/v0.4.4^{}": "88c19ef6164984c965226d4bcaac93e753a9ce00"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/7114765940556e43101de8fa44e53c5eb96404db/CHANGELOG.md",
+      "bytes": 23604,
+      "sha256": "27c0ec6ffcb707a364cff32122f334dd74daceae1716565724af9eb7e7a9945c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/7114765940556e43101de8fa44e53c5eb96404db/README.md",
+      "bytes": 31861,
+      "sha256": "e4873b2abf16634d592440cdebbdc23de5a14be842307476104a56820f06c99c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/anthropic-documents.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/7114765940556e43101de8fa44e53c5eb96404db/docs/assets/anthropic-documents.png",
+      "bytes": 193558,
+      "sha256": "4540bafa8fbaf4a952ba9ad9c76f07fc19c72cbb74f874439fb59f65479a1e6d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/veil/integrations/anthropic.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/7114765940556e43101de8fa44e53c5eb96404db/src/veil/integrations/anthropic.py",
+      "bytes": 24344,
+      "sha256": "fa34cf4b05539a7dc5cbb92b9e8e7b9ad4d60351beff284593cd68850df9c9a7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/anthropic-documents/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/7114765940556e43101de8fa44e53c5eb96404db/studies/anthropic-documents/README.md",
+      "bytes": 5745,
+      "sha256": "49ffebe7e98218e0b6ecbd89f900dea43593783cead70a740daf6fe52be072e4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/anthropic-documents/capture.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/7114765940556e43101de8fa44e53c5eb96404db/studies/anthropic-documents/capture.py",
+      "bytes": 8481,
+      "sha256": "b3c2f33e819d508dec9c05a0cbf557d9167101191942b6e852b5c20d0be8ee4a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/anthropic-documents/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/7114765940556e43101de8fa44e53c5eb96404db/studies/anthropic-documents/results/after.json",
+      "bytes": 27267,
+      "sha256": "1427ead28c088fe2482b9d1c276f82da269ee015ba8569c7e5d4f18583d53143",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/anthropic-documents/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/7114765940556e43101de8fa44e53c5eb96404db/studies/anthropic-documents/results/before.json",
+      "bytes": 30641,
+      "sha256": "1cd9c69dd9bfe4294af5831e8b20daec8c33c7443517e62253478b570c182d57",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/anthropic-documents/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/7114765940556e43101de8fa44e53c5eb96404db/studies/anthropic-documents/results/verification.json",
+      "bytes": 6339,
+      "sha256": "6b3402865acd523a41e019092bf2d1611904f6c8c2381de165a4f5563652b79b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_anthropic_documents.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/7114765940556e43101de8fa44e53c5eb96404db/tests/test_anthropic_documents.py",
+      "bytes": 8191,
+      "sha256": "6f21f59fcdc98f8d650d6d88f8979f34c7212f50abd8dbe8a024e00d56f5e359",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 10,
+  "bytes": 360031,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
