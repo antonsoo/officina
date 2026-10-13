@@ -52,6 +52,9 @@ and failures recovered on retry, with installed checks and pinned public evidenc
 The [Logdelta source repairs](docs/logdelta-integrity-and-offline-2026-10-11.md)
 cover exact watches on damaged encoded logs and offline worker recreation, with
 retained input bytes, native/browser parity and clean-build verification.
+The [container-payload repair](docs/logdelta-container-payloads-2026-10-12.md)
+keeps styled and prefixed Docker records in exact watches and rate comparisons,
+with installed CLI/WASM evidence and 280 unchanged public-log reports.
 The [audio and MCP continuation](docs/verified-audio-and-mcp-2026-10-11.md) adds
 first offline audio use, bounded name comparisons and duplicate-name detection,
 with installed CLI captures and 28 matching ToneMirror production files.
