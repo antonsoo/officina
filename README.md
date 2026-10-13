@@ -191,6 +191,9 @@ verification and unchanged exports checked through installed browsers.
 The [TraceLens combined import](docs/tracelens-multifile-2026-10-12.md) joins
 related service exports before resolving parents and links, with a captured
 HTTP-and-queue workflow verified in offline browsers and installed CLIs.
+The [mcplint metadata review](docs/mcplint-metadata-review-2026-10-12.md) captures
+and compares actual server definitions across updates, exposing contract changes
+that leave audit scores unchanged and preserving incomplete collection states.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
