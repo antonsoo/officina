@@ -1,0 +1,236 @@
+{
+  "repository": "flakemap",
+  "baselineCommit": "ae3158e7a1fb7f6609e614c771500c02400a8058",
+  "sourceCommit": "02cb6e007505f56a91158c39fa5f330e7b6ada0c",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "a336738e0c0af6e210dfe659f0a3d722ce394b7b",
+    "refs/heads/main": "ae3158e7a1fb7f6609e614c771500c02400a8058",
+    "refs/tags/v0.3.1": "727c4cd845718a7a53d27d3c4513f05bba5d7ffd",
+    "refs/tags/v0.3.1^{}": "711de74f5c2e855ee67490e8c1bf2913aedfb293",
+    "refs/tags/v0.3.2": "f9dddf3ad54604be4ac9a911c1909f8298340811",
+    "refs/tags/v0.3.2^{}": "1550a4a302c6f92442f959d5399f680a0577b6c4",
+    "refs/tags/v0.3.3": "316d64a3643330068cbc5bc51b00def7523abff9",
+    "refs/tags/v0.3.3^{}": "b0f62c990164471ab108d9295eeddd31ddf03966",
+    "refs/tags/v0.3.4": "6bf7118b85048c296c44f88c306b92080347aec0",
+    "refs/tags/v0.3.4^{}": "8840f63f5d44b0c934e2ba235423a22f5bdcc36b",
+    "refs/tags/v0.3.5": "7bb948ddb96db77cddaf57df18db897024663b9e",
+    "refs/tags/v0.3.5^{}": "49af7ebdcc2413ae89f4c44fbf106431a001f9a9",
+    "refs/tags/v0.3.6": "c3c0647f5ee8fb6417217615648a4c0c4c6eba8d",
+    "refs/tags/v0.3.6^{}": "271c92cfa6c67e314b813d23f9f285971d3c4bea",
+    "refs/tags/v0.3.7": "882c88769d0535bf105036dfb9bc39b2d148cde2",
+    "refs/tags/v0.3.7^{}": "a1f07e2d624622c8eebd1f97b34fd4771b086f6e"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "a336738e0c0af6e210dfe659f0a3d722ce394b7b",
+    "refs/heads/main": "02cb6e007505f56a91158c39fa5f330e7b6ada0c",
+    "refs/tags/v0.3.1": "727c4cd845718a7a53d27d3c4513f05bba5d7ffd",
+    "refs/tags/v0.3.1^{}": "711de74f5c2e855ee67490e8c1bf2913aedfb293",
+    "refs/tags/v0.3.2": "f9dddf3ad54604be4ac9a911c1909f8298340811",
+    "refs/tags/v0.3.2^{}": "1550a4a302c6f92442f959d5399f680a0577b6c4",
+    "refs/tags/v0.3.3": "316d64a3643330068cbc5bc51b00def7523abff9",
+    "refs/tags/v0.3.3^{}": "b0f62c990164471ab108d9295eeddd31ddf03966",
+    "refs/tags/v0.3.4": "6bf7118b85048c296c44f88c306b92080347aec0",
+    "refs/tags/v0.3.4^{}": "8840f63f5d44b0c934e2ba235423a22f5bdcc36b",
+    "refs/tags/v0.3.5": "7bb948ddb96db77cddaf57df18db897024663b9e",
+    "refs/tags/v0.3.5^{}": "49af7ebdcc2413ae89f4c44fbf106431a001f9a9",
+    "refs/tags/v0.3.6": "c3c0647f5ee8fb6417217615648a4c0c4c6eba8d",
+    "refs/tags/v0.3.6^{}": "271c92cfa6c67e314b813d23f9f285971d3c4bea",
+    "refs/tags/v0.3.7": "882c88769d0535bf105036dfb9bc39b2d148cde2",
+    "refs/tags/v0.3.7^{}": "a1f07e2d624622c8eebd1f97b34fd4771b086f6e"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/CHANGELOG.md",
+      "bytes": 19117,
+      "sha256": "4ab9dceb293a6be49b958d0916b89cd56b98efed104f65d3a86f0831d541b33c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/README.md",
+      "bytes": 33417,
+      "sha256": "a8260c0618385f61afbae43e03871bb56ea5d918dc1f5cece1bdf05ea81eec19",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/formats.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/docs/formats.md",
+      "bytes": 32223,
+      "sha256": "84733358e482c1c2e76b167e98e8a265f2d9412feaa0c929cd348b13033aa500",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/flakemap/parse/metadata.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/src/flakemap/parse/metadata.py",
+      "bytes": 7862,
+      "sha256": "7bb47777bdc07c76bc155adf8ba6e86c54cfde76974de4329cf9618461b275a2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/README.md",
+      "bytes": 7722,
+      "sha256": "4492128c3b3627d67b0b2542a6fb133064e9ef60a4e217511324779ee065283b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/browser.mjs",
+      "bytes": 4913,
+      "sha256": "144b5eace34fe990ceeff9b6f50d53277fd477244f7624387eee97707589ab01",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/compatibility.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/compatibility.py",
+      "bytes": 3282,
+      "sha256": "c49c1d832af32799c7b71d0342776be415c2d52deb7f04ff10ec42b3b716c2ae",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/replay.py",
+      "bytes": 10781,
+      "sha256": "6994c37b3dd691f39aa23b86ea5250d6196d1bcc6cfa7fec585d1b7710474944",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/after.html",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/after.html",
+      "bytes": 27990,
+      "sha256": "9cf22acf5fdbf69b933716f5f5e3bb44a1d12b7818a0654e518acbe6691f090e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/after.json",
+      "bytes": 88426,
+      "sha256": "aa2243d190d3f5ad00a3f38a057e027c7171c161f2a0b0cacd52ad63faffbc02",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/before.html",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/before.html",
+      "bytes": 22968,
+      "sha256": "25ef8c132d0b018658de4da1dd8969cc64573ef06e37ed44851da7d2a0244b21",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/before.json",
+      "bytes": 52214,
+      "sha256": "943eeb38d3ee420ceddd5acd08b161c9177ef366e445696cd4b600edc1b3d913",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/browser.json",
+      "bytes": 24162,
+      "sha256": "47e613e1120c5422faf0ab7d54d6e23743a70fb8d9b5c55ed790020978eae66a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/compatibility.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/compatibility.json",
+      "bytes": 8124,
+      "sha256": "6f542c4e934f0d44cdc2e099581ea310ae0a127faf485811a748ce7e8aac3b91",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/installed-current.json",
+      "bytes": 88425,
+      "sha256": "285be99f2653d4fa47e78327bb98fdadc658611f21e04011c67c7ab9274aff9a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/installed-minimum.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/installed-minimum.json",
+      "bytes": 88426,
+      "sha256": "b736e4655f3774e4a9d99e083693836263d59b20faebe71c008eeb0e5fc1425f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/screenshots/chromium-1200-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/screenshots/chromium-1200-after.png",
+      "bytes": 171907,
+      "sha256": "9051f64bc7b9be43c2d30494b936a02b6a3a9ce2db3717b4382df42fb36efe4a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/screenshots/chromium-1200-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/screenshots/chromium-1200-before.png",
+      "bytes": 161053,
+      "sha256": "e6c1ea562ba62855d60c9404663d449071a16a37ffeec9d6cb7ed2cbffb21857",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/screenshots/chromium-375-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/screenshots/chromium-375-after.png",
+      "bytes": 160666,
+      "sha256": "469bb4d7d9cbae80e895f5a0ecfd282ce5dfa83240b97f0f734bf66bbca37911",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/screenshots/chromium-375-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/screenshots/chromium-375-before.png",
+      "bytes": 150354,
+      "sha256": "5600c4f87552560845047f4c023f099bbed5b739005a9f09bf2964476b985baf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/screenshots/firefox-1200-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/screenshots/firefox-1200-after.png",
+      "bytes": 189935,
+      "sha256": "fa40d9ec9f0c64e1f93a12e83c39801acb799d7e5774a6a875dfeb334cbb04d3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/screenshots/firefox-1200-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/screenshots/firefox-1200-before.png",
+      "bytes": 178475,
+      "sha256": "e627aba4690ed7e514fb372bef6a0320f450bf2a578be51194738722680d5e38",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/screenshots/firefox-375-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/screenshots/firefox-375-after.png",
+      "bytes": 170138,
+      "sha256": "4a5578c6237a27491928c77455d5463cb165b6ae0b66d69e88f309b9bae5ce4f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/screenshots/firefox-375-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/screenshots/firefox-375-before.png",
+      "bytes": 159585,
+      "sha256": "f1aa6a1b7f095300512241c9ac2cbf7c731e8cc978ad87a104de909730c32eb7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/sidecar-timezones/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/studies/sidecar-timezones/results/verification.json",
+      "bytes": 13315,
+      "sha256": "e4ffa9237151b0ea740078bfbd9671c16f41dd961198dda6ca2face9a450f3de",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_metadata.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/tests/test_metadata.py",
+      "bytes": 4355,
+      "sha256": "05b094dbb7c673d7f68c570a505efc6e45e7426acceb6c18dfa310c9c69fa3f8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_ordering_evidence.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/flakemap/02cb6e007505f56a91158c39fa5f330e7b6ada0c/tests/test_ordering_evidence.py",
+      "bytes": 11117,
+      "sha256": "6a5f968fb4215b5733f17f57118ea71c95b5a1b81fa06900b9a01c859b297739",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 27,
+  "bytes": 1890952,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
