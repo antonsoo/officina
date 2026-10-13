@@ -230,6 +230,9 @@ distinct from nested paths, with real-PDF and installed-library replays.
 The [Fieldproof string-kind repair](docs/fieldproof-string-kinds-2026-10-13.md)
 stops treating candidate names as dates and adds explicit date/text declarations,
 with preserved built-in reports and installed-package PDF/SDK checks.
+The [Fieldproof claim-type repair](docs/fieldproof-claim-types-2026-10-13.md)
+refuses object and null claims that an unrelated quote previously marked verified,
+including false row-location hints, with unchanged supported-claim reports.
 The [TraceLens combined import](docs/tracelens-multifile-2026-10-12.md) joins
 related service exports before resolving parents and links, with a captured
 HTTP-and-queue workflow verified in offline browsers and installed CLIs.
