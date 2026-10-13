@@ -1,0 +1,149 @@
+{
+  "repository": "ghostchars",
+  "baselineCommit": "14a9f46ab5a57a5bf9f5848e3b5ac2916928e122",
+  "sourceCommit": "fd7b1374a60aef0c1d05be06704b767345c9849c",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "1850946585995ad189416c171873a0be96aaf4e9",
+    "refs/heads/main": "14a9f46ab5a57a5bf9f5848e3b5ac2916928e122",
+    "refs/tags/v0.1.5": "4bd7e19694f8cbd50b194f0e4a34e29d29403398",
+    "refs/tags/v0.1.5^{}": "74b1c603a43aefc6a6b86fa2a24a72a037a8483b"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "1850946585995ad189416c171873a0be96aaf4e9",
+    "refs/heads/main": "fd7b1374a60aef0c1d05be06704b767345c9849c",
+    "refs/tags/v0.1.5": "4bd7e19694f8cbd50b194f0e4a34e29d29403398",
+    "refs/tags/v0.1.5^{}": "74b1c603a43aefc6a6b86fa2a24a72a037a8483b"
+  },
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/.github/workflows/ci.yml",
+      "bytes": 4828,
+      "sha256": "baaa23e1d374460c8f49ad834e781f163f643c9d8de13c91f156fab30e2f9635",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/CHANGELOG.md",
+      "bytes": 19451,
+      "sha256": "6ff4331dfc6d2a8ffe0a9b810c3eb6036a16138339df9e2bc68620a9f40abd6f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/README.md",
+      "bytes": 32348,
+      "sha256": "809979bf7c8cc7bee08f7c2cba5ade8408ad612029567f0755152b4224b8ae22",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "action.yml",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/action.yml",
+      "bytes": 1981,
+      "sha256": "b9f7a6ef5b60f3fce4cff20b270f1ccbe1a9e8a051bb0c135202ff44fe0377a5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "dist/cli.js",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/dist/cli.js",
+      "bytes": 277204,
+      "sha256": "2d8d3dea74f268cee7485179b7d6ce5b4d6b5c47a61d961af44de2b67fbce267",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/action-reports/installed-node20.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/docs/assets/action-reports/installed-node20.png",
+      "bytes": 177520,
+      "sha256": "5275ed052e2e2a5338da75217a99c5daf7c5f9316b51cfb869d5818601fb0aaf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "examples/workflows/ghostchars-sarif.yml",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/examples/workflows/ghostchars-sarif.yml",
+      "bytes": 967,
+      "sha256": "13fe007284bce30cdd48a07fd2ab4d7bad1ea8b264d7fc9da714c0f3e4402895",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/cli/index.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/src/cli/index.ts",
+      "bytes": 9784,
+      "sha256": "ff8d350f99e13d328cbd9b359fc11a7dcc62086fbe486ff0c957948643a23bbc",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/cli/writeReport.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/src/cli/writeReport.ts",
+      "bytes": 4262,
+      "sha256": "40db043c0e8d1fa80b3abfa5ab9cdeb9ffd572a3b05eae7296ea2039c9da868b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/action-reports/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/studies/action-reports/README.md",
+      "bytes": 7809,
+      "sha256": "826bab5fc63043aff284ec56b3f6b1c6211a5a609fdf11337dc6e1bf4176ff51",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/action-reports/demo.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/studies/action-reports/demo.py",
+      "bytes": 2458,
+      "sha256": "b2d956ddcc38ba2ec207bd72593de04678c06e275221b6cb709e2572b2765ce0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/action-reports/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/studies/action-reports/replay.py",
+      "bytes": 12966,
+      "sha256": "31f6c03dafcb80b227e9826bded5920dedcd89cfa19673020de5b29c690be715",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/action-reports/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/studies/action-reports/results/after.json",
+      "bytes": 67410,
+      "sha256": "b4675edf9316ddbbe294e369f8c91c43d14317ad707fefe4f8077b2c24049f66",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/action-reports/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/studies/action-reports/results/before.json",
+      "bytes": 69670,
+      "sha256": "2585524b59b36decfbd5cc17061a7735b371d97efbbec705b8b4f01ebf713fcb",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/action-reports/results/demo.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/studies/action-reports/results/demo.txt",
+      "bytes": 696,
+      "sha256": "8f15bbc21f4f6c12ce2e5ffe8a7df898a0e53c141bca8531766ae20547c3abf3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/action-reports/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/studies/action-reports/results/verification.json",
+      "bytes": 6668,
+      "sha256": "abd45d322402f11811e603f7a4afb83c11d2e0177b99289c458acf4cf9aeec01",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/action-reports/results/workflow.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/studies/action-reports/results/workflow.json",
+      "bytes": 1623,
+      "sha256": "374287ee4a0e6dde521fe7395d6f8a5a43e2a4250ab4410e3a251a7654534228",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/reportOutput.spec.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/fd7b1374a60aef0c1d05be06704b767345c9849c/tests/reportOutput.spec.ts",
+      "bytes": 7062,
+      "sha256": "b7372125a653cc2f0427db34f772f9525468922f68fec9e914dfb549f2ae50d9",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 18,
+  "bytes": 704707,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
