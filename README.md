@@ -206,6 +206,9 @@ new event-like input, while preserving ordinary reports inside log directories.
 The [Contextscope report workflow](docs/contextscope-report-destinations-2026-10-12.md)
 protects request captures and existing reports, with an operating-system write
 failure reproduced through the installed package on Node 20 and 24.
+The [mcplint output guard](docs/mcplint-report-inputs-2026-10-12.md) protects
+definitions and configuration, including referenced environment files, before
+servers start; failed writes preserve reports and remove unfinished snapshots.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200

@@ -1,0 +1,146 @@
+{
+  "repository": "mcplint",
+  "baselineCommit": "1c523ab1e6dbf72cfd565fcb02b7752ce04018ad",
+  "sourceCommit": "d5d3940ac60579ab02f2ba260e28400d14f45627",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "df5f219b817eed5414081a5052da0036a93b31a1",
+    "refs/heads/main": "1c523ab1e6dbf72cfd565fcb02b7752ce04018ad",
+    "refs/tags/v0.3.2": "998e00937453f8b3a2b21c5c9504f88430b50a25",
+    "refs/tags/v0.3.2^{}": "0b244127c407a072b56470d363b970922d2bf30e",
+    "refs/tags/v0.3.3": "916cdcc69b9ca6acc530fe1d7633b11656bff568",
+    "refs/tags/v0.3.3^{}": "65afe9b252322d13b29e0efe39dced8725c62cc2"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "df5f219b817eed5414081a5052da0036a93b31a1",
+    "refs/heads/main": "d5d3940ac60579ab02f2ba260e28400d14f45627",
+    "refs/tags/v0.3.2": "998e00937453f8b3a2b21c5c9504f88430b50a25",
+    "refs/tags/v0.3.2^{}": "0b244127c407a072b56470d363b970922d2bf30e",
+    "refs/tags/v0.3.3": "916cdcc69b9ca6acc530fe1d7633b11656bff568",
+    "refs/tags/v0.3.3^{}": "65afe9b252322d13b29e0efe39dced8725c62cc2"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/CHANGELOG.md",
+      "bytes": 21589,
+      "sha256": "ea01f78bf9e800c4b800ce06a4fe865769b6a0ef396d462072c74683488d7629",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/README.md",
+      "bytes": 39104,
+      "sha256": "e77c24c8d1847308118696fc493c02fb5613cb78769b34e2262ffcdd490d1d99",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/report-input-protection.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/docs/assets/report-input-protection.png",
+      "bytes": 129802,
+      "sha256": "85b627f50fe050a1a9332cfa2ede13cd8cc44abc01eb57f25bd46a3366751136",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/cli.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/src/cli.ts",
+      "bytes": 12792,
+      "sha256": "b27e4b34df5e7d8e9189dcbed4aba3d3bfc34eecd8a7fb227557074ecaeb6652",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/collectors/config.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/src/collectors/config.ts",
+      "bytes": 13172,
+      "sha256": "4e9cc37c3eeab254bc143ab2f9f1e50e7831bcc9ddeb45c6c437d47189605c80",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/core/config.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/src/core/config.ts",
+      "bytes": 3535,
+      "sha256": "e0a65edf3743b39fa75a6df013112ffc3af5d21f36f2d73854ab1d5b36586a37",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/report-file.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/src/report-file.ts",
+      "bytes": 4093,
+      "sha256": "5d224d1a6f52812addaae603564432f17f994bded6385a7473d63a40820ec094",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-inputs/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/studies/report-inputs/README.md",
+      "bytes": 6007,
+      "sha256": "b5e5d2f4a9029076acc004b5681b87d8d3fada561b6585d0b5483a15798c6850",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-inputs/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/studies/report-inputs/after.json",
+      "bytes": 9340,
+      "sha256": "77123b882c408f9fa18d4d07351031f02567c3d960f581c787fc1cf59003ee8f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-inputs/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/studies/report-inputs/before.json",
+      "bytes": 9377,
+      "sha256": "7919add3838debb8d69a53db0f0688e511ce6f7efd8a342b3ef1406185502843",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-inputs/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/studies/report-inputs/replay.mjs",
+      "bytes": 5458,
+      "sha256": "676404aa3fdd91d43caa0a72bd7e2ee6e851af3f45b0181d9d93e4abda352ba9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-inputs/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/studies/report-inputs/verification.json",
+      "bytes": 38486,
+      "sha256": "024a01d2450147d5bd1183db9ebcc22e4c31ed49a64e67b87abfcfffb049f6d5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-inputs/write-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/studies/report-inputs/write-after.json",
+      "bytes": 689,
+      "sha256": "7a4e737cc3e28e8451ee2f416a246ee8be8bab8d4c2be6057609e4322c7f6d25",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-inputs/write-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/studies/report-inputs/write-before.json",
+      "bytes": 692,
+      "sha256": "48e0edddd879a3953d8f7040c088f97ca833b6280ebba122be67025eaa55b466",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-inputs/write-failure.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/studies/report-inputs/write-failure.py",
+      "bytes": 2440,
+      "sha256": "f8d349f61c68d58233628a808b819d0e550dd52bd94bcc0a154b5d9da4f35d0c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/e2e/metadata.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/tests/e2e/metadata.test.ts",
+      "bytes": 3495,
+      "sha256": "f470eba398490ea931b57ea4f10daa4beb54f41cb266d4d44cd7736f7a340558",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/e2e/report-inputs.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/d5d3940ac60579ab02f2ba260e28400d14f45627/tests/e2e/report-inputs.test.ts",
+      "bytes": 6179,
+      "sha256": "4ecf98aaf837bf36c4c32516cb96654427def5eb096518aeb669315520dfa029",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 17,
+  "bytes": 306250,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
