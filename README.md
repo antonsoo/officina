@@ -233,6 +233,9 @@ exports and reports, preventing unlike dimensions from being compared silently.
 The [Errorbars export repair](docs/errorbars-output-integrity-2026-10-13.md)
 prevents CSV, SVG and HTML outputs from erasing their input evidence and preserves
 earlier exports on interrupted writes, with installed-wheel filesystem replays.
+The [Errorbars group-summary repair](docs/errorbars-group-enumeration-2026-10-13.md)
+keeps complete pairwise results and plots available when overlapping groups
+grow exponentially, with explicit omissions and installed CLI checks under a memory ceiling.
 The [Flakemap timestamp repair](docs/flakemap-sidecar-timezones-2026-10-13.md)
 prevents offset-free runner clocks from inventing new-flake alerts, while
 preserving valid sequence and report-time fallbacks and all observed outcomes.

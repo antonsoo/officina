@@ -1,0 +1,201 @@
+{
+  "repository": "errorbars",
+  "baselineCommit": "f4dd23faf62c06cfbe04b03a6bd565de4b15bc17",
+  "sourceCommit": "1c1600b9f47ab392ef3088a0c8b10a5f394da4d4",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "70fecf1644fbe3a5ed8b63c68c0ab845e9ece09d",
+    "refs/heads/main": "f4dd23faf62c06cfbe04b03a6bd565de4b15bc17",
+    "refs/tags/v0.1.2": "003194755be1c9258a0f1b5507aad2fd2d2806b3",
+    "refs/tags/v0.1.2^{}": "ebee653a23941b4b5ffaff827cb3c9320f7876b6",
+    "refs/tags/v0.1.3": "495ed5411869d9406a2e7e14004787b169ae113a",
+    "refs/tags/v0.1.3^{}": "27bbecc739954497b3beb6f0941f8fad3aded5c4",
+    "refs/tags/v0.2.0": "85a0aefb5b8f600978b1f9e5a01d598b9e633d88",
+    "refs/tags/v0.2.0^{}": "05f148ff7ab10a42af8d37f3c072fdc24e5d245d",
+    "refs/tags/v0.2.1": "dece7647cdcdf88d2bcc8e99bd9d96f22f3072a2",
+    "refs/tags/v0.2.1^{}": "b8f1204b54014e485d7bb4992dc3261b296c406b",
+    "refs/tags/v0.2.2": "9fdb4f7a9dcde95346b3fa5679acb1ab4b00dd66",
+    "refs/tags/v0.2.2^{}": "1baa404d2721836a8e7e3c4f925c0e851ee3b83f",
+    "refs/tags/v0.2.3": "bf2e5723f8f88a870dea4fa563712399c89f62b6",
+    "refs/tags/v0.2.3^{}": "39041ac1d94c6e01c7452aa2c36870e3b60ade7a",
+    "refs/tags/v0.2.4": "ea6b9fce76836c56d788c3dd1886fafc61188c90",
+    "refs/tags/v0.2.4^{}": "9e45fc24bb0e5673e5bffcb0dd626a4d3545ca54"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "70fecf1644fbe3a5ed8b63c68c0ab845e9ece09d",
+    "refs/heads/main": "1c1600b9f47ab392ef3088a0c8b10a5f394da4d4",
+    "refs/tags/v0.1.2": "003194755be1c9258a0f1b5507aad2fd2d2806b3",
+    "refs/tags/v0.1.2^{}": "ebee653a23941b4b5ffaff827cb3c9320f7876b6",
+    "refs/tags/v0.1.3": "495ed5411869d9406a2e7e14004787b169ae113a",
+    "refs/tags/v0.1.3^{}": "27bbecc739954497b3beb6f0941f8fad3aded5c4",
+    "refs/tags/v0.2.0": "85a0aefb5b8f600978b1f9e5a01d598b9e633d88",
+    "refs/tags/v0.2.0^{}": "05f148ff7ab10a42af8d37f3c072fdc24e5d245d",
+    "refs/tags/v0.2.1": "dece7647cdcdf88d2bcc8e99bd9d96f22f3072a2",
+    "refs/tags/v0.2.1^{}": "b8f1204b54014e485d7bb4992dc3261b296c406b",
+    "refs/tags/v0.2.2": "9fdb4f7a9dcde95346b3fa5679acb1ab4b00dd66",
+    "refs/tags/v0.2.2^{}": "1baa404d2721836a8e7e3c4f925c0e851ee3b83f",
+    "refs/tags/v0.2.3": "bf2e5723f8f88a870dea4fa563712399c89f62b6",
+    "refs/tags/v0.2.3^{}": "39041ac1d94c6e01c7452aa2c36870e3b60ade7a",
+    "refs/tags/v0.2.4": "ea6b9fce76836c56d788c3dd1886fafc61188c90",
+    "refs/tags/v0.2.4^{}": "9e45fc24bb0e5673e5bffcb0dd626a4d3545ca54"
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/.gitattributes",
+      "bytes": 141,
+      "sha256": "6915a2607eba7327cce8e7959168fe6a027daaa5f4c802defe7e0d0750f8ba76",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/CHANGELOG.md",
+      "bytes": 29263,
+      "sha256": "3ca22b7eba3fa7c1c59b96ce3d143e8544294e7e5a9a386068da283d78669971",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/README.md",
+      "bytes": 30693,
+      "sha256": "b27ba10fe6b9f385d30be7bc864c753d899552b443465db2f5fe7826d4ea6cc4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/errorbars/cli.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/src/errorbars/cli.py",
+      "bytes": 31289,
+      "sha256": "e8b8f75f8df10b9cb351292580ab55187ba8c0ea52e5969a627a029155aa32f1",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/errorbars/leaderboard.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/src/errorbars/leaderboard.py",
+      "bytes": 19144,
+      "sha256": "8c8ee4d668a920ad70abef8ee4857efdcf6068b3860e3d57d96ab516ce6ec6dc",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/README.md",
+      "bytes": 7822,
+      "sha256": "28d1e260a95b9d4299a4c5fdb59bcc2e08305b59d34f0fb908bcf85f4a25917b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/cases.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/cases.py",
+      "bytes": 1212,
+      "sha256": "c795c1821cc8e78d3deea9a92b10948243046e3ff6ef69d20931be169f019e57",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/public_replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/public_replay.py",
+      "bytes": 2774,
+      "sha256": "42bc6e51c20bca0d1d0d63112c435721b9243bcff5a78f71800adda6f3d15cf2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/replay.py",
+      "bytes": 7817,
+      "sha256": "9354b988c98335bad54645614c8cf00eabb85abbae66e55ffa268e242bee47c7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/clean-cli.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/clean-cli.json",
+      "bytes": 2848,
+      "sha256": "614e6d3307f316e53998b1bff31c3a79279d4592c01bf44ddbb32b06ca00c3ed",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/cli-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/cli-current.json",
+      "bytes": 2847,
+      "sha256": "eaf28e1f6f6cd4fc280b52a81264acb6e4bd88cf45c291067f5397201403d701",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/cli-minimum.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/cli-minimum.json",
+      "bytes": 2852,
+      "sha256": "7559e7da03e9837eede8116949fb1f5750e3e99cc9ec1fc081dca83394bf2442",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/exports.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/exports.json",
+      "bytes": 1046,
+      "sha256": "8d7151fd2a5bbe213af2468c0152eb173e60b0a43bfcb335e4803d6dfe190491",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/failure-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/failure-before.json",
+      "bytes": 1355,
+      "sha256": "89c5f88fcb7c433d152503b022870589796956efcc8ff08e72c5e63d8374e8d9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/large-report.json.gz",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/large-report.json.gz",
+      "bytes": 7584,
+      "sha256": "d19e36aa4824d1f6ecf8720d972c4aa560bd6050934d19ed1d1ddcb7844d6eb0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/large-terminal.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/large-terminal.txt",
+      "bytes": 15396,
+      "sha256": "921dc14235ee4b6224def337e22b12dadf88e1a1d2e110698bd46d6e46b206ff",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/large.svg",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/large.svg",
+      "bytes": 39903,
+      "sha256": "7b6f4b2e252358656394cb85d5457275f44e64712b00482d00189bebdc9d127f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/public-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/public-before.json",
+      "bytes": 965,
+      "sha256": "4593af2f7d5368a1211a0253d68e1ac43f2c5a0114046f7668f7161550ddceba",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/public-clean.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/public-clean.json",
+      "bytes": 1059,
+      "sha256": "3be155ff7187e5889df85065e5e529c95035269bd397b402b8ef867c7de1d1a8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/small-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/small-before.json",
+      "bytes": 1632,
+      "sha256": "d5047ef9af7317e395a82b82f05bd3735fb8054c5bc67cd7aca6de96aa9b4221",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/group-enumeration/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/studies/group-enumeration/results/verification.json",
+      "bytes": 7092,
+      "sha256": "db4dd46e77595206bae6dc9a7752f139aacb6ab99861c8210aa1dee77ba5c2d6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_leaderboard_group_limits.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/errorbars/1c1600b9f47ab392ef3088a0c8b10a5f394da4d4/tests/test_leaderboard_group_limits.py",
+      "bytes": 3318,
+      "sha256": "b3f62e617493d95d6041ea555ec09ef4afeb693e6508235a717cc8cad61921f5",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 22,
+  "bytes": 218052,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
