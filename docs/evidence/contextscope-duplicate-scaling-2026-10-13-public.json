@@ -1,0 +1,300 @@
+{
+  "repository": "contextscope",
+  "baselineCommit": "2c52d639d3b92bde4c6b2655056c67df725a6123",
+  "sourceCommit": "e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "3496b0635263f82117196596cd18a068e601b9c3",
+    "refs/heads/main": "2c52d639d3b92bde4c6b2655056c67df725a6123",
+    "refs/tags/v0.3.2": "b6f4fb90b2dea78aa96db62e776de638c13adee1",
+    "refs/tags/v0.3.2^{}": "277b103104677a530e019165ca204044c4b2028b",
+    "refs/tags/v0.3.3": "ec1c1646cb0a1656645780e7f22733cdf4bd6ed5",
+    "refs/tags/v0.3.3^{}": "4bef9ea4a570353f8131ec449bee1a29f4774fe7"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "3496b0635263f82117196596cd18a068e601b9c3",
+    "refs/heads/main": "e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f",
+    "refs/tags/v0.3.2": "b6f4fb90b2dea78aa96db62e776de638c13adee1",
+    "refs/tags/v0.3.2^{}": "277b103104677a530e019165ca204044c4b2028b",
+    "refs/tags/v0.3.3": "ec1c1646cb0a1656645780e7f22733cdf4bd6ed5",
+    "refs/tags/v0.3.3^{}": "4bef9ea4a570353f8131ec449bee1a29f4774fe7"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/README.md",
+      "bytes": 44253,
+      "sha256": "e5953c0e87216bd7113ce4d17acb0d34b041adb681c0d686db01b789f99a3e96",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/duplicate-scaling/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/docs/assets/duplicate-scaling/chromium-1440.png",
+      "bytes": 23292,
+      "sha256": "fa9990f4de989046ef47714089bf05c940d6470431b2166697497c7778a0c28d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/duplicate-scaling/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/docs/assets/duplicate-scaling/chromium-375.png",
+      "bytes": 22851,
+      "sha256": "d315581d4200eab6bb032322f2d694d0e2f3da2b6c98e18f5fe78a57c9b5810b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/duplicate-scaling/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/docs/assets/duplicate-scaling/firefox-1440.png",
+      "bytes": 34431,
+      "sha256": "d2b6fef1c6a4e09ed1a8adfd1bf9aed6b37e14e1b8db73d661271977afd00880",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/duplicate-scaling/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/docs/assets/duplicate-scaling/firefox-375.png",
+      "bytes": 35064,
+      "sha256": "add3622576ef1d07dd6e61171c05f7ec434438a663d7eaa54167bdf9161acbbc",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/core/duplicates.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/src/core/duplicates.ts",
+      "bytes": 7018,
+      "sha256": "4b4d76396a491e30dfb9dd4863b3488006b5dadadda4a1d7784ab2a3c7969f29",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/README.md",
+      "bytes": 9088,
+      "sha256": "c413dd7323e90160075f5873e973e5a77c22203ba2d63743e382df04e3873458",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/benchmark.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/benchmark.mjs",
+      "bytes": 1987,
+      "sha256": "c7dbbd2c38f411946b03a13b5e5ef82dc89ea9fc9a4ef176a58c8e9e4c7d0540",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/browser.mjs",
+      "bytes": 7940,
+      "sha256": "d393690ee6cef1c1933b16f97697b1a0040532e995ecea50ec54946937be3c37",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/cases.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/cases.mjs",
+      "bytes": 1275,
+      "sha256": "52c26d4abacc28e4f0494565a66c2dfac4d892df14b15e3333eada093ba81363",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/oracle.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/oracle.mjs",
+      "bytes": 4044,
+      "sha256": "704e1278a5dd851e520397a643f9f8e87030b17b4d9195ad3ba46e49014ad99e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/replay.mjs",
+      "bytes": 2550,
+      "sha256": "a77437fc7442da459704e32b83ec0a43ea991cb4f6abed4e5e82a2c4d51d4f1c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/after-dense-250.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/after-dense-250.json",
+      "bytes": 473,
+      "sha256": "45d2913fff1bab449cb1dfac4072ec62e719f6b81f8595d90e3f05391154e2f8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/after-exact-2000.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/after-exact-2000.json",
+      "bytes": 489,
+      "sha256": "cb4f15434c4e2adfa6c3d16467c0334ad00c0b8b8bcdc7759496bff473b80098",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/after-mixed-2000.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/after-mixed-2000.json",
+      "bytes": 497,
+      "sha256": "3f76fd2b4ba9766bb8f04599a219758f324c5385d45b71439dc79961730b74fa",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/after-sparse-100.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/after-sparse-100.json",
+      "bytes": 478,
+      "sha256": "b11693101e8d645d3b24adbe6ea04d0ec25866ca405ae61556b29158a71a2e5a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/after-sparse-2000.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/after-sparse-2000.json",
+      "bytes": 475,
+      "sha256": "06649af0c07b573c7b5c003b7186377ea9b4bbe1d3f90127545fc2b2c682da07",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/after-sparse-500.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/after-sparse-500.json",
+      "bytes": 480,
+      "sha256": "2f7c844849d4d3fa139ce8ef0cf86a0d71d7d71c8eac889c0ee70fb7ad2c6fb9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/before-dense-250.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/before-dense-250.json",
+      "bytes": 490,
+      "sha256": "6fd336ee552142aed385881f9cdea210e5b9507bfa7cbaad5aecd91146f0cba1",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/before-exact-2000.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/before-exact-2000.json",
+      "bytes": 490,
+      "sha256": "cfbb37d15e77b673a8ddc71a59efdeecf5604a265bd61a0f990712edd49607bc",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/before-mixed-2000.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/before-mixed-2000.json",
+      "bytes": 484,
+      "sha256": "4b630695956bd4027c52c2a1c2532283ffea07b5d5ae5c43ccb3f4a232c5eb65",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/before-sparse-100.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/before-sparse-100.json",
+      "bytes": 476,
+      "sha256": "b349a06d60be1fc91be38dad2cca64c0270c9911cd3d82561c41112b81bf2e52",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/before-sparse-2000.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/before-sparse-2000.json",
+      "bytes": 463,
+      "sha256": "3ca74e05f3010d8965c88bce0dfe23b4bbe62f3d48aa75a28bbe7e2ab9149a9c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/before-sparse-500.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/before-sparse-500.json",
+      "bytes": 463,
+      "sha256": "dd2122d68326ca3d83454a57de33551de1dc10ba563edce5626631c5b582d41b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/benchmark-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/benchmark-node20.json",
+      "bytes": 446,
+      "sha256": "049de8d65ce57a7987fdd5451c7d4165c4df50910b463c0f261c078f9c60008e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/benchmark-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/benchmark-node24.json",
+      "bytes": 435,
+      "sha256": "7685433eec92c6bb7054c0614ddf000813e41ea15726761c75316b48ed29e059",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/browser-after.json",
+      "bytes": 8474,
+      "sha256": "010ab93eeec6ba288a389eb046cd129af5ede5238466d245a553808f7111995a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/browser-before.json",
+      "bytes": 8473,
+      "sha256": "d28fca83c0d6b62ed25ad3e537ea007294833e09f4961162c8de80cc0cc923a7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/cli-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/cli-after.json",
+      "bytes": 4601,
+      "sha256": "f48bcfe50e97e32730643ec86ead79394e0d5020b39ca4064b8256350bf0e27d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/cli-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/cli-before.json",
+      "bytes": 4591,
+      "sha256": "c5f5bc687c6b7a7af91f84709979c8aae04a165fea9ea9b55021f85ecd3f8d7d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/cli-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/cli-node20.json",
+      "bytes": 4605,
+      "sha256": "03d497cac32bb9e4c2882e3dc508f2e10448e064ed468a359b5dd645d19359b4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/cli-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/cli-node24.json",
+      "bytes": 4587,
+      "sha256": "483812ca3e192b3bdb456be8aa7e446a9d6acf725b399424290529444608b74f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/comparison.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/comparison.json",
+      "bytes": 2081,
+      "sha256": "7b761a06436b7f0c4d9962ba4f9ee1dc8cdc9dd1779a59c6637e3748c2316dca",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/host.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/host.json",
+      "bytes": 495,
+      "sha256": "a2d3607d2a725e8430c6b7b07f9413b142e4fcf07aeea56dae5789dfd8682b76",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/oracle-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/oracle-after.json",
+      "bytes": 44962,
+      "sha256": "9a64951329337f79882c05325516b210becddf90d2537e0b12aa0ea5c852ec2e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/oracle-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/oracle-before.json",
+      "bytes": 44962,
+      "sha256": "9a64951329337f79882c05325516b210becddf90d2537e0b12aa0ea5c852ec2e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/public-corpus.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/public-corpus.json",
+      "bytes": 99598,
+      "sha256": "d9df9543afbdf9144867c2f0db2f36287823804c220b7be39b17986f88968bb2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/duplicate-scaling/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/studies/duplicate-scaling/results/verification.json",
+      "bytes": 10734,
+      "sha256": "2208dbd8d0c26ce3d45a0b6cf543daef6a40b7d7ebd711164897cbbd0fa5db44",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/duplicates.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/e835a2fb626d6d5b513f7569ce0a07c9d20e4e1f/tests/duplicates.test.ts",
+      "bytes": 6238,
+      "sha256": "1c9fd8273d267c4e1303dfad721e493a1aef335b7571fed6d4a87b59603b11ad",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 39,
+  "bytes": 444833,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
