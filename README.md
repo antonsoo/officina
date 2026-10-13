@@ -182,6 +182,9 @@ counts, installed CLI/browser replays and unchanged historical reports.
 The [Contextscope duplicate-review optimization](docs/contextscope-duplicate-scaling-2026-10-13.md)
 cuts long constructed-history imports while preserving every report and all 466
 public-history groups, with installed packages, offline browsers and memory limits.
+The [Contextscope text-comparison workflow](docs/contextscope-text-comparison-2026-10-13.md)
+shows literal edits inside similar blocks, with distinct source paths, complete
+downloads, explicit work limits and verified offline desktop/phone workflows.
 The [Errorbars table-import repair](docs/errorbars-table-imports-2026-10-12.md)
 refuses duplicate DataFrame columns and damaged quoted CSV, with preserved output
 files and unchanged valid comparisons in clean installed-package replays.
