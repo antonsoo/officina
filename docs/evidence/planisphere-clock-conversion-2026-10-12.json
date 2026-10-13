@@ -1,0 +1,187 @@
+{
+  "repository": "planisphere",
+  "baselineCommit": "efa33746b52f0d77b98af29604fe18f06a1082b0",
+  "sourceCommit": "ba3f1d43a1fffbaf3661b9b6ea0971196626124c",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "f2d2f79a6460554a557f7c3679ae909b33c5360d",
+    "refs/heads/main": "efa33746b52f0d77b98af29604fe18f06a1082b0"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "f2d2f79a6460554a557f7c3679ae909b33c5360d",
+    "refs/heads/main": "ba3f1d43a1fffbaf3661b9b6ea0971196626124c"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/CHANGELOG.md",
+      "bytes": 6973,
+      "sha256": "680c540612a67403bd35926aa2b8184c493589910a1403970be30935aad6b6b3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/README.md",
+      "bytes": 16234,
+      "sha256": "27d107816516d3c3e0e804a2f59c64a01c493916f4cbfa60281df0ab852efeb4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assembly.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/docs/assembly.md",
+      "bytes": 7470,
+      "sha256": "7e7aec2d4e58f0992400d18cc2bf9f3568604e46acffefe52b78e8d8b140b211",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/clock-conversion/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/docs/assets/clock-conversion/chromium-1440.png",
+      "bytes": 602893,
+      "sha256": "4e6ba11ff5bce3744751325069a95bd23cf435aa40a66b8f9153651c621c7e5c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/clock-conversion/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/docs/assets/clock-conversion/chromium-375.png",
+      "bytes": 299346,
+      "sha256": "43cf8ea7075f0c6b2d0f922c9c9eafffce94e3ae7ab9390ab454fa44e0369ee2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/clock-conversion/dateline-disc.svg",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/docs/assets/clock-conversion/dateline-disc.svg",
+      "bytes": 303945,
+      "sha256": "f78956ba112de8850fec4e9ef8b5828f2b5715e6a1fc6bdfc2d6fd2ddeb81b55",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/clock-conversion/dateline-holder.svg",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/docs/assets/clock-conversion/dateline-holder.svg",
+      "bytes": 94338,
+      "sha256": "36777456c63fdea56aec8a0d698f2fa40dc3caeebc0ac73dce467c1ac3f7eb57",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/clock-conversion/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/docs/assets/clock-conversion/firefox-1440.png",
+      "bytes": 478649,
+      "sha256": "35d330d88ccf0cefe9681b5370312ba4f7eb9ceea70dd8ad919d6901d486c78b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/clock-conversion/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/docs/assets/clock-conversion/firefox-375.png",
+      "bytes": 355380,
+      "sha256": "d2faf98c2e2ef3cf153f6c8276d3ee6a44347df7ea02e3bfa6fbebbe5d4749a3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/geometry.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/docs/geometry.md",
+      "bytes": 8505,
+      "sha256": "12ef9c9b6cd7edd2171a95444bc88703160998abec1d64da9909d6955ed6db5f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "index.html",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/index.html",
+      "bytes": 10479,
+      "sha256": "7a8a72e284ded166e6ae016ed4cfdf70fbe3c9a9aaa8d9a0399a7ac2d723d38a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/astro/civilTime.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/src/astro/civilTime.ts",
+      "bytes": 2857,
+      "sha256": "f6ed298cd8f1e375e9c087969a417e63d5d75ed648a5d78494123d669458ea66",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/clockConverter.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/src/clockConverter.ts",
+      "bytes": 2987,
+      "sha256": "51378575034a3b24878530dabfb3b7e3194b6a2bbcc1636e5487efa99e77a724",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/main.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/src/main.ts",
+      "bytes": 15077,
+      "sha256": "bd7fed7627a4761754de5b6c57b8dc0d5467b750068a2e7e84299773aabdeb92",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/style.css",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/src/style.css",
+      "bytes": 14375,
+      "sha256": "cb11150e436bf7c349e34ee81763ea6d8677d0e77f7770eb4ac87e40d9d6e28f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/clock-conversion/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/studies/clock-conversion/README.md",
+      "bytes": 6579,
+      "sha256": "c8d328c845eab8805ac36c9d9c6d7cbb8b03580e326684f3900d0d25f6e05a44",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/clock-conversion/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/studies/clock-conversion/before.json",
+      "bytes": 1042,
+      "sha256": "640a71e8b09c618878da189f6cb0c9f3b33c183f4993e44960f8eefc7dc3dfe4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/clock-conversion/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/studies/clock-conversion/browser.json",
+      "bytes": 26882,
+      "sha256": "abe0ab23ba63cea180c8728df43cf6f740d9935e249e144e7c70ff968c3e1f0c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/clock-conversion/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/studies/clock-conversion/browser.mjs",
+      "bytes": 8311,
+      "sha256": "4112f1cc7b7882c59f6f60b05bfd2708475635a4fdb240324be1a97473bd4101",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/clock-conversion/check_oracle.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/studies/clock-conversion/check_oracle.py",
+      "bytes": 1635,
+      "sha256": "d36295511bd4ff291a65d86380932663b490885e969e9b0d63e4892d11e2697a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/clock-conversion/oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/studies/clock-conversion/oracle.json",
+      "bytes": 5752,
+      "sha256": "21e36c38aad0194cc71a545765c101b48457269250fb958b10bd55924b309d45",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/clock-conversion/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/studies/clock-conversion/verification.json",
+      "bytes": 1524,
+      "sha256": "25425a0cefb4ab0868035c25f625be24e27514af3a05b088ebd1e341ec11d8c2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/browser/clock-conversion.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/tests/browser/clock-conversion.spec.mjs",
+      "bytes": 3394,
+      "sha256": "975d40746f0159a62c3ffe9a7f3ebd7109ddaee40f0851e346e720b1d0814eb4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/clockConversion.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/ba3f1d43a1fffbaf3661b9b6ea0971196626124c/tests/clockConversion.test.ts",
+      "bytes": 2103,
+      "sha256": "e431f89a02e04c638eaee5c82196a76469f8ebcb6eac05a51ce19f28085e9c8e",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 24,
+  "bytes": 2276730,
+  "scope": "main source only; tags and gh-pages unchanged"
+}

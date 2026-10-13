@@ -197,6 +197,9 @@ that leave audit scores unchanged and preserving incomplete collection states.
 The [Errorbars named-score workflow](docs/errorbars-inspect-values-2026-10-12.md)
 selects a value from native Inspect scores and preserves its meaning through
 exports and reports, preventing unlike dimensions from being compared silently.
+The [Planisphere clock converter](docs/planisphere-clock-conversion-2026-10-12.md)
+turns an explicit civil clock and longitude into a previewed wheel setting,
+carrying date-line and New Year rollover into the downloaded annual scale.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
