@@ -218,6 +218,9 @@ that leave audit scores unchanged and preserving incomplete collection states.
 The [Errorbars named-score workflow](docs/errorbars-inspect-values-2026-10-12.md)
 selects a value from native Inspect scores and preserves its meaning through
 exports and reports, preventing unlike dimensions from being compared silently.
+The [Errorbars export repair](docs/errorbars-output-integrity-2026-10-13.md)
+prevents CSV, SVG and HTML outputs from erasing their input evidence and preserves
+earlier exports on interrupted writes, with installed-wheel filesystem replays.
 The [Planisphere clock converter](docs/planisphere-clock-conversion-2026-10-12.md)
 turns an explicit civil clock and longitude into a previewed wheel setting,
 carrying date-line and New Year rollover into the downloaded annual scale.
