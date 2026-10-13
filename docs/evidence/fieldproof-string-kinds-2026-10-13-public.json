@@ -1,0 +1,187 @@
+{
+  "repository": "https://github.com/antonsoo/fieldproof",
+  "baselineCommit": "6ec047d33cd69fb7a02154e90bc3049f1e072f16",
+  "sourceCommit": "27ae6c7e2e473e8d5b503a66a42d53465820866f",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "refs/heads/main": "6ec047d33cd69fb7a02154e90bc3049f1e072f16",
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "refs/heads/main": "27ae6c7e2e473e8d5b503a66a42d53465820866f",
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/CHANGELOG.md",
+      "bytes": 29088,
+      "sha256": "e8c3da6bad1e7223b6a1e2ee020b14d9c0b862d11583e07f3644e311757ffa26",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/README.md",
+      "bytes": 43104,
+      "sha256": "720b0f28244f75cc31a035a82e6f75ec50f71d1b3b429405d9490355fc3ce467",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/schemas/__init__.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/src/fieldproof/schemas/__init__.py",
+      "bytes": 1661,
+      "sha256": "2846223c9fe650c6c471d68c97359b2f0bef71c3029bcb928d119ef47e04818c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/schemas/base.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/src/fieldproof/schemas/base.py",
+      "bytes": 3183,
+      "sha256": "e1bedf5eefca522d004393dadb59d1f84e06416df5d614f1d99a0f605202f78c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/verify/engine.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/src/fieldproof/verify/engine.py",
+      "bytes": 22492,
+      "sha256": "43fa91960df233d3acb9ef039a5ba398e9f308f26df252204efdf6d01afa6397",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/README.md",
+      "bytes": 8088,
+      "sha256": "226d60d74f58a38c375f3ba325079cb2befd693f902a391ca16a0d13cfbbb1c7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/after.json",
+      "bytes": 64536,
+      "sha256": "0e07348377bf78e58d4c010b68853ea1550e2df5368615004b1e18467bed7851",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/before.json",
+      "bytes": 63197,
+      "sha256": "e7200d70a23048c62a07dce1101c48b69d1725bc4050d311fd6b509cd84d720b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/builtin-controls.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/builtin-controls.json",
+      "bytes": 786,
+      "sha256": "2f2c8dd747a76193ff9557ec564e13cf88f5cb0a1c612988f4e042a6157fce72",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/builtin_replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/builtin_replay.py",
+      "bytes": 1393,
+      "sha256": "0161f7077d6b7197043a98d4c2624550d7bd7066d4eb0b29a6a41fae83575a66",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/cases.json",
+      "bytes": 9469,
+      "sha256": "eb3c7eee6010647437dad5c86128c923280caba6d0c7d47efe5dd3c4e778043b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/fixtures.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/fixtures.py",
+      "bytes": 3128,
+      "sha256": "533ecb2061b1099c73485a9ceade6741f394c8e1db10e2ffac0bcfa194f591cb",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/installed-current.json",
+      "bytes": 64538,
+      "sha256": "df9bcceba5f389bbac84af1bfd8652a264da060da88c95260a52acd9d77542bf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/installed-minimum.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/installed-minimum.json",
+      "bytes": 64539,
+      "sha256": "b9319174e7cf8dd3cad4513393d733370d82fac14febb774ead14a0bfd52eb83",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/mixed.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/mixed.pdf",
+      "bytes": 1557,
+      "sha256": "913a4f98da387e2b19f2133a998141076a5443b04205fa929011348de7279938",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/plain.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/plain.pdf",
+      "bytes": 1533,
+      "sha256": "060fe4bc17f92f2489540cf3a7c056eb5bcaf7b8719a8419836c99994c6a1328",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/replay.py",
+      "bytes": 4332,
+      "sha256": "b42e7b2deee44687396590dc2f72be99799358a439f3db51954a55bb0dbe70f0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/string-kinds/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/studies/string-kinds/verification.json",
+      "bytes": 16018,
+      "sha256": "87bfb8000ba7a87ca54ccefd0d3a27c9bd4db15beeb49ab6adcd3d97bcb760f2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_extract_anthropic.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/tests/test_extract_anthropic.py",
+      "bytes": 12545,
+      "sha256": "3010a1ae1571ad589eed4bbee2d4fb17272d24102ea35ca13dddd4dbcfba44d0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_string_kinds.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/27ae6c7e2e473e8d5b503a66a42d53465820866f/tests/test_string_kinds.py",
+      "bytes": 7493,
+      "sha256": "380beddf80d4f2db8156c618241efdd5dbd0dfe22b3f74be2646fb46a69c8ebd",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 20,
+  "bytes": 422680,
+  "scope": "Source main only; no package release, tag change or hosted deployment."
+}

@@ -227,6 +227,9 @@ after rejected imports, with installed CLI, SDK-parser and browser evidence.
 The [Fieldproof custom-container repair](docs/fieldproof-container-claims-2026-10-13.md)
 includes mapping and tuple claims in verification and keeps literal field names
 distinct from nested paths, with real-PDF and installed-library replays.
+The [Fieldproof string-kind repair](docs/fieldproof-string-kinds-2026-10-13.md)
+stops treating candidate names as dates and adds explicit date/text declarations,
+with preserved built-in reports and installed-package PDF/SDK checks.
 The [TraceLens combined import](docs/tracelens-multifile-2026-10-12.md) joins
 related service exports before resolving parents and links, with a captured
 HTTP-and-queue workflow verified in offline browsers and installed CLIs.
