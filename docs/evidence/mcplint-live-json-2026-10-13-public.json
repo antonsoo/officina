@@ -1,0 +1,230 @@
+{
+  "repository": "https://github.com/antonsoo/mcplint",
+  "baselineCommit": "842910b8f4e387613040943cc7ad11f8e16d2892",
+  "sourceCommit": "f808ea05d86be3b4b827d105b6969339a5281f55",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "df5f219b817eed5414081a5052da0036a93b31a1",
+    "refs/heads/main": "842910b8f4e387613040943cc7ad11f8e16d2892",
+    "refs/tags/v0.3.2": "998e00937453f8b3a2b21c5c9504f88430b50a25",
+    "refs/tags/v0.3.2^{}": "0b244127c407a072b56470d363b970922d2bf30e",
+    "refs/tags/v0.3.3": "916cdcc69b9ca6acc530fe1d7633b11656bff568",
+    "refs/tags/v0.3.3^{}": "65afe9b252322d13b29e0efe39dced8725c62cc2"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "df5f219b817eed5414081a5052da0036a93b31a1",
+    "refs/heads/main": "f808ea05d86be3b4b827d105b6969339a5281f55",
+    "refs/tags/v0.3.2": "998e00937453f8b3a2b21c5c9504f88430b50a25",
+    "refs/tags/v0.3.2^{}": "0b244127c407a072b56470d363b970922d2bf30e",
+    "refs/tags/v0.3.3": "916cdcc69b9ca6acc530fe1d7633b11656bff568",
+    "refs/tags/v0.3.3^{}": "65afe9b252322d13b29e0efe39dced8725c62cc2"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/CHANGELOG.md",
+      "bytes": 22621,
+      "sha256": "70cc9eb9e3908044b940d2fa55d35bd2d8e3ca2b2eff6d58055d34554c1f7ad4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/README.md",
+      "bytes": 39847,
+      "sha256": "c331a102a45ece97f4714f03de8890ab083511bd085354d25aeca29c0ed607d7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/live-json/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/docs/assets/live-json/chromium-1440.png",
+      "bytes": 183959,
+      "sha256": "9a3934e9d6cc144f79be671e660b461c28522c902764590753c33e771a233212",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/live-json/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/docs/assets/live-json/chromium-375.png",
+      "bytes": 172142,
+      "sha256": "50942ea56367d550eb9bd57c2332ab7a3583520c9ea2c7a54b54289a662decbd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/live-json/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/docs/assets/live-json/firefox-1440.png",
+      "bytes": 217194,
+      "sha256": "107139d9ae6f1d824e4c0c4ecc04ca17bd1dd52873fe70250c47430ae556c170",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/live-json/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/docs/assets/live-json/firefox-375.png",
+      "bytes": 208563,
+      "sha256": "e3db4f03e6f8f1764bf9c7a8b73b8743b36538e69d7fb35827e2926c629333bb",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/collection-coverage.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/docs/collection-coverage.md",
+      "bytes": 12710,
+      "sha256": "e20cde5a924d969c4b98633fb75628309543a5279b7a760d5c44e7846c6a5aee",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/metadata-review.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/docs/metadata-review.md",
+      "bytes": 8961,
+      "sha256": "5addd22c954f15045237329e3e561a125a2aed153084604215f1da4393228be8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "package-lock.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/package-lock.json",
+      "bytes": 149015,
+      "sha256": "fdf2f6bf65e8951a4cba096071bd4fb42c170898798568d2ca2c9f94f058da17",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "package.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/package.json",
+      "bytes": 2243,
+      "sha256": "96794751ad94bb881a92b6f701668340818a7b91762172d7e446d8aa12020f3c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/collectors/diagnostics.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/src/collectors/diagnostics.ts",
+      "bytes": 2114,
+      "sha256": "0a9d2003a30595c5e1ddcd6e53d9c63daa6bd71adaa945a1108d7b662622f6e9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/collectors/http.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/src/collectors/http.ts",
+      "bytes": 4182,
+      "sha256": "1befd80709241602747438c013cfad41f0314908faf0fced0938d7e08a9f0abf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/collectors/live-json.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/src/collectors/live-json.ts",
+      "bytes": 5798,
+      "sha256": "3f69ffb38fdc0fac5b2701fd73419222b57a139fd9fe57ce3019fbe35c785050",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/collectors/stdio-transport.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/src/collectors/stdio-transport.ts",
+      "bytes": 4244,
+      "sha256": "de24f9d643184bda91461ee29e0935a9a9313ddce7be88c930fbef9403183a0e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/collectors/stdio.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/src/collectors/stdio.ts",
+      "bytes": 3202,
+      "sha256": "0b31aafe3a6f5f1a19c147beeb7cdec9951003540426b60f848c6e8aa0785c2d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/json-integrity/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/json-integrity/README.md",
+      "bytes": 7336,
+      "sha256": "6c94ae183ee8d7fec9beb5c9dea5206d7851df76e8af3fbd6fb94489ea46bb13",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/README.md",
+      "bytes": 6471,
+      "sha256": "2b8fd577bcf3c79a671ede56749ce6fb4ac852ad1b6c035e7042e5ea3512c31d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/browser.mjs",
+      "bytes": 3501,
+      "sha256": "591e14fa63594a2ec664c94f2a0873cdff66723debf4a114b23c3d7754da5c16",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/replay.mjs",
+      "bytes": 7996,
+      "sha256": "29491917e61bb3c4e9ec78797060e85772b74b5869e4b9a819ca070efd5e2cb0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/results/after.json",
+      "bytes": 64590,
+      "sha256": "6a1336cb34e49e5903243ff7eb7b826ea2b186a658b341af74607ca4811b46ed",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/results/before.json",
+      "bytes": 66809,
+      "sha256": "6a53cf231f311d6f61eeb172ba27ba95705992057a09b38e072b4b2e915d42b2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/results/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/results/browser.json",
+      "bytes": 9190,
+      "sha256": "cf50bbd8cd767742d11adefb229e4efaf627bc5ba65060563897de2f7d00661a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/results/diff.html",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/results/diff.html",
+      "bytes": 25316,
+      "sha256": "a9a8ea1e904aae851edb394cf173101fdadbfae4ef1dac52565569459b2e48ec",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/results/diff.stdout",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/results/diff.stdout",
+      "bytes": 3583,
+      "sha256": "3f9a2fe65c95680718b28fa43aa8fd256a8bea811641570746ae1230189696ce",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/results/installed-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/results/installed-node20.json",
+      "bytes": 64589,
+      "sha256": "f93f764410504c41856781e953068cd17e868435b925ed360cd5e32a67dde664",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/results/installed-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/results/installed-node24.json",
+      "bytes": 64590,
+      "sha256": "88d45a964fddc8ea6881a69cb511df19335d704eb068747060eb68a8a11041ff",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/live-json/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/studies/live-json/results/verification.json",
+      "bytes": 17120,
+      "sha256": "3bc96fe3004e3c36fd79baae8c8f47d5da72920de4d6510e57ccf779d52a1917",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/collectors/live-json.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/tests/collectors/live-json.test.ts",
+      "bytes": 9605,
+      "sha256": "782c072259098b30f4f2c246120786c5b17ec480ba13f0727fcd5c86c9699918",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/fixtures/live-json.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/mcplint/f808ea05d86be3b4b827d105b6969339a5281f55/tests/fixtures/live-json.mjs",
+      "bytes": 1307,
+      "sha256": "de9beda6b9277a64eef1df2d1ff64cd07a865a3cace0780a7c51e779446bd3c6",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 29,
+  "bytes": 1388798,
+  "scope": "Source main only; no package release, tag change or hosted deployment."
+}
