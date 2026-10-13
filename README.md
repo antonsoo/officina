@@ -203,6 +203,9 @@ carrying date-line and New Year rollover into the downloaded annual scale.
 The [Trainspotter report guard](docs/trainspotter-report-inputs-2026-10-12.md)
 prevents report output from replacing TensorBoard observations or creating a
 new event-like input, while preserving ordinary reports inside log directories.
+The [Contextscope report workflow](docs/contextscope-report-destinations-2026-10-12.md)
+protects request captures and existing reports, with an operating-system write
+failure reproduced through the installed package on Node 20 and 24.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200

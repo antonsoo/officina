@@ -1,0 +1,125 @@
+{
+  "repository": "contextscope",
+  "baselineCommit": "24fd8b38820ae7b297c8ceb0a3922884cfb7a96e",
+  "sourceCommit": "2c52d639d3b92bde4c6b2655056c67df725a6123",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "3496b0635263f82117196596cd18a068e601b9c3",
+    "refs/heads/main": "24fd8b38820ae7b297c8ceb0a3922884cfb7a96e",
+    "refs/tags/v0.3.2": "b6f4fb90b2dea78aa96db62e776de638c13adee1",
+    "refs/tags/v0.3.2^{}": "277b103104677a530e019165ca204044c4b2028b",
+    "refs/tags/v0.3.3": "ec1c1646cb0a1656645780e7f22733cdf4bd6ed5",
+    "refs/tags/v0.3.3^{}": "4bef9ea4a570353f8131ec449bee1a29f4774fe7"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "3496b0635263f82117196596cd18a068e601b9c3",
+    "refs/heads/main": "2c52d639d3b92bde4c6b2655056c67df725a6123",
+    "refs/tags/v0.3.2": "b6f4fb90b2dea78aa96db62e776de638c13adee1",
+    "refs/tags/v0.3.2^{}": "277b103104677a530e019165ca204044c4b2028b",
+    "refs/tags/v0.3.3": "ec1c1646cb0a1656645780e7f22733cdf4bd6ed5",
+    "refs/tags/v0.3.3^{}": "4bef9ea4a570353f8131ec449bee1a29f4774fe7"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/CHANGELOG.md",
+      "bytes": 27603,
+      "sha256": "fc7d47f0771e34e77a4372e8b907b5c348102d7aa2777b218d3728e737efc793",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/README.md",
+      "bytes": 43779,
+      "sha256": "83a4b4565320cf98e1f431830855a44eda1d84df65df411358dfe46311a1a0d9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/report-destination-protection.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/docs/assets/report-destination-protection.png",
+      "bytes": 151559,
+      "sha256": "a81ea8d652cd7de36e77c33db20524e58016cffc5e4d22a78ea2ea96f97f0b3f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/cli/index.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/src/cli/index.ts",
+      "bytes": 5846,
+      "sha256": "9d84aecfae1643c8ebdb4f4736c90c193298ceda212a8ca549ae91449ce6f8e6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/cli/write-reports.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/src/cli/write-reports.ts",
+      "bytes": 3115,
+      "sha256": "c77d9132702bbc59e5a097134ae6af6834810ec5f848dcdd982bd4e59073f404",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-destinations/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/studies/report-destinations/README.md",
+      "bytes": 5159,
+      "sha256": "9b923d5958a95fddb88e7c78fbe6fb80d06878ee14fb59da70d9eeacd678bdae",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-destinations/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/studies/report-destinations/after.json",
+      "bytes": 5099,
+      "sha256": "5cc0afa3a205ecc21fcdd3dce3829535ba57f7c36b6b75e2587ff4b6dfb1d173",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-destinations/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/studies/report-destinations/before.json",
+      "bytes": 3923,
+      "sha256": "7305020b5cc772f7c5b9e38c03c7834f40d87fef131e00705b711589ca9967b4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-destinations/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/studies/report-destinations/replay.mjs",
+      "bytes": 5405,
+      "sha256": "65c92b1aa730e45d288dc07a0353f945eefd67201592399f3011c8862737bdb7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-destinations/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/studies/report-destinations/verification.json",
+      "bytes": 14584,
+      "sha256": "eb7df0d44ed1679655f80156103516c6e6264e038728612063f733f0017cb00a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-destinations/write-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/studies/report-destinations/write-after.json",
+      "bytes": 482,
+      "sha256": "a2f6ddfc9f7a10fea87d32f37fe5e9862625162256d234a037746e9827f0630f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-destinations/write-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/studies/report-destinations/write-before.json",
+      "bytes": 490,
+      "sha256": "722ac75b41e3da0e6c68164acad5da1c2c280eebd7ad8bafffd1350bef6e7b97",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/report-destinations/write-failure.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/studies/report-destinations/write-failure.py",
+      "bytes": 2212,
+      "sha256": "1ed84581ffa4fff6bf0db7ca2d9555051ef6eb3843bcd6b76ded33b0ead77822",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/report-destinations.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/contextscope/2c52d639d3b92bde4c6b2655056c67df725a6123/tests/report-destinations.test.ts",
+      "bytes": 6774,
+      "sha256": "088cefcc54d3203cfa5f83b1a746449147cceb88f42d70b8bd386c93ad9c3278",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 14,
+  "bytes": 276030,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
