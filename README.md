@@ -92,6 +92,9 @@ offline calendar evidence.
 The [TraceLens message-event repair](docs/tracelens-event-messages-2026-10-12.md)
 keeps damaged tool payloads inspectable and restores suppressed output events,
 with installed CLI replays, offline browser evidence and verified source bytes.
+The [TraceLens Jaeger identity repair](docs/tracelens-jaeger64-2026-10-12.md)
+joins equivalent 64-bit and 128-bit trace ID spellings across service exports,
+restoring request ancestry and audit links while rejecting duplicated spans.
 The [Veil project-key repair](docs/veil-secret-formats-2026-10-12.md)
 masks complete long token bodies that previously passed through or were only
 partly masked, with synthetic SDK captures, actual downloads and source evidence.
