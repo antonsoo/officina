@@ -215,6 +215,9 @@ HTTP-and-queue workflow verified in offline browsers and installed CLIs.
 The [mcplint metadata review](docs/mcplint-metadata-review-2026-10-12.md) captures
 and compares actual server definitions across updates, exposing contract changes
 that leave audit scores unchanged and preserving incomplete collection states.
+The [mcplint saved-JSON repair](docs/mcplint-json-integrity-2026-10-13.md) refuses
+duplicate object fields and numbers that would change during parsing, preventing
+different saved constraints from becoming a falsely unchanged comparison.
 The [Errorbars named-score workflow](docs/errorbars-inspect-values-2026-10-12.md)
 selects a value from native Inspect scores and preserves its meaning through
 exports and reports, preventing unlike dimensions from being compared silently.
