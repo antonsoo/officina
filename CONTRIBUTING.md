@@ -32,6 +32,10 @@ artifact check must not imply physical validation. Check the underlying
 record before changing a finding; do not infer a release from a source push.
 Run `npm run check:catalogue` to validate entries and image files.
 
+Keep dated repair and verification records in `docs/`, linked from
+[the source update history](docs/source-history.md). Keep the README focused
+on the catalogue, its data format and setup.
+
 ## Development
 
 Use Node.js 24 or later.
