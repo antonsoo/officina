@@ -200,6 +200,9 @@ exports and reports, preventing unlike dimensions from being compared silently.
 The [Planisphere clock converter](docs/planisphere-clock-conversion-2026-10-12.md)
 turns an explicit civil clock and longitude into a previewed wheel setting,
 carrying date-line and New Year rollover into the downloaded annual scale.
+The [Trainspotter report guard](docs/trainspotter-report-inputs-2026-10-12.md)
+prevents report output from replacing TensorBoard observations or creating a
+new event-like input, while preserving ordinary reports inside log directories.
 
 Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
 either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
