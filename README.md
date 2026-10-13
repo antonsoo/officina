@@ -206,6 +206,10 @@ new event-like input, while preserving ordinary reports inside log directories.
 The [Contextscope report workflow](docs/contextscope-report-destinations-2026-10-12.md)
 protects request captures and existing reports, with an operating-system write
 failure reproduced through the installed package on Node 20 and 24.
+The [Ethiopian-era correction](docs/horologium-ethiopian-era-2026-10-12.md)
+fixes Horologium's era label and Coptic-epoch explanation, with unchanged
+date calculations independently checked against two ICU versions.
+
 The [mcplint output guard](docs/mcplint-report-inputs-2026-10-12.md) protects
 definitions and configuration, including referenced environment files, before
 servers start; failed writes preserve reports and remove unfinished snapshots.

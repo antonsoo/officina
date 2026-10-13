@@ -1,0 +1,114 @@
+{
+  "repository": "horologium",
+  "baselineCommit": "2ce803e4a78f31f57be013f4d21de4834052daad",
+  "sourceCommit": "7166a0b8611e6e33bfdc1ebc07077ded98c926ad",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "89a9d0f9c12cd32fbd1b675b46dab92124073552",
+    "refs/heads/main": "2ce803e4a78f31f57be013f4d21de4834052daad",
+    "refs/tags/v0.2.3": "5909b09498b0400a9727ec132d059fdc74d787fd",
+    "refs/tags/v0.2.3^{}": "4098d8c9f8ea03fcf29d5777911bdfcdc0d4ef80"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "89a9d0f9c12cd32fbd1b675b46dab92124073552",
+    "refs/heads/main": "7166a0b8611e6e33bfdc1ebc07077ded98c926ad",
+    "refs/tags/v0.2.3": "5909b09498b0400a9727ec132d059fdc74d787fd",
+    "refs/tags/v0.2.3^{}": "4098d8c9f8ea03fcf29d5777911bdfcdc0d4ef80"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/CHANGELOG.md",
+      "bytes": 12679,
+      "sha256": "7ad05ba89f2e2a04db7db3cc08a2c83159a1745cd6ba2b96a86bc69f1188d94e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/README.md",
+      "bytes": 13485,
+      "sha256": "c9624e5c77f314a823dceeb998643e3582f7c27657c76238ab10cf12e4d7163c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/CALENDARS.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/docs/CALENDARS.md",
+      "bytes": 24201,
+      "sha256": "a0d9b3489d0f6024a10cd837e15229919793f46b12e780e975488de78b0db034",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/ethiopian-era-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/docs/assets/ethiopian-era-firefox-375.png",
+      "bytes": 40587,
+      "sha256": "bd6f78474356e639d7a1022dcc1b532875aab55889b5cb6e8703bdc3ff1cc561",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/lib/coptic.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/src/lib/coptic.ts",
+      "bytes": 7347,
+      "sha256": "9420cf6b062be7859359c2ecd0d675123c1df67c6b206c32fc1d5f5b7d3f7f80",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ethiopian-era/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/studies/ethiopian-era/README.md",
+      "bytes": 4537,
+      "sha256": "c1b9adf7956e754eaa5e02ef43452542508409f55496c81032d616c4985b61b4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ethiopian-era/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/studies/ethiopian-era/after.json",
+      "bytes": 15258,
+      "sha256": "fab7a15ec1514d76d84c172e1df76880dca04cae3ebc7bc62f41baa5e8e270d3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ethiopian-era/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/studies/ethiopian-era/before.json",
+      "bytes": 15469,
+      "sha256": "4b75d96e6cc5a19ae18df93694c84dc98d4046b7c57e09bf75cff8b1b6575826",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ethiopian-era/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/studies/ethiopian-era/browser-after.json",
+      "bytes": 3107,
+      "sha256": "0fbfcd235969922ee3b8391ca0d511053ffdd5c5afe7e4220b28151081af0fea",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ethiopian-era/browser-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/studies/ethiopian-era/browser-before.json",
+      "bytes": 2916,
+      "sha256": "8dd64095a8cd6908c66052b89303e8ca3d38ca839c385168b7668fb817b65fc7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ethiopian-era/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/studies/ethiopian-era/browser.mjs",
+      "bytes": 3596,
+      "sha256": "1db4ebcc3ec82831d059ca0ba155777d21acf20a689704254c4538da1c5329f2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ethiopian-era/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/studies/ethiopian-era/replay.mjs",
+      "bytes": 3492,
+      "sha256": "58919519c6d74cfce20ec3b1bced386382242079188f95f2722a4fea454c4439",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/ethiopian-era/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/7166a0b8611e6e33bfdc1ebc07077ded98c926ad/studies/ethiopian-era/verification.json",
+      "bytes": 3113,
+      "sha256": "88c9985cddcd2ed6a38f11966b2163b3a8b2a33c29ee172519644387b6dfd169",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 13,
+  "bytes": 149787,
+  "scope": "main source only; tags and gh-pages unchanged"
+}
