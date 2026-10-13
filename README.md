@@ -215,6 +215,9 @@ JavaScript evidence and installed CLI/browser verification.
 The [ToneMirror audio download](docs/tonemirror-wav-export-2026-10-12.md)
 takes recordings and kept excerpts out of browser storage, with exact-sample
 WAVs, retained synthetic labels and independently decoded speech downloads.
+The [ToneMirror same-pitch playback](docs/tonemirror-slow-playback-2026-10-13.md)
+slows a reference without lowering it an octave, with cancellable offline
+preparation, original audio exports and measurements across 480 speech recordings.
 The [Fieldproof review archive](docs/fieldproof-review-archives-2026-10-12.md)
 reopens PDFs, claims and all saved decisions after a server restart, with fresh
 verification and unchanged exports checked through installed browsers.

@@ -1,0 +1,264 @@
+{
+  "repository": "https://github.com/antonsoo/tonemirror",
+  "baselineCommit": "96f6b5f118f8270129556853ef6a20103090109a",
+  "sourceCommit": "a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "95b8bdc0863e88e13049487f114637aa76640ce4",
+    "refs/heads/main": "96f6b5f118f8270129556853ef6a20103090109a"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "95b8bdc0863e88e13049487f114637aa76640ce4",
+    "refs/heads/main": "a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/CHANGELOG.md",
+      "bytes": 11915,
+      "sha256": "bb19f35ea545be6a3684e47ac280090d688ce9944977ed59a338537641a8301d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/CONTRIBUTING.md",
+      "bytes": 2577,
+      "sha256": "3a76b8fd055b2f74a253dfdff7f8284f06e87fd5f24b3b248e21d950b8df9990",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/README.md",
+      "bytes": 24266,
+      "sha256": "d6875efaa2503f1c60b890e5cbe01d131c6403cbaaabc174e065b98da12f3d44",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/slow-playback-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/docs/assets/slow-playback-chromium-1440.png",
+      "bytes": 235372,
+      "sha256": "81ddd2c339720caf32103219c877b8b06a05741a1409da9b21c4aa6b04b6c9dd",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/slow-playback-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/docs/assets/slow-playback-chromium-375.png",
+      "bytes": 148655,
+      "sha256": "221fe7b0a8de40a60fa4e78f1863e022dfa61c922c1a039a399f2a2987375da8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/slow-playback-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/docs/assets/slow-playback-firefox-1440.png",
+      "bytes": 304221,
+      "sha256": "407b42fd03cd493f13ec840f540b2956f451ba94ac83cc9d6ca70eab937ee7d5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/slow-playback-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/docs/assets/slow-playback-firefox-375.png",
+      "bytes": 203564,
+      "sha256": "a3df284d5cd85a5ea9edb86e59ad601bf70fde7cac92ba59b37c4700348809f5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/audio-boundaries.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/docs/audio-boundaries.md",
+      "bytes": 6538,
+      "sha256": "5214a9e656226cfb895897eb1fb411fac153baa90ff7e77da36fb25f529159e8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "eslint.config.js",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/eslint.config.js",
+      "bytes": 1582,
+      "sha256": "287fc82dd59094a6037cdf4971a10c4c16bd53ff9708eab984fbb5abc11aefec",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "public/audio-licenses.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/public/audio-licenses.txt",
+      "bytes": 2311,
+      "sha256": "0e65aef65567f3eb05cf55c4100adf0bde2fee2357a055edaf84298c9e167be3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/app.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/src/app.ts",
+      "bytes": 42573,
+      "sha256": "04efc4f9b163ed978bfc60e6fd1bc2ce1df711ccda4207882f8019be63cd3948",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/audio/playback.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/src/audio/playback.ts",
+      "bytes": 5271,
+      "sha256": "00cb1c64fc5adeb7092845829a629e6135c8e72b6bc298d6acbb818746232ecf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/audio/slowPlayback.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/src/audio/slowPlayback.ts",
+      "bytes": 1904,
+      "sha256": "946be4e7f0e2f6c79cb749506c7d93ca6e30d11369d673dd6ae3c665389d29aa",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/vendor/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/src/vendor/README.md",
+      "bytes": 1199,
+      "sha256": "530dcb8d234cfe2572293e3aa3ab69fd334a93b1d2125fb4fab7b0dda296324a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/vendor/signalsmith-stretch.d.mts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/src/vendor/signalsmith-stretch.d.mts",
+      "bytes": 454,
+      "sha256": "4f279ab590ed7f0b37949835092c438858014204ab568405ba0245f87fc69a4a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/vendor/signalsmith-stretch.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/src/vendor/signalsmith-stretch.mjs",
+      "bytes": 98288,
+      "sha256": "a83ddd811bb36f61757133536b505d5b81281b89bb707cc385914836fc16d3a2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/worker/slowPlaybackClient.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/src/worker/slowPlaybackClient.ts",
+      "bytes": 2198,
+      "sha256": "16178f3bc91d162980b9d63cae60daa0bb79d2497aaa551e8dd164f636dc16a3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/worker/slowPlaybackWorker.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/src/worker/slowPlaybackWorker.ts",
+      "bytes": 522,
+      "sha256": "083b592f5a32ca596de89736ed375f756baa7255586f39c26eda9148fc339a50",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/README.md",
+      "bytes": 9007,
+      "sha256": "124059ec392bcfdc274463fdade83f4096a279cd0befb0ed7000754902f2c53f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/baseline.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/baseline.json",
+      "bytes": 506,
+      "sha256": "6bc15ab868309a97a462ad0f66e996c928eaadac72bc839166ea175338632076",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/browser-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/browser-after.json",
+      "bytes": 11902,
+      "sha256": "e3474b2f4d5714cb4d21d75a8060e8510cce4b893baf17517276f317d9a3796c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/browser.mjs",
+      "bytes": 9540,
+      "sha256": "f13d473582b1d49b6ad92d6b1dc6a3f32491c7cfe342174129dc3e66eb6c7ae5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/native-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/native-after.json",
+      "bytes": 4923,
+      "sha256": "53aa67f920cd3be74138da0be14c13a25804d800f2df2fb2ab235e9f8815691c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/native-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/native-before.json",
+      "bytes": 4953,
+      "sha256": "bfa7341906f8095045d4015d3462eaad231123ad56a75178da9c6e849467688a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/native.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/native.mjs",
+      "bytes": 4250,
+      "sha256": "82edf2478191ec1d0e627561977ff3c13fdac440283415fec78e75348e18ebb5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/render.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/render.ts",
+      "bytes": 4779,
+      "sha256": "ba60da0295ac49fd0acae9d672c6559c4a3fe9f654b0adc4f0cbb19380ac1dab",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/results.json",
+      "bytes": 395961,
+      "sha256": "1fbcba12782246b4deffd843af4babb6b8c4f00e95873d9c9a71b45a2cc81993",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/score.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/score.py",
+      "bytes": 3758,
+      "sha256": "5286f90a07318c68daa09e7176050809d5a4086bdb831b80bc001b7a5e86033c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/upstream.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/upstream.json",
+      "bytes": 1700,
+      "sha256": "3f4a03f8e21fd61946d061538e07e1ab14dc4795c755e0a47bb4926032f9be00",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/slow-playback/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/studies/slow-playback/verification.json",
+      "bytes": 10154,
+      "sha256": "0a60cf9cab8e5db0b26daadfc250b2f6690634c686906994cd7db3b534cd1138",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/browser/slow-playback.spec.js",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/tests/browser/slow-playback.spec.js",
+      "bytes": 10901,
+      "sha256": "3c526139d21a2e6188a80ccf52c53b61dd9fe27a80f087093021c1a7e0890a9f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/playback.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/tests/playback.test.ts",
+      "bytes": 5759,
+      "sha256": "b2e1c780eb3b21a7910aeb65568cd453ea61fa5e1a092060929cb576e2df28b3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/slowPlayback.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/tests/slowPlayback.test.ts",
+      "bytes": 2187,
+      "sha256": "85b4de228f11671a8edf9c994d521167b6063b916da940583247d584a12d0f4d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "vite.config.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/vite.config.ts",
+      "bytes": 517,
+      "sha256": "e552e0cb5147ee0baa56bd09ad75c464b89dbfca5f1d0f055b1900816d6472c5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "vite.csp.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4/vite.csp.ts",
+      "bytes": 3109,
+      "sha256": "d97b4996880dbbba5ae7872bc95fb73db7713c12e379669f9c9604978edfa003",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 35,
+  "bytes": 1577316,
+  "scope": "Source main only; no package release, tag change or hosted deployment."
+}
