@@ -1,0 +1,453 @@
+{
+  "repository": "https://github.com/antonsoo/fieldproof",
+  "baselineCommit": "d477aab676e24ff37b490b419f3ce417c9a69abd",
+  "sourceCommit": "9814cf203a010c886c6e66ac30da8f045a10f2aa",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "refs/heads/main": "d477aab676e24ff37b490b419f3ce417c9a69abd",
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "refs/heads/main": "9814cf203a010c886c6e66ac30da8f045a10f2aa",
+    "refs/tags/v0.2.1": "b9645e82c965bbf99c59e791d6f245fe5bb3ff7b",
+    "refs/tags/v0.2.1^{}": "1f97e4faeaa7ea792be5b4c7cb5fc15e2dc52173",
+    "refs/tags/v0.2.2": "b4b8a99d71d408ede34b7d917fa43127b707da76",
+    "refs/tags/v0.2.2^{}": "2f3175dd34067ed916b8a50b19261a7b39401386",
+    "refs/tags/v0.2.3": "49179f361460abd93db92616ea892ec50af107cc",
+    "refs/tags/v0.2.3^{}": "c935c674d80531c3d457770d4c41621f14404d2b",
+    "refs/tags/v0.2.4": "54af20962e09e2bff5e1a2372fd36b14fd78492e",
+    "refs/tags/v0.2.4^{}": "4563f30fb40a68c874ed85acb39abea37838f737",
+    "refs/tags/v0.2.5": "6f172a27fdb521db8c0c37f352df6ca74e4d0d13",
+    "refs/tags/v0.2.5^{}": "9a40de45097ea0dac7bfa672444811afa0b25ca9",
+    "refs/tags/v0.2.6": "03bb2b53d53eceb49e085947991261d944537aec",
+    "refs/tags/v0.2.6^{}": "1d50d038fac6e174e060b2c3a842dc8ca9885677",
+    "refs/tags/v0.2.7": "5545064e91fe00e6c970a07704a87fd5fd48f92f",
+    "refs/tags/v0.2.7^{}": "905482329b5e03b10587f8e6838a0e8c0ab78ab8"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/CHANGELOG.md",
+      "bytes": 27413,
+      "sha256": "1dfdd90ce52bc0eb0516cbea9956f82ff2725b370626c22960c308ee36f1fa1b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/README.md",
+      "bytes": 40748,
+      "sha256": "5fd5b6243e95a9521f3e66aaab9e69cc6c6f03d791da762705b08b71f9fbccc1",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/claim-integrity/chromium-1440-error.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/docs/assets/claim-integrity/chromium-1440-error.png",
+      "bytes": 43938,
+      "sha256": "09296349d9cee31c2d84e7c16b25351dac07bc77baf8afc8bd3ea1a6bb9a1ee8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/claim-integrity/chromium-1440-review.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/docs/assets/claim-integrity/chromium-1440-review.png",
+      "bytes": 89235,
+      "sha256": "1530c3a31d9a6261c366cf2a0565c0e7e79325737a3af40edf540f08825200fb",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/claim-integrity/chromium-375-error.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/docs/assets/claim-integrity/chromium-375-error.png",
+      "bytes": 36919,
+      "sha256": "7d6022ebdcacadc45bf3f3d06c205ebe2b1e6b3c0a2e7366d17a5b8d6538ca9e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/claim-integrity/chromium-375-review.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/docs/assets/claim-integrity/chromium-375-review.png",
+      "bytes": 55112,
+      "sha256": "b03fa19c5526367c9853df961355260964d79207c8c93d6ac88715718bf4f780",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/claim-integrity/firefox-1440-error.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/docs/assets/claim-integrity/firefox-1440-error.png",
+      "bytes": 56453,
+      "sha256": "89dd2aeb06ba37ae9331bb683cfff2ac3db2c65802a12cb4c0ae88942d64bace",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/claim-integrity/firefox-1440-review.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/docs/assets/claim-integrity/firefox-1440-review.png",
+      "bytes": 113483,
+      "sha256": "5ad4cacbae0da37cb527c66e655e848f2783751a4985c822303cf2beb40e3970",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/claim-integrity/firefox-375-error.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/docs/assets/claim-integrity/firefox-375-error.png",
+      "bytes": 46517,
+      "sha256": "db6f1f5fadc2eba13de89e2eae697a0144558d930d375a4d6dccdeaf92e714d5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/claim-integrity/firefox-375-review.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/docs/assets/claim-integrity/firefox-375-review.png",
+      "bytes": 68799,
+      "sha256": "59b2b930ba0d58993e51f584691a0b3819f389859c4df0c3cd5644f41642edb0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/pyproject.toml",
+      "bytes": 4209,
+      "sha256": "ae9b5c4782d816c12dff1391ec674fd7d2e633e85f6aaa792054d0f04e92fde2",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/extract/anthropic_provider.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/src/fieldproof/extract/anthropic_provider.py",
+      "bytes": 6556,
+      "sha256": "87aa3ac824ebd3b21ec1536b3ad45eb27ac16e559ea8133cd51173662aeb39d8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/fieldproof/extract/base.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/src/fieldproof/extract/base.py",
+      "bytes": 5713,
+      "sha256": "ed4dddee401c935aa9021e1d3abb5aaed0cf0f2dc2a29f555a995ce9accc3811",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/README.md",
+      "bytes": 9078,
+      "sha256": "9f7711dae01d3ec8410d555c667c139e579276683dc8c2e492fbdc0854308050",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/after.json",
+      "bytes": 48353,
+      "sha256": "1654a6157cb183af8efae3a4f72c21e7edd05392cd80b503e0d4103338e13c39",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/before.json",
+      "bytes": 110425,
+      "sha256": "7ba71f1fe3fa7b572c0446095f29d65a37b5e2a81ab9e01f249033d0ddf3835c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/browser.json",
+      "bytes": 13014,
+      "sha256": "83e29c94e94d8e39770b5ac8f57f933c28e166eb27703bc6a4be83ce2d2820a1",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/browser.mjs",
+      "bytes": 7456,
+      "sha256": "669337799c86189a7442b9e90f58db3a1860b83b417bf967e1ec94f7b647ee8b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/browser.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/browser.py",
+      "bytes": 1099,
+      "sha256": "d1d475276e06d5073aaa11b3ba40e79195ee0ccbe97243c4216af48957d4b6a9",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/cases.json",
+      "bytes": 2261,
+      "sha256": "fb685be3276be9cd7663f6e9dbf453486738511a775e9de1001837f4097042b5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures.py",
+      "bytes": 3374,
+      "sha256": "c5733f29c183fd4bf54b7f0d06e013b5e6cb933873bb24d1133a4e548c06be3a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/duplicate-escaped-value.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/duplicate-escaped-value.json",
+      "bytes": 417,
+      "sha256": "e29f84d093eb4c996a15275cb6c01a4bb2ef03b2b03ec1a0b2c7cea2d4d8b756",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/duplicate-escaped-value.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/duplicate-escaped-value.reply.txt",
+      "bytes": 340,
+      "sha256": "f76f4e0e33d66e1ff072a24ba7906ddeff5366bca9be6c4d1425498073dbc1d7",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/duplicate-evidence.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/duplicate-evidence.json",
+      "bytes": 429,
+      "sha256": "37bc4369a1fd1313adf7a808c8d8f7bdd917464d6c3652fb482080d22f93b001",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/duplicate-evidence.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/duplicate-evidence.reply.txt",
+      "bytes": 352,
+      "sha256": "46113300b2818d0f8e193038b51104aba056c7ec3507014ec3953579a6879dbb",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/duplicate-total.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/duplicate-total.json",
+      "bytes": 459,
+      "sha256": "ecff1db4392da2497aa590c6e20b76a690a063a516a13f4783d49c8dabe3213a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/duplicate-total.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/duplicate-total.reply.txt",
+      "bytes": 382,
+      "sha256": "7f48b0d8bbd9eba95004023e70b666a5f48052f87829745e9371ae0bd27fbfcb",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/duplicate-value.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/duplicate-value.json",
+      "bytes": 412,
+      "sha256": "7fccde21755a9d78c9809dc1fb3e5a98331d88f2b6b92e7a9821f6c008027673",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/duplicate-value.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/duplicate-value.reply.txt",
+      "bytes": 335,
+      "sha256": "44b1dcda6571bf4377ff35e46bc593c379c332139885535a4bd9f24c82788f43",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/nonfinite.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/nonfinite.json",
+      "bytes": 396,
+      "sha256": "5c8b991232a78fd6e5e400807c2f355f7be2048a61405834f61dcf08052d8fb0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/nonfinite.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/nonfinite.reply.txt",
+      "bytes": 319,
+      "sha256": "e0aebde2eb412e10a6ddd2a342e036d33a22737a34c953ae208b665d7f58dc1a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/overflow.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/overflow.json",
+      "bytes": 398,
+      "sha256": "c963093a5197212cdd79d95b308f5fac57ca6ead091916998f57c039d95b0ab6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/overflow.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/overflow.reply.txt",
+      "bytes": 321,
+      "sha256": "a55c2ca0b7677149ce7070c420a8c65780c707a8d60729424d08f5009e63e138",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/synthetic-invoice.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/synthetic-invoice.pdf",
+      "bytes": 1496,
+      "sha256": "ba0d31a1354b11f99ab441211ee7e388e107d066409b312e44eaaeecec51fd4d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/unknown-claim.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/unknown-claim.json",
+      "bytes": 494,
+      "sha256": "6a090002655718d020d862b1a600001e91f9fd449ce49e08f9f46b1f20b3835d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/unknown-claim.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/unknown-claim.reply.txt",
+      "bytes": 417,
+      "sha256": "ca0f40f0797440269d714a34cc048e79227d61b4596efcaa9558f7a37c2bb8f6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/unknown-row.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/unknown-row.json",
+      "bytes": 637,
+      "sha256": "7ba78be273887ebca5ee13441f4bc85d5e6b0d9eb760df92d0226c53fed7465d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/unknown-row.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/unknown-row.reply.txt",
+      "bytes": 560,
+      "sha256": "fcbb435793e043ba5acea1693a397a14c201ea65f427c222f6265895a5a12e1f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/unknown-wrapper.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/unknown-wrapper.json",
+      "bytes": 421,
+      "sha256": "a54920811772ab52c11a6c3e7416111179fd984efb76ff98468044a70fb2d95c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/unknown-wrapper.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/unknown-wrapper.reply.txt",
+      "bytes": 344,
+      "sha256": "afbf2523b75fc817d2a9809b03ebccf25c50e666259c7120a38e8d83647e19e8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/unpaired-surrogate.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/unpaired-surrogate.json",
+      "bytes": 384,
+      "sha256": "e09b2c7077101b6cb1f5e5797a320033e52c707025ce808705ec1fe2ca4df3d6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/unpaired-surrogate.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/unpaired-surrogate.reply.txt",
+      "bytes": 307,
+      "sha256": "0a0019d15b6a39564f7ddf00236f1deb2e98339cbf84adfbbc17f86eba39793e",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/valid-defaults.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/valid-defaults.json",
+      "bytes": 434,
+      "sha256": "e076d674b775bf95709599e16d8cc155f4b3789dd939dd9027d0f1562d8edfab",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/valid-defaults.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/valid-defaults.reply.txt",
+      "bytes": 357,
+      "sha256": "d88bd4e91d8427f028d9a5e33d0956f76281735018e9d4d73f2d553b45922144",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/valid-utf16be.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/valid-utf16be.json",
+      "bytes": 798,
+      "sha256": "83fd6498969c7f4cb80b21cc2003a68189ae0ed34a6ff285e683100a9fd26b47",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/valid-utf16le.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/valid-utf16le.json",
+      "bytes": 798,
+      "sha256": "f282dff3acea474c746a601c8a3bb1fa2fc5b6dccce5e2c6c66c6328d5054e99",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/valid-utf8-bom.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/valid-utf8-bom.json",
+      "bytes": 401,
+      "sha256": "c4b22ef91079a04325c5a44addbe6b01dcb1056def5f18077640f31f0962bca8",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/valid.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/valid.json",
+      "bytes": 398,
+      "sha256": "3a59e17356eae5ae4e763007a46be5a49e97ecb33674938f2d44d60b9ff141ad",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/fixtures/valid.reply.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/fixtures/valid.reply.txt",
+      "bytes": 321,
+      "sha256": "13edf82d58467ee9e9fbd8fa4f399e37771e88c89f43f44d25bd04faa09656c1",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/installed-current.json",
+      "bytes": 48415,
+      "sha256": "fece652a4ac9c162752e57fa2ecaf2b6db086140888885a71850f99207ecb11b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/installed-minimum.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/installed-minimum.json",
+      "bytes": 48396,
+      "sha256": "776ec2035f269f9741a9d5bf85bf14bcc96f23199aa07c2d9e1eecf6e7cff886",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/replay.py",
+      "bytes": 7432,
+      "sha256": "2423ae229277dc50e9d813720a218ffe085ffb365c46b443e24f2bbbd87c65ff",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/claim-integrity/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/studies/claim-integrity/verification.json",
+      "bytes": 15412,
+      "sha256": "a72f026436231b98f1918c19571886d8a7ccfdc457e1504c83c154e999914ed3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_api.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/tests/test_api.py",
+      "bytes": 22377,
+      "sha256": "8a14c2f299ce29dbc688572771050f7fc5e6f1420c0aba0a84d169fa2798ea87",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_extract.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/tests/test_extract.py",
+      "bytes": 8252,
+      "sha256": "5f8d220d31d2c6836e0df9b6aeb89d1ad24a2e985d63ab4052b8fe59b0e71772",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/test_extract_anthropic.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/tests/test_extract_anthropic.py",
+      "bytes": 11171,
+      "sha256": "0bfab233048c8b5d5383d9bd945c633ba51f14a4d3463ce6ebdead5bef0d8d54",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "uv.lock",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/uv.lock",
+      "bytes": 478121,
+      "sha256": "f9fb518968bd75cf6b21aa1677d5efad6e46d8cc23c078518906458714492446",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "web/src/style.css",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9814cf203a010c886c6e66ac30da8f045a10f2aa/web/src/style.css",
+      "bytes": 18703,
+      "sha256": "7eaf8efab2bc1a97bfc2038222ff6e810a555a3ebb97049d99ef7dbf0e804995",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 58,
+  "bytes": 1461561,
+  "scope": "Source main only; no package release, tag change or hosted deployment."
+}

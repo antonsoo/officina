@@ -221,6 +221,9 @@ preparation, original audio exports and measurements across 480 speech recording
 The [Fieldproof review archive](docs/fieldproof-review-archives-2026-10-12.md)
 reopens PDFs, claims and all saved decisions after a server restart, with fresh
 verification and unchanged exports checked through installed browsers.
+The [Fieldproof extraction boundary](docs/fieldproof-claim-integrity-2026-10-13.md)
+refuses duplicate and discarded claims before review, retaining saved corrections
+after rejected imports, with installed CLI, SDK-parser and browser evidence.
 The [TraceLens combined import](docs/tracelens-multifile-2026-10-12.md) joins
 related service exports before resolving parents and links, with a captured
 HTTP-and-queue workflow verified in offline browsers and installed CLIs.
