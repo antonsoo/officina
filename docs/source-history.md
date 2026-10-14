@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [Logdelta stdin and Gnomon hour-curve corrections](logdelta-stdin-and-gnomon-hours-2026-10-14.md)
+prevent exhausted streams from masquerading as independent samples and restore
+previously omitted afternoon and long-day sundial curves. Installed native pipes,
+independent projection, actual offline downloads and decoded PDF geometry retain
+the before/after evidence. Their source is public; releases, hosted updates and
+physical validation remain separate.
+
 The [Trainspotter bfloat16 repair](trainspotter-bfloat16-scalars-2026-10-14.md)
 retains valid native TensorFlow scalar readings that the reader previously marked
 unreadable, without adding a TensorFlow runtime dependency. Actual native bytes,

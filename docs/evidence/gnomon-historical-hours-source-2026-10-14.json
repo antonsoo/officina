@@ -1,0 +1,129 @@
+{
+  "verifiedAtUtc": "2026-10-14T10:06:54.145614+00:00",
+  "repository": "https://github.com/antonsoo/gnomon",
+  "sourceHead": "3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea",
+  "remoteMain": "3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea",
+  "cleanCheckout": true,
+  "files": [
+    {
+      "path": "src/lib/dials/historical-hours.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/src/lib/dials/historical-hours.ts",
+      "bytes": 4012,
+      "sha256": "529e046c618870e67545b66a053c84bb60f3e41f2c5b70f561e1511c1b4246ba",
+      "matchesCheckout": true
+    },
+    {
+      "path": "tests/historical-hours.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/tests/historical-hours.test.ts",
+      "bytes": 1339,
+      "sha256": "6c628c7398f5155e40aa0aa22e696f5822a4c27898fdeaa5ce10618af350d853",
+      "matchesCheckout": true
+    },
+    {
+      "path": "tests/historical-oracle.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/tests/historical-oracle.ts",
+      "bytes": 2220,
+      "sha256": "1c1f3623cf802df738f8d7d2d7cde271099bb0764b9d036d4d06eacc08555aaf",
+      "matchesCheckout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/README.md",
+      "bytes": 16602,
+      "sha256": "0b055dabc361ce96774956ff2f2073c4cefd01a5e79b4a575b3744c4e16c2016",
+      "matchesCheckout": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/CHANGELOG.md",
+      "bytes": 9583,
+      "sha256": "0c1fde5a9a4e9ff3848b834976a77a84126275c97d82d3a084412b8d76c95c97",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/README.md",
+      "bytes": 3302,
+      "sha256": "d7e24d28d5a4f9038992da225d024c2da976648bf08a6ccc40488af368c7e770",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/replay.mjs",
+      "bytes": 5967,
+      "sha256": "442c3674f5e267c34ad2a720070fdb2bf18c0d622d3e309141f2edee36398f25",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/browser.mjs",
+      "bytes": 7464,
+      "sha256": "8c209238c77c3addd098f5ba6ee6e0a7b26d136b8945b4d5a07a7ce45cb0c517",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/measure.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/measure.py",
+      "bytes": 5122,
+      "sha256": "22bcec27660e645515055e872946d1533106b1c1c6640603a9af492807017528",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/verification.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/verification.md",
+      "bytes": 4838,
+      "sha256": "fff67d7d635907e83aea0262dd9aaca7e423fb157bdeaf142da9e84078fc15f2",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/results/artifact-verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/results/artifact-verification.json",
+      "bytes": 11261,
+      "sha256": "6b4bf46fc30fa60ebf0c16ae47ad1d206dd883ae292c262179f67c6f4a88d363",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/results/before/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/results/before/results.json",
+      "bytes": 21799,
+      "sha256": "13c091fc56fa44c27761994ec560ce8b36ecbc922206e78fbba7ca5c9abd916e",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/results/after/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/results/after/results.json",
+      "bytes": 22168,
+      "sha256": "0e5a0a0093cb8e6b060adaf3aecdad0d3ad49007a2b5ee186c45726c1ca88218",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/results/browser/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/results/browser/results.json",
+      "bytes": 38714,
+      "sha256": "f1b6a7bb799dec1b660356bb3761017cdaafea0bae99dfad22fbdecae265ea11",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/results/pdf-measurements.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/results/pdf-measurements.json",
+      "bytes": 10105,
+      "sha256": "e7b0d25181ce5583a1ab5f301ac90ce2df19aeea40a521a25ee43e511a17ed1c",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/results/browser/after/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/results/browser/after/chromium-1440.png",
+      "bytes": 114434,
+      "sha256": "6b4eb5082a1c1bf52427d6c4741f92ea8b19bfb875b893f6c814e30c4b49d6ef",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/historical-hours/results/browser/after/italian-north-firefox-375.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/3d9a8cf74cfa320c2417a764611f9b13b3e6e0ea/studies/historical-hours/results/browser/after/italian-north-firefox-375.pdf",
+      "bytes": 37913,
+      "sha256": "4bd53472e6b395e83a4887c48f034a2d632c9b6f12ebf8fdacfb58c602823b93",
+      "matchesCheckout": true
+    }
+  ],
+  "scope": "Verified public source and retained evidence bytes at an immutable commit. No hosted deployment, package release or physical-validation claim."
+}

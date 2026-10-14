@@ -1,0 +1,115 @@
+{
+  "verifiedAtUtc": "2026-10-14T09:56:12.347548+00:00",
+  "repository": "https://github.com/antonsoo/logdelta",
+  "sourceHead": "9e34dd6287cecf6f985f563a65422a5a178c1824",
+  "remoteMain": "9e34dd6287cecf6f985f563a65422a5a178c1824",
+  "cleanCheckout": true,
+  "files": [
+    {
+      "path": "src/io.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/src/io.rs",
+      "bytes": 24312,
+      "sha256": "ed3ce1ed85f2fd6defd85fa563f21aefa6100836eb6dc6cc390f95f66f805d2b",
+      "matchesCheckout": true
+    },
+    {
+      "path": "src/analysis.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/src/analysis.rs",
+      "bytes": 35455,
+      "sha256": "322d9e1f720523a3515645ee26558bded6d61db17f99b7e2374ab7b51677f1fc",
+      "matchesCheckout": true
+    },
+    {
+      "path": "src/main.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/src/main.rs",
+      "bytes": 7604,
+      "sha256": "c40b217e9bb1e792d1747cdb30813073e851896221f299ad9efaa28be8ce31d7",
+      "matchesCheckout": true
+    },
+    {
+      "path": "src/cli.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/src/cli.rs",
+      "bytes": 5446,
+      "sha256": "b213ae25cff24d206a32e3ec57ad736fabd82f0e5050439a41014351ed7d1342",
+      "matchesCheckout": true
+    },
+    {
+      "path": "tests/stdin_inputs.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/tests/stdin_inputs.rs",
+      "bytes": 5649,
+      "sha256": "eeb12b4fecb6ad42a918a4e5dc89665508a0981771e6300a53a0d921953be820",
+      "matchesCheckout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/README.md",
+      "bytes": 42576,
+      "sha256": "e3a72b9edf2d6a821e4b419c84a06f698ae25cdf89792bf3de34d0a3ec201100",
+      "matchesCheckout": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/CHANGELOG.md",
+      "bytes": 28733,
+      "sha256": "52950e69b2734ef0db170d75ee7c51e1e668587e1c4e11f547148fb3acc43df1",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/stdin-inputs/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/studies/stdin-inputs/README.md",
+      "bytes": 3013,
+      "sha256": "e4c811206053438372bbcf6fec96d35c3043bb3f2fe7df10cab35b051105ed67",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/stdin-inputs/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/studies/stdin-inputs/replay.py",
+      "bytes": 7460,
+      "sha256": "13aa5289a21a4ee2826b2f6b6c481142704715fe2d2ed72c34f45e3672414492",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/stdin-inputs/verification.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/studies/stdin-inputs/verification.md",
+      "bytes": 3253,
+      "sha256": "e9bd70a754d706699869f272cab45e763e1b7fb72b44b3bd3cf0c47609213152",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/stdin-inputs/results/artifact-verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/studies/stdin-inputs/results/artifact-verification.json",
+      "bytes": 7088,
+      "sha256": "e14f59756de9193a9d5cdb802f3b5c9ec6b0bbaa76f45927729023b217d245be",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/stdin-inputs/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/studies/stdin-inputs/results/before.json",
+      "bytes": 18538,
+      "sha256": "03adcc967ab6626bb3ce5dc571ee51fc6c4808d77ae829783603c154076edd98",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/stdin-inputs/results/installed-rust-1.85.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/studies/stdin-inputs/results/installed-rust-1.85.json",
+      "bytes": 14850,
+      "sha256": "11140dd1574342c1f4df952ad30473e6f45860196cc2cba710a8ef3df6abb790",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/stdin-inputs/results/installed-rust-1.91.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/studies/stdin-inputs/results/installed-rust-1.91.json",
+      "bytes": 14850,
+      "sha256": "60fc88cef7bf1106bddeb00d18fb2d1be4fcc58716da79e71771322ef35e69a5",
+      "matchesCheckout": true
+    },
+    {
+      "path": "docs/assets/stdin-inputs.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/9e34dd6287cecf6f985f563a65422a5a178c1824/docs/assets/stdin-inputs.png",
+      "bytes": 95659,
+      "sha256": "af366066f6b3cc99b4cbc376e55490b09f74c8c32d2652c574879c0058bbe601",
+      "matchesCheckout": true
+    }
+  ],
+  "scope": "Verified public source bytes at an immutable commit. No registry release or hosted deployment."
+}
