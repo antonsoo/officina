@@ -1,0 +1,76 @@
+{
+  "repository": "veil",
+  "commit": "d3f43e00f501cdd186c345a1ef6180e0e509afd3",
+  "code_commit": "1906438e5125aa586695ad94da66936c16c4ee53",
+  "remote_main": "d3f43e00f501cdd186c345a1ef6180e0e509afd3",
+  "clean": true,
+  "files": [
+    {
+      "path": "src/veil/integrations/openai.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/src/veil/integrations/openai.py",
+      "bytes": 22913,
+      "sha256": "830b8cf890680ea4edae8489d55402a9163a0effa210350037434a61a0ccb9d3"
+    },
+    {
+      "path": "src/veil/integrations/openai_responses.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/src/veil/integrations/openai_responses.py",
+      "bytes": 14218,
+      "sha256": "3650dfc325747ecce45a847de3efb36a6087f28ffd63b0317dee302ee1ce092e"
+    },
+    {
+      "path": "tests/test_sdk_iterable_text.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/tests/test_sdk_iterable_text.py",
+      "bytes": 5413,
+      "sha256": "78440bc28bdbf7a2018e0f4d5e2c9079454c4516f0daa6e20bdb32cbda0f5791"
+    },
+    {
+      "path": "studies/iterable-text/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/studies/iterable-text/README.md",
+      "bytes": 5465,
+      "sha256": "fa83851c99ed82010e0fb8cb0ae198024fcd185e1d0eba34c46f4247fa5cb5ce"
+    },
+    {
+      "path": "studies/iterable-text/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/studies/iterable-text/results/before.json",
+      "bytes": 91035,
+      "sha256": "be1a5d8e9ebbebedf5329ca63c9ce25c5214cd85bc4ae9108be77b45f39eb9d9"
+    },
+    {
+      "path": "studies/iterable-text/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/studies/iterable-text/results/after.json",
+      "bytes": 88585,
+      "sha256": "5dacea3a1980b1e5cdd276a56f18308a89f9dd62ec63be47d71a0f8881c030f4"
+    },
+    {
+      "path": "studies/iterable-text/results/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/studies/iterable-text/results/installed-current.json",
+      "bytes": 88584,
+      "sha256": "b10c723e9759ee0008884d090feb870236e257e3c3ea6b35ffd454ffaa00a66d"
+    },
+    {
+      "path": "studies/iterable-text/results/installed-floor.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/studies/iterable-text/results/installed-floor.json",
+      "bytes": 88585,
+      "sha256": "d906de726cb02a3e356080e3c442fa6c80852db56254836ce8bf87f0031af240"
+    },
+    {
+      "path": "studies/iterable-text/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/studies/iterable-text/results/verification.json",
+      "bytes": 10153,
+      "sha256": "17844f5a347584a493ce7afbb603fce7b8cabe957ef3983268a6d5d5d6323a84"
+    },
+    {
+      "path": "studies/iterable-text/demo.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/studies/iterable-text/demo.py",
+      "bytes": 1870,
+      "sha256": "5c297a4e5b8e81857e01e90e99e0bb6c4e7da37f99a65076fa5a238a95fba786"
+    },
+    {
+      "path": "docs/assets/iterable-text.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/d3f43e00f501cdd186c345a1ef6180e0e509afd3/docs/assets/iterable-text.png",
+      "bytes": 126852,
+      "sha256": "ddd7352cb1d157449a8d3ee0e33709739ec5df7ed992c8ad7b4a19c8bf1717a8"
+    }
+  ],
+  "verification_boundary": "Pinned public source and evidence; no registry release, tag or hosted deployment."
+}

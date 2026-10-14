@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [Veil iterable-text repair](veil-iterable-text-2026-10-14.md) prevents
+tuple and generator arrays from bypassing OpenAI inline text masking before SDK
+serialization. Installed current and older SDKs retain captured transport,
+failure rollback and exact provider-history replay, with unchanged list controls.
+Its source and pinned evidence are public; registry and hosted updates are separate.
+
 The [Veil tool-input serialization repair](veil-tool-input-trees-2026-10-14.md)
 closes a reproduced privacy gap between masking and the SDK's conversion of
 tuples and custom objects to JSON. Installed current and older SDK workflows
