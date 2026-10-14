@@ -1,0 +1,82 @@
+{
+  "repository": "ghostchars",
+  "commit": "d99bc72607427b64e160f894acb3f51076d828f9",
+  "code_commit": "26e1ab1171a157f4c32c2206f490c8d0a4980413",
+  "remote_main": "d99bc72607427b64e160f894acb3f51076d828f9",
+  "clean": true,
+  "files": [
+    {
+      "path": "src/core/sanitize.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/src/core/sanitize.ts",
+      "bytes": 4620,
+      "sha256": "6bc187024b56bdefff4d8061b9e3b2945dd51be58c06931d26ee55aaedec06e9"
+    },
+    {
+      "path": "src/core/types.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/src/core/types.ts",
+      "bytes": 3945,
+      "sha256": "f121816dab34c2a167a443793a2a977b908156e4519d45a95ba8545745f14d39"
+    },
+    {
+      "path": "src/cli/fix.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/src/cli/fix.ts",
+      "bytes": 2348,
+      "sha256": "99599c26797c51d3ea8bcaf45069aec78bd8ae2afdb65146b9e89213a6b1792b"
+    },
+    {
+      "path": "dist/cli.js",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/dist/cli.js",
+      "bytes": 277891,
+      "sha256": "2148db6edc859975f361a9cefd3452e5337478503c8da175e3c822c72663fe8b"
+    },
+    {
+      "path": "studies/whitespace-repair/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/studies/whitespace-repair/README.md",
+      "bytes": 5725,
+      "sha256": "8037b4e3721a660cc7fd5e8ded5b9e9419f882e5b38ca6158c1b134a840f3c5a"
+    },
+    {
+      "path": "studies/whitespace-repair/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/studies/whitespace-repair/results/before.json",
+      "bytes": 52957,
+      "sha256": "eff73fe099ca2300c98f1e4817904a78eb875bb64a1ce070811cdec346f36838"
+    },
+    {
+      "path": "studies/whitespace-repair/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/studies/whitespace-repair/results/after.json",
+      "bytes": 45336,
+      "sha256": "518d8b9f651725b0b9859e6fcf6b81cc86709e460f1aa19a16cc21cc6dc1025a"
+    },
+    {
+      "path": "studies/whitespace-repair/results/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/studies/whitespace-repair/results/installed-current.json",
+      "bytes": 45362,
+      "sha256": "d5f8b8fb4d7ac53c7da20b8ab1d5ddd08a963385b8d751e2c01db16833d8acb0"
+    },
+    {
+      "path": "studies/whitespace-repair/results/installed-floor.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/studies/whitespace-repair/results/installed-floor.json",
+      "bytes": 45337,
+      "sha256": "896a9e262a5dae4ef1a9a10a4fe98b8f62f3e7705a66b2d00b25325b2add4df3"
+    },
+    {
+      "path": "studies/whitespace-repair/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/studies/whitespace-repair/results/verification.json",
+      "bytes": 23400,
+      "sha256": "2b9dee15dca4634746c68f6085d1400dbafa88ea98afac4af5292628cfa4882c"
+    },
+    {
+      "path": "studies/whitespace-repair/results/performance.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/studies/whitespace-repair/results/performance.json",
+      "bytes": 816,
+      "sha256": "13e89a7f542d0eb9072fb508da8e688b2d65341cb818fb3b52595e78b24e44dd"
+    },
+    {
+      "path": "docs/assets/whitespace-repair.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/ghostchars/d99bc72607427b64e160f894acb3f51076d828f9/docs/assets/whitespace-repair.png",
+      "bytes": 105201,
+      "sha256": "76c7e26210bedca1131157ca5ed0687a3713706e3558f49c58c811698d38da7c"
+    }
+  ],
+  "verification_boundary": "Pinned public source and evidence; no npm release, tag or hosted deployment."
+}

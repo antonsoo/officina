@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [Ghostchars whitespace repair](ghostchars-whitespace-repair-2026-10-14.md)
+preserves word and line boundaries that automatic deletion previously erased,
+including a native JavaScript check that turned falsely green. Actual CLI,
+installed-package and native-execution evidence retain the correction and
+existing library policy choices. Its source is public; npm and hosted updates
+remain separate.
+
 The [Veil iterable-text repair](veil-iterable-text-2026-10-14.md) prevents
 tuple and generator arrays from bypassing OpenAI inline text masking before SDK
 serialization. Installed current and older SDKs retain captured transport,
