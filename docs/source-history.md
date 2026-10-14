@@ -10,6 +10,8 @@ record four reproduced defects fixed in Errorbars, Veil, TraceLens and Contextsc
 artifacts and retained before/after evidence. Their main source and pinned
 evidence files are publicly verified; package releases and manual deployments
 are separate.
+The same record also retains Breakwatch's local calendar-uncertainty repair;
+that project has no configured remote and is not counted as publicly published.
 
 The [source update index](source-updates-2026-10-10.md) links to the
 corresponding fixes, reproductions and artifact checks across the repositories.

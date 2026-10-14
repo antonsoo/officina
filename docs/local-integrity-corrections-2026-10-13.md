@@ -97,3 +97,29 @@ part of this verification.
 Contextscope's builds are `npm run build:core` to `dist/` and
 `npm run build:web` to `web/dist/`; no npm release or hosted deployment is
 part of this work.
+
+An additional **local** correction is committed in Breakwatch: code `a0b9105`
+and evidence `eadced2`. A synthetic application with no year and an ending
+declaring 2026 previously became a 26-year control interval with no warning.
+The parser now retains the explicit ending and source while its unsupported
+application/duration stays unknown. Yearless February-to-March intervals also
+remain unknown unless an observed leap day settles the calendar shape; a new
+yearless log header cannot inherit an earlier session's year.
+
+`breakwatch/studies/calendar-boundaries/README.md` retains the 17-workflow
+before/after CLI replay and independent civil-clock oracle. Fresh archived
+source passes those workflows on Node 24.21.0 and Node 26.7.0, format/lint/type
+checks, 97 unit checks, the production build, full browser workflows in both
+engines, 38 additional audit scenarios and 24 accessibility scans with no
+violations. All 15 runtime source files and four served assets match the clean
+archive/build. Six timestamp controls per engine at desktop/phone widths retain
+exact JSON and original-evidence downloads; all eight screenshots were inspected.
+The initial rapid-download timeout is retained; exports in the verification
+replay are paced, and no product download fix is claimed.
+
+Breakwatch has **no configured remote**. Its receipt appears under
+`localCorrections`, with local file hashes and no public-byte comparison.
+It has not been pushed or deployed, and its inputs remain explicitly synthetic:
+no live-game or WoW Forever compatibility is asserted. Issue `officina-2ulx`
+is closed with that local evidence. This boundary differs from the four pushed
+main branches above.

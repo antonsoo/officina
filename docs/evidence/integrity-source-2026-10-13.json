@@ -213,5 +213,52 @@
       ]
     }
   ],
-  "boundary": "Pushed main source and byte-verified evidence only; no registry release, tag or manual Pages deployment."
+  "boundary": "Pushed main source and byte-verified evidence only; no registry release, tag or manual Pages deployment.",
+  "localCorrections": [
+    {
+      "repository": "breakwatch",
+      "commit": "eadced22883644bc35461377bcf57af36c304c50",
+      "codeCommit": "a0b9105c1d76321af81ba5095bd7b354c8085305",
+      "clean": true,
+      "configuredRemote": false,
+      "files": [
+        {
+          "path": "studies/calendar-boundaries/README.md",
+          "bytes": 7485,
+          "sha256": "1ca4a645f74c0f3c96fcf557cee66b50064c05db860a217e8885c7ef030fd00c"
+        },
+        {
+          "path": "studies/calendar-boundaries/results/verification.json",
+          "bytes": 2228,
+          "sha256": "8a1f33dd21c52ea5aee023ff2368f4d87c934b1f1d0db2951baf7e7493339980"
+        },
+        {
+          "path": "studies/calendar-boundaries/results/before.json",
+          "bytes": 76982,
+          "sha256": "1696fadd4dbbeca5d5a0831d39c6bbbf5409d8e27ce97903fc6d9810c763eb6a"
+        },
+        {
+          "path": "studies/calendar-boundaries/results/after.json",
+          "bytes": 84858,
+          "sha256": "2409b6d518bc1f05c2f3ce3a58050c583b261cadba010904c6af897f6719a278"
+        },
+        {
+          "path": "studies/calendar-boundaries/results/clean-node24.json",
+          "bytes": 84859,
+          "sha256": "7eea35398590f2e991f744b0de1f61b632152bd20476859b0daf3109259b2f32"
+        },
+        {
+          "path": "studies/calendar-boundaries/results/clean-node26.json",
+          "bytes": 84858,
+          "sha256": "2409b6d518bc1f05c2f3ce3a58050c583b261cadba010904c6af897f6719a278"
+        },
+        {
+          "path": "studies/calendar-boundaries/results/browser-after/browser.json",
+          "bytes": 25099,
+          "sha256": "c4610d01e5c849e6022503f3b814e9529043d43507c4576637f1ffd340c64c00"
+        }
+      ],
+      "boundary": "Locally committed source and evidence only. This repository has no git remote, hosted demo or registry release; no public source-byte comparison is claimed."
+    }
+  ]
 }
