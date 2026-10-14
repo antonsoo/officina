@@ -143,6 +143,74 @@
           "sha256": "d157af3b69273386ff1264e1eb96b747256d0727f909fb99ca3970efe2a18353"
         }
       ]
+    },
+    {
+      "repository": "contextscope",
+      "commit": "7782eb5951d10f502fbf63f0daeee8186fc54d90",
+      "remote_main": "7782eb5951d10f502fbf63f0daeee8186fc54d90",
+      "clean": true,
+      "files": [
+        {
+          "path": "studies/message-boundaries/README.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/contextscope/7782eb5951d10f502fbf63f0daeee8186fc54d90/studies/message-boundaries/README.md",
+          "bytes": 6834,
+          "sha256": "1a0868a123b1092b7084b37cffec6d09c9d9c77eda9af500a7557221e5a85246"
+        },
+        {
+          "path": "studies/message-boundaries/results/verification.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/contextscope/7782eb5951d10f502fbf63f0daeee8186fc54d90/studies/message-boundaries/results/verification.json",
+          "bytes": 2223,
+          "sha256": "7bf8066ef5c67c5bfd5edfa12801237964faa2f36f72e168a50e08bd18ad4a72"
+        },
+        {
+          "path": "studies/message-boundaries/results/before.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/contextscope/7782eb5951d10f502fbf63f0daeee8186fc54d90/studies/message-boundaries/results/before.json",
+          "bytes": 45758,
+          "sha256": "4652e8dab2886f2025225353cb98026611ed5d76f88a46babba67c9613a21fbe"
+        },
+        {
+          "path": "studies/message-boundaries/results/after.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/contextscope/7782eb5951d10f502fbf63f0daeee8186fc54d90/studies/message-boundaries/results/after.json",
+          "bytes": 53461,
+          "sha256": "3edf29fcf3daba59343bc6022f502fe6eeb73bc59fc80ba8a6c834e0648125a1"
+        },
+        {
+          "path": "studies/message-boundaries/results/installed-node26.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/contextscope/7782eb5951d10f502fbf63f0daeee8186fc54d90/studies/message-boundaries/results/installed-node26.json",
+          "bytes": 53461,
+          "sha256": "3edf29fcf3daba59343bc6022f502fe6eeb73bc59fc80ba8a6c834e0648125a1"
+        },
+        {
+          "path": "studies/message-boundaries/results/installed-node20.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/contextscope/7782eb5951d10f502fbf63f0daeee8186fc54d90/studies/message-boundaries/results/installed-node20.json",
+          "bytes": 53462,
+          "sha256": "0d41241aaf6100b6b68d33d47fa026ec44ecec5d9f64449764e4f0b9e4747cf7"
+        },
+        {
+          "path": "studies/message-boundaries/fixtures/cases.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/contextscope/7782eb5951d10f502fbf63f0daeee8186fc54d90/studies/message-boundaries/fixtures/cases.json",
+          "bytes": 6648,
+          "sha256": "d951114567c1d51306ce5237f22ceb00f81abc27661ff66f2918b735231a999c"
+        },
+        {
+          "path": "studies/message-boundaries/fixtures/chat-refusal-changed.jsonl.gz",
+          "url": "https://raw.githubusercontent.com/antonsoo/contextscope/7782eb5951d10f502fbf63f0daeee8186fc54d90/studies/message-boundaries/fixtures/chat-refusal-changed.jsonl.gz",
+          "bytes": 346,
+          "sha256": "08eb52b12c4dec6870d60b721ed98bb3854fe8cb5c0d90584999a260e7c436a2"
+        },
+        {
+          "path": "studies/message-boundaries/results/browser-after/browser.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/contextscope/7782eb5951d10f502fbf63f0daeee8186fc54d90/studies/message-boundaries/results/browser-after/browser.json",
+          "bytes": 16213,
+          "sha256": "0a43cb4f963791e3a301fe9b2f85c19d6591b6e0208c55d1a0619b5c337a9821"
+        },
+        {
+          "path": "src/core/parse-openai.ts",
+          "url": "https://raw.githubusercontent.com/antonsoo/contextscope/7782eb5951d10f502fbf63f0daeee8186fc54d90/src/core/parse-openai.ts",
+          "bytes": 14028,
+          "sha256": "9a9be357d859a6fefd0083e5162abcd6bc4f923fac4843161a6e788eebbf5274"
+        }
+      ]
     }
   ],
   "boundary": "Pushed main source and byte-verified evidence only; no registry release, tag or manual Pages deployment."

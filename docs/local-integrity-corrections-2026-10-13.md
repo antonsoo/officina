@@ -1,9 +1,10 @@
 # Local integrity corrections, 2026-10-13
 
-Three current-checkout defects were reproduced and corrected. The owner
-authorized pushes. Errorbars `b2375ec`, Veil `a67a5b6` and TraceLens `11cf372`
+Four current-checkout defects were reproduced and corrected. The owner
+authorized pushes. Errorbars `b2375ec`, Veil `a67a5b6`, TraceLens `11cf372`
+and Contextscope `7782eb5`
 match their remote `main` branches; six pinned public evidence files in each
-of the first two repositories and eight in TraceLens were fetched back and
+of the first two repositories, eight in TraceLens and ten in Contextscope were fetched back and
 byte-compared with the tested checkouts. The
 [source receipt](evidence/integrity-source-2026-10-13.json) records URLs, sizes
 and SHA-256 hashes. No registry release, tag or manual deployment is part of
@@ -14,11 +15,13 @@ this work. The catalogue's evidence links remain unchanged.
 | Errorbars | A native 20-question COPA capture scored 60%; retaining only its 12 correct records scored 100% beside an unchanged 20-sample results declaration. Explicit-name imports could also overwrite the declaration. | Matching results counts are checked per selected filter; model aliases do not bypass them. Count mismatch rejects before analysis/export, and matching sidecars remain protected. | `3305216` / `b2375ec` |
 | Veil | Real SDK request captures contained raw synthetic contacts in refusal fields/parts, legacy function arguments and custom-tool inputs. Complete replies left those fields unrestored. | Application history masks those text fields before transport. Complete output restores them; unchanged returned history replays the exact provider spelling. | `db481cc` / `a67a5b6` |
 | TraceLens | Partitioning an unchanged six-span native Strands capture between resource aliases silently retained only the agent root, losing both model calls and their usage. Other competing field spellings also selected one value. | Competing non-null trace declarations reject before normalization, including JSONL batches. Ambiguous log scalars remain raw with warnings and unavailable normalized values. Rejected browser replacements preserve the prior comparison download exactly. | `0afda99` / `11cf372` |
+| Contextscope | Two SDK histories with different refusal-only assistant turns became the same three source segments and predicted full reuse of 2,625 modeled tokens. Empty turns also hid role and participant changes. | Refusal text and empty-message identities remain source units before prefix/thread/cache analysis. Changed histories stop at the edited turn; unchanged histories remain reusable in the model and original messages remain downloadable. | `2b43fee` / `7782eb5` |
 
 In the workspace, the full records are at
 `errorbars/studies/lm-eval-cohorts/README.md`,
-`veil/studies/chat-text-fields/README.md` and
-`tracelens/studies/field-aliases/README.md`. Each study has input/source hashes,
+`veil/studies/chat-text-fields/README.md`,
+`tracelens/studies/field-aliases/README.md` and
+`contextscope/studies/message-boundaries/README.md`. Each study has input/source hashes,
 before/after observations, installed-artifact captures and a verification
 receipt. Their READMEs include reproduction commands and explicit limitations.
 
@@ -55,6 +58,19 @@ before cancellation and delivers it afterward, rather than posting new work
 to a terminated worker. Eight repeated checks and the fresh full run passed.
 No Firefox engine-crash correction is claimed.
 
+Contextscope retains 16 actual CLI/library workflows: twelve synthetic
+two-request histories captured through OpenAI SDK 3.23.0 over mocked transport,
+plus four existing SDK fixtures whose report bytes are unchanged. Baseline
+disagreed with source-retention expectations in twelve cases; corrected source
+and the installed package on Node 20.20.2 and Node 26.7.0 disagree in none.
+A fresh archive passed lint/typecheck, 556 unit checks, both builds and all
+98 browser checks. All 97 packed files match the clean build and installation.
+The browser study covers six histories in each engine at 1440 and 375 pixels,
+with raw-source downloads, full JSON exports and locally opened offline HTML.
+Served asset bytes match the tested build and all eight screenshots were
+inspected. The visual replay explicitly warms code and Latin font faces before
+disconnecting; the failed initial assertion for a lazy font request is retained.
+
 Errorbars' count check cannot authenticate files or detect simultaneous edits
 to samples and declarations. Missing native counts stay unchecked. Veil's
 change does not make its detectors exhaustive or add custom/legacy streaming
@@ -64,12 +80,20 @@ TraceLens's guard covers recognized alternate trace fields; literal duplicate
 JSON keys still follow `JSON.parse` behavior, and imported data is not
 authenticated. Null companions remain supported. The viewer's refusal policy
 is deliberately stricter than selecting the last alternate declaration.
+Contextscope's new token estimates have not been checked against live API usage;
+its correction does not establish server acceptance or measured cache behavior.
+The defensive empty-array controls are labelled separately from provider output
+claims. Null/array boundaries carry zero text tokens; empty string Chat messages
+keep the existing framing adjustment.
 
 The existing build commands are `cd errorbars/web && npm run build` and
 `cd veil/web && npm run build`, each producing its own `web/dist/`. These
 builds were checked locally and were not deployed. Tracking issues
-`officina-59dg`, `officina-9l06` and `officina-28xr` are closed with the retained evidence;
+`officina-59dg`, `officina-9l06`, `officina-28xr` and `officina-9oc2` are closed with the retained evidence;
 the local issue export has been refreshed.
 TraceLens's builds are `npm run build:web` to `dist/` and
 `npm run build:cli` to `dist-cli/`; no npm publication or hosted deployment is
 part of this verification.
+Contextscope's builds are `npm run build:core` to `dist/` and
+`npm run build:web` to `web/dist/`; no npm release or hosted deployment is
+part of this work.
