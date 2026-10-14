@@ -1,0 +1,228 @@
+{
+  "checkedAt": "2026-10-14T18:50:08.465532+00:00",
+  "repository": "antonsoo/tracelens",
+  "baselineSource": "2c88eb6b61370c2f605fe8f388dc170dd3bc376d",
+  "implementationSource": "926be7d0b457825c7129c01c727edf10fb0fc2b6",
+  "publicSource": "b7773d699ec3590c81bd455f87a2d36581e53ce2",
+  "cleanTree": true,
+  "remoteMainEqualsLocal": true,
+  "changedFiles": 30,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/CHANGELOG.md",
+      "httpStatus": 200,
+      "bytes": 25216,
+      "sha256": "18f12878ee957ac09bbfd370b4ee78aed934352f9ee7cac09f7ab3337e73ee13"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/README.md",
+      "httpStatus": 200,
+      "bytes": 30118,
+      "sha256": "e8e68f07e593da5770265e206b210934c155144269de589cdc8f7eb00e616d06"
+    },
+    {
+      "path": "docs/assets/cost-coverage/after-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/docs/assets/cost-coverage/after-chromium-1440.png",
+      "httpStatus": 200,
+      "bytes": 91097,
+      "sha256": "eae641dd1848ccb756e2b0ecd5d975e22a1981908538834f921766910f59baa5"
+    },
+    {
+      "path": "docs/assets/cost-coverage/after-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/docs/assets/cost-coverage/after-chromium-375.png",
+      "httpStatus": 200,
+      "bytes": 80845,
+      "sha256": "417dcfbeddf00a6e8ad735d8c6eaf3188cc4f7f22595072937d051fa02b64751"
+    },
+    {
+      "path": "docs/assets/cost-coverage/after-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/docs/assets/cost-coverage/after-firefox-1440.png",
+      "httpStatus": 200,
+      "bytes": 128401,
+      "sha256": "478c43c140e54a2decad3f11638fbf1189022226fc585e71970f7e70adb75f9d"
+    },
+    {
+      "path": "docs/assets/cost-coverage/after-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/docs/assets/cost-coverage/after-firefox-375.png",
+      "httpStatus": 200,
+      "bytes": 114104,
+      "sha256": "0f7ba50247b1bd62497a4c9de83e0de6c1466e26ddac8ab1363082331afcef65"
+    },
+    {
+      "path": "docs/assets/cost-coverage/before-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/docs/assets/cost-coverage/before-chromium-1440.png",
+      "httpStatus": 200,
+      "bytes": 87770,
+      "sha256": "ed8bdfb70a71b0ab8faf9c87ec8763fd66d4df2e4d3edee4cf9ba43758062edd"
+    },
+    {
+      "path": "docs/assets/cost-coverage/before-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/docs/assets/cost-coverage/before-chromium-375.png",
+      "httpStatus": 200,
+      "bytes": 77644,
+      "sha256": "ab90d1fcd90e5f3f341e3a467d8482bfe95e25fe9a8d0ddc735a297073034c39"
+    },
+    {
+      "path": "docs/assets/cost-coverage/before-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/docs/assets/cost-coverage/before-firefox-1440.png",
+      "httpStatus": 200,
+      "bytes": 123676,
+      "sha256": "3ab71961d23a91ddebe186ff92b57ce31bc2620bbcee8cfba8ddef5e33c71e5d"
+    },
+    {
+      "path": "docs/assets/cost-coverage/before-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/docs/assets/cost-coverage/before-firefox-375.png",
+      "httpStatus": 200,
+      "bytes": 109676,
+      "sha256": "01ed6ed893300a2b57665685fe35cccc22cc80f56a9c59a5d4c4c56eff81e5f6"
+    },
+    {
+      "path": "src/cli/cost-report.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/src/cli/cost-report.ts",
+      "httpStatus": 200,
+      "bytes": 2340,
+      "sha256": "55ec04fb3446aef0ac1279bb4688ea6616e8e116161526573faba771f0efcd2e"
+    },
+    {
+      "path": "src/cli/index.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/src/cli/index.ts",
+      "httpStatus": 200,
+      "bytes": 15788,
+      "sha256": "28697705cac840ffbc56d0ba0ae63bbe0210d18222943c429363561549e87313"
+    },
+    {
+      "path": "src/core/cost-report.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/src/core/cost-report.ts",
+      "httpStatus": 200,
+      "bytes": 5054,
+      "sha256": "c4754740684bbf02d553d0a57ecc01870bcd97f834bff29c513689dd8b02129b"
+    },
+    {
+      "path": "src/core/summary.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/src/core/summary.ts",
+      "httpStatus": 200,
+      "bytes": 5245,
+      "sha256": "4ce2f7388576b37ca7497510d178f89a7d15b1a803c20fd504cdd0640f1fa6d2"
+    },
+    {
+      "path": "src/web/cost-panel.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/src/web/cost-panel.ts",
+      "httpStatus": 200,
+      "bytes": 6959,
+      "sha256": "7c1a8ab99a7d59a433c9a1d307b2fbc20838361d5bdfb0458191524a11f6c75b"
+    },
+    {
+      "path": "src/web/summary-header.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/src/web/summary-header.ts",
+      "httpStatus": 200,
+      "bytes": 2830,
+      "sha256": "2bb021cef2cbde443f7caf133ff0cf7d1fbdeaee684df16ab6ad944f27fe6da3"
+    },
+    {
+      "path": "studies/cost-coverage/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/README.md",
+      "httpStatus": 200,
+      "bytes": 7202,
+      "sha256": "bbc9b5ff3e6943df264b75cd259fa88c3fe18a745309d5873900e4ded509127b"
+    },
+    {
+      "path": "studies/cost-coverage/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/browser.mjs",
+      "httpStatus": 200,
+      "bytes": 9481,
+      "sha256": "ea46ae50035349c166eb21659822b9dab1b3ac16d8f3e5260823994a9a8b6b2b"
+    },
+    {
+      "path": "studies/cost-coverage/cases.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/cases.mjs",
+      "httpStatus": 200,
+      "bytes": 1438,
+      "sha256": "c09ff0fad4fd005058868fffdccd0719b1498bf2f1c2a6f3d37fe2184ff6743b"
+    },
+    {
+      "path": "studies/cost-coverage/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/replay.mjs",
+      "httpStatus": 200,
+      "bytes": 4574,
+      "sha256": "9ec24b8376b4c4f1d8ef8cda9a285c2c9c07066758d744a1e8d3570b90d3c0b7"
+    },
+    {
+      "path": "studies/cost-coverage/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/results/after.json",
+      "httpStatus": 200,
+      "bytes": 971950,
+      "sha256": "f97613fcf74417588685514bcfe00262a1c7ff454cc9e4ac97c762080a93e20f"
+    },
+    {
+      "path": "studies/cost-coverage/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/results/before.json",
+      "httpStatus": 200,
+      "bytes": 957874,
+      "sha256": "c0348b8dfa3c5edd2e1213f94f3085f2bf19bd81381a23b4b3a73bc3bf5f8b9e"
+    },
+    {
+      "path": "studies/cost-coverage/results/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/results/browser.json",
+      "httpStatus": 200,
+      "bytes": 703379,
+      "sha256": "827eefdba005fb0f1a71c53853f3b01006441d4365e132f06d67198ebd2f35b7"
+    },
+    {
+      "path": "studies/cost-coverage/results/clean-source.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/results/clean-source.json",
+      "httpStatus": 200,
+      "bytes": 536,
+      "sha256": "e0a2ea5f70220babd2056a2d3fd53b11a2a7b587f03feb0f883ced86d13c77fd"
+    },
+    {
+      "path": "studies/cost-coverage/results/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/results/installed-current.json",
+      "httpStatus": 200,
+      "bytes": 535,
+      "sha256": "51f59a8b7b5057d15c2fdba7575a4cde3b77015e046a7414484d433c2bb23dc5"
+    },
+    {
+      "path": "studies/cost-coverage/results/installed-floor.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/results/installed-floor.json",
+      "httpStatus": 200,
+      "bytes": 535,
+      "sha256": "2896dc01c40fc4a416ec57858f81f0659add2c03327ffbb023f08e4952b0cb07"
+    },
+    {
+      "path": "studies/cost-coverage/results/parser-timing.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/results/parser-timing.json",
+      "httpStatus": 200,
+      "bytes": 1119,
+      "sha256": "53ee80106e6a735c1093ba16ee5adbfc232dff9c9f926cd90e8419fdea18af01"
+    },
+    {
+      "path": "studies/cost-coverage/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/studies/cost-coverage/results/verification.json",
+      "httpStatus": 200,
+      "bytes": 207866,
+      "sha256": "dcf7f7dff86c9783475d382e980d53eac15ff2650da6a67191ca64d9b37cd453"
+    },
+    {
+      "path": "tests/browser/cost-coverage.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/tests/browser/cost-coverage.spec.mjs",
+      "httpStatus": 200,
+      "bytes": 3023,
+      "sha256": "17587864e036c4bc39f835d83de57fca77eeb628098447565c64dbab7ab4fd8b"
+    },
+    {
+      "path": "tests/cost-coverage.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/b7773d699ec3590c81bd455f87a2d36581e53ce2/tests/cost-coverage.test.ts",
+      "httpStatus": 200,
+      "bytes": 4494,
+      "sha256": "263bbc03f90ea8b3d1dbb5028376564cc29ad165bbc267fd7c3c8d0c84117880"
+    }
+  ],
+  "ghPages": {
+    "before": "0a09eefa2516409e9aff3367a8880cfbf114815d",
+    "after": "0a09eefa2516409e9aff3367a8880cfbf114815d",
+    "unchanged": true
+  },
+  "status": "Source pushed and immutable public bytes verified. No npm release, tag, manual deployment or remote CI result claimed."
+}
