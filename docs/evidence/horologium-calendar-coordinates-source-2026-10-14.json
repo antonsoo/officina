@@ -1,0 +1,175 @@
+{
+  "repository": "antonsoo/horologium",
+  "codeCommit": "14ce6527f12a44fe5153b9847888beae02ac6920",
+  "publishedSource": "0452cdadd706262a925189f03c7d2fffa6b66d7a",
+  "remoteHead": "0452cdadd706262a925189f03c7d2fffa6b66d7a",
+  "cleanTree": true,
+  "ghPages": "89a9d0f9c12cd32fbd1b675b46dab92124073552",
+  "ghPagesUnchanged": true,
+  "verifiedFiles": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/CHANGELOG.md",
+      "bytes": 12985,
+      "sha256": "e39acef297778241939c990ad8d74fa5be02ef419bcfe5bb03349964a2f2b64e"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/README.md",
+      "bytes": 13953,
+      "sha256": "4334ede13c8efbbf8ac41cc791a84aa344006fdeed1577e29bdb35d0e120c262"
+    },
+    {
+      "path": "docs/CALENDARS.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/CALENDARS.md",
+      "bytes": 24975,
+      "sha256": "5d50e674bcdc68ed9307fb0e04345b71f04487d8a68885c6e0e7c6ccffbd4167"
+    },
+    {
+      "path": "docs/assets/calendar-coordinates/after/chromium-athyr-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/assets/calendar-coordinates/after/chromium-athyr-1440.png",
+      "bytes": 14698,
+      "sha256": "1975775ff86b356eb5bd23de0ca1eb182e08fb623f5cb0524ebf283abfd1544d"
+    },
+    {
+      "path": "docs/assets/calendar-coordinates/after/chromium-clock-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/assets/calendar-coordinates/after/chromium-clock-1440.png",
+      "bytes": 501274,
+      "sha256": "78228e6792a935b86035ef9b0d1f429484123dddee3a363018941ebac35f4d1b"
+    },
+    {
+      "path": "docs/assets/calendar-coordinates/after/chromium-piedras-negras-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/assets/calendar-coordinates/after/chromium-piedras-negras-1440.png",
+      "bytes": 14704,
+      "sha256": "4f16efcd9e3b0641ea52f468d5206613fbcfb8f2b25bef827d58fee804e3aa8e"
+    },
+    {
+      "path": "docs/assets/calendar-coordinates/after/firefox-athyr-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/assets/calendar-coordinates/after/firefox-athyr-375.png",
+      "bytes": 18721,
+      "sha256": "94e91786e6ad532dbf98598b9333e3541a26c95d828763ae8f7bfb253555ee3b"
+    },
+    {
+      "path": "docs/assets/calendar-coordinates/after/firefox-clock-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/assets/calendar-coordinates/after/firefox-clock-375.png",
+      "bytes": 512187,
+      "sha256": "3d51e54c845659ddc10e2434c585c8e6e4a8f29904c65fd4c18ea33cda8b7eb1"
+    },
+    {
+      "path": "docs/assets/calendar-coordinates/after/firefox-piedras-negras-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/assets/calendar-coordinates/after/firefox-piedras-negras-375.png",
+      "bytes": 17570,
+      "sha256": "68cd7b4d5aa6973140493924b191b19e69c04ec56ed629d2d46cc55f442c6d05"
+    },
+    {
+      "path": "docs/assets/calendar-coordinates/before/chromium-athyr-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/assets/calendar-coordinates/before/chromium-athyr-1440.png",
+      "bytes": 14416,
+      "sha256": "f84e1de2756cfc96038cdb3e1cd357a303d32da29925d559eac773ad7f5b14a5"
+    },
+    {
+      "path": "docs/assets/calendar-coordinates/before/chromium-piedras-negras-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/assets/calendar-coordinates/before/chromium-piedras-negras-1440.png",
+      "bytes": 13199,
+      "sha256": "0b999796593c3dff68787481b4da90a20b6a08e1003f133f49b11124e1d6901e"
+    },
+    {
+      "path": "docs/assets/calendar-coordinates/before/firefox-athyr-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/assets/calendar-coordinates/before/firefox-athyr-375.png",
+      "bytes": 18695,
+      "sha256": "568e848350fda89ef3f79e97f1fbfa49bbb18cbc1448888d1b9dee5b19f916bb"
+    },
+    {
+      "path": "docs/assets/calendar-coordinates/before/firefox-piedras-negras-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/docs/assets/calendar-coordinates/before/firefox-piedras-negras-375.png",
+      "bytes": 15595,
+      "sha256": "cf1779837dfa3bc9bb9695c1325b5ac38f20a69e19691f7ac3019a49f13d326e"
+    },
+    {
+      "path": "src/lib/egyptian.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/src/lib/egyptian.ts",
+      "bytes": 7807,
+      "sha256": "f70c1079904583654f1c9898b0f8cc372f11e8d07f3a121545b3d25a8c16da3f"
+    },
+    {
+      "path": "src/lib/maya.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/src/lib/maya.ts",
+      "bytes": 11114,
+      "sha256": "2c4b1df9c827ff5fbccfccce636a63d639645ce16d18689d11e2178352fc5a65"
+    },
+    {
+      "path": "studies/calendar-coordinates/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/README.md",
+      "bytes": 6637,
+      "sha256": "fd9004a8392d1ad9119e16fd30ddf74390a10773d5ff6f7e2ef5884e05f2ca71"
+    },
+    {
+      "path": "studies/calendar-coordinates/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/browser.mjs",
+      "bytes": 9431,
+      "sha256": "ac2970d3c194023144856db23e9d9a5fdcf35d35ef6ccfb6f86b82fd9b8acdb7"
+    },
+    {
+      "path": "studies/calendar-coordinates/reference.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/reference.json",
+      "bytes": 2389,
+      "sha256": "3f78831d64f4136fe3a8adabde3360fa5329288862e708e3020ca5c81e4f97e5"
+    },
+    {
+      "path": "studies/calendar-coordinates/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/replay.mjs",
+      "bytes": 5792,
+      "sha256": "3c6dcd5b1b707ee7499fc84f669294e6970ba9627905f920cd34de032771d5ac"
+    },
+    {
+      "path": "studies/calendar-coordinates/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/results/after.json",
+      "bytes": 283470,
+      "sha256": "0f586bcc845fbd021f42d37a52ba389d7f63d0c7eda9a976311538a1d77a8e36"
+    },
+    {
+      "path": "studies/calendar-coordinates/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/results/before.json",
+      "bytes": 283584,
+      "sha256": "df173f49c05c1bf0e2e825d147a085a131ac9e2e111b6e992b5b997052b50d21"
+    },
+    {
+      "path": "studies/calendar-coordinates/results/browser-after/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/results/browser-after/browser.json",
+      "bytes": 25032,
+      "sha256": "dbad702070614c862b1615ca716e7c45bd42a53e61fa8819aad978d0c6f5715f"
+    },
+    {
+      "path": "studies/calendar-coordinates/results/browser-before/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/results/browser-before/browser.json",
+      "bytes": 23785,
+      "sha256": "34f744dada0d692f32bebb210cbbeb9e16851be7f15d74abd844dc58e75acc62"
+    },
+    {
+      "path": "studies/calendar-coordinates/results/installed-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/results/installed-node24.json",
+      "bytes": 283474,
+      "sha256": "8d9fd1de6e2a42911f1dc5365a7b544b13c66eeaebecea28c775591340b1f438"
+    },
+    {
+      "path": "studies/calendar-coordinates/results/installed-node26.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/results/installed-node26.json",
+      "bytes": 283473,
+      "sha256": "c685c34642b12348b674fbd63ca7d92344403f35e2f6684d72d7a8971a73b20f"
+    },
+    {
+      "path": "studies/calendar-coordinates/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/studies/calendar-coordinates/results/verification.json",
+      "bytes": 27525,
+      "sha256": "c2f34c852dea079c83bd4a37770dc1266cdf7fadd76c47b9038bf8f155d88eb3"
+    },
+    {
+      "path": "tests/calendar-coordinates.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/0452cdadd706262a925189f03c7d2fffa6b66d7a/tests/calendar-coordinates.test.ts",
+      "bytes": 1990,
+      "sha256": "53492612c248985157345bdad7404192a3e35e8bc4a7206d46d55d86f33a3f9b"
+    }
+  ],
+  "publicationScope": "Existing GitHub main branch only; no tag, registry release, manual deployment or remote CI result claimed.",
+  "verificationArchive": "07a22369df0af2530af7dba7f39885a06eb29a5a"
+}
