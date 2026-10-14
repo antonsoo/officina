@@ -1,0 +1,257 @@
+{
+  "repository": "https://github.com/antonsoo/gnomon",
+  "baselineCommit": "4bdf1ebee39f832bcc579aeb11b55a0f77663da9",
+  "sourceCommit": "c65635585a50ccf16bb261861a4b46e28a6efccf",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "f93715227e8643db081fb0ba379eb610ac5ea893",
+    "refs/heads/main": "4bdf1ebee39f832bcc579aeb11b55a0f77663da9"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "f93715227e8643db081fb0ba379eb610ac5ea893",
+    "refs/heads/main": "c65635585a50ccf16bb261861a4b46e28a6efccf"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/.gitignore",
+      "bytes": 138,
+      "sha256": "ebc07cc000fc6e827bf1e9d3ed43394360d6eb7601d019f36fe9479ff56a0a38",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/CHANGELOG.md",
+      "bytes": 8765,
+      "sha256": "f8c05b2b85dbd0a3e6170983f4d3817b391a6bb386b5750740fbc731a3973cca",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/README.md",
+      "bytes": 15863,
+      "sha256": "d795a389cc064284e50e98ef8e93c444b261089fe72ee3f4c241eedc7ac02c38",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/design-files/chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/assets/design-files/chromium-1440.png",
+      "bytes": 354459,
+      "sha256": "c2191b24cd089bee3d4f99e2de264d24442d80675ba945b7ed14c1b855a61304",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/design-files/chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/assets/design-files/chromium-375.png",
+      "bytes": 69261,
+      "sha256": "5c6323e1709ccf950aa4be88bbfb474a1a02afd24c122b3929d64fc14a1ce386",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/design-files/construction-guide.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/assets/design-files/construction-guide.png",
+      "bytes": 288191,
+      "sha256": "1c42674a33002a14d42428fd00a18091418badddbd3da3a612eee93b356ba68c",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/design-files/firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/assets/design-files/firefox-1440.png",
+      "bytes": 311610,
+      "sha256": "afffccbec759b54bd29340dd2aa7c212bc92e5d7f0d84d9620ed503ad6d0aa52",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/design-files/firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/assets/design-files/firefox-375.png",
+      "bytes": 69320,
+      "sha256": "70d44659c6236ee6b12d7403b7fbc495e0ced7b1fee762c88f4afd38f9962466",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/design-file-verification.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/design-file-verification.md",
+      "bytes": 5994,
+      "sha256": "8afb8d6c275fdc442121b38e27a3dd056cf209eff0fc3183a0b65797a6fd435d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/design-files.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/design-files.md",
+      "bytes": 4078,
+      "sha256": "13e953909dc2ff927fdebf16354ef0c14734fe0fda67a3a0b606e152169e127a",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/before.json",
+      "bytes": 427,
+      "sha256": "1b689ef48c3f65f27c47eb56658a39a5dc77df8afda524cd0d43bc3fb90dbc1f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/browser.json",
+      "bytes": 4294,
+      "sha256": "a374f813db389baf65cfeb9eef2852dee3e33fc62187120a9aaf64e6b1bc3a43",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/checks.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/checks.json",
+      "bytes": 718,
+      "sha256": "732b9a57113494572a3a885c57fda4c5cbf01caee54ccc9e7a1c168c64f19dd4",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/clean-browsers.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/clean-browsers.txt",
+      "bytes": 10746,
+      "sha256": "b45c11705591ac051c0f7aaf34711f3a59bd53443765f4a0849551b45ca23087",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/clean-checks.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/clean-checks.txt",
+      "bytes": 3472,
+      "sha256": "6fac7c4b8ed79fd20f1ce2cb359f754312789f5328df847a00de77ac3345212f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/construction-after.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/construction-after.pdf",
+      "bytes": 170887,
+      "sha256": "0c02da8704c137fa6f39aab7f6cd3c00103e4241530b1797c5674f47581e7ddf",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/construction-before.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/construction-before.pdf",
+      "bytes": 170887,
+      "sha256": "14ad77f417d25899d2dfc579e0acb6eb210babd80677d646955ab3235926d868",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/gnomon-after.svg",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/gnomon-after.svg",
+      "bytes": 1322,
+      "sha256": "7d1fe045c83d2989aead1ecff866be44a29bad37288dee1d801b9c7405a5f906",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/gnomon-before.svg",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/gnomon-before.svg",
+      "bytes": 1322,
+      "sha256": "7d1fe045c83d2989aead1ecff866be44a29bad37288dee1d801b9c7405a5f906",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/plate-after.svg",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/plate-after.svg",
+      "bytes": 20460,
+      "sha256": "d32fc99081167b4dfbe972137950e52a747ca0532aeaf097d33da9f67ef3edae",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/plate-before.svg",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/plate-before.svg",
+      "bytes": 20460,
+      "sha256": "d32fc99081167b4dfbe972137950e52a747ca0532aeaf097d33da9f67ef3edae",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/rome.gnomon.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/rome.gnomon.json",
+      "bytes": 603,
+      "sha256": "5f44a6266c9c11abfefa0d346a6e200e7c5f010f691e3fd1244077131994e8ef",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/evidence/design-files/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/docs/evidence/design-files/verification.json",
+      "bytes": 8858,
+      "sha256": "82838e161443b35b14e215c17dc0141b655cefd824a949b8d6120a02cb2b6e33",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "examples/designs/lord-howe-half-hour.gnomon.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/examples/designs/lord-howe-half-hour.gnomon.json",
+      "bytes": 608,
+      "sha256": "0ebd24f7bc7f886326436318bbf22427e534e3efac9bda14a57c50a7a75bd299",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "examples/designs/repeated-clock-minute.gnomon.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/examples/designs/repeated-clock-minute.gnomon.json",
+      "bytes": 608,
+      "sha256": "52bd8c5ae025b573fe0a4477148b98d04c1ec1f4875cc31d60a9ea88bca60401",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "examples/designs/rome-wall.gnomon.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/examples/designs/rome-wall.gnomon.json",
+      "bytes": 603,
+      "sha256": "5f44a6266c9c11abfefa0d346a6e200e7c5f010f691e3fd1244077131994e8ef",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "examples/designs/sydney-horizontal.gnomon.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/examples/designs/sydney-horizontal.gnomon.json",
+      "bytes": 583,
+      "sha256": "01a6ee29574238a1e7e5dda502eb54f14b7d789f7fe9ca3c5d52465ff6a9c2e0",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/design-file.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/src/design-file.ts",
+      "bytes": 7805,
+      "sha256": "90f9a1b7a2f089958b1ef8310e962f57c1d8fd6c38c7c9db36fdd2856b204102",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/design.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/src/design.ts",
+      "bytes": 4741,
+      "sha256": "1903efa1dc425a15099c5146623be5d1dd329e0115ed4aeb7d77891194e40a1f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/main.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/src/main.ts",
+      "bytes": 44655,
+      "sha256": "5336db23be1656e5828c624d5f87dd4b526119eb576ba7f2caa3d1e95a0d837f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/design-files/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/studies/design-files/replay.mjs",
+      "bytes": 6809,
+      "sha256": "77f2959dbdd52690d172b023bb3562593d71e46102aa20f89fc7b2cd83ce3257",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/design-files/verify-artifacts.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/studies/design-files/verify-artifacts.py",
+      "bytes": 4281,
+      "sha256": "1051f0dd69ddac031cd9caa72bba93f7005b2f8f42b5eaa6ca87d25baf4421e3",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/browser/design-files.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/tests/browser/design-files.spec.mjs",
+      "bytes": 10944,
+      "sha256": "dee9a46dd05925e420d87e89bf14eb95d10e19cd5ea510f5cea74241f952d60b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/design-file.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/c65635585a50ccf16bb261861a4b46e28a6efccf/tests/design-file.test.ts",
+      "bytes": 5563,
+      "sha256": "474fbd11e5c9dcb6b3f8e48444b2b9c57e89a3d28a4b5a7346553aa2630b0d31",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 34,
+  "bytes": 1629335,
+  "scope": "Source main only; no package release, tag change or hosted deployment."
+}

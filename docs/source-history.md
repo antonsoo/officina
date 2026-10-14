@@ -249,3 +249,7 @@ servers start; failed writes preserve reports and remove unfinished snapshots.
 The [Trainspotter record-length guard](trainspotter-record-lengths-2026-10-12.md)
 retains readable observations when a damaged TensorBoard tail advertises an
 impossible length, and restores selection of a healthy sibling run.
+
+The [Gnomon editable-design workflow](gnomon-design-files-2026-10-13.md)
+saves and reopens construction settings and the selected clock minute, with
+actual offline reloads, unchanged drawings and four portable example files.
