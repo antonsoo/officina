@@ -5,10 +5,11 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
-The [local cohort and SDK privacy corrections](local-integrity-corrections-2026-10-13.md)
-record two reproduced defects fixed in the local Errorbars and Veil checkouts,
-with installed artifacts and retained before/after evidence. These commits
-have not been pushed, released or deployed.
+The [cohort and SDK privacy corrections](local-integrity-corrections-2026-10-13.md)
+record two reproduced defects fixed in Errorbars and Veil, with installed
+artifacts and retained before/after evidence. Their main source and pinned
+evidence files are publicly verified; package releases and manual deployments
+are separate.
 
 The [source update index](source-updates-2026-10-10.md) links to the
 corresponding fixes, reproductions and artifact checks across the repositories.

@@ -1,0 +1,93 @@
+{
+  "repositories": [
+    {
+      "repository": "errorbars",
+      "commit": "b2375ec8637683af1870d01802857f4747461d6d",
+      "remote_main": "b2375ec8637683af1870d01802857f4747461d6d",
+      "clean": true,
+      "files": [
+        {
+          "path": "studies/lm-eval-cohorts/README.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/errorbars/b2375ec8637683af1870d01802857f4747461d6d/studies/lm-eval-cohorts/README.md",
+          "bytes": 6300,
+          "sha256": "6c7a740c7fae5aab2e80f5831c849b4abbb3da5d8f7080a51304b60df4504ef7"
+        },
+        {
+          "path": "studies/lm-eval-cohorts/results/verification.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/errorbars/b2375ec8637683af1870d01802857f4747461d6d/studies/lm-eval-cohorts/results/verification.json",
+          "bytes": 1102,
+          "sha256": "2793d7c18f16994cf780f15e0ef34987ed3b4d10a7463e67baf1bf8d75fba9db"
+        },
+        {
+          "path": "studies/lm-eval-cohorts/results/before.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/errorbars/b2375ec8637683af1870d01802857f4747461d6d/studies/lm-eval-cohorts/results/before.json",
+          "bytes": 34076,
+          "sha256": "f8d60c2e8ac62a4eff77e0de933728db934da6063d622b3fdf62ca04083c9a55"
+        },
+        {
+          "path": "studies/lm-eval-cohorts/results/after.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/errorbars/b2375ec8637683af1870d01802857f4747461d6d/studies/lm-eval-cohorts/results/after.json",
+          "bytes": 31226,
+          "sha256": "b7aa847ceabd1beba00f87657963acf3245e30a31dbde2e7d8b5febf29241c73"
+        },
+        {
+          "path": "studies/lm-eval-cohorts/results/installed-current.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/errorbars/b2375ec8637683af1870d01802857f4747461d6d/studies/lm-eval-cohorts/results/installed-current.json",
+          "bytes": 31222,
+          "sha256": "76ed7e8e31bb98fffb55c13134209c0d3be77d22c187b4859a502be2e94a6c98"
+        },
+        {
+          "path": "studies/lm-eval-cohorts/results/installed-floor.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/errorbars/b2375ec8637683af1870d01802857f4747461d6d/studies/lm-eval-cohorts/results/installed-floor.json",
+          "bytes": 31224,
+          "sha256": "f35de303332159743f9443b627513e83a2b2ffa1b8fea905c9652fb36880f983"
+        }
+      ]
+    },
+    {
+      "repository": "veil",
+      "commit": "a67a5b674609586244bee0fb341fe3bbf3876861",
+      "remote_main": "a67a5b674609586244bee0fb341fe3bbf3876861",
+      "clean": true,
+      "files": [
+        {
+          "path": "studies/chat-text-fields/README.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/a67a5b674609586244bee0fb341fe3bbf3876861/studies/chat-text-fields/README.md",
+          "bytes": 6738,
+          "sha256": "a4b800d9e9ab64812925f3a8871e19d5dbfa7b99e71a6dbe2fae738e9f8d43e6"
+        },
+        {
+          "path": "studies/chat-text-fields/results/verification.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/a67a5b674609586244bee0fb341fe3bbf3876861/studies/chat-text-fields/results/verification.json",
+          "bytes": 1827,
+          "sha256": "885355b6aaadeb23c3295ae3f37b48791da073c3098b67374bfb97ee90550673"
+        },
+        {
+          "path": "studies/chat-text-fields/results/before.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/a67a5b674609586244bee0fb341fe3bbf3876861/studies/chat-text-fields/results/before.json",
+          "bytes": 64297,
+          "sha256": "2d8f956861fd0cf3248eb86397c89d0cdc6c3ab33dcbec2acd11d48f0a9372be"
+        },
+        {
+          "path": "studies/chat-text-fields/results/after.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/a67a5b674609586244bee0fb341fe3bbf3876861/studies/chat-text-fields/results/after.json",
+          "bytes": 56637,
+          "sha256": "0f14ea87bd810656704c240cfc69ee17823be03f677515e9e042322254a2d21c"
+        },
+        {
+          "path": "studies/chat-text-fields/results/installed-current.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/a67a5b674609586244bee0fb341fe3bbf3876861/studies/chat-text-fields/results/installed-current.json",
+          "bytes": 56654,
+          "sha256": "219a840cd8f76909e3a9cb8939f25f8268ef6922836bfa4c642c58b1adb98d00"
+        },
+        {
+          "path": "studies/chat-text-fields/results/installed-floor.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/a67a5b674609586244bee0fb341fe3bbf3876861/studies/chat-text-fields/results/installed-floor.json",
+          "bytes": 56655,
+          "sha256": "69a74742f92ac2890a4c12721c7b271e6949c1a1da9ddaa73f1de48ce6fd744e"
+        }
+      ]
+    }
+  ],
+  "boundary": "Pushed main source and byte-verified evidence only; no registry release, tag or manual Pages deployment."
+}

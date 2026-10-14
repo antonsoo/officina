@@ -1,11 +1,14 @@
 # Local integrity corrections, 2026-10-13
 
-Two current-checkout defects were reproduced and corrected. These are local
-commits awaiting publication review; this record does not assert that GitHub,
-PyPI or either hosted demo contains the changes. The catalogue's published
-evidence links remain unchanged.
+Two current-checkout defects were reproduced and corrected. The owner then
+authorized pushes. Errorbars `b2375ec` and Veil `a67a5b6` now match remote
+`main`; six pinned public evidence files in each repository were fetched back
+and byte-compared with the tested checkout. The
+[source receipt](evidence/integrity-source-2026-10-13.json) records URLs, sizes
+and SHA-256 hashes. No registry release, tag or manual deployment is part of
+this work. The catalogue's evidence links remain unchanged.
 
-| Repository | Reproduction | Corrected behavior | Local code / evidence commits |
+| Repository | Reproduction | Corrected behavior | Pushed code / evidence commits |
 | --- | --- | --- | --- |
 | Errorbars | A native 20-question COPA capture scored 60%; retaining only its 12 correct records scored 100% beside an unchanged 20-sample results declaration. Explicit-name imports could also overwrite the declaration. | Matching results counts are checked per selected filter; model aliases do not bypass them. Count mismatch rejects before analysis/export, and matching sidecars remain protected. | `3305216` / `b2375ec` |
 | Veil | Real SDK request captures contained raw synthetic contacts in refusal fields/parts, legacy function arguments and custom-tool inputs. Complete replies left those fields unrestored. | Application history masks those text fields before transport. Complete output restores them; unchanged returned history replays the exact provider spelling. | `db481cc` / `a67a5b6` |
