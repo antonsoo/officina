@@ -30,7 +30,7 @@ signals and the pitch-shape heuristic remain unchanged.
 | Actual offline production build | Chromium/Firefox at 1440/375 px; all 26 served and browser-loaded files match each tested build; server shuts down before audio workflows |
 | Visual/accessibility review | Eight study and twelve existing browser screenshots inspected; no overflow, accessibility findings, script/CSP errors or external/late requests in the replay |
 
-The [study](https://github.com/antonsoo/tonemirror/blob/0666a711cdc7d803103a3b09887902523076e07d/studies/audio-integrity/README.md)
+The [study](https://github.com/antonsoo/tonemirror/blob/574dc6c3768ded7f10b4692e8622b47c6467bee0/studies/audio-integrity/README.md)
 retains runnable independent WAVE fixtures, actual native decode counts, worker
 responses, source/build/check-log hashes, before/after and saved-byte evidence,
 real screenshots and a captured preserved-clip export. Every waveform in this
@@ -45,12 +45,12 @@ The valid gap's actual YIN score is 87, so before/after identity replaces the
 initially assumed 100. Both final phases were rerun. None of these harness fixes
 changed the application correction or reclassified an unresolved product failure.
 
-Source `0666a71` matches clean remote main. All 23 changed source/study/image/audio
+Source `574dc6c` matches clean remote main. All 23 changed source/study/image/audio
 files were fetched at that immutable commit and byte-matched. The
 [publication receipt](evidence/tonemirror-audio-integrity-2026-10-14-public.json)
 records URLs, sizes and hashes. The gh-pages head remains
-`95b8bdc0863e88e13049487f114637aa76640ce4`. The app is private and has no npm
-release; no tag, manual deployment or remote CI result is claimed.
+`95b8bdc0863e88e13049487f114637aa76640ce4`. The package is marked private
+for npm; no registry release, tag, manual deployment or remote CI result is claimed.
 
 Build command `npm run build` produces `dist/`. No application UI or dependency
 was changed. Native decoder allocation/cancellation limits still apply, and

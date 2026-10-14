@@ -1,11 +1,11 @@
 {
   "date": "2026-10-14",
-  "verifiedAt": "2026-10-14T14:38:44.040048+00:00",
+  "verifiedAt": "2026-10-14T14:46:00.878203+00:00",
   "repository": "https://github.com/antonsoo/tonemirror",
   "baseline": "a952c734e9f5d6cfb9ea234ce91c9930dc8b51f4",
   "implementation": "b835699f8fea26255f8c421650aa9dccf598cf84",
-  "localHead": "0666a711cdc7d803103a3b09887902523076e07d",
-  "remoteMain": "0666a711cdc7d803103a3b09887902523076e07d",
+  "localHead": "574dc6c3768ded7f10b4692e8622b47c6467bee0",
+  "remoteMain": "574dc6c3768ded7f10b4692e8622b47c6467bee0",
   "localTreeClean": true,
   "ghPagesBefore": "95b8bdc0863e88e13049487f114637aa76640ce4",
   "ghPagesAfter": "95b8bdc0863e88e13049487f114637aa76640ce4",
@@ -13,7 +13,7 @@
   "files": [
     {
       "path": "CHANGELOG.md",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/CHANGELOG.md",
       "status": 200,
       "bytes": 12142,
       "sha256": "370e02cf0e03b5749aca409172cefd48fb1fbb9911f396c65808e259413a646c",
@@ -21,7 +21,7 @@
     },
     {
       "path": "README.md",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/README.md",
       "status": 200,
       "bytes": 24626,
       "sha256": "41632bc4438fef107462aa1669b1b96d2974e02e3e4ef02cba75b543ed37bb02",
@@ -29,7 +29,7 @@
     },
     {
       "path": "docs/assets/audio-integrity/after-chromium-1440.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/docs/assets/audio-integrity/after-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/docs/assets/audio-integrity/after-chromium-1440.png",
       "status": 200,
       "bytes": 295502,
       "sha256": "8d0889d6c7bd093b082ee4c1658f1b492cc77bb4d54fe6adb9ee5b4935b4062f",
@@ -37,7 +37,7 @@
     },
     {
       "path": "docs/assets/audio-integrity/after-chromium-375.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/docs/assets/audio-integrity/after-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/docs/assets/audio-integrity/after-chromium-375.png",
       "status": 200,
       "bytes": 260262,
       "sha256": "c20698e8de39bd404b9a2abf812e304eb6c11b517213550fa0f04bc0b2790652",
@@ -45,7 +45,7 @@
     },
     {
       "path": "docs/assets/audio-integrity/after-firefox-1440.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/docs/assets/audio-integrity/after-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/docs/assets/audio-integrity/after-firefox-1440.png",
       "status": 200,
       "bytes": 405216,
       "sha256": "fe1e7844bb2e7652fbd282786ef1bad7a9e228ae53c66e29419200afee001996",
@@ -53,7 +53,7 @@
     },
     {
       "path": "docs/assets/audio-integrity/after-firefox-375.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/docs/assets/audio-integrity/after-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/docs/assets/audio-integrity/after-firefox-375.png",
       "status": 200,
       "bytes": 375362,
       "sha256": "c2161cb728dbdd2c7d53fa8591731b9ccb470c505f308d5cb190815445ad7ba1",
@@ -61,7 +61,7 @@
     },
     {
       "path": "docs/assets/audio-integrity/before-chromium-1440.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/docs/assets/audio-integrity/before-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/docs/assets/audio-integrity/before-chromium-1440.png",
       "status": 200,
       "bytes": 285204,
       "sha256": "b2c137d16592662bda6c9d1681dad593ae8c36a995066865bed9cf8968c3283c",
@@ -69,7 +69,7 @@
     },
     {
       "path": "docs/assets/audio-integrity/before-chromium-375.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/docs/assets/audio-integrity/before-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/docs/assets/audio-integrity/before-chromium-375.png",
       "status": 200,
       "bytes": 252040,
       "sha256": "f62f8a9e069f60cded82b59afaeab41aa8dc62e5d7384dd37f5bdaf013a9ed5e",
@@ -77,7 +77,7 @@
     },
     {
       "path": "docs/assets/audio-integrity/before-firefox-1440.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/docs/assets/audio-integrity/before-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/docs/assets/audio-integrity/before-firefox-1440.png",
       "status": 200,
       "bytes": 389020,
       "sha256": "dac25c2014cff2be08ae42bfb8135c6d2f4464d456c8d4a24766d9f3bfaf6a6d",
@@ -85,7 +85,7 @@
     },
     {
       "path": "docs/assets/audio-integrity/before-firefox-375.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/docs/assets/audio-integrity/before-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/docs/assets/audio-integrity/before-firefox-375.png",
       "status": 200,
       "bytes": 362289,
       "sha256": "960b9f62d8665985f920da0e6f08ebb707d27131843bd2677bc66c00b1ebff5e",
@@ -93,7 +93,7 @@
     },
     {
       "path": "docs/audio-boundaries.md",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/docs/audio-boundaries.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/docs/audio-boundaries.md",
       "status": 200,
       "bytes": 7266,
       "sha256": "d30c65dd67d30b5f68edc047d8f69cf3b85b6a88dba7a19a110129ea96b842e1",
@@ -101,7 +101,7 @@
     },
     {
       "path": "src/audio/limits.ts",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/src/audio/limits.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/src/audio/limits.ts",
       "status": 200,
       "bytes": 1516,
       "sha256": "461a1e0b31acccddf23da3172d7fd95199078fec5eccbc5544fe91f70cc9e8ac",
@@ -109,7 +109,7 @@
     },
     {
       "path": "src/worker/pitchWorker.ts",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/src/worker/pitchWorker.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/src/worker/pitchWorker.ts",
       "status": 200,
       "bytes": 2294,
       "sha256": "662c31b2e897853db3b15ff37d88223d91c94c69a1dd979754295f678b3708d3",
@@ -117,15 +117,15 @@
     },
     {
       "path": "studies/audio-integrity/README.md",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/studies/audio-integrity/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/studies/audio-integrity/README.md",
       "status": 200,
-      "bytes": 6836,
-      "sha256": "a08199631a38a981bc5805d25426cbed98cff65f489b296a36f2ab4e773c793e",
+      "bytes": 6856,
+      "sha256": "de0f20b70ce5f3e4dcd08d9f805d9a6871b25bb4ef892523db01b72f10425ce8",
       "matchesLocal": true
     },
     {
       "path": "studies/audio-integrity/browser.mjs",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/studies/audio-integrity/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/studies/audio-integrity/browser.mjs",
       "status": 200,
       "bytes": 19951,
       "sha256": "2e9c4cf0d39759c7ff9b238d824aaae846982bce0202892fe1234b1892843a80",
@@ -133,7 +133,7 @@
     },
     {
       "path": "studies/audio-integrity/fixtures.mjs",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/studies/audio-integrity/fixtures.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/studies/audio-integrity/fixtures.mjs",
       "status": 200,
       "bytes": 1637,
       "sha256": "42118ca8a99562b34e9af88a52cc146899f32b8b3d2cedc15b07ce1173f80195",
@@ -141,7 +141,7 @@
     },
     {
       "path": "studies/audio-integrity/results/after.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/studies/audio-integrity/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/studies/audio-integrity/results/after.json",
       "status": 200,
       "bytes": 201395,
       "sha256": "dba5e48787f56d2e9f2c3d0dc3ffed4f50c52dfa1ef1821e7eb46c6cb5b25cf6",
@@ -149,7 +149,7 @@
     },
     {
       "path": "studies/audio-integrity/results/before.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/studies/audio-integrity/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/studies/audio-integrity/results/before.json",
       "status": 200,
       "bytes": 197349,
       "sha256": "3b865fdb55772fcf53681191cce808da0709e35cc08673c77fafbf9232eaea3f",
@@ -157,7 +157,7 @@
     },
     {
       "path": "studies/audio-integrity/results/exports.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/studies/audio-integrity/results/exports.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/studies/audio-integrity/results/exports.json",
       "status": 200,
       "bytes": 2552,
       "sha256": "4d36a287cfb0dafd40b727fd6d6d3bd498529cf956fc17426da2247efc40b9ac",
@@ -165,7 +165,7 @@
     },
     {
       "path": "studies/audio-integrity/results/fixtures.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/studies/audio-integrity/results/fixtures.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/studies/audio-integrity/results/fixtures.json",
       "status": 200,
       "bytes": 2245,
       "sha256": "c4ecb9fd4907164a0b26923c24eb9da49eba68497565b104a868c21cd494a5c9",
@@ -173,7 +173,7 @@
     },
     {
       "path": "studies/audio-integrity/results/preserved-clip.wav",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/studies/audio-integrity/results/preserved-clip.wav",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/studies/audio-integrity/results/preserved-clip.wav",
       "status": 200,
       "bytes": 176544,
       "sha256": "fb5665dd08bd3d0b512a536d1bc8fe08fff47cd2ee670b636b446898792244a7",
@@ -181,20 +181,21 @@
     },
     {
       "path": "studies/audio-integrity/results/verification.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/studies/audio-integrity/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/studies/audio-integrity/results/verification.json",
       "status": 200,
-      "bytes": 58195,
-      "sha256": "e5a0ea1d7f9608e6ae2a5799cee962d1f8c23dd3e9acf3361e6c05cd939aa1c9",
+      "bytes": 58227,
+      "sha256": "c5366e0e15cec97b9ea40712792e57cfd3716b114016291b0c7d6e8bca803564",
       "matchesLocal": true
     },
     {
       "path": "tests/browser/audio-integrity.spec.js",
-      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/0666a711cdc7d803103a3b09887902523076e07d/tests/browser/audio-integrity.spec.js",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/574dc6c3768ded7f10b4692e8622b47c6467bee0/tests/browser/audio-integrity.spec.js",
       "status": 200,
       "bytes": 2145,
       "sha256": "f273dcafd2d84be1e532179726dcb0135c955e51c376b347885d3d773a52cef2",
       "matchesLocal": true
     }
   ],
-  "scope": "Authorized source push only; no registry release, tag or manual hosted deployment. Private application with no npm release."
+  "scope": "Authorized public source push only; package.json is marked private for npm. No registry release, tag or manual hosted deployment.",
+  "runtimeAndRegressionInputsUnchangedSinceImplementation": true
 }
