@@ -1,0 +1,70 @@
+{
+  "repository": "veil",
+  "commit": "245e63e0e7bcd04bfe907765aaa955069c46abd5",
+  "code_commit": "b60ee9dd8a8947b37d7ca8a00546cdb38ebeb2d1",
+  "remote_main": "245e63e0e7bcd04bfe907765aaa955069c46abd5",
+  "clean": true,
+  "files": [
+    {
+      "path": "src/veil/integrations/_common.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/245e63e0e7bcd04bfe907765aaa955069c46abd5/src/veil/integrations/_common.py",
+      "bytes": 10757,
+      "sha256": "ded423d9741b9443adc658959487911a11e43cfe9393aa7c548651a3d99e71e7"
+    },
+    {
+      "path": "tests/test_sdk_tool_tree.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/245e63e0e7bcd04bfe907765aaa955069c46abd5/tests/test_sdk_tool_tree.py",
+      "bytes": 6981,
+      "sha256": "f6e420a24189aae4c024b050ac467a0ecb94817dd1141ff8377492139913cc38"
+    },
+    {
+      "path": "studies/tool-input-trees/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/245e63e0e7bcd04bfe907765aaa955069c46abd5/studies/tool-input-trees/README.md",
+      "bytes": 6080,
+      "sha256": "2190ea7e2f42e932e715bdbf88a605d29114584e40d18521791fd01c36ab3976"
+    },
+    {
+      "path": "studies/tool-input-trees/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/245e63e0e7bcd04bfe907765aaa955069c46abd5/studies/tool-input-trees/results/before.json",
+      "bytes": 59842,
+      "sha256": "35b04d4b079770a99b01d70c9a299d86a6b1347fdf1f0c0f57c05c5b2c3b7f84"
+    },
+    {
+      "path": "studies/tool-input-trees/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/245e63e0e7bcd04bfe907765aaa955069c46abd5/studies/tool-input-trees/results/after.json",
+      "bytes": 38970,
+      "sha256": "e1f20745ba95d1be966e001fad87a0f89c2bf4e556592386a788c561c0bf0673"
+    },
+    {
+      "path": "studies/tool-input-trees/results/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/245e63e0e7bcd04bfe907765aaa955069c46abd5/studies/tool-input-trees/results/installed-current.json",
+      "bytes": 38969,
+      "sha256": "f3251271a2ee19f338b0f2f0b8784caa4a056f9db728232eeeb75278a463b578"
+    },
+    {
+      "path": "studies/tool-input-trees/results/installed-floor.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/245e63e0e7bcd04bfe907765aaa955069c46abd5/studies/tool-input-trees/results/installed-floor.json",
+      "bytes": 38970,
+      "sha256": "8c2c677080c7e7eaf1f122905ddde2ddd875dfc1c2c503e60d251c6f2732c3ae"
+    },
+    {
+      "path": "studies/tool-input-trees/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/245e63e0e7bcd04bfe907765aaa955069c46abd5/studies/tool-input-trees/results/verification.json",
+      "bytes": 8188,
+      "sha256": "8da65578575f2dec3a8d1b646ebc2eebdf8ea7a01ad6820bf44b01bacf114cfb"
+    },
+    {
+      "path": "studies/tool-input-trees/demo.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/245e63e0e7bcd04bfe907765aaa955069c46abd5/studies/tool-input-trees/demo.py",
+      "bytes": 2825,
+      "sha256": "40db02c6e65da10277e0648b05cb8a80afcbc3f13d068f0591f1edd4b30713c3"
+    },
+    {
+      "path": "docs/assets/tool-input-trees.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/veil/245e63e0e7bcd04bfe907765aaa955069c46abd5/docs/assets/tool-input-trees.png",
+      "bytes": 118276,
+      "sha256": "5df7ae30ac0ce0a08ce0047063b34cc16ace47e422c0bdba69bddff341f2a3b8"
+    }
+  ],
+  "verification_boundary": "Pinned public source and evidence bytes; no registry release, tag or hosted deployment."
+}

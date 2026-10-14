@@ -3,12 +3,14 @@
 Four current-checkout defects were reproduced and corrected. The owner
 authorized pushes. Errorbars `b2375ec`, Veil `a67a5b6`, TraceLens `11cf372`
 and Contextscope `7782eb5`
-match their remote `main` branches; six pinned public evidence files in each
+were verified against their remote `main` branches at those commits; six pinned public evidence files in each
 of the first two repositories, eight in TraceLens and ten in Contextscope were fetched back and
 byte-compared with the tested checkouts. The
 [source receipt](evidence/integrity-source-2026-10-13.json) records URLs, sizes
 and SHA-256 hashes. No registry release, tag or manual deployment is part of
-this work. The catalogue's evidence links remain unchanged.
+this work. The catalogue's evidence links remain unchanged. Veil's subsequent
+[tool-input serialization repair](veil-tool-input-trees-2026-10-14.md) has its
+own later source receipt; the original pinned snapshots below remain historical.
 
 | Repository | Reproduction | Corrected behavior | Pushed code / evidence commits |
 | --- | --- | --- | --- |

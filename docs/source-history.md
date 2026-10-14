@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [Veil tool-input serialization repair](veil-tool-input-trees-2026-10-14.md)
+closes a reproduced privacy gap between masking and the SDK's conversion of
+tuples and custom objects to JSON. Installed current and older SDK workflows
+retain the before/after transport evidence, supported request bodies and
+preparation rollback. The source and pinned evidence are public; no package
+release or hosted deployment is claimed.
+
 The [cohort, SDK privacy, trace and prompt-history corrections](local-integrity-corrections-2026-10-13.md)
 record four reproduced defects fixed in Errorbars, Veil, TraceLens and Contextscope, with installed
 artifacts and retained before/after evidence. Their main source and pinned
