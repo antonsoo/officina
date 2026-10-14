@@ -87,6 +87,62 @@
           "sha256": "69a74742f92ac2890a4c12721c7b271e6949c1a1da9ddaa73f1de48ce6fd744e"
         }
       ]
+    },
+    {
+      "repository": "tracelens",
+      "commit": "11cf3728836a226125b9892b8e790983fa02f998",
+      "remote_main": "11cf3728836a226125b9892b8e790983fa02f998",
+      "clean": true,
+      "files": [
+        {
+          "path": "studies/field-aliases/README.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/tracelens/11cf3728836a226125b9892b8e790983fa02f998/studies/field-aliases/README.md",
+          "bytes": 6604,
+          "sha256": "7e6e1c280b4063384311f8987b8a062483f64e4589206722ac7227354f9cd5a3"
+        },
+        {
+          "path": "studies/field-aliases/results/verification.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/tracelens/11cf3728836a226125b9892b8e790983fa02f998/studies/field-aliases/results/verification.json",
+          "bytes": 2605,
+          "sha256": "5bc0306395ada64fd69ff8a5a9601e62b849e4df952894adeb69442d92a0be51"
+        },
+        {
+          "path": "studies/field-aliases/results/before.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/tracelens/11cf3728836a226125b9892b8e790983fa02f998/studies/field-aliases/results/before.json",
+          "bytes": 342316,
+          "sha256": "68062fa0d1915f12fa02cb144e6ff4e5d896cb8352a558c71d09107e1b0f209f"
+        },
+        {
+          "path": "studies/field-aliases/results/after.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/tracelens/11cf3728836a226125b9892b8e790983fa02f998/studies/field-aliases/results/after.json",
+          "bytes": 137819,
+          "sha256": "4b4ff5d3e4000814e147e80b9f7349a9eb2a5b8fd0da6eb3b46305cbf53e3d71"
+        },
+        {
+          "path": "studies/field-aliases/results/installed-current.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/tracelens/11cf3728836a226125b9892b8e790983fa02f998/studies/field-aliases/results/installed-current.json",
+          "bytes": 137819,
+          "sha256": "4b4ff5d3e4000814e147e80b9f7349a9eb2a5b8fd0da6eb3b46305cbf53e3d71"
+        },
+        {
+          "path": "studies/field-aliases/results/installed-floor.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/tracelens/11cf3728836a226125b9892b8e790983fa02f998/studies/field-aliases/results/installed-floor.json",
+          "bytes": 137820,
+          "sha256": "1087baeca57ac6c69a2bfe6dc8834f238bdd82ad2aa629de9d9d155bbae99546"
+        },
+        {
+          "path": "studies/field-aliases/results/browser-after/browser.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/tracelens/11cf3728836a226125b9892b8e790983fa02f998/studies/field-aliases/results/browser-after/browser.json",
+          "bytes": 23201,
+          "sha256": "bbcaf108b330a3e600833ffa6b96ebeb0b82b20d3b63f31c049fbd0dbefa5e0d"
+        },
+        {
+          "path": "studies/field-aliases/results/package-files.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/tracelens/11cf3728836a226125b9892b8e790983fa02f998/studies/field-aliases/results/package-files.json",
+          "bytes": 7864,
+          "sha256": "d157af3b69273386ff1264e1eb96b747256d0727f909fb99ca3970efe2a18353"
+        }
+      ]
     }
   ],
   "boundary": "Pushed main source and byte-verified evidence only; no registry release, tag or manual Pages deployment."

@@ -5,8 +5,8 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
-The [cohort and SDK privacy corrections](local-integrity-corrections-2026-10-13.md)
-record two reproduced defects fixed in Errorbars and Veil, with installed
+The [cohort, SDK privacy and trace-import corrections](local-integrity-corrections-2026-10-13.md)
+record three reproduced defects fixed in Errorbars, Veil and TraceLens, with installed
 artifacts and retained before/after evidence. Their main source and pinned
 evidence files are publicly verified; package releases and manual deployments
 are separate.
