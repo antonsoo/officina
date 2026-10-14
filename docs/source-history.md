@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [Trainspotter bfloat16 repair](trainspotter-bfloat16-scalars-2026-10-14.md)
+retains valid native TensorFlow scalar readings that the reader previously marked
+unreadable, without adding a TensorFlow runtime dependency. Actual native bytes,
+a full bit-pattern oracle, installed minimum/current packages and offline reports
+retain the correction and its scope. Source is public; PyPI and hosted updates
+remain separate.
+
 The [Ghostchars whitespace repair](ghostchars-whitespace-repair-2026-10-14.md)
 preserves word and line boundaries that automatic deletion previously erased,
 including a native JavaScript check that turned falsely green. Actual CLI,

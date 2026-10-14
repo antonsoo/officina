@@ -1,0 +1,88 @@
+{
+  "repository": "trainspotter",
+  "commit": "07426bec2f9e5ce5ba0efed76726094aab1f24bc",
+  "code_commit": "522fcbae01e9348037bac6bcf739b6c0c2b87b11",
+  "remote_main": "07426bec2f9e5ce5ba0efed76726094aab1f24bc",
+  "clean": true,
+  "files": [
+    {
+      "path": "src/trainspotter/readers/tensorboard.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/src/trainspotter/readers/tensorboard.py",
+      "bytes": 13569,
+      "sha256": "8c598169c11f9ec51bb359278334c4ca18f2b4bba32c0ce404822f265e376b1e"
+    },
+    {
+      "path": "studies/bfloat16-scalars/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/README.md",
+      "bytes": 6383,
+      "sha256": "4ab78c1ccc23cd67a2bbc0e7a65bb52944db390c506c4d757bdc9488632eb71f"
+    },
+    {
+      "path": "studies/bfloat16-scalars/fixtures/events.out.tfevents.native",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/fixtures/events.out.tfevents.native",
+      "bytes": 754,
+      "sha256": "702db370bb51cf132a66b774d1e7987a660daebd4ea8383e5b2f2825ba7d1e54"
+    },
+    {
+      "path": "studies/bfloat16-scalars/fixtures/native-all-words.f32le.gz",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/fixtures/native-all-words.f32le.gz",
+      "bytes": 90676,
+      "sha256": "0f5cac1b8d9f45ec1bb43201ddbd5302458f86356661a0d15e13aad4b0b751e0"
+    },
+    {
+      "path": "studies/bfloat16-scalars/results/native-capture.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/results/native-capture.json",
+      "bytes": 2012,
+      "sha256": "a957bd0dcc901b5a9b0d69554e965be977d25c506a15f3db42a8408daf816349"
+    },
+    {
+      "path": "studies/bfloat16-scalars/results/all-words-oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/results/all-words-oracle.json",
+      "bytes": 499,
+      "sha256": "58fd5f766c9e37156f754544ca87323f76501d8945d64aabd74013c6c62f66e0"
+    },
+    {
+      "path": "studies/bfloat16-scalars/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/results/before.json",
+      "bytes": 14016,
+      "sha256": "4355194a945a1a3e31691b795b23620a1c55b6aadb84b3cc22fbb51cc1f078ac"
+    },
+    {
+      "path": "studies/bfloat16-scalars/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/results/after.json",
+      "bytes": 12067,
+      "sha256": "ed02b6d68140baa70b597273560ea4c5c364716ad546f197c0b69b8b53fbc42b"
+    },
+    {
+      "path": "studies/bfloat16-scalars/results/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/results/installed-current.json",
+      "bytes": 12066,
+      "sha256": "f97a68d80c8a1bc19adc0b4e51205914ae97cbb327ff1853ee23f8a4b85f235e"
+    },
+    {
+      "path": "studies/bfloat16-scalars/results/installed-floor.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/results/installed-floor.json",
+      "bytes": 12068,
+      "sha256": "a3d79709e435572b57ed284b2a9e00911ee2b1df59834e545089ff72670d37a6"
+    },
+    {
+      "path": "studies/bfloat16-scalars/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/results/verification.json",
+      "bytes": 7262,
+      "sha256": "6332d6afe166edd1bf005d86a63d735133773109e394f791172af4f6fb25c334"
+    },
+    {
+      "path": "studies/bfloat16-scalars/results/browser/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/studies/bfloat16-scalars/results/browser/browser.json",
+      "bytes": 3223,
+      "sha256": "601c4f9d87dd62a88f292694aa2b51d279c39c74347dc612f32724c114047f96"
+    },
+    {
+      "path": "docs/assets/bfloat16-scalars.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/07426bec2f9e5ce5ba0efed76726094aab1f24bc/docs/assets/bfloat16-scalars.png",
+      "bytes": 140887,
+      "sha256": "92323884d883c252303cdd7f0af31e697ebbb62daa1187c70461f0a992e7da0c"
+    }
+  ],
+  "verification_boundary": "Pinned public source and evidence; no PyPI release, tag or hosted deployment."
+}
