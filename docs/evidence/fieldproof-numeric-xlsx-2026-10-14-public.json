@@ -1,0 +1,466 @@
+{
+  "checkedAt": "2026-10-14T16:45:36.447519+00:00",
+  "repository": "antonsoo/fieldproof",
+  "baselineSource": "91736cf85a79a2f3b15d967e1d01a767e0e1ed4e",
+  "implementationSource": "d23be20ff62dfc0a54c15ba8de25f60af0f32b82",
+  "publicSource": "9f14325fb674471131297dd0e1718a45369a5cba",
+  "cleanTree": true,
+  "remoteMainEqualsLocal": true,
+  "changedFiles": 64,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/CHANGELOG.md",
+      "httpStatus": 200,
+      "bytes": 31443,
+      "sha256": "62982df0f8644015f2f27d99be8b4247222bdafc86cee27413312d17ab14304c"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/README.md",
+      "httpStatus": 200,
+      "bytes": 45612,
+      "sha256": "1567f4e79cc83f212eb4babda6666ec5cd7b9f46e07b82a51a2334b79cea6e80"
+    },
+    {
+      "path": "docs/assets/numeric-xlsx/live-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/docs/assets/numeric-xlsx/live-chromium-1440.png",
+      "httpStatus": 200,
+      "bytes": 139043,
+      "sha256": "efd65e73470880c0e80a49527285d8a993d8d688bb48661d22aa573274f4fda2"
+    },
+    {
+      "path": "docs/assets/numeric-xlsx/live-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/docs/assets/numeric-xlsx/live-chromium-375.png",
+      "httpStatus": 200,
+      "bytes": 58133,
+      "sha256": "0461f1f0014d19d6c6ec84217533db3af6cba4258704d514b5345294bbb0fa59"
+    },
+    {
+      "path": "docs/assets/numeric-xlsx/native-calc.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/docs/assets/numeric-xlsx/native-calc.png",
+      "httpStatus": 200,
+      "bytes": 142116,
+      "sha256": "3df6d69fb801baeaebc32e1b7d379210db9221de2c0facade48448cdc5469007"
+    },
+    {
+      "path": "src/fieldproof/server/spreadsheet.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/src/fieldproof/server/spreadsheet.py",
+      "httpStatus": 200,
+      "bytes": 6018,
+      "sha256": "89def3a96c29c583a80c01629067b919b1dd5336f882bce53682f81684d4bc2f"
+    },
+    {
+      "path": "studies/numeric-xlsx/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/README.md",
+      "httpStatus": 200,
+      "bytes": 8954,
+      "sha256": "8513addb65d55f6bdfbfe8a652d7952359b74f3d9481aef42049cdc6b53c0d33"
+    },
+    {
+      "path": "studies/numeric-xlsx/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/browser.mjs",
+      "httpStatus": 200,
+      "bytes": 12689,
+      "sha256": "192a4671fad9151297ff16b37b0fefb203bf55d6b0f01a8597f495b83436e4b8"
+    },
+    {
+      "path": "studies/numeric-xlsx/cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/cases.json",
+      "httpStatus": 200,
+      "bytes": 1574,
+      "sha256": "7adbbf83596356bc2f82f7b85fc7a7ad9562a32df94e9bc7b43af25ff190ea54"
+    },
+    {
+      "path": "studies/numeric-xlsx/check-calc.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/check-calc.py",
+      "httpStatus": 200,
+      "bytes": 4019,
+      "sha256": "093ee68c3c0fb7306ce1ecc353ca750e8e16209c4db647593fc3a54842766856"
+    },
+    {
+      "path": "studies/numeric-xlsx/generate-browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/generate-browser.mjs",
+      "httpStatus": 200,
+      "bytes": 2399,
+      "sha256": "deb61deb2548f4049451741624e5f2b6a18e4fd36c157aac4f4d755f0dfd7b5d"
+    },
+    {
+      "path": "studies/numeric-xlsx/generate.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/generate.py",
+      "httpStatus": 200,
+      "bytes": 6639,
+      "sha256": "68658b6a627dbd97401ade2cbe62baf547eb8519dc3c826110eda64d5fba8c48"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/after.json",
+      "httpStatus": 200,
+      "bytes": 70933,
+      "sha256": "18d12753682d5b2ac1a5c80908c891d10ef55d9bd09a54df8b6df703865f4655"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/before.json",
+      "httpStatus": 200,
+      "bytes": 68977,
+      "sha256": "1b097733a2a3bb39659530e7362d8bb8f5fd8cb1683eeed3e1216f88094fb69a"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/browser.json",
+      "httpStatus": 200,
+      "bytes": 263216,
+      "sha256": "53c2ef07d0b83395392ca0743b83a98aefd28cf730aa4d8fac7a6d5465a9e4b3"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/calc-checks.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/calc-checks.json",
+      "httpStatus": 200,
+      "bytes": 60395,
+      "sha256": "ee9bb25374aadf5c44850fef376f78a64146d0ad2f03e358ddfd56513f59d07b"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/calc-raw.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/calc-raw.json",
+      "httpStatus": 200,
+      "bytes": 329573,
+      "sha256": "a1d8042651ed3e2a4bd05df8c2cfbf2e7151240e4e2b56913eb454c3def0f0eb"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/files.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/files.json",
+      "httpStatus": 200,
+      "bytes": 5582,
+      "sha256": "5574b5a6263754be3ff765808f887becf565179d7a19192bcc5d980d69476d7f"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/installed-browser-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/installed-browser-current.json",
+      "httpStatus": 200,
+      "bytes": 61490,
+      "sha256": "147d72014f5d56947c7c4c0ccb556ef6f84df3eea414674dd632e4faa9d83285"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/installed-browser-floor.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/installed-browser-floor.json",
+      "httpStatus": 200,
+      "bytes": 61490,
+      "sha256": "87a288ab0dcce01189a6227be7aaca6f4ed07833686d869d1fa165aa1e51dfa3"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/installed-current.json",
+      "httpStatus": 200,
+      "bytes": 70947,
+      "sha256": "01a40c9d2f908c7610b8bc94b4d3e8542712d99066cc1526851e85a826e83605"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/installed-floor.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/installed-floor.json",
+      "httpStatus": 200,
+      "bytes": 70954,
+      "sha256": "dfd10d07ff28378d2fdd5f8f24259ead58f8aeb8bb2d663b22da77b4b9a2b464"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/verification.json",
+      "httpStatus": 200,
+      "bytes": 348937,
+      "sha256": "a08a38b9f6614b396babaf158dc2ae84c9d1cc6a661ff873f31b96ad50a2d55a"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/02d7a6e9c41025b8e3058b7a844b5d4049a0d6436cdbd69e95862222844a1c25.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/02d7a6e9c41025b8e3058b7a844b5d4049a0d6436cdbd69e95862222844a1c25.xlsx",
+      "httpStatus": 200,
+      "bytes": 2939,
+      "sha256": "02d7a6e9c41025b8e3058b7a844b5d4049a0d6436cdbd69e95862222844a1c25"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/06165d5a28bed52b8e02a99e9650941f31c6d6caedcf424a36d4f445694d2859.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/06165d5a28bed52b8e02a99e9650941f31c6d6caedcf424a36d4f445694d2859.xlsx",
+      "httpStatus": 200,
+      "bytes": 2636,
+      "sha256": "06165d5a28bed52b8e02a99e9650941f31c6d6caedcf424a36d4f445694d2859"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/0a6ed27e8e1125c11523ec6dfb2b2be1105b765500e2006ac118c3ef26cd7c7d.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/0a6ed27e8e1125c11523ec6dfb2b2be1105b765500e2006ac118c3ef26cd7c7d.xlsx",
+      "httpStatus": 200,
+      "bytes": 2959,
+      "sha256": "0a6ed27e8e1125c11523ec6dfb2b2be1105b765500e2006ac118c3ef26cd7c7d"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/0a8a6f0128087db94447b94f6fccbef064bf94af757d19b59866d32a34c1cf70.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/0a8a6f0128087db94447b94f6fccbef064bf94af757d19b59866d32a34c1cf70.xlsx",
+      "httpStatus": 200,
+      "bytes": 2934,
+      "sha256": "0a8a6f0128087db94447b94f6fccbef064bf94af757d19b59866d32a34c1cf70"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/0af6a654a5033c6e292f3e8c6b17d463275871930e6aa3e63087abec504280ba.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/0af6a654a5033c6e292f3e8c6b17d463275871930e6aa3e63087abec504280ba.xlsx",
+      "httpStatus": 200,
+      "bytes": 1883,
+      "sha256": "0af6a654a5033c6e292f3e8c6b17d463275871930e6aa3e63087abec504280ba"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/0f7723b73eb55b9c66a8e736911c947a6aa38ef83522bb9a5eab70c0036b704b.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/0f7723b73eb55b9c66a8e736911c947a6aa38ef83522bb9a5eab70c0036b704b.xlsx",
+      "httpStatus": 200,
+      "bytes": 1883,
+      "sha256": "0f7723b73eb55b9c66a8e736911c947a6aa38ef83522bb9a5eab70c0036b704b"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/0fc47be8ecd5e72349655a61c760b7a31d022dfafc527d354f115d0e08fdedaa.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/0fc47be8ecd5e72349655a61c760b7a31d022dfafc527d354f115d0e08fdedaa.xlsx",
+      "httpStatus": 200,
+      "bytes": 2939,
+      "sha256": "0fc47be8ecd5e72349655a61c760b7a31d022dfafc527d354f115d0e08fdedaa"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/1a8b231ea9912bf558086f54227bb2062e3e4796cf8504177371f808a7ca3be7.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/1a8b231ea9912bf558086f54227bb2062e3e4796cf8504177371f808a7ca3be7.xlsx",
+      "httpStatus": 200,
+      "bytes": 2939,
+      "sha256": "1a8b231ea9912bf558086f54227bb2062e3e4796cf8504177371f808a7ca3be7"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/27f25cbe39b3480d905f3160fb9b75d492ee12e8e89abdb918bbec9c5f4dd1a8.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/27f25cbe39b3480d905f3160fb9b75d492ee12e8e89abdb918bbec9c5f4dd1a8.xlsx",
+      "httpStatus": 200,
+      "bytes": 1885,
+      "sha256": "27f25cbe39b3480d905f3160fb9b75d492ee12e8e89abdb918bbec9c5f4dd1a8"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/28ca6df98f4010001ebef1957e2b05edad0ca901533cae99682fd96ef791d831.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/28ca6df98f4010001ebef1957e2b05edad0ca901533cae99682fd96ef791d831.xlsx",
+      "httpStatus": 200,
+      "bytes": 1882,
+      "sha256": "28ca6df98f4010001ebef1957e2b05edad0ca901533cae99682fd96ef791d831"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/2cc1c34ed0c729ee9d54124ba46ec806448f973ab4ea466cb38f291b99676a69.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/2cc1c34ed0c729ee9d54124ba46ec806448f973ab4ea466cb38f291b99676a69.xlsx",
+      "httpStatus": 200,
+      "bytes": 2959,
+      "sha256": "2cc1c34ed0c729ee9d54124ba46ec806448f973ab4ea466cb38f291b99676a69"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/2e0e841f55f107a232ce1b3595dab46dd3222576d485c7d24641802f28fe97ca.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/2e0e841f55f107a232ce1b3595dab46dd3222576d485c7d24641802f28fe97ca.xlsx",
+      "httpStatus": 200,
+      "bytes": 1876,
+      "sha256": "2e0e841f55f107a232ce1b3595dab46dd3222576d485c7d24641802f28fe97ca"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/4bf514d167125674781092259b45edba297930fa45005442ee531c06f06a8c29.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/4bf514d167125674781092259b45edba297930fa45005442ee531c06f06a8c29.xlsx",
+      "httpStatus": 200,
+      "bytes": 2934,
+      "sha256": "4bf514d167125674781092259b45edba297930fa45005442ee531c06f06a8c29"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/5651207c1c981386f022b4dc68969c5c47d379dab7f636f6429c6a5bcbee342f.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/5651207c1c981386f022b4dc68969c5c47d379dab7f636f6429c6a5bcbee342f.xlsx",
+      "httpStatus": 200,
+      "bytes": 2634,
+      "sha256": "5651207c1c981386f022b4dc68969c5c47d379dab7f636f6429c6a5bcbee342f"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/59d9f114cd980736041d04daf1e94329ab6066f5a06bcf003bd69812449424dc.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/59d9f114cd980736041d04daf1e94329ab6066f5a06bcf003bd69812449424dc.xlsx",
+      "httpStatus": 200,
+      "bytes": 1884,
+      "sha256": "59d9f114cd980736041d04daf1e94329ab6066f5a06bcf003bd69812449424dc"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/6c38cdff3405020a138f7477aed0b0461941a353e4380027b9400ffb80f68631.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/6c38cdff3405020a138f7477aed0b0461941a353e4380027b9400ffb80f68631.xlsx",
+      "httpStatus": 200,
+      "bytes": 2967,
+      "sha256": "6c38cdff3405020a138f7477aed0b0461941a353e4380027b9400ffb80f68631"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/7c532057d41dad74b59213a7bd8acb9b449f2b48292d52a75895b12d890c500b.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/7c532057d41dad74b59213a7bd8acb9b449f2b48292d52a75895b12d890c500b.xlsx",
+      "httpStatus": 200,
+      "bytes": 2770,
+      "sha256": "7c532057d41dad74b59213a7bd8acb9b449f2b48292d52a75895b12d890c500b"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/8813516daeb864ca2034130591be9cb08f503710e4f1f5b066b6d8633ba5bdaa.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/8813516daeb864ca2034130591be9cb08f503710e4f1f5b066b6d8633ba5bdaa.xlsx",
+      "httpStatus": 200,
+      "bytes": 2959,
+      "sha256": "8813516daeb864ca2034130591be9cb08f503710e4f1f5b066b6d8633ba5bdaa"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/88cd0fa8a510289ee889baa37ca910df2559831edfbf8d01debd04d05a393542.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/88cd0fa8a510289ee889baa37ca910df2559831edfbf8d01debd04d05a393542.xlsx",
+      "httpStatus": 200,
+      "bytes": 1893,
+      "sha256": "88cd0fa8a510289ee889baa37ca910df2559831edfbf8d01debd04d05a393542"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/9f0cf51ae9640b63a1e40db07befb51a7550b368ae5ba6a97d8c370ba83aaa23.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/9f0cf51ae9640b63a1e40db07befb51a7550b368ae5ba6a97d8c370ba83aaa23.xlsx",
+      "httpStatus": 200,
+      "bytes": 2941,
+      "sha256": "9f0cf51ae9640b63a1e40db07befb51a7550b368ae5ba6a97d8c370ba83aaa23"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/a10ddc7f95c2f8a23a994e667ab1664a4b2f6d62937b1d9e8ca62a45ea2659ca.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/a10ddc7f95c2f8a23a994e667ab1664a4b2f6d62937b1d9e8ca62a45ea2659ca.xlsx",
+      "httpStatus": 200,
+      "bytes": 1883,
+      "sha256": "a10ddc7f95c2f8a23a994e667ab1664a4b2f6d62937b1d9e8ca62a45ea2659ca"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/a143f07ebd53a1dc219b80010cc0ae48c1ae1ad97ed102edca1687d2dc977f1a.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/a143f07ebd53a1dc219b80010cc0ae48c1ae1ad97ed102edca1687d2dc977f1a.xlsx",
+      "httpStatus": 200,
+      "bytes": 1896,
+      "sha256": "a143f07ebd53a1dc219b80010cc0ae48c1ae1ad97ed102edca1687d2dc977f1a"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/a328de3a985fa3343b92ac0099c315b99273690bc0dc03a18eeb02abc06320c8.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/a328de3a985fa3343b92ac0099c315b99273690bc0dc03a18eeb02abc06320c8.xlsx",
+      "httpStatus": 200,
+      "bytes": 1895,
+      "sha256": "a328de3a985fa3343b92ac0099c315b99273690bc0dc03a18eeb02abc06320c8"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/a5f3eff8bf4a79d3322d484f0802fb2cb1a5839fac555e9ef8dbd1518136729e.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/a5f3eff8bf4a79d3322d484f0802fb2cb1a5839fac555e9ef8dbd1518136729e.xlsx",
+      "httpStatus": 200,
+      "bytes": 1887,
+      "sha256": "a5f3eff8bf4a79d3322d484f0802fb2cb1a5839fac555e9ef8dbd1518136729e"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/aa7c02390b92f76a8a68af2c721a18630b396233b121fa85fbf4f86eb786fbd9.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/aa7c02390b92f76a8a68af2c721a18630b396233b121fa85fbf4f86eb786fbd9.xlsx",
+      "httpStatus": 200,
+      "bytes": 1883,
+      "sha256": "aa7c02390b92f76a8a68af2c721a18630b396233b121fa85fbf4f86eb786fbd9"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/b3c24a417ac3e9b2f6671b3bc125b46776376a493d1d3e6c92dfd0c9eda6d7e6.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/b3c24a417ac3e9b2f6671b3bc125b46776376a493d1d3e6c92dfd0c9eda6d7e6.xlsx",
+      "httpStatus": 200,
+      "bytes": 1883,
+      "sha256": "b3c24a417ac3e9b2f6671b3bc125b46776376a493d1d3e6c92dfd0c9eda6d7e6"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/bdf4a9c50bd42191a05b849720bf7ce05b9f50275eeadf060f122734ccf58640.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/bdf4a9c50bd42191a05b849720bf7ce05b9f50275eeadf060f122734ccf58640.xlsx",
+      "httpStatus": 200,
+      "bytes": 2970,
+      "sha256": "bdf4a9c50bd42191a05b849720bf7ce05b9f50275eeadf060f122734ccf58640"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/c8a58d4c3c179ca5e0f2c0570c1cff31dc7b9f86f2ff42e89b8d93eec2dd145c.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/c8a58d4c3c179ca5e0f2c0570c1cff31dc7b9f86f2ff42e89b8d93eec2dd145c.xlsx",
+      "httpStatus": 200,
+      "bytes": 2943,
+      "sha256": "c8a58d4c3c179ca5e0f2c0570c1cff31dc7b9f86f2ff42e89b8d93eec2dd145c"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/ca3a156a3776518d1b9d24d62fd604627f8172346d2f5f2aae4904c1dcb86991.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/ca3a156a3776518d1b9d24d62fd604627f8172346d2f5f2aae4904c1dcb86991.xlsx",
+      "httpStatus": 200,
+      "bytes": 1877,
+      "sha256": "ca3a156a3776518d1b9d24d62fd604627f8172346d2f5f2aae4904c1dcb86991"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/ee444b6008a503cc20604d77985c5b4d7296d6a28dd698495ea64b6695bc430c.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/ee444b6008a503cc20604d77985c5b4d7296d6a28dd698495ea64b6695bc430c.xlsx",
+      "httpStatus": 200,
+      "bytes": 2826,
+      "sha256": "ee444b6008a503cc20604d77985c5b4d7296d6a28dd698495ea64b6695bc430c"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/f0b1984bd78fbb253a31425b18971ff2cd2583b4556b87d8326998bc11b6d445.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/f0b1984bd78fbb253a31425b18971ff2cd2583b4556b87d8326998bc11b6d445.xlsx",
+      "httpStatus": 200,
+      "bytes": 2970,
+      "sha256": "f0b1984bd78fbb253a31425b18971ff2cd2583b4556b87d8326998bc11b6d445"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/f1f6af3bff411faece584e7e19c0d3054ae260df377847e3e0309c7d11380564.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/f1f6af3bff411faece584e7e19c0d3054ae260df377847e3e0309c7d11380564.xlsx",
+      "httpStatus": 200,
+      "bytes": 1892,
+      "sha256": "f1f6af3bff411faece584e7e19c0d3054ae260df377847e3e0309c7d11380564"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/f9de2ef96431f10c65b42fa340dfcf7c38038f718d6d740712c6b18c897c384c.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/f9de2ef96431f10c65b42fa340dfcf7c38038f718d6d740712c6b18c897c384c.xlsx",
+      "httpStatus": 200,
+      "bytes": 2940,
+      "sha256": "f9de2ef96431f10c65b42fa340dfcf7c38038f718d6d740712c6b18c897c384c"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/workbooks/ffac0367b4c2b2e4fa9c1c9dc3c5bc62586963759795a1464e815f0ab2821d09.xlsx",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/workbooks/ffac0367b4c2b2e4fa9c1c9dc3c5bc62586963759795a1464e815f0ab2821d09.xlsx",
+      "httpStatus": 200,
+      "bytes": 2967,
+      "sha256": "ffac0367b4c2b2e4fa9c1c9dc3c5bc62586963759795a1464e815f0ab2821d09"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/writer-after-browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/writer-after-browser.json",
+      "httpStatus": 200,
+      "bytes": 4999,
+      "sha256": "2dbcbdd18e654c8ae92dbf207b10625f04821d9a1fb200465d98c8fd4182acfa"
+    },
+    {
+      "path": "studies/numeric-xlsx/results/writer-before-browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/results/writer-before-browser.json",
+      "httpStatus": 200,
+      "bytes": 4850,
+      "sha256": "62e09b301e7e72858060f7ad3c253261b3682b1f107cfff9e77a421a19e6c8fa"
+    },
+    {
+      "path": "studies/numeric-xlsx/show-calc.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/numeric-xlsx/show-calc.py",
+      "httpStatus": 200,
+      "bytes": 1302,
+      "sha256": "adfc225a9e36d4f3f6e369c2f3df9cd312841a53a80fc95d45658456d236321a"
+    },
+    {
+      "path": "studies/spreadsheet-export/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/studies/spreadsheet-export/README.md",
+      "httpStatus": 200,
+      "bytes": 7579,
+      "sha256": "33587b6bfb6653f80efbc8f086a96ffea4fa9e0bc2e9e2a567fcfefde5f1ca80"
+    },
+    {
+      "path": "tests/test_spreadsheet.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/tests/test_spreadsheet.py",
+      "httpStatus": 200,
+      "bytes": 3656,
+      "sha256": "1afd2b3f07526d2bf2fbc64611ca15e3b3dd9f71ae68ccf84cf48f7ebd1c9765"
+    },
+    {
+      "path": "web/src/spreadsheet.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/web/src/spreadsheet.test.ts",
+      "httpStatus": 200,
+      "bytes": 2835,
+      "sha256": "3a78759b9854cbff613894fd9b8920a2d7c06fe6d0e7710a5cd7f9523002c373"
+    },
+    {
+      "path": "web/src/spreadsheet.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/9f14325fb674471131297dd0e1718a45369a5cba/web/src/spreadsheet.ts",
+      "httpStatus": 200,
+      "bytes": 4759,
+      "sha256": "cb9103e88d6c681f417c9764ef095faca6d098ee3921f27e77fd9b040d02031a"
+    }
+  ],
+  "ghPages": {
+    "before": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "after": "4563246758c22d13e9af8bd68ed46e3482e588e1",
+    "unchanged": true
+  },
+  "status": "Source pushed and immutable public bytes verified. No PyPI release, tag, manual deployment or remote CI result claimed."
+}
