@@ -1,0 +1,221 @@
+{
+  "checkedAt": "2026-10-14T16:04:10.374758+00:00",
+  "repository": "antonsoo/logdelta",
+  "baselineSource": "9e34dd6287cecf6f985f563a65422a5a178c1824",
+  "implementationSource": "00aaff63ec576f8ba0d10aa95e75957be126e649",
+  "publicSource": "fad282595b202c1be1153015ec0a52fb9061f09a",
+  "cleanTree": true,
+  "remoteMainEqualsLocal": true,
+  "changedFiles": 29,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/CHANGELOG.md",
+      "httpStatus": 200,
+      "bytes": 29104,
+      "sha256": "a78ce57f44edb387f9d00a89a93b8fedbd67f25342daca70d17f2148c301b234"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/README.md",
+      "httpStatus": 200,
+      "bytes": 43028,
+      "sha256": "934a7c0cb4f862017ccd4d1b4fd1665a0a11c0a1bff687a85814db6a589d0136"
+    },
+    {
+      "path": "docs/assets/json-members/after-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/docs/assets/json-members/after-chromium-1440.png",
+      "httpStatus": 200,
+      "bytes": 212879,
+      "sha256": "93e0f34674a9bdc56029983c36a8b95a53981450a9eec07768be52e60ab9abfc"
+    },
+    {
+      "path": "docs/assets/json-members/after-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/docs/assets/json-members/after-chromium-375.png",
+      "httpStatus": 200,
+      "bytes": 166318,
+      "sha256": "1e62b8b6531fc90ed26f9a069cd2642bb9dabd95fe7871fc67ce347817c06f3e"
+    },
+    {
+      "path": "docs/assets/json-members/after-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/docs/assets/json-members/after-firefox-1440.png",
+      "httpStatus": 200,
+      "bytes": 332453,
+      "sha256": "169b5dcfde7528ef68ee3d9db0a8bfb3bf75b38f59bbfe260439bfc5b9c5cf81"
+    },
+    {
+      "path": "docs/assets/json-members/after-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/docs/assets/json-members/after-firefox-375.png",
+      "httpStatus": 200,
+      "bytes": 260675,
+      "sha256": "d1ba0d0fbea7491f3604b450c0e319dcb40f03f06c2afb59e63f53bd3d030ed6"
+    },
+    {
+      "path": "docs/assets/json-members/before-chromium-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/docs/assets/json-members/before-chromium-1440.png",
+      "httpStatus": 200,
+      "bytes": 191173,
+      "sha256": "9b25a5c171f14ddc8f4062187a3f635e1e3e3e99c14b6faef68234986c36fb98"
+    },
+    {
+      "path": "docs/assets/json-members/before-chromium-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/docs/assets/json-members/before-chromium-375.png",
+      "httpStatus": 200,
+      "bytes": 146433,
+      "sha256": "fb79b72a06bbacef421b365fa7f6f89b1c299f46aa521bb1ef207744a64edae4"
+    },
+    {
+      "path": "docs/assets/json-members/before-firefox-1440.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/docs/assets/json-members/before-firefox-1440.png",
+      "httpStatus": 200,
+      "bytes": 300224,
+      "sha256": "3cb12221458b56e1884eecaae5e354ab9ba41c0e9c419b3d2ce03ae8f6905759"
+    },
+    {
+      "path": "docs/assets/json-members/before-firefox-375.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/docs/assets/json-members/before-firefox-375.png",
+      "httpStatus": 200,
+      "bytes": 236485,
+      "sha256": "c232bafc2c7dc2cbcda2b3f26f4b56f8a39775dc79a6080d1c1e603949dcd5d3"
+    },
+    {
+      "path": "src/json_value.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/src/json_value.rs",
+      "httpStatus": 200,
+      "bytes": 3262,
+      "sha256": "8d9ba3ec71159ba06f35c4145509333e6c3cf8a6a1691112746be4cd75d2beb0"
+    },
+    {
+      "path": "src/lib.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/src/lib.rs",
+      "httpStatus": 200,
+      "bytes": 2296,
+      "sha256": "97673204e9cb682db2e1d9402c53fc64f984d1560216c419080417d0c6a16972"
+    },
+    {
+      "path": "src/mask.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/src/mask.rs",
+      "httpStatus": 200,
+      "bytes": 45735,
+      "sha256": "a4a2751606bd6b79e46c3a13d218716ed2d3a83b76fdb90b005b637c8457878b"
+    },
+    {
+      "path": "studies/json-members/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/README.md",
+      "httpStatus": 200,
+      "bytes": 8564,
+      "sha256": "a3a65bd25e6a07f0806c65b8923950c64bc7f5ded2661ac8e85c6f3b1ede1a1c"
+    },
+    {
+      "path": "studies/json-members/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/browser.mjs",
+      "httpStatus": 200,
+      "bytes": 8106,
+      "sha256": "afc77c5f28aab192172cb783ee76ee05a28d935c7a667017b4c0b01aa1d5e175"
+    },
+    {
+      "path": "studies/json-members/cases.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/cases.json",
+      "httpStatus": 200,
+      "bytes": 4223,
+      "sha256": "9833f26080591d63aa9adfc2fedcbec61af6fa4e666fcbfc975abc664c529953"
+    },
+    {
+      "path": "studies/json-members/consumer.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/consumer.rs",
+      "httpStatus": 200,
+      "bytes": 1061,
+      "sha256": "7a6441a8b7bb8350bb831ea4a519e0ec7ec8a53c4d7aa820be85797e607a3952"
+    },
+    {
+      "path": "studies/json-members/replay-corpus.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/replay-corpus.py",
+      "httpStatus": 200,
+      "bytes": 3255,
+      "sha256": "e303d21b991f15141bfbe01407e05b46c87682b0e508a5c7d1f0a517503a4b34"
+    },
+    {
+      "path": "studies/json-members/replay-wasm.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/replay-wasm.mjs",
+      "httpStatus": 200,
+      "bytes": 2118,
+      "sha256": "1c39782a236e4d120ad27fc595ffe3f653c3c09af9e1594dde2b990609a06b94"
+    },
+    {
+      "path": "studies/json-members/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/replay.py",
+      "httpStatus": 200,
+      "bytes": 6274,
+      "sha256": "63c41f9d4f40182ce1d001f111e9abbe26f89b928f9cd1f1e7799067c487db29"
+    },
+    {
+      "path": "studies/json-members/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/results/after.json",
+      "httpStatus": 200,
+      "bytes": 205090,
+      "sha256": "5a8901e10fd6ac647ac0dce6da32f485e618aa7f10ac81770dce2bf55eca1bfc"
+    },
+    {
+      "path": "studies/json-members/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/results/before.json",
+      "httpStatus": 200,
+      "bytes": 75482,
+      "sha256": "540ddabece63a2e28a36a3bf13a59d3925d3eee54dca4759a4217ecdaac34a98"
+    },
+    {
+      "path": "studies/json-members/results/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/results/browser.json",
+      "httpStatus": 200,
+      "bytes": 178199,
+      "sha256": "98bd967476b3f6101c76b61e64dcaa6b55883fefe8a384d642ed4e8c92a61462"
+    },
+    {
+      "path": "studies/json-members/results/corpus.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/results/corpus.json",
+      "httpStatus": 200,
+      "bytes": 301154,
+      "sha256": "78da5ed695c281f0c00127b545920559f6bee960c495297bf7eb10dccb12e742"
+    },
+    {
+      "path": "studies/json-members/results/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/results/installed-current.json",
+      "httpStatus": 200,
+      "bytes": 205102,
+      "sha256": "67f4fc63257b6b0d23d0a30922f0aecabf066b0c27d7d46b0353079d5f6fc456"
+    },
+    {
+      "path": "studies/json-members/results/installed-floor.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/results/installed-floor.json",
+      "httpStatus": 200,
+      "bytes": 205100,
+      "sha256": "a7f48b88ad8571e36fab1832badf3869cd641ed9f0272bc967b0b925a9762041"
+    },
+    {
+      "path": "studies/json-members/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/results/verification.json",
+      "httpStatus": 200,
+      "bytes": 132418,
+      "sha256": "dd0ed101216c02e6306ef0d276ffbd54ff0ebacbb763dcdcf5cceb10d3a803a3"
+    },
+    {
+      "path": "studies/json-members/results/wasm.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/studies/json-members/results/wasm.json",
+      "httpStatus": 200,
+      "bytes": 17817,
+      "sha256": "1406fb7984d4e2f1e248971f266eab13aad62edbeec10e308395a78882af31ed"
+    },
+    {
+      "path": "tests/json_members.rs",
+      "url": "https://raw.githubusercontent.com/antonsoo/logdelta/fad282595b202c1be1153015ec0a52fb9061f09a/tests/json_members.rs",
+      "httpStatus": 200,
+      "bytes": 3187,
+      "sha256": "4a3a2a8ac12e135a67a7b92ac9642a0457c776379bfeb94cd5cbb433c0239542"
+    }
+  ],
+  "ghPages": {
+    "before": "f8c1e783c0d9b7e024f8d6c9f4ca554e389d4bdb",
+    "after": "f8c1e783c0d9b7e024f8d6c9f4ca554e389d4bdb",
+    "unchanged": true
+  },
+  "status": "Source pushed and immutable public bytes verified. No crates.io release, tag, manual deployment or remote CI result claimed."
+}
