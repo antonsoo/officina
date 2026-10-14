@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [Fieldproof mixed-page OCR addition](fieldproof-mixed-page-ocr-2026-10-14.md)
+keeps native evidence while explicitly recognizing missing-text pages in the
+same PDF. Actual engine words and boxes, installed dependency floors/current
+packages, failure preservation and exact default-report comparisons retain the
+new capability and its limits. Source is public; package and hosted updates
+remain separate.
+
 The [Logdelta stdin and Gnomon hour-curve corrections](logdelta-stdin-and-gnomon-hours-2026-10-14.md)
 prevent exhausted streams from masquerading as independent samples and restore
 previously omitted afternoon and long-day sundial curves. Installed native pipes,

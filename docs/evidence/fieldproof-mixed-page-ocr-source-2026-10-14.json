@@ -1,0 +1,136 @@
+{
+  "verifiedAtUtc": "2026-10-14T11:03:02.135062+00:00",
+  "repository": "https://github.com/antonsoo/fieldproof",
+  "sourceHead": "91736cf85a79a2f3b15d967e1d01a767e0e1ed4e",
+  "remoteMain": "91736cf85a79a2f3b15d967e1d01a767e0e1ed4e",
+  "cleanCheckout": true,
+  "files": [
+    {
+      "path": "src/fieldproof/cli.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/src/fieldproof/cli.py",
+      "bytes": 10954,
+      "sha256": "dc3b269f25e278207da9869d09e02f25998a69f0592d9406f15fdf5160af157b",
+      "matchesCheckout": true
+    },
+    {
+      "path": "src/fieldproof/document/ocr.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/src/fieldproof/document/ocr.py",
+      "bytes": 9408,
+      "sha256": "d37c80e6e9503b6070e127c91d1149a974b624dbf2be8de3db981f8283850902",
+      "matchesCheckout": true
+    },
+    {
+      "path": "src/fieldproof/document/model.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/src/fieldproof/document/model.py",
+      "bytes": 4578,
+      "sha256": "567fddb039a0a4267a2fc6404f4f5a2f09afd2150ed31c3ddc27a5652c67c2e4",
+      "matchesCheckout": true
+    },
+    {
+      "path": "tests/test_mixed_page_ocr.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/tests/test_mixed_page_ocr.py",
+      "bytes": 7332,
+      "sha256": "f1cd103c6d34dc9034d7dfa2d1e3ea84b88c9ec5c313efaa6d338438291f7f31",
+      "matchesCheckout": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/README.md",
+      "bytes": 45157,
+      "sha256": "effd6bb59485eafae031297c410dfa1adac77c6f908f288e77dc61cfe4b0752d",
+      "matchesCheckout": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/CHANGELOG.md",
+      "bytes": 30736,
+      "sha256": "28e4a33b10e7b00a3d50fe5ce0af581c26a559f47cf2df4a824d285848c9bcfd",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/README.md",
+      "bytes": 4719,
+      "sha256": "884315b4e7dff5117b2d016e0a2b0a96ed1468450f5385a7338e756cd3502407",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/verification.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/verification.md",
+      "bytes": 5579,
+      "sha256": "568a05546c774f471ac4d6f32f8bb130947a6811d30db93d5beeb3c872d839ea",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/replay.py",
+      "bytes": 7196,
+      "sha256": "a09d09ba7b1e6d631dae2edfa84e90b69e890435caa02838ce98ea88c9c6194c",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/oracle.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/oracle.py",
+      "bytes": 5355,
+      "sha256": "13847cb6ef94cef2ce9f181d97f1e4c53575a1d28eba1a5d94c9e2da1e51c3e3",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/inputs/mixed.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/inputs/mixed.pdf",
+      "bytes": 18096,
+      "sha256": "d7c9fac542dc0cda6dd7ce0b168f96c2b5c7155170939b192ca8364e6b8be960",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/results/artifact-verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/results/artifact-verification.json",
+      "bytes": 6160,
+      "sha256": "a464412d9e4c48ea7b83b8fbabb939499df43497e82ab155cc9951d75b140f0f",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/results/installed-current/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/results/installed-current/results.json",
+      "bytes": 19193,
+      "sha256": "0fd66f5e9df54b8723e66a26c5220783675dfa36982f5e265009a1ffdb54c507",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/results/installed-floor/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/results/installed-floor/results.json",
+      "bytes": 19150,
+      "sha256": "f6c58fd7518e78c570e4bd150c304e4e6a028435b792f33f1023a7a8bb6540e7",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/results/oracle-current/results.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/results/oracle-current/results.json",
+      "bytes": 1805,
+      "sha256": "48f40bcba6bbee1dac4bf8da9411fb6c0be2578af71c4b5bffbccf91df8907bf",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/results/core-only.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/results/core-only.json",
+      "bytes": 187,
+      "sha256": "8070c0f285d388d9477644adc064622602d522e845d403c045cf87fa79bce267",
+      "matchesCheckout": true
+    },
+    {
+      "path": "studies/mixed-page-ocr/results/installed-server.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/studies/mixed-page-ocr/results/installed-server.json",
+      "bytes": 4622,
+      "sha256": "47253cfe8a4eb8ed3775010de32ddedbb9d3b81e99faeea26b054bd6ca3a9c66",
+      "matchesCheckout": true
+    },
+    {
+      "path": "docs/assets/mixed-page-ocr.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/fieldproof/91736cf85a79a2f3b15d967e1d01a767e0e1ed4e/docs/assets/mixed-page-ocr.png",
+      "bytes": 121013,
+      "sha256": "9b1b20feebd0e6c60c62d222b4c6395bc590eada5ad174d6b5d5466311be8dff",
+      "matchesCheckout": true
+    }
+  ],
+  "scope": "Public source and retained evidence at an immutable commit. No package release, hosted deployment or general OCR accuracy claim."
+}
