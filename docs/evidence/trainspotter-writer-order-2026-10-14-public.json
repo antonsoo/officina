@@ -1,0 +1,445 @@
+{
+  "checkedAt": "2026-10-14T19:48:58.854865+00:00",
+  "repository": "antonsoo/trainspotter",
+  "baselineSource": "07426bec2f9e5ce5ba0efed76726094aab1f24bc",
+  "implementationSource": "ca931aa6293f9241c317ff5bc18e286995667520",
+  "publicSource": "71d76a3fa0f50af0a0b5b57e5819be50f2c0b966",
+  "cleanTree": true,
+  "remoteMainEqualsLocal": true,
+  "changedFiles": 61,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/CHANGELOG.md",
+      "httpStatus": 200,
+      "bytes": 26399,
+      "sha256": "42a7efedd9596bf5d2a66bdba11ccd07968dbea22f466775d6e08cb5298ddc8c"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/README.md",
+      "httpStatus": 200,
+      "bytes": 42104,
+      "sha256": "9d286c9ae53beaaae0574e60cb5d5e6fb6453a7ab75eebec935b1e1e713018da"
+    },
+    {
+      "path": "docs/assets/writer-order/chromium-1440-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/docs/assets/writer-order/chromium-1440-after.png",
+      "httpStatus": 200,
+      "bytes": 95063,
+      "sha256": "85417d48e1e05f0d6fea7f48bc0986c56fc24fcecf7fab7d53f324cf6739cde9"
+    },
+    {
+      "path": "docs/assets/writer-order/chromium-1440-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/docs/assets/writer-order/chromium-1440-before.png",
+      "httpStatus": 200,
+      "bytes": 66492,
+      "sha256": "1220cc7c35210b9964b57118114f9bc4e703d778ed82cacd28d6b78e9bb5630b"
+    },
+    {
+      "path": "docs/assets/writer-order/chromium-375-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/docs/assets/writer-order/chromium-375-after.png",
+      "httpStatus": 200,
+      "bytes": 92725,
+      "sha256": "e473edb50db21ebf2d9a057cc30eddeb70b72a28bcb5e7c4f4f72444548a93a5"
+    },
+    {
+      "path": "docs/assets/writer-order/chromium-375-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/docs/assets/writer-order/chromium-375-before.png",
+      "httpStatus": 200,
+      "bytes": 64305,
+      "sha256": "eddf9d546d32190f5f01f28504327175bf13a0ba80a0ab1a2559cd2f97ebfecc"
+    },
+    {
+      "path": "docs/assets/writer-order/firefox-1440-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/docs/assets/writer-order/firefox-1440-after.png",
+      "httpStatus": 200,
+      "bytes": 108451,
+      "sha256": "184ef36c5da20054ebc58bb6126275648d006dfe107360e97ae74c7aa76425cb"
+    },
+    {
+      "path": "docs/assets/writer-order/firefox-1440-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/docs/assets/writer-order/firefox-1440-before.png",
+      "httpStatus": 200,
+      "bytes": 76719,
+      "sha256": "3da576509c616be2e1fb39e4c71d1d7560dfea550312ad089f537298da0f3768"
+    },
+    {
+      "path": "docs/assets/writer-order/firefox-375-after.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/docs/assets/writer-order/firefox-375-after.png",
+      "httpStatus": 200,
+      "bytes": 100494,
+      "sha256": "9b5d158816d208542e4a6bc3f6241c293079732822bb60b9c72c0b4e6d53cebc"
+    },
+    {
+      "path": "docs/assets/writer-order/firefox-375-before.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/docs/assets/writer-order/firefox-375-before.png",
+      "httpStatus": 200,
+      "bytes": 70024,
+      "sha256": "33fb3176607c3d77367007575fa6a028e7dd9c3f3277a8284d05b1613a78ba01"
+    },
+    {
+      "path": "docs/input-integrity.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/docs/input-integrity.md",
+      "httpStatus": 200,
+      "bytes": 18457,
+      "sha256": "2f53d031da2555e530a87f5a7ee3963ff2919d57b6ae89ea8ffd6fe4dc5d1196"
+    },
+    {
+      "path": "src/trainspotter/readers/tensorboard.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/src/trainspotter/readers/tensorboard.py",
+      "httpStatus": 200,
+      "bytes": 17214,
+      "sha256": "5b94496234ab00f6943965b556e1d9da1425d1cf6d462025b5f368d7e4e0153e"
+    },
+    {
+      "path": "studies/writer-order/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/README.md",
+      "httpStatus": 200,
+      "bytes": 8236,
+      "sha256": "d9b70172d8f1fc4a02447512f53966549d138b3824371299de3e86365dd61cbb"
+    },
+    {
+      "path": "studies/writer-order/browser.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/browser.mjs",
+      "httpStatus": 200,
+      "bytes": 3629,
+      "sha256": "813628882172d984fb99eda0d6d1a7d7b65f7a876cc10971ee7dde4b1787ebe4"
+    },
+    {
+      "path": "studies/writer-order/capture.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/capture.py",
+      "httpStatus": 200,
+      "bytes": 2812,
+      "sha256": "6237a313331716fb464015bc669fed12da959d8775a1323e47d289d50f281030"
+    },
+    {
+      "path": "studies/writer-order/fixtures/controlled-capture.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/controlled-capture.json",
+      "httpStatus": 200,
+      "bytes": 6328,
+      "sha256": "e7443863d42844cf28d39d7cac0c8b54926a819ef29023637d324bbb78729555"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.0",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.0",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "945d409871d3fab34eb2875447496a083c8909c9aa8870eab2afbce1639834cb"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.1",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.1",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "a5ec7362ce1d348ff84dd9a8e705203650382342c8fa5d5bac1798d2b41fc7f8"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.10",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.10",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "5b3337b0085ca4f7f06e9740b38072653159960e08d9c840f91e056571c5fdcc"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.11",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.11",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "cb00d2e0afa1ef4d90d884dfcb94eaaf491c69b80b909c2cc2e4772d22769196"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.2",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.2",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "f027fede04ab0518730628a7325d12fb0e4d92eec03af41db798ed8a7cb2362b"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.3",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.3",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "2b187cc80c07e8f5b230a458b26c7e5688a838b5f85f958f6d184684ae22cc27"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.4",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.4",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "a30d981a2b8a550824c1ad1242372e9060fb2539b2b698498d3410b57389b9ff"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.5",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.5",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "e4ec04b2681ca54f2330fb04bb1da506cfe331536b97a72c5525ef501783f616"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.6",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.6",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "2f4ef01503990ebb8c0a35e61c176997d1fad8eb3b3f02451f23ecbb46679581"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.7",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.7",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "2d84b4230f2cfa3ac6558efa7dec8a6f86de347495f4ca351550c5107a35a427"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.8",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.8",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "dbfa28071bc1bf4c173b80c4381df2454148af05c0c15ba2843c987cc5d29bbf"
+    },
+    {
+      "path": "studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.9",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/latest-nonfinite/events.out.tfevents.1790000000.omnia.1945302.9",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "5014666fe54ea3d00d5c6b7179b2d037087f21f8120fe27eb84ffb9a464972da"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native-capture.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native-capture.json",
+      "httpStatus": 200,
+      "bytes": 800,
+      "sha256": "cf2bf662d3098f07186fb3861056c3b84b7168984525f24592dc93326bf10c6d"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.0",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.0",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "2c7d1102c3a9464ec4bc1e71a6a59e2f18ee4b9c202ec3932d60f93982b5873d"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.1",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.1",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "cf0ef769b518df59f26e81bf43b69e9e21f07c4661f3163a7f30a5f8fa3e1caa"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.10",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.10",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "625cf3f597c836871ef7671d6e89b3cf3a6f89255d28d0e0844609fe28e71270"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.11",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.11",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "a23b70ea1b8bbf42987945eb298e980f21128b6c230734febc9a711f35f7c2fe"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.2",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.2",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "dcda9e7d3350148308dab263218d2bbb7e39912cf90d2dac1f6ecaa0ac93319f"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.3",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.3",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "91de363bf5345f33ad0df88c32a3b7b7be2444557f60d8978c295243de6e08a1"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.4",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.4",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "21dd087853ca7d72b6697a59c37299b69d939bd2ed8698fe30b0cbb1887234d6"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.5",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.5",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "ce61c92e033f2fb20f613dc05b8b03948b13e46da82620ee7639382a1c96cdce"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.6",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.6",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "d238d7daba2cc05cb3aa8690dd42e1a0aa2a1062df962293fae34dae9a0ce0fc"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.7",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.7",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "157426ec52b0a6598ecb17781053acd36a2dab9039e7aa445f4c8670e8fc1547"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.8",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.8",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "f618d88e8131dcdfc8f64d9e933df2c5beeb1c1b3744dedfc03be30687d6a46f"
+    },
+    {
+      "path": "studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.9",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/native/events.out.tfevents.1792004379.omnia.1935735.9",
+      "httpStatus": 200,
+      "bytes": 157,
+      "sha256": "6f65e15a772a37bae13f2343d982d11818f4b98087bab53b39523d341157b44e"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.0",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.0",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "945d409871d3fab34eb2875447496a083c8909c9aa8870eab2afbce1639834cb"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.1",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.1",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "a5ec7362ce1d348ff84dd9a8e705203650382342c8fa5d5bac1798d2b41fc7f8"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.10",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.10",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "5b3337b0085ca4f7f06e9740b38072653159960e08d9c840f91e056571c5fdcc"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.11",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.11",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "b495a48fc91d88d38b2a9abaa74794bdf0e22199b4f3aa10d6bd9517bc67b521"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.2",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.2",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "f027fede04ab0518730628a7325d12fb0e4d92eec03af41db798ed8a7cb2362b"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.3",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.3",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "2b187cc80c07e8f5b230a458b26c7e5688a838b5f85f958f6d184684ae22cc27"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.4",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.4",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "a30d981a2b8a550824c1ad1242372e9060fb2539b2b698498d3410b57389b9ff"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.5",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.5",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "e4ec04b2681ca54f2330fb04bb1da506cfe331536b97a72c5525ef501783f616"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.6",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.6",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "2f4ef01503990ebb8c0a35e61c176997d1fad8eb3b3f02451f23ecbb46679581"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.7",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.7",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "2d84b4230f2cfa3ac6558efa7dec8a6f86de347495f4ca351550c5107a35a427"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.8",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.8",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "dbfa28071bc1bf4c173b80c4381df2454148af05c0c15ba2843c987cc5d29bbf"
+    },
+    {
+      "path": "studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.9",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/fixtures/stale-nonfinite/events.out.tfevents.1790000000.omnia.1945302.9",
+      "httpStatus": 200,
+      "bytes": 1786,
+      "sha256": "d3044c064d01141c45401067376efdd920ec92e0f5ca21bfd440d2be19124b65"
+    },
+    {
+      "path": "studies/writer-order/replay.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/replay.py",
+      "httpStatus": 200,
+      "bytes": 9889,
+      "sha256": "781583ea01019c3c3121ed6142c79c7e0bd3f06b6adf588aff7684ad5fccee49"
+    },
+    {
+      "path": "studies/writer-order/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/results/after.json",
+      "httpStatus": 200,
+      "bytes": 397880,
+      "sha256": "00821ef86574898f7010a54f5ce0f55de2c18c5de13d326527ea10ae08beb2a0"
+    },
+    {
+      "path": "studies/writer-order/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/results/before.json",
+      "httpStatus": 200,
+      "bytes": 373844,
+      "sha256": "0683187e3832e494d513cf8f0710b42c7778bc78589594e96e2afb917c47622d"
+    },
+    {
+      "path": "studies/writer-order/results/browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/results/browser.json",
+      "httpStatus": 200,
+      "bytes": 7999,
+      "sha256": "423f52fa361b3ff113ee6a9fa9665c83eeaf75bff84d03cb853dd8db23f0b054"
+    },
+    {
+      "path": "studies/writer-order/results/installed-current.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/results/installed-current.json",
+      "httpStatus": 200,
+      "bytes": 6886,
+      "sha256": "70c98c5bfd1d29c321c98245a8198943e7423f16a8f2681902d5a9c05baf847e"
+    },
+    {
+      "path": "studies/writer-order/results/installed-floor.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/results/installed-floor.json",
+      "httpStatus": 200,
+      "bytes": 6888,
+      "sha256": "e7cb7a66dacf00ceb18c4a7af8937112c6894a14bbd27b3a4a6d135a1237f8d0"
+    },
+    {
+      "path": "studies/writer-order/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/studies/writer-order/results/verification.json",
+      "httpStatus": 200,
+      "bytes": 183730,
+      "sha256": "00a131530037dd891d5209b291403b317ae1d39f3b9af8fa45d100d982b34ed3"
+    },
+    {
+      "path": "tests/test_writer_order.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/trainspotter/71d76a3fa0f50af0a0b5b57e5819be50f2c0b966/tests/test_writer_order.py",
+      "httpStatus": 200,
+      "bytes": 4818,
+      "sha256": "a65b3f988c608f6b0a9cff609e6ba98e1d45400b02d7c406269c6da643c941d2"
+    }
+  ],
+  "ghPages": {
+    "before": "62d47fa508e7b47afdc6816f0a3310a1cf97a400",
+    "after": "62d47fa508e7b47afdc6816f0a3310a1cf97a400",
+    "unchanged": true
+  },
+  "status": "Source pushed and immutable public bytes verified. No PyPI release, tag, manual deployment or remote CI result claimed."
+}
