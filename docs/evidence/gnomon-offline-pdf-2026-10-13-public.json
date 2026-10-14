@@ -1,0 +1,145 @@
+{
+  "repository": "https://github.com/antonsoo/gnomon",
+  "baselineCommit": "c65635585a50ccf16bb261861a4b46e28a6efccf",
+  "sourceCommit": "12e072d4ed5772c2614c6ecff76314b208d136ac",
+  "clean": true,
+  "remoteBefore": {
+    "refs/heads/gh-pages": "f93715227e8643db081fb0ba379eb610ac5ea893",
+    "refs/heads/main": "c65635585a50ccf16bb261861a4b46e28a6efccf"
+  },
+  "remoteAfter": {
+    "refs/heads/gh-pages": "f93715227e8643db081fb0ba379eb610ac5ea893",
+    "refs/heads/main": "12e072d4ed5772c2614c6ecff76314b208d136ac"
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/CHANGELOG.md",
+      "bytes": 9193,
+      "sha256": "2499be07f5504eb666a00020bb27277c2ea25a4701e6ff608790a056ed3669e6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/README.md",
+      "bytes": 16265,
+      "sha256": "49d5a511ac3791a471fd70231879a3ff652d27103b10d879086397394fa26662",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/offline-pdf/chromium-1440-a4.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/docs/assets/offline-pdf/chromium-1440-a4.png",
+      "bytes": 28997,
+      "sha256": "909ea2c02b67a1dfb68452f1b697262b2516842504052f9ccde73abb711aabb5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/assets/offline-pdf/firefox-375-letter.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/docs/assets/offline-pdf/firefox-375-letter.png",
+      "bytes": 43385,
+      "sha256": "08e140d0eb30aacfd16add12676e59a2a2b7478edb95dc6af5145853c895ea5f",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "docs/design-file-verification.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/docs/design-file-verification.md",
+      "bytes": 6149,
+      "sha256": "0ec5b5910fab91d303974720b8a74079ba8fb1b20bf2a85d632f77aa731b2966",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "src/main.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/src/main.ts",
+      "bytes": 44801,
+      "sha256": "0bd8750fef211c19c7bc6a050f6464ed5371bd559aabe04f5144728155186080",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/README.md",
+      "bytes": 5138,
+      "sha256": "334d03bbf3253c4c9edf5b549716f9319f8841adc7da19841a9e360f1e9f4488",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/after-offline.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/after-offline.json",
+      "bytes": 6956,
+      "sha256": "782beb0b6d8eeb4946faac16494002a0ee54a167621aee38820f40ddde474758",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/before-failures.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/before-failures.json",
+      "bytes": 1604,
+      "sha256": "0c6f70243fd6d7b5b0cde8c1dfbfaf5748b4686abf4c428329b9d9ddce6f1cdc",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/before-online.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/before-online.json",
+      "bytes": 7130,
+      "sha256": "f5d054cf60b145a19f59ab5ef8398312893e7d9f57ec7ed90d097900b6eaf64b",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/checks.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/checks.json",
+      "bytes": 896,
+      "sha256": "a3d3448967dc53d83e2701c9e0ee0881cf8fe6816592616a3ad56eb7efeda674",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/clean-browsers.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/clean-browsers.txt",
+      "bytes": 11003,
+      "sha256": "fcaa4a2e05edbd90f711a4ffeb8193e4326701690d0c744599ce73167040d0df",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/clean-checks.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/clean-checks.txt",
+      "bytes": 3618,
+      "sha256": "a9dcba31931b412b2fe3188d10b4122f26403408deee7b037d1ba4cbb72a8208",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/downloads.tar.xz",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/downloads.tar.xz",
+      "bytes": 82656,
+      "sha256": "e6624d4ccecec983dad16da8f6f05bfa9e778681448ce74b1875750b213e86d6",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/replay.mjs",
+      "bytes": 5402,
+      "sha256": "bf9622e4d2df5294614409d332727a3860e9c3783a1c622490ee5fa4a7ec4b5d",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/verification.json",
+      "bytes": 20065,
+      "sha256": "3025141bb51fcffa294fec77127b77a5c7294cd8cdcab5dac4737ec5a57cd3d1",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "studies/offline-pdf/verify.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/studies/offline-pdf/verify.py",
+      "bytes": 5090,
+      "sha256": "7682889b6bf8869d2716987cc218393e385de238673b9d8de675ea0152963ec5",
+      "publicBytesMatch": true
+    },
+    {
+      "path": "tests/browser/designer.spec.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/12e072d4ed5772c2614c6ecff76314b208d136ac/tests/browser/designer.spec.mjs",
+      "bytes": 21238,
+      "sha256": "d91e3955223776224738e69f5c1ae0fae4ab60d0ff639053540aa495ed1a2dcc",
+      "publicBytesMatch": true
+    }
+  ],
+  "fileCount": 18,
+  "bytes": 319586,
+  "scope": "Source main only; no package release, tag change or hosted deployment."
+}

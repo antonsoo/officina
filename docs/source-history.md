@@ -253,3 +253,7 @@ impossible length, and restores selection of a healthy sibling run.
 The [Gnomon editable-design workflow](gnomon-design-files-2026-10-13.md)
 saves and reopens construction settings and the selected clock minute, with
 actual offline reloads, unchanged drawings and four portable example files.
+
+The [Gnomon first-offline-PDF repair](gnomon-offline-pdf-2026-10-13.md)
+makes A4 and Letter exports work after disconnecting without an earlier PDF
+warmup, with unchanged drawing bytes and an explicit initial-load cost.
