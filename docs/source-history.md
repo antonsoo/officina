@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [Horologium forward-date correction](horologium-forward-dates-2026-10-15.md)
+rejects impossible supplied month/day fields instead of selecting another date.
+Independent boundaries, installed package consumers and exact valid-output
+replays retain the correction; offline clock readouts stay the same. Source and
+all changed public bytes are verified, with registry and hosted updates separate.
+
 The [ToneMirror first-loop correction](tonemirror-loop-entry-2026-10-15.md)
 starts practice playback inside the chosen passage and moves running audio into
 a later selection. Native rendered samples, actual offline controls and exact

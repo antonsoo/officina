@@ -1,0 +1,198 @@
+{
+  "checked_at_utc": "2026-10-15T05:12:43.353895+00:00",
+  "repository": "horologium",
+  "head": "48adbe3a063a13c16474515370bbbcfc79b8b3f1",
+  "remote_main": "48adbe3a063a13c16474515370bbbcfc79b8b3f1",
+  "worktree_clean": true,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/CHANGELOG.md",
+      "bytes": 13706,
+      "sha256": "96e46858fc7ab984d208f045e42db324b323d57a53306e0aff39fe3b9b1e849d",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/README.md",
+      "bytes": 14629,
+      "sha256": "a02a8fb0047ce381a7f72bbe86b257806df9e1c0f3c887ed7849866676fa4ef6",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "biome.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/biome.json",
+      "bytes": 998,
+      "sha256": "498dcb91bd2ab6696c0384435a4d7919cc0cd96b16bc083cb614bfe66cd06bd1",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "docs/assets/forward-dates.ansi",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/docs/assets/forward-dates.ansi",
+      "bytes": 261,
+      "sha256": "90dff9c469dbdfcc2d6504c9c04e4dc79e7eeb01da9d183893f5a28a53971ca6",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "docs/assets/forward-dates.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/docs/assets/forward-dates.png",
+      "bytes": 102426,
+      "sha256": "74386c6d0036af45955f7652d4e9a7c5118dd626db18c7384a9d0c8ada113c5a",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "examples/forward-dates.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/examples/forward-dates.mjs",
+      "bytes": 1003,
+      "sha256": "b5a44f46f2f71c10df893fa65c10ca70ff93e836ac3e43119bf070dfa8ec9616",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "src/lib/coptic.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/src/lib/coptic.ts",
+      "bytes": 7582,
+      "sha256": "fdb63ad25a977b5f1bc9abbc86328e18da3b9475d59ad247afd419ad561884e5",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "src/lib/core/jd.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/src/lib/core/jd.ts",
+      "bytes": 6811,
+      "sha256": "578bdd64a63a5c43ea74548fef9123e3ec67403017e5ec289358bb4b43b31100",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "src/lib/core/validation.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/src/lib/core/validation.ts",
+      "bytes": 2887,
+      "sha256": "9e303a82caf4f322538de1ce7339befd9749fa45f778b0ebd66e0b0fb6e83a02",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "src/lib/egyptian.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/src/lib/egyptian.ts",
+      "bytes": 8104,
+      "sha256": "7b90b039ab17d2cb5b1be8656edd59eea9b9072ced171f550407fbff0899ea6d",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "src/lib/hebrew.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/src/lib/hebrew.ts",
+      "bytes": 16495,
+      "sha256": "eab6b8492a6393eaeea2bd0a8503e40559b4f3d58589035d71bcc48343cfd94c",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "src/lib/islamic.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/src/lib/islamic.ts",
+      "bytes": 5789,
+      "sha256": "c622dd922f4eb17f5723b3b4e6e8436200a4719628f10d59d3eef7de4c85555c",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "src/lib/zoroastrian.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/src/lib/zoroastrian.ts",
+      "bytes": 4292,
+      "sha256": "cbd5bf265562efb58b4c3fb05b00302834f68523386bba1e02f07d856aabae40",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/date-inputs/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/date-inputs/README.md",
+      "bytes": 6303,
+      "sha256": "ca62a3ff9de36b6af98c4a0086a6bc5c6e7950c4a2d07ad3abb129b60da07d29",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/README.md",
+      "bytes": 7332,
+      "sha256": "3b7705485485722bbe6e94163fd136d08c76cc6b8d47cf55527467f6bea17043",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/months.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/months.json",
+      "bytes": 69644,
+      "sha256": "1fe6aec9878ba006e7af4a2d029cb435461beaac6449de3dcc7075d704c04b91",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/oracle.py",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/oracle.py",
+      "bytes": 2199,
+      "sha256": "5b542cdc97eb1da63fdd08f252690c04a07b1aa6b118d1f2370a1eec3c5b3596",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/replay.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/replay.mjs",
+      "bytes": 9727,
+      "sha256": "e6181bd4aeb177d78037bb67d01b63b91413e39de228402635ee7ee4c00920a6",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/results/after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/results/after.json",
+      "bytes": 465418,
+      "sha256": "10b22f24c86133a5b1113cecca8822fc258926477d4dbd864187eebbb0597875",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/results/before.json",
+      "bytes": 491922,
+      "sha256": "078a270b9583795cff8e46f177abe4985fcb40c662c1c97f4fbe081336f0b8b8",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/results/clock-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/results/clock-after.json",
+      "bytes": 25032,
+      "sha256": "8fd484272a8a8b424075b63ec8ef90e50894ba3f92275496c02c48e3a42f4c48",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/results/clock-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/results/clock-before.json",
+      "bytes": 25032,
+      "sha256": "a563719fa1a2eca8be2bad36109ced72fea99afca2c74783e80d9380dd81d60c",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/results/installed-node20.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/results/installed-node20.json",
+      "bytes": 465418,
+      "sha256": "5d6adbdb7e05b2ff0f5f83b2c96c1a598a2087a48dc87fdb24997a688c30a186",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/results/installed-node24.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/results/installed-node24.json",
+      "bytes": 465419,
+      "sha256": "03f26e27f8a2f858caeeb2519cace377667ca3fff0eba9b0df8f18056b8f10e3",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "studies/forward-dates/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/studies/forward-dates/results/verification.json",
+      "bytes": 28926,
+      "sha256": "e79c71cf5212aa1d70d4877b58336df7caf30509bad2d32e9af957483cbad65c",
+      "public_bytes_equal": true
+    },
+    {
+      "path": "tests/forward-dates.test.ts",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/48adbe3a063a13c16474515370bbbcfc79b8b3f1/tests/forward-dates.test.ts",
+      "bytes": 3860,
+      "sha256": "8320b4968b73217612ad17d0a1ca7c87fa2943eb53042cdeb8fdd6e40586df4c",
+      "public_bytes_equal": true
+    }
+  ],
+  "boundary": {
+    "source_pushed": true,
+    "registry_release_performed": false,
+    "version_tag_created": false,
+    "manual_hosted_deployment_performed": false,
+    "remote_ci_status_claimed": false
+  }
+}
