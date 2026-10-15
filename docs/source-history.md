@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [MCP process-lifecycle and privacy-audit corrections](process-lifecycle-and-audit-cost-2026-10-15.md)
+stop npm-launched servers and helpers after collection or interruption, and
+remove a reproduced long-value bottleneck from Veil's exact leak checks.
+Installed artifacts, independent controls and pinned public bytes retain both
+results. Registry versions and hosted builds remain separate.
+
 The [PDF visibility, binary inference and log identity corrections](evidence-and-inference-2026-10-15.md)
 prevent unpainted text from verifying visible claims, scale exact binary
 comparisons while retaining tiny positive probabilities, and preserve application
