@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [retrieval privacy and report chronology corrections](retrieval-and-report-chronology-2026-10-15.md)
+close an Anthropic inline-search masking gap and a metadata-placement-dependent
+false flake gate. Actual SDK captures, installed artifacts and offline reports
+retain before/after evidence. Both source revisions and pinned evidence bytes
+are public; package releases and hosted updates remain separate.
+
 The [mailbox, trace-status, HTTP audit and first offline analysis corrections](privacy-status-and-http-limits-2026-10-15.md)
 close partial email masking, false error improvements, oversized-response audit
 aborts and a cold-import loading failure. Actual SDK transports, native trace

@@ -1,0 +1,168 @@
+{
+  "checked_at_utc": "2026-10-15T04:14:42.683435+00:00",
+  "repositories": [
+    {
+      "repository": "veil",
+      "head": "f8a7892217c8296160273a83b7b779b962214cd8",
+      "remote_main": "f8a7892217c8296160273a83b7b779b962214cd8",
+      "worktree_clean": true,
+      "files": [
+        {
+          "path": "src/veil/integrations/anthropic.py",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/f8a7892217c8296160273a83b7b779b962214cd8/src/veil/integrations/anthropic.py",
+          "bytes": 25792,
+          "sha256": "3f27a9955ce49c788bf2d3e97babbe8e197ac15d3c1c939c50a198595411a821",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/search-results/README.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/f8a7892217c8296160273a83b7b779b962214cd8/studies/search-results/README.md",
+          "bytes": 6450,
+          "sha256": "4e22b1bab3ac80c0fbda2099f44e76f26c022c19e6f5ce6349d459e6b418c0aa",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/search-results/capture.py",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/f8a7892217c8296160273a83b7b779b962214cd8/studies/search-results/capture.py",
+          "bytes": 3606,
+          "sha256": "2cc5c53d0c6f5d03468dbfa42e699ad924d16cdcf12cdbcac80c4ec61a824925",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/search-results/results/before.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/f8a7892217c8296160273a83b7b779b962214cd8/studies/search-results/results/before.json",
+          "bytes": 54582,
+          "sha256": "ee40f38a2d6f8eea8aef72fd74f6cc73b0274b660edfd256563e2e131b425ea9",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/search-results/results/after.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/f8a7892217c8296160273a83b7b779b962214cd8/studies/search-results/results/after.json",
+          "bytes": 49837,
+          "sha256": "eefac17bbb90f135a1fc7e8858f21d72e3d665394a6393c95f584051915a9b02",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/search-results/results/installed.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/f8a7892217c8296160273a83b7b779b962214cd8/studies/search-results/results/installed.json",
+          "bytes": 49827,
+          "sha256": "1e70f6518893ca8ec79daec71236a7bd1b55f786d2306c26df5626cb4071c3e5",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/search-results/results/minimum.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/f8a7892217c8296160273a83b7b779b962214cd8/studies/search-results/results/minimum.json",
+          "bytes": 49871,
+          "sha256": "dbe5b43693fbea77ad3f8ad768d0894ce1c815d0f2858be2c040ac72c02ee938",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/search-results/results/verification.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/f8a7892217c8296160273a83b7b779b962214cd8/studies/search-results/results/verification.json",
+          "bytes": 2277,
+          "sha256": "74f5b4aa810e3b835dfdce8007c4666acceb6b71735f1e0f26ccd9d56e24e880",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "docs/assets/search-results.png",
+          "url": "https://raw.githubusercontent.com/antonsoo/veil/f8a7892217c8296160273a83b7b779b962214cd8/docs/assets/search-results.png",
+          "bytes": 113915,
+          "sha256": "4934bf39bf9957807eb81038ea86304bd0c5a0a52d23696aea719ca72f6ce584",
+          "public_bytes_equal": true
+        }
+      ]
+    },
+    {
+      "repository": "flakemap",
+      "head": "3b0eecd7cfd0846f6b24af569b99c5ff86bca426",
+      "remote_main": "3b0eecd7cfd0846f6b24af569b99c5ff86bca426",
+      "worktree_clean": true,
+      "files": [
+        {
+          "path": "src/flakemap/loader.py",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/src/flakemap/loader.py",
+          "bytes": 5594,
+          "sha256": "0a3df63fd86191101f896e9b71e3453abc702293c94cf38cf7b24c2f4c38bf42",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/report-sequences/README.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/studies/report-sequences/README.md",
+          "bytes": 5606,
+          "sha256": "4be1643a0e9a9c5675fefa91ca27e2cf815c5d2befb3e14731dd3c29d08351d8",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/report-sequences/capture.py",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/studies/report-sequences/capture.py",
+          "bytes": 7090,
+          "sha256": "e489f4cb5897c8eb4362728102ddd9776dd644e89653e1d3c7219084eb3e8adb",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/report-sequences/results/before.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/studies/report-sequences/results/before.json",
+          "bytes": 21761,
+          "sha256": "3f6662ece46c764be570b42dba15a331fec1b2da3e0d8b566982531b97f79a4e",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/report-sequences/results/after.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/studies/report-sequences/results/after.json",
+          "bytes": 23125,
+          "sha256": "e58b38b8ac9325abc95fd12c6d02a1cf3e2483ce13e8eeb483526a3b63a6968d",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/report-sequences/results/installed.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/studies/report-sequences/results/installed.json",
+          "bytes": 23125,
+          "sha256": "e58b38b8ac9325abc95fd12c6d02a1cf3e2483ce13e8eeb483526a3b63a6968d",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/report-sequences/results/minimum.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/studies/report-sequences/results/minimum.json",
+          "bytes": 23125,
+          "sha256": "e58b38b8ac9325abc95fd12c6d02a1cf3e2483ce13e8eeb483526a3b63a6968d",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/report-sequences/results/verification.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/studies/report-sequences/results/verification.json",
+          "bytes": 4768,
+          "sha256": "c46c47e8b4efb070e72b5ccb3da386ed3b33ee5e1e9e82dec24bbbed8abc0855",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "studies/report-sequences/results/browser.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/studies/report-sequences/results/browser.json",
+          "bytes": 17525,
+          "sha256": "551c5e735a258759c29bc0eb27a9785642e1e067f6463957d1be2f35e8bd9122",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "docs/assets/report-sequences/before.png",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/docs/assets/report-sequences/before.png",
+          "bytes": 154662,
+          "sha256": "b07be187f9f613e4db5595aba7a0114cf907a66d03396dada3203cea34f0ccd0",
+          "public_bytes_equal": true
+        },
+        {
+          "path": "docs/assets/report-sequences/after.png",
+          "url": "https://raw.githubusercontent.com/antonsoo/flakemap/3b0eecd7cfd0846f6b24af569b99c5ff86bca426/docs/assets/report-sequences/after.png",
+          "bytes": 172448,
+          "sha256": "5b951a31a9e437d53f35e3122ea418eae75f8d45da695c0097100f110b865e14",
+          "public_bytes_equal": true
+        }
+      ]
+    }
+  ],
+  "boundary": {
+    "source_pushed_and_public_bytes_verified": true,
+    "package_release": false,
+    "version_tag_created": false,
+    "manual_hosted_deployment": false,
+    "remote_ci_result_claimed": false
+  }
+}
