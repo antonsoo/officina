@@ -39,5 +39,4 @@ screenshots were inspected.
 [Public-byte verification](https://github.com/antonsoo/splitscope/blob/b9613093cc4bf9de0996501b07136f15c54a64c9/studies/opaque-xml/results/publication.json)
 covers all 25 changed implementation/evidence files; the final remote HEAD and
 receipt documentation bytes were also checked. No registry release, tag or
-manual hosted deployment was made. This completes one of the two further
-improvements being investigated in the continuing solo work.
+manual hosted deployment was made.
