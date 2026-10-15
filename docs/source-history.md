@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [Trainspotter JSONL record correction](trainspotter-jsonl-records-2026-10-15.md)
+preserves rejected records on ordinal axes, removing unsupported cross-gap
+diagnoses and keeping valid later events. Actual CLI, installed wheels, live
+watch and offline report downloads retain the result. Source is public;
+registry releases and hosted deployments remain separate.
+
 The [Splitscope XML annotation correction](splitscope-opaque-xml-2026-10-15.md)
 preserves timing records and literal names that raw icon/settings preprocessing
 previously erased. Independent XML equivalence, unchanged public histories,
