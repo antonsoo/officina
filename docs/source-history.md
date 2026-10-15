@@ -8,6 +8,8 @@ For the catalogue and setup, return to the [README](../README.md).
 The [MCP process-lifecycle and privacy-audit corrections](process-lifecycle-and-audit-cost-2026-10-15.md)
 stop npm-launched servers and helpers after collection or interruption, and
 remove a reproduced long-value bottleneck from Veil's exact leak checks.
+Known whole values also stay distinct from new PII, preserving genuine outside
+and boundary-crossing candidates and the caller's detector selection.
 Installed artifacts, independent controls and pinned public bytes retain both
 results. Registry versions and hosted builds remain separate.
 
