@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [partial-cohort and trace-inspection corrections](inspection-and-cohorts-2026-10-15.md)
+retain usable Errorbars leaderboards, preserve ambiguous TraceLens evidence,
+reduce repeated message decoding and keep phone details near long timelines.
+Installed artifacts, before/after captures and pinned public bytes retain the
+results. The TraceLens site is deployed and byte-verified; registry releases
+remain separate.
+
 The [Horologium forward-date correction](horologium-forward-dates-2026-10-15.md)
 rejects impossible supplied month/day fields instead of selecting another date.
 Independent boundaries, installed package consumers and exact valid-output
