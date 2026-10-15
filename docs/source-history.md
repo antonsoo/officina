@@ -5,11 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
-The [mailbox, trace-status and HTTP audit corrections](privacy-status-and-http-limits-2026-10-15.md)
-close partial email masking, false error improvements and oversized-response
-audit aborts. Actual SDK transports, native trace captures, installed CLIs and
-offline reports retain the before/after behavior and limits. Their source and
-pinned byte receipts are public; registry releases and hosted updates are separate.
+The [mailbox, trace-status, HTTP audit and first offline analysis corrections](privacy-status-and-http-limits-2026-10-15.md)
+close partial email masking, false error improvements, oversized-response audit
+aborts and a cold-import loading failure. Actual SDK transports, native trace
+captures, installed CLIs, real HTTP cache faults and offline reports retain the
+before/after behavior and limits. Their source and pinned byte receipts are
+public; registry releases and hosted updates are separate.
 
 The [Fieldproof mixed-page OCR addition](fieldproof-mixed-page-ocr-2026-10-14.md)
 keeps native evidence while explicitly recognizing missing-text pages in the
