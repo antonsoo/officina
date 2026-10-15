@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [Veil whole-value privacy repairs](veil-whole-value-masking-2026-10-15.md)
+close partial IDNA mailbox masking, heuristic misses of temporary AWS key IDs
+and exposed encoded JWT identity claims. Native fixtures, actual SDK bodies
+and independent wheel installations retain the before/after evidence. Source
+and the live demo are byte-verified, including hosted offline workflows in both
+browser engines; the PyPI package remains unchanged.
+
 The [partial-cohort and trace-inspection corrections](inspection-and-cohorts-2026-10-15.md)
 retain usable Errorbars leaderboards, preserve ambiguous TraceLens evidence,
 reduce repeated message decoding and keep phone details near long timelines.
