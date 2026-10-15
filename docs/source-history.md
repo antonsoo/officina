@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [PDF visibility, binary inference and log identity corrections](evidence-and-inference-2026-10-15.md)
+prevent unpainted text from verifying visible claims, scale exact binary
+comparisons while retaining tiny positive probabilities, and preserve application
+fields mistaken for Docker payloads. Installed artifacts, independent controls
+and offline browser downloads retain the results. All three source changes and
+their pinned public bytes are verified; registry and hosted updates are separate.
+
 The [Veil whole-value privacy repairs](veil-whole-value-masking-2026-10-15.md)
 close partial IDNA mailbox masking, heuristic misses of temporary AWS key IDs
 and exposed encoded JWT identity claims. Native fixtures, actual SDK bodies
