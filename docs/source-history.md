@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [Splitscope XML annotation correction](splitscope-opaque-xml-2026-10-15.md)
+preserves timing records and literal names that raw icon/settings preprocessing
+previously erased. Independent XML equivalence, unchanged public histories,
+offline downloads and explicit validation-cost measurements retain the result.
+Source is public; hosted and registry updates remain separate.
+
 The [MCP process-lifecycle and privacy-audit corrections](process-lifecycle-and-audit-cost-2026-10-15.md)
 stop npm-launched servers and helpers after collection or interruption, and
 remove a reproduced long-value bottleneck from Veil's exact leak checks.
