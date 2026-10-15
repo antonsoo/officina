@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [ToneMirror first-loop correction](tonemirror-loop-entry-2026-10-15.md)
+starts practice playback inside the chosen passage and moves running audio into
+a later selection. Native rendered samples, actual offline controls and exact
+WAV exports retain the before/after result. Source and all changed public bytes
+are verified; hosted-build state remains separate.
+
 The [retrieval privacy and report chronology corrections](retrieval-and-report-chronology-2026-10-15.md)
 close an Anthropic inline-search masking gap and a metadata-placement-dependent
 false flake gate. Actual SDK captures, installed artifacts and offline reports
