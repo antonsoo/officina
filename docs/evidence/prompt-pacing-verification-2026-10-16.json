@@ -1,0 +1,349 @@
+{
+  "testedSource": "d8d3dc4e664a2cb51e115a26c69db5b79fa37cea",
+  "scope": "Clean source archive and local catalogue links to the separately hosted Stutterscope. Public catalogue and registry status are separate.",
+  "sourceArchive": {
+    "bytes": 6481920,
+    "sha256": "ae8d560c7e7a70cadd7205c4ac7ad4351390af438b959beb8af5f9c41268b543"
+  },
+  "checks": {
+    "install": {
+      "command": "npm ci",
+      "exitCode": 0,
+      "bytes": 280,
+      "sha256": "067d1f864087bde4487074f37a91c7374f69149b6bba28c50aa45bf380143cf9"
+    },
+    "catalogue": {
+      "command": "npm run check:catalogue",
+      "exitCode": 0,
+      "bytes": 116,
+      "sha256": "814b71c1e58e85c17fd7e3d026ee92db30ab6f3f33ff548f8c9ed24a57d64ec5"
+    },
+    "lint": {
+      "command": "npm run lint",
+      "exitCode": 0,
+      "bytes": 54,
+      "sha256": "c336c0c23af68580ba2412afb84098c84ed7584c1f97aaf572c97ad1da77f514"
+    },
+    "format": {
+      "command": "npm run format:check",
+      "exitCode": 0,
+      "bytes": 121,
+      "sha256": "36a9d7aec8b4ac3961feadf24f3204b9402f4943f417a95fe2b7cfde691d6d9c"
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "bytes": 61,
+      "sha256": "ba7752f0d3ed33b9cc33a51c56a96dcb3a28cfcdd9f4ca95e5f37df925c4ce8a"
+    },
+    "unit": {
+      "command": "npm test",
+      "exitCode": 0,
+      "bytes": 4197,
+      "sha256": "577212d6f3c148d81529357905cdc49adf538193992de0b968828193ac1ad90f"
+    },
+    "build": {
+      "command": "npm run build",
+      "exitCode": 0,
+      "bytes": 1779,
+      "sha256": "ed4de243330df1e12c68b0690448f2379eb66cb2ad061f3536690d98fef43851"
+    },
+    "browser": {
+      "command": "npm run test:browser",
+      "exitCode": 0,
+      "bytes": 6770,
+      "sha256": "849ce9a6767ebc6e4a8081bbf815be7978c3c6b09299aea55528182ab465cef5"
+    }
+  },
+  "unitChecks": 32,
+  "browserChecks": 32,
+  "sourceInputs": {
+    "LICENSE": {
+      "bytes": 1071,
+      "sha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647"
+    },
+    "README.md": {
+      "bytes": 3893,
+      "sha256": "81c718a33833de3ab0ee40daf4fb59bc77927d3041e4f39db107d9e8c3b3c6ab"
+    },
+    "index.html": {
+      "bytes": 2566,
+      "sha256": "26b340043c634ea33e35226d8922aaa0801d24e4b6cdec1f95d7a6d089fcbe20"
+    },
+    "package-lock.json": {
+      "bytes": 91864,
+      "sha256": "f3e7233c401628878ca65315add7a098c831ca92e1da0b1eab0ec2a978e537a4"
+    },
+    "package.json": {
+      "bytes": 1191,
+      "sha256": "6b329b3e56b39c78e9aeb5ef27a45aa6c652010a12fd5d5507bb790fb1cbd9a8"
+    },
+    "public/projects.json": {
+      "bytes": 13556,
+      "sha256": "bb0e31b1727037817cef7bb2574f70d626d5c5ad22c27d41682dbfa92b4dd086"
+    },
+    "public/thumbs/am-i-unlucky.webp": {
+      "bytes": 50866,
+      "sha256": "39ff2d0c8675e84c7ca3e6c0d5069ca0673ffcf45e3a093a12e26cbed75f3098"
+    },
+    "public/thumbs/contextscope.webp": {
+      "bytes": 26732,
+      "sha256": "3c33cee084944abaabc8689ae3a8a17ff6bfe1a7fc3cb4af14206fce82c1ef14"
+    },
+    "public/thumbs/errorbars.webp": {
+      "bytes": 56488,
+      "sha256": "8ffe22f0fdf20fd3a86a8b1d6643d7bfa6f00c62f9f59b522a5c3a67cb664bea"
+    },
+    "public/thumbs/fieldproof.webp": {
+      "bytes": 41964,
+      "sha256": "af706cc6f615fbd132306f7bcef840ee83f2fbb8cd0f98fc29b193255bf7ed58"
+    },
+    "public/thumbs/flakemap.webp": {
+      "bytes": 81202,
+      "sha256": "218f034dfd10a2e5384e57c37ef98f5be9279577da024dc38e9058d61fd6648b"
+    },
+    "public/thumbs/ghostchars.webp": {
+      "bytes": 48854,
+      "sha256": "7877a7702865b581ef1636f0c9791a76220f7e2c6cb8114aa5ee9d8f89c26b09"
+    },
+    "public/thumbs/gnomon.webp": {
+      "bytes": 47748,
+      "sha256": "68a4763760719d7f6180c8493c9a374e7f8634b41facc5a636e44358ba95418d"
+    },
+    "public/thumbs/horologium.webp": {
+      "bytes": 40948,
+      "sha256": "98a65c11675733f82012623c1a56d4b7d186b34a29fecf53e62b46ef55c35c0e"
+    },
+    "public/thumbs/logdelta.webp": {
+      "bytes": 83590,
+      "sha256": "e278b2c36581463e0158274c92dc8846333333a28959a64682c3b33fe7d9cf4e"
+    },
+    "public/thumbs/mcplint.webp": {
+      "bytes": 28052,
+      "sha256": "15e1dbd58a1c5cef03d17df6c4dd4c7f5a3ecaff1c4866b25d0971929df67c27"
+    },
+    "public/thumbs/planisphere.webp": {
+      "bytes": 67870,
+      "sha256": "480fe5e8f80f8bca11a27b2b7b0be7b8ccbf29a77bca5e1b4b03b394b8a493a0"
+    },
+    "public/thumbs/splitscope.webp": {
+      "bytes": 50776,
+      "sha256": "85b48a91a72bf5c4813ff241d7e585f2272d35d0831a3cf4e018d628f60b8657"
+    },
+    "public/thumbs/stutterscope.webp": {
+      "bytes": 31402,
+      "sha256": "19e1f5dbad568d21c78d4058f225aa3cd204b83f410ef1a66dd12c716a00743d"
+    },
+    "public/thumbs/tonemirror.webp": {
+      "bytes": 35572,
+      "sha256": "ae85f4eae2ea7fdb3dddb6b4249300334f2f9cacd32d7f204cea20dfa8cc27f3"
+    },
+    "public/thumbs/tracelens.webp": {
+      "bytes": 46602,
+      "sha256": "0be8d7e359d1fda6e277c310ffb35514bb2012d68d1d74fa3754962a583fb488"
+    },
+    "public/thumbs/trainspotter.webp": {
+      "bytes": 41066,
+      "sha256": "941dfe076b4a3350067e4e295b53e544676bcbe9b0138f515c7db47292b734e6"
+    },
+    "public/thumbs/veil.webp": {
+      "bytes": 35162,
+      "sha256": "b6a6a2acd2cb09b841f934dea90e7965206e5e8a3c408da023ff9b085c5d672a"
+    },
+    "src/catalogue.ts": {
+      "bytes": 4393,
+      "sha256": "164fadaac4c796b0adf0d9cf91f52d2f2ecc8598d138fc3df6521384e6181b4e"
+    },
+    "src/fonts/LICENSE.txt": {
+      "bytes": 9357,
+      "sha256": "b3c3eed9bdd480a930c3ea0df24b4abdfa0879ea09937c2b6628be4992b99773"
+    },
+    "src/fonts/cinzel-latin-ext.woff2": {
+      "bytes": 14540,
+      "sha256": "8fc2606f8ae6c569f444e138dba052d9a6e3f0657f9031796503bbb94eced600"
+    },
+    "src/fonts/cinzel-latin.woff2": {
+      "bytes": 25904,
+      "sha256": "09941fb1c169c38fd414536b37690057fc01b3117a5c63dd6571186540c8f370"
+    },
+    "src/fonts/eb-garamond-cyrillic-ext.woff2": {
+      "bytes": 33948,
+      "sha256": "7738b6004721f3d23e4e284b1055120f0ac1fd96fd01e5786b58b3042998876c"
+    },
+    "src/fonts/eb-garamond-cyrillic.woff2": {
+      "bytes": 26024,
+      "sha256": "197ed98b8524dd8664aefb5d5ef4ca515d2df1ef90d3f771e19cb0893b95cc2b"
+    },
+    "src/fonts/eb-garamond-greek-ext.woff2": {
+      "bytes": 11484,
+      "sha256": "3cd432d0dc2b756e69eea4325fd40f3515a31753445238f7fb5d349588192511"
+    },
+    "src/fonts/eb-garamond-greek.woff2": {
+      "bytes": 19868,
+      "sha256": "f6475b2f7530f248b5d3a0237d97dc2e1987665153dcb888fbeea3b0f9019b56"
+    },
+    "src/fonts/eb-garamond-italic-cyrillic-ext.woff2": {
+      "bytes": 35424,
+      "sha256": "5a7499fae103446ed709a2aaab7dbabb13ad1841a5258c0dd5b56750067ac2f1"
+    },
+    "src/fonts/eb-garamond-italic-cyrillic.woff2": {
+      "bytes": 26520,
+      "sha256": "640020b01622b1c76c8f4137a3f39608fa22d718e17cb3e1d972e69c755ff6e0"
+    },
+    "src/fonts/eb-garamond-italic-greek-ext.woff2": {
+      "bytes": 11956,
+      "sha256": "4caf65dfd9a97861e20565bcec00273c1e157af7eb4f6af7bd61f3462feb7e09"
+    },
+    "src/fonts/eb-garamond-italic-greek.woff2": {
+      "bytes": 19588,
+      "sha256": "288deb73f6a27a306138997d310e4efbfba9bb623eca0829be0e4475ff164b71"
+    },
+    "src/fonts/eb-garamond-italic-latin-ext.woff2": {
+      "bytes": 88576,
+      "sha256": "fa866520f8b7fb646ebc730fd0d3cbf8945db74d92f25fdd6fee486808652fdf"
+    },
+    "src/fonts/eb-garamond-italic-latin.woff2": {
+      "bytes": 47940,
+      "sha256": "c664773f7e1d42d36326aa457becf7674236168c74cf7d74e87e5778ef7640f9"
+    },
+    "src/fonts/eb-garamond-italic-vietnamese.woff2": {
+      "bytes": 11016,
+      "sha256": "b086ea6d8bc9bc670c11015f13df0776c430b6c26a78a73b4dce9ddb423623c1"
+    },
+    "src/fonts/eb-garamond-latin-ext.woff2": {
+      "bytes": 113928,
+      "sha256": "f8d3fa06e20989a938972165406a1b731cdc7fe33ff2b0b6798c75aa63709901"
+    },
+    "src/fonts/eb-garamond-latin.woff2": {
+      "bytes": 44336,
+      "sha256": "88603384163d301aebd5bd769832a8bfe3c9004ec24178417b9817f0ad32c63b"
+    },
+    "src/fonts/eb-garamond-vietnamese.woff2": {
+      "bytes": 10952,
+      "sha256": "af68d0b256558e0fecffabca6696d47c78902249db6bc7e1ac9964980a610a77"
+    },
+    "src/fonts/fonts.css": {
+      "bytes": 13371,
+      "sha256": "612c28bf673c512ee75ce20e7ff5fee2eb591f0b6069334841f7c95812b5e640"
+    },
+    "src/main.ts": {
+      "bytes": 9060,
+      "sha256": "7791eb23d7d61b85fd3d738b52cbfa7857474e2969196fc6e9c5c7dc4bd6647b"
+    },
+    "src/style.css": {
+      "bytes": 9776,
+      "sha256": "c55b7b7821ed0d80966cfa4e0afdff0d065c55e3cc61c3ee541c7a94aaa15f88"
+    },
+    "src/types.ts": {
+      "bytes": 714,
+      "sha256": "f8d94b3dc8b363847f414388925cd1d151b834c482dd047b87491b993d3e4dbf"
+    },
+    "tsconfig.json": {
+      "bytes": 624,
+      "sha256": "37576eb59c18a9b7e0f1eac0b4d01a561da876229a96618470a974c77c3f56ce"
+    },
+    "vite.config.ts": {
+      "bytes": 314,
+      "sha256": "3373c6062bc5724ebacb5fcb63c838465370bb35ddfd416580e188b90e88e189"
+    },
+    "vite.csp.ts": {
+      "bytes": 2912,
+      "sha256": "a0a3087ad8ac363a358684d8e0166f4d9eccb0a2f77e731a8548a9287f7b8962"
+    }
+  },
+  "localIntegration": {
+    "base": "http://127.0.0.1:4346/officina/",
+    "expectedUrl": "https://raw.githubusercontent.com/antonsoo/stutterscope/a66f2cbe27fd410fc41d0900c4d62cd89e46c298/studies/present-clock/results/after.json",
+    "expectedSha256": "f5ceccde82df8cef5beec6a5a0201a16a657a3ecce5694f1af291b05d4378e4e",
+    "views": [
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "catalogueLinkFollowed": true,
+        "hostedInput": "filtered-presents.csv",
+        "completeReportMatches": true,
+        "offlineJsonSha256": "78f988949546bba965a0d05849d27fafd7bf3ed31b543436eda3150f6ba021a7",
+        "pacing": {
+          "observedPairs": 91,
+          "gapBoundaries": 83
+        },
+        "witnessCount": 5,
+        "omittedWitnesses": 78,
+        "axeViolations": [],
+        "noPageOverflow": true,
+        "pageErrors": [],
+        "cspViolations": []
+      },
+      {
+        "engine": "chromium",
+        "width": 375,
+        "catalogueLinkFollowed": true,
+        "hostedInput": "filtered-presents.csv",
+        "completeReportMatches": true,
+        "offlineJsonSha256": "2a8b27185301c2b61e584ea64d8237369ef344aecb4c32832fc4e2aa97788da4",
+        "pacing": {
+          "observedPairs": 91,
+          "gapBoundaries": 83
+        },
+        "witnessCount": 5,
+        "omittedWitnesses": 78,
+        "axeViolations": [],
+        "noPageOverflow": true,
+        "pageErrors": [],
+        "cspViolations": []
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "catalogueLinkFollowed": true,
+        "hostedInput": "filtered-presents.csv",
+        "completeReportMatches": true,
+        "offlineJsonSha256": "5d54544d3290f22c25ffaebce6c722c736f21ee8f33fcf661ae4ca1ac7688f92",
+        "pacing": {
+          "observedPairs": 91,
+          "gapBoundaries": 83
+        },
+        "witnessCount": 5,
+        "omittedWitnesses": 78,
+        "axeViolations": [],
+        "noPageOverflow": true,
+        "pageErrors": [],
+        "cspViolations": []
+      },
+      {
+        "engine": "firefox",
+        "width": 375,
+        "catalogueLinkFollowed": true,
+        "hostedInput": "filtered-presents.csv",
+        "completeReportMatches": true,
+        "offlineJsonSha256": "c9feafa26b8b435714111bbd9e7bf1e9932312e6ef271f1346ff674e520e65e4",
+        "pacing": {
+          "observedPairs": 91,
+          "gapBoundaries": 83
+        },
+        "witnessCount": 5,
+        "omittedWitnesses": 78,
+        "axeViolations": [],
+        "noPageOverflow": true,
+        "pageErrors": [],
+        "cspViolations": []
+      }
+    ]
+  },
+  "thumbnail": {
+    "sourceUrl": "https://antonsoo.github.io/stutterscope/?example=filtered-presents",
+    "viewport": {
+      "width": 1200,
+      "height": 750
+    },
+    "view": "Scrolled to the real metrics panel; no application content edited.",
+    "sourcePng": {
+      "bytes": 80819,
+      "sha256": "d25ea559dc0c7f3ca776b377647fb5303525f2ae066816bb234ca9b36d3e8b01"
+    },
+    "webp": {
+      "bytes": 31402,
+      "sha256": "19e1f5dbad568d21c78d4058f225aa3cd204b83f410ef1a66dd12c716a00743d"
+    }
+  }
+}

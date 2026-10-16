@@ -1,0 +1,79 @@
+{
+  "base": "https://antonsoo.github.io/officina/",
+  "expectedUrl": "https://raw.githubusercontent.com/antonsoo/stutterscope/a66f2cbe27fd410fc41d0900c4d62cd89e46c298/studies/present-clock/results/after.json",
+  "expectedSha256": "f5ceccde82df8cef5beec6a5a0201a16a657a3ecce5694f1af291b05d4378e4e",
+  "views": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "catalogueLinkFollowed": true,
+      "hostedInput": "filtered-presents.csv",
+      "completeReportMatches": true,
+      "offlineJsonSha256": "b10fafc1e9c4ef3e01b81906e79899088bd689ca4a293e9aa878e3fc93549705",
+      "pacing": {
+        "observedPairs": 91,
+        "gapBoundaries": 83
+      },
+      "witnessCount": 5,
+      "omittedWitnesses": 78,
+      "axeViolations": [],
+      "noPageOverflow": true,
+      "pageErrors": [],
+      "cspViolations": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "catalogueLinkFollowed": true,
+      "hostedInput": "filtered-presents.csv",
+      "completeReportMatches": true,
+      "offlineJsonSha256": "268d6ebc9539254812ade485d9d24da4fe0e165798daac6083e4f9638c9e4070",
+      "pacing": {
+        "observedPairs": 91,
+        "gapBoundaries": 83
+      },
+      "witnessCount": 5,
+      "omittedWitnesses": 78,
+      "axeViolations": [],
+      "noPageOverflow": true,
+      "pageErrors": [],
+      "cspViolations": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "catalogueLinkFollowed": true,
+      "hostedInput": "filtered-presents.csv",
+      "completeReportMatches": true,
+      "offlineJsonSha256": "cdde792981400b7a59c161565899b37b6de99162b5f2ad89e8517a8537f2b688",
+      "pacing": {
+        "observedPairs": 91,
+        "gapBoundaries": 83
+      },
+      "witnessCount": 5,
+      "omittedWitnesses": 78,
+      "axeViolations": [],
+      "noPageOverflow": true,
+      "pageErrors": [],
+      "cspViolations": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "catalogueLinkFollowed": true,
+      "hostedInput": "filtered-presents.csv",
+      "completeReportMatches": true,
+      "offlineJsonSha256": "8d05eee2994e8e755e41b9320febbcab60a851a9cebae92a771033d6594f5d9e",
+      "pacing": {
+        "observedPairs": 91,
+        "gapBoundaries": 83
+      },
+      "witnessCount": 5,
+      "omittedWitnesses": 78,
+      "axeViolations": [],
+      "noPageOverflow": true,
+      "pageErrors": [],
+      "cspViolations": []
+    }
+  ]
+}

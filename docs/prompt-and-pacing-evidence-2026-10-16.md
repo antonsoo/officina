@@ -59,3 +59,23 @@ The public registry artifacts remain Contextscope 0.3.3 and Stutterscope 0.2.5,
 checked independently on 2026-10-16. They predate these source corrections.
 Installing a local tarball does not establish a registry release. Each project's
 study records source, installed-package and hosted verification separately.
+
+## Catalogue verification
+
+The [clean-archive receipt](evidence/prompt-pacing-verification-2026-10-16.json)
+pins catalogue source `d8d3dc4`: install, catalogue validation, lint, formatting,
+typecheck, 32 unit checks, build and 32 production browser scenarios pass.
+Forty-eight source/build inputs match that archive. The thumbnail is an actual
+1200x750 capture of the hosted native example, scrolled to its metrics; no
+application content was edited.
+
+The [public source receipt](evidence/prompt-pacing-source-2026-10-16.json) compares
+all five changed source/evidence files at that immutable revision. The
+[canonical HTTP receipt](evidence/prompt-pacing-hosting-2026-10-16.json) compares
+all 38 build files, including `projects.json` and the updated WebP, without
+cache-busting queries. The [public handoff receipt](evidence/prompt-pacing-browser-2026-10-16.json)
+follows the actual catalogue link in Chromium/Firefox at desktop/phone widths,
+then downloads the hosted native report offline. All four complete reports
+match the installed-CLI evidence; witnesses, accessibility, page fit, page errors
+and CSP observations are checked. The catalogue, both project sources and both
+demos are published; npm artifacts remain unchanged.

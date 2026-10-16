@@ -1,0 +1,32 @@
+{
+  "revision": "d8d3dc4e664a2cb51e115a26c69db5b79fa37cea",
+  "checkedAt": "2026-10-16T20:25:21.113566+00:00",
+  "scope": "Pinned public catalogue source, distinct from hosted-byte and registry verification.",
+  "files": {
+    "public/projects.json": {
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/d8d3dc4e664a2cb51e115a26c69db5b79fa37cea/public/projects.json",
+      "bytes": 13556,
+      "sha256": "bb0e31b1727037817cef7bb2574f70d626d5c5ad22c27d41682dbfa92b4dd086"
+    },
+    "public/thumbs/stutterscope.webp": {
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/d8d3dc4e664a2cb51e115a26c69db5b79fa37cea/public/thumbs/stutterscope.webp",
+      "bytes": 31402,
+      "sha256": "19e1f5dbad568d21c78d4058f225aa3cd204b83f410ef1a66dd12c716a00743d"
+    },
+    "docs/prompt-and-pacing-evidence-2026-10-16.md": {
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/d8d3dc4e664a2cb51e115a26c69db5b79fa37cea/docs/prompt-and-pacing-evidence-2026-10-16.md",
+      "bytes": 5313,
+      "sha256": "dcc8dca2daaea098579806cadd3522d1df26142a4b4dddf6631b32e3ed0b9b8a"
+    },
+    "docs/source-history.md": {
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/d8d3dc4e664a2cb51e115a26c69db5b79fa37cea/docs/source-history.md",
+      "bytes": 27849,
+      "sha256": "d0d88c5529b56e7e0fd1bf4857d3122af77dc3ee612edd5679b4fadcd286007e"
+    },
+    "docs/evidence/prompt-pacing-browser.mjs": {
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/d8d3dc4e664a2cb51e115a26c69db5b79fa37cea/docs/evidence/prompt-pacing-browser.mjs",
+      "bytes": 4554,
+      "sha256": "2426470a9bbeeaeb51c9e04c76b761ff356f298f4c3eb6673ac1132e2a86f267"
+    }
+  }
+}

@@ -22,6 +22,10 @@ All notable changes to this project are documented in this file.
 
 ### Changed
 
+- Feature concrete Contextscope prompt/media and Stutterscope native-clock
+  counterexamples, retaining source and registry release boundaries. The native
+  demo link opens an attributed filtered capture, with a current real screenshot.
+
 - All 17 cards link to recorded evidence at public, immutable source revisions.
   Correct stale Logdelta and ToneMirror measurements, identify the statistic
   behind Planisphere and Stutterscope figures, and remove unsupported
