@@ -1,0 +1,94 @@
+{
+  "scope": "Actual hosted catalogue: filters, pinned evidence links, phone layouts in both themes; existing before/after audit checks page errors and CSP.",
+  "baseURL": "https://antonsoo.github.io/officina/",
+  "sourceRevision": "cf6a898e8933eb003dc6a86616a5ad21cd25ead8",
+  "deploymentRevision": "e155041",
+  "driver": "tests/browser/catalogue.spec.mjs",
+  "driverSha256": "e1f3f563a3d545f47ec770c218709e4f8fe688f356249bf47e5aafbff8efb895",
+  "configurationOverride": {
+    "webServer": false,
+    "grep": "combines text|cards state|fits 375px"
+  },
+  "stats": {
+    "startTime": "2026-10-16T09:20:04.357Z",
+    "duration": 7156.633,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "observations": [
+    {
+      "scenario": "combines text and audience filters, keeps focus, and resets both",
+      "browser": "chromium",
+      "expectedStatus": "passed",
+      "actualStatuses": [
+        "passed"
+      ],
+      "errors": []
+    },
+    {
+      "scenario": "fits 375px in light theme",
+      "browser": "chromium",
+      "expectedStatus": "passed",
+      "actualStatuses": [
+        "passed"
+      ],
+      "errors": []
+    },
+    {
+      "scenario": "fits 375px in dark theme",
+      "browser": "chromium",
+      "expectedStatus": "passed",
+      "actualStatuses": [
+        "passed"
+      ],
+      "errors": []
+    },
+    {
+      "scenario": "cards state their recorded evidence and link to its source revision",
+      "browser": "chromium",
+      "expectedStatus": "passed",
+      "actualStatuses": [
+        "passed"
+      ],
+      "errors": []
+    },
+    {
+      "scenario": "combines text and audience filters, keeps focus, and resets both",
+      "browser": "firefox",
+      "expectedStatus": "passed",
+      "actualStatuses": [
+        "passed"
+      ],
+      "errors": []
+    },
+    {
+      "scenario": "fits 375px in light theme",
+      "browser": "firefox",
+      "expectedStatus": "passed",
+      "actualStatuses": [
+        "passed"
+      ],
+      "errors": []
+    },
+    {
+      "scenario": "fits 375px in dark theme",
+      "browser": "firefox",
+      "expectedStatus": "passed",
+      "actualStatuses": [
+        "passed"
+      ],
+      "errors": []
+    },
+    {
+      "scenario": "cards state their recorded evidence and link to its source revision",
+      "browser": "firefox",
+      "expectedStatus": "passed",
+      "actualStatuses": [
+        "passed"
+      ],
+      "errors": []
+    }
+  ]
+}

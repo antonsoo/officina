@@ -79,3 +79,20 @@ receipt study link; its thumbnail now shows the deployed review workflow.
 Veil's description says detected values, matching the detector's documented
 coverage limits. Catalogue checks, all 32 unit checks, and all 32 production
 Chromium/Firefox scenarios pass.
+
+## Published catalogue
+
+Source `cf6a898` and a normal fast-forward `gh-pages` update (`e155041`) publish
+the refreshed catalogue. All [38 hosted files](evidence/hosted-catalogue-2026-10-16.json)
+match the tested build, including the new thumbnail and catalogue descriptions.
+An initial canonical-index fetch still served the prior version; the receipt
+was collected only after the canonical page and every asset matched.
+
+Eight [actual hosted browser scenarios](evidence/hosted-catalogue-browser-2026-10-16.json)
+pass without retries: combined search/audience filtering, immutable evidence
+links, and 375-pixel light/dark layouts in Chromium and Firefox. They reuse
+`tests/browser/catalogue.spec.mjs` with the public base URL and no local server;
+page-error and CSP assertions remain active. The [source-publication receipt](evidence/officina-source-2026-10-16.json)
+compares all seven initial changed catalogue/documentation files with pinned
+GitHub bytes. The later receipt/documentation commit does not alter the built
+site. Registry releases were not created by this work.

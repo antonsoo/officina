@@ -1,0 +1,52 @@
+{
+  "scope": "Pinned public source bytes only; no registry release or hosted deployment established.",
+  "repository": "https://github.com/antonsoo/officina",
+  "baseRevision": "b4c2ee188b1a678cf2f813c430874f47d355ed95",
+  "sourceRevision": "cf6a898e8933eb003dc6a86616a5ad21cd25ead8",
+  "cleanTree": true,
+  "remoteMainMatchesBeforeAndAfter": true,
+  "files": [
+    {
+      "file": "docs/evidence/fieldproof-native-paint-2026-10-16.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/cf6a898e8933eb003dc6a86616a5ad21cd25ead8/docs/evidence/fieldproof-native-paint-2026-10-16.json",
+      "bytes": 32482,
+      "sha256": "59fbc30c8d6701368ad5bcde00ce570af33f4377e790b3306720a82fbcf63c1b"
+    },
+    {
+      "file": "docs/evidence/fieldproof-thumbnail-2026-10-16.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/cf6a898e8933eb003dc6a86616a5ad21cd25ead8/docs/evidence/fieldproof-thumbnail-2026-10-16.json",
+      "bytes": 567,
+      "sha256": "ea31077680439ae69c560f3c0a012f77de30f2678589d517d38e83dec4f8dd36"
+    },
+    {
+      "file": "docs/evidence/veil-hosted-credentials-2026-10-16.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/cf6a898e8933eb003dc6a86616a5ad21cd25ead8/docs/evidence/veil-hosted-credentials-2026-10-16.json",
+      "bytes": 11222,
+      "sha256": "3a83af7406cbc2d2e28ea7bdb7c20dc1a05ba242d15648c9abbb71f47fae2e81"
+    },
+    {
+      "file": "docs/paint-and-credential-evidence-2026-10-16.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/cf6a898e8933eb003dc6a86616a5ad21cd25ead8/docs/paint-and-credential-evidence-2026-10-16.md",
+      "bytes": 6400,
+      "sha256": "5590a3b9c9d85d9dec7246d7f03d69799a9d8a57b0d665d1f8a4d13c07f47fde"
+    },
+    {
+      "file": "docs/source-history.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/cf6a898e8933eb003dc6a86616a5ad21cd25ead8/docs/source-history.md",
+      "bytes": 27363,
+      "sha256": "2f8a23275703696c04f200df80dec1a14fe8313918c2e17796a128759ae486f3"
+    },
+    {
+      "file": "public/projects.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/cf6a898e8933eb003dc6a86616a5ad21cd25ead8/public/projects.json",
+      "bytes": 13549,
+      "sha256": "bbc2044d3a8cb0375dd7fc410a78da15d2ef30136c8251247c6c263e940d85a3"
+    },
+    {
+      "file": "public/thumbs/fieldproof.webp",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/cf6a898e8933eb003dc6a86616a5ad21cd25ead8/public/thumbs/fieldproof.webp",
+      "bytes": 41964,
+      "sha256": "af706cc6f615fbd132306f7bcef840ee83f2fbb8cd0f98fc29b193255bf7ed58"
+    }
+  ]
+}
