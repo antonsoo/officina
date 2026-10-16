@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [transparent PDF, grade-conversion and tag-payload corrections](opacity-conversion-and-tag-payloads-2026-10-15.md)
+prevent transparent words from verifying visible claims, refuse opaque native
+grade mappings that reverse evaluation results, and close a flag-wrapper bypass
+in hidden-text detection. Installed artifacts, independent controls and pinned
+public bytes retain all three results. Ghostchars' hosted inspector is also
+deployed and verified; registry releases remain separate.
+
 The [Trainspotter JSONL record correction](trainspotter-jsonl-records-2026-10-15.md)
 preserves rejected records on ordinal axes, removing unsupported cross-gap
 diagnoses and keeping valid later events. Actual CLI, installed wheels, live
