@@ -75,7 +75,7 @@
   },
   {
     "name": "contextscope",
-    "description": "See what's actually in your LLM context window, and why your prompt cache keeps missing. Local-first, Anthropic + OpenAI.",
+    "description": "Diagnose prompt-cache misses from captured Anthropic/OpenAI requests and usage; media and stored history retain explicit unknowns.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/contextscope",
     "demoUrl": "https://antonsoo.github.io/contextscope/",
@@ -86,8 +86,8 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/contextscope"
     },
     "study": {
-      "finding": "12,760 recorded agent requests: corrected Anthropic cache-read yes/no predictions agree with provider usage on 96.2-100%, depending on model.",
-      "url": "https://github.com/antonsoo/contextscope/tree/4d2183dbc1dd524480c5da9653a6b8e9dc9da410/studies/real-trajectories"
+      "finding": "PNG controls: identical pixels became 8,095 or 457,130 estimated Claude tokens; local media counts now stay unavailable.",
+      "url": "https://github.com/antonsoo/contextscope/tree/17bcb353fb596170a448e39cf3c0e69c92a67e06/studies/media-accounting"
     }
   },
   {
@@ -231,10 +231,10 @@
   },
   {
     "name": "stutterscope",
-    "description": "Frame-time analysis for PC gamers and reviewers: PresentMon, FrameView, CapFrameX, MangoHud and OCAT captures, in your browser.",
+    "description": "Frame-time captures, clock gaps and slow-frame evidence: PresentMon, FrameView, CapFrameX, MangoHud and OCAT, analyzed in your browser.",
     "group": "Games",
     "repoUrl": "https://github.com/antonsoo/stutterscope",
-    "demoUrl": "https://antonsoo.github.io/stutterscope/",
+    "demoUrl": "https://antonsoo.github.io/stutterscope/?example=filtered-presents",
     "thumbnail": "thumbs/stutterscope.webp",
     "status": "published",
     "package": {
@@ -242,8 +242,8 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/stutterscope"
     },
     "study": {
-      "finding": "Eight public captures: percentile-based 1% lows differ by 0.13% at the median, up to 3.7%. Other definitions can produce much larger differences.",
-      "url": "https://github.com/antonsoo/stutterscope/tree/124f67eebfe9662a2fc1c609f754fb5c04700979/studies/real-captures"
+      "finding": "Filtered Intel gold data: 175 retained frames have 83 clock gaps and only 91 observed pacing pairs; missing durations stay unknown.",
+      "url": "https://github.com/antonsoo/stutterscope/tree/336993f5ac07bbdb9f650488676977e497374205/studies/present-clock"
     }
   },
   {

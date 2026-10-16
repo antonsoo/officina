@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [prompt and native-pacing corrections](prompt-and-pacing-evidence-2026-10-16.md)
+keep media encodings and stored prompt context out of unsupported token/cache
+claims, preserve Claude cache settings, and stop pacing across filtered native
+presents. SDK controls, unchanged public data, an independent ordinal oracle and
+reviewable clock witnesses retain the concrete failures. The catalogue's native
+example opens directly; registry artifacts remain separate from source and demos.
+
 The [PDF paint and credential masking corrections](paint-and-credential-evidence-2026-10-16.md)
 retain actual mismatched PDF highlights, short labelled credentials in SDK
 requests, and usable private keys recovered from masked text. Authored inputs,
