@@ -1,0 +1,14 @@
+{
+  "sourceURL": "https://antonsoo.github.io/fieldproof/#hidden-text",
+  "viewport": {
+    "width": 1200,
+    "height": 750,
+    "deviceScaleFactor": 1
+  },
+  "captureCommand": "node .tools/shot.mjs https://antonsoo.github.io/fieldproof/#hidden-text screenshot.png --width 1200 --height 750 --scale 1 --wait 1000",
+  "transformation": "Existing scripts/make_thumb.py, 1200x750 WebP compression",
+  "file": "public/thumbs/fieldproof.webp",
+  "bytes": 41964,
+  "sha256": "af706cc6f615fbd132306f7bcef840ee83f2fbb8cd0f98fc29b193255bf7ed58",
+  "visuallyInspected": true
+}

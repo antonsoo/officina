@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [PDF paint and credential masking corrections](paint-and-credential-evidence-2026-10-16.md)
+retain actual mismatched PDF highlights, short labelled credentials in SDK
+requests, and usable private keys recovered from masked text. Authored inputs,
+independent controls, installed artifacts and public-byte receipts distinguish
+the corrected behavior from broader visibility and privacy guarantees.
+
 The [transparent PDF, grade-conversion and tag-payload corrections](opacity-conversion-and-tag-payloads-2026-10-15.md)
 prevent transparent words from verifying visible claims, refuse opaque native
 grade mappings that reverse evaluation results, and close a flag-wrapper bypass

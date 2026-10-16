@@ -126,7 +126,7 @@
   },
   {
     "name": "veil",
-    "description": "Reversible PII masking for LLM calls. Mask personal data before the prompt leaves your network, then restore it in the answer.",
+    "description": "Mask detected personal data and credentials in LLM requests, keep originals in a local vault, and restore them in replies and streams.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/veil",
     "demoUrl": "https://antonsoo.github.io/veil/",
