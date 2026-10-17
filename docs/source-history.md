@@ -1,4 +1,6 @@
 # Source update history
+The [native MLflow capability](trainspotter-mlflow-2026-10-17.md) adds direct local SQLite and legacy FileStore ingestion to Trainspotter, with native SDK history comparisons, installed-wheel live watching and a verified offline public report. PyPI and the separate workbench remain outside this publication.
+
 
 These records describe particular source revisions and retain their verification
 and release boundaries. A source correction does not by itself update a package
