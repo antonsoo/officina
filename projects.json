@@ -1,0 +1,275 @@
+[
+  {
+    "name": "horologium",
+    "description": "What time is it in Babylon? Explore 13 calendars in a live, Antikythera-inspired clock, with reference comparisons and explicit historical limits.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/horologium",
+    "demoUrl": "https://antonsoo.github.io/horologium/",
+    "thumbnail": "thumbs/horologium.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/horologium"
+    },
+    "study": {
+      "finding": "Chinese dates against HKO: 0 mismatches on 62,821 modern days; 90 historical differences remain. This does not validate all 13 calendars.",
+      "url": "https://github.com/antonsoo/horologium/tree/43fd938bb2e1bbd9ed8965da44984e631505d2be/studies/chinese-calendar"
+    }
+  },
+  {
+    "name": "gnomon",
+    "description": "Design horizontal, wall, equatorial and analemmatic sundials; export dimensioned SVGs and full-scale PDF construction kits.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/gnomon",
+    "demoUrl": "https://antonsoo.github.io/gnomon/",
+    "thumbnail": "thumbs/gnomon.webp",
+    "status": "published",
+    "study": {
+      "finding": "26 PDF kits, 192 pages: digital checks cover dimensions, angles and tile seams. Physical printing, assembly and outdoor accuracy remain unverified.",
+      "url": "https://github.com/antonsoo/gnomon/blob/4bdf1ebee39f832bcc579aeb11b55a0f77663da9/docs/verification-2026-10-10.md"
+    }
+  },
+  {
+    "name": "planisphere",
+    "description": "Build a star wheel for your latitude and compare stellar epochs from 3000 BCE to 3000 CE, with printable disc and holder templates.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/planisphere",
+    "demoUrl": "https://antonsoo.github.io/planisphere/",
+    "thumbnail": "thumbs/planisphere.webp",
+    "status": "published",
+    "study": {
+      "finding": "4,201 historical star positions: 0.04 arcmin robust scatter against the editors' reduction; five high-motion stars differ by 1-19 arcmin.",
+      "url": "https://github.com/antonsoo/planisphere/tree/efa33746b52f0d77b98af29604fe18f06a1082b0/studies/historical-catalogues"
+    }
+  },
+  {
+    "name": "tonemirror",
+    "description": "See your intonation: compare speech pitch contours, keep a passage, and download practice audio. Runs in your browser.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/tonemirror",
+    "demoUrl": "https://antonsoo.github.io/tonemirror/",
+    "thumbnail": "thumbs/tonemirror.webp",
+    "status": "published",
+    "study": {
+      "finding": "20 speakers, studio English: YIN contour gross error is 1.94% of jointly voiced frames; voicing error is 6.13%. This does not score pronunciation.",
+      "url": "https://github.com/antonsoo/tonemirror/tree/43a1dc72bc7ecc6a7c467d5a4b7a5d99d11f315e/studies/real-voice"
+    }
+  },
+  {
+    "name": "errorbars",
+    "description": "Error bars for LLM evals: clustered SEs, paired comparisons, leaderboards, and power analysis. Python + web calculator.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/errorbars",
+    "demoUrl": "https://antonsoo.github.io/errorbars/",
+    "thumbnail": "thumbs/errorbars.webp",
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/errorbars",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/errorbars/"
+    },
+    "study": {
+      "finding": "78 SWE-bench submissions: only 1 of 874 gaps under 3 percentage points reached unadjusted p < 0.05. A nonsignificant gap does not establish a tie.",
+      "url": "https://github.com/antonsoo/errorbars/tree/cdc24d7924e278da497449fee63a9aa089890d33/studies/swe-bench-verified"
+    }
+  },
+  {
+    "name": "contextscope",
+    "description": "Diagnose prompt-cache misses from captured Anthropic/OpenAI requests and usage; media and stored history retain explicit unknowns.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/contextscope",
+    "demoUrl": "https://antonsoo.github.io/contextscope/",
+    "thumbnail": "thumbs/contextscope.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/contextscope"
+    },
+    "study": {
+      "finding": "PNG controls: identical pixels became 8,095 or 457,130 estimated Claude tokens; local media counts now stay unavailable.",
+      "url": "https://github.com/antonsoo/contextscope/tree/17bcb353fb596170a448e39cf3c0e69c92a67e06/studies/media-accounting"
+    }
+  },
+  {
+    "name": "fieldproof",
+    "description": "Check extracted fields against PDF or image text, inspect the matching words, and review weak or ambiguous evidence.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/fieldproof",
+    "demoUrl": "https://antonsoo.github.io/fieldproof/",
+    "thumbnail": "thumbs/fieldproof.webp",
+    "status": "published",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/fieldproof/"
+    },
+    "study": {
+      "finding": "1,052 receipts: strict matching rejects all 2,251 one-letter name mutations in this study, but also sends OCR-repaired names to review.",
+      "url": "https://github.com/antonsoo/fieldproof/tree/79c30614d36ca60bd23d758bb1f7be3f750cb544/studies/cord-grounding"
+    }
+  },
+  {
+    "name": "mcplint",
+    "description": "Lint your MCP server's tools the way the model sees them: token cost, clarity, and hidden instructions.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/mcplint",
+    "demoUrl": "https://antonsoo.github.io/mcplint/",
+    "thumbnail": "thumbs/mcplint.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/mcplint"
+    },
+    "study": {
+      "finding": "418 MCP servers: 28 exceed 16,000 estimated tool-definition tokens. On 886 unseen servers, none of five attack-rule errors identified an attack.",
+      "url": "https://github.com/antonsoo/mcplint/tree/38f936699d70848cadd270d87da812a4037fddd9/studies/registry-census"
+    }
+  },
+  {
+    "name": "veil",
+    "description": "Mask detected personal data and credentials in LLM requests, keep originals in a local vault, and restore them in replies and streams.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/veil",
+    "demoUrl": "https://antonsoo.github.io/veil/",
+    "thumbnail": "thumbs/veil.webp",
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/veil",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/veil-pii/"
+    },
+    "study": {
+      "finding": "16,082 held-out phone numbers with a +: masking rose from 53.9% to 99.3%. International numbers without + remain a detection gap.",
+      "url": "https://github.com/antonsoo/veil/tree/4a404a632f94892aef6af0e39d5985fe99d4a984/studies/real-text"
+    }
+  },
+  {
+    "name": "tracelens",
+    "description": "Inspect and compare agent runs locally: operation changes, per-call evidence, tokens and estimated cost from OTLP or Jaeger JSON traces.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/tracelens",
+    "demoUrl": "https://antonsoo.github.io/tracelens/?example=compare",
+    "thumbnail": "thumbs/tracelens.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/tracelens"
+    },
+    "study": {
+      "finding": "1,442 calls replayed through 21 libraries: the study recovers cache tokens in 85/86 eligible calls and reasoning tokens in 193/280; omissions remain.",
+      "url": "https://github.com/antonsoo/tracelens/tree/034732b32b1d5641945fb6e9bea0331f58359e25/studies/instrumentation-census"
+    }
+  },
+  {
+    "name": "trainspotter",
+    "description": "Automatic diagnosis of training runs from their logs: divergence, loss spikes, overfitting, LR and throughput problems.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/trainspotter",
+    "demoUrl": "https://antonsoo.github.io/trainspotter/",
+    "thumbnail": "thumbs/trainspotter.webp",
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/trainspotter",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/trainspotter/"
+    },
+    "study": {
+      "finding": "537 held-out runs ending at their best loss: warnings fell from 73.0% to 6.9%. That endpoint label does not establish that a run was trouble-free.",
+      "url": "https://github.com/antonsoo/trainspotter/tree/e0e2c119cb719ef05c3cf7b5b96b4396a91494ef/studies/hub-census"
+    }
+  },
+  {
+    "name": "ghostchars",
+    "description": "See the characters you can't: catch Trojan Source bidi tricks, invisible and lookalike Unicode, and ASCII smuggling in code and LLM prompts.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/ghostchars",
+    "demoUrl": "https://antonsoo.github.io/ghostchars/",
+    "thumbnail": "thumbs/ghostchars.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/ghostchars"
+    },
+    "study": {
+      "finding": "83,494 public prompts and agent rules: three files contain hidden Unicode payloads, all in one jailbreak repository; this is not an attack-rate estimate.",
+      "url": "https://github.com/antonsoo/ghostchars/tree/a9d54cf9a283b0a43b1b6f9b1dba02a7576c84ae/studies/prompt-census"
+    }
+  },
+  {
+    "name": "logdelta",
+    "description": "Diff logs by meaning, not by bytes: masks variables, mines templates, and shows what's new in the failing run.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/logdelta",
+    "demoUrl": "https://antonsoo.github.io/logdelta/",
+    "thumbnail": "thumbs/logdelta.webp",
+    "status": "published",
+    "package": {
+      "registry": "crates.io",
+      "url": "https://crates.io/crates/logdelta"
+    },
+    "study": {
+      "finding": "264 failed Kubernetes builds: excerpts show the recorded reason in 212/239 eligible cases, at 40.5 median lines. The rule was tuned on these logs.",
+      "url": "https://github.com/antonsoo/logdelta/tree/1baa53b7dcab2631a420bf7710c44e78aca45d3d/studies/kubernetes-ci"
+    }
+  },
+  {
+    "name": "flakemap",
+    "description": "Find the flaky tests in your CI history: JUnit XML or .NET TRX from past runs in, a ranked, statistically honest flake report out.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/flakemap",
+    "demoUrl": "https://antonsoo.github.io/flakemap/",
+    "thumbnail": "thumbs/flakemap.webp",
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/flakemap",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/flakemap/"
+    },
+    "study": {
+      "finding": "4,334 Kubernetes builds: 310/314 rechecked package failures passed on the same commit. The data do not separate faulty tests from infrastructure.",
+      "url": "https://github.com/antonsoo/flakemap/tree/8542d333521e210c98681b73e67df412dfb7ebf4/studies/kubernetes-ci"
+    }
+  },
+  {
+    "name": "stutterscope",
+    "description": "Open native CapFrameX JSON or capture CSVs, select a recording, and inspect frame-time gaps and slow-frame source evidence in your browser.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/stutterscope",
+    "demoUrl": "https://antonsoo.github.io/stutterscope/?example=filtered-presents",
+    "thumbnail": "thumbs/stutterscope.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/stutterscope"
+    },
+    "study": {
+      "finding": "Filtered Intel gold data: 175 retained frames have 83 clock gaps and only 91 observed pacing pairs; missing durations stay unknown.",
+      "url": "https://github.com/antonsoo/stutterscope/tree/336993f5ac07bbdb9f650488676977e497374205/studies/present-clock"
+    }
+  },
+  {
+    "name": "splitscope",
+    "description": "Private, in-browser LiveSplit analyzer: time save, consistency, reset survival, and Monte Carlo odds of your next PB.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/splitscope",
+    "demoUrl": "https://antonsoo.github.io/splitscope/",
+    "thumbnail": "thumbs/splitscope.webp",
+    "status": "published",
+    "study": {
+      "finding": "51 speedrun histories: at 50 attempts, the mean PB forecast was 14.3% and observed frequency 30.9%; only nine runners supplied forecasts.",
+      "url": "https://github.com/antonsoo/splitscope/tree/0e2a6b80e7e8abdb75f76c73489a05426eedb128/studies/pb-odds-backtest"
+    }
+  },
+  {
+    "name": "am-i-unlucky",
+    "description": "Drop-rate and pity math with earlier, same-attempt and later finish shares, collection odds, and downloadable luck cards.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/am-i-unlucky",
+    "demoUrl": "https://antonsoo.github.io/am-i-unlucky/",
+    "thumbnail": "thumbs/am-i-unlucky.webp",
+    "status": "published",
+    "study": {
+      "finding": "26.9M community-logged five-stars: the soft-pity ramp agrees through pull 83 under stated assumptions; incomplete histories bias the odds.",
+      "url": "https://github.com/antonsoo/am-i-unlucky/tree/97455f92eb3aedf0467e710f03c87d6c52ac9082/studies/paimon-pity"
+    }
+  }
+]
