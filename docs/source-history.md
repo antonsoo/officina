@@ -1,5 +1,7 @@
 # Source update history
 
+The [Flakemap generic-fixture correction](flakemap-generic-fixtures-2026-10-17.md) preserves type-argument commas instead of merging distinct NUnit fixtures into a false flaky history. Native compiled captures, installed CLIs and reproducible offline public inputs retain the result.
+
 The [Gnomon date-curve correction](gnomon-shadow-gaps-2026-10-17.md) preserves unlit intervals instead of engraving a false connection between visible branches. Independent native SVG/PDF measurements and actual public offline downloads retain the before/after geometry.
 
 The [Gnomon standing-mark correction](gnomon-standing-marks-2026-10-17.md) names the solstices by month, fixes analemmatic mounting guidance, and publishes the verified current designer with actual offline SVG and PDF downloads.
