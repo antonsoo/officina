@@ -96,6 +96,18 @@ entry that changes during the pass, same-length wrong asset bytes, delayed
 propagation, unavailable/truncated responses, oversized bodies and encoded
 filenames. They use real local HTTP responses, not a mocked hash function.
 
+## Actual public result
+
+The [canonical after receipt](assets/canonical-publication/officina-after.json)
+verifies **all 38 build files**, the root before/after, and the explicit index,
+using Node 24 and canonical URLs. The [public search replay](assets/canonical-publication/catalogue-public.json)
+then finds the native-JSON card in all four browser/viewport combinations and
+repeats filtering offline. All four public screenshots are [byte-identical to
+opened local screenshots](assets/canonical-publication/public-images.json).
+The published artifact is the unchanged clean build identified above; later
+source documentation commits do not change its output. No registry version was
+changed. This is direct local/public evidence, not a claim that remote CI ran.
+
 A verified pass establishes the observed responses against one captured build
 inventory. It does not enumerate extra hosted files, certify later CDN state,
 exercise the browser, identify a public source commit or establish a registry

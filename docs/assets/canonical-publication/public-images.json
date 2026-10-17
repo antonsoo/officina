@@ -1,0 +1,29 @@
+{
+  "scope": "All four public after screenshots equal the corresponding local screenshot opened for visual inspection. The two retained Chromium local screenshots are linked in the study; Firefox was also opened.",
+  "images": [
+    {
+      "file": "chromium-1280.png",
+      "bytes": 62492,
+      "sha256": "b6190f57bb6e28d546fff525fef3fbb7c43669f704e11d2de73a4067385206d7",
+      "byteIdenticalToOpenedLocalScreenshot": true
+    },
+    {
+      "file": "chromium-375.png",
+      "bytes": 55875,
+      "sha256": "1c6a40575e369a361d1bc816de787b274c38077d5bad73e27f5211e2cf71082e",
+      "byteIdenticalToOpenedLocalScreenshot": true
+    },
+    {
+      "file": "firefox-1280.png",
+      "bytes": 88006,
+      "sha256": "580b7b5712f18759d053bd93c30f064a671261f8078d7f9c45809e8942d90c18",
+      "byteIdenticalToOpenedLocalScreenshot": true
+    },
+    {
+      "file": "firefox-375.png",
+      "bytes": 78171,
+      "sha256": "6804891e2a8391d3f2e08a4b8307aa1d7795e23056e73b27c9933154b839006f",
+      "byteIdenticalToOpenedLocalScreenshot": true
+    }
+  ]
+}
