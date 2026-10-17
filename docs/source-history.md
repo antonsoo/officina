@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [local MangoHud continuity correction](mangohud-clock-2026-10-17.md)
+prevents whole-capture sums from hiding unsupported pacing and episode joins.
+Known record removals, an intact public log, packed installations and offline
+browser downloads retain the evidence. This correction remains in local source;
+the hosted example and registry release are unchanged.
+
 The [native TRX hierarchy correction](native-trx-hierarchy-2026-10-17.md)
 keeps failed child evidence that previously disappeared behind a passed parent,
 without turning correlated rows into extra trials. Controlled SDK captures,
