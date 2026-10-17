@@ -44,7 +44,7 @@
   },
   {
     "name": "tonemirror",
-    "description": "See your intonation: overlay your pitch contour on a reference and practice tones and pitch accent, in the browser.",
+    "description": "See your intonation: compare speech pitch contours, keep a passage, and download practice audio. Runs in your browser.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/tonemirror",
     "demoUrl": "https://antonsoo.github.io/tonemirror/",
@@ -261,7 +261,7 @@
   },
   {
     "name": "am-i-unlucky",
-    "description": "Exact drop-rate and pity math for gamers: Markov-chain pity solver, collection odds, luck percentiles. SciPy-verified.",
+    "description": "Drop-rate and pity math with earlier, same-attempt and later finish shares, collection odds, and downloadable luck cards.",
     "group": "Games",
     "repoUrl": "https://github.com/antonsoo/am-i-unlucky",
     "demoUrl": "https://antonsoo.github.io/am-i-unlucky/",
