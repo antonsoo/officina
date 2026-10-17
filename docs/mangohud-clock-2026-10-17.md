@@ -1,4 +1,4 @@
-# Local MangoHud continuity correction
+# MangoHud continuity correction
 
 Stutterscope's whole-capture clock check could hide a missing block within a
 long capture, or let long and short disagreements cancel. It then used the
@@ -35,7 +35,13 @@ disagreement does not identify the cause, and smaller omissions can escape the
 check. An intact capture is a compatibility control, not proof of all capture
 configurations.
 
-The correction is committed locally. No source push, hosted deployment, npm
-release or tag was made. The catalogue continues to link the existing deployed
-examples. Web build: `npm run build`, output `dist/`. CLI build:
+The reviewed source was pushed as `7c0ba5d`; deployment `9ab3133` matches all 33
+canonical build files. Four hosted Chromium/Firefox desktop/mobile contexts
+download 16 JSON reports matching the installed CLI, plus Markdown and PNG
+reports, after disconnecting. They retain the correction through settings and
+interval changes. Cold offline imports can request local fonts; no additional
+code or capture data is needed. Publication receipts are retained with the study.
+
+No npm release or tag was made. The catalogue continues to link the existing
+deployed examples. Web build: `npm run build`, output `dist/`. CLI build:
 `npm run build:cli`, output `dist-cli/`.
