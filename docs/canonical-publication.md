@@ -90,6 +90,16 @@ from an installed checkout to repeat this focused workflow.
 | Desktop | [No matching tools](assets/canonical-publication/before-1280.png) | [Native JSON card](assets/canonical-publication/local-1280.png) |
 | 375 px | [No matching tools](assets/canonical-publication/before-375.png) | [Native JSON card](assets/canonical-publication/local-375.png) |
 
+The same verifier also checks the [Logdelta public engine handoff](https://github.com/antonsoo/logdelta/blob/cbf72c0486056098594bf6cc146b907a7fec4e16/studies/envelope-identity/hosted.md).
+The [actual before entry](assets/canonical-publication/logdelta-before.json)
+returns HTTP 200 but differs from the corrected build; the
+[canonical after pass](assets/canonical-publication/logdelta-after.json) verifies
+all 39 files. Fresh native formatter records previously hid the outer 503 in
+the public page. The existing source correction is now in the deployed WASM,
+with all 76 actual public full-report downloads agreeing with the fresh CLI
+across Chromium/Firefox and desktop/phone views after disconnection. crates.io
+remains separate from this static deployment.
+
 The controlled HTTP workflows in `tests/verify-pages.test.mjs` cover an older
 HTTP-200 entry with already-available new assets, a stale explicit index, an
 entry that changes during the pass, same-length wrong asset bytes, delayed

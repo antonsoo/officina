@@ -12,6 +12,12 @@ recordings, independent arithmetic and astronomical references, actual offline
 browser downloads and a real stale-catalogue response retain the evidence.
 Registry versions remain unchanged.
 
+The [Logdelta native formatter deployment](https://github.com/antonsoo/logdelta/blob/cbf72c0486056098594bf6cc146b907a7fec4e16/studies/envelope-identity/hosted.md)
+brings the existing source correction to the actual public WASM engine. Two
+native formatter examples stop hiding the outer 503; fresh full-report downloads
+and all 39 canonical build files identify the shipped result. The earlier
+crates.io release is unchanged.
+
 The [prompt and native-pacing corrections](prompt-and-pacing-evidence-2026-10-16.md)
 keep media encodings and stored prompt context out of unsupported token/cache
 claims, preserve Claude cache settings, and stop pacing across filtered native
