@@ -92,3 +92,18 @@ and no accessibility violations. After visiting both thumbnails, their search
 and immutable source links work offline without requests. All eight
 [local captures](assets/cohorts-ink-2026-10-17/local/) were visually inspected.
 Public-byte and hosted replay receipts identify the subsequent publication stage.
+
+## Published catalogue
+
+Source `dc0d42bd2e3ed3476e083b36fd61e9c9367d3a21` and the normal fast-forward
+deployment `e04144a1061c9b60c2b2573961f31d2d3c2451f9` publish the refreshed cards.
+The [canonical byte receipt](evidence/hosted-cohorts-ink-2026-10-17.json) verifies
+all 39 build files and the root entry before and after the pass. The
+[source receipt](evidence/public-cohorts-ink-source-2026-10-17.json) matches the
+changed catalogue and retained evidence to pinned public bytes.
+
+Four [actual hosted browser contexts](assets/cohorts-ink-2026-10-17/hosted/browser.json)
+repeat the offline search, findings, source links and layout/accessibility
+checks. Their eight captures are byte-identical to the inspected local images
+and were also visually inspected. No off-origin workflow, registry release or
+native PDF processor deployment is inferred from the catalogue update.

@@ -1,0 +1,85 @@
+{
+  "revision": "dc0d42bd2e3ed3476e083b36fd61e9c9367d3a21",
+  "remoteMainMatches": true,
+  "files": [
+    {
+      "path": "docs/assets/cohorts-ink-2026-10-17/local/browser.json",
+      "bytes": 3839,
+      "sha256": "64143486becfd36f3dbd15d88135acc9e411689c73a8b82c657b7a6989866a6e",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/assets/cohorts-ink-2026-10-17/local/chromium-1440-errorbars.png",
+      "bytes": 66049,
+      "sha256": "7ea364454985f1c6153f981a97ec3cbca489fef8458d42aaf9f9afb28c7ac06c",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/assets/cohorts-ink-2026-10-17/local/chromium-1440-fieldproof.png",
+      "bytes": 58676,
+      "sha256": "68ccc6f26f4f3e5181c1115b232e69679516a53d2de28c9680e552727ce8ae2c",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/assets/cohorts-ink-2026-10-17/local/chromium-375-errorbars.png",
+      "bytes": 59830,
+      "sha256": "168cbdffa68a69813350243ede0d49d3452aa732fe538ba730c881fe2d2ac569",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/assets/cohorts-ink-2026-10-17/local/chromium-375-fieldproof.png",
+      "bytes": 51870,
+      "sha256": "8a13a2f335819679abc72f32267e9906687ffea55abfcc43fd5e4480f78d4331",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/assets/cohorts-ink-2026-10-17/local/firefox-1440-errorbars.png",
+      "bytes": 91111,
+      "sha256": "8bc0bdbf87ee415b78a93c0493ebdb7772789ee655089ba6eb427ad7e765b123",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/assets/cohorts-ink-2026-10-17/local/firefox-1440-fieldproof.png",
+      "bytes": 76635,
+      "sha256": "22602c885491ce90d38e95437330f2bc07790761fba613885b6b399667e235ce",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/assets/cohorts-ink-2026-10-17/local/firefox-375-errorbars.png",
+      "bytes": 79597,
+      "sha256": "4df18eb7251e0975957752609ac14d6c4f2a843f48f7f982a3a6170570fb33f4",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/assets/cohorts-ink-2026-10-17/local/firefox-375-fieldproof.png",
+      "bytes": 66716,
+      "sha256": "133c388d7c3740617381edb80d47f7b9c8aeffbcdb98ff2096af8276a3318efd",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/evidence/cohorts-ink-browser.mjs",
+      "bytes": 3699,
+      "sha256": "cd029744ee1758458396f7dc9847a142f0cc7f823ab1b4ca824e18d5c79a8649",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/recorded-cohorts-and-pdf-ink-2026-10-17.md",
+      "bytes": 6018,
+      "sha256": "7cee1c3565d7e31c77a289451b0813ead6cc85c19b499014b34a399972c1f30e",
+      "httpStatus": 200
+    },
+    {
+      "path": "docs/source-history.md",
+      "bytes": 29955,
+      "sha256": "b2e49e64869d26e056fcce50df61ca627810421370ccee85a6ee01e379b2ba42",
+      "httpStatus": 200
+    },
+    {
+      "path": "public/projects.json",
+      "bytes": 13614,
+      "sha256": "cc2f87fb3454935a937a11cd900ca19da056a675b0c0ea9143c61223787cfde2",
+      "httpStatus": 200
+    }
+  ],
+  "scope": "Public changed catalogue, documentation and local-browser evidence bytes. Canonical hosted and registry status are separate."
+}
