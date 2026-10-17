@@ -19,8 +19,9 @@
     "build": "npm run check:catalogue && tsc -p tsconfig.json --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "lint": "eslint src --max-warnings 0",
+    "lint": "eslint src scripts/verify-pages.mjs tests/verify-pages.test.mjs --max-warnings 0",
     "format:check": "prettier --check src",
+    "verify:pages": "node scripts/verify-pages.mjs",
     "check:catalogue": "node scripts/check-catalogue.mjs",
     "test": "node --test tests/*.test.mjs",
     "test:browser": "npm run build && playwright test"

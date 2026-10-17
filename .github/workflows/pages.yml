@@ -34,7 +34,11 @@ jobs:
         env:
           SITE_DIR: dist
         run: |
-          cd "$SITE_DIR"
+          # Keep the tested build intact: git metadata belongs in a temporary
+          # publication checkout, never in the artifact being verified below.
+          publish_dir=$(mktemp -d "${RUNNER_TEMP}/officina-pages.XXXXXX")
+          cp -R "$SITE_DIR/." "$publish_dir/"
+          cd "$publish_dir"
           touch .nojekyll
           git init -q -b gh-pages
           git config user.name "github-actions[bot]"
@@ -42,3 +46,9 @@ jobs:
           git add -A
           git commit -qm "deploy: ${GITHUB_SHA::7}"
           git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+
+      - name: Verify canonical publication bytes
+        run: >-
+          node scripts/verify-pages.mjs
+          "https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
+          dist --wait 180 --out "${RUNNER_TEMP}/pages-verification.json"

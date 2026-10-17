@@ -231,7 +231,7 @@
   },
   {
     "name": "stutterscope",
-    "description": "Frame-time captures, clock gaps and slow-frame evidence: PresentMon, FrameView, CapFrameX, MangoHud and OCAT, analyzed in your browser.",
+    "description": "Open native CapFrameX JSON or capture CSVs, select a recording, and inspect frame-time gaps and slow-frame source evidence in your browser.",
     "group": "Games",
     "repoUrl": "https://github.com/antonsoo/stutterscope",
     "demoUrl": "https://antonsoo.github.io/stutterscope/?example=filtered-presents",

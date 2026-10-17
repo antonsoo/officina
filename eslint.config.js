@@ -7,6 +7,22 @@ export default [
     ignores: ["dist/**", "node_modules/**"],
   },
   {
+    files: ["scripts/verify-pages.mjs", "tests/verify-pages.test.mjs"],
+    languageOptions: {
+      ecmaVersion: 2024,
+      sourceType: "module",
+      globals: {
+        URL: "readonly",
+        fetch: "readonly",
+        AbortSignal: "readonly",
+        setTimeout: "readonly",
+        process: "readonly",
+        console: "readonly",
+      },
+    },
+    rules: { "no-undef": "error", "no-unused-vars": "error", "no-unreachable": "error" },
+  },
+  {
     files: ["src/**/*.ts"],
     languageOptions: {
       parser: tsParser,

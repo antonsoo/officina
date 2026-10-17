@@ -30,7 +30,7 @@ jobs:
       - name: Format check
         run: npm run format:check
 
-      - name: Catalogue tests
+      - name: Catalogue and publication tests
         run: npm test
 
       - name: Build

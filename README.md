@@ -79,6 +79,28 @@ The browser tests exercise the production build in Chromium and Firefox,
 including search, keyboard focus, load recovery, light/dark mobile layouts,
 accessibility checks, and Content-Security-Policy violations.
 
+## Verify a static publication
+
+A pushed deployment and an HTTP 200 response do not establish that the canonical
+site serves the build you tested. The standalone Node 24 verifier checks the
+real entry URL, explicit `index.html`, and every file in a materialized build:
+
+```bash
+node scripts/verify-pages.mjs https://antonsoo.github.io/officina/ dist --wait 180 --out /tmp/officina-publication.json
+```
+
+It uses canonical URLs, streams response hashes, and exits successfully only
+when all bytes match. Mismatched bytes and unavailable responses remain distinct
+in the JSON receipt; a failed import of HTTP evidence cannot become a verified
+file. Write receipts outside the build directory. The Pages workflow publishes
+from a temporary Git checkout, preserving the tested artifact for this check.
+
+The verifier also works with another showcase's build directory. The
+[observed publication gap and replay](docs/canonical-publication.md) retain a
+real 37-of-38-file mismatch, corrected deployments and controlled propagation
+checks. Browser behavior, source publication and registry releases need their
+own evidence.
+
 ## Design
 
 Imperial Roman: a parchment ground, a crimson accent, gold hairlines,
