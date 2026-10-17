@@ -57,7 +57,7 @@
   },
   {
     "name": "errorbars",
-    "description": "Error bars for LLM evals: clustered SEs, paired comparisons, leaderboards, and power analysis. Python + web calculator.",
+    "description": "Compare LLM evals on recorded task intersections, account for repository clusters, and inspect missing outcomes before ranking.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/errorbars",
     "demoUrl": "https://antonsoo.github.io/errorbars/",
@@ -69,8 +69,8 @@
       "url": "https://pypi.org/project/errorbars/"
     },
     "study": {
-      "finding": "78 SWE-bench submissions: only 1 of 874 gaps under 3 percentage points reached unadjusted p < 0.05. A nonsignificant gap does not establish a tie.",
-      "url": "https://github.com/antonsoo/errorbars/tree/cdc24d7924e278da497449fee63a9aa089890d33/studies/swe-bench-verified"
+      "finding": "A public SWE-bench file records 441/500 tasks. Removing 59 invented failures changes paired-task p from 0.000060 to 0.644; official score unchanged.",
+      "url": "https://github.com/antonsoo/errorbars/tree/661ff9988b1bb8f78854b8068423a3b87045099e/studies/observed-cohorts"
     }
   },
   {
@@ -92,7 +92,7 @@
   },
   {
     "name": "fieldproof",
-    "description": "Check extracted fields against PDF or image text, inspect the matching words, and review weak or ambiguous evidence.",
+    "description": "Link extracted fields to source words and inspect native PDF paint, clipping and overlap risks before accepting a document claim.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/fieldproof",
     "demoUrl": "https://antonsoo.github.io/fieldproof/",
