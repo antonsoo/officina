@@ -1,0 +1,46 @@
+[
+  {
+    "base": "https://antonsoo.github.io/officina/",
+    "phase": "before",
+    "engine": "chromium",
+    "width": 1280,
+    "query": "capframex json",
+    "visibleProjects": 0,
+    "errors": [],
+    "catalogueRequestsWhileFiltering": [],
+    "noPageOverflow": true
+  },
+  {
+    "base": "https://antonsoo.github.io/officina/",
+    "phase": "before",
+    "engine": "chromium",
+    "width": 375,
+    "query": "capframex json",
+    "visibleProjects": 0,
+    "errors": [],
+    "catalogueRequestsWhileFiltering": [],
+    "noPageOverflow": true
+  },
+  {
+    "base": "https://antonsoo.github.io/officina/",
+    "phase": "before",
+    "engine": "firefox",
+    "width": 1280,
+    "query": "capframex json",
+    "visibleProjects": 0,
+    "errors": [],
+    "catalogueRequestsWhileFiltering": [],
+    "noPageOverflow": true
+  },
+  {
+    "base": "https://antonsoo.github.io/officina/",
+    "phase": "before",
+    "engine": "firefox",
+    "width": 375,
+    "query": "capframex json",
+    "visibleProjects": 0,
+    "errors": [],
+    "catalogueRequestsWhileFiltering": [],
+    "noPageOverflow": true
+  }
+]

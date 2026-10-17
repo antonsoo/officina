@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
+  "node": "v24.21.0",
+  "requestTimeoutMs": 10000,
+  "retryWindowMs": 0,
+  "pollIntervalMs": 5000,
+  "concurrency": 6,
   "baseURL": "https://antonsoo.github.io/horologium/",
   "state": "verified",
   "attempts": 1,
-  "startedAtUtc": "2026-10-17T05:01:03.651Z",
-  "checkedAtUtc": "2026-10-17T05:01:04.811Z",
+  "startedAtUtc": "2026-10-17T05:16:14.185Z",
+  "checkedAtUtc": "2026-10-17T05:16:17.683Z",
   "buildManifestSha256": "24937aaac0ae9085bbe3312ece1b3bd245e1906ff04afa91fd19dbbb20f2f7ca",
   "expectedFileCount": 30,
   "checkedFileCount": 30,
@@ -331,5 +336,5 @@
       "state": "verified"
     }
   ],
-  "scope": "Canonical responses matched this captured build inventory during this pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
+  "scope": "Compares canonical responses with this captured build inventory during the recorded pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
 }

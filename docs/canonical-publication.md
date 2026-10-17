@@ -64,10 +64,31 @@ source boundaries:
 - [Native CapFrameX sessions](https://github.com/antonsoo/stutterscope/tree/21a4b157490594137a53f705d29400f639700697/studies/native-json)
   import five unchanged recordings totaling 778,780 frames, with independent
   arithmetic and original sample coordinates.
-- [The corrected ancient-calendar clock](https://github.com/antonsoo/horologium/tree/73068bc/studies/live-clock)
+- [The corrected ancient-calendar clock](https://github.com/antonsoo/horologium/tree/73068bc4d8cbc83bd3cfe185548c9bf42f13fcb9/studies/live-clock)
   retains fresh UCL, FAMSI, Ethiopian-era and JPL/HKO reference checks, public
   before/after labels and lunar-year downloads. Neither deployment releases a
   new registry version.
+
+A [fresh Node 24 archive](assets/canonical-publication/clean-archive.json) of
+`a035fa1904237160c23fd31f14697efa29dae381` passes installation, lint, types,
+formatting, 38 catalogue/HTTP checks, the production build and 32 browser
+workflows. A [real publication-copy dry run](assets/canonical-publication/publish-copy.json)
+commits 39 files (38 build files plus `.nojekyll`) while leaving the original
+build's manifest unchanged and free of Git metadata. It performs no remote push.
+
+The updated description also makes the native importer discoverable: searching
+`capframex json` changes from zero results to one Stutterscope card. The
+[public before replay](assets/canonical-publication/catalogue-before.json) and
+[local after replay](assets/canonical-publication/catalogue-local.json) cover
+Chromium and Firefox at 1280 and 375 px. The latter repeats filtering after
+disconnecting, with no data fetches, page errors or horizontal page overflow.
+Run `node scripts/replay-native-json-search.mjs BASE_URL OUTPUT_DIR before|after`
+from an installed checkout to repeat this focused workflow.
+
+| View | Public before | Clean local build |
+| --- | --- | --- |
+| Desktop | [No matching tools](assets/canonical-publication/before-1280.png) | [Native JSON card](assets/canonical-publication/local-1280.png) |
+| 375 px | [No matching tools](assets/canonical-publication/before-375.png) | [Native JSON card](assets/canonical-publication/local-375.png) |
 
 The controlled HTTP workflows in `tests/verify-pages.test.mjs` cover an older
 HTTP-200 entry with already-available new assets, a stale explicit index, an

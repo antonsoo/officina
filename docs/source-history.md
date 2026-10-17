@@ -5,6 +5,13 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [native-capture and canonical-publication review](canonical-publication.md)
+adds direct CapFrameX session import, ships the corrected calendar clock, and
+checks every canonical build file before declaring a site current. Native
+recordings, independent arithmetic and astronomical references, actual offline
+browser downloads and a real stale-catalogue response retain the evidence.
+Registry versions remain unchanged.
+
 The [prompt and native-pacing corrections](prompt-and-pacing-evidence-2026-10-16.md)
 keep media encodings and stored prompt context out of unsupported token/cache
 claims, preserve Claude cache settings, and stop pacing across filtered native

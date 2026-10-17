@@ -1,0 +1,10 @@
+{
+  "node": "v24.21.0",
+  "sourceCommit": "a035fa1904237160c23fd31f14697efa29dae381",
+  "buildFiles": 38,
+  "publishTreeFiles": 39,
+  "buildManifestSha256": "2361306c3d35fb536f45cfdd5481812fb6051132daee399194a6c82a278e1c70",
+  "artifactUnchanged": true,
+  "gitMetadataInArtifact": false,
+  "remotePushPerformed": false
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "base": "http://127.0.0.1:4203/officina/",
+    "phase": "after",
+    "engine": "chromium",
+    "width": 1280,
+    "query": "capframex json",
+    "visibleProjects": 1,
+    "cardText": "GAMES\nstutterscope\n\nOpen native CapFrameX JSON or capture CSVs, select a recording, and inspect frame-time gaps and slow-frame source evidence in your browser.\n\nRECORDED EVIDENCE\nFiltered Intel gold data: 175 retained frames have 83 clock gaps and only 91 observed pacing pairs; missing durations stay unknown.\n\nLive demo\n·\nnpm\n·\nSource",
+    "offlineRefilter": true,
+    "errors": [],
+    "catalogueRequestsWhileFiltering": [],
+    "noPageOverflow": true
+  },
+  {
+    "base": "http://127.0.0.1:4203/officina/",
+    "phase": "after",
+    "engine": "chromium",
+    "width": 375,
+    "query": "capframex json",
+    "visibleProjects": 1,
+    "cardText": "GAMES\nstutterscope\n\nOpen native CapFrameX JSON or capture CSVs, select a recording, and inspect frame-time gaps and slow-frame source evidence in your browser.\n\nRECORDED EVIDENCE\nFiltered Intel gold data: 175 retained frames have 83 clock gaps and only 91 observed pacing pairs; missing durations stay unknown.\n\nLive demo\n·\nnpm\n·\nSource",
+    "offlineRefilter": true,
+    "errors": [],
+    "catalogueRequestsWhileFiltering": [],
+    "noPageOverflow": true
+  },
+  {
+    "base": "http://127.0.0.1:4203/officina/",
+    "phase": "after",
+    "engine": "firefox",
+    "width": 1280,
+    "query": "capframex json",
+    "visibleProjects": 1,
+    "cardText": "GAMES\nstutterscope\n\nOpen native CapFrameX JSON or capture CSVs, select a recording, and inspect frame-time gaps and slow-frame source evidence in your browser.\n\nRECORDED EVIDENCE\nFiltered Intel gold data: 175 retained frames have 83 clock gaps and only 91 observed pacing pairs; missing durations stay unknown.\n\nLive demo\n·\nnpm\n·\nSource",
+    "offlineRefilter": true,
+    "errors": [],
+    "catalogueRequestsWhileFiltering": [],
+    "noPageOverflow": true
+  },
+  {
+    "base": "http://127.0.0.1:4203/officina/",
+    "phase": "after",
+    "engine": "firefox",
+    "width": 375,
+    "query": "capframex json",
+    "visibleProjects": 1,
+    "cardText": "GAMES\nstutterscope\n\nOpen native CapFrameX JSON or capture CSVs, select a recording, and inspect frame-time gaps and slow-frame source evidence in your browser.\n\nRECORDED EVIDENCE\nFiltered Intel gold data: 175 retained frames have 83 clock gaps and only 91 observed pacing pairs; missing durations stay unknown.\n\nLive demo\n·\nnpm\n·\nSource",
+    "offlineRefilter": true,
+    "errors": [],
+    "catalogueRequestsWhileFiltering": [],
+    "noPageOverflow": true
+  }
+]

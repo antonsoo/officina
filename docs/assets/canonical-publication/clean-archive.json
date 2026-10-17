@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "a035fa1904237160c23fd31f14697efa29dae381",
+  "node": "v24.21.0",
+  "cleanGitArchive": true,
+  "commands": {
+    "npm ci": 0,
+    "npm run lint": 0,
+    "npm run typecheck": 0,
+    "npm run format:check": 0,
+    "npm test": 0,
+    "npm run build": 0,
+    "npm run test:browser": 0
+  },
+  "unitAndHTTPChecks": 38,
+  "browserChecks": 32,
+  "buildFiles": 38,
+  "buildManifestSha256": "2361306c3d35fb536f45cfdd5481812fb6051132daee399194a6c82a278e1c70",
+  "scope": "Fresh archive of the identified source commit; no execution of remote CI or registry publication is established."
+}

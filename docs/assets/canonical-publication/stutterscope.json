@@ -1,10 +1,15 @@
 {
   "schemaVersion": 1,
+  "node": "v24.21.0",
+  "requestTimeoutMs": 10000,
+  "retryWindowMs": 0,
+  "pollIntervalMs": 5000,
+  "concurrency": 6,
   "baseURL": "https://antonsoo.github.io/stutterscope/",
   "state": "verified",
   "attempts": 1,
-  "startedAtUtc": "2026-10-17T05:01:02.526Z",
-  "checkedAtUtc": "2026-10-17T05:01:03.769Z",
+  "startedAtUtc": "2026-10-17T05:16:12.109Z",
+  "checkedAtUtc": "2026-10-17T05:16:14.113Z",
   "buildManifestSha256": "2633ac63537d147150210dc14dc0caa5496dc9173c4b7af46d02a8185a50cd7c",
   "expectedFileCount": 33,
   "checkedFileCount": 33,
@@ -361,5 +366,5 @@
       "state": "verified"
     }
   ],
-  "scope": "Canonical responses matched this captured build inventory during this pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
+  "scope": "Compares canonical responses with this captured build inventory during the recorded pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
 }
