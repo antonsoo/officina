@@ -46,7 +46,7 @@ the tested pinned-source install is documented in the project's quickstart.
 
 ## Fieldproof: do not borrow another glyph's overhang
 
-The [authored renderer-bounds study](https://github.com/antonsoo/fieldproof/tree/05ac81a33215bc858d125f291d1467244fb56dde/studies/native-glyph-bounds)
+The [authored renderer-bounds study](https://github.com/antonsoo/fieldproof/tree/b1ddeee4ef21ef73b94dfef4c234ddd62de3b740/studies/native-glyph-bounds)
 starts with native `Authorized total: $900.00`, covers the nine, and draws an
 italic seven whose advance ends before the nine's layout rectangle. Its ink
 extends beyond that advance. The previous overlap observer still verified 900.
@@ -75,5 +75,20 @@ unchanged; source installation and a locally built review UI remain separate
 from the existing registry package. The static demo uses precomputed examples
 and does not run this native loader.
 
-Catalogue publication evidence is recorded after clean-build and public-byte
-verification; the project receipts above identify their own publication stages.
+Fieldproof's front page is also reduced from 866 to 184 lines. The tested source
+setup appears before the detailed feature list; usage, design, development and
+the evidence index have dedicated guides. The wheel's rendered README and the
+source distribution retain those links and guides. Fresh setup, actual CLI
+output, 100 browser scenarios against the installed server and static demo,
+and the 64-page worker control retain
+the usable workflow. The two installed worker observations take 11.35 and
+14.05 seconds within unchanged limits; they are not performance guarantees.
+
+The catalogue's fresh Node 24 install passes lint, types, formatting, all 38
+unit checks and all 32 production browser scenarios. A separate
+[card replay](evidence/cohorts-ink-browser.mjs) inspects both revised cards in
+Chromium/Firefox at 1440 and 375 pixels, including dark mode, zero page overflow
+and no accessibility violations. After visiting both thumbnails, their search
+and immutable source links work offline without requests. All eight
+[local captures](assets/cohorts-ink-2026-10-17/local/) were visually inspected.
+Public-byte and hosted replay receipts identify the subsequent publication stage.

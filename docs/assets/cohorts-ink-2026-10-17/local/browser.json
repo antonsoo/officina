@@ -1,0 +1,90 @@
+{
+  "base": "http://127.0.0.1:4480/officina/",
+  "scope": "Two visited catalogue cards; search and source links offline after loading both thumbnails and fonts.",
+  "views": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "theme": "light",
+      "cards": [
+        {
+          "name": "errorbars",
+          "finding": "A public SWE-bench file records 441/500 tasks. Removing 59 invented failures changes paired-task p from 0.000060 to 0.644; official score unchanged.",
+          "source": "https://github.com/antonsoo/errorbars/tree/661ff9988b1bb8f78854b8068423a3b87045099e/studies/observed-cohorts"
+        },
+        {
+          "name": "fieldproof",
+          "finding": "1,052 receipts: strict matching rejects all 2,251 one-letter name mutations in this study, but also sends OCR-repaired names to review.",
+          "source": "https://github.com/antonsoo/fieldproof/tree/79c30614d36ca60bd23d758bb1f7be3f750cb544/studies/cord-grounding"
+        }
+      ],
+      "offlineRequests": [],
+      "pageErrors": [],
+      "cspViolations": [],
+      "axeViolations": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "theme": "dark",
+      "cards": [
+        {
+          "name": "errorbars",
+          "finding": "A public SWE-bench file records 441/500 tasks. Removing 59 invented failures changes paired-task p from 0.000060 to 0.644; official score unchanged.",
+          "source": "https://github.com/antonsoo/errorbars/tree/661ff9988b1bb8f78854b8068423a3b87045099e/studies/observed-cohorts"
+        },
+        {
+          "name": "fieldproof",
+          "finding": "1,052 receipts: strict matching rejects all 2,251 one-letter name mutations in this study, but also sends OCR-repaired names to review.",
+          "source": "https://github.com/antonsoo/fieldproof/tree/79c30614d36ca60bd23d758bb1f7be3f750cb544/studies/cord-grounding"
+        }
+      ],
+      "offlineRequests": [],
+      "pageErrors": [],
+      "cspViolations": [],
+      "axeViolations": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "theme": "light",
+      "cards": [
+        {
+          "name": "errorbars",
+          "finding": "A public SWE-bench file records 441/500 tasks. Removing 59 invented failures changes paired-task p from 0.000060 to 0.644; official score unchanged.",
+          "source": "https://github.com/antonsoo/errorbars/tree/661ff9988b1bb8f78854b8068423a3b87045099e/studies/observed-cohorts"
+        },
+        {
+          "name": "fieldproof",
+          "finding": "1,052 receipts: strict matching rejects all 2,251 one-letter name mutations in this study, but also sends OCR-repaired names to review.",
+          "source": "https://github.com/antonsoo/fieldproof/tree/79c30614d36ca60bd23d758bb1f7be3f750cb544/studies/cord-grounding"
+        }
+      ],
+      "offlineRequests": [],
+      "pageErrors": [],
+      "cspViolations": [],
+      "axeViolations": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "theme": "dark",
+      "cards": [
+        {
+          "name": "errorbars",
+          "finding": "A public SWE-bench file records 441/500 tasks. Removing 59 invented failures changes paired-task p from 0.000060 to 0.644; official score unchanged.",
+          "source": "https://github.com/antonsoo/errorbars/tree/661ff9988b1bb8f78854b8068423a3b87045099e/studies/observed-cohorts"
+        },
+        {
+          "name": "fieldproof",
+          "finding": "1,052 receipts: strict matching rejects all 2,251 one-letter name mutations in this study, but also sends OCR-repaired names to review.",
+          "source": "https://github.com/antonsoo/fieldproof/tree/79c30614d36ca60bd23d758bb1f7be3f750cb544/studies/cord-grounding"
+        }
+      ],
+      "offlineRequests": [],
+      "pageErrors": [],
+      "cspViolations": [],
+      "axeViolations": []
+    }
+  ]
+}
