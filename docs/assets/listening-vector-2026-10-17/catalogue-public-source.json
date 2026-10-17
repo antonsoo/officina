@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-17T08:53:22.023794+00:00",
+  "localMain": "114a5a8f7fc02515c8c3c55bdde2eec1fa5c3f9b",
+  "remoteMain": "114a5a8f7fc02515c8c3c55bdde2eec1fa5c3f9b",
+  "files": [
+    {
+      "file": "public/projects.json",
+      "bytes": 13593,
+      "sha256": "5457ade28c288ea0fd98ddbb12a21a42fbabe7ffbe6430eab0b0652cbea7958d"
+    },
+    {
+      "file": "public/thumbs/tonemirror.webp",
+      "bytes": 46936,
+      "sha256": "eaffaa0326d712b9c2dc39dd55569bd2c58885b992582d3c84c9ea95ed758310"
+    },
+    {
+      "file": "public/thumbs/trainspotter.webp",
+      "bytes": 21978,
+      "sha256": "24d41b9ec65089a5d47afe555434c17f4e4da0af4033567c68e44009a5434035"
+    },
+    {
+      "file": "public/thumbs/ATTRIBUTION.txt",
+      "bytes": 945,
+      "sha256": "5ea978e2693a3f539dc9d7ddd724542b6474e8f1021f7451cd4f70d2221c9159"
+    },
+    {
+      "file": "docs/evidence/listening-thumbnail.mjs",
+      "bytes": 1857,
+      "sha256": "4ee8ef5ef54a7ed4bd0271227c10999b737dd14a4f57604eddf2c40968a0fd4a"
+    },
+    {
+      "file": "docs/evidence/listening-vector-browser.mjs",
+      "bytes": 11154,
+      "sha256": "5b7d4eda4c42f51b6c9a0ff72f9835dbc2296e2de4a0100e2d79aaea73e8d6f5"
+    },
+    {
+      "file": "docs/listening-and-portable-evidence-2026-10-17.md",
+      "bytes": 8644,
+      "sha256": "746526960c36884022272f1074a69c306e77c98caf56f71e2117a2a4299200df"
+    },
+    {
+      "file": "docs/assets/listening-vector-2026-10-17/catalogue-clean.json",
+      "bytes": 7615,
+      "sha256": "73960f5a3be9115f49fcdf3ccb1e31eb4f3b5640d37afa2dbd8cd84b99e0d914"
+    },
+    {
+      "file": "docs/assets/listening-vector-2026-10-17/local/browser.json",
+      "bytes": 16436,
+      "sha256": "7454f885c7e940f03af9c7f60da3d86f8ecf097e264dede6af5c29f158c903fd"
+    }
+  ],
+  "scope": "Public pinned source bytes. Independent from canonical hosted-byte and workflow receipts; no release or CI inference."
+}

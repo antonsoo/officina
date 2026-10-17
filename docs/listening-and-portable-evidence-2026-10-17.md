@@ -127,3 +127,21 @@ and a contrast audit during an opening fade. The completed replay respects
 the existing comparison deep link, waits for the destination app's registered
 fonts and waits for native animations before auditing the stable layout.
 No product change or weakened contrast rule was needed for those driver fixes.
+
+The updated catalogue is deployed at
+[the canonical public site](https://antonsoo.github.io/officina/), with
+`gh-pages` fast-forwarded to `1ad6f8f`. The
+[canonical HTTP receipt](assets/listening-vector-2026-10-17/catalogue-hosted-bytes.json)
+matches all 39 files, including both thumbnails and the attribution notice,
+plus root before/after and explicit index. The
+[public source receipt](assets/listening-vector-2026-10-17/catalogue-public-source.json)
+verifies nine pinned source files at `114a5a8`.
+
+The [public catalogue replay](assets/listening-vector-2026-10-17/hosted/browser.json)
+completes all four contexts and 20 actual offline downloads. All download
+hashes match the local route. Twenty-two of 24 screenshots are byte-identical
+to the inspected local captures; two Chromium card captures differ only in
+their top-border pixels and were separately opened and inspected.
+[Full comparison and hashes](assets/listening-vector-2026-10-17/hosted/comparison.json).
+No registry release, tag, remote-CI success or workbench deployment follows
+from these source and GitHub Pages checks.
