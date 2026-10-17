@@ -1,0 +1,9 @@
+{
+  "errorbars": {
+    "repo_id": "antonsoloviev/errorbars",
+    "commit": "447ca87eb56b134fd8201b60d6945618929423e7",
+    "manifest_sha256": "d204fad07540515908f0429e6bd0c6f0c7e3b861feb9c042a6d24dc5f81cb4b0",
+    "published_at": "2026-10-17T03:06:22.756736+00:00",
+    "host": "https://antonsoloviev-errorbars.static.hf.space"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "checked_at_utc": "2026-10-17T03:20:15.986Z",
+  "rows": [
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "name": "tonemirror",
+      "description": "See your intonation: compare speech pitch contours, keep a passage, and download practice audio. Runs in your browser.",
+      "screenshot": "chromium-1280-tonemirror.png",
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "name": "am-i-unlucky",
+      "description": "Drop-rate and pity math with earlier, same-attempt and later finish shares, collection odds, and downloadable luck cards.",
+      "screenshot": "chromium-1280-am-i-unlucky.png",
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "tonemirror",
+      "description": "See your intonation: compare speech pitch contours, keep a passage, and download practice audio. Runs in your browser.",
+      "screenshot": "chromium-375-tonemirror.png",
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "name": "am-i-unlucky",
+      "description": "Drop-rate and pity math with earlier, same-attempt and later finish shares, collection odds, and downloadable luck cards.",
+      "screenshot": "chromium-375-am-i-unlucky.png",
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "name": "tonemirror",
+      "description": "See your intonation: compare speech pitch contours, keep a passage, and download practice audio. Runs in your browser.",
+      "screenshot": "firefox-1280-tonemirror.png",
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "name": "am-i-unlucky",
+      "description": "Drop-rate and pity math with earlier, same-attempt and later finish shares, collection odds, and downloadable luck cards.",
+      "screenshot": "firefox-1280-am-i-unlucky.png",
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "tonemirror",
+      "description": "See your intonation: compare speech pitch contours, keep a passage, and download practice audio. Runs in your browser.",
+      "screenshot": "firefox-375-tonemirror.png",
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "name": "am-i-unlucky",
+      "description": "Drop-rate and pity math with earlier, same-attempt and later finish shares, collection odds, and downloadable luck cards.",
+      "screenshot": "firefox-375-am-i-unlucky.png",
+      "overflow": false
+    }
+  ]
+}

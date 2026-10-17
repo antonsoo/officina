@@ -392,3 +392,9 @@ actual offline reloads, unchanged drawings and four portable example files.
 The [Gnomon first-offline-PDF repair](gnomon-offline-pdf-2026-10-13.md)
 makes A4 and Letter exports work after disconnecting without an earlier PDF
 warmup, with unchanged drawing bytes and an explicit initial-load cost.
+
+The [2026-10-17 source and deployment review](verified-workflows-2026-10-17.md)
+collects the complete-build Flakemap gate, exact repeated means, YAML credential
+bodies, native CSV metadata handoff, corrected live probability cards and
+verified speech downloads. It separates public source, installed artifacts,
+static deployments and unchanged registry releases.

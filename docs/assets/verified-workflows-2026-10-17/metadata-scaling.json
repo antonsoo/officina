@@ -1,0 +1,36 @@
+{
+  "synthetic": true,
+  "rows": 20000,
+  "questions": 1250,
+  "models": 8,
+  "samples_per_question": 2,
+  "clusters": 250,
+  "csv_bytes": 4035142,
+  "csv_sha256": "31259b911a02ef61bd7d733670c71d55506705dfc025495bd6db9f282c13d9c2",
+  "before_module_sha256": "28d51b48f33c52a7952c72927ff848e5902b5c26ed993436c64c7c9e821d5e02",
+  "after_module_sha256": "4b9045975f3050899d664b3360656de1ff9d45ef4d63d1089979a1a476fc39c6",
+  "runtime": {
+    "python": "3.12.12",
+    "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+  },
+  "full_workflow_seconds": {
+    "before": [
+      1.460467161028646,
+      1.37920208403375,
+      1.3674361449666321
+    ],
+    "after": [
+      3.0454561000224203,
+      3.1050403109984472,
+      3.192702933039982
+    ]
+  },
+  "median_seconds": {
+    "before": 1.37920208403375,
+    "after": 3.1050403109984472
+  },
+  "model_means_and_all_28_adjusted_p_values_identical": true,
+  "before_direction": "default",
+  "after_direction": "recorded",
+  "note": "Shared 14-vCPU WSL2 Linux host, 48 GB RAM. Includes parsing, all comparisons, HTML, JSON and report writes; excludes imports. Not a worst-case bound or a browser latency measurement."
+}

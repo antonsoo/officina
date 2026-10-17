@@ -1,0 +1,399 @@
+{
+  "checked_at_utc": "2026-10-17T03:11:51.361Z",
+  "phase": "after",
+  "base": "https://antonsoloviev-errorbars.static.hf.space/",
+  "hub_revision": "447ca87eb56b134fd8201b60d6945618929423e7",
+  "manifest_sha256": "d204fad07540515908f0429e6bd0c6f0c7e3b861feb9c042a6d24dc5f81cb4b0",
+  "verified_files": 27,
+  "synthetic_scores": true,
+  "rows": [
+    {
+      "engine": "chromium",
+      "cases": [
+        {
+          "name": "loss",
+          "csv_sha256": "ac57b4109ff0828ced6b26e9160cb6ce632a49971535027a7cd2b57b2fef64b2",
+          "error": "",
+          "rejected": false,
+          "report": {
+            "source": "user upload",
+            "cohort": {
+              "input_rows": 16,
+              "retained_observations": 16,
+              "models": [
+                "low-loss",
+                "high-loss"
+              ],
+              "questions_in_union": 8,
+              "questions_in_every_model": 8,
+              "excluded_questions": 0,
+              "repeated_samples_averaged_within_question": false,
+              "clustered": false,
+              "unit_of_analysis": "question, equal weight, shared by every model",
+              "score_direction": {
+                "higher_is_better": false,
+                "source": "recorded"
+              }
+            },
+            "leaderboard": {
+              "entries": [
+                {
+                  "model": "low-loss",
+                  "mean": 0.1875,
+                  "se": 0.02950484221760411,
+                  "ci_low": 0.12967157188395906,
+                  "ci_high": 0.24532842811604094,
+                  "n": 8,
+                  "method": "clt",
+                  "interval_status": "available",
+                  "n_observations": 8,
+                  "analysis_unit": "question",
+                  "confidence": 0.95,
+                  "n_clusters": null,
+                  "dof_clustered": null,
+                  "unclustered": null,
+                  "warnings": []
+                },
+                {
+                  "model": "high-loss",
+                  "mean": 0.575,
+                  "se": 0.04531634835874828,
+                  "ci_low": 0.48618158930598254,
+                  "ci_high": 0.6638184106940174,
+                  "n": 8,
+                  "method": "clt",
+                  "interval_status": "available",
+                  "n_observations": 8,
+                  "analysis_unit": "question",
+                  "confidence": 0.95,
+                  "n_clusters": null,
+                  "dof_clustered": null,
+                  "unclustered": null,
+                  "warnings": []
+                }
+              ],
+              "pairwise": [
+                {
+                  "model_a": "low-loss",
+                  "model_b": "high-loss",
+                  "mean_diff": -0.3875,
+                  "p_value": 0.00013517362268227587,
+                  "p_value_clustered": null,
+                  "mcnemar": null,
+                  "test": "paired_t",
+                  "p_value_used": 0.00013517362268227587,
+                  "p_holm": 0.00013517362268227587,
+                  "n_shared": 8,
+                  "warnings": []
+                }
+              ],
+              "groups": [
+                [
+                  "low-loss"
+                ],
+                [
+                  "high-loss"
+                ]
+              ],
+              "group_status": "complete",
+              "alpha": 0.05,
+              "higher_is_better": false,
+              "direction_source": "recorded",
+              "rank_comparisons": {
+                "low-loss": {
+                  "non_significant": [],
+                  "significant": [
+                    2
+                  ],
+                  "untested": []
+                },
+                "high-loss": {
+                  "non_significant": [],
+                  "significant": [
+                    1
+                  ],
+                  "untested": []
+                }
+              },
+              "untested_pairs": [],
+              "warnings": []
+            },
+            "score_values": [],
+            "pairwise_details": [
+              {
+                "mean_a": 0.1875,
+                "mean_b": 0.575,
+                "mean_diff": -0.3875,
+                "se_paired": 0.05153882032022076,
+                "ci_low": -0.5093699444276676,
+                "ci_high": -0.26563005557233244,
+                "p_value": 0.00013517362268227587,
+                "correlation": 0.10016708449412685,
+                "se_unpaired": 0.05407501403473828,
+                "variance_reduction": 0.0916030534351141,
+                "n": 8,
+                "confidence": 0.95,
+                "warnings": [],
+                "model_a": "low-loss",
+                "model_b": "high-loss",
+                "p_holm": 0.00013517362268227587,
+                "inference": {
+                  "test": "paired_t",
+                  "p_value": 0.00013517362268227587,
+                  "ci_low": -0.5093699444276676,
+                  "ci_high": -0.26563005557233244,
+                  "confidence": 0.95,
+                  "mcnemar_applicable": false
+                },
+                "pairing_evidence": {
+                  "n_a": 8,
+                  "n_b": 8,
+                  "n_shared": 8,
+                  "n_only_a": 0,
+                  "n_only_b": 0,
+                  "n_observations_a": 8,
+                  "n_observations_b": 8,
+                  "n_shared_observations_a": 8,
+                  "n_shared_observations_b": 8,
+                  "mean_all_a": 0.1875,
+                  "mean_all_b": 0.575,
+                  "mean_shared_a": 0.1875,
+                  "mean_shared_b": 0.575,
+                  "mean_difference": -0.3875,
+                  "n_clusters": null,
+                  "n_identity_matching": 0,
+                  "n_identity_partial": 0,
+                  "n_identity_conflicting": 0,
+                  "n_identity_unavailable": 8,
+                  "n_scoring_matching": 0,
+                  "n_scoring_conflicting": 0,
+                  "n_scoring_unavailable": 8
+                },
+                "score_values": []
+              }
+            ]
+          },
+          "download_matches": true
+        },
+        {
+          "name": "question-conflict",
+          "csv_sha256": "ddc874d1e0515f4ea6c648f9c0cf267180f429ef22b0c35a171cbbe8c0c31732",
+          "error": "'high-loss' vs 'low-loss': conflicting question content for 8 shared ids (including 'q0'); inspect the source records before pairing",
+          "rejected": true,
+          "previous_cohort_preserved": true
+        },
+        {
+          "name": "scorer-conflict",
+          "csv_sha256": "86f1f13aa8c7ac42f702a5d375db017230913227050df43f145ccc1171d52c83",
+          "error": "'high-loss' vs 'low-loss': conflicting scoring rules for 8 shared ids (including 'q0'); re-score both runs under the same scorer and parameters before ranking",
+          "rejected": true,
+          "previous_cohort_preserved": true
+        }
+      ],
+      "page_errors": [],
+      "offline_requests": 0,
+      "received_assets": {
+        "index.html": "df7910323c1c3ad27a0a149dc83cebb9c49be8e78cf0b6f46b709629bace0737",
+        "app.js": "c627ffe149204625744fb08cf42a3843b8720d1a6ba538327186a4a5d363ecd8",
+        "workbench.css": "535f9b642d608d796832310d6170ba66b2e8319767701a14216ace58607043fe",
+        "browser.css": "60345fc666142c2f6dba6ee068bd0c366a3c22c94c185241541309841f4cb2da",
+        "worker.mjs": "4c805fa6870bc0b09614105fa0017aed0d8795c54208bc2e6e3f0225c179849a",
+        "python.zip": "feea256d93b66845d56af4bf89e348530c836dfdd6fd06b5ba434abb95e67045"
+      }
+    },
+    {
+      "engine": "firefox",
+      "cases": [
+        {
+          "name": "loss",
+          "csv_sha256": "ac57b4109ff0828ced6b26e9160cb6ce632a49971535027a7cd2b57b2fef64b2",
+          "error": "",
+          "rejected": false,
+          "report": {
+            "source": "user upload",
+            "cohort": {
+              "input_rows": 16,
+              "retained_observations": 16,
+              "models": [
+                "low-loss",
+                "high-loss"
+              ],
+              "questions_in_union": 8,
+              "questions_in_every_model": 8,
+              "excluded_questions": 0,
+              "repeated_samples_averaged_within_question": false,
+              "clustered": false,
+              "unit_of_analysis": "question, equal weight, shared by every model",
+              "score_direction": {
+                "higher_is_better": false,
+                "source": "recorded"
+              }
+            },
+            "leaderboard": {
+              "entries": [
+                {
+                  "model": "low-loss",
+                  "mean": 0.1875,
+                  "se": 0.02950484221760411,
+                  "ci_low": 0.12967157188395906,
+                  "ci_high": 0.24532842811604094,
+                  "n": 8,
+                  "method": "clt",
+                  "interval_status": "available",
+                  "n_observations": 8,
+                  "analysis_unit": "question",
+                  "confidence": 0.95,
+                  "n_clusters": null,
+                  "dof_clustered": null,
+                  "unclustered": null,
+                  "warnings": []
+                },
+                {
+                  "model": "high-loss",
+                  "mean": 0.575,
+                  "se": 0.04531634835874828,
+                  "ci_low": 0.48618158930598254,
+                  "ci_high": 0.6638184106940174,
+                  "n": 8,
+                  "method": "clt",
+                  "interval_status": "available",
+                  "n_observations": 8,
+                  "analysis_unit": "question",
+                  "confidence": 0.95,
+                  "n_clusters": null,
+                  "dof_clustered": null,
+                  "unclustered": null,
+                  "warnings": []
+                }
+              ],
+              "pairwise": [
+                {
+                  "model_a": "low-loss",
+                  "model_b": "high-loss",
+                  "mean_diff": -0.3875,
+                  "p_value": 0.00013517362268227587,
+                  "p_value_clustered": null,
+                  "mcnemar": null,
+                  "test": "paired_t",
+                  "p_value_used": 0.00013517362268227587,
+                  "p_holm": 0.00013517362268227587,
+                  "n_shared": 8,
+                  "warnings": []
+                }
+              ],
+              "groups": [
+                [
+                  "low-loss"
+                ],
+                [
+                  "high-loss"
+                ]
+              ],
+              "group_status": "complete",
+              "alpha": 0.05,
+              "higher_is_better": false,
+              "direction_source": "recorded",
+              "rank_comparisons": {
+                "low-loss": {
+                  "non_significant": [],
+                  "significant": [
+                    2
+                  ],
+                  "untested": []
+                },
+                "high-loss": {
+                  "non_significant": [],
+                  "significant": [
+                    1
+                  ],
+                  "untested": []
+                }
+              },
+              "untested_pairs": [],
+              "warnings": []
+            },
+            "score_values": [],
+            "pairwise_details": [
+              {
+                "mean_a": 0.1875,
+                "mean_b": 0.575,
+                "mean_diff": -0.3875,
+                "se_paired": 0.05153882032022076,
+                "ci_low": -0.5093699444276676,
+                "ci_high": -0.26563005557233244,
+                "p_value": 0.00013517362268227587,
+                "correlation": 0.10016708449412685,
+                "se_unpaired": 0.05407501403473828,
+                "variance_reduction": 0.0916030534351141,
+                "n": 8,
+                "confidence": 0.95,
+                "warnings": [],
+                "model_a": "low-loss",
+                "model_b": "high-loss",
+                "p_holm": 0.00013517362268227587,
+                "inference": {
+                  "test": "paired_t",
+                  "p_value": 0.00013517362268227587,
+                  "ci_low": -0.5093699444276676,
+                  "ci_high": -0.26563005557233244,
+                  "confidence": 0.95,
+                  "mcnemar_applicable": false
+                },
+                "pairing_evidence": {
+                  "n_a": 8,
+                  "n_b": 8,
+                  "n_shared": 8,
+                  "n_only_a": 0,
+                  "n_only_b": 0,
+                  "n_observations_a": 8,
+                  "n_observations_b": 8,
+                  "n_shared_observations_a": 8,
+                  "n_shared_observations_b": 8,
+                  "mean_all_a": 0.1875,
+                  "mean_all_b": 0.575,
+                  "mean_shared_a": 0.1875,
+                  "mean_shared_b": 0.575,
+                  "mean_difference": -0.3875,
+                  "n_clusters": null,
+                  "n_identity_matching": 0,
+                  "n_identity_partial": 0,
+                  "n_identity_conflicting": 0,
+                  "n_identity_unavailable": 8,
+                  "n_scoring_matching": 0,
+                  "n_scoring_conflicting": 0,
+                  "n_scoring_unavailable": 8
+                },
+                "score_values": []
+              }
+            ]
+          },
+          "download_matches": true
+        },
+        {
+          "name": "question-conflict",
+          "csv_sha256": "ddc874d1e0515f4ea6c648f9c0cf267180f429ef22b0c35a171cbbe8c0c31732",
+          "error": "'high-loss' vs 'low-loss': conflicting question content for 8 shared ids (including 'q0'); inspect the source records before pairing",
+          "rejected": true,
+          "previous_cohort_preserved": true
+        },
+        {
+          "name": "scorer-conflict",
+          "csv_sha256": "86f1f13aa8c7ac42f702a5d375db017230913227050df43f145ccc1171d52c83",
+          "error": "'high-loss' vs 'low-loss': conflicting scoring rules for 8 shared ids (including 'q0'); re-score both runs under the same scorer and parameters before ranking",
+          "rejected": true,
+          "previous_cohort_preserved": true
+        }
+      ],
+      "page_errors": [],
+      "offline_requests": 0,
+      "received_assets": {
+        "index.html": "df7910323c1c3ad27a0a149dc83cebb9c49be8e78cf0b6f46b709629bace0737",
+        "workbench.css": "535f9b642d608d796832310d6170ba66b2e8319767701a14216ace58607043fe",
+        "browser.css": "60345fc666142c2f6dba6ee068bd0c366a3c22c94c185241541309841f4cb2da",
+        "app.js": "c627ffe149204625744fb08cf42a3843b8720d1a6ba538327186a4a5d363ecd8",
+        "worker.mjs": "4c805fa6870bc0b09614105fa0017aed0d8795c54208bc2e6e3f0225c179849a",
+        "python.zip": "feea256d93b66845d56af4bf89e348530c836dfdd6fd06b5ba434abb95e67045"
+      }
+    }
+  ]
+}
