@@ -1,0 +1,18 @@
+ToneMirror thumbnail (tonemirror.webp)
+
+Screenshot of ToneMirror by Anton Soloviev, comparing pitch curves derived
+from the rising and falling excerpts of FourMandarinTones.ogg by Wolfdog (2019).
+Original recording and source details:
+https://commons.wikimedia.org/w/index.php?title=File:FourMandarinTones.ogg&oldid=1277043205
+
+The recording is licensed under Creative Commons Attribution-ShareAlike 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+This thumbnail is distributed under CC BY-SA 4.0. Changes: the recording was
+decoded to mono, excerpts selected, pitch contours drawn by ToneMirror and
+the resulting application screenshot framed and re-encoded for this catalogue.
+No endorsement by the recording's creator is implied.
+
+Other project thumbnails retain the repository's existing notices and MIT
+license unless separately attributed. This notice does not change the
+licenses of the catalogue's code or the linked applications.

@@ -44,15 +44,15 @@
   },
   {
     "name": "tonemirror",
-    "description": "See your intonation: compare speech pitch contours, keep a passage, and download practice audio. Runs in your browser.",
+    "description": "Practice speech intonation against recorded Mandarin examples, listen to both clips, and keep credited audio offline in your browser.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/tonemirror",
     "demoUrl": "https://antonsoo.github.io/tonemirror/",
     "thumbnail": "thumbs/tonemirror.webp",
     "status": "published",
     "study": {
-      "finding": "20 speakers, studio English: YIN contour gross error is 1.94% of jointly voiced frames; voicing error is 6.13%. This does not score pronunciation.",
-      "url": "https://github.com/antonsoo/tonemirror/tree/43a1dc72bc7ecc6a7c467d5a4b7a5d99d11f315e/studies/real-voice"
+      "finding": "One attributed Mandarin recording supplies four tone examples. Paired listening preserves selected audio; the shape score is not a pronunciation grade.",
+      "url": "https://github.com/antonsoo/tonemirror/tree/fe8c07dd7d5e9c7e38c5c2d40c44f6054cded5db/studies/paired-listening"
     }
   },
   {
@@ -144,7 +144,7 @@
   },
   {
     "name": "tracelens",
-    "description": "Inspect and compare agent runs locally: operation changes, per-call evidence, tokens and estimated cost from OTLP or Jaeger JSON traces.",
+    "description": "Inspect OTLP or Jaeger agent traces locally: compare runs, follow span evidence and reconcile recorded token counts before estimating cost.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/tracelens",
     "demoUrl": "https://antonsoo.github.io/tracelens/?example=compare",
@@ -155,13 +155,13 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/tracelens"
     },
     "study": {
-      "finding": "1,442 calls replayed through 21 libraries: the study recovers cache tokens in 85/86 eligible calls and reasoning tokens in 193/280; omissions remain.",
-      "url": "https://github.com/antonsoo/tracelens/tree/034732b32b1d5641945fb6e9bea0331f58359e25/studies/instrumentation-census"
+      "finding": "A controlled SDK span recorded 0 and 1,000,000 input tokens. The viewer retains both and withholds the charge; this is not an invoice.",
+      "url": "https://github.com/antonsoo/tracelens/tree/411b2e5c625de23aa9b3fed06c068d32b998faf6/studies/usage-conflicts"
     }
   },
   {
     "name": "trainspotter",
-    "description": "Automatic diagnosis of training runs from their logs: divergence, loss spikes, overfitting, LR and throughput problems.",
+    "description": "Inspect training logs, follow findings to recorded steps, and download annotated vector charts with source and axis context. Works offline.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/trainspotter",
     "demoUrl": "https://antonsoo.github.io/trainspotter/",

@@ -1,0 +1,15 @@
+{
+  "sourceUrl": "https://raw.githubusercontent.com/antonsoo/tonemirror/fe8c07dd7d5e9c7e38c5c2d40c44f6054cded5db/docs/assets/paired-listening/paired-listening.png",
+  "sourceBytes": 95439,
+  "sourceSha256": "d661c4cc7c63201f15c7eb155e0eb8505726a271241fa75271726249c164f2be",
+  "sourceDimensions": [
+    1140,
+    690
+  ],
+  "outputDimensions": [
+    1200,
+    750
+  ],
+  "operation": "Unmodified source pixels centered with 30 pixels of background padding on each side. No curve, label or metric was redrawn. Final WebP encoding uses scripts/make_thumb.py.",
+  "licenseNotice": "public/thumbs/ATTRIBUTION.txt"
+}

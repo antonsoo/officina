@@ -1,0 +1,24 @@
+{
+  "sources": {
+    "tonemirror": "fe8c07dd7d5e9c7e38c5c2d40c44f6054cded5db",
+    "trainspotter": "0e6a0f7c8f1ce29ccf438fb157aefa29d9e833b3"
+  },
+  "scope": "Actual product captures, not mockups. ToneMirror includes one attributed recording plotted as two excerpts; its thumbnail carries a separate CC BY-SA notice. Trainspotter uses a retained controlled training run, not a new calibration.",
+  "files": [
+    {
+      "file": "public/thumbs/tonemirror.webp",
+      "bytes": 46936,
+      "sha256": "eaffaa0326d712b9c2dc39dd55569bd2c58885b992582d3c84c9ea95ed758310"
+    },
+    {
+      "file": "public/thumbs/trainspotter.webp",
+      "bytes": 21978,
+      "sha256": "24d41b9ec65089a5d47afe555434c17f4e4da0af4033567c68e44009a5434035"
+    },
+    {
+      "file": "public/thumbs/ATTRIBUTION.txt",
+      "bytes": 945,
+      "sha256": "5ea978e2693a3f539dc9d7ddd724542b6474e8f1021f7451cd4f70d2221c9159"
+    }
+  ]
+}

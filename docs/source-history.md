@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [recorded practice and portable-evidence update](listening-and-portable-evidence-2026-10-17.md)
+adds attributed Mandarin listening and paired playback, standalone training
+charts, and repairs for contradictory trace usage and whole YAML credentials.
+Native digital audio, installed artifacts, independent SVG/PDF conversion
+and actual offline downloads retain the outcomes and limits.
+
 The [native-capture and canonical-publication review](canonical-publication.md)
 adds direct CapFrameX session import, ships the corrected calendar clock, and
 checks every canonical build file before declaring a site current. Native
