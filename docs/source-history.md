@@ -5,6 +5,12 @@ and release boundaries. A source correction does not by itself update a package
 or hosted demo. Each linked record identifies what was checked and its publication status.
 For the catalogue and setup, return to the [README](../README.md).
 
+The [native TRX hierarchy correction](native-trx-hierarchy-2026-10-17.md)
+keeps failed child evidence that previously disappeared behind a passed parent,
+without turning correlated rows into extra trials. Controlled SDK captures,
+unchanged consistent analyses, installed CLIs and separate hosted examples
+retain the evidence. The real Kubernetes catalogue study remains in place.
+
 The [recorded-task and PDF-ink corrections](recorded-cohorts-and-pdf-ink-2026-10-17.md)
 retain a public SWE-bench cohort that had acquired 59 invented failures, grouped
 summary intervals, and authored PDFs whose italic/stroked ink escaped layout
