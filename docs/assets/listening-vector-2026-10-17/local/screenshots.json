@@ -1,0 +1,126 @@
+{
+  "capture": "local catalogue to actual hosted applications",
+  "actualDownloads": 20,
+  "screenshots": [
+    {
+      "file": "chromium-1440-cost.png",
+      "bytes": 75201,
+      "sha256": "e694b54a6426d1579aca7193fcbe5513ee83231986e8466262189c4ef7d0adfe"
+    },
+    {
+      "file": "chromium-1440-listening.png",
+      "bytes": 496213,
+      "sha256": "0647e4a59a533d611ec70336b9b2da0a4675ebff984b27ee8583d028e093ce8e"
+    },
+    {
+      "file": "chromium-1440-tonemirror-card.png",
+      "bytes": 59975,
+      "sha256": "a2705c59d51aa341529d3a43b704e1e1f5002c0c42586e327090c818c3e34ad8"
+    },
+    {
+      "file": "chromium-1440-tracelens-card.png",
+      "bytes": 62806,
+      "sha256": "d68fd90f510ed2d8a1ba8fa0bd11b05fd4b4304a3aecbd91b1f3274fb7d6bd36"
+    },
+    {
+      "file": "chromium-1440-trainspotter-card.png",
+      "bytes": 44644,
+      "sha256": "c2e7c1c876c90f45a67bcff0484133380dde0c037d093c25aa29ee6810d9cb5e"
+    },
+    {
+      "file": "chromium-1440-vector.png",
+      "bytes": 35141,
+      "sha256": "5e7da828eefca7769a6fb533374ad28d3079624ab93b9dd5118e549e714a3e59"
+    },
+    {
+      "file": "chromium-375-cost.png",
+      "bytes": 68710,
+      "sha256": "29bf2b942c4fee42e0bff642c536312fb87f4e63f6743f8243a9fb3f48122e6f"
+    },
+    {
+      "file": "chromium-375-listening.png",
+      "bytes": 406330,
+      "sha256": "a490970d8c597b7d9f5613c463ea965b67c3ee582c0c10fab367386dfdcba9bc"
+    },
+    {
+      "file": "chromium-375-tonemirror-card.png",
+      "bytes": 53190,
+      "sha256": "4cb5b48578f34084bf6febf213732c0fd1c83fa2776b4eae0861fb2a8b98bd7e"
+    },
+    {
+      "file": "chromium-375-tracelens-card.png",
+      "bytes": 56787,
+      "sha256": "ec034012b30b1dd4a5bfd544f4ec371f2c25917380b0d1e40a5a49390abd9c51"
+    },
+    {
+      "file": "chromium-375-trainspotter-card.png",
+      "bytes": 40966,
+      "sha256": "4edecda0472c16a36de9dfbf0e5af7b7b8f323fd3cae652340d764fb1ca1e844"
+    },
+    {
+      "file": "chromium-375-vector.png",
+      "bytes": 10503,
+      "sha256": "eae7ed4e75373985fd33aa217d1338794f55bd264279a5d94e1b240e9041f840"
+    },
+    {
+      "file": "firefox-1440-cost.png",
+      "bytes": 106741,
+      "sha256": "558a5155b592c7aa8cc03e9b2e176ac71fbab6e56433033efc7c912e5884550d"
+    },
+    {
+      "file": "firefox-1440-listening.png",
+      "bytes": 653628,
+      "sha256": "58fab20cdb128098eaaad7aba91d4188b137ee6dd803265f17be6d1404c1f20f"
+    },
+    {
+      "file": "firefox-1440-tonemirror-card.png",
+      "bytes": 84087,
+      "sha256": "eda27a81065b2417c496b7f352c3e014bf0d974f6830400497200063ce6e1dd1"
+    },
+    {
+      "file": "firefox-1440-tracelens-card.png",
+      "bytes": 86474,
+      "sha256": "8b488ef9c5975de3445078324846bd56822458f430692167c04c03d5b2c94935"
+    },
+    {
+      "file": "firefox-1440-trainspotter-card.png",
+      "bytes": 64523,
+      "sha256": "5c1e70fec1d96edb0f439717b507cc69169647331b73a3219e2ce24b87332022"
+    },
+    {
+      "file": "firefox-1440-vector.png",
+      "bytes": 40208,
+      "sha256": "85a24ea44557b36e658a14cc474170551aef31ca3e7c6c31a5d1cef2dd9e9b8f"
+    },
+    {
+      "file": "firefox-375-cost.png",
+      "bytes": 94968,
+      "sha256": "152d40a23963da647557e7dab34141989546831f7b2b8adc34e4fcbd8a9a8ec2"
+    },
+    {
+      "file": "firefox-375-listening.png",
+      "bytes": 565575,
+      "sha256": "12d7b88e8bd318d3a0d109a35c6177a2cc263bfe653561f0d36c1f3ef53f56e8"
+    },
+    {
+      "file": "firefox-375-tonemirror-card.png",
+      "bytes": 73410,
+      "sha256": "17b0738c012d0dc8d4743202cd1c62e386b598e18d49639c618105d2df8cb1f8"
+    },
+    {
+      "file": "firefox-375-tracelens-card.png",
+      "bytes": 76427,
+      "sha256": "779422b682482644b83935f3872671b895689c198edd3ddfc8021f716443be3e"
+    },
+    {
+      "file": "firefox-375-trainspotter-card.png",
+      "bytes": 58058,
+      "sha256": "659b14a0073a16af0e09e0fcfa44164578ed275fdaa967b6b5fe5c8b90291fb4"
+    },
+    {
+      "file": "firefox-375-vector.png",
+      "bytes": 11641,
+      "sha256": "225b3cd44f8fd800cb3f4527a266416463427a78aebb48595480e3f8c7c7f088"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "Catalogue handoff driver corrections; neither failure established a product defect. Product-specific studies are linked separately.",
+  "attempts": [
+    {
+      "state": "failed",
+      "reason": "The driver assumed every demo URL ended at /. TraceLens intentionally links to ?example=compare. The actual existing catalogue URL was retained and asserted explicitly."
+    },
+    {
+      "state": "failed",
+      "reason": "A Firefox context recorded a ToneMirror font request after disconnect. The font-load barrier ran before the destination recorded-reference group existed. The driver now waits for that group before explicitly loading and awaiting all registered font faces."
+    },
+    {
+      "state": "failed",
+      "reason": "The next replay reached TraceLens but axe sampled a partially faded opening bar: composited background #6a7480, while its declared dark-theme final color is #7c8794. The native opening animation lasts 420 ms. The driver now awaits actual document animation completion before its stable-layout audit. It does not change or suppress a contrast rule."
+    }
+  ],
+  "productionApplicationChanged": false,
+  "stableOtherBar": {
+    "foreground": "#08110f",
+    "background": "#7c8794",
+    "independentlyCalculatedWcagContrast": 5.239856402240468
+  }
+}

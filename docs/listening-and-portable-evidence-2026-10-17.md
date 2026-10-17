@@ -7,7 +7,7 @@ installed artifacts and the actual public applications.
 | Project | Result | Retained evidence |
 | --- | --- | --- |
 | ToneMirror | Four recorded Mandarin examples, portable recording credit, and **Play reference then attempt** with a 350 ms pause. | [Recorded source and WAV round trips](https://github.com/antonsoo/tonemirror/tree/fe8c07dd7d5e9c7e38c5c2d40c44f6054cded5db/studies/recorded-practice), [native paired playback and cancellation](https://github.com/antonsoo/tonemirror/tree/fe8c07dd7d5e9c7e38c5c2d40c44f6054cded5db/studies/paired-listening) |
-| Trainspotter | **Download SVG** beside each plotted chart. The independent file retains its source, axis, styling, gaps and heuristic context. | [Actual offline downloads and independent SVG/PDF conversion](https://github.com/antonsoo/trainspotter/tree/0e6a0f7c8f1ce29ccf438fb157aefa29d9e833b3/studies/vector-charts) |
+| Trainspotter | **Download SVG** beside each plotted chart. The independent file retains its source, axis, styling, gaps and heuristic context. | [Actual offline downloads and independent SVG/PDF conversion](https://github.com/antonsoo/trainspotter/tree/1195f7bb305e4c4fce9a1653ee9117c33b0e790b/studies/vector-charts) |
 | TraceLens | Contradictory recorded token aliases stay visible and withhold an unsupported charge. | [Native SDK serialization, CLI/browser receipts and unchanged retained inputs](https://github.com/antonsoo/tracelens/tree/411b2e5c625de23aa9b3fed06c068d32b998faf6/studies/usage-conflicts) |
 | Veil | Quoted, wrapped and multiword YAML credential scalars are masked as whole values and restored exactly. | [Native YAML writers, captured SDK request bodies and installed packages](https://github.com/antonsoo/veil/tree/c8170d20db4e11cd891e013199f4131ed6cf7807/studies/yaml-flow-credentials) |
 
@@ -94,3 +94,36 @@ these source changes. ToneMirror remains a private application at 0.2.3.
 No Hugging Face workbench was refreshed in this follow-up. Earlier same-day
 workbench publication remains documented in the
 [separate earlier handoff](verified-workflows-2026-10-17.md).
+
+The [current source-publication receipt](assets/listening-vector-2026-10-17/project-source-publication.json)
+checks clean local checkouts, remote main equality, pinned study bytes and
+Pages branch references. Each linked study separately compares the actual
+canonical build files and exercises its public offline workflow.
+
+| Public tool | Source main | GitHub Pages | Matched canonical files |
+| --- | --- | --- | ---: |
+| veil | `c8170d2` | `9b2429d` | 27 |
+| tonemirror | `fe8c07d` | `d3a3144` | 30 |
+| tracelens | `411b2e5` | `570e576` | 34 |
+| trainspotter | `1195f7b` | `ca4d7f5` | 18 |
+
+The [clean catalogue archive](assets/listening-vector-2026-10-17/catalogue-clean.json)
+at `d4a3fe1` passes Node 24 installation, lint, formatting, types, 38 unit checks
+and 32 browser workflows. All 39 static files match the working build.
+The [actual-link replay](evidence/listening-vector-browser.mjs) searches the
+three changed cards and follows each real demo URL. After disconnecting, it
+plays the two recorded passages, verifies unchanged credited WAVs, downloads
+the exact standalone training chart and downloads the same unknown-cost
+report as the pinned CLI. All four browser contexts pass, with 20 actual
+downloads. [Local handoff receipt](assets/listening-vector-2026-10-17/local/browser.json).
+The 12 card captures and eight destination captures were opened and inspected;
+the four vector previews match the separately inspected Trainspotter captures
+byte for byte. [Asset hashes](assets/listening-vector-2026-10-17/local/screenshots.json).
+The recording-derived captures retain [their attribution](assets/listening-vector-2026-10-17/ATTRIBUTION.txt).
+
+The [driver history](assets/listening-vector-2026-10-17/driver-history.json)
+retains its incorrect initial demo-URL assumption, a premature font barrier
+and a contrast audit during an opening fade. The completed replay respects
+the existing comparison deep link, waits for the destination app's registered
+fonts and waits for native animations before auditing the stable layout.
+No product change or weakened contrast rule was needed for those driver fixes.

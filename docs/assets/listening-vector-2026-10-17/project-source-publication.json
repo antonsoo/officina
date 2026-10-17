@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-17T08:49:33.473847+00:00",
+  "projects": [
+    {
+      "project": "veil",
+      "sourceMain": "c8170d20db4e11cd891e013199f4131ed6cf7807",
+      "remoteMainEqual": true,
+      "cleanSourceCheckout": true,
+      "ghPages": "9b2429d45c6e09efe67c892d1df62f022f7d38dc",
+      "sourceFile": "studies/yaml-flow-credentials/README.md",
+      "sourceUrl": "https://raw.githubusercontent.com/antonsoo/veil/c8170d20db4e11cd891e013199f4131ed6cf7807/studies/yaml-flow-credentials/README.md",
+      "sourceBytes": 10416,
+      "sourceSha256": "746f8173496f7b459b5a4552a4e8c768d0cea0bc9d68441fe7cbed0284c65406",
+      "boundary": "Source and Pages branch references. The study carries separate canonical HTTP/browser evidence; no registry, CI or Hub release inference."
+    },
+    {
+      "project": "tonemirror",
+      "sourceMain": "fe8c07dd7d5e9c7e38c5c2d40c44f6054cded5db",
+      "remoteMainEqual": true,
+      "cleanSourceCheckout": true,
+      "ghPages": "d3a3144679360867d036184cc109ecf54d360482",
+      "sourceFile": "studies/paired-listening/README.md",
+      "sourceUrl": "https://raw.githubusercontent.com/antonsoo/tonemirror/fe8c07dd7d5e9c7e38c5c2d40c44f6054cded5db/studies/paired-listening/README.md",
+      "sourceBytes": 8228,
+      "sourceSha256": "6149ee7b9c563390d26631c8a6b015d57972f527d2a2bc39b36724c5532fa677",
+      "boundary": "Source and Pages branch references. The study carries separate canonical HTTP/browser evidence; no registry, CI or Hub release inference."
+    },
+    {
+      "project": "tracelens",
+      "sourceMain": "411b2e5c625de23aa9b3fed06c068d32b998faf6",
+      "remoteMainEqual": true,
+      "cleanSourceCheckout": true,
+      "ghPages": "570e576c4ebb98dd65c557b7a8eb6d9f4f881df0",
+      "sourceFile": "studies/usage-conflicts/README.md",
+      "sourceUrl": "https://raw.githubusercontent.com/antonsoo/tracelens/411b2e5c625de23aa9b3fed06c068d32b998faf6/studies/usage-conflicts/README.md",
+      "sourceBytes": 8472,
+      "sourceSha256": "b1e05cb27d9cba1a7f73a47b94d668d6fd23bf8d2181073a056328eff738ebb8",
+      "boundary": "Source and Pages branch references. The study carries separate canonical HTTP/browser evidence; no registry, CI or Hub release inference."
+    },
+    {
+      "project": "trainspotter",
+      "sourceMain": "1195f7bb305e4c4fce9a1653ee9117c33b0e790b",
+      "remoteMainEqual": true,
+      "cleanSourceCheckout": true,
+      "ghPages": "ca4d7f5807eb24484c1b012adbeb9d6f37abf908",
+      "sourceFile": "studies/vector-charts/README.md",
+      "sourceUrl": "https://raw.githubusercontent.com/antonsoo/trainspotter/1195f7bb305e4c4fce9a1653ee9117c33b0e790b/studies/vector-charts/README.md",
+      "sourceBytes": 9432,
+      "sourceSha256": "4a600cbdbf6f8dcfde7e02755a37ba588fe5566c4d1b2a5ae4a9354660519467",
+      "boundary": "Source and Pages branch references. The study carries separate canonical HTTP/browser evidence; no registry, CI or Hub release inference."
+    }
+  ]
+}

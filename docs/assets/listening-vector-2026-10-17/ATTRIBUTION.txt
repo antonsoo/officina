@@ -1,0 +1,12 @@
+ToneMirror captures in this directory
+
+Files whose names contain listening or tonemirror-card include pitch curves
+derived from FourMandarinTones.ogg by Wolfdog (2019), CC BY-SA 4.0.
+https://commons.wikimedia.org/w/index.php?title=File:FourMandarinTones.ogg&oldid=1277043205
+https://creativecommons.org/licenses/by-sa/4.0/
+
+These captures are distributed under CC BY-SA 4.0. Changes: selected excerpts
+were decoded to mono and plotted by ToneMirror; the catalogue thumbnail was
+framed and re-encoded. Two excerpts demonstrate a rising/falling contrast;
+they are not a learner performance. No endorsement is implied.
+Other captures and code retain the repository's existing MIT license.

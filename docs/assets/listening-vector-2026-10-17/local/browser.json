@@ -1,0 +1,384 @@
+{
+  "base": "http://127.0.0.1:4193/officina/",
+  "checkedAt": "2026-10-17T08:51:49.351Z",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/411b2e5c625de23aa9b3fed06c068d32b998faf6/studies/usage-conflicts/fixtures/focused.json",
+      "bytes": 3331,
+      "sha256": "e8cf5fbbdbc6d1ba69c9de5579885273d4bbd6dbc4bd3ebb28c775c26845f8ab"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/411b2e5c625de23aa9b3fed06c068d32b998faf6/studies/usage-conflicts/results/after.json",
+      "bytes": 224263,
+      "sha256": "a4c4f9ba9681d9c84c1fb16464f3e294fa503e6377e3785a874cd486ecd49fce"
+    }
+  ],
+  "expectedSvgSha256": "3629ff436602809702085c5555ab27f617f536f4b076122cb917fb76575f3d61",
+  "scope": "Three actual catalogue links, one recorded rising/falling comparison, one retained controlled training chart and one constructed contradictory native SDK span. Four browser contexts; no additional speakers, training runs, provider invoices or physical audio/print measurements.",
+  "views": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "cards": [
+        {
+          "name": "tonemirror",
+          "query": "recorded Mandarin",
+          "description": "Practice speech intonation against recorded Mandarin examples, listen to both clips, and keep credited audio offline in your browser.",
+          "study": "RECORDED EVIDENCE\nOne attributed Mandarin recording supplies four tone examples. Paired listening preserves selected audio; the shape score is not a pronunciation grade.",
+          "followedUrl": "https://antonsoo.github.io/tonemirror/"
+        },
+        {
+          "name": "trainspotter",
+          "query": "vector charts",
+          "description": "Inspect training logs, follow findings to recorded steps, and download annotated vector charts with source and axis context. Works offline.",
+          "study": "RECORDED EVIDENCE\n537 held-out runs ending at their best loss: warnings fell from 73.0% to 6.9%. That endpoint label does not establish that a run was trouble-free.",
+          "followedUrl": "https://antonsoo.github.io/trainspotter/"
+        },
+        {
+          "name": "tracelens",
+          "query": "input tokens",
+          "description": "Inspect OTLP or Jaeger agent traces locally: compare runs, follow span evidence and reconcile recorded token counts before estimating cost.",
+          "study": "RECORDED EVIDENCE\nA controlled SDK span recorded 0 and 1,000,000 input tokens. The viewer retains both and withholds the charge; this is not an invoice.",
+          "followedUrl": "https://antonsoo.github.io/tracelens/?example=compare"
+        }
+      ],
+      "listening": {
+        "starts": [
+          {
+            "samples": 41895,
+            "rate": 44100,
+            "when": 0.5524489795918368,
+            "normalSpeed": true,
+            "equalsLoadedAudio": true
+          },
+          {
+            "samples": 33075,
+            "rate": 44100,
+            "when": 1.8524489795918369,
+            "normalSpeed": true,
+            "equalsLoadedAudio": true
+          }
+        ],
+        "phases": [
+          "Preparing to listen…",
+          "Listening to the reference.",
+          "Brief pause before your attempt.",
+          "Listening to your attempt.",
+          "Finished listening to the reference and your attempt."
+        ]
+      },
+      "attemptWavUnchanged": true,
+      "svgMatchesPinnedSource": true,
+      "costMatchesPinnedCli": true,
+      "downloads": [
+        {
+          "file": "chromium-1440-falling.wav",
+          "bytes": 132798,
+          "sha256": "6b7410e328233fc75f4fe8145b09c9e1f4ed2c5445ce7594493b72b9215bedd0",
+          "suggestedFilename": "tonemirror-reference-Recorded Mandarin mà (tone 4).wav"
+        },
+        {
+          "file": "chromium-1440-attempt-before.wav",
+          "bytes": 132798,
+          "sha256": "6b7410e328233fc75f4fe8145b09c9e1f4ed2c5445ce7594493b72b9215bedd0",
+          "suggestedFilename": "tonemirror-attempt-falling.wav"
+        },
+        {
+          "file": "chromium-1440-attempt-after.wav",
+          "bytes": 132798,
+          "sha256": "6b7410e328233fc75f4fe8145b09c9e1f4ed2c5445ce7594493b72b9215bedd0",
+          "suggestedFilename": "tonemirror-attempt-falling.wav"
+        },
+        {
+          "file": "chromium-1440-divergence.svg",
+          "bytes": 10196,
+          "sha256": "3629ff436602809702085c5555ab27f617f536f4b076122cb917fb76575f3d61",
+          "suggestedFilename": "trainspotter-1-train-loss-eval-loss.svg"
+        },
+        {
+          "file": "chromium-1440-cost.json",
+          "bytes": 2292,
+          "sha256": "641bd7570e04e2c91a959e6861a712c7fe68dabc869f720e21b013ad74e163a8",
+          "suggestedFilename": "tracelens-trace-cost.json"
+        }
+      ],
+      "pageErrors": [],
+      "offlineRequests": [],
+      "cspViolations": [],
+      "axeViolations": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "cards": [
+        {
+          "name": "tonemirror",
+          "query": "recorded Mandarin",
+          "description": "Practice speech intonation against recorded Mandarin examples, listen to both clips, and keep credited audio offline in your browser.",
+          "study": "RECORDED EVIDENCE\nOne attributed Mandarin recording supplies four tone examples. Paired listening preserves selected audio; the shape score is not a pronunciation grade.",
+          "followedUrl": "https://antonsoo.github.io/tonemirror/"
+        },
+        {
+          "name": "trainspotter",
+          "query": "vector charts",
+          "description": "Inspect training logs, follow findings to recorded steps, and download annotated vector charts with source and axis context. Works offline.",
+          "study": "RECORDED EVIDENCE\n537 held-out runs ending at their best loss: warnings fell from 73.0% to 6.9%. That endpoint label does not establish that a run was trouble-free.",
+          "followedUrl": "https://antonsoo.github.io/trainspotter/"
+        },
+        {
+          "name": "tracelens",
+          "query": "input tokens",
+          "description": "Inspect OTLP or Jaeger agent traces locally: compare runs, follow span evidence and reconcile recorded token counts before estimating cost.",
+          "study": "RECORDED EVIDENCE\nA controlled SDK span recorded 0 and 1,000,000 input tokens. The viewer retains both and withholds the charge; this is not an invoice.",
+          "followedUrl": "https://antonsoo.github.io/tracelens/?example=compare"
+        }
+      ],
+      "listening": {
+        "starts": [
+          {
+            "samples": 41895,
+            "rate": 44100,
+            "when": 0.5988888888888889,
+            "normalSpeed": true,
+            "equalsLoadedAudio": true
+          },
+          {
+            "samples": 33075,
+            "rate": 44100,
+            "when": 1.898888888888889,
+            "normalSpeed": true,
+            "equalsLoadedAudio": true
+          }
+        ],
+        "phases": [
+          "Preparing to listen…",
+          "Listening to the reference.",
+          "Brief pause before your attempt.",
+          "Listening to your attempt.",
+          "Finished listening to the reference and your attempt."
+        ]
+      },
+      "attemptWavUnchanged": true,
+      "svgMatchesPinnedSource": true,
+      "costMatchesPinnedCli": true,
+      "downloads": [
+        {
+          "file": "chromium-375-falling.wav",
+          "bytes": 132798,
+          "sha256": "6b7410e328233fc75f4fe8145b09c9e1f4ed2c5445ce7594493b72b9215bedd0",
+          "suggestedFilename": "tonemirror-reference-Recorded Mandarin mà (tone 4).wav"
+        },
+        {
+          "file": "chromium-375-attempt-before.wav",
+          "bytes": 132798,
+          "sha256": "6b7410e328233fc75f4fe8145b09c9e1f4ed2c5445ce7594493b72b9215bedd0",
+          "suggestedFilename": "tonemirror-attempt-falling.wav"
+        },
+        {
+          "file": "chromium-375-attempt-after.wav",
+          "bytes": 132798,
+          "sha256": "6b7410e328233fc75f4fe8145b09c9e1f4ed2c5445ce7594493b72b9215bedd0",
+          "suggestedFilename": "tonemirror-attempt-falling.wav"
+        },
+        {
+          "file": "chromium-375-divergence.svg",
+          "bytes": 10196,
+          "sha256": "3629ff436602809702085c5555ab27f617f536f4b076122cb917fb76575f3d61",
+          "suggestedFilename": "trainspotter-1-train-loss-eval-loss.svg"
+        },
+        {
+          "file": "chromium-375-cost.json",
+          "bytes": 2292,
+          "sha256": "641bd7570e04e2c91a959e6861a712c7fe68dabc869f720e21b013ad74e163a8",
+          "suggestedFilename": "tracelens-trace-cost.json"
+        }
+      ],
+      "pageErrors": [],
+      "offlineRequests": [],
+      "cspViolations": [],
+      "axeViolations": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "cards": [
+        {
+          "name": "tonemirror",
+          "query": "recorded Mandarin",
+          "description": "Practice speech intonation against recorded Mandarin examples, listen to both clips, and keep credited audio offline in your browser.",
+          "study": "RECORDED EVIDENCE\nOne attributed Mandarin recording supplies four tone examples. Paired listening preserves selected audio; the shape score is not a pronunciation grade.",
+          "followedUrl": "https://antonsoo.github.io/tonemirror/"
+        },
+        {
+          "name": "trainspotter",
+          "query": "vector charts",
+          "description": "Inspect training logs, follow findings to recorded steps, and download annotated vector charts with source and axis context. Works offline.",
+          "study": "RECORDED EVIDENCE\n537 held-out runs ending at their best loss: warnings fell from 73.0% to 6.9%. That endpoint label does not establish that a run was trouble-free.",
+          "followedUrl": "https://antonsoo.github.io/trainspotter/"
+        },
+        {
+          "name": "tracelens",
+          "query": "input tokens",
+          "description": "Inspect OTLP or Jaeger agent traces locally: compare runs, follow span evidence and reconcile recorded token counts before estimating cost.",
+          "study": "RECORDED EVIDENCE\nA controlled SDK span recorded 0 and 1,000,000 input tokens. The viewer retains both and withholds the charge; this is not an invoice.",
+          "followedUrl": "https://antonsoo.github.io/tracelens/?example=compare"
+        }
+      ],
+      "listening": {
+        "starts": [
+          {
+            "samples": 41895,
+            "rate": 44100,
+            "when": 0.7846485260770976,
+            "normalSpeed": true,
+            "equalsLoadedAudio": true
+          },
+          {
+            "samples": 33075,
+            "rate": 44100,
+            "when": 2.0846485260770975,
+            "normalSpeed": true,
+            "equalsLoadedAudio": true
+          }
+        ],
+        "phases": [
+          "Preparing to listen…",
+          "Listening to the reference.",
+          "Brief pause before your attempt.",
+          "Listening to your attempt.",
+          "Finished listening to the reference and your attempt."
+        ]
+      },
+      "attemptWavUnchanged": true,
+      "svgMatchesPinnedSource": true,
+      "costMatchesPinnedCli": true,
+      "downloads": [
+        {
+          "file": "firefox-1440-falling.wav",
+          "bytes": 132798,
+          "sha256": "5eeb1c80cc68b103597e4c0d805602b8783677336204ed452e138a3d7ff87bec",
+          "suggestedFilename": "tonemirror-reference-Recorded Mandarin mà (tone 4).wav"
+        },
+        {
+          "file": "firefox-1440-attempt-before.wav",
+          "bytes": 132798,
+          "sha256": "5eeb1c80cc68b103597e4c0d805602b8783677336204ed452e138a3d7ff87bec",
+          "suggestedFilename": "tonemirror-attempt-falling.wav"
+        },
+        {
+          "file": "firefox-1440-attempt-after.wav",
+          "bytes": 132798,
+          "sha256": "5eeb1c80cc68b103597e4c0d805602b8783677336204ed452e138a3d7ff87bec",
+          "suggestedFilename": "tonemirror-attempt-falling.wav"
+        },
+        {
+          "file": "firefox-1440-divergence.svg",
+          "bytes": 10196,
+          "sha256": "3629ff436602809702085c5555ab27f617f536f4b076122cb917fb76575f3d61",
+          "suggestedFilename": "trainspotter-1-train-loss-eval-loss.svg"
+        },
+        {
+          "file": "firefox-1440-cost.json",
+          "bytes": 2292,
+          "sha256": "641bd7570e04e2c91a959e6861a712c7fe68dabc869f720e21b013ad74e163a8",
+          "suggestedFilename": "tracelens-trace-cost.json"
+        }
+      ],
+      "pageErrors": [],
+      "offlineRequests": [],
+      "cspViolations": [],
+      "axeViolations": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "cards": [
+        {
+          "name": "tonemirror",
+          "query": "recorded Mandarin",
+          "description": "Practice speech intonation against recorded Mandarin examples, listen to both clips, and keep credited audio offline in your browser.",
+          "study": "RECORDED EVIDENCE\nOne attributed Mandarin recording supplies four tone examples. Paired listening preserves selected audio; the shape score is not a pronunciation grade.",
+          "followedUrl": "https://antonsoo.github.io/tonemirror/"
+        },
+        {
+          "name": "trainspotter",
+          "query": "vector charts",
+          "description": "Inspect training logs, follow findings to recorded steps, and download annotated vector charts with source and axis context. Works offline.",
+          "study": "RECORDED EVIDENCE\n537 held-out runs ending at their best loss: warnings fell from 73.0% to 6.9%. That endpoint label does not establish that a run was trouble-free.",
+          "followedUrl": "https://antonsoo.github.io/trainspotter/"
+        },
+        {
+          "name": "tracelens",
+          "query": "input tokens",
+          "description": "Inspect OTLP or Jaeger agent traces locally: compare runs, follow span evidence and reconcile recorded token counts before estimating cost.",
+          "study": "RECORDED EVIDENCE\nA controlled SDK span recorded 0 and 1,000,000 input tokens. The viewer retains both and withholds the charge; this is not an invoice.",
+          "followedUrl": "https://antonsoo.github.io/tracelens/?example=compare"
+        }
+      ],
+      "listening": {
+        "starts": [
+          {
+            "samples": 41895,
+            "rate": 44100,
+            "when": 0.778843537414966,
+            "normalSpeed": true,
+            "equalsLoadedAudio": true
+          },
+          {
+            "samples": 33075,
+            "rate": 44100,
+            "when": 2.078843537414966,
+            "normalSpeed": true,
+            "equalsLoadedAudio": true
+          }
+        ],
+        "phases": [
+          "Preparing to listen…",
+          "Listening to the reference.",
+          "Brief pause before your attempt.",
+          "Listening to your attempt.",
+          "Finished listening to the reference and your attempt."
+        ]
+      },
+      "attemptWavUnchanged": true,
+      "svgMatchesPinnedSource": true,
+      "costMatchesPinnedCli": true,
+      "downloads": [
+        {
+          "file": "firefox-375-falling.wav",
+          "bytes": 132798,
+          "sha256": "5eeb1c80cc68b103597e4c0d805602b8783677336204ed452e138a3d7ff87bec",
+          "suggestedFilename": "tonemirror-reference-Recorded Mandarin mà (tone 4).wav"
+        },
+        {
+          "file": "firefox-375-attempt-before.wav",
+          "bytes": 132798,
+          "sha256": "5eeb1c80cc68b103597e4c0d805602b8783677336204ed452e138a3d7ff87bec",
+          "suggestedFilename": "tonemirror-attempt-falling.wav"
+        },
+        {
+          "file": "firefox-375-attempt-after.wav",
+          "bytes": 132798,
+          "sha256": "5eeb1c80cc68b103597e4c0d805602b8783677336204ed452e138a3d7ff87bec",
+          "suggestedFilename": "tonemirror-attempt-falling.wav"
+        },
+        {
+          "file": "firefox-375-divergence.svg",
+          "bytes": 10196,
+          "sha256": "3629ff436602809702085c5555ab27f617f536f4b076122cb917fb76575f3d61",
+          "suggestedFilename": "trainspotter-1-train-loss-eval-loss.svg"
+        },
+        {
+          "file": "firefox-375-cost.json",
+          "bytes": 2292,
+          "sha256": "641bd7570e04e2c91a959e6861a712c7fe68dabc869f720e21b013ad74e163a8",
+          "suggestedFilename": "tracelens-trace-cost.json"
+        }
+      ],
+      "pageErrors": [],
+      "offlineRequests": [],
+      "cspViolations": [],
+      "axeViolations": []
+    }
+  ]
+}

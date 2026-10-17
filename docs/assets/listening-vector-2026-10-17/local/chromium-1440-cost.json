@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "format": "tracelens-cost-evidence",
+  "traceId": "11111111111111111111111111111111",
+  "priceTable": [
+    {
+      "id": "Controlled user-supplied rates",
+      "matchModel": "controlled-model",
+      "provider": "example",
+      "inputPerMTok": 1,
+      "outputPerMTok": 1,
+      "cacheReadPerMTok": 0,
+      "cacheWritePerMTok": 2,
+      "sourceUrl": "",
+      "sourceDate": ""
+    }
+  ],
+  "pricedCalls": 0,
+  "unpricedCalls": 1,
+  "excludedSpans": 0,
+  "knownCostUsd": null,
+  "estimatedCostUsd": null,
+  "rows": [
+    {
+      "spanId": "0000000000000005",
+      "name": "alias-0-0-1-conflict",
+      "kind": "llm",
+      "model": "controlled-model",
+      "provider": "example",
+      "requestModel": null,
+      "responseModel": "controlled-model",
+      "usage": {
+        "conflictingFields": [
+          "inputTokens"
+        ],
+        "outputTokens": 0
+      },
+      "usageAttributes": {
+        "gen_ai.usage.input_tokens": 0,
+        "gen_ai.usage.output_tokens": 0,
+        "gen_ai.usage.prompt_tokens": 1000000
+      },
+      "result": {
+        "status": "unpriced",
+        "reason": "conflicting-usage",
+        "message": "Conflicting recorded usage: inputTokens. Inspect the original usage attributes; no alias is selected as the measurement."
+      }
+    }
+  ],
+  "notes": [
+    "Token charges at the supplied rates, not an invoice. Service tiers, context premiums, region, taxes and tool fees are not inferred.",
+    "Rates retain their source dates. A dated model snapshot can use its base model rate; this does not recover historical prices.",
+    "LLM and embedding calls contribute token charges. Rerankers remain unpriced. Other spans with model/usage fields are listed as excluded.",
+    "Embedding vectors have no completion-token charge. Reasoning tokens are already part of output usage and are not added again.",
+    "Missing optional cache counts are assumed zero. Missing cache rates use the input rate; per-call assumptions disclose both.",
+    "No cross-instrumentation deduplication is inferred. Two model-call spans may describe the same request; inspect their source spans."
+  ],
+  "warnings": [
+    "Conflicting token usage for inputTokens; the normalized count is unavailable. Original usage attributes are retained."
+  ]
+}

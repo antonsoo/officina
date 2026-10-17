@@ -63,6 +63,7 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
           downloads.push({ file, bytes: bytes.length, sha256: hash(bytes), suggestedFilename: item.suggestedFilename() }); return bytes;
         }
         async function checkPage() {
+          await page.evaluate(async () => { await Promise.allSettled(document.getAnimations().map(animation => animation.finished)); });
           assert.deepEqual((await new AxeBuilder({ page }).analyze()).violations, []);
           assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
           assert.deepEqual(await page.evaluate(() => window.evidence.csp), []);
@@ -73,14 +74,14 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
           await selected.waitFor(); await expect(selected.locator(".card-desc")).toContainText(text);
           await selected.locator("img").evaluate(async image => { await image.decode(); }); await settled(); await checkPage();
           const link = selected.getByRole("link", { name: "Live demo", exact: true });
-          assert.equal(await link.getAttribute("href"), `https://antonsoo.github.io/${name}/`);
+          assert.equal(await link.getAttribute("href"), `https://antonsoo.github.io/${name}/${name === "tracelens" ? "?example=compare" : ""}`);
           await selected.screenshot({ path: resolve(output, `${engine}-${width}-${name}-card.png`) });
           cards.push({ name, query, description: await selected.locator(".card-desc").innerText(), study: await selected.locator(".card-study").innerText(), followedUrl: await link.getAttribute("href") });
           await link.click(); await settled();
         }
         const button = name => page.getByRole("button", { name, exact: true });
         await card("tonemirror", "recorded Mandarin", "recorded Mandarin");
-        await page.getByRole("group", { name: "Recorded Mandarin references" }).waitFor();
+        await page.getByRole("group", { name: "Recorded Mandarin references" }).waitFor(); await settled();
         await context.setOffline(true); disconnected = true;
         await button("Load recorded mà, tone 4").click(); await expect(page.locator(".tm-clip-label")).toContainText("Recorded Mandarin mà");
         const falling = await download(button("Download WAV"), "falling.wav"); assert(falling.includes(Buffer.from("Wolfdog")));
@@ -113,6 +114,7 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
           await vectorPage.locator("svg").first().screenshot({ path: resolve(output, `${engine}-${width}-vector.png`) });
         } finally { await vectorPage.close(); }
         await card("tracelens", "input tokens", "recorded token counts");
+        await button("Load another trace").click(); await settled();
         await page.locator("#tl-file-input").waitFor({ state: "attached" }); await context.setOffline(true); disconnected = true;
         await page.locator("#tl-file-input").setInputFiles({ name: "focused.json", mimeType: "application/json", buffer: fixture.bytes });
         const ledger = page.locator(".tl-cost-ledger"); await expect(ledger.locator(":scope > summary")).toContainText("0 priced / 1 unpriced");

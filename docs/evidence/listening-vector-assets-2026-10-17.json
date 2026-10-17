@@ -20,5 +20,26 @@
       "bytes": 945,
       "sha256": "5ea978e2693a3f539dc9d7ddd724542b6474e8f1021f7451cd4f70d2221c9159"
     }
+  ],
+  "inputs": [
+    {
+      "repository": "tonemirror",
+      "revision": "fe8c07dd7d5e9c7e38c5c2d40c44f6054cded5db",
+      "file": "docs/assets/paired-listening/paired-listening.png",
+      "bytes": 95439,
+      "sha256": "d661c4cc7c63201f15c7eb155e0eb8505726a271241fa75271726249c164f2be"
+    },
+    {
+      "repository": "trainspotter",
+      "revision": "0e6a0f7c8f1ce29ccf438fb157aefa29d9e833b3",
+      "file": "docs/assets/vector-charts/chromium-1440-report.png",
+      "bytes": 469098,
+      "sha256": "a8af575bc5ce4b67f2f5b552cbbdb6f70e199b0c8ccfbc638f85da0c37fe0905"
+    }
+  ],
+  "thumbnailCommands": [
+    "node docs/evidence/listening-thumbnail.mjs /tmp/listening-frame.png /tmp/listening-frame.json",
+    "python3 scripts/make_thumb.py /tmp/listening-frame.png public/thumbs/tonemirror.webp",
+    "python3 scripts/make_thumb.py ../trainspotter/docs/assets/vector-charts/chromium-1440-report.png public/thumbs/trainspotter.webp --top"
   ]
 }
