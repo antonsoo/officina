@@ -1,5 +1,7 @@
 # Source update history
 
+The [Gnomon complete standing scale](gnomon-calendar-scale-2026-10-17.md) restores the omitted Scorpio/Pisces pair and replaces overlapping engravings with physical ticks and a readable printed key. Independent native vectors, actual raster pixels and public offline downloads retain the result.
+
 The [Veil fuzzy-boundary correction](veil-fuzzy-marks-2026-10-17.md) prevents a recased decomposed accented name from becoming a private original plus an accent. Native CLI, real SDK transports, unchanged public-text outputs and separate installed/hosted Python checks retain the result.
 
 The [Gnomon selected-date capability](gnomon-selected-standing-2026-10-17.md) exposes civil-time controls and prints the movable rod's position for an ordinary chosen date. Independent DE421, native SVG/PNG measurements and actual offline public editing retain the construction point.
