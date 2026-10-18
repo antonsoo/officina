@@ -1,5 +1,7 @@
 # Source update history
 
+The [Fieldproof fraction correction](fieldproof-fraction-evidence-2026-10-17.md) prevents a half-unit quote from verifying its numerator or denominator. Native PDFs, unchanged receipt verdicts, actual installed exports and restoration of an older review archive retain the result.
+
 The [native Inspect reducer correction](errorbars-inspect-reducers-2026-10-17.md) imports retained per-question max/pass-at-k scores instead of reversing a comparison by averaging raw attempts. Native SDK captures, installed CLI reports, actual offline downloads and a public pip upgrade retain the result.
 
 The [Gnomon complete standing scale](gnomon-calendar-scale-2026-10-17.md) restores the omitted Scorpio/Pisces pair and replaces overlapping engravings with physical ticks and a readable printed key. Independent native vectors, actual raster pixels and public offline downloads retain the result.
