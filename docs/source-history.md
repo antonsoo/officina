@@ -1,5 +1,9 @@
 # Source update history
 
+The [Veil fuzzy-boundary correction](veil-fuzzy-marks-2026-10-17.md) prevents a recased decomposed accented name from becoming a private original plus an accent. Native CLI, real SDK transports, unchanged public-text outputs and separate installed/hosted Python checks retain the result.
+
+The [Gnomon selected-date capability](gnomon-selected-standing-2026-10-17.md) exposes civil-time controls and prints the movable rod's position for an ordinary chosen date. Independent DE421, native SVG/PNG measurements and actual offline public editing retain the construction point.
+
 The [Flakemap generic-fixture correction](flakemap-generic-fixtures-2026-10-17.md) preserves type-argument commas instead of merging distinct NUnit fixtures into a false flaky history. Native compiled captures, installed CLIs and reproducible offline public inputs retain the result.
 
 The [Gnomon date-curve correction](gnomon-shadow-gaps-2026-10-17.md) preserves unlit intervals instead of engraving a false connection between visible branches. Independent native SVG/PDF measurements and actual public offline downloads retain the before/after geometry.
