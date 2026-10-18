@@ -1,5 +1,7 @@
 # Source update history
 
+The [native Inspect reducer correction](errorbars-inspect-reducers-2026-10-17.md) imports retained per-question max/pass-at-k scores instead of reversing a comparison by averaging raw attempts. Native SDK captures, installed CLI reports, actual offline downloads and a public pip upgrade retain the result.
+
 The [Gnomon complete standing scale](gnomon-calendar-scale-2026-10-17.md) restores the omitted Scorpio/Pisces pair and replaces overlapping engravings with physical ticks and a readable printed key. Independent native vectors, actual raster pixels and public offline downloads retain the result.
 
 The [Veil fuzzy-boundary correction](veil-fuzzy-marks-2026-10-17.md) prevents a recased decomposed accented name from becoming a private original plus an accent. Native CLI, real SDK transports, unchanged public-text outputs and separate installed/hosted Python checks retain the result.
