@@ -1,0 +1,15 @@
+{
+  "sourceRevision": "ea0233245206cd6bc73b5c737137cafa225e368a",
+  "pagesRevision": "f92f482",
+  "dataChange": "Four existing cards; MCPlint direct demo and two immutable source-evidence links updated. No application or CSS changes.",
+  "cleanArchive": {
+    "install": "npm ci --ignore-scripts",
+    "build": "npm run build",
+    "browserCommand": "npm run test:browser",
+    "browserScenariosPassed": 32
+  },
+  "hostedInventoryFiles": 40,
+  "localNativeSearchViews": 16,
+  "screenshots": "Retained per browser, viewport and project. Public browser verification is separate.",
+  "registryReleasesCreated": false
+}

@@ -1,0 +1,157 @@
+{
+  "url": "https://antonsoo.github.io/officina/",
+  "results": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "cases": [
+        {
+          "query": "Zod",
+          "name": "mcplint",
+          "evidenceUrl": "https://github.com/antonsoo/mcplint/tree/328631f92bb2f4284628de6b0aaf61a460320ec3/studies/metadata-diff/publication",
+          "finding": "Same filesystem server and version, different Zod: 13 tool schemas drop declared fields. Compare both native captures.",
+          "exactCard": true
+        },
+        {
+          "query": "MCP URLs",
+          "name": "contextscope",
+          "evidenceUrl": "https://github.com/antonsoo/contextscope/tree/16d98ecf53f38287e0bb019b2fdd0c767036a45d/studies/mcp-context",
+          "finding": "MCP URLs do not reveal model-visible tools: 11 SDK workflows now keep token/cache totals unknown; two local-tool controls retain known totals.",
+          "exactCard": true
+        },
+        {
+          "query": "HAR credentials",
+          "name": "veil",
+          "evidenceUrl": "https://github.com/antonsoo/veil/tree/4a404a632f94892aef6af0e39d5985fe99d4a984/studies/real-text",
+          "finding": "16,082 held-out phone numbers with a +: masking rose from 53.9% to 99.3%. International numbers without + remain a detection gap.",
+          "exactCard": true
+        },
+        {
+          "query": "quoted W&B CSV",
+          "name": "trainspotter",
+          "evidenceUrl": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes",
+          "finding": "Six native MLflow runs retain all 200 SDK observations; model/dataset scope changes no longer become false divergence recommendations.",
+          "exactCard": true
+        }
+      ],
+      "offlineFilteringAfterThumbnailWarmup": true,
+      "errors": [],
+      "requests": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "Zod",
+          "name": "mcplint",
+          "evidenceUrl": "https://github.com/antonsoo/mcplint/tree/328631f92bb2f4284628de6b0aaf61a460320ec3/studies/metadata-diff/publication",
+          "finding": "Same filesystem server and version, different Zod: 13 tool schemas drop declared fields. Compare both native captures.",
+          "exactCard": true
+        },
+        {
+          "query": "MCP URLs",
+          "name": "contextscope",
+          "evidenceUrl": "https://github.com/antonsoo/contextscope/tree/16d98ecf53f38287e0bb019b2fdd0c767036a45d/studies/mcp-context",
+          "finding": "MCP URLs do not reveal model-visible tools: 11 SDK workflows now keep token/cache totals unknown; two local-tool controls retain known totals.",
+          "exactCard": true
+        },
+        {
+          "query": "HAR credentials",
+          "name": "veil",
+          "evidenceUrl": "https://github.com/antonsoo/veil/tree/4a404a632f94892aef6af0e39d5985fe99d4a984/studies/real-text",
+          "finding": "16,082 held-out phone numbers with a +: masking rose from 53.9% to 99.3%. International numbers without + remain a detection gap.",
+          "exactCard": true
+        },
+        {
+          "query": "quoted W&B CSV",
+          "name": "trainspotter",
+          "evidenceUrl": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes",
+          "finding": "Six native MLflow runs retain all 200 SDK observations; model/dataset scope changes no longer become false divergence recommendations.",
+          "exactCard": true
+        }
+      ],
+      "offlineFilteringAfterThumbnailWarmup": true,
+      "errors": [],
+      "requests": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "cases": [
+        {
+          "query": "Zod",
+          "name": "mcplint",
+          "evidenceUrl": "https://github.com/antonsoo/mcplint/tree/328631f92bb2f4284628de6b0aaf61a460320ec3/studies/metadata-diff/publication",
+          "finding": "Same filesystem server and version, different Zod: 13 tool schemas drop declared fields. Compare both native captures.",
+          "exactCard": true
+        },
+        {
+          "query": "MCP URLs",
+          "name": "contextscope",
+          "evidenceUrl": "https://github.com/antonsoo/contextscope/tree/16d98ecf53f38287e0bb019b2fdd0c767036a45d/studies/mcp-context",
+          "finding": "MCP URLs do not reveal model-visible tools: 11 SDK workflows now keep token/cache totals unknown; two local-tool controls retain known totals.",
+          "exactCard": true
+        },
+        {
+          "query": "HAR credentials",
+          "name": "veil",
+          "evidenceUrl": "https://github.com/antonsoo/veil/tree/4a404a632f94892aef6af0e39d5985fe99d4a984/studies/real-text",
+          "finding": "16,082 held-out phone numbers with a +: masking rose from 53.9% to 99.3%. International numbers without + remain a detection gap.",
+          "exactCard": true
+        },
+        {
+          "query": "quoted W&B CSV",
+          "name": "trainspotter",
+          "evidenceUrl": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes",
+          "finding": "Six native MLflow runs retain all 200 SDK observations; model/dataset scope changes no longer become false divergence recommendations.",
+          "exactCard": true
+        }
+      ],
+      "offlineFilteringAfterThumbnailWarmup": true,
+      "errors": [],
+      "requests": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "Zod",
+          "name": "mcplint",
+          "evidenceUrl": "https://github.com/antonsoo/mcplint/tree/328631f92bb2f4284628de6b0aaf61a460320ec3/studies/metadata-diff/publication",
+          "finding": "Same filesystem server and version, different Zod: 13 tool schemas drop declared fields. Compare both native captures.",
+          "exactCard": true
+        },
+        {
+          "query": "MCP URLs",
+          "name": "contextscope",
+          "evidenceUrl": "https://github.com/antonsoo/contextscope/tree/16d98ecf53f38287e0bb019b2fdd0c767036a45d/studies/mcp-context",
+          "finding": "MCP URLs do not reveal model-visible tools: 11 SDK workflows now keep token/cache totals unknown; two local-tool controls retain known totals.",
+          "exactCard": true
+        },
+        {
+          "query": "HAR credentials",
+          "name": "veil",
+          "evidenceUrl": "https://github.com/antonsoo/veil/tree/4a404a632f94892aef6af0e39d5985fe99d4a984/studies/real-text",
+          "finding": "16,082 held-out phone numbers with a +: masking rose from 53.9% to 99.3%. International numbers without + remain a detection gap.",
+          "exactCard": true
+        },
+        {
+          "query": "quoted W&B CSV",
+          "name": "trainspotter",
+          "evidenceUrl": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes",
+          "finding": "Six native MLflow runs retain all 200 SDK observations; model/dataset scope changes no longer become false divergence recommendations.",
+          "exactCard": true
+        }
+      ],
+      "offlineFilteringAfterThumbnailWarmup": true,
+      "errors": [],
+      "requests": []
+    }
+  ]
+}
