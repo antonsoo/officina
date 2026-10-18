@@ -1,5 +1,10 @@
 # Source update history
 
+The [native-input discovery update](native-inputs-2026-10-18.md) makes MLflow,
+native NUnit and PresentMon 2.6 workflows searchable, links their immutable
+producer evidence, and opens the actual PresentMon telemetry replay directly.
+It preserves the older gold capture and separate registry versions.
+
 The [native MLflow browser workbench](trainspotter-mlflow-browser-2026-10-17.md) opens original SQLite histories in the public app, preserves run/step evidence and refuses incomplete WAL uploads. Native SDK readings, a fresh installed app and actual public JSON/HTML downloads retain the result.
 
 The [Logdelta gzip correction](logdelta-gzip-members-2026-10-17.md) opens concatenated native logs in the actual browser while preserving member validation, bounded input, Unicode provenance and cancellation. Native CLI/installed artifacts and public offline downloads retain the result.

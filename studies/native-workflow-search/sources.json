@@ -1,0 +1,26 @@
+[
+  {
+    "project": "trainspotter",
+    "studyUrl": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes",
+    "rawUrl": "https://raw.githubusercontent.com/antonsoo/trainspotter/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes/README.md",
+    "status": 200,
+    "sha256": "d0ed859dc6952db581af507fc79b3f5257f96d95258ee53c5334cac3fba2a693",
+    "matchesPublishedGitObject": true
+  },
+  {
+    "project": "flakemap",
+    "studyUrl": "https://github.com/antonsoo/flakemap/tree/0ba3d6e5e64dd6fd6ef097a4e81587c41d645bb0/studies/nunit3",
+    "rawUrl": "https://raw.githubusercontent.com/antonsoo/flakemap/0ba3d6e5e64dd6fd6ef097a4e81587c41d645bb0/studies/nunit3/README.md",
+    "status": 200,
+    "sha256": "2c4294146e7f4fdf9598c5b5d63d8410d5e20a60b9906e35fecad41b153dde0b",
+    "matchesPublishedGitObject": true
+  },
+  {
+    "project": "stutterscope",
+    "studyUrl": "https://github.com/antonsoo/stutterscope/tree/070ccc1b1e76ebc05478a6057b04099152177655/studies/presentmon-default",
+    "rawUrl": "https://raw.githubusercontent.com/antonsoo/stutterscope/070ccc1b1e76ebc05478a6057b04099152177655/studies/presentmon-default/README.md",
+    "status": 200,
+    "sha256": "61076a01f1e0c806616f8108d734880d7220ff2eca4091ef49816f9841042c46",
+    "matchesPublishedGitObject": true
+  }
+]

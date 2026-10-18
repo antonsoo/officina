@@ -161,7 +161,7 @@
   },
   {
     "name": "trainspotter",
-    "description": "Inspect training logs, follow findings to recorded steps, and download annotated vector charts with source and axis context. Works offline.",
+    "description": "Inspect native MLflow histories and training logs, keep model/dataset scopes explicit, and download offline vector charts with source and axis context.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/trainspotter",
     "demoUrl": "https://antonsoo.github.io/trainspotter/",
@@ -173,8 +173,8 @@
       "url": "https://pypi.org/project/trainspotter/"
     },
     "study": {
-      "finding": "537 held-out runs ending at their best loss: warnings fell from 73.0% to 6.9%. That endpoint label does not establish that a run was trouble-free.",
-      "url": "https://github.com/antonsoo/trainspotter/tree/e0e2c119cb719ef05c3cf7b5b96b4396a91494ef/studies/hub-census"
+      "finding": "Six native MLflow runs retain all 200 SDK observations; model/dataset scope changes no longer become false divergence recommendations.",
+      "url": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes"
     }
   },
   {
@@ -213,7 +213,7 @@
   },
   {
     "name": "flakemap",
-    "description": "Find the flaky tests in your CI history: JUnit XML or .NET TRX from past runs in, a ranked, statistically honest flake report out.",
+    "description": "Read JUnit, native NUnit XML or .NET TRX histories. Inspect distinct fixtures, retry evidence and uncertain outcomes in a ranked CI report.",
     "group": "Developer tools",
     "repoUrl": "https://github.com/antonsoo/flakemap",
     "demoUrl": "https://antonsoo.github.io/flakemap/",
@@ -225,25 +225,25 @@
       "url": "https://pypi.org/project/flakemap/"
     },
     "study": {
-      "finding": "4,334 Kubernetes builds: 310/314 rechecked package failures passed on the same commit. The data do not separate faulty tests from infrastructure.",
-      "url": "https://github.com/antonsoo/flakemap/tree/8542d333521e210c98681b73e67df412dfb7ebf4/studies/kubernetes-ci"
+      "finding": "44,724 native NUnit case records from unchanged NodaTime and Math.NET suites match an independent identity/outcome oracle.",
+      "url": "https://github.com/antonsoo/flakemap/tree/0ba3d6e5e64dd6fd6ef097a4e81587c41d645bb0/studies/nunit3"
     }
   },
   {
     "name": "stutterscope",
-    "description": "Open native CapFrameX JSON or capture CSVs, select a recording, and inspect frame-time gaps and slow-frame source evidence in your browser.",
+    "description": "Open native CapFrameX JSON or PresentMon 2.6 CSV, select a recording, and inspect frame-time gaps with CPU, GPU and latency source evidence.",
     "group": "Games",
     "repoUrl": "https://github.com/antonsoo/stutterscope",
-    "demoUrl": "https://antonsoo.github.io/stutterscope/?example=filtered-presents",
-    "thumbnail": "thumbs/stutterscope.webp",
+    "demoUrl": "https://antonsoo.github.io/stutterscope/?example=presentmon-default",
+    "thumbnail": "thumbs/stutterscope-presentmon-default.webp",
     "status": "published",
     "package": {
       "registry": "npm",
       "url": "https://www.npmjs.com/package/@antonsoloviev/stutterscope"
     },
     "study": {
-      "finding": "Filtered Intel gold data: 175 retained frames have 83 clock gaps and only 91 observed pacing pairs; missing durations stay unknown.",
-      "url": "https://github.com/antonsoo/stutterscope/tree/336993f5ac07bbdb9f650488676977e497374205/studies/present-clock"
+      "finding": "Native PresentMon 2.6: 174 filtered frames retain CPU/GPU and latency; 83 clock gaps leave 90 observed pacing pairs.",
+      "url": "https://github.com/antonsoo/stutterscope/tree/070ccc1b1e76ebc05478a6057b04099152177655/studies/presentmon-default"
     }
   },
   {

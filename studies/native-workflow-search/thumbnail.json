@@ -1,0 +1,15 @@
+{
+  "url": "https://antonsoo.github.io/stutterscope/?example=presentmon-default",
+  "scope": "Actual served native telemetry replay; viewport scrolled to its metrics and frame trace. No application assets or responses mocked.",
+  "width": 1200,
+  "height": 750,
+  "source": "trace5-filtered.csv",
+  "observedPairs": 90,
+  "frameCount": 174,
+  "sourceScreenshot": "stutterscope-source.png",
+  "sourceScreenshotSha256": "0ed34b9fad6e3d5316f31a73b57ae2e77313ad4b296c33235a479bd7a5291541",
+  "thumbnail": "public/thumbs/stutterscope-presentmon-default.webp",
+  "thumbnailSha256": "12025f4fbb27da91bfa3f4ffa378fbaa323162cbbcadd2d97442a367b8b27107",
+  "conversion": "Existing make_thumb.py, re-encode to WebP; original viewport already 1200 by 750.",
+  "cacheBoundary": "New filename for the new capture; prior thumbnail bytes remain unchanged for cached older catalogues."
+}

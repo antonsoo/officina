@@ -213,6 +213,7 @@ test("cards state their recorded evidence and link to its source revision", asyn
   await expect(flakemap).toContainText("Recorded evidence");
   await expect(flakemap).toHaveAttribute("href", /github\.com\/antonsoo\/flakemap\/tree\/[0-9a-f]{40}\/studies\//);
   // The finding is searchable like the description.
-  await search(page).fill("kubernetes builds");
-  await expect(cards(page)).toHaveCount(2);
+  await search(page).fill("independent identity");
+  await expect(cards(page)).toHaveCount(1);
+  await expect(page.locator('[data-project="flakemap"]')).toBeVisible();
 });

@@ -22,6 +22,10 @@ All notable changes to this project are documented in this file.
 
 ### Changed
 
+- Make the published MLflow, native NUnit and PresentMon 2.6 workflows searchable.
+  Link their current native producer studies, preserve source/registry boundaries,
+  and identify the new Stutterscope producer replay separately from its older gold CSV.
+
 - Feature concrete Contextscope prompt/media and Stutterscope native-clock
   counterexamples, retaining source and registry release boundaries. The native
   demo link opens an attributed filtered capture, with a current real screenshot.
