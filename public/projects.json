@@ -75,7 +75,7 @@
   },
   {
     "name": "contextscope",
-    "description": "Diagnose prompt-cache misses from captured Anthropic/OpenAI requests and usage; media and stored history retain explicit unknowns.",
+    "description": "Diagnose prompt-cache misses from captured Anthropic/OpenAI requests; MCP tools, media and stored history keep unresolved token counts explicit.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/contextscope",
     "demoUrl": "https://antonsoo.github.io/contextscope/",
@@ -86,8 +86,8 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/contextscope"
     },
     "study": {
-      "finding": "PNG controls: identical pixels became 8,095 or 457,130 estimated Claude tokens; local media counts now stay unavailable.",
-      "url": "https://github.com/antonsoo/contextscope/tree/17bcb353fb596170a448e39cf3c0e69c92a67e06/studies/media-accounting"
+      "finding": "MCP URLs do not reveal model-visible tools: 11 SDK workflows now keep token/cache totals unknown; two local-tool controls retain known totals.",
+      "url": "https://github.com/antonsoo/contextscope/tree/16d98ecf53f38287e0bb019b2fdd0c767036a45d/studies/mcp-context"
     }
   },
   {
@@ -109,10 +109,10 @@
   },
   {
     "name": "mcplint",
-    "description": "Lint your MCP server's tools the way the model sees them: token cost, clarity, and hidden instructions.",
+    "description": "Capture and compare actual MCP tool contracts: dependency drift, token estimates, descriptions and hidden-instruction heuristics.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/mcplint",
-    "demoUrl": "https://antonsoo.github.io/mcplint/",
+    "demoUrl": "https://antonsoo.github.io/mcplint/filesystem-dependencies.html",
     "thumbnail": "thumbs/mcplint.webp",
     "status": "published",
     "package": {
@@ -120,13 +120,13 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/mcplint"
     },
     "study": {
-      "finding": "418 MCP servers: 28 exceed 16,000 estimated tool-definition tokens. On 886 unseen servers, none of five attack-rule errors identified an attack.",
-      "url": "https://github.com/antonsoo/mcplint/tree/38f936699d70848cadd270d87da812a4037fddd9/studies/registry-census"
+      "finding": "Same filesystem server and version, different Zod: 13 tool schemas drop declared fields. Compare both native captures.",
+      "url": "https://github.com/antonsoo/mcplint/tree/328631f92bb2f4284628de6b0aaf61a460320ec3/studies/metadata-diff/publication"
     }
   },
   {
     "name": "veil",
-    "description": "Mask detected personal data and credentials in LLM requests, keep originals in a local vault, and restore them in replies and streams.",
+    "description": "Mask detected personal data and credentials in native HAR exports and ordinary URLs; keep a local vault and restore exact values across reply chunks.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/veil",
     "demoUrl": "https://antonsoo.github.io/veil/",
@@ -161,7 +161,7 @@
   },
   {
     "name": "trainspotter",
-    "description": "Inspect native MLflow histories and training logs, keep model/dataset scopes explicit, and download offline vector charts with source and axis context.",
+    "description": "Inspect native MLflow histories and quoted W&B CSV, keep model/dataset scopes explicit, and download offline charts with source and axis context.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/trainspotter",
     "demoUrl": "https://antonsoo.github.io/trainspotter/",
