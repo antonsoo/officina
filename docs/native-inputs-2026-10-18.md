@@ -43,3 +43,23 @@ It checks all three searches in both engines and widths, confirms the matched
 card's links remain clickable, and repeats filtering offline. It intercepts no
 application assets or search responses. The public receipt and screenshots are
 retained separately after deployment.
+
+## Published result
+
+Source `c8147c315d3db9109f4b4ecdb108d84e349b0263` passed a fresh locked install,
+lint, types, formatting, all 38 existing checks and all 32 existing browser
+scenarios. The [clean-build receipt](../studies/native-workflow-search/clean-build.json)
+records each of the forty static files. The runtime search implementation is
+unchanged; one existing browser assertion now checks the new recorded finding.
+
+Pages revision `68253be48778862720d7b7412507cb0812bad2e3` advances the branch
+normally. All [forty canonical files and both entry checks](../studies/native-workflow-search/hosted-bytes.json)
+match that clean build without query cache busters. All thirty-seven prior
+JavaScript/style assets and thumbnails remain
+[byte-identical](../studies/native-workflow-search/preserved-assets.json).
+
+The [public browser receipt](../studies/native-workflow-search/hosted/receipt.json)
+retains all twelve successful searches, their exact study links, clickable card
+links and offline refiltering. All twelve public screenshots were visually
+reviewed. The separate [publication summary](../studies/native-workflow-search/publication.json)
+records source/deployment boundaries; it does not infer installed registry parity.

@@ -43,6 +43,7 @@ for (const [engine, launch] of Object.entries({ chromium, firefox })) {
             await card.scrollIntoViewIfNeeded();
             await card.locator("img").evaluate((image) => image.decode());
             await card.locator(".card-links").scrollIntoViewIfNeeded();
+            await card.evaluate((node) => node.scrollIntoView({ block: "center" }));
             await page.evaluate(
               () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
             );

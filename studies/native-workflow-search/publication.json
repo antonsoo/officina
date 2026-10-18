@@ -1,0 +1,11 @@
+{
+  "sourceRevision": "c8147c315d3db9109f4b4ecdb108d84e349b0263",
+  "deploymentRevision": "68253be48778862720d7b7412507cb0812bad2e3",
+  "scope": "Published catalogue discovery and exact canonical files. Native readers, installed packages, interactive Spaces and registry releases have separate evidence.",
+  "publicBuildFiles": 40,
+  "publicSearches": 12,
+  "publicContexts": 4,
+  "sourceReadmesCompared": 3,
+  "predecessorAssetsAndThumbnailsRetained": 37,
+  "screenshotsVisuallyReviewed": 12
+}

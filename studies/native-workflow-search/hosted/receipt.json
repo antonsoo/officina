@@ -1,0 +1,136 @@
+{
+  "checkedAtUtc": "2026-10-18T15:04:24.843Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "phase": "after",
+  "scope": "Actual served catalogue, three native-workflow queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "MLflow",
+          "name": "trainspotter",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix native MLflow runs retain all 200 SDK observations; model/dataset scope changes no longer become false divergence recommendations.",
+          "studyUrl": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes"
+        },
+        {
+          "query": "native NUnit",
+          "name": "flakemap",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44,724 native NUnit case records from unchanged NodaTime and Math.NET suites match an independent identity/outcome oracle.",
+          "studyUrl": "https://github.com/antonsoo/flakemap/tree/0ba3d6e5e64dd6fd6ef097a4e81587c41d645bb0/studies/nunit3"
+        },
+        {
+          "query": "PresentMon 2.6",
+          "name": "stutterscope",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nNative PresentMon 2.6: 174 filtered frames retain CPU/GPU and latency; 83 clock gaps leave 90 observed pacing pairs.",
+          "studyUrl": "https://github.com/antonsoo/stutterscope/tree/070ccc1b1e76ebc05478a6057b04099152177655/studies/presentmon-default"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "MLflow",
+          "name": "trainspotter",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix native MLflow runs retain all 200 SDK observations; model/dataset scope changes no longer become false divergence recommendations.",
+          "studyUrl": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes"
+        },
+        {
+          "query": "native NUnit",
+          "name": "flakemap",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44,724 native NUnit case records from unchanged NodaTime and Math.NET suites match an independent identity/outcome oracle.",
+          "studyUrl": "https://github.com/antonsoo/flakemap/tree/0ba3d6e5e64dd6fd6ef097a4e81587c41d645bb0/studies/nunit3"
+        },
+        {
+          "query": "PresentMon 2.6",
+          "name": "stutterscope",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nNative PresentMon 2.6: 174 filtered frames retain CPU/GPU and latency; 83 clock gaps leave 90 observed pacing pairs.",
+          "studyUrl": "https://github.com/antonsoo/stutterscope/tree/070ccc1b1e76ebc05478a6057b04099152177655/studies/presentmon-default"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "MLflow",
+          "name": "trainspotter",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix native MLflow runs retain all 200 SDK observations; model/dataset scope changes no longer become false divergence recommendations.",
+          "studyUrl": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes"
+        },
+        {
+          "query": "native NUnit",
+          "name": "flakemap",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44,724 native NUnit case records from unchanged NodaTime and Math.NET suites match an independent identity/outcome oracle.",
+          "studyUrl": "https://github.com/antonsoo/flakemap/tree/0ba3d6e5e64dd6fd6ef097a4e81587c41d645bb0/studies/nunit3"
+        },
+        {
+          "query": "PresentMon 2.6",
+          "name": "stutterscope",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nNative PresentMon 2.6: 174 filtered frames retain CPU/GPU and latency; 83 clock gaps leave 90 observed pacing pairs.",
+          "studyUrl": "https://github.com/antonsoo/stutterscope/tree/070ccc1b1e76ebc05478a6057b04099152177655/studies/presentmon-default"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "MLflow",
+          "name": "trainspotter",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix native MLflow runs retain all 200 SDK observations; model/dataset scope changes no longer become false divergence recommendations.",
+          "studyUrl": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes"
+        },
+        {
+          "query": "native NUnit",
+          "name": "flakemap",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44,724 native NUnit case records from unchanged NodaTime and Math.NET suites match an independent identity/outcome oracle.",
+          "studyUrl": "https://github.com/antonsoo/flakemap/tree/0ba3d6e5e64dd6fd6ef097a4e81587c41d645bb0/studies/nunit3"
+        },
+        {
+          "query": "PresentMon 2.6",
+          "name": "stutterscope",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nNative PresentMon 2.6: 174 filtered frames retain CPU/GPU and latency; 83 clock gaps leave 90 observed pacing pairs.",
+          "studyUrl": "https://github.com/antonsoo/stutterscope/tree/070ccc1b1e76ebc05478a6057b04099152177655/studies/presentmon-default"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}
