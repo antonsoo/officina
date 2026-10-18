@@ -1,0 +1,69 @@
+{
+  "verified_at": "2026-10-18T02:35:21.199Z",
+  "results": [
+    {
+      "name": "errorbars",
+      "url": "http://127.0.0.1:7871/errorbars/",
+      "startup_ms": 10747,
+      "desktop": "1440x1050",
+      "mobile": {
+        "width": 375,
+        "scroll": 375
+      },
+      "workflow": "passed",
+      "served_files_verified": true,
+      "lifecycle_regressions": "passed",
+      "network_requests_during_analysis": 0
+    },
+    {
+      "name": "trainspotter",
+      "url": "http://127.0.0.1:7871/trainspotter/",
+      "startup_ms": 8263,
+      "desktop": "1440x1050",
+      "mobile": {
+        "width": 375,
+        "scroll": 375
+      },
+      "workflow": "passed",
+      "served_files_verified": true,
+      "lifecycle_regressions": "passed",
+      "network_requests_during_analysis": 0
+    },
+    {
+      "name": "veil",
+      "url": "http://127.0.0.1:7871/veil/",
+      "startup_ms": 12578,
+      "desktop": "1440x1050",
+      "mobile": {
+        "width": 375,
+        "scroll": 375
+      },
+      "workflow": "passed",
+      "served_files_verified": true,
+      "lifecycle_regressions": "passed",
+      "network_requests_during_analysis": 0
+    },
+    {
+      "name": "flakemap",
+      "url": "http://127.0.0.1:7871/flakemap/",
+      "startup_ms": 6290,
+      "desktop": "1440x1050",
+      "mobile": {
+        "width": 375,
+        "scroll": 375
+      },
+      "workflow": "passed",
+      "served_files_verified": true,
+      "lifecycle_regressions": "passed",
+      "network_requests_during_analysis": 0
+    }
+  ],
+  "errors": [],
+  "worker_failure_recovery": "passed",
+  "bundle_digests": {
+    "errorbars": "c61d2adcca042ff7d0433b976a0e7f7a6ccea5ecfdffb086677cdcd1f849ecaf",
+    "trainspotter": "f127561f6295c062c44f10d4cfd691c7ce8a5edb3b762917b06e7dad99150688",
+    "veil": "4124a74243e876353a97979250223bb1e7dd3edaf7b782168d702625f853806e",
+    "flakemap": "5cc760873053d69f0545c4164af98238125b3e0bed8dfdd95ad3cccf89726eb5"
+  }
+}

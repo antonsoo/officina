@@ -1,0 +1,24 @@
+{
+  "verified_at": "2026-10-18T02:40:24.041Z",
+  "results": [
+    {
+      "name": "trainspotter",
+      "url": "https://antonsoloviev-trainspotter.static.hf.space/",
+      "startup_ms": 9944,
+      "desktop": "1440x1050",
+      "mobile": {
+        "width": 375,
+        "scroll": 375
+      },
+      "workflow": "passed",
+      "served_files_verified": true,
+      "lifecycle_regressions": "passed",
+      "network_requests_during_analysis": 0
+    }
+  ],
+  "errors": [],
+  "worker_failure_recovery": "passed",
+  "bundle_digests": {
+    "trainspotter": "f127561f6295c062c44f10d4cfd691c7ce8a5edb3b762917b06e7dad99150688"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "browser": "153.0.8010.12",
+  "width": 1440,
+  "sqlite": {
+    "sqlite": "3.39.0",
+    "sum": 5
+  },
+  "actual_native_database_rejected": true,
+  "error": "Upload a .json, .jsonl, or .csv log. TensorBoard events are not supported here.",
+  "previous_report_preserved": true,
+  "offline_requests": [],
+  "errors": []
+}

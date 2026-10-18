@@ -1,0 +1,407 @@
+{
+  "checked_at": "2026-10-18T02:43:34.384Z",
+  "publication": {
+    "repo_id": "antonsoloviev/trainspotter",
+    "commit": "f47a4950399e2f3e18cdc6dfc6281cb75088f36f",
+    "manifest_sha256": "f127561f6295c062c44f10d4cfd691c7ce8a5edb3b762917b06e7dad99150688",
+    "published_at": "2026-10-18T02:39:12.587508+00:00",
+    "host": "https://antonsoloviev-trainspotter.static.hf.space"
+  },
+  "manifest_sha256": "f127561f6295c062c44f10d4cfd691c7ce8a5edb3b762917b06e7dad99150688",
+  "files_checked": 64,
+  "root_entrypoint": "verified",
+  "entrypoint_normalization": "only the known data-only SPACE_CREATOR_USER_ID injection",
+  "other_public_heads_unchanged": true,
+  "heads": {
+    "trainspotter": "f47a4950399e2f3e18cdc6dfc6281cb75088f36f",
+    "errorbars": "447ca87eb56b134fd8201b60d6945618929423e7",
+    "veil": "f1c5562af6b11dc1be02afb042798bdacbe417bf",
+    "flakemap": "cd941150ddf0841e4a2071f112dd97a775274ff2"
+  },
+  "files": [
+    {
+      "file": "app.js",
+      "sha256": "e3cd99a589aff5fab4ad835f37349d2db3cca98a3c683048610aa5878cd129da",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "app.py",
+      "sha256": "54f2940dedf73c94264a192ad58a4215880cdbcfb485d912d6a1498dbfddce76",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "assets/workbench.png",
+      "sha256": "0f587a8f63c19e741fa631879f0edb02a1d1ba4991860bdb85a95895f9399970",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "bridge.py",
+      "sha256": "eb953770aafe881203bf3bbee6825439817d0197dca1dc2131ab48ddb72cee33",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "browser.css",
+      "sha256": "ca6a2629e7402cf6a3d046ac935c4ad201d9406b2585758f2e1ead568b032a90",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "constraints.txt",
+      "sha256": "36a82ce76196d01d868f86b93f4949f7a94052843ae84c428f0039f58cca4818",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/browser.mjs",
+      "sha256": "2d5ecc9ca26c314e59acc58dd01e9dbafa1498a519fdc0c73fea84df233ded99",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/capture_controls.py",
+      "sha256": "a82e8629207639d2900a30bbf6ab4893d573cac3b71642be39cdc11a56f5f87e",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/fixtures/histories-2.17.2.json.gz",
+      "sha256": "fff279c869007c7b8e9777616b2493068c9ceac2dff2da4ffe4d576426813a01",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/fixtures/histories-3.17.1.json.gz",
+      "sha256": "2797bec5ea595408b32e68eb01fa312c434429378ea1dd6a9bb82007ab9e3c0f",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/fixtures/manifest.json",
+      "sha256": "c61bce893d07cee0883593406ea9e135e2a69f8b9b28f16bd220eec872552a8d",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/fixtures/oracle.json",
+      "sha256": "cfece3fa0191bfab9a56de410be2f31cbd786517c9ce7d42c27f6797ef75d0c1",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/fixtures/provenance.json",
+      "sha256": "26986b8be9cf83afddfc8a368d3c14be7d588a4901cf400776d80fd9ad8948f7",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/fixtures/reader-controls.sqlite",
+      "sha256": "b92272103132724748c4b7bd72a5dfc1a193da57e95b2eb97452dc59fb6ecaa7",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/fixtures/wal-main-only.sqlite",
+      "sha256": "d267e8df7bdef22e4b0630eccbe1828b8065c53ab5cca0c579b1e2e3d168e65c",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/README.md",
+      "sha256": "14ae6ed50b3bcbc49d06b71274980fe0d6ccb849ea5d6ae13b09d3776e322d30",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/replay.py",
+      "sha256": "b4d22b568421a9c8319510310218e2d714144a85539ed0c6b0c7b7d5f97e0cdd",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-2.17.2-baseline-0.json",
+      "sha256": "8b132ccc6f36bb777ea40481343f80015d096501036c4abc0de3923dddfaa887",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-2.17.2-baseline-1.json",
+      "sha256": "55dbffb08003069ceae1628a08cab2593e8863c3b7371c158fd2219a2cc41ed2",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-2.17.2-overfitting-0.json",
+      "sha256": "eedaa5e7dbb95dbab7ad73aa496fee3615b9d1ebbc069b57c94f9b26530918c4",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-2.17.2-overfitting-1.json",
+      "sha256": "8755b3df591f287201a8fc6bdecedae771e62034a159024680c5bfe3cf71592f",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-2.17.2-slow-training-0.json",
+      "sha256": "80800480c4bb7a8e4fc782cb1e36610e19bbbbfae043c23ba28c613413e43079",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-2.17.2-slow-training-1.json",
+      "sha256": "36d148a16d1e6354f60cdd80355f737a1e70b53dfc010d73b717e8114ad2a11d",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-2.17.2-stable-training-0.json",
+      "sha256": "122b9b35471cd11c99af40199ccac5596082772e25d77594f2984bf98eb9526c",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-2.17.2-stable-training-1.json",
+      "sha256": "81694f883b6337c7493ad0231181ff3ad492bdae73801d8faae0fe95d632d4a7",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-3.17.1-baseline-0.json",
+      "sha256": "ad57d74c4db27917c280ab63a41f959b773ed0375311713ace8657c9a11c525d",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-3.17.1-baseline-1.json",
+      "sha256": "569125a1ee0a4314dcb5fdcfd9d2b0afef2a61d5f716a2e9678f4e68b8b8c9d5",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-3.17.1-overfitting-0.json",
+      "sha256": "cbf006c3a44278f5e21364cb0b65d94b924ab1abddd3b9e0f23fe1653db8ccf8",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-3.17.1-overfitting-1.json",
+      "sha256": "45911cf6503731670ad2381b896597f1d0e1ff8f7c0917a8501c873e723563ea",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-3.17.1-slow-training-0.json",
+      "sha256": "e71c3ff85fbef9569500cf6085836fcc8a8d661c84e370284136cedc6acfb444",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-3.17.1-slow-training-1.json",
+      "sha256": "5f8d675803699547cff4d164d2f5c92b2a074541df1a176099edab4d66913104",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-3.17.1-stable-training-0.json",
+      "sha256": "d612a4afe752a9bbad8305c637879c7b5b9a23845afad5aa5b5a8b6875094b2c",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/mlflow-3.17.1-stable-training-1.json",
+      "sha256": "db687008836997972a429344814008b04c356f0da55de3485202a4de945d32ef",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/native.json",
+      "sha256": "c88bd432e38be8314c16d8f62a3f00ffafb9783c07c8303a69848a3d82f92ed7",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/reader-controls-deleted-control-0.json",
+      "sha256": "afb9a58090396985b794603302dca6062b67037cdef1254fb482262b1de2fe0f",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "evidence/mlflow-browser/results/native/reader-controls-recorded-nan-0.json",
+      "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "examples/baseline.trainer_state.json",
+      "sha256": "77cef17e5130ad978e229d07d7aaa5c8b8eb2f2a0286cce9eeb02cfc4c8171d1",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "examples/divergence.trainer_state.json",
+      "sha256": "39d6723152887c81e07171263db2fa6e3a63acfcc73c9b097e6519e5e431d613",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "examples/missing_warmup.trainer_state.json",
+      "sha256": "fd258799ee173107feff456acf433f38198d92554657a9ca15e0671526cea901",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "examples/mlflow-2.17.2.sqlite",
+      "sha256": "6f6726d847eacf7bbe355a6088bb5490056d48557c90ac57eaac9cc028648297",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "examples/mlflow-3.17.1.sqlite",
+      "sha256": "4deb943a134452509468a50fe3afc06fe1f2ac9bfea102297a4695e263e7f37c",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "examples/overfitting.trainer_state.json",
+      "sha256": "a290af9a64c9247db8e4784c9990cc180a5a65e136720c3deb51cfc05af5d641",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "examples/PROVENANCE.json",
+      "sha256": "4f488479e189b64d34c02ee5238dbc49e467dea7a7a8b659435a5745ccf1c805",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "examples/throughput_drop.trainer_state.json",
+      "sha256": "ca26e36415b8682258f920aa18ef984fd1afc077c59ad3e5ff89d06ff0021d79",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "examples/transformers_tinygpt2.trainer_state.json",
+      "sha256": "5b094bb19524f480a4f662e9b4cebce13070e0be8b96d2d6bdab95574e2ba3f0",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "index.html",
+      "sha256": "3a82728d2fd8729b2aeae5c3f96bd7055c85a22520375e2aa57f7527cbe5b613",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "licenses/trainspotter-MIT.txt",
+      "sha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "LOCAL-GRADIO.md",
+      "sha256": "88dbe9e8e7c0eac8f35f4ce25d9e702f55ce04860e602026a3703e75ef57655d",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "python.zip",
+      "sha256": "77dab547dfcd1dbe4a65ce5bd0ac18eaf3ef4da2fdc084bc50ebad94d7840539",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "README.md",
+      "sha256": "902104675a8cd0fc49a606de710fba1912443506a47d22412d059750e7d68056",
+      "immutable_hub": "exact",
+      "static_host": "rendered card; authored bytes verified on Hub"
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "c56587e0c07dd789423e2def45268233327c343518a274e78880a2193fa6e258",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "runtime-provenance.json",
+      "sha256": "23a86d203400d8710cb89ea31bf082c8d10de1f274e4a2622c7f60520988e669",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "spacekit/__init__.py",
+      "sha256": "ab3651e938f896e9271d6c08c19b5ce2dda9305f201dc4dabaae495fd5086610",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "spacekit/html.py",
+      "sha256": "b0cfe2d79d70255e563d8730b350241d2df351b2882a5865319c88e7e0b3f585",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "spacekit/io.py",
+      "sha256": "a3a79deb53e0b1378e2e74ea1c60ea2a26d3aa0fc6d83fbc30a285cd92d2125f",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "spacekit/ui.py",
+      "sha256": "c559d6b5de79b99890c3e68ad44dc4d92032ea6066234d81c8c3e59ac130675b",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "spacekit/workbench.css",
+      "sha256": "535f9b642d608d796832310d6170ba66b2e8319767701a14216ace58607043fe",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "test-requirements.txt",
+      "sha256": "1438527233ce7beb1cdf4a046b8b5d38f140bd77217ef4df17d5592989d3ec15",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "tests/test_boundaries.py",
+      "sha256": "7cb17ba2a5c17849029f48d642fd63af0cc80588437228be1a2e2fced3830507",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "tests/test_trainspotter.py",
+      "sha256": "264821b66f56fd51678ba972077386e826ac04fceadb97a84ff5b22adbc2e00e",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "training_workbench.py",
+      "sha256": "b612272ce500403649133c296edb4b5c38d06fb769de8d2f8043641a98f7ee7e",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "workbench.css",
+      "sha256": "535f9b642d608d796832310d6170ba66b2e8319767701a14216ace58607043fe",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    },
+    {
+      "file": "worker.mjs",
+      "sha256": "4c805fa6870bc0b09614105fa0017aed0d8795c54208bc2e6e3f0225c179849a",
+      "immutable_hub": "exact",
+      "static_host": "verified"
+    }
+  ]
+}

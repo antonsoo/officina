@@ -1,0 +1,542 @@
+{
+  "scope": "Actual native SDK histories; controlled local SDK NaN/name/lifecycle data; actual SQLite WAL and backup control",
+  "engine_pin": "0a8fa452f4ca182e62cd5c0832dd3ed3cc2af113",
+  "cases": [
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "baseline",
+      "training_steps_asserted": false,
+      "accepted": true,
+      "points": 2162,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "mlflow-2.17.2-baseline-0.json",
+      "html": "mlflow-2.17.2-baseline-0.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "8f91483945614779b1728653e4a5a317",
+        "name": "baseline",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "baseline",
+      "training_steps_asserted": true,
+      "accepted": true,
+      "points": 2162,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "mlflow-2.17.2-baseline-1.json",
+      "html": "mlflow-2.17.2-baseline-1.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "8f91483945614779b1728653e4a5a317",
+        "name": "baseline",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "divergence",
+      "training_steps_asserted": false,
+      "accepted": false,
+      "error": "A metric exceeds the safe numeric range (1e100). Inspect that value with the local CLI.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "divergence",
+      "training_steps_asserted": true,
+      "accepted": false,
+      "error": "A metric exceeds the safe numeric range (1e100). Inspect that value with the local CLI.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "overfitting",
+      "training_steps_asserted": false,
+      "accepted": true,
+      "points": 4322,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [
+        "overfitting"
+      ],
+      "report": "mlflow-2.17.2-overfitting-0.json",
+      "html": "mlflow-2.17.2-overfitting-0.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "90cdf8f0372d417bab01c8de221418d9",
+        "name": "overfitting",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "overfitting",
+      "training_steps_asserted": true,
+      "accepted": true,
+      "points": 4322,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [
+        "overfitting"
+      ],
+      "report": "mlflow-2.17.2-overfitting-1.json",
+      "html": "mlflow-2.17.2-overfitting-1.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "90cdf8f0372d417bab01c8de221418d9",
+        "name": "overfitting",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "stable-training",
+      "training_steps_asserted": false,
+      "accepted": true,
+      "points": 101,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "mlflow-2.17.2-stable-training-0.json",
+      "html": "mlflow-2.17.2-stable-training-0.html",
+      "timing_status": "unavailable",
+      "native_run": {
+        "run_id": "0770c0e6897b46b99dabcea68b874e6a",
+        "name": "stable-training",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "stable-training",
+      "training_steps_asserted": true,
+      "accepted": true,
+      "points": 101,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "mlflow-2.17.2-stable-training-1.json",
+      "html": "mlflow-2.17.2-stable-training-1.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "0770c0e6897b46b99dabcea68b874e6a",
+        "name": "stable-training",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "slow-training",
+      "training_steps_asserted": false,
+      "accepted": true,
+      "points": 101,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "mlflow-2.17.2-slow-training-0.json",
+      "html": "mlflow-2.17.2-slow-training-0.html",
+      "timing_status": "unavailable",
+      "native_run": {
+        "run_id": "912775ff61fa4cbfa5b7911d64ef0e36",
+        "name": "slow-training",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "slow-training",
+      "training_steps_asserted": true,
+      "accepted": true,
+      "points": 101,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [
+        "throughput"
+      ],
+      "report": "mlflow-2.17.2-slow-training-1.json",
+      "html": "mlflow-2.17.2-slow-training-1.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "912775ff61fa4cbfa5b7911d64ef0e36",
+        "name": "slow-training",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "nonfinite",
+      "training_steps_asserted": false,
+      "accepted": false,
+      "error": "A metric exceeds the safe numeric range (1e100). Inspect that value with the local CLI.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "nonfinite",
+      "training_steps_asserted": true,
+      "accepted": false,
+      "error": "A metric exceeds the safe numeric range (1e100). Inspect that value with the local CLI.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "conflicting-steps",
+      "training_steps_asserted": false,
+      "accepted": false,
+      "error": "A diagnostic metric has repeated step indices. Consolidate repeated/resumed runs before analysis; each metric needs one reading per step.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "conflicting-steps",
+      "training_steps_asserted": true,
+      "accepted": false,
+      "error": "A diagnostic metric has repeated step indices. Consolidate repeated/resumed runs before analysis; each metric needs one reading per step.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "default-step",
+      "training_steps_asserted": false,
+      "accepted": false,
+      "error": "A diagnostic metric has repeated step indices. Consolidate repeated/resumed runs before analysis; each metric needs one reading per step.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-2.17.2.sqlite",
+      "run": "default-step",
+      "training_steps_asserted": true,
+      "accepted": false,
+      "error": "A diagnostic metric has repeated step indices. Consolidate repeated/resumed runs before analysis; each metric needs one reading per step.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "baseline",
+      "training_steps_asserted": false,
+      "accepted": true,
+      "points": 2162,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "mlflow-3.17.1-baseline-0.json",
+      "html": "mlflow-3.17.1-baseline-0.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "12b61cbcd4114346ab779ad97433c986",
+        "name": "baseline",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "baseline",
+      "training_steps_asserted": true,
+      "accepted": true,
+      "points": 2162,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "mlflow-3.17.1-baseline-1.json",
+      "html": "mlflow-3.17.1-baseline-1.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "12b61cbcd4114346ab779ad97433c986",
+        "name": "baseline",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "divergence",
+      "training_steps_asserted": false,
+      "accepted": false,
+      "error": "A metric exceeds the safe numeric range (1e100). Inspect that value with the local CLI.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "divergence",
+      "training_steps_asserted": true,
+      "accepted": false,
+      "error": "A metric exceeds the safe numeric range (1e100). Inspect that value with the local CLI.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "overfitting",
+      "training_steps_asserted": false,
+      "accepted": true,
+      "points": 4322,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [
+        "overfitting"
+      ],
+      "report": "mlflow-3.17.1-overfitting-0.json",
+      "html": "mlflow-3.17.1-overfitting-0.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "5d6e8ec204cc46388ab9c3583f132036",
+        "name": "overfitting",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "overfitting",
+      "training_steps_asserted": true,
+      "accepted": true,
+      "points": 4322,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [
+        "overfitting"
+      ],
+      "report": "mlflow-3.17.1-overfitting-1.json",
+      "html": "mlflow-3.17.1-overfitting-1.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "5d6e8ec204cc46388ab9c3583f132036",
+        "name": "overfitting",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "stable-training",
+      "training_steps_asserted": false,
+      "accepted": true,
+      "points": 101,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "mlflow-3.17.1-stable-training-0.json",
+      "html": "mlflow-3.17.1-stable-training-0.html",
+      "timing_status": "unavailable",
+      "native_run": {
+        "run_id": "d9dab18d8b054725b13f3894b0dc97fc",
+        "name": "stable-training",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "stable-training",
+      "training_steps_asserted": true,
+      "accepted": true,
+      "points": 101,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "mlflow-3.17.1-stable-training-1.json",
+      "html": "mlflow-3.17.1-stable-training-1.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "d9dab18d8b054725b13f3894b0dc97fc",
+        "name": "stable-training",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "slow-training",
+      "training_steps_asserted": false,
+      "accepted": true,
+      "points": 101,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "mlflow-3.17.1-slow-training-0.json",
+      "html": "mlflow-3.17.1-slow-training-0.html",
+      "timing_status": "unavailable",
+      "native_run": {
+        "run_id": "214bb67d331a4988b21e75b343876ee9",
+        "name": "slow-training",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "slow-training",
+      "training_steps_asserted": true,
+      "accepted": true,
+      "points": 101,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [
+        "throughput"
+      ],
+      "report": "mlflow-3.17.1-slow-training-1.json",
+      "html": "mlflow-3.17.1-slow-training-1.html",
+      "timing_status": "compared",
+      "native_run": {
+        "run_id": "214bb67d331a4988b21e75b343876ee9",
+        "name": "slow-training",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "nonfinite",
+      "training_steps_asserted": false,
+      "accepted": false,
+      "error": "A metric exceeds the safe numeric range (1e100). Inspect that value with the local CLI.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "nonfinite",
+      "training_steps_asserted": true,
+      "accepted": false,
+      "error": "A metric exceeds the safe numeric range (1e100). Inspect that value with the local CLI.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "conflicting-steps",
+      "training_steps_asserted": false,
+      "accepted": false,
+      "error": "A diagnostic metric has repeated step indices. Consolidate repeated/resumed runs before analysis; each metric needs one reading per step.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "conflicting-steps",
+      "training_steps_asserted": true,
+      "accepted": false,
+      "error": "A diagnostic metric has repeated step indices. Consolidate repeated/resumed runs before analysis; each metric needs one reading per step.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "default-step",
+      "training_steps_asserted": false,
+      "accepted": false,
+      "error": "A diagnostic metric has repeated step indices. Consolidate repeated/resumed runs before analysis; each metric needs one reading per step.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "mlflow-3.17.1.sqlite",
+      "run": "default-step",
+      "training_steps_asserted": true,
+      "accepted": false,
+      "error": "A diagnostic metric has repeated step indices. Consolidate repeated/resumed runs before analysis; each metric needs one reading per step.",
+      "scope": "Existing host numeric/repeated-step limits preserved"
+    },
+    {
+      "file": "reader-controls.sqlite",
+      "run": "recorded-nan",
+      "training_steps_asserted": false,
+      "accepted": true,
+      "points": 80,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [
+        "divergence"
+      ],
+      "report": "reader-controls-recorded-nan-0.json",
+      "html": "reader-controls-recorded-nan-0.html",
+      "timing_status": "unavailable",
+      "native_run": {
+        "run_id": "26df71a956da469e83965e409c8f3443",
+        "name": "recorded-nan",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "active"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "reader-controls.sqlite",
+      "run": "deleted-control",
+      "training_steps_asserted": false,
+      "accepted": true,
+      "points": 2,
+      "all_native_sdk_readings_preserved": true,
+      "original_bytes_unchanged": true,
+      "detectors": [],
+      "report": "reader-controls-deleted-control-0.json",
+      "html": "reader-controls-deleted-control-0.html",
+      "timing_status": "unavailable",
+      "native_run": {
+        "run_id": "0ad01da29c104480be2829438336a86d",
+        "name": "deleted-control",
+        "experiment_id": "1",
+        "status": "FINISHED",
+        "lifecycle_stage": "deleted"
+      },
+      "role": "upload"
+    },
+    {
+      "file": "reader-controls.sqlite",
+      "run": "duplicate label",
+      "accepted": false,
+      "error": "MLflow display name 'duplicate label' belongs to 2 runs; select an exact run ID or unique ID prefix: 94cc6102fd594a63835aa8d42e247b18, cd3526370a1743118660ce1e7932e3b0"
+    },
+    {
+      "file": "wal-main-only.sqlite",
+      "accepted": false,
+      "error": "Upload a self-contained SQLite backup. A main file in WAL mode can omit recent metrics; this workbench cannot import its sidecars. Create a backup with SQLite's backup API and set the copy's journal_mode to DELETE, or use the local CLI on the original store.",
+      "scope": "Actual SQLite WAL control derived from native SDK capture; only main file offered"
+    }
+  ],
+  "accepted_cases": 18,
+  "refused_cases": 18,
+  "sqlite_backup_includes_committed_wal_data_and_opens": true,
+  "native_control_sha256": "b92272103132724748c4b7bd72a5dfc1a193da57e95b2eb97452dc59fb6ecaa7"
+}

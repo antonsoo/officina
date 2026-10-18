@@ -1,5 +1,7 @@
 # Source update history
 
+The [native MLflow browser workbench](trainspotter-mlflow-browser-2026-10-17.md) opens original SQLite histories in the public app, preserves run/step evidence and refuses incomplete WAL uploads. Native SDK readings, a fresh installed app and actual public JSON/HTML downloads retain the result.
+
 The [Logdelta gzip correction](logdelta-gzip-members-2026-10-17.md) opens concatenated native logs in the actual browser while preserving member validation, bounded input, Unicode provenance and cancellation. Native CLI/installed artifacts and public offline downloads retain the result.
 
 The [Fieldproof fraction correction](fieldproof-fraction-evidence-2026-10-17.md) prevents a half-unit quote from verifying its numerator or denominator. Native PDFs, unchanged receipt verdicts, actual installed exports and restoration of an older review archive retain the result.

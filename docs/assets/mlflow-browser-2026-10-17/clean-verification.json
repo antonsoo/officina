@@ -1,0 +1,28 @@
+{
+  "source_commit": "331120ab47b951490f98f0e3be726ae4a37b7437",
+  "isolation": "fresh git archive; frozen Python lock and npm ci; all engine sources cloned from public Git",
+  "command": "bash scripts/verify_static.sh",
+  "exit_code": 0,
+  "node": "24.21.0",
+  "python": "3.12.12",
+  "ruff": "passed",
+  "strict_mypy_source_files": 23,
+  "workspace_python_cases": 227,
+  "standalone_python_cases": {
+    "errorbars": 51,
+    "trainspotter": 88,
+    "veil": 57,
+    "flakemap": 37
+  },
+  "browser_integrity_js_cases": 3,
+  "typecheck": "passed",
+  "all_four_standalone_apps_build": true,
+  "static_manifests": {
+    "errorbars": "c61d2adcca042ff7d0433b976a0e7f7a6ccea5ecfdffb086677cdcd1f849ecaf",
+    "trainspotter": "f127561f6295c062c44f10d4cfd691c7ce8a5edb3b762917b06e7dad99150688",
+    "veil": "4124a74243e876353a97979250223bb1e7dd3edaf7b782168d702625f853806e",
+    "flakemap": "5cc760873053d69f0545c4164af98238125b3e0bed8dfdd95ad3cccf89726eb5"
+  },
+  "trainspotter_manifest_sha256": "f127561f6295c062c44f10d4cfd691c7ce8a5edb3b762917b06e7dad99150688",
+  "no_registry_release_or_tag": true
+}

@@ -1,0 +1,6 @@
+{
+  "native_sdk": "MLflow 3.17.1",
+  "database_bytes": 3051520,
+  "accepted": false,
+  "error": "Upload a .json, .jsonl, or .csv log. TensorBoard events are not supported here."
+}

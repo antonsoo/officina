@@ -1,0 +1,669 @@
+{
+  "scope": "Actual native SQLite processing in the pinned Pyodide worker; actual saved JSON/HTML and original example downloads",
+  "contexts": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "site": "https://antonsoloviev-trainspotter.static.hf.space/",
+      "cases": [
+        {
+          "case": "native-2-bundled",
+          "complete_report_matches_native": true,
+          "points": 4322
+        },
+        {
+          "case": "native-3-upload",
+          "complete_report_matches_native": true,
+          "points": 4322
+        },
+        {
+          "case": "native-step-units",
+          "asserted": false,
+          "axis": "logging_step",
+          "timing": "unavailable",
+          "complete_report_matches_native": true
+        },
+        {
+          "case": "native-step-units",
+          "asserted": true,
+          "axis": "step",
+          "timing": "compared",
+          "complete_report_matches_native": true
+        },
+        {
+          "case": "refused-input",
+          "file": "reader-controls.sqlite",
+          "error": "belongs to 2 runs",
+          "previous_complete_report_preserved": true
+        },
+        {
+          "case": "refused-input",
+          "file": "wal-main-only.sqlite",
+          "error": "WAL mode",
+          "previous_complete_report_preserved": true
+        }
+      ],
+      "downloads": [
+        {
+          "file": "chromium-1440-example-baseline.trainer_state.json",
+          "suggested": "baseline.trainer_state.json",
+          "bytes": 96029,
+          "sha256": "77cef17e5130ad978e229d07d7aaa5c8b8eb2f2a0286cce9eeb02cfc4c8171d1"
+        },
+        {
+          "file": "chromium-1440-example-mlflow-2.17.2.sqlite",
+          "suggested": "mlflow-2.17.2.sqlite",
+          "bytes": 1830912,
+          "sha256": "6f6726d847eacf7bbe355a6088bb5490056d48557c90ac57eaac9cc028648297"
+        },
+        {
+          "file": "chromium-1440-example-mlflow-3.17.1.sqlite",
+          "suggested": "mlflow-3.17.1.sqlite",
+          "bytes": 3051520,
+          "sha256": "4deb943a134452509468a50fe3afc06fe1f2ac9bfea102297a4695e263e7f37c"
+        },
+        {
+          "file": "chromium-1440-native-2-example.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 473802,
+          "sha256": "d69f9fff1708fe309cd2141556c3172a4617e5d6e64702e9d505227e033786be"
+        },
+        {
+          "file": "chromium-1440-native-2-example.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 159230,
+          "sha256": "2c35673777eb2eb5055d41006f52499d20d3308f04dbab4409a87d720ffc1a22"
+        },
+        {
+          "file": "chromium-1440-native-3-upload.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 473782,
+          "sha256": "cbf006c3a44278f5e21364cb0b65d94b924ab1abddd3b9e0f23fe1653db8ccf8"
+        },
+        {
+          "file": "chromium-1440-native-3-upload.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 159230,
+          "sha256": "4cf8de268f09c7e8270275bd35909788a32ee8988d07b484526b3fb24a247979"
+        },
+        {
+          "file": "chromium-1440-slow-training-false.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 17768,
+          "sha256": "e71c3ff85fbef9569500cf6085836fcc8a8d661c84e370284136cedc6acfb444"
+        },
+        {
+          "file": "chromium-1440-slow-training-false.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 23723,
+          "sha256": "ec8d15e3518e21f9d8ec2e5f930856c4ad656bbd0ab771788ce60fbe9ba4fe47"
+        },
+        {
+          "file": "chromium-1440-slow-training-true.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 19100,
+          "sha256": "5f8d675803699547cff4d164d2f5c92b2a074541df1a176099edab4d66913104"
+        },
+        {
+          "file": "chromium-1440-slow-training-true.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 25384,
+          "sha256": "06ce29399ff8fff49522b5e0bb889e6f40b7b938dbdd68ab9fd590d361175afa"
+        },
+        {
+          "file": "chromium-1440-recorded-nan.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "chromium-1440-recorded-nan.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "f464979053e250a1278b08d7c99f4690ede11870fc3f1be52f5c123d9592d25a"
+        },
+        {
+          "file": "chromium-1440-rejected-reader-controls.sqlite.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "chromium-1440-rejected-reader-controls.sqlite.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "f464979053e250a1278b08d7c99f4690ede11870fc3f1be52f5c123d9592d25a"
+        },
+        {
+          "file": "chromium-1440-rejected-wal-main-only.sqlite.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "chromium-1440-rejected-wal-main-only.sqlite.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "f464979053e250a1278b08d7c99f4690ede11870fc3f1be52f5c123d9592d25a"
+        },
+        {
+          "file": "chromium-1440-recovery.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "chromium-1440-recovery.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "f464979053e250a1278b08d7c99f4690ede11870fc3f1be52f5c123d9592d25a"
+        }
+      ],
+      "offline_analysis_requests": [],
+      "errors": [],
+      "sqlite_worker_version": "3.39.0",
+      "clear_removes_new_options_and_data": true,
+      "example_downloads_match_original_bytes": 3,
+      "storage_empty": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "site": "https://antonsoloviev-trainspotter.static.hf.space/",
+      "cases": [
+        {
+          "case": "native-2-bundled",
+          "complete_report_matches_native": true,
+          "points": 4322
+        },
+        {
+          "case": "native-3-upload",
+          "complete_report_matches_native": true,
+          "points": 4322
+        },
+        {
+          "case": "native-step-units",
+          "asserted": false,
+          "axis": "logging_step",
+          "timing": "unavailable",
+          "complete_report_matches_native": true
+        },
+        {
+          "case": "native-step-units",
+          "asserted": true,
+          "axis": "step",
+          "timing": "compared",
+          "complete_report_matches_native": true
+        },
+        {
+          "case": "refused-input",
+          "file": "reader-controls.sqlite",
+          "error": "belongs to 2 runs",
+          "previous_complete_report_preserved": true
+        },
+        {
+          "case": "refused-input",
+          "file": "wal-main-only.sqlite",
+          "error": "WAL mode",
+          "previous_complete_report_preserved": true
+        }
+      ],
+      "downloads": [
+        {
+          "file": "chromium-375-example-baseline.trainer_state.json",
+          "suggested": "baseline.trainer_state.json",
+          "bytes": 96029,
+          "sha256": "77cef17e5130ad978e229d07d7aaa5c8b8eb2f2a0286cce9eeb02cfc4c8171d1"
+        },
+        {
+          "file": "chromium-375-example-mlflow-2.17.2.sqlite",
+          "suggested": "mlflow-2.17.2.sqlite",
+          "bytes": 1830912,
+          "sha256": "6f6726d847eacf7bbe355a6088bb5490056d48557c90ac57eaac9cc028648297"
+        },
+        {
+          "file": "chromium-375-example-mlflow-3.17.1.sqlite",
+          "suggested": "mlflow-3.17.1.sqlite",
+          "bytes": 3051520,
+          "sha256": "4deb943a134452509468a50fe3afc06fe1f2ac9bfea102297a4695e263e7f37c"
+        },
+        {
+          "file": "chromium-375-native-2-example.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 473802,
+          "sha256": "d69f9fff1708fe309cd2141556c3172a4617e5d6e64702e9d505227e033786be"
+        },
+        {
+          "file": "chromium-375-native-2-example.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 159230,
+          "sha256": "682e2ec866740679bc904270fd5e4782ebd00e920544f59ae89c94bd0d997cb2"
+        },
+        {
+          "file": "chromium-375-native-3-upload.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 473782,
+          "sha256": "cbf006c3a44278f5e21364cb0b65d94b924ab1abddd3b9e0f23fe1653db8ccf8"
+        },
+        {
+          "file": "chromium-375-native-3-upload.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 159230,
+          "sha256": "790472a44ae23afa1dae2ce8464bac0e2da268c6324148f3f1e2604cd7c0f1a2"
+        },
+        {
+          "file": "chromium-375-slow-training-false.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 17768,
+          "sha256": "e71c3ff85fbef9569500cf6085836fcc8a8d661c84e370284136cedc6acfb444"
+        },
+        {
+          "file": "chromium-375-slow-training-false.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 23723,
+          "sha256": "42a9c09b59b1d15c729f05bfddf24d3794c231b4359bbb31c22eac1ae87a0287"
+        },
+        {
+          "file": "chromium-375-slow-training-true.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 19100,
+          "sha256": "5f8d675803699547cff4d164d2f5c92b2a074541df1a176099edab4d66913104"
+        },
+        {
+          "file": "chromium-375-slow-training-true.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 25384,
+          "sha256": "6ecfe2c0a596ecdfcb25bb49df0c5093d54c7385a047e08870fc286db4f0e3a6"
+        },
+        {
+          "file": "chromium-375-recorded-nan.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "chromium-375-recorded-nan.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "62c92468409120210a84ea2111c66d1b3ccdb2f5ced8707bab910a4d31264804"
+        },
+        {
+          "file": "chromium-375-rejected-reader-controls.sqlite.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "chromium-375-rejected-reader-controls.sqlite.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "62c92468409120210a84ea2111c66d1b3ccdb2f5ced8707bab910a4d31264804"
+        },
+        {
+          "file": "chromium-375-rejected-wal-main-only.sqlite.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "chromium-375-rejected-wal-main-only.sqlite.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "62c92468409120210a84ea2111c66d1b3ccdb2f5ced8707bab910a4d31264804"
+        },
+        {
+          "file": "chromium-375-recovery.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "chromium-375-recovery.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "62c92468409120210a84ea2111c66d1b3ccdb2f5ced8707bab910a4d31264804"
+        }
+      ],
+      "offline_analysis_requests": [],
+      "errors": [],
+      "sqlite_worker_version": "3.39.0",
+      "clear_removes_new_options_and_data": true,
+      "example_downloads_match_original_bytes": 3,
+      "storage_empty": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "site": "https://antonsoloviev-trainspotter.static.hf.space/",
+      "cases": [
+        {
+          "case": "native-2-bundled",
+          "complete_report_matches_native": true,
+          "points": 4322
+        },
+        {
+          "case": "native-3-upload",
+          "complete_report_matches_native": true,
+          "points": 4322
+        },
+        {
+          "case": "native-step-units",
+          "asserted": false,
+          "axis": "logging_step",
+          "timing": "unavailable",
+          "complete_report_matches_native": true
+        },
+        {
+          "case": "native-step-units",
+          "asserted": true,
+          "axis": "step",
+          "timing": "compared",
+          "complete_report_matches_native": true
+        },
+        {
+          "case": "refused-input",
+          "file": "reader-controls.sqlite",
+          "error": "belongs to 2 runs",
+          "previous_complete_report_preserved": true
+        },
+        {
+          "case": "refused-input",
+          "file": "wal-main-only.sqlite",
+          "error": "WAL mode",
+          "previous_complete_report_preserved": true
+        }
+      ],
+      "downloads": [
+        {
+          "file": "firefox-1440-example-baseline.trainer_state.json",
+          "suggested": "baseline.trainer_state.json",
+          "bytes": 96029,
+          "sha256": "77cef17e5130ad978e229d07d7aaa5c8b8eb2f2a0286cce9eeb02cfc4c8171d1"
+        },
+        {
+          "file": "firefox-1440-example-mlflow-2.17.2.sqlite",
+          "suggested": "mlflow-2.17.2.sqlite",
+          "bytes": 1830912,
+          "sha256": "6f6726d847eacf7bbe355a6088bb5490056d48557c90ac57eaac9cc028648297"
+        },
+        {
+          "file": "firefox-1440-example-mlflow-3.17.1.sqlite",
+          "suggested": "mlflow-3.17.1.sqlite",
+          "bytes": 3051520,
+          "sha256": "4deb943a134452509468a50fe3afc06fe1f2ac9bfea102297a4695e263e7f37c"
+        },
+        {
+          "file": "firefox-1440-native-2-example.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 473802,
+          "sha256": "d69f9fff1708fe309cd2141556c3172a4617e5d6e64702e9d505227e033786be"
+        },
+        {
+          "file": "firefox-1440-native-2-example.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 159230,
+          "sha256": "682e2ec866740679bc904270fd5e4782ebd00e920544f59ae89c94bd0d997cb2"
+        },
+        {
+          "file": "firefox-1440-native-3-upload.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 473782,
+          "sha256": "cbf006c3a44278f5e21364cb0b65d94b924ab1abddd3b9e0f23fe1653db8ccf8"
+        },
+        {
+          "file": "firefox-1440-native-3-upload.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 159230,
+          "sha256": "790472a44ae23afa1dae2ce8464bac0e2da268c6324148f3f1e2604cd7c0f1a2"
+        },
+        {
+          "file": "firefox-1440-slow-training-false.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 17768,
+          "sha256": "e71c3ff85fbef9569500cf6085836fcc8a8d661c84e370284136cedc6acfb444"
+        },
+        {
+          "file": "firefox-1440-slow-training-false.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 23723,
+          "sha256": "42a9c09b59b1d15c729f05bfddf24d3794c231b4359bbb31c22eac1ae87a0287"
+        },
+        {
+          "file": "firefox-1440-slow-training-true.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 19100,
+          "sha256": "5f8d675803699547cff4d164d2f5c92b2a074541df1a176099edab4d66913104"
+        },
+        {
+          "file": "firefox-1440-slow-training-true.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 25384,
+          "sha256": "6ecfe2c0a596ecdfcb25bb49df0c5093d54c7385a047e08870fc286db4f0e3a6"
+        },
+        {
+          "file": "firefox-1440-recorded-nan.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "firefox-1440-recorded-nan.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "62c92468409120210a84ea2111c66d1b3ccdb2f5ced8707bab910a4d31264804"
+        },
+        {
+          "file": "firefox-1440-rejected-reader-controls.sqlite.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "firefox-1440-rejected-reader-controls.sqlite.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "62c92468409120210a84ea2111c66d1b3ccdb2f5ced8707bab910a4d31264804"
+        },
+        {
+          "file": "firefox-1440-rejected-wal-main-only.sqlite.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "firefox-1440-rejected-wal-main-only.sqlite.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "62c92468409120210a84ea2111c66d1b3ccdb2f5ced8707bab910a4d31264804"
+        },
+        {
+          "file": "firefox-1440-recovery.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "firefox-1440-recovery.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "62c92468409120210a84ea2111c66d1b3ccdb2f5ced8707bab910a4d31264804"
+        }
+      ],
+      "offline_analysis_requests": [],
+      "errors": [],
+      "sqlite_worker_version": "3.39.0",
+      "clear_removes_new_options_and_data": true,
+      "example_downloads_match_original_bytes": 3,
+      "storage_empty": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "site": "https://antonsoloviev-trainspotter.static.hf.space/",
+      "cases": [
+        {
+          "case": "native-2-bundled",
+          "complete_report_matches_native": true,
+          "points": 4322
+        },
+        {
+          "case": "native-3-upload",
+          "complete_report_matches_native": true,
+          "points": 4322
+        },
+        {
+          "case": "native-step-units",
+          "asserted": false,
+          "axis": "logging_step",
+          "timing": "unavailable",
+          "complete_report_matches_native": true
+        },
+        {
+          "case": "native-step-units",
+          "asserted": true,
+          "axis": "step",
+          "timing": "compared",
+          "complete_report_matches_native": true
+        },
+        {
+          "case": "refused-input",
+          "file": "reader-controls.sqlite",
+          "error": "belongs to 2 runs",
+          "previous_complete_report_preserved": true
+        },
+        {
+          "case": "refused-input",
+          "file": "wal-main-only.sqlite",
+          "error": "WAL mode",
+          "previous_complete_report_preserved": true
+        }
+      ],
+      "downloads": [
+        {
+          "file": "firefox-375-example-baseline.trainer_state.json",
+          "suggested": "baseline.trainer_state.json",
+          "bytes": 96029,
+          "sha256": "77cef17e5130ad978e229d07d7aaa5c8b8eb2f2a0286cce9eeb02cfc4c8171d1"
+        },
+        {
+          "file": "firefox-375-example-mlflow-2.17.2.sqlite",
+          "suggested": "mlflow-2.17.2.sqlite",
+          "bytes": 1830912,
+          "sha256": "6f6726d847eacf7bbe355a6088bb5490056d48557c90ac57eaac9cc028648297"
+        },
+        {
+          "file": "firefox-375-example-mlflow-3.17.1.sqlite",
+          "suggested": "mlflow-3.17.1.sqlite",
+          "bytes": 3051520,
+          "sha256": "4deb943a134452509468a50fe3afc06fe1f2ac9bfea102297a4695e263e7f37c"
+        },
+        {
+          "file": "firefox-375-native-2-example.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 473802,
+          "sha256": "d69f9fff1708fe309cd2141556c3172a4617e5d6e64702e9d505227e033786be"
+        },
+        {
+          "file": "firefox-375-native-2-example.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 159230,
+          "sha256": "f8984bc05279ecc80d5a5b22474c96da03bcce5b0351ea66fd653ece9556f3a1"
+        },
+        {
+          "file": "firefox-375-native-3-upload.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 473782,
+          "sha256": "cbf006c3a44278f5e21364cb0b65d94b924ab1abddd3b9e0f23fe1653db8ccf8"
+        },
+        {
+          "file": "firefox-375-native-3-upload.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 159230,
+          "sha256": "98fabd356fa94ec33d239f016e47b5aafa8b8b1a1a9d29da62f8a99a2d48db25"
+        },
+        {
+          "file": "firefox-375-slow-training-false.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 17768,
+          "sha256": "e71c3ff85fbef9569500cf6085836fcc8a8d661c84e370284136cedc6acfb444"
+        },
+        {
+          "file": "firefox-375-slow-training-false.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 23723,
+          "sha256": "06b0ba4f4ea97e11d57d6d72b24f013c7b6c6e42ad3daa8cd905b4c1427c2ee7"
+        },
+        {
+          "file": "firefox-375-slow-training-true.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 19100,
+          "sha256": "5f8d675803699547cff4d164d2f5c92b2a074541df1a176099edab4d66913104"
+        },
+        {
+          "file": "firefox-375-slow-training-true.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 25384,
+          "sha256": "131af97f6ebba5f0f9703333e6cd2d7f1a3ea483f985f3731544c6ca0e7d30e4"
+        },
+        {
+          "file": "firefox-375-recorded-nan.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "firefox-375-recorded-nan.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "79ef54d0cf757ea1fea13a50fcb907d2b5281bd352982fa2f5430895a1654605"
+        },
+        {
+          "file": "firefox-375-rejected-reader-controls.sqlite.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "firefox-375-rejected-reader-controls.sqlite.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "79ef54d0cf757ea1fea13a50fcb907d2b5281bd352982fa2f5430895a1654605"
+        },
+        {
+          "file": "firefox-375-rejected-wal-main-only.sqlite.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "firefox-375-rejected-wal-main-only.sqlite.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "79ef54d0cf757ea1fea13a50fcb907d2b5281bd352982fa2f5430895a1654605"
+        },
+        {
+          "file": "firefox-375-recovery.json",
+          "suggested": "trainspotter-report.json",
+          "bytes": 13734,
+          "sha256": "9ea1340ed65c430c8d8ac1db1739d230558a4e83b47bc4f24b4c0d61fb9f7d90"
+        },
+        {
+          "file": "firefox-375-recovery.html",
+          "suggested": "trainspotter-report.html",
+          "bytes": 32046,
+          "sha256": "79ef54d0cf757ea1fea13a50fcb907d2b5281bd352982fa2f5430895a1654605"
+        }
+      ],
+      "offline_analysis_requests": [],
+      "errors": [],
+      "sqlite_worker_version": "3.39.0",
+      "clear_removes_new_options_and_data": true,
+      "example_downloads_match_original_bytes": 3,
+      "storage_empty": true
+    }
+  ]
+}

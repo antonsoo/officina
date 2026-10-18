@@ -1,0 +1,9 @@
+{
+  "trainspotter": {
+    "repo_id": "antonsoloviev/trainspotter",
+    "commit": "f47a4950399e2f3e18cdc6dfc6281cb75088f36f",
+    "manifest_sha256": "f127561f6295c062c44f10d4cfd691c7ce8a5edb3b762917b06e7dad99150688",
+    "published_at": "2026-10-18T02:39:12.587508+00:00",
+    "host": "https://antonsoloviev-trainspotter.static.hf.space"
+  }
+}

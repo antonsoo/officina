@@ -1,0 +1,199 @@
+{
+  "saved_download_hashes_verified": 76,
+  "complete_html_reports_match_native": 32,
+  "normalization": "Exactly one generated UTC minute field; all remaining bytes must match",
+  "reports": [
+    {
+      "download": "chromium-1440-native-2-example.html",
+      "native": "mlflow-2.17.2-overfitting-0.html",
+      "sha256": "4fd0f070b2124e3d11cef106ab8fbb6c23a618258efb8819b42cd468d188f9ba",
+      "canonical_sha256": "6c48832eda99779f11ef95e0812c066532c21c313c9dc86e6263371dc48ea614"
+    },
+    {
+      "download": "chromium-1440-native-3-upload.html",
+      "native": "mlflow-3.17.1-overfitting-0.html",
+      "sha256": "9379ce4cdeda9ea7a4c2ade6f9d33c618320a721f69aedcf478dfd6b6b162b3d",
+      "canonical_sha256": "90279d15bfe77a5907530bc8e352fa1b4da3840b3aba359d0ae422c4e825bee2"
+    },
+    {
+      "download": "chromium-1440-slow-training-false.html",
+      "native": "mlflow-3.17.1-slow-training-0.html",
+      "sha256": "4bd7fc918789ca54ba528a8fc0ab89ccf24ea4ce9d062f77a1ebd6c1fb9db16b",
+      "canonical_sha256": "badb512244598ae8a720f35bb330b663a116f7f6837020611bd141ffe1ad4988"
+    },
+    {
+      "download": "chromium-1440-slow-training-true.html",
+      "native": "mlflow-3.17.1-slow-training-1.html",
+      "sha256": "8e8606529e23099da8f7c5ff96ceec44ca93ed9d4af1de233e2578161e80126b",
+      "canonical_sha256": "334f8428e7c2ce3ee01d75c2ea2eb7da3ee59913ebb9cd2d651cd32d1f4ba58f"
+    },
+    {
+      "download": "chromium-1440-recorded-nan.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "d99bc6b3c760e31cd3ab680fdbc29e9d992c3acb2d76a962dfb3b8a30e601269",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "chromium-1440-rejected-reader-controls.sqlite.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "d99bc6b3c760e31cd3ab680fdbc29e9d992c3acb2d76a962dfb3b8a30e601269",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "chromium-1440-rejected-wal-main-only.sqlite.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "d99bc6b3c760e31cd3ab680fdbc29e9d992c3acb2d76a962dfb3b8a30e601269",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "chromium-1440-recovery.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "485867ca914963ea4878e6ef5b67a2982023e3369b6ae3a5a77ed7cf8035e622",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "chromium-375-native-2-example.html",
+      "native": "mlflow-2.17.2-overfitting-0.html",
+      "sha256": "f09829d4a3576af26d209799b68839581131a44baea2a682b8c3c1ec9f48074a",
+      "canonical_sha256": "6c48832eda99779f11ef95e0812c066532c21c313c9dc86e6263371dc48ea614"
+    },
+    {
+      "download": "chromium-375-native-3-upload.html",
+      "native": "mlflow-3.17.1-overfitting-0.html",
+      "sha256": "b0f237d97a713827ba043d36fc016fc2755e17e8c514e35fb4e2d4b3336959aa",
+      "canonical_sha256": "90279d15bfe77a5907530bc8e352fa1b4da3840b3aba359d0ae422c4e825bee2"
+    },
+    {
+      "download": "chromium-375-slow-training-false.html",
+      "native": "mlflow-3.17.1-slow-training-0.html",
+      "sha256": "8f520c3593176c45d135fd62390038eb00a4cf050bb75d9146803c66ee94bc54",
+      "canonical_sha256": "badb512244598ae8a720f35bb330b663a116f7f6837020611bd141ffe1ad4988"
+    },
+    {
+      "download": "chromium-375-slow-training-true.html",
+      "native": "mlflow-3.17.1-slow-training-1.html",
+      "sha256": "d52b91ea57c1a28f1f6d9afbb098199fea6206931b727b7ffa2b1d2e06452401",
+      "canonical_sha256": "334f8428e7c2ce3ee01d75c2ea2eb7da3ee59913ebb9cd2d651cd32d1f4ba58f"
+    },
+    {
+      "download": "chromium-375-recorded-nan.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "485867ca914963ea4878e6ef5b67a2982023e3369b6ae3a5a77ed7cf8035e622",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "chromium-375-rejected-reader-controls.sqlite.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "485867ca914963ea4878e6ef5b67a2982023e3369b6ae3a5a77ed7cf8035e622",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "chromium-375-rejected-wal-main-only.sqlite.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "485867ca914963ea4878e6ef5b67a2982023e3369b6ae3a5a77ed7cf8035e622",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "chromium-375-recovery.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "485867ca914963ea4878e6ef5b67a2982023e3369b6ae3a5a77ed7cf8035e622",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "firefox-1440-native-2-example.html",
+      "native": "mlflow-2.17.2-overfitting-0.html",
+      "sha256": "f09829d4a3576af26d209799b68839581131a44baea2a682b8c3c1ec9f48074a",
+      "canonical_sha256": "6c48832eda99779f11ef95e0812c066532c21c313c9dc86e6263371dc48ea614"
+    },
+    {
+      "download": "firefox-1440-native-3-upload.html",
+      "native": "mlflow-3.17.1-overfitting-0.html",
+      "sha256": "b0f237d97a713827ba043d36fc016fc2755e17e8c514e35fb4e2d4b3336959aa",
+      "canonical_sha256": "90279d15bfe77a5907530bc8e352fa1b4da3840b3aba359d0ae422c4e825bee2"
+    },
+    {
+      "download": "firefox-1440-slow-training-false.html",
+      "native": "mlflow-3.17.1-slow-training-0.html",
+      "sha256": "8f520c3593176c45d135fd62390038eb00a4cf050bb75d9146803c66ee94bc54",
+      "canonical_sha256": "badb512244598ae8a720f35bb330b663a116f7f6837020611bd141ffe1ad4988"
+    },
+    {
+      "download": "firefox-1440-slow-training-true.html",
+      "native": "mlflow-3.17.1-slow-training-1.html",
+      "sha256": "d52b91ea57c1a28f1f6d9afbb098199fea6206931b727b7ffa2b1d2e06452401",
+      "canonical_sha256": "334f8428e7c2ce3ee01d75c2ea2eb7da3ee59913ebb9cd2d651cd32d1f4ba58f"
+    },
+    {
+      "download": "firefox-1440-recorded-nan.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "485867ca914963ea4878e6ef5b67a2982023e3369b6ae3a5a77ed7cf8035e622",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "firefox-1440-rejected-reader-controls.sqlite.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "485867ca914963ea4878e6ef5b67a2982023e3369b6ae3a5a77ed7cf8035e622",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "firefox-1440-rejected-wal-main-only.sqlite.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "485867ca914963ea4878e6ef5b67a2982023e3369b6ae3a5a77ed7cf8035e622",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "firefox-1440-recovery.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "485867ca914963ea4878e6ef5b67a2982023e3369b6ae3a5a77ed7cf8035e622",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "firefox-375-native-2-example.html",
+      "native": "mlflow-2.17.2-overfitting-0.html",
+      "sha256": "b84346baaf5bb6deb35273cc55084c07c022b33b45c2060a340323d007de223e",
+      "canonical_sha256": "6c48832eda99779f11ef95e0812c066532c21c313c9dc86e6263371dc48ea614"
+    },
+    {
+      "download": "firefox-375-native-3-upload.html",
+      "native": "mlflow-3.17.1-overfitting-0.html",
+      "sha256": "b608c53228398fcbf42e1a1c5f9b14eb10b413e12cb0285b0b1a54ac69b29911",
+      "canonical_sha256": "90279d15bfe77a5907530bc8e352fa1b4da3840b3aba359d0ae422c4e825bee2"
+    },
+    {
+      "download": "firefox-375-slow-training-false.html",
+      "native": "mlflow-3.17.1-slow-training-0.html",
+      "sha256": "7ef8688f4b58b1bca1549e28e696446afc4ea63cc513413c3377c4bad5890028",
+      "canonical_sha256": "badb512244598ae8a720f35bb330b663a116f7f6837020611bd141ffe1ad4988"
+    },
+    {
+      "download": "firefox-375-slow-training-true.html",
+      "native": "mlflow-3.17.1-slow-training-1.html",
+      "sha256": "dbfe1551f91380352dfee62d3eb53afc5dcb3d98a33d0bdda41c02d8689298a3",
+      "canonical_sha256": "334f8428e7c2ce3ee01d75c2ea2eb7da3ee59913ebb9cd2d651cd32d1f4ba58f"
+    },
+    {
+      "download": "firefox-375-recorded-nan.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "fef1519108ff8b9726a4a2b4feeb5f4d9b1c0d987cde59d5ec99daaee08a4fc3",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "firefox-375-rejected-reader-controls.sqlite.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "fef1519108ff8b9726a4a2b4feeb5f4d9b1c0d987cde59d5ec99daaee08a4fc3",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "firefox-375-rejected-wal-main-only.sqlite.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "fef1519108ff8b9726a4a2b4feeb5f4d9b1c0d987cde59d5ec99daaee08a4fc3",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    },
+    {
+      "download": "firefox-375-recovery.html",
+      "native": "reader-controls-recorded-nan-0.html",
+      "sha256": "fef1519108ff8b9726a4a2b4feeb5f4d9b1c0d987cde59d5ec99daaee08a4fc3",
+      "canonical_sha256": "61bba011a57e969e8ce5aef2915091fcd42047032ea60ec3ce5e8f2e6a3d9ea1"
+    }
+  ]
+}
