@@ -6,7 +6,7 @@ and the actual merged safetensors. It reads the artifacts without loading a
 model or requiring PyTorch. The entry exposes LoRA, BF16, update direction and
 unrelated weight changes in local catalogue search.
 
-The recorded study is pinned to source
+The initial recorded study was pinned to source
 [`23ed58c50765fc3720856eb84090a7840ce320c3`](https://github.com/antonsoo/mergeglass/tree/23ed58c50765fc3720856eb84090a7840ce320c3/studies/community).
 For the unchanged public SmolLM2/SmolTalk adapter and pinned original base,
 5,886,980 of 13,271,040 nonzero update entries remain numerically equal to the
@@ -28,8 +28,8 @@ Two further native studies make the tool's interpretation explicit:
   `fan_in_fan_out=False`. Known metadata now causes an explicit refusal instead
   of a misleading Linear reference; ordinary Linear heads remain accepted.
 
-The thumbnail is a crop of the tool's real terminal capture, explicitly labelled
-as a synthetic PEFT rounding control. It illustrates the CLI; the public model
+The initial thumbnail was a crop of the tool's real terminal capture, explicitly labelled
+as a synthetic PEFT rounding control. It illustrated the CLI; the public model
 numbers come from the linked study, whose full input hashes and reproduction
 commands are retained. No third-party model weights are in either repository.
 
@@ -60,3 +60,26 @@ Reproduce those public checks after `npm ci`:
 ```sh
 node studies/mergeglass/browser.mjs https://antonsoo.github.io/officina/ /tmp/officina-mergeglass-browser
 ```
+
+## Precision and reference-energy update
+
+The current catalogue record points to
+[`e0eca864fd03f4dce907eec9e622940d07e5a2f8`](https://github.com/antonsoo/mergeglass/tree/e0eca864fd03f4dce907eec9e622940d07e5a2f8/studies/community).
+It compares native FP32, FP16 and BF16 exports of the same unchanged public
+adapter. The original FP32/BF16 output file hashes reproduce exactly. Among
+13,271,040 nonzero intended update entries, FP16 leaves 7.34% unchanged and BF16
+leaves 44.36% unchanged. Those positions contain 0.1044% and 15.05%, respectively,
+of the complete reference update's squared norm. The card now separates the
+entry count from the magnitude-weighted fraction.
+
+The same source retains [actual forward measurements](https://github.com/antonsoo/mergeglass/tree/e0eca864fd03f4dce907eec9e622940d07e5a2f8/studies/forward):
+on six authored texts with 146 observed prefix positions, merging changes zero,
+one and six greedy next-token choices under the recorded FP32, FP16 and BF16
+runtime conditions. These are numerical probes; they do not measure task quality.
+
+The updated thumbnail is the tool's actual public SmolLM2 BF16 terminal capture,
+with all 60 adapted matrices, 272 checked tensors and the aggregate squared-norm
+measurement. The installed audit reads 540,004,492 input-file bytes at 61.24 MiB
+peak process RSS on the recorded host without PyTorch. The earlier publication and screenshots above remain
+historical records of the initial entry. The revised data and image have a
+separate canonical-byte and browser verification record.

@@ -487,3 +487,7 @@ collects the complete-build Flakemap gate, exact repeated means, YAML credential
 bodies, native CSV metadata handoff, corrected live probability cards and
 verified speech downloads. It separates public source, installed artifacts,
 static deployments and unchanged registry releases.
+
+The [setup-uv reference repair](setup-uv-refs-2026-10-19.md) replaces 20
+unresolvable action references across eight public repositories with the actual
+published release, retaining exact source commits and reference-resolution evidence.

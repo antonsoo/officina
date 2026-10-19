@@ -1,0 +1,142 @@
+{
+  "observed_at_utc": "2026-10-19T14:47:03.473435+00:00",
+  "action": {
+    "release": "v10.3.0",
+    "commit": "1c37ad07a6a961277cf70c0d37d6f313000f5884",
+    "action_manifest_sha256": "d673bd5ea2cdb9af0c2c2e0d392afe966637bd49e4397313b9086ae582548b37",
+    "using": "node24",
+    "inputs": [
+      "activate-environment",
+      "add-problem-matchers",
+      "cache-dependency-glob",
+      "cache-local-path",
+      "cache-python",
+      "cache-suffix",
+      "checksum",
+      "download-from-astral-mirror",
+      "enable-cache",
+      "github-token",
+      "ignore-empty-workdir",
+      "ignore-nothing-to-cache",
+      "manifest-file",
+      "no-project",
+      "prune-cache",
+      "python-arch",
+      "python-version",
+      "quiet",
+      "resolution-strategy",
+      "restore-cache",
+      "save-cache",
+      "tool-bin-dir",
+      "tool-dir",
+      "venv-path",
+      "version",
+      "version-file",
+      "working-directory"
+    ],
+    "missing_v10_tag_http": 404,
+    "missing_v10_branch_http": 404
+  },
+  "git_remote_ref_query": [
+    "refs/tags/v10",
+    "refs/heads/v10",
+    "refs/tags/v10.3.0"
+  ],
+  "observed_remote_refs": [
+    "1c37ad07a6a961277cf70c0d37d6f313000f5884\trefs/tags/v10.3.0"
+  ],
+  "repositories": [
+    {
+      "repository": "antonsoo/am-i-unlucky",
+      "before": "7d3404163a60edec86ebbd179e1643bdd045785a",
+      "commit": "8365451b6e1fbd822a6f6e4699c5e504975c0531",
+      "files": [
+        ".github/workflows/ci.yml"
+      ],
+      "references": 1,
+      "remote_main_verified": true,
+      "local_fast_forwarded": true
+    },
+    {
+      "repository": "antonsoo/veil",
+      "before": "26c56c5a2ca2b749ca2be45d42f33ca7c6da3efc",
+      "commit": "b5eb28ae294bc54cf86e66a9388f6f135760989b",
+      "files": [
+        ".github/workflows/ci.yml"
+      ],
+      "references": 3,
+      "remote_main_verified": true,
+      "local_fast_forwarded": true
+    },
+    {
+      "repository": "antonsoo/trainspotter",
+      "before": "b491aa606d93e28b75e1887aad25c37538b21667",
+      "commit": "740811d40981572bdf71a02aae5a8cde023c7979",
+      "files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/pages.yml"
+      ],
+      "references": 4,
+      "remote_main_verified": true,
+      "local_fast_forwarded": true
+    },
+    {
+      "repository": "antonsoo/gnomon",
+      "before": "b3d0c3bbd5d0f39da1d5e0b6fc7d9ab8b74ec6c6",
+      "commit": "1acc6ad039d4003b7547ffa0e6f65abe7956a953",
+      "files": [
+        ".github/workflows/ci.yml"
+      ],
+      "references": 1,
+      "remote_main_verified": true,
+      "local_fast_forwarded": true
+    },
+    {
+      "repository": "antonsoo/flakemap",
+      "before": "0ba3d6e5e64dd6fd6ef097a4e81587c41d645bb0",
+      "commit": "d9471f6b87dc2f00d9a1c94f746adf96747e4eef",
+      "files": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/pages.yml"
+      ],
+      "references": 4,
+      "remote_main_verified": true,
+      "local_fast_forwarded": true
+    },
+    {
+      "repository": "antonsoo/errorbars",
+      "before": "ea67247e6a6f62a9613b7b48134cf210b921b551",
+      "commit": "8e768ac2907454d42f51474ee28c5cd0e4c3577d",
+      "files": [
+        ".github/workflows/ci.yml"
+      ],
+      "references": 3,
+      "remote_main_verified": true,
+      "local_fast_forwarded": true
+    },
+    {
+      "repository": "antonsoo/fieldproof",
+      "before": "f490439b4b455db997074b5166862bbd0dd65d86",
+      "commit": "d93ab5982edc83f3fbdaef7f99269e74fbb08797",
+      "files": [
+        ".github/workflows/ci.yml"
+      ],
+      "references": 3,
+      "remote_main_verified": true,
+      "local_fast_forwarded": true
+    },
+    {
+      "repository": "antonsoo/mergeglass",
+      "before": "2a0fb543cba5ac20998240b20a8280d6b9fc1930",
+      "commit": "62bd6f42b0a9155fd9efa80765188d89e8be08df",
+      "files": [
+        ".github/workflows/ci.yml"
+      ],
+      "references": 1,
+      "remote_main_verified": true,
+      "local_fast_forwarded": true
+    }
+  ],
+  "changed_public_references": 20,
+  "scope": "Reference resolution, action input compatibility, YAML parsing and public commit identity; no runner execution claim"
+}

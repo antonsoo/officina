@@ -82,8 +82,8 @@
     "thumbnail": "thumbs/mergeglass.webp",
     "status": "published",
     "study": {
-      "finding": "Pinned SmolLM2 adapter: 5,886,980 of 13,271,040 nonzero entries stay unchanged in BF16 (44.36%); weight counts do not measure model quality.",
-      "url": "https://github.com/antonsoo/mergeglass/tree/23ed58c50765fc3720856eb84090a7840ce320c3/studies/community"
+      "finding": "One SmolLM2 adapter, BF16: 44.36% of 13,271,040 nonzero update entries unchanged, containing 15.05% of reference squared norm; quality untested.",
+      "url": "https://github.com/antonsoo/mergeglass/tree/e0eca864fd03f4dce907eec9e622940d07e5a2f8/studies/community"
     }
   },
   {
