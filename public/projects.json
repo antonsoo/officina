@@ -1,7 +1,7 @@
 [
   {
     "name": "horologium",
-    "description": "What time is it in Babylon? Explore 13 calendars in a live, Antikythera-inspired clock, with reference comparisons and explicit historical limits.",
+    "description": "Explore 13 calendars, ancient planets checked against DE441, and local sunrise and sunset; marginal polar events stay unresolved.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/horologium",
     "demoUrl": "https://antonsoo.github.io/horologium/",
@@ -12,8 +12,8 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/horologium"
     },
     "study": {
-      "finding": "256 dates outside the modern fit: Saturn max error falls from 30.48 to 0.38 degrees vs DE441. Historical civil-time conversion remains omitted.",
-      "url": "https://github.com/antonsoo/horologium/tree/c8c9d2b9885dbaa7ac58f62eca09ef73e400767f/studies/long-range-planets"
+      "finding": "74 sites across 2026: 90 false solar crossings removed; marginal polar events withheld. Terrain and weather remain outside the model.",
+      "url": "https://github.com/antonsoo/horologium/tree/122639f874a8f218dfe96894314ca9855a78b04d/studies/solar-events"
     }
   },
   {
@@ -31,28 +31,28 @@
   },
   {
     "name": "planisphere",
-    "description": "Build a star wheel for your latitude and compare stellar epochs from 3000 BCE to 3000 CE, with printable disc and holder templates.",
+    "description": "Build a printable star wheel for either hemisphere, check southern sky orientation, and compare stellar epochs from 3000 BCE to 3000 CE.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/planisphere",
     "demoUrl": "https://antonsoo.github.io/planisphere/",
     "thumbnail": "thumbs/planisphere.webp",
     "status": "published",
     "study": {
-      "finding": "4,201 historical star positions: 0.04 arcmin robust scatter against the editors' reduction; five high-motion stars differ by 1-19 arcmin.",
-      "url": "https://github.com/antonsoo/planisphere/tree/efa33746b52f0d77b98af29604fe18f06a1082b0/studies/historical-catalogues"
+      "finding": "2,668 printable star positions: 1,164 mirrored positions corrected against independent outward-view geometry. Physical printing remains unverified.",
+      "url": "https://github.com/antonsoo/planisphere/tree/1fef7f63e01f89297563746a983b0545e045ab5f/studies/sky-handedness"
     }
   },
   {
     "name": "tonemirror",
-    "description": "Practice speech intonation against recorded Mandarin examples, listen to both clips, and keep credited audio offline in your browser.",
+    "description": "Practice Mandarin intonation with recorded examples, preserve unvoiced gaps, and choose separate stereo channels for reference and practice audio.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/tonemirror",
     "demoUrl": "https://antonsoo.github.io/tonemirror/",
     "thumbnail": "thumbs/tonemirror.webp",
     "status": "published",
     "study": {
-      "finding": "580 recordings, two detectors: 17,170 bridges across unvoiced gaps removed; alignments and scores unchanged. This checks drawings, not pronunciation.",
-      "url": "https://github.com/antonsoo/tonemirror/tree/d8513a3758f216a4d80ab4e1b23a82080c64e68a/studies/contour-gaps"
+      "finding": "Constructed stereo from recorded Mandarin: silent mix refused; either channel keeps 227 voiced frames. Pronunciation accuracy remains untested.",
+      "url": "https://github.com/antonsoo/tonemirror/tree/129cd2f541bed48f8f5c0d0d7716c6ec03163df2/studies/file-channels"
     }
   },
   {
@@ -144,10 +144,10 @@
   },
   {
     "name": "tracelens",
-    "description": "Inspect OTLP or Jaeger agent traces locally: compare runs, follow span evidence and reconcile recorded token counts before estimating cost.",
+    "description": "Open local OTLP or Jaeger traces, including Zstandard Collector JSON/protobuf; follow span evidence, compare runs and reconcile recorded token costs.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/tracelens",
-    "demoUrl": "https://antonsoo.github.io/tracelens/?example=compare",
+    "demoUrl": "https://antonsoo.github.io/tracelens/?example=collector-zstd",
     "thumbnail": "thumbs/tracelens.webp",
     "status": "published",
     "package": {
@@ -155,8 +155,8 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/tracelens"
     },
     "study": {
-      "finding": "A controlled SDK span recorded 0 and 1,000,000 input tokens. The viewer retains both and withholds the charge; this is not an invoice.",
-      "url": "https://github.com/antonsoo/tracelens/tree/411b2e5c625de23aa9b3fed06c068d32b998faf6/studies/usage-conflicts"
+      "finding": "Native Collector exports: all 5,001 SDK spans survive compressed imports offline. Damaged streams refuse; this is a controlled local workload.",
+      "url": "https://github.com/antonsoo/tracelens/tree/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector"
     }
   },
   {

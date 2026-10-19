@@ -1,5 +1,11 @@
 # Source update history
 
+The [geometry, recorded-channel and compressed-input update](geometry-audio-and-carriers-2026-10-19.md)
+corrects southern star wheels and polar solar events, preserves separately
+recorded speech channels, and opens native compressed Collector files. The
+catalogue exposes the new workflows and links immutable producer/oracle and
+publication evidence, retaining prior discovery terms.
+
 The [historical planet and speech-contour update](planet-and-speech-2026-10-18.md)
 adds JPL's ancient-range fit to Horologium and preserves observed unvoiced
 intervals in ToneMirror's aligned drawing. Native ephemerides and recorded

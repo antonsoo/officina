@@ -1,0 +1,38 @@
+{
+  "checkedAtUtc": "2026-10-19T09:17:26.563898+00:00",
+  "scope": "Complete immutable public study READMEs compared with their local Git objects. Publication and registry claims require their own project receipts.",
+  "files": [
+    {
+      "project": "horologium",
+      "revision": "122639f874a8f218dfe96894314ca9855a78b04d",
+      "url": "https://raw.githubusercontent.com/antonsoo/horologium/122639f874a8f218dfe96894314ca9855a78b04d/studies/solar-events/README.md",
+      "bytes": 9457,
+      "sha256": "2d3c36087d7260cfdfb8ce93eff1d527c7346df7eb2fe9baca222f5975e76fb4",
+      "matchesGitObject": true
+    },
+    {
+      "project": "planisphere",
+      "revision": "1fef7f63e01f89297563746a983b0545e045ab5f",
+      "url": "https://raw.githubusercontent.com/antonsoo/planisphere/1fef7f63e01f89297563746a983b0545e045ab5f/studies/sky-handedness/README.md",
+      "bytes": 6846,
+      "sha256": "90cf09f18f368fdde832a213d5d7e96a19c27a727e98022b3c30e1479ac6b878",
+      "matchesGitObject": true
+    },
+    {
+      "project": "tonemirror",
+      "revision": "129cd2f541bed48f8f5c0d0d7716c6ec03163df2",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/129cd2f541bed48f8f5c0d0d7716c6ec03163df2/studies/file-channels/README.md",
+      "bytes": 5588,
+      "sha256": "bde5a43c54cafa92078df72d4de81b497edc717001adaf51de28250b2c0acf4c",
+      "matchesGitObject": true
+    },
+    {
+      "project": "tracelens",
+      "revision": "1e67140e7f08f08b87ede5facc145809d0539c53",
+      "url": "https://raw.githubusercontent.com/antonsoo/tracelens/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector/README.md",
+      "bytes": 10958,
+      "sha256": "2f4d3d609c7c9b0433ce6deb08641fe24556f6676c22bbbfc6c12ad7755b30ee",
+      "matchesGitObject": true
+    }
+  ]
+}
