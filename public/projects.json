@@ -75,15 +75,15 @@
   },
   {
     "name": "mergeglass",
-    "description": "Inspect saved LoRA merges for BF16 rounding, wrong scale or direction, and unrelated weight changes; no model loading or PyTorch.",
+    "description": "Inspect saved LoRA/DoRA merges and learned row norms, including partial observations without an original base; no model loading or PyTorch.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/mergeglass",
     "demoUrl": null,
     "thumbnail": "thumbs/mergeglass.webp",
     "status": "published",
     "study": {
-      "finding": "One SmolLM2 adapter, BF16: 44.36% of 13,271,040 nonzero update entries unchanged, containing 15.05% of reference squared norm; quality untested.",
-      "url": "https://github.com/antonsoo/mergeglass/tree/e0eca864fd03f4dce907eec9e622940d07e5a2f8/studies/community"
+      "finding": "Synthetic DoRA control: near-parallel directions, row norms 0.5863-1.555x target. Independent replay checks 622,359 native/public rows.",
+      "url": "https://github.com/antonsoo/mergeglass/blob/0185bce474256441f8c84fa3bcdc2ee67190e6ef/docs/dora-rows.md"
     }
   },
   {
@@ -105,7 +105,7 @@
   },
   {
     "name": "fieldproof",
-    "description": "Link extracted fields to source words and inspect native PDF paint, clipping and overlap risks before accepting a document claim.",
+    "description": "Link fields to source words and inspect native PDF paint, clipping and saved AcroForm appearances before accepting a document claim.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/fieldproof",
     "demoUrl": "https://antonsoo.github.io/fieldproof/",
@@ -116,8 +116,8 @@
       "url": "https://pypi.org/project/fieldproof/"
     },
     "study": {
-      "finding": "1,052 receipts: strict matching rejects all 2,251 one-letter name mutations in this study, but also sends OCR-repaired names to review.",
-      "url": "https://github.com/antonsoo/fieldproof/tree/79c30614d36ca60bd23d758bb1f7be3f750cb544/studies/cord-grounding"
+      "finding": "Source upgrade: 10 saved AcroForm appearance mismatches corrected across 13 supported controls; native text and existing review verdicts preserved.",
+      "url": "https://github.com/antonsoo/fieldproof/blob/29a906835d28cbd440aa8af4712a00fb4a089705/docs/verification-form-appearances-2026-10-19.md"
     }
   },
   {

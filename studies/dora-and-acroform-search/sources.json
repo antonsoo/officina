@@ -1,0 +1,26 @@
+{
+  "method": "catalogue data only; immutable linked source documents byte-checked; no registry release claim",
+  "sources": [
+    {
+      "project": "mergeglass",
+      "source_commit": "0185bce474256441f8c84fa3bcdc2ee67190e6ef",
+      "file": "docs/dora-rows.md",
+      "bytes": 6722,
+      "sha256": "9d8601a573c1c9655e9bf6919f0b0c86f2e0a13b2fdcdc5b0b06e3dc22b5676c",
+      "public_bytes_match_git_blob": true,
+      "study_url": "https://github.com/antonsoo/mergeglass/blob/0185bce474256441f8c84fa3bcdc2ee67190e6ef/docs/dora-rows.md"
+    },
+    {
+      "project": "fieldproof",
+      "source_commit": "29a906835d28cbd440aa8af4712a00fb4a089705",
+      "file": "docs/verification-form-appearances-2026-10-19.md",
+      "bytes": 5569,
+      "sha256": "68272eada7d963b66a1ec02f05ff7b662704c2d32a1af6fd24039b5f1519a3ac",
+      "public_bytes_match_git_blob": true,
+      "study_url": "https://github.com/antonsoo/fieldproof/blob/29a906835d28cbd440aa8af4712a00fb4a089705/docs/verification-form-appearances-2026-10-19.md"
+    }
+  ],
+  "baseline_catalogue_source": "59da315576231a009a80ea38d76b56faaced86aa",
+  "catalogue_sha256": "7b72bfcdece12ab27bc1d193332d1cbadbd7bf77f662a4805ba1f71832826702",
+  "browser_replay": "../planet-and-speech-search/replay.mjs BASE_URL OUTPUT before|after studies/dora-and-acroform-search/cases.json"
+}

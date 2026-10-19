@@ -1,13 +1,13 @@
-// URL OUTPUT before|after: actual catalogue searches for historical planets and unvoiced speech gaps.
+// URL OUTPUT before|after [CASES.json]: actual catalogue searches, without mocked responses.
 import assert from "node:assert/strict";
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { chromium, firefox } from "@playwright/test";
 
-const [base, output, phase] = process.argv.slice(2);
+const [base, output, phase, casesFile] = process.argv.slice(2);
 assert(base && output && ["before", "after"].includes(phase));
 await mkdir(output, { recursive: true });
-const queries = [
+const queries = casesFile ? JSON.parse(await readFile(casesFile, "utf8")) : [
   ["DE441", "horologium"],
   ["unvoiced gaps", "tonemirror"],
 ];
@@ -30,7 +30,7 @@ for (const [engine, launch] of Object.entries({ chromium, firefox })) {
         });
         const search = page.getByRole("searchbox", { name: "Find a tool" });
         const cases = [];
-        for (const [query, name] of queries) {
+        for (const [query, name, expectedStudyUrl] of queries) {
           await search.fill(query);
           await page.evaluate(
             () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
@@ -48,7 +48,8 @@ for (const [engine, launch] of Object.entries({ chromium, firefox })) {
             );
             finding = await card.locator(".card-study").innerText();
             studyUrl = await card.locator(".card-study a").getAttribute("href");
-            assert.match(studyUrl, /github\.com\/antonsoo\/[^/]+\/tree\/[a-f0-9]{40}\/studies\//);
+            if (expectedStudyUrl) assert.equal(studyUrl, expectedStudyUrl);
+            else assert.match(studyUrl, /github\.com\/antonsoo\/[^/]+\/tree\/[a-f0-9]{40}\/studies\//);
             assert.equal(
               await card.locator(".card-links a").evaluateAll((links) =>
                 links.every((link) => {
@@ -108,11 +109,12 @@ await writeFile(
       base,
       phase,
       scope:
-        "Actual served catalogue, two model/drawing queries in both engines and widths; no application assets or search responses mocked.",
+        "Actual served catalogue queries in both engines and widths; no application assets or search responses mocked.",
+      queries,
       records,
     },
     null,
     2,
   ) + "\n",
 );
-console.log(`${phase}: ${records.length * queries.length} actual model/drawing searches`);
+console.log(`${phase}: ${records.length * queries.length} actual catalogue searches`);
