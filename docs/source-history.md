@@ -1,5 +1,11 @@
 # Source update history
 
+The [historical planet and speech-contour update](planet-and-speech-2026-10-18.md)
+adds JPL's ancient-range fit to Horologium and preserves observed unvoiced
+intervals in ToneMirror's aligned drawing. Native ephemerides and recorded
+speech retain the numerical results, with separate clean-install and live-site
+verification. The catalogue links those immutable records and states their limits.
+
 The [native-input discovery update](native-inputs-2026-10-18.md) makes MLflow,
 native NUnit and PresentMon 2.6 workflows searchable, links their immutable
 producer evidence, and opens the actual PresentMon telemetry replay directly.

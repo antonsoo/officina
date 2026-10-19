@@ -1,0 +1,22 @@
+[
+  {
+    "project": "horologium",
+    "commit": "c8c9d2b9885dbaa7ac58f62eca09ef73e400767f",
+    "path": "studies/long-range-planets/README.md",
+    "url": "https://raw.githubusercontent.com/antonsoo/horologium/c8c9d2b9885dbaa7ac58f62eca09ef73e400767f/studies/long-range-planets/README.md",
+    "httpStatus": 200,
+    "bytes": 10478,
+    "sha256": "07131093dde40941b1bad5ca5514231356156cffb04872811b37b43bd9528032",
+    "matchesPublishedGitObject": true
+  },
+  {
+    "project": "tonemirror",
+    "commit": "d8513a3758f216a4d80ab4e1b23a82080c64e68a",
+    "path": "studies/contour-gaps/README.md",
+    "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/d8513a3758f216a4d80ab4e1b23a82080c64e68a/studies/contour-gaps/README.md",
+    "httpStatus": 200,
+    "bytes": 9024,
+    "sha256": "a07a474c8905bf7af3aa5983b1356f9b27ec47f373b59c0f828c5f2b3cc4e9b8",
+    "matchesPublishedGitObject": true
+  }
+]

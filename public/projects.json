@@ -12,8 +12,8 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/horologium"
     },
     "study": {
-      "finding": "Chinese dates against HKO: 0 mismatches on 62,821 modern days; 90 historical differences remain. This does not validate all 13 calendars.",
-      "url": "https://github.com/antonsoo/horologium/tree/43fd938bb2e1bbd9ed8965da44984e631505d2be/studies/chinese-calendar"
+      "finding": "256 dates outside the modern fit: Saturn max error falls from 30.48 to 0.38 degrees vs DE441. Historical civil-time conversion remains omitted.",
+      "url": "https://github.com/antonsoo/horologium/tree/c8c9d2b9885dbaa7ac58f62eca09ef73e400767f/studies/long-range-planets"
     }
   },
   {
@@ -51,8 +51,8 @@
     "thumbnail": "thumbs/tonemirror.webp",
     "status": "published",
     "study": {
-      "finding": "One attributed Mandarin recording supplies four tone examples. Paired listening preserves selected audio; the shape score is not a pronunciation grade.",
-      "url": "https://github.com/antonsoo/tonemirror/tree/fe8c07dd7d5e9c7e38c5c2d40c44f6054cded5db/studies/paired-listening"
+      "finding": "580 recordings, two detectors: 17,170 bridges across unvoiced gaps removed; alignments and scores unchanged. This checks drawings, not pronunciation.",
+      "url": "https://github.com/antonsoo/tonemirror/tree/d8513a3758f216a4d80ab4e1b23a82080c64e68a/studies/contour-gaps"
     }
   },
   {
