@@ -42,6 +42,21 @@ wheels and the native producer/oracle workflows have separate evidence.
 There is no PyPI release or hosted Mergeglass application, so the catalogue
 entry has neither a package-registry link nor a live-demo link.
 
-The catalogue data and thumbnail are validated by the existing build and
-browser workflows. The deployment receipt and actual browser checks are
-recorded alongside this update after canonical publication.
+The catalogue data and thumbnail passed the existing type, lint, format,
+catalogue and build checks, 38 unit/verification cases and 32 browser cases.
+The [canonical publication receipt](../studies/mergeglass/results/publication.json)
+verifies all 41 build files, plus the entry URL before and after the pass.
+The deployment is `6a80141` on `gh-pages`; catalogue source is `4c86557`.
+
+The separate [public browser receipt](../studies/mergeglass/results/browser.json)
+records Chromium and Firefox at 375px and 1280px. LoRA, BF16 and wrong-direction
+queries each find the actual card; its exact description, finding, immutable
+study link and source URL match the local catalogue. The thumbnail decodes at
+1200x750 and its HTTP bytes match the source image hash. Screenshots retain the
+actual public desktop/mobile card. Neither browser shows a package or demo link.
+
+Reproduce those public checks after `npm ci`:
+
+```sh
+node studies/mergeglass/browser.mjs https://antonsoo.github.io/officina/ /tmp/officina-mergeglass-browser
+```

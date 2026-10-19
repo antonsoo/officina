@@ -1,0 +1,109 @@
+{
+  "baseURL": "https://antonsoo.github.io/officina/",
+  "results": [
+    {
+      "browser": "chromium",
+      "width": 375,
+      "queries": [
+        "LoRA",
+        "BF16",
+        "wrong direction"
+      ],
+      "finding": "RECORDED EVIDENCE\nPinned SmolLM2 adapter: 5,886,980 of 13,271,040 nonzero entries stay unchanged in BF16 (44.36%); weight counts do not measure model quality.",
+      "links": [
+        {
+          "text": "Recorded evidence Pinned SmolLM2 adapter: 5,886,980 of 13,271,040 nonzero entries stay unchanged in BF16 (44.36%); weight counts do not measure model quality.",
+          "href": "https://github.com/antonsoo/mergeglass/tree/23ed58c50765fc3720856eb84090a7840ce320c3/studies/community"
+        },
+        {
+          "text": "Source",
+          "href": "https://github.com/antonsoo/mergeglass"
+        }
+      ],
+      "dimensions": [
+        1200,
+        750
+      ],
+      "thumbnailSha256": "0061abc0c196562285ae0aa572494f947cc4fdf4297625acb652fc6e8e1dd17d",
+      "screenshot": "chromium-375.png"
+    },
+    {
+      "browser": "chromium",
+      "width": 1280,
+      "queries": [
+        "LoRA",
+        "BF16",
+        "wrong direction"
+      ],
+      "finding": "RECORDED EVIDENCE\nPinned SmolLM2 adapter: 5,886,980 of 13,271,040 nonzero entries stay unchanged in BF16 (44.36%); weight counts do not measure model quality.",
+      "links": [
+        {
+          "text": "Recorded evidence Pinned SmolLM2 adapter: 5,886,980 of 13,271,040 nonzero entries stay unchanged in BF16 (44.36%); weight counts do not measure model quality.",
+          "href": "https://github.com/antonsoo/mergeglass/tree/23ed58c50765fc3720856eb84090a7840ce320c3/studies/community"
+        },
+        {
+          "text": "Source",
+          "href": "https://github.com/antonsoo/mergeglass"
+        }
+      ],
+      "dimensions": [
+        1200,
+        750
+      ],
+      "thumbnailSha256": "0061abc0c196562285ae0aa572494f947cc4fdf4297625acb652fc6e8e1dd17d",
+      "screenshot": "chromium-1280.png"
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "queries": [
+        "LoRA",
+        "BF16",
+        "wrong direction"
+      ],
+      "finding": "RECORDED EVIDENCE\nPinned SmolLM2 adapter: 5,886,980 of 13,271,040 nonzero entries stay unchanged in BF16 (44.36%); weight counts do not measure model quality.",
+      "links": [
+        {
+          "text": "Recorded evidence Pinned SmolLM2 adapter: 5,886,980 of 13,271,040 nonzero entries stay unchanged in BF16 (44.36%); weight counts do not measure model quality.",
+          "href": "https://github.com/antonsoo/mergeglass/tree/23ed58c50765fc3720856eb84090a7840ce320c3/studies/community"
+        },
+        {
+          "text": "Source",
+          "href": "https://github.com/antonsoo/mergeglass"
+        }
+      ],
+      "dimensions": [
+        1200,
+        750
+      ],
+      "thumbnailSha256": "0061abc0c196562285ae0aa572494f947cc4fdf4297625acb652fc6e8e1dd17d",
+      "screenshot": "firefox-375.png"
+    },
+    {
+      "browser": "firefox",
+      "width": 1280,
+      "queries": [
+        "LoRA",
+        "BF16",
+        "wrong direction"
+      ],
+      "finding": "RECORDED EVIDENCE\nPinned SmolLM2 adapter: 5,886,980 of 13,271,040 nonzero entries stay unchanged in BF16 (44.36%); weight counts do not measure model quality.",
+      "links": [
+        {
+          "text": "Recorded evidence Pinned SmolLM2 adapter: 5,886,980 of 13,271,040 nonzero entries stay unchanged in BF16 (44.36%); weight counts do not measure model quality.",
+          "href": "https://github.com/antonsoo/mergeglass/tree/23ed58c50765fc3720856eb84090a7840ce320c3/studies/community"
+        },
+        {
+          "text": "Source",
+          "href": "https://github.com/antonsoo/mergeglass"
+        }
+      ],
+      "dimensions": [
+        1200,
+        750
+      ],
+      "thumbnailSha256": "0061abc0c196562285ae0aa572494f947cc4fdf4297625acb652fc6e8e1dd17d",
+      "screenshot": "firefox-1280.png"
+    }
+  ]
+}
