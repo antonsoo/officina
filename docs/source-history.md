@@ -1,5 +1,10 @@
 # Source update history
 
+The [next-weekly-batch discovery update](next-weekly-batch-2026-10-19.md)
+opens a worked schedule directly from the catalogue and follows the real
+link through to its live calculated result. Exact rational models, shared
+first-day choices and the prior logged-pity discovery term remain explicit.
+
 The [geometry, recorded-channel and compressed-input update](geometry-audio-and-carriers-2026-10-19.md)
 corrects southern star wheels and polar solar events, preserves separately
 recorded speech channels, and opens native compressed Collector files. The

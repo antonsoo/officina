@@ -1,0 +1,68 @@
+{
+  "checkedAtUtc": "2026-10-19T09:47:14.473Z",
+  "url": "https://antonsoo.github.io/officina/",
+  "phase": "before",
+  "scope": "Actual catalogue searches and clicked public-demo navigation, not mocked links or app responses. Linked input is a constructed independent weekly model, not game history.",
+  "workflows": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "query": "weekly reset",
+      "visibleProjects": 0,
+      "actualLinkedAppMean": null,
+      "actualLinkedAppFirstDay": null,
+      "actualLinkedAppBudgetChance": null,
+      "offlineRefilter": false,
+      "errors": [],
+      "catalogueRequests": [],
+      "csp": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "query": "weekly reset",
+      "visibleProjects": 0,
+      "actualLinkedAppMean": null,
+      "actualLinkedAppFirstDay": null,
+      "actualLinkedAppBudgetChance": null,
+      "offlineRefilter": false,
+      "errors": [],
+      "catalogueRequests": [],
+      "csp": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "query": "weekly reset",
+      "visibleProjects": 0,
+      "actualLinkedAppMean": null,
+      "actualLinkedAppFirstDay": null,
+      "actualLinkedAppBudgetChance": null,
+      "offlineRefilter": false,
+      "errors": [],
+      "catalogueRequests": [],
+      "csp": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "query": "weekly reset",
+      "visibleProjects": 0,
+      "actualLinkedAppMean": null,
+      "actualLinkedAppFirstDay": null,
+      "actualLinkedAppBudgetChance": null,
+      "offlineRefilter": false,
+      "errors": [],
+      "catalogueRequests": [],
+      "csp": [],
+      "overflow": false
+    }
+  ]
+}

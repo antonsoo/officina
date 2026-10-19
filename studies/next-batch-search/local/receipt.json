@@ -1,0 +1,96 @@
+{
+  "checkedAtUtc": "2026-10-19T09:54:33.400Z",
+  "url": "http://127.0.0.1:4263/officina/",
+  "phase": "after",
+  "scope": "Actual catalogue searches and clicked public-demo navigation, not mocked links or app responses. Linked input is a constructed independent weekly model, not game history.",
+  "workflows": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "query": "weekly reset",
+      "visibleProjects": 1,
+      "finding": "RECORDED EVIDENCE\nWeekly 50% attempt starting on day 2: 9-day mean; day 7: 14 days. Checked against 134 rational models; calendar-time forecasts omitted.",
+      "studyUrl": "https://github.com/antonsoo/am-i-unlucky/tree/7d3404163a60edec86ebbd179e1643bdd045785a/studies/next-batch",
+      "demoUrl": "https://antonsoo.github.io/am-i-unlucky/?mode=time&sources=%5B%7B%22name%22%3A%22Weekly+raid%22%2C%22rate%22%3A%2250%25%22%2C%22attempts%22%3A1%2C%22everyDays%22%3A7%2C%22firstDay%22%3A2%7D%5D&k=1&days=2",
+      "actualLinkedAppMean": "9 days",
+      "actualLinkedAppFirstDay": 2,
+      "actualLinkedAppBudgetChance": "50%",
+      "offlineRefilter": true,
+      "priorLoggedPityDiscoveryRetained": true,
+      "navigationCatalogueRequests": [
+        "http://127.0.0.1:4263/officina/projects.json"
+      ],
+      "errors": [],
+      "catalogueRequests": [],
+      "csp": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "query": "weekly reset",
+      "visibleProjects": 1,
+      "finding": "RECORDED EVIDENCE\nWeekly 50% attempt starting on day 2: 9-day mean; day 7: 14 days. Checked against 134 rational models; calendar-time forecasts omitted.",
+      "studyUrl": "https://github.com/antonsoo/am-i-unlucky/tree/7d3404163a60edec86ebbd179e1643bdd045785a/studies/next-batch",
+      "demoUrl": "https://antonsoo.github.io/am-i-unlucky/?mode=time&sources=%5B%7B%22name%22%3A%22Weekly+raid%22%2C%22rate%22%3A%2250%25%22%2C%22attempts%22%3A1%2C%22everyDays%22%3A7%2C%22firstDay%22%3A2%7D%5D&k=1&days=2",
+      "actualLinkedAppMean": "9 days",
+      "actualLinkedAppFirstDay": 2,
+      "actualLinkedAppBudgetChance": "50%",
+      "offlineRefilter": true,
+      "priorLoggedPityDiscoveryRetained": true,
+      "navigationCatalogueRequests": [
+        "http://127.0.0.1:4263/officina/projects.json"
+      ],
+      "errors": [],
+      "catalogueRequests": [],
+      "csp": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "query": "weekly reset",
+      "visibleProjects": 1,
+      "finding": "RECORDED EVIDENCE\nWeekly 50% attempt starting on day 2: 9-day mean; day 7: 14 days. Checked against 134 rational models; calendar-time forecasts omitted.",
+      "studyUrl": "https://github.com/antonsoo/am-i-unlucky/tree/7d3404163a60edec86ebbd179e1643bdd045785a/studies/next-batch",
+      "demoUrl": "https://antonsoo.github.io/am-i-unlucky/?mode=time&sources=%5B%7B%22name%22%3A%22Weekly+raid%22%2C%22rate%22%3A%2250%25%22%2C%22attempts%22%3A1%2C%22everyDays%22%3A7%2C%22firstDay%22%3A2%7D%5D&k=1&days=2",
+      "actualLinkedAppMean": "9 days",
+      "actualLinkedAppFirstDay": 2,
+      "actualLinkedAppBudgetChance": "50%",
+      "offlineRefilter": true,
+      "priorLoggedPityDiscoveryRetained": true,
+      "navigationCatalogueRequests": [
+        "http://127.0.0.1:4263/officina/projects.json"
+      ],
+      "errors": [],
+      "catalogueRequests": [],
+      "csp": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "query": "weekly reset",
+      "visibleProjects": 1,
+      "finding": "RECORDED EVIDENCE\nWeekly 50% attempt starting on day 2: 9-day mean; day 7: 14 days. Checked against 134 rational models; calendar-time forecasts omitted.",
+      "studyUrl": "https://github.com/antonsoo/am-i-unlucky/tree/7d3404163a60edec86ebbd179e1643bdd045785a/studies/next-batch",
+      "demoUrl": "https://antonsoo.github.io/am-i-unlucky/?mode=time&sources=%5B%7B%22name%22%3A%22Weekly+raid%22%2C%22rate%22%3A%2250%25%22%2C%22attempts%22%3A1%2C%22everyDays%22%3A7%2C%22firstDay%22%3A2%7D%5D&k=1&days=2",
+      "actualLinkedAppMean": "9 days",
+      "actualLinkedAppFirstDay": 2,
+      "actualLinkedAppBudgetChance": "50%",
+      "offlineRefilter": true,
+      "priorLoggedPityDiscoveryRetained": true,
+      "navigationCatalogueRequests": [
+        "http://127.0.0.1:4263/officina/projects.json"
+      ],
+      "errors": [],
+      "catalogueRequests": [],
+      "csp": [],
+      "overflow": false
+    }
+  ]
+}

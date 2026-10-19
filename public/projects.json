@@ -261,15 +261,15 @@
   },
   {
     "name": "am-i-unlucky",
-    "description": "Drop-rate and pity math with earlier, same-attempt and later finish shares, collection odds, and downloadable luck cards.",
+    "description": "Plan explicit drop batches from the next weekly reset; inspect community-logged Genshin pity rates and collection odds, and share luck cards with ties visible.",
     "group": "Games",
     "repoUrl": "https://github.com/antonsoo/am-i-unlucky",
-    "demoUrl": "https://antonsoo.github.io/am-i-unlucky/",
+    "demoUrl": "https://antonsoo.github.io/am-i-unlucky/?mode=time&sources=%5B%7B%22name%22%3A%22Weekly+raid%22%2C%22rate%22%3A%2250%25%22%2C%22attempts%22%3A1%2C%22everyDays%22%3A7%2C%22firstDay%22%3A2%7D%5D&k=1&days=2",
     "thumbnail": "thumbs/am-i-unlucky.webp",
     "status": "published",
     "study": {
-      "finding": "26.9M community-logged five-stars: the soft-pity ramp agrees through pull 83 under stated assumptions; incomplete histories bias the odds.",
-      "url": "https://github.com/antonsoo/am-i-unlucky/tree/97455f92eb3aedf0467e710f03c87d6c52ac9082/studies/paimon-pity"
+      "finding": "Weekly 50% attempt starting on day 2: 9-day mean; day 7: 14 days. Checked against 134 rational models; calendar-time forecasts omitted.",
+      "url": "https://github.com/antonsoo/am-i-unlucky/tree/7d3404163a60edec86ebbd179e1643bdd045785a/studies/next-batch"
     }
   }
 ]
