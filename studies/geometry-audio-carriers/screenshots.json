@@ -1,0 +1,42 @@
+[
+  {
+    "file": "chromium-1280-horologium.png",
+    "sha256": "48f16954761f3fb6ea74b77bdd60a1d3eb92466768f9500c6abc859743e5baad",
+    "identicalToLocal": true
+  },
+  {
+    "file": "chromium-1280-planisphere.png",
+    "sha256": "18eaa18d7ad7b09c910ada88a2d7076e54a0b2e3cdc3855b51706145f94d0f2b",
+    "identicalToLocal": false
+  },
+  {
+    "file": "chromium-1280-tonemirror.png",
+    "sha256": "18ec32dbf8adc5da53f1c79c829a7d7c3bf96818edd0e3fe196f7a27f06d4040",
+    "identicalToLocal": true
+  },
+  {
+    "file": "chromium-1280-tracelens.png",
+    "sha256": "10885913a3100b05710ea2ede2a92108443016e7e433993fa8d80f620c36d081",
+    "identicalToLocal": true
+  },
+  {
+    "file": "firefox-375-horologium.png",
+    "sha256": "62207956144931d05c52070c488eabaabab4365b50b2eee250ef8e199b0a8d59",
+    "identicalToLocal": true
+  },
+  {
+    "file": "firefox-375-planisphere.png",
+    "sha256": "e273ffe521c1a3314ef6a3068d8935cadd688db3a4a35d3671b074ea51b58e1e",
+    "identicalToLocal": true
+  },
+  {
+    "file": "firefox-375-tonemirror.png",
+    "sha256": "1ba44ea33f2b28016ab4a3d8c9a7446e37271c2d0f88731565d9f7eaddc9959a",
+    "identicalToLocal": true
+  },
+  {
+    "file": "firefox-375-tracelens.png",
+    "sha256": "ed2a5ee7b174fc6236779cf8091f620dc0a2d565e391b6812fbe7985771eb755",
+    "identicalToLocal": true
+  }
+]

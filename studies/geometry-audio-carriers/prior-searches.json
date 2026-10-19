@@ -1,0 +1,108 @@
+{
+  "checkedAtUtc": "2026-10-19T09:24:20.798Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "phase": "after",
+  "scope": "Actual served catalogue, two model/drawing queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "DE441",
+          "name": "horologium",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n74 sites across 2026: 90 false solar crossings removed; marginal polar events withheld. Terrain and weather remain outside the model.",
+          "studyUrl": "https://github.com/antonsoo/horologium/tree/122639f874a8f218dfe96894314ca9855a78b04d/studies/solar-events"
+        },
+        {
+          "query": "unvoiced gaps",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nConstructed stereo from recorded Mandarin: silent mix refused; either channel keeps 227 voiced frames. Pronunciation accuracy remains untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/129cd2f541bed48f8f5c0d0d7716c6ec03163df2/studies/file-channels"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "DE441",
+          "name": "horologium",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n74 sites across 2026: 90 false solar crossings removed; marginal polar events withheld. Terrain and weather remain outside the model.",
+          "studyUrl": "https://github.com/antonsoo/horologium/tree/122639f874a8f218dfe96894314ca9855a78b04d/studies/solar-events"
+        },
+        {
+          "query": "unvoiced gaps",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nConstructed stereo from recorded Mandarin: silent mix refused; either channel keeps 227 voiced frames. Pronunciation accuracy remains untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/129cd2f541bed48f8f5c0d0d7716c6ec03163df2/studies/file-channels"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "DE441",
+          "name": "horologium",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n74 sites across 2026: 90 false solar crossings removed; marginal polar events withheld. Terrain and weather remain outside the model.",
+          "studyUrl": "https://github.com/antonsoo/horologium/tree/122639f874a8f218dfe96894314ca9855a78b04d/studies/solar-events"
+        },
+        {
+          "query": "unvoiced gaps",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nConstructed stereo from recorded Mandarin: silent mix refused; either channel keeps 227 voiced frames. Pronunciation accuracy remains untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/129cd2f541bed48f8f5c0d0d7716c6ec03163df2/studies/file-channels"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "DE441",
+          "name": "horologium",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n74 sites across 2026: 90 false solar crossings removed; marginal polar events withheld. Terrain and weather remain outside the model.",
+          "studyUrl": "https://github.com/antonsoo/horologium/tree/122639f874a8f218dfe96894314ca9855a78b04d/studies/solar-events"
+        },
+        {
+          "query": "unvoiced gaps",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nConstructed stereo from recorded Mandarin: silent mix refused; either channel keeps 227 voiced frames. Pronunciation accuracy remains untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/129cd2f541bed48f8f5c0d0d7716c6ec03163df2/studies/file-channels"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}

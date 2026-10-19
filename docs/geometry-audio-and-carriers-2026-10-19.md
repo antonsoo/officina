@@ -50,3 +50,19 @@ strict types, formatting, all 38 unit checks and all 32 production browser
 workflows. The [clean-build receipt](../studies/geometry-audio-carriers/clean-build.json)
 finds all forty static files byte-identical to the working Node 26 build.
 This validates the catalogue publication separately from each tool's studies.
+
+Pages `337aae0` appends to `ae9917b`; only `projects.json` changes. All
+[forty canonical files and entry checks](../studies/geometry-audio-carriers/hosted-bytes.json)
+match the clean build, and all [38 previous static assets](../studies/geometry-audio-carriers/preserved-assets.json)
+remain byte-identical. The [public replay](../studies/geometry-audio-carriers/hosted/receipt.json)
+passes sixteen searches and sixteen offline refilterings; its complete browser
+records [match the candidate](../studies/geometry-audio-carriers/browser-comparison.json).
+All [eight prior discovery searches](../studies/geometry-audio-carriers/prior-searches.json)
+also pass on the public origin.
+
+All public card screenshots were opened and inspected. Seven PNGs match the
+local images exactly. The [remaining difference](../studies/geometry-audio-carriers/screenshot-differences.json)
+is confined to a two-pixel-high band at the Planisphere thumbnail edge; card
+text and controls match. The [publication receipt](../studies/geometry-audio-carriers/publication.json)
+keeps catalogue checks separate from producer/oracle measurements, package
+artifacts and each tool's own live-site verification.
