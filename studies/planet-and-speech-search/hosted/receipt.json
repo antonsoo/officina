@@ -1,0 +1,108 @@
+{
+  "checkedAtUtc": "2026-10-19T03:02:18.323Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "phase": "after",
+  "scope": "Actual served catalogue, two model/drawing queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "DE441",
+          "name": "horologium",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n256 dates outside the modern fit: Saturn max error falls from 30.48 to 0.38 degrees vs DE441. Historical civil-time conversion remains omitted.",
+          "studyUrl": "https://github.com/antonsoo/horologium/tree/c8c9d2b9885dbaa7ac58f62eca09ef73e400767f/studies/long-range-planets"
+        },
+        {
+          "query": "unvoiced gaps",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings, two detectors: 17,170 bridges across unvoiced gaps removed; alignments and scores unchanged. This checks drawings, not pronunciation.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/d8513a3758f216a4d80ab4e1b23a82080c64e68a/studies/contour-gaps"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "DE441",
+          "name": "horologium",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n256 dates outside the modern fit: Saturn max error falls from 30.48 to 0.38 degrees vs DE441. Historical civil-time conversion remains omitted.",
+          "studyUrl": "https://github.com/antonsoo/horologium/tree/c8c9d2b9885dbaa7ac58f62eca09ef73e400767f/studies/long-range-planets"
+        },
+        {
+          "query": "unvoiced gaps",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings, two detectors: 17,170 bridges across unvoiced gaps removed; alignments and scores unchanged. This checks drawings, not pronunciation.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/d8513a3758f216a4d80ab4e1b23a82080c64e68a/studies/contour-gaps"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "DE441",
+          "name": "horologium",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n256 dates outside the modern fit: Saturn max error falls from 30.48 to 0.38 degrees vs DE441. Historical civil-time conversion remains omitted.",
+          "studyUrl": "https://github.com/antonsoo/horologium/tree/c8c9d2b9885dbaa7ac58f62eca09ef73e400767f/studies/long-range-planets"
+        },
+        {
+          "query": "unvoiced gaps",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings, two detectors: 17,170 bridges across unvoiced gaps removed; alignments and scores unchanged. This checks drawings, not pronunciation.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/d8513a3758f216a4d80ab4e1b23a82080c64e68a/studies/contour-gaps"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "DE441",
+          "name": "horologium",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n256 dates outside the modern fit: Saturn max error falls from 30.48 to 0.38 degrees vs DE441. Historical civil-time conversion remains omitted.",
+          "studyUrl": "https://github.com/antonsoo/horologium/tree/c8c9d2b9885dbaa7ac58f62eca09ef73e400767f/studies/long-range-planets"
+        },
+        {
+          "query": "unvoiced gaps",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings, two detectors: 17,170 bridges across unvoiced gaps removed; alignments and scores unchanged. This checks drawings, not pronunciation.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/d8513a3758f216a4d80ab4e1b23a82080c64e68a/studies/contour-gaps"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}
