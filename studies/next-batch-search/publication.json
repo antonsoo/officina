@@ -1,0 +1,31 @@
+{
+  "checkedAtUtc": "2026-10-19T10:00:49.118615+00:00",
+  "sourceRevision": "ca18d8e54776ff883a770fa4d1fdf54d7fdeffcf",
+  "compiledRevision": "0fb67942d0e257061498ff96a2c4ee36e84fd8db",
+  "pagesCommit": "a25c6252e8ec7570acb9ae284b5810d8e9c31d3d",
+  "pagesParent": "337aae0a0233df3b8d568c367bcba8dd67fd51a3",
+  "canonicalFilesVerified": 40,
+  "oldStaticAssetsPreserved": 38,
+  "actualCatalogueToPublicAppWorkflows": 4,
+  "localAndPublicSelectedObservationsIdentical": true,
+  "comparedFields": [
+    "engine",
+    "width",
+    "query",
+    "visibleProjects",
+    "finding",
+    "studyUrl",
+    "demoUrl",
+    "actualLinkedAppMean",
+    "actualLinkedAppFirstDay",
+    "actualLinkedAppBudgetChance",
+    "offlineRefilter",
+    "priorLoggedPityDiscoveryRetained",
+    "errors",
+    "catalogueRequests",
+    "csp",
+    "overflow"
+  ],
+  "screenshotsIdentical": 3,
+  "scope": "Actual same-tab link navigation reaches the known day-2 live model. Filtering and navigation requests remain separate. Rational accuracy, tool publication and catalogue publication have their own receipts. No registry/tag release or successful CI run is claimed."
+}

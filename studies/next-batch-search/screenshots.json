@@ -1,0 +1,22 @@
+[
+  {
+    "file": "chromium-1440-app.png",
+    "sha256": "6504fde7e2735158fa728441aaac1d7ac53ecff510b57b98618da120b32b01fa",
+    "identicalToLocal": true
+  },
+  {
+    "file": "chromium-1440-card.png",
+    "sha256": "28ffefaffc76ad9e6f0b42be412f59360f4161b21d81164467fa3e0ce59b3576",
+    "identicalToLocal": false
+  },
+  {
+    "file": "firefox-375-app.png",
+    "sha256": "8b7a0e46e8b4dcbf1afc52ba073a0a4d6a19001230da9fe577c28489442910f0",
+    "identicalToLocal": true
+  },
+  {
+    "file": "firefox-375-card.png",
+    "sha256": "796f366af52c21bde5c269cdd26bbf846e1fb31712dbbb574db72e1660405ca5",
+    "identicalToLocal": true
+  }
+]

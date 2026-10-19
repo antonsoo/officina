@@ -45,3 +45,18 @@ workflows. Every [clean build file](../studies/next-batch-search/clean-build.jso
 matches the working Node 26 build by SHA-256. These catalogue checks remain
 separate from the calculator's 418 unit checks, 146 browser workflows and
 independent rational reference.
+
+Pages `a25c625` appends to `337aae0`; only the catalogue JSON changes. All
+[forty canonical files and entry checks](../studies/next-batch-search/hosted-bytes.json)
+match the clean build, and all [38 previous static assets](../studies/next-batch-search/preserved-assets.json)
+remain byte-identical. No force push or orphan deployment was used.
+
+All [four public catalogue-to-app workflows](../studies/next-batch-search/hosted/receipt.json)
+pass. The card/source/demo and actual model observations match the local
+candidate, with zero errors, policy violations, filter-driven catalogue
+requests or document overflow. The prior logged-pity search also succeeds.
+All public screenshots were opened and inspected. Three PNGs match locally
+reviewed images exactly; the [remaining pixel difference](../studies/next-batch-search/screenshot-differences.json)
+is recorded separately. The [publication receipt](../studies/next-batch-search/publication.json)
+retains the compared observations and distinct source/build/deployed revisions.
+No registry or tag release was made.
