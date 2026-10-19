@@ -1,0 +1,42 @@
+{
+  "allBrowserRecordsMatchLocalReplay": true,
+  "screenshots": [
+    {
+      "file": "chromium-1280-horologium.png",
+      "sha256": "e4b531e2de372a38e4a386e4e8d3f5a9db8f4b8ec45fb34df40a98797556bc92",
+      "byteIdenticalToLocal": false,
+      "pixelsIdenticalToLocal": false,
+      "differenceBounds": [
+        75,
+        301,
+        433,
+        303
+      ],
+      "publicScreenshotVisuallyReviewed": true
+    },
+    {
+      "file": "chromium-1280-tonemirror.png",
+      "sha256": "e5532beefae683eda6845b143a94c36c7d2ab242c98415354409f4283b9cd5c3",
+      "byteIdenticalToLocal": true,
+      "pixelsIdenticalToLocal": true,
+      "differenceBounds": null,
+      "publicScreenshotVisuallyReviewed": true
+    },
+    {
+      "file": "firefox-375-horologium.png",
+      "sha256": "1bf5ca06626d980a5591e47b12187abcd24a865632f1f4c77a38e33dd89318a9",
+      "byteIdenticalToLocal": true,
+      "pixelsIdenticalToLocal": true,
+      "differenceBounds": null,
+      "publicScreenshotVisuallyReviewed": true
+    },
+    {
+      "file": "firefox-375-tonemirror.png",
+      "sha256": "2cbaca064188890eaf30870b96c75d7b88f9d203380c0db84a6e9100950c1e14",
+      "byteIdenticalToLocal": true,
+      "pixelsIdenticalToLocal": true,
+      "differenceBounds": null,
+      "publicScreenshotVisuallyReviewed": true
+    }
+  ]
+}

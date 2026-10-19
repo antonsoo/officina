@@ -50,5 +50,22 @@ additional catalogue requests or document overflow. The four actual
 candidate screenshots were opened and visually reviewed. The existing
 recorded-evidence browser checks pass in both engines.
 
-Clean-build and hosted receipts distinguish this catalogue publication from
-the underlying source, installed-package and demo measurements.
+Source `ba60b33` passes a fresh Node 24.21.0 / npm 11.19.0 install, lint,
+types, formatting, all 38 unit checks, the two focused recorded-evidence
+browser checks and the production build. The [clean-build receipt](../studies/planet-and-speech-search/clean-build.json)
+finds all 550 archived files intact and all forty generated files identical
+to the working build.
+
+Pages `ae9917b` publishes exactly that build. All [forty canonical files and
+both entry checks](../studies/planet-and-speech-search/hosted-bytes.json) match;
+all [38 previous assets](../studies/planet-and-speech-search/preserved-assets.json)
+remain byte-identical. Only `projects.json` changed in the deployed branch.
+The [live replay](../studies/planet-and-speech-search/hosted/receipt.json)
+passes all eight searches and eight offline refilterings, with no page
+errors, catalogue refetches or overflow. All browser records match the local
+replay, and all four public screenshots were visually reviewed. Three are
+byte-identical; the fourth differs only in a two-pixel-high thumbnail-edge
+band, as retained in the [paired comparison](../studies/planet-and-speech-search/hosted-comparison.json).
+The separate [publication receipt](../studies/planet-and-speech-search/publication.json)
+keeps these catalogue checks distinct from each tool's measurements. No
+registry release or successful GitHub Actions run is implied.

@@ -1,0 +1,30 @@
+{
+  "sourceCommit": "ba60b33e7531f54174b089aa60f306f5ac792ec3",
+  "pagesCommit": "ae9917b9f2036545499cdd8deb0934888bca9e2f",
+  "cleanArchive": true,
+  "node": "24.21.0",
+  "npm": "11.19.0",
+  "freshInstall": true,
+  "auditedPackages": 132,
+  "vulnerabilities": 0,
+  "checks": {
+    "lint": true,
+    "types": true,
+    "format": true,
+    "unitTests": 38,
+    "focusedBrowserTests": 2,
+    "build": true
+  },
+  "staticFilesVerified": 40,
+  "canonicalEntryChecks": 2,
+  "priorAssetsUnchanged": 38,
+  "publicSearches": 8,
+  "offlineRefilterings": 8,
+  "publicScreenshotsVisuallyReviewed": 4,
+  "screenshotsByteIdenticalToLocal": 3,
+  "publicPageErrors": 0,
+  "publicCatalogueRefetches": 0,
+  "overflowCases": 0,
+  "githubActionsRunAvailable": false,
+  "registryPublishPerformed": false
+}
