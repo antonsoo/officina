@@ -1,0 +1,109 @@
+{
+  "baseURL": "https://antonsoo.github.io/officina/",
+  "results": [
+    {
+      "browser": "chromium",
+      "width": 375,
+      "queries": [
+        "LoRA",
+        "BF16",
+        "wrong direction"
+      ],
+      "finding": "RECORDED EVIDENCE\nOne SmolLM2 adapter, BF16: 44.36% of 13,271,040 nonzero update entries unchanged, containing 15.05% of reference squared norm; quality untested.",
+      "links": [
+        {
+          "text": "Recorded evidence One SmolLM2 adapter, BF16: 44.36% of 13,271,040 nonzero update entries unchanged, containing 15.05% of reference squared norm; quality untested.",
+          "href": "https://github.com/antonsoo/mergeglass/tree/e0eca864fd03f4dce907eec9e622940d07e5a2f8/studies/community"
+        },
+        {
+          "text": "Source",
+          "href": "https://github.com/antonsoo/mergeglass"
+        }
+      ],
+      "dimensions": [
+        1200,
+        750
+      ],
+      "thumbnailSha256": "b862e8befed64173dfa04e9b47ee46775d460c95ec3835c60a2bc8a116d539fb",
+      "screenshot": "chromium-375.png"
+    },
+    {
+      "browser": "chromium",
+      "width": 1280,
+      "queries": [
+        "LoRA",
+        "BF16",
+        "wrong direction"
+      ],
+      "finding": "RECORDED EVIDENCE\nOne SmolLM2 adapter, BF16: 44.36% of 13,271,040 nonzero update entries unchanged, containing 15.05% of reference squared norm; quality untested.",
+      "links": [
+        {
+          "text": "Recorded evidence One SmolLM2 adapter, BF16: 44.36% of 13,271,040 nonzero update entries unchanged, containing 15.05% of reference squared norm; quality untested.",
+          "href": "https://github.com/antonsoo/mergeglass/tree/e0eca864fd03f4dce907eec9e622940d07e5a2f8/studies/community"
+        },
+        {
+          "text": "Source",
+          "href": "https://github.com/antonsoo/mergeglass"
+        }
+      ],
+      "dimensions": [
+        1200,
+        750
+      ],
+      "thumbnailSha256": "b862e8befed64173dfa04e9b47ee46775d460c95ec3835c60a2bc8a116d539fb",
+      "screenshot": "chromium-1280.png"
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "queries": [
+        "LoRA",
+        "BF16",
+        "wrong direction"
+      ],
+      "finding": "RECORDED EVIDENCE\nOne SmolLM2 adapter, BF16: 44.36% of 13,271,040 nonzero update entries unchanged, containing 15.05% of reference squared norm; quality untested.",
+      "links": [
+        {
+          "text": "Recorded evidence One SmolLM2 adapter, BF16: 44.36% of 13,271,040 nonzero update entries unchanged, containing 15.05% of reference squared norm; quality untested.",
+          "href": "https://github.com/antonsoo/mergeglass/tree/e0eca864fd03f4dce907eec9e622940d07e5a2f8/studies/community"
+        },
+        {
+          "text": "Source",
+          "href": "https://github.com/antonsoo/mergeglass"
+        }
+      ],
+      "dimensions": [
+        1200,
+        750
+      ],
+      "thumbnailSha256": "b862e8befed64173dfa04e9b47ee46775d460c95ec3835c60a2bc8a116d539fb",
+      "screenshot": "firefox-375.png"
+    },
+    {
+      "browser": "firefox",
+      "width": 1280,
+      "queries": [
+        "LoRA",
+        "BF16",
+        "wrong direction"
+      ],
+      "finding": "RECORDED EVIDENCE\nOne SmolLM2 adapter, BF16: 44.36% of 13,271,040 nonzero update entries unchanged, containing 15.05% of reference squared norm; quality untested.",
+      "links": [
+        {
+          "text": "Recorded evidence One SmolLM2 adapter, BF16: 44.36% of 13,271,040 nonzero update entries unchanged, containing 15.05% of reference squared norm; quality untested.",
+          "href": "https://github.com/antonsoo/mergeglass/tree/e0eca864fd03f4dce907eec9e622940d07e5a2f8/studies/community"
+        },
+        {
+          "text": "Source",
+          "href": "https://github.com/antonsoo/mergeglass"
+        }
+      ],
+      "dimensions": [
+        1200,
+        750
+      ],
+      "thumbnailSha256": "b862e8befed64173dfa04e9b47ee46775d460c95ec3835c60a2bc8a116d539fb",
+      "screenshot": "firefox-1280.png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "catalogue_source_commit": "70018a2c88c93ac31a7af5c9708fd59e53ad494f",
+  "deployment_commit": "812aef574cbc003b3b47b0a6eae4382c42e982a3",
+  "mergeglass_evidence_commit": "e0eca864fd03f4dce907eec9e622940d07e5a2f8",
+  "canonical_files_verified": 41,
+  "public_browser_viewports": 4,
+  "screenshots_visually_reviewed": true,
+  "retained_files": [
+    {
+      "file": "browser.json",
+      "bytes": 4003,
+      "sha256": "7c68400649f1b899025bb99b848a0e76c949b6d8f278305d4aeb5fb3ac05207e"
+    },
+    {
+      "file": "chromium-1280.png",
+      "bytes": 268745,
+      "sha256": "ddc0fbd16517cb757f8cca4987001339657f981d64bad4a79f570ca8594c1679"
+    },
+    {
+      "file": "chromium-375.png",
+      "bytes": 180382,
+      "sha256": "7eb1fe7de476b19060656116362d2a1cc34da61c300fe1fa9d682e56a7aba786"
+    },
+    {
+      "file": "firefox-1280.png",
+      "bytes": 264535,
+      "sha256": "f0660f0225c2c52e5d8225263eb6ec3d1e64aabcf7300499d112cae5ea354983"
+    },
+    {
+      "file": "firefox-375.png",
+      "bytes": 205627,
+      "sha256": "6f09e1bbf37e1bd80b419f5a0ccff74f590c4a10dd58ba5e5d2307c11df88120"
+    },
+    {
+      "file": "publication.json",
+      "bytes": 18879,
+      "sha256": "fff8da7b106951ea4847105ae5556d383738e5f9ea370f11378831fee04855bf"
+    },
+    {
+      "file": "source-build.json",
+      "bytes": 7312,
+      "sha256": "caf966164e4a53f08400ae855bae8385304f5aa8ef10e205850dea46b6a49232"
+    }
+  ]
+}

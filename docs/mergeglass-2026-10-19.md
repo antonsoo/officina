@@ -83,3 +83,24 @@ measurement. The installed audit reads 540,004,492 input-file bytes at 61.24 MiB
 peak process RSS on the recorded host without PyTorch. The earlier publication and screenshots above remain
 historical records of the initial entry. The revised data and image have a
 separate canonical-byte and browser verification record.
+
+
+The revised catalogue source is
+[`70018a2c88c93ac31a7af5c9708fd59e53ad494f`](https://github.com/antonsoo/officina/commit/70018a2c88c93ac31a7af5c9708fd59e53ad494f),
+and deployment is
+[`812aef574cbc003b3b47b0a6eae4382c42e982a3`](https://github.com/antonsoo/officina/commit/812aef574cbc003b3b47b0a6eae4382c42e982a3).
+A fresh archive and `npm ci` completed type/lint/format checks, all 38
+unit/verification cases and the production build. Its 41 output files match the
+working build byte for byte; the
+[source/build receipt](../studies/mergeglass/results/current/source-build.json)
+retains their full hashes and the source archive identity.
+
+The revised [canonical receipt](../studies/mergeglass/results/current/publication.json)
+verifies all 41 files at their ordinary public URLs in a single pass, including
+both entry aliases and the entry before/after verification. The revised
+[public browser receipt](../studies/mergeglass/results/current/browser.json)
+checks the exact current card, finding, immutable study URL and thumbnail bytes
+in Chromium and Firefox at 375px and 1280px. LoRA, BF16 and wrong-direction
+searches each reveal exactly that card. All four retained screenshots were
+visually reviewed. The [retention inventory](../studies/mergeglass/results/current/retention.json)
+identifies the source/deployment boundary and every retained receipt and image.
