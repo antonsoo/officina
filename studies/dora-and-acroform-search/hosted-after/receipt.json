@@ -1,0 +1,120 @@
+{
+  "checkedAtUtc": "2026-10-19T20:57:18.370Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "phase": "after",
+  "scope": "Actual served catalogue queries in both engines and widths; no application assets or search responses mocked.",
+  "queries": [
+    [
+      "DoRA",
+      "mergeglass",
+      "https://github.com/antonsoo/mergeglass/blob/0185bce474256441f8c84fa3bcdc2ee67190e6ef/docs/dora-rows.md"
+    ],
+    [
+      "AcroForm",
+      "fieldproof",
+      "https://github.com/antonsoo/fieldproof/blob/29a906835d28cbd440aa8af4712a00fb4a089705/docs/verification-form-appearances-2026-10-19.md"
+    ]
+  ],
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "DoRA",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSynthetic DoRA control: near-parallel directions, row norms 0.5863-1.555x target. Independent replay checks 622,359 native/public rows.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/blob/0185bce474256441f8c84fa3bcdc2ee67190e6ef/docs/dora-rows.md"
+        },
+        {
+          "query": "AcroForm",
+          "name": "fieldproof",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 10 saved AcroForm appearance mismatches corrected across 13 supported controls; native text and existing review verdicts preserved.",
+          "studyUrl": "https://github.com/antonsoo/fieldproof/blob/29a906835d28cbd440aa8af4712a00fb4a089705/docs/verification-form-appearances-2026-10-19.md"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "DoRA",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSynthetic DoRA control: near-parallel directions, row norms 0.5863-1.555x target. Independent replay checks 622,359 native/public rows.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/blob/0185bce474256441f8c84fa3bcdc2ee67190e6ef/docs/dora-rows.md"
+        },
+        {
+          "query": "AcroForm",
+          "name": "fieldproof",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 10 saved AcroForm appearance mismatches corrected across 13 supported controls; native text and existing review verdicts preserved.",
+          "studyUrl": "https://github.com/antonsoo/fieldproof/blob/29a906835d28cbd440aa8af4712a00fb4a089705/docs/verification-form-appearances-2026-10-19.md"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "DoRA",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSynthetic DoRA control: near-parallel directions, row norms 0.5863-1.555x target. Independent replay checks 622,359 native/public rows.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/blob/0185bce474256441f8c84fa3bcdc2ee67190e6ef/docs/dora-rows.md"
+        },
+        {
+          "query": "AcroForm",
+          "name": "fieldproof",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 10 saved AcroForm appearance mismatches corrected across 13 supported controls; native text and existing review verdicts preserved.",
+          "studyUrl": "https://github.com/antonsoo/fieldproof/blob/29a906835d28cbd440aa8af4712a00fb4a089705/docs/verification-form-appearances-2026-10-19.md"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "DoRA",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSynthetic DoRA control: near-parallel directions, row norms 0.5863-1.555x target. Independent replay checks 622,359 native/public rows.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/blob/0185bce474256441f8c84fa3bcdc2ee67190e6ef/docs/dora-rows.md"
+        },
+        {
+          "query": "AcroForm",
+          "name": "fieldproof",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 10 saved AcroForm appearance mismatches corrected across 13 supported controls; native text and existing review verdicts preserved.",
+          "studyUrl": "https://github.com/antonsoo/fieldproof/blob/29a906835d28cbd440aa8af4712a00fb4a089705/docs/verification-form-appearances-2026-10-19.md"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}

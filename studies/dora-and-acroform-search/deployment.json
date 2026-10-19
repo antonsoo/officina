@@ -1,0 +1,11 @@
+{
+  "source_commit": "bc18dc2052238d79d0ad65414d80ced99cdcd5e3",
+  "pages_parent": "812aef574cbc003b3b47b0a6eae4382c42e982a3",
+  "changed_static_files": [
+    "projects.json"
+  ],
+  "unchanged_build_files": 40,
+  "old_catalogue_sha256": "afafd2646ea8cdce5624cd2cb7ea9ea072821df073d7152b4690d97e200b3414",
+  "new_catalogue_sha256": "7b72bfcdece12ab27bc1d193332d1cbadbd7bf77f662a4805ba1f71832826702",
+  "pages_commit": "bee1738c63056c9471738f8aa24c9da2ca5b76b4"
+}
