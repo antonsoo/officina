@@ -38,3 +38,10 @@ There are no page/CSP errors, filter-driven catalogue requests or document
 overflow. A history return can reload the catalogue; those navigation requests
 are recorded separately from filtering. The recorded-card and linked-app
 screenshots were opened and inspected. The existing visual system remains.
+
+Source `0fb6794` passes a fresh Node 24.21.0 / npm 11.19.0 installation, lint,
+strict types, formatting, all 38 unit checks and all 32 production browser
+workflows. Every [clean build file](../studies/next-batch-search/clean-build.json)
+matches the working Node 26 build by SHA-256. These catalogue checks remain
+separate from the calculator's 418 unit checks, 146 browser workflows and
+independent rational reference.
