@@ -74,6 +74,19 @@
     }
   },
   {
+    "name": "mergeglass",
+    "description": "Inspect saved LoRA merges for BF16 rounding, wrong scale or direction, and unrelated weight changes; no model loading or PyTorch.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/mergeglass",
+    "demoUrl": null,
+    "thumbnail": "thumbs/mergeglass.webp",
+    "status": "published",
+    "study": {
+      "finding": "Pinned SmolLM2 adapter: 5,886,980 of 13,271,040 nonzero entries stay unchanged in BF16 (44.36%); weight counts do not measure model quality.",
+      "url": "https://github.com/antonsoo/mergeglass/tree/23ed58c50765fc3720856eb84090a7840ce320c3/studies/community"
+    }
+  },
+  {
     "name": "contextscope",
     "description": "Diagnose prompt-cache misses from captured Anthropic/OpenAI requests; MCP tools, media and stored history keep unresolved token counts explicit.",
     "group": "AI engineering",

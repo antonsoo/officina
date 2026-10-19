@@ -1,5 +1,10 @@
 # Source update history
 
+The [saved LoRA merge study](mergeglass-2026-10-19.md) adds Mergeglass to the
+catalogue with a pinned public-adapter result, native failure controls and
+separate source-install evidence. BF16, LoRA and merge-direction workflows are
+searchable; the entry links public source and recorded evidence.
+
 The [next-weekly-batch discovery update](next-weekly-batch-2026-10-19.md)
 opens a worked schedule directly from the catalogue and follows the real
 link through to its live calculated result. Exact rational models, shared
