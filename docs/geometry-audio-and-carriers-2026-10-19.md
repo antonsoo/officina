@@ -44,3 +44,9 @@ links, no catalogue refetch, page error or document overflow. Existing `DE441`
 and `unvoiced gaps` searches also retain their intended cards. Screenshots of
 all four candidate cards were opened and visually reviewed. Layout and
 thumbnails keep the existing visual system.
+
+Source `7d5ed00` passes a fresh Node 24.21.0 / npm 11.19.0 install, lint,
+strict types, formatting, all 38 unit checks and all 32 production browser
+workflows. The [clean-build receipt](../studies/geometry-audio-carriers/clean-build.json)
+finds all forty static files byte-identical to the working Node 26 build.
+This validates the catalogue publication separately from each tool's studies.
