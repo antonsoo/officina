@@ -1,0 +1,71 @@
+{
+  "source_commit": "3969b4eb295c0fea33473f90254230cdee4fc8d2",
+  "scope": "All changed immutable raw GitHub source files match Git object bytes. Hosted assets/browser behavior are verified separately.",
+  "files": [
+    {
+      "file": "docs/saved-heads-and-wandb-2026-10-19.md",
+      "bytes": 3170,
+      "sha256": "50d99a397a8ab1dee2be09e747d2a60f853425e381144a52d6d94018f20e612e"
+    },
+    {
+      "file": "docs/source-history.md",
+      "bytes": 36323,
+      "sha256": "9aa26c76ec849fdb43b3dc17febbf111a22b79e771b613a631e0ec656e0a8091"
+    },
+    {
+      "file": "public/projects.json",
+      "bytes": 14676,
+      "sha256": "29567c0fc8ecd35f20e6b2845dc7ef0d8d65906d2d3a3c3855e7c43aa941045b"
+    },
+    {
+      "file": "studies/saved-head-and-wandb-search/before/receipt.json",
+      "bytes": 2498,
+      "sha256": "10c38edc1eda8704994ee0bca79ee314bc4dbc9d045bd2c9e5f0aef033f7bd65"
+    },
+    {
+      "file": "studies/saved-head-and-wandb-search/build-comparison.json",
+      "bytes": 276,
+      "sha256": "9a2a5924797aa401472369b53672f5e2695a808d025145c3524aa6984d3b4ee5"
+    },
+    {
+      "file": "studies/saved-head-and-wandb-search/cases.json",
+      "bytes": 347,
+      "sha256": "fcb7c128bd9e5a8a65182260b85f9efc960f0a67ced3ebc7bac269837f767329"
+    },
+    {
+      "file": "studies/saved-head-and-wandb-search/hosted-before-bytes.json",
+      "bytes": 18874,
+      "sha256": "8b2542f51161397d47b02bf11d34b963c5f830404d4d231efd017ed54c26883e"
+    },
+    {
+      "file": "studies/saved-head-and-wandb-search/local/chromium-1280-mergeglass.png",
+      "bytes": 130415,
+      "sha256": "2a765c2bf3593c9be822a64ca9a0dcd7d8623d4bffd33948f15674274d2a4d2e"
+    },
+    {
+      "file": "studies/saved-head-and-wandb-search/local/chromium-1280-trainspotter.png",
+      "bytes": 98462,
+      "sha256": "ce7ba0cddfcde59c14257f408b71b972ea5edfa392a64ac9c7c45abb2355d15b"
+    },
+    {
+      "file": "studies/saved-head-and-wandb-search/local/firefox-375-mergeglass.png",
+      "bytes": 132046,
+      "sha256": "15ff86fd46fcd7667de8b187d4d7ba7f1501484a2a450e0b35a4ffcbc7a4e111"
+    },
+    {
+      "file": "studies/saved-head-and-wandb-search/local/firefox-375-trainspotter.png",
+      "bytes": 95473,
+      "sha256": "68c07442dc0ccefe72f73b989f6c68158c10086e15f85785494b996810d015ff"
+    },
+    {
+      "file": "studies/saved-head-and-wandb-search/local/receipt.json",
+      "bytes": 5092,
+      "sha256": "5aa8e9a13e71569a663ea49f48b6d89016b4fab0f59f87896f31e0688190241a"
+    },
+    {
+      "file": "studies/saved-head-and-wandb-search/sources.json",
+      "bytes": 1156,
+      "sha256": "4f981770655555b876708ca303578eee3ee44371a7fb9a22ee53e729f042c999"
+    }
+  ]
+}
