@@ -1,0 +1,18 @@
+{
+  "method": "Catalogue data only; immutable linked study byte-checked against Git; source upgrade is separate from npm and the hosted scanner",
+  "baseline_catalogue_source": "913e32cfeba51a6d0aee50fe2aaebf8f82be0a23",
+  "source": {
+    "project": "ghostchars",
+    "source_commit": "3c95cad49cb464b4bf5e9795f6b618415985b63f",
+    "file": "studies/javascript-names/README.md",
+    "bytes": 10816,
+    "sha256": "06cee3060fa1a82ac25b1f0146302414b8e25275aeee69139024b221dc2f6692",
+    "public_bytes_match_git_blob": true,
+    "study_url": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+  },
+  "finding": "Source upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+  "finding_characters": 145,
+  "old_catalogue_sha256": "7b72bfcdece12ab27bc1d193332d1cbadbd7bf77f662a4805ba1f71832826702",
+  "browser_replay": "../planet-and-speech-search/replay.mjs BASE_URL OUTPUT before|after studies/javascript-name-search/cases.json",
+  "new_catalogue_sha256": "3b1d46730833676c429ff0a5941c772bc9b93d8b9177aad621bdf034f8bfaad6"
+}

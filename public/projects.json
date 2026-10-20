@@ -203,8 +203,8 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/ghostchars"
     },
     "study": {
-      "finding": "83,494 public prompts and agent rules: three files contain hidden Unicode payloads, all in one jailbreak repository; this is not an attack-rate estimate.",
-      "url": "https://github.com/antonsoo/ghostchars/tree/a9d54cf9a283b0a43b1b6f9b1dba02a7576c84ae/studies/prompt-census"
+      "finding": "Source upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+      "url": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
     }
   },
   {

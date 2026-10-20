@@ -1,5 +1,10 @@
 # Source update history
 
+The [parsed JavaScript name discovery update](javascript-names-2026-10-19.md)
+makes escaped-identifier inspection searchable and opens the native executable
+controls and verified source-install workflow. Its evidence label distinguishes
+the source upgrade from the linked npm release and hosted scanner.
+
 The [saved LoRA merge study](mergeglass-2026-10-19.md) adds Mergeglass to the
 catalogue with a pinned public-adapter result, native failure controls and
 separate source-install evidence. BF16, LoRA and merge-direction workflows are
