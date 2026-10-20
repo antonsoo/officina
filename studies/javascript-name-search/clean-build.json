@@ -1,0 +1,19 @@
+{
+  "source_commit": "e86c5d05d44c54b570b9f42af41d31127bfaecb1",
+  "clean_archive_source_files_match_git": 642,
+  "clean_build_matches_exercised_build_files": 41,
+  "node": "v26.7.0",
+  "checks": [
+    "npm ci",
+    "npm run lint",
+    "npm run format:check",
+    "npm test",
+    "npm run build"
+  ],
+  "unit_checks": 38,
+  "all_check_commands_exit_zero": true,
+  "source_mutations_during_checks": false,
+  "log_sha256": "8ff836cef72fa284c444c946ac076806219621c3fc7ef3be3a686f173271bac2",
+  "source_mutation_check": "SHA-256 of all tracked source files before and after the fully materialized clean check",
+  "source_manifest_sha256": "d3f88564137d647ed115c1f10d5d618255a229697decba57dc6e58975652f6e0"
+}

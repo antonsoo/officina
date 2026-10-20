@@ -1,0 +1,120 @@
+{
+  "checkedAtUtc": "2026-10-20T00:27:36.306Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "phase": "after",
+  "scope": "Actual served catalogue queries in both engines and widths; no application assets or search responses mocked.",
+  "queries": [
+    [
+      "escaped identifiers",
+      "ghostchars",
+      "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+    ],
+    [
+      "JavaScript controls",
+      "ghostchars",
+      "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+    ]
+  ],
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "escaped identifiers",
+          "name": "ghostchars",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+          "studyUrl": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+        },
+        {
+          "query": "JavaScript controls",
+          "name": "ghostchars",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+          "studyUrl": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "escaped identifiers",
+          "name": "ghostchars",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+          "studyUrl": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+        },
+        {
+          "query": "JavaScript controls",
+          "name": "ghostchars",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+          "studyUrl": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "escaped identifiers",
+          "name": "ghostchars",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+          "studyUrl": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+        },
+        {
+          "query": "JavaScript controls",
+          "name": "ghostchars",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+          "studyUrl": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "escaped identifiers",
+          "name": "ghostchars",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+          "studyUrl": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+        },
+        {
+          "query": "JavaScript controls",
+          "name": "ghostchars",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+          "studyUrl": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}

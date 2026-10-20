@@ -1,0 +1,13 @@
+{
+  "changed_static_files": [
+    "projects.json"
+  ],
+  "unchanged_static_files": 40,
+  "old_catalogue_sha256": "7b72bfcdece12ab27bc1d193332d1cbadbd7bf77f662a4805ba1f71832826702",
+  "new_catalogue_sha256": "3b1d46730833676c429ff0a5941c772bc9b93d8b9177aad621bdf034f8bfaad6",
+  "only_ghostchars_study_fields_changed": true,
+  "source_commit": "e86c5d05d44c54b570b9f42af41d31127bfaecb1",
+  "pages_parent": "bee1738c63056c9471738f8aa24c9da2ca5b76b4",
+  "pages_commit": "c1ddd460a3a7bf4f5339f9acb7fa76c8afe1645a",
+  "normal_fast_forward_push_succeeded": true
+}

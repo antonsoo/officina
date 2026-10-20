@@ -1,0 +1,73 @@
+{
+  "source_commit": "e86c5d05d44c54b570b9f42af41d31127bfaecb1",
+  "checked_utc": "2026-10-20T00:26:50.722935+00:00",
+  "files": [
+    {
+      "file": "docs/javascript-names-2026-10-19.md",
+      "bytes": 2213,
+      "sha256": "b56372cd84b38606e3d994c2c2876b551af5bf4ef3c3b14153e6a43074624ca7",
+      "public_bytes_match_git_blob": true
+    },
+    {
+      "file": "docs/source-history.md",
+      "bytes": 36045,
+      "sha256": "6f13b7b811aa8323427fd19c4224e94a03bdf3bd35f5c990dcc94901358a8a4c",
+      "public_bytes_match_git_blob": true
+    },
+    {
+      "file": "public/projects.json",
+      "bytes": 14608,
+      "sha256": "3b1d46730833676c429ff0a5941c772bc9b93d8b9177aad621bdf034f8bfaad6",
+      "public_bytes_match_git_blob": true
+    },
+    {
+      "file": "studies/javascript-name-search/build-comparison.json",
+      "bytes": 324,
+      "sha256": "a8a2d43139541d2dbb24e67aa9645cf2e4604bc43270c279ac711edb4e76fdfa",
+      "public_bytes_match_git_blob": true
+    },
+    {
+      "file": "studies/javascript-name-search/cases.json",
+      "bytes": 363,
+      "sha256": "61214799d32c1bebeb23dc1584f94cba0d06c68168ac45b0b0ae253ea00ae12a",
+      "public_bytes_match_git_blob": true
+    },
+    {
+      "file": "studies/javascript-name-search/hosted-before-bytes.json",
+      "bytes": 18874,
+      "sha256": "3fdb2e8e094283fcc3574c7b37aea2ff751fdfbd87a574f2dc4911c86b7b19ac",
+      "public_bytes_match_git_blob": true
+    },
+    {
+      "file": "studies/javascript-name-search/local-after/chromium-1280-ghostchars.png",
+      "bytes": 121683,
+      "sha256": "8f6ff7485f29dc1a58a674bed3f570319b6a6e5870c4ae38a5edcc9ca13d4b31",
+      "public_bytes_match_git_blob": true
+    },
+    {
+      "file": "studies/javascript-name-search/local-after/firefox-375-ghostchars.png",
+      "bytes": 118958,
+      "sha256": "6af0c35eeb11e6cf20c5d240bb3313dfc7ea0a21cd2d2e44d24f9f8bd88e4e18",
+      "public_bytes_match_git_blob": true
+    },
+    {
+      "file": "studies/javascript-name-search/local-after/receipt.json",
+      "bytes": 5253,
+      "sha256": "5322c9f7d03970933c925d644ab805d772018dfcbc3e01a7d7467ca1ce022c65",
+      "public_bytes_match_git_blob": true
+    },
+    {
+      "file": "studies/javascript-name-search/local-before/receipt.json",
+      "bytes": 2586,
+      "sha256": "5d25650ac671a372a1a0d81b97e5b5777a990d775943deadf5c919ce4eb4418d",
+      "public_bytes_match_git_blob": true
+    },
+    {
+      "file": "studies/javascript-name-search/sources.json",
+      "bytes": 1179,
+      "sha256": "0eca2bf0d5f86cd5a22bf786f9e3561440ba59494a0a5cbfef9f008ac0d38ecb",
+      "public_bytes_match_git_blob": true
+    }
+  ],
+  "scope": "Immutable public Git source bytes only; hosted assets and browser workflows checked separately"
+}
