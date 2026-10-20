@@ -1,5 +1,10 @@
 # Source update history
 
+The [saved-head and native W&B discovery update](saved-heads-and-wandb-2026-10-19.md)
+opens full saved-module auditing and native offline training files from the
+catalogue. Immutable producer/oracle and live-browser evidence remains separate
+from the linked registry releases.
+
 The [parsed JavaScript name discovery update](javascript-names-2026-10-19.md)
 makes escaped-identifier inspection searchable and opens the native executable
 controls and verified source-install workflow. Its evidence label distinguishes

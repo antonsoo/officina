@@ -75,15 +75,15 @@
   },
   {
     "name": "mergeglass",
-    "description": "Inspect saved LoRA/DoRA merges and learned row norms, including partial observations without an original base; no model loading or PyTorch.",
+    "description": "Source audit: saved LoRA/DoRA merges, embedding adapters and full saved heads, learned row norms and partial observations without loading a model.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/mergeglass",
     "demoUrl": null,
     "thumbnail": "thumbs/mergeglass.webp",
     "status": "published",
     "study": {
-      "finding": "Synthetic DoRA control: near-parallel directions, row norms 0.5863-1.555x target. Independent replay checks 622,359 native/public rows.",
-      "url": "https://github.com/antonsoo/mergeglass/blob/0185bce474256441f8c84fa3bcdc2ee67190e6ef/docs/dora-rows.md"
+      "finding": "Public BF16 control: 39,791,249 saved-weight mismatches despite identical measurements for all 210 LoRA pairs; full saved heads are audited.",
+      "url": "https://github.com/antonsoo/mergeglass/tree/af4179b9fe36051b7a92219524bee0903b042213/studies/saved-modules"
     }
   },
   {
@@ -174,7 +174,7 @@
   },
   {
     "name": "trainspotter",
-    "description": "Inspect native MLflow histories and quoted W&B CSV, keep model/dataset scopes explicit, and download offline charts with source and axis context.",
+    "description": "Source/live workbench: native binary .wandb logs, quoted W&B CSV and MLflow histories, typed gaps, explicit model/dataset scopes, and offline charts with source/axis context.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/trainspotter",
     "demoUrl": "https://antonsoo.github.io/trainspotter/",
@@ -186,8 +186,8 @@
       "url": "https://pypi.org/project/trainspotter/"
     },
     "study": {
-      "finding": "Six native MLflow runs retain all 200 SDK observations; model/dataset scope changes no longer become false divergence recommendations.",
-      "url": "https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes"
+      "finding": "Native W&B: 400 history packets match independent SDK/Go readers; text NaN remains a gap while observed overflow stays divergence.",
+      "url": "https://huggingface.co/spaces/antonsoloviev/trainspotter/blob/d29692cfe4f3dd7a0e3fbcdc989c0f335874f256/evidence/wandb-browser/README.md"
     }
   },
   {

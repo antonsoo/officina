@@ -1,0 +1,27 @@
+{
+  "baseline_source": "1d6120f",
+  "old_catalogue_sha256": "3b1d46730833676c429ff0a5941c772bc9b93d8b9177aad621bdf034f8bfaad6",
+  "new_catalogue_sha256": "29567c0fc8ecd35f20e6b2845dc7ef0d8d65906d2d3a3c3855e7c43aa941045b",
+  "only_two_descriptions_and_studies_changed": true,
+  "other_16_cards_equal": true,
+  "all_install_demo_space_and_thumbnail_fields_equal": true,
+  "linked_studies": [
+    {
+      "project": "mergeglass",
+      "commit": "af4179b9fe36051b7a92219524bee0903b042213",
+      "file": "studies/saved-modules/README.md",
+      "bytes": 12128,
+      "sha256": "e21ae14962ea1bd790c84ec0057c3e91adffbf13d90a88c88236f21de547ce60",
+      "public_bytes_match_verified_source": true
+    },
+    {
+      "project": "trainspotter",
+      "commit": "d29692cfe4f3dd7a0e3fbcdc989c0f335874f256",
+      "file": "evidence/wandb-browser/README.md",
+      "bytes": 4931,
+      "sha256": "f5d4345d85e6a5341f26469b4f642680f0f9319ceb829c4b6ccec761917c395b",
+      "public_bytes_match_verified_source": true
+    }
+  ],
+  "scope": "Source/full-module audit and live native-file workflow; registry links do not imply these unreleased engine changes are on PyPI."
+}

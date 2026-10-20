@@ -1,0 +1,8 @@
+{
+  "changed_static_files": [
+    "projects.json"
+  ],
+  "unchanged_static_files": 40,
+  "old_catalogue_sha256": "3b1d46730833676c429ff0a5941c772bc9b93d8b9177aad621bdf034f8bfaad6",
+  "new_catalogue_sha256": "29567c0fc8ecd35f20e6b2845dc7ef0d8d65906d2d3a3c3855e7c43aa941045b"
+}
