@@ -1,6 +1,7 @@
 # Find full saved-module audits and native offline W&B runs
 
-Two catalogue entries now expose the workflows added in this session.
+Two catalogue entries now expose full saved-module auditing and native offline
+W&B analysis.
 
 Mergeglass checks full PEFT saved modules as well as LoRA/DoRA factors and
 embedding adapters. In the linked public BF16 control, restoring the original
@@ -49,3 +50,13 @@ Reproduce the focused checks with:
 ```sh
 node studies/planet-and-speech-search/replay.mjs BASE_URL OUTPUT after studies/saved-head-and-wandb-search/cases.json
 ```
+
+The clean `3969b4e` archive passed install, lint, formatting, all 38 existing
+checks and the production build. All 660 tracked files matched Git and its
+41 built files matched the locally exercised artifact. The normal Pages push
+`c1ddd46` -> `11a34eb` changed only `projects.json`. On 2026-10-20 the canonical
+site matched all 41 build files and both entry aliases, then passed all eight
+searches in both engines/widths and offline refiltering. Its four captured images
+were also visually inspected. Both queries now return the expected public card
+and exact immutable evidence link. The 13 changed source files were independently
+fetched from immutable public URLs and matched to Git object bytes.

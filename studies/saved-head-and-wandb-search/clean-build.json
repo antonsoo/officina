@@ -1,0 +1,15 @@
+{
+  "source_commit": "3969b4eb295c0fea33473f90254230cdee4fc8d2",
+  "tracked_files_match_git": 660,
+  "commands": [
+    "npm ci --ignore-scripts",
+    "npm run lint",
+    "npm run format:check",
+    "npm test",
+    "npm run build"
+  ],
+  "tests_passed": 38,
+  "build_files": 41,
+  "built_artifact_matches_browser_checked_build": true,
+  "check_log_sha256": "26cdb1a137d57bbaae9806a63a2261a55c690cb9faf7b6a23d60dcc40bc140e7"
+}
