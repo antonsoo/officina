@@ -1,0 +1,92 @@
+{
+  "checkedAtUtc": "2026-10-20T09:57:47.472Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "phase": "before",
+  "scope": "Actual served catalogue, specified workflow queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "scanned receipt",
+          "name": "fieldproof",
+          "visibleProjects": 0
+        },
+        {
+          "query": "elapsed reset time",
+          "name": "splitscope",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "scanned receipt",
+          "name": "fieldproof",
+          "visibleProjects": 0
+        },
+        {
+          "query": "elapsed reset time",
+          "name": "splitscope",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "scanned receipt",
+          "name": "fieldproof",
+          "visibleProjects": 0
+        },
+        {
+          "query": "elapsed reset time",
+          "name": "splitscope",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "scanned receipt",
+          "name": "fieldproof",
+          "visibleProjects": 0
+        },
+        {
+          "query": "elapsed reset time",
+          "name": "splitscope",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}

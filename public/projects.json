@@ -105,7 +105,7 @@
   },
   {
     "name": "fieldproof",
-    "description": "Link fields to source words and inspect native PDF paint, clipping and saved AcroForm appearances before accepting a document claim.",
+    "description": "Review scanned receipt PDFs locally, inspect native and OCR words beside page images, and keep evidence provenance through corrections, exports and archived reviews.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/fieldproof",
     "demoUrl": "https://antonsoo.github.io/fieldproof/",
@@ -116,8 +116,8 @@
       "url": "https://pypi.org/project/fieldproof/"
     },
     "study": {
-      "finding": "Source upgrade: 10 saved AcroForm appearance mismatches corrected across 13 supported controls; native text and existing review verdicts preserved.",
-      "url": "https://github.com/antonsoo/fieldproof/blob/29a906835d28cbd440aa8af4712a00fb4a089705/docs/verification-form-appearances-2026-10-19.md"
+      "finding": "Source upgrade: a scanned CORD receipt opens locally; 12 API cases retain OCR provenance and eight archives. Hosted example is precomputed.",
+      "url": "https://github.com/antonsoo/fieldproof/tree/0504f8e85cd783554d7f0a9a9f8c0800b00590ad/studies/server-ocr"
     }
   },
   {
@@ -261,15 +261,15 @@
   },
   {
     "name": "splitscope",
-    "description": "Private, in-browser LiveSplit analyzer: time save, consistency, reset survival, and Monte Carlo odds of your next PB.",
+    "description": "Compare completed attempts and reset segments by count or elapsed attempt time; inspect linked LiveSplit attempts and unavailable clocks in your browser.",
     "group": "Games",
     "repoUrl": "https://github.com/antonsoo/splitscope",
     "demoUrl": "https://antonsoo.github.io/splitscope/",
     "thumbnail": "thumbs/splitscope.webp",
     "status": "published",
     "study": {
-      "finding": "51 speedrun histories: at 50 attempts, the mean PB forecast was 14.3% and observed frequency 30.9%; only nine runners supplied forecasts.",
-      "url": "https://github.com/antonsoo/splitscope/tree/0e2a6b80e7e8abdb75f76c73489a05426eedb128/studies/pb-odds-backtest"
+      "finding": "Re-Loaded: 10 Desert resets total 3:56; four Monestary resets total 48:18. Elapsed clocks include pauses; missing and overlapping clocks stay explicit.",
+      "url": "https://github.com/antonsoo/splitscope/tree/e1f31bbd4efcf6b2b4d71b68a7f47d05f360503b/studies/time-budget"
     }
   },
   {

@@ -1,0 +1,108 @@
+{
+  "checkedAtUtc": "2026-10-20T10:02:17.214Z",
+  "base": "http://127.0.0.1:7902/officina/",
+  "phase": "after",
+  "scope": "Actual served catalogue, specified workflow queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "scanned receipt",
+          "name": "fieldproof",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: a scanned CORD receipt opens locally; 12 API cases retain OCR provenance and eight archives. Hosted example is precomputed.",
+          "studyUrl": "https://github.com/antonsoo/fieldproof/tree/24ad5c3502b9c6bbcfe63ac55034690fa5712bfc/studies/server-ocr"
+        },
+        {
+          "query": "elapsed reset time",
+          "name": "splitscope",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nRe-Loaded: 10 Desert resets total 3:56; four Monestary resets total 48:18. Elapsed clocks include pauses; missing and overlapping clocks stay explicit.",
+          "studyUrl": "https://github.com/antonsoo/splitscope/tree/e1f31bbd4efcf6b2b4d71b68a7f47d05f360503b/studies/time-budget"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "scanned receipt",
+          "name": "fieldproof",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: a scanned CORD receipt opens locally; 12 API cases retain OCR provenance and eight archives. Hosted example is precomputed.",
+          "studyUrl": "https://github.com/antonsoo/fieldproof/tree/24ad5c3502b9c6bbcfe63ac55034690fa5712bfc/studies/server-ocr"
+        },
+        {
+          "query": "elapsed reset time",
+          "name": "splitscope",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nRe-Loaded: 10 Desert resets total 3:56; four Monestary resets total 48:18. Elapsed clocks include pauses; missing and overlapping clocks stay explicit.",
+          "studyUrl": "https://github.com/antonsoo/splitscope/tree/e1f31bbd4efcf6b2b4d71b68a7f47d05f360503b/studies/time-budget"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "scanned receipt",
+          "name": "fieldproof",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: a scanned CORD receipt opens locally; 12 API cases retain OCR provenance and eight archives. Hosted example is precomputed.",
+          "studyUrl": "https://github.com/antonsoo/fieldproof/tree/24ad5c3502b9c6bbcfe63ac55034690fa5712bfc/studies/server-ocr"
+        },
+        {
+          "query": "elapsed reset time",
+          "name": "splitscope",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nRe-Loaded: 10 Desert resets total 3:56; four Monestary resets total 48:18. Elapsed clocks include pauses; missing and overlapping clocks stay explicit.",
+          "studyUrl": "https://github.com/antonsoo/splitscope/tree/e1f31bbd4efcf6b2b4d71b68a7f47d05f360503b/studies/time-budget"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "scanned receipt",
+          "name": "fieldproof",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSource upgrade: a scanned CORD receipt opens locally; 12 API cases retain OCR provenance and eight archives. Hosted example is precomputed.",
+          "studyUrl": "https://github.com/antonsoo/fieldproof/tree/24ad5c3502b9c6bbcfe63ac55034690fa5712bfc/studies/server-ocr"
+        },
+        {
+          "query": "elapsed reset time",
+          "name": "splitscope",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nRe-Loaded: 10 Desert resets total 3:56; four Monestary resets total 48:18. Elapsed clocks include pauses; missing and overlapping clocks stay explicit.",
+          "studyUrl": "https://github.com/antonsoo/splitscope/tree/e1f31bbd4efcf6b2b4d71b68a7f47d05f360503b/studies/time-budget"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}

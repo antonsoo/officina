@@ -1,17 +1,29 @@
 // URL OUTPUT before|after: actual catalogue searches for published native workflows.
 import assert from "node:assert/strict";
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { chromium, firefox } from "@playwright/test";
 
-const [base, output, phase] = process.argv.slice(2);
+const [base, output, phase, queriesFile] = process.argv.slice(2);
 assert(base && output && ["before", "after"].includes(phase));
 await mkdir(output, { recursive: true });
-const queries = [
-  ["MLflow", "trainspotter"],
-  ["native NUnit", "flakemap"],
-  ["PresentMon 2.6", "stutterscope"],
-];
+const queries = queriesFile
+  ? JSON.parse(await readFile(queriesFile, "utf8"))
+  : [
+      ["MLflow", "trainspotter"],
+      ["native NUnit", "flakemap"],
+      ["PresentMon 2.6", "stutterscope"],
+    ];
+assert(
+  Array.isArray(queries) &&
+    queries.length > 0 &&
+    queries.every(
+      (row) =>
+        Array.isArray(row) &&
+        row.length === 2 &&
+        row.every((value) => typeof value === "string" && value.length > 0),
+    ),
+);
 const records = [];
 for (const [engine, launch] of Object.entries({ chromium, firefox })) {
   const browser = await launch.launch();
@@ -108,7 +120,7 @@ await writeFile(
       base,
       phase,
       scope:
-        "Actual served catalogue, three native-workflow queries in both engines and widths; no application assets or search responses mocked.",
+        "Actual served catalogue, specified workflow queries in both engines and widths; no application assets or search responses mocked.",
       records,
     },
     null,

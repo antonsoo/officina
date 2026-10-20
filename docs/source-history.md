@@ -1,5 +1,10 @@
 # Source update history
 
+The [scanned-receipt and elapsed reset-time discovery update](../studies/review-workflows/README.md)
+opens the new local OCR review workflow and attempt-clock accounting study.
+The receipt demo is precomputed; local source, installed artifacts, static
+publication and unchanged registry releases remain separate claims.
+
 The [saved-head and native W&B discovery update](saved-heads-and-wandb-2026-10-19.md)
 opens full saved-module auditing and native offline training files from the
 catalogue. Immutable producer/oracle and live-browser evidence remains separate
