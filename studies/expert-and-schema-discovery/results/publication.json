@@ -1,0 +1,58 @@
+{
+  "source_commit": "732dc927ccb2f38f8e2bf2925f82da16d99f3cd3",
+  "source_files_verified": 7,
+  "files": [
+    {
+      "path": "docs/source-history.md",
+      "bytes": 36951,
+      "sha256": "a01ef3f327fa361f5011bf6ee2d8f5f40c4d27073c53fceaf5d3cbeed917ca78"
+    },
+    {
+      "path": "public/projects.json",
+      "bytes": 14827,
+      "sha256": "d1503531c5a9a3dc5ffa584becfb5a3daf294c9300021ff2d9c77518abdd976b"
+    },
+    {
+      "path": "studies/expert-and-schema-discovery/README.md",
+      "bytes": 2342,
+      "sha256": "6ffeceb63aa951af052bfb428b431860574c8a1b878d9eb3178dda79e8cce7cf"
+    },
+    {
+      "path": "studies/expert-and-schema-discovery/queries.json",
+      "bytes": 117,
+      "sha256": "70986cac4439117a13e55c32b805f64133a6819253070569366ac6b312180847"
+    },
+    {
+      "path": "studies/expert-and-schema-discovery/results/before.json",
+      "bytes": 3059,
+      "sha256": "f8340f6942bbad64475462753428eff0170aef67b7330af512e16a17731cbb2a"
+    },
+    {
+      "path": "studies/expert-and-schema-discovery/results/linked-source.json",
+      "bytes": 1121,
+      "sha256": "8be347a9a06e751ba9c8cd74e823a50f541dc4d5307c84db215e6de48087b9db"
+    },
+    {
+      "path": "studies/expert-and-schema-discovery/results/local.json",
+      "bytes": 8193,
+      "sha256": "9b491b1dd52c9445e25e92e716e05117c4422b044ca65e8832c5166bf7e175f5"
+    }
+  ],
+  "pages_commit": "7066f0b7282e9bf08271dc7a4adc9641655d0376",
+  "preservation": {
+    "build_files": 41,
+    "existing_branch_files": 42,
+    "existing_files_outside_build_preserved": 1,
+    "files_removed": 0,
+    "non_force_push": true
+  },
+  "validation": {
+    "node": "24.22.0",
+    "npm_ci": true,
+    "catalogue_entries": 18,
+    "lint": true,
+    "build": true,
+    "tests": 38,
+    "browser_cases": 32
+  }
+}

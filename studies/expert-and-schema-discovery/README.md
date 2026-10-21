@@ -41,3 +41,23 @@ Only two catalogue records change. No application logic, packages, registry
 links, demo destinations or other project entries change. The local build,
 source publication, hosted static bytes and live browser replay are separate
 checks; publication receipts are retained after deployment.
+
+## Published catalogue
+
+Source `732dc92` and Pages `7066f0b` publish the revised records. The Pages
+update changes only `projects.json`, using a normal push and preserving the
+existing branch files. [The source receipt](results/publication.json) verifies
+all seven source changes. [Canonical hosted byte checks](results/public-bytes.json)
+verify all 41 build files plus stable root/index responses.
+
+[The live search receipt](results/public.json) repeats all 16 searches against
+the hosted page: exactly the intended card, offline filtering, no replacement
+catalogue requests, no page errors and no horizontal overflow. All eight public
+screenshots were opened and inspected; retained examples show
+[desktop expert discovery](../../docs/assets/expert-discovery-desktop.png) and
+[mobile schema discovery](../../docs/assets/schema-discovery-mobile.png).
+
+[Actual keyboard link navigation](results/public-links.json) follows each new
+evidence link with Enter in both browsers and widths. All eight responses are
+HTTP 200 and show the intended pinned study heading. Reproduce that interaction
+with `node studies/expert-and-schema-discovery/follow-links.mjs`.
