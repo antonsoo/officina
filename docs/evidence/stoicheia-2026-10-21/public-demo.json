@@ -1,0 +1,122 @@
+{
+  "checkedAt": "2026-10-21T23:13:00.250Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "records": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "queries": [
+        "Euclid Greek",
+        "Latin",
+        "angle bisection",
+        "circle crossings"
+      ],
+      "group": "Ancient world",
+      "keyboardEnter": true,
+      "demoUrl": "https://antonsoo.github.io/stoicheia/#p=9&s=7&a=45",
+      "proposition": 9,
+      "step": 8,
+      "givenAngle": 90,
+      "internalAngles": [
+        45,
+        45
+      ],
+      "alternateAngles": [
+        135,
+        135
+      ],
+      "withheldAlternateConclusion": true,
+      "restoredInternalBisector": true,
+      "sourceImage": "/stoicheia/sources/heiberg-030.jpg",
+      "pageErrors": 0
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "queries": [
+        "Euclid Greek",
+        "Latin",
+        "angle bisection",
+        "circle crossings"
+      ],
+      "group": "Ancient world",
+      "keyboardEnter": true,
+      "demoUrl": "https://antonsoo.github.io/stoicheia/#p=9&s=7&a=45",
+      "proposition": 9,
+      "step": 8,
+      "givenAngle": 90,
+      "internalAngles": [
+        45,
+        45
+      ],
+      "alternateAngles": [
+        135,
+        135
+      ],
+      "withheldAlternateConclusion": true,
+      "restoredInternalBisector": true,
+      "sourceImage": "/stoicheia/sources/heiberg-030.jpg",
+      "pageErrors": 0
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "queries": [
+        "Euclid Greek",
+        "Latin",
+        "angle bisection",
+        "circle crossings"
+      ],
+      "group": "Ancient world",
+      "keyboardEnter": true,
+      "demoUrl": "https://antonsoo.github.io/stoicheia/#p=9&s=7&a=45",
+      "proposition": 9,
+      "step": 8,
+      "givenAngle": 90,
+      "internalAngles": [
+        45,
+        45
+      ],
+      "alternateAngles": [
+        135,
+        135
+      ],
+      "withheldAlternateConclusion": true,
+      "restoredInternalBisector": true,
+      "sourceImage": "/stoicheia/sources/heiberg-030.jpg",
+      "pageErrors": 0
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "queries": [
+        "Euclid Greek",
+        "Latin",
+        "angle bisection",
+        "circle crossings"
+      ],
+      "group": "Ancient world",
+      "keyboardEnter": true,
+      "demoUrl": "https://antonsoo.github.io/stoicheia/#p=9&s=7&a=45",
+      "proposition": 9,
+      "step": 8,
+      "givenAngle": 90,
+      "internalAngles": [
+        45,
+        45
+      ],
+      "alternateAngles": [
+        135,
+        135
+      ],
+      "withheldAlternateConclusion": true,
+      "restoredInternalBisector": true,
+      "sourceImage": "/stoicheia/sources/heiberg-030.jpg",
+      "pageErrors": 0
+    }
+  ]
+}

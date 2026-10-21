@@ -21,3 +21,14 @@ the 45-degree internal halves, the alternate 135-degree outer angles, the
 withheld conclusion and the printed source page in both browsers at 1280 and
 375 pixels. The [evidence-link journeys](evidence/stoicheia-2026-10-21/local-links.json)
 reach the intended pinned GitHub heading, rather than stopping at an HTTP status.
+
+The [published catalogue](https://antonsoo.github.io/officina/) now serves the
+reviewed entry and thumbnail. [Direct byte verification](evidence/stoicheia-2026-10-21/publication.json)
+matched all 42 build files and the root/index aliases. Separate
+[hosted demo journeys](evidence/stoicheia-2026-10-21/public-demo.json) and
+[hosted evidence-link journeys](evidence/stoicheia-2026-10-21/public-links.json)
+passed in both browsers at both widths. The retained
+[desktop](evidence/stoicheia-2026-10-21/search-1280.png) and
+[phone](evidence/stoicheia-2026-10-21/search-375.png) screenshots show the actual
+hosted search result. These observations establish the recorded static bytes and
+browser paths; they make no package-release or remote CI claim.
