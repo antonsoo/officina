@@ -1,5 +1,18 @@
 [
   {
+    "name": "stoicheia",
+    "description": "Read Euclid I.1–10 in Greek, Latin and English beside interactive constructions. Inspect the printed source, test assumptions, and save offline study sheets.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/stoicheia",
+    "demoUrl": "https://antonsoo.github.io/stoicheia/#p=9&s=7&a=45",
+    "thumbnail": "thumbs/stoicheia.png",
+    "status": "published",
+    "study": {
+      "finding": "Both circle crossings checked across 378 angle-bisection cases; the alternate ray can collapse or point outward. Numerical model, not formal proof.",
+      "url": "https://github.com/antonsoo/stoicheia/blob/306bae294ba8de25dfa0cefdd88b0d89dc11d84b/docs/review.md#the-circle-crossing-choice"
+    }
+  },
+  {
     "name": "horologium",
     "description": "Explore 13 calendars, ancient planets checked against DE441, and local sunrise and sunset; marginal polar events stay unresolved.",
     "group": "Ancient world",
