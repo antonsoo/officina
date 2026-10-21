@@ -1,5 +1,10 @@
 # Source update history
 
+The [physical construction and voice-range discovery update](../studies/physical-and-voice-discovery/README.md)
+makes Gnomon's opposite face and polar azimuth evidence searchable alongside
+ToneMirror's separate voice floors. Native downloads and recorded-speech
+tradeoffs retain their physical assembly and pronunciation-validation limits.
+
 The [expert-merge and native schema discovery update](../studies/expert-and-schema-discovery/README.md)
 exposes Qwen3 MoE expert parameters, scaled LoRA B bias and actual enum/type
 contradictions. Immutable native producer/oracle evidence stays separate from

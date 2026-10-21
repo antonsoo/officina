@@ -49,3 +49,18 @@ node studies/expert-and-schema-discovery/follow-links.mjs \
 The keyboard replay now accepts a base URL, output path and heading map;
 its original expert/schema defaults remain available. Source publication,
 hosted bytes and public navigation are verified separately after deployment.
+
+The [clean-install receipt](results/verification.json) records Node 24.22.0,
+38 unit cases, 32 browser workflows, lint, typecheck, format and the 41-file
+production build. The [clean search replay](results/clean.json) repeats all
+16 queries with identical results and screenshots. Both the new eight-link
+flow and the original expert/schema defaults reach their intended headings.
+
+![Gnomon found by its polar azimuth correction](../../docs/assets/construction-discovery-desktop.png)
+
+<img src="../../docs/assets/voice-discovery-mobile.png" width="300" alt="ToneMirror's separate-floor workflow and false-voicing tradeoff on a 375 px catalogue view" />
+
+ToneMirror screenshots contain the existing credited thumbnail, derived from
+Wolfdog (2019)'s *FourMandarinTones.ogg*. These screenshots are distributed
+under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/);
+[original source and transformation details](../../public/thumbs/ATTRIBUTION.txt).
