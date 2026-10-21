@@ -64,3 +64,19 @@ ToneMirror screenshots contain the existing credited thumbnail, derived from
 Wolfdog (2019)'s *FourMandarinTones.ogg*. These screenshots are distributed
 under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/);
 [original source and transformation details](../../public/thumbs/ATTRIBUTION.txt).
+
+## Published catalogue
+
+Source `7d9b9cc` and Pages `803c10b` publish the two revised records.
+[Seventeen source files](results/publication-source.json) match their
+immutable Git objects. [All 41 production files](results/public-bytes.json)
+match their canonical hosted bytes, with stable root/index responses.
+Only `projects.json` changes on the Pages branch; its other 41 files are
+preserved. The development dependency patch leaves production assets unchanged.
+
+The [public search replay](results/public.json) repeats all 16 searches on
+the hosted page, with exactly the intended card and offline filtering.
+[Public keyboard navigation](results/public-links.json) follows the evidence
+links with Enter in both browsers and widths: all eight reach the intended
+pinned study headings with HTTP 200. The [publication receipt](results/publication.json)
+keeps source, deployment, hosted bytes and browser observations separate.

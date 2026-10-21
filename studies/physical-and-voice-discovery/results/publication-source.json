@@ -1,0 +1,124 @@
+{
+  "sourceCommit": "7d9b9cc7a04ad16bec2844386fa622e51bc6949a",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/CHANGELOG.md",
+      "bytes": 4288,
+      "sha256": "3622606622d301ab2d0be3847e5aa8652838ef95914c17e1f1defddb143c1612",
+      "matched": true
+    },
+    {
+      "path": "docs/assets/construction-discovery-desktop.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/docs/assets/construction-discovery-desktop.png",
+      "bytes": 125120,
+      "sha256": "3e6cfe776f1d1b01f0920f6d9cad62c52c03d7283e8df4bf20da9d4fddaadd0a",
+      "matched": true
+    },
+    {
+      "path": "docs/assets/voice-discovery-mobile.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/docs/assets/voice-discovery-mobile.png",
+      "bytes": 107692,
+      "sha256": "f62d85c8757912e16cdc3c9e1afd50637b4d03382c56b6ee5e5126f21188aeb7",
+      "matched": true
+    },
+    {
+      "path": "docs/source-history.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/docs/source-history.md",
+      "bytes": 37292,
+      "sha256": "6192610fd2548bd92a4dcdf3d7abf1f1a0c519cbd0435a7696069a3dab7d634d",
+      "matched": true
+    },
+    {
+      "path": "package-lock.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/package-lock.json",
+      "bytes": 91864,
+      "sha256": "88ed05181d497a4f47936e8a0be355fa8446586997ca8bbc11c83586ab6dd756",
+      "matched": true
+    },
+    {
+      "path": "package.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/package.json",
+      "bytes": 1297,
+      "sha256": "f96bff82c29317185c98501a8ce82e728f906e665afb49151b26c7f3a492f46b",
+      "matched": true
+    },
+    {
+      "path": "public/projects.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/public/projects.json",
+      "bytes": 14839,
+      "sha256": "a4882954e986d78edea5ad627f5e7f9e9b753a9ee67871845df29d3ff847089b",
+      "matched": true
+    },
+    {
+      "path": "studies/expert-and-schema-discovery/follow-links.mjs",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/studies/expert-and-schema-discovery/follow-links.mjs",
+      "bytes": 3118,
+      "sha256": "e2a608c6c7dd34af1100b3c82778703f157a6f4d012aa3ef5033f42144634eb4",
+      "matched": true
+    },
+    {
+      "path": "studies/physical-and-voice-discovery/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/studies/physical-and-voice-discovery/README.md",
+      "bytes": 3636,
+      "sha256": "371aa5e97cc695a7d94d6d61bf1e7f4f7dce2e922154cd31b3a41ab6b25fee8d",
+      "matched": true
+    },
+    {
+      "path": "studies/physical-and-voice-discovery/headings.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/studies/physical-and-voice-discovery/headings.json",
+      "bytes": 115,
+      "sha256": "5f8a689c561f105f23ad2dc7cc0e8c55978b0a02fd87bf0fa2ba99ca00c2ca61",
+      "matched": true
+    },
+    {
+      "path": "studies/physical-and-voice-discovery/queries.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/studies/physical-and-voice-discovery/queries.json",
+      "bytes": 115,
+      "sha256": "a6885038e2e54bd427c893064ab202f465d276b63f30c02fb1a260d2927e5c65",
+      "matched": true
+    },
+    {
+      "path": "studies/physical-and-voice-discovery/results/before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/studies/physical-and-voice-discovery/results/before.json",
+      "bytes": 3079,
+      "sha256": "851b6b2403e577f4ef211af6c0c0253efba483043d74babbbf84db69b010be07",
+      "matched": true
+    },
+    {
+      "path": "studies/physical-and-voice-discovery/results/clean.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/studies/physical-and-voice-discovery/results/clean.json",
+      "bytes": 8269,
+      "sha256": "f6e31f0d0197cc586e94681663f82079e45a8bc44c892b2fc7d7bd72e1d1e2e4",
+      "matched": true
+    },
+    {
+      "path": "studies/physical-and-voice-discovery/results/linked-source.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/studies/physical-and-voice-discovery/results/linked-source.json",
+      "bytes": 892,
+      "sha256": "4c3170634e9828887e83e40f140e4dd64bccc2a86659827a63794b85e06e8d18",
+      "matched": true
+    },
+    {
+      "path": "studies/physical-and-voice-discovery/results/local-links.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/studies/physical-and-voice-discovery/results/local-links.json",
+      "bytes": 2746,
+      "sha256": "1d4664adcd89315ec96bb07e6ae42afa684f87240664bad0d8c9527e5d88a156",
+      "matched": true
+    },
+    {
+      "path": "studies/physical-and-voice-discovery/results/local.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/studies/physical-and-voice-discovery/results/local.json",
+      "bytes": 8269,
+      "sha256": "fec4156a5e9a4d0b7a2dcdb7d6a7f704b0db906b08c612af7deeabebcd195a9f",
+      "matched": true
+    },
+    {
+      "path": "studies/physical-and-voice-discovery/results/verification.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/7d9b9cc7a04ad16bec2844386fa622e51bc6949a/studies/physical-and-voice-discovery/results/verification.json",
+      "bytes": 7940,
+      "sha256": "2384159b75d31627c57dac32e2b97760b4bab843b0658c9d82e4eeefabebe9d6",
+      "matched": true
+    }
+  ]
+}

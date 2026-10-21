@@ -1,0 +1,21 @@
+{
+  "sourceAtDeployment": "7d9b9cc7a04ad16bec2844386fa622e51bc6949a",
+  "pagesCommit": "803c10baf2aa29f9e969119d775dedcef80ddde3",
+  "pagesParent": "7066f0b7282e9bf08271dc7a4adc9641655d0376",
+  "site": "https://antonsoo.github.io/officina/",
+  "canonicalBuildFilesMatched": 41,
+  "changedPublishedFiles": [
+    "projects.json"
+  ],
+  "preservedPriorBranchFiles": 41,
+  "changedCatalogueRecords": [
+    "gnomon",
+    "tonemirror"
+  ],
+  "publicQueries": 16,
+  "queriesReturnExactlyOneIntendedCard": true,
+  "offlineFiltering": true,
+  "publicKeyboardStudyNavigations": 8,
+  "sourceAndRegistryBoundariesRetained": true,
+  "registryRelease": false
+}
