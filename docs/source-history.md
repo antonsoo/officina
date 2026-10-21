@@ -1,5 +1,10 @@
 # Source update history
 
+The [Euclid course discovery update](stoicheia-2026-10-21.md) adds Stoicheia: Greek,
+Latin and English beside working constructions and inspectable source pages.
+The catalogue opens I.9’s circle-crossing exploration and links its independent
+numerical evidence at a fixed source revision.
+
 The [physical construction and voice-range discovery update](../studies/physical-and-voice-discovery/README.md)
 makes Gnomon's opposite face and polar azimuth evidence searchable alongside
 ToneMirror's separate voice floors. Native downloads and recorded-speech

@@ -1,0 +1,26 @@
+{
+  "scope": "Fresh Git export, Node 24.22.0; catalogue data change and actual browser journeys",
+  "sourceCommit": "fb1f04f971f8c00f7b20bf244664071162233f1e",
+  "commands": {
+    "npm ci": "passed",
+    "npm run typecheck": "passed",
+    "npm run lint": "passed",
+    "npm run format:check": "passed",
+    "npm test": "38 passed",
+    "npm run build": "19 entries and thumbnails; Vite production build passed",
+    "npm run test:browser": "32 passed, Chromium and Firefox, both themes, desktop and phone"
+  },
+  "thumbnail": {
+    "path": "public/thumbs/stoicheia.png",
+    "width": 1200,
+    "height": 750,
+    "sha256": "e05beff448d595972a6329067e8195daf4ef28143702c4aa7465310640a21912",
+    "source": "Actual hosted Stoicheia I.9 at step 8, 90-degree given angle; browser viewport screenshot, unedited"
+  },
+  "journeys": {
+    "localDemo": "local-demo.json",
+    "localPinnedEvidence": "local-links.json"
+  },
+  "boundary": "Source, static deployment, mathematical oracle and browser behavior are separate records.",
+  "journeyHarnessNode": "v26.7.0; the separate fresh build and existing browser suite used Node 24.22.0"
+}
