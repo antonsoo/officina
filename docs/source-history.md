@@ -1,5 +1,10 @@
 # Source update history
 
+The [expert-merge and native schema discovery update](../studies/expert-and-schema-discovery/README.md)
+exposes Qwen3 MoE expert parameters, scaled LoRA B bias and actual enum/type
+contradictions. Immutable native producer/oracle evidence stays separate from
+older registry packages and demo destinations.
+
 The [scanned-receipt and elapsed reset-time discovery update](../studies/review-workflows/README.md)
 opens the new local OCR review workflow and attempt-clock accounting study.
 The receipt demo is precomputed; local source, installed artifacts, static

@@ -75,15 +75,15 @@
   },
   {
     "name": "mergeglass",
-    "description": "Source audit: saved LoRA/DoRA merges, embedding adapters and full saved heads, learned row norms and partial observations without loading a model.",
+    "description": "Source audit: saved LoRA/DoRA and BF16 merges, Conv1D, embedding adapters, scaled B bias and Qwen3 MoE expert parameters; full saved heads, learned row norms and partial observations without loading a model.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/mergeglass",
     "demoUrl": null,
     "thumbnail": "thumbs/mergeglass.webp",
     "status": "published",
     "study": {
-      "finding": "Public BF16 control: 39,791,249 saved-weight mismatches despite identical measurements for all 210 LoRA pairs; full saved heads are audited.",
-      "url": "https://github.com/antonsoo/mergeglass/tree/af4179b9fe36051b7a92219524bee0903b042213/studies/saved-modules"
+      "finding": "44 native MoE saves: omitted experts give gain 0; wrong B order changes a zero-reference expert. Saved-head and bias controls stay replayable.",
+      "url": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters"
     }
   },
   {
@@ -122,7 +122,7 @@
   },
   {
     "name": "mcplint",
-    "description": "Capture and compare actual MCP tool contracts: dependency drift, token estimates, descriptions and hidden-instruction heuristics.",
+    "description": "Capture and compare actual MCP tool contracts: enum/type contradictions, dependency drift, token estimates, descriptions and hidden-instruction heuristics.",
     "group": "AI engineering",
     "repoUrl": "https://github.com/antonsoo/mcplint",
     "demoUrl": "https://antonsoo.github.io/mcplint/filesystem-dependencies.html",
@@ -133,8 +133,8 @@
       "url": "https://www.npmjs.com/package/@antonsoloviev/mcplint"
     },
     "study": {
-      "finding": "Same filesystem server and version, different Zod: 13 tool schemas drop declared fields. Compare both native captures.",
-      "url": "https://github.com/antonsoo/mcplint/tree/328631f92bb2f4284628de6b0aaf61a460320ec3/studies/metadata-diff/publication"
+      "finding": "Four native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
+      "url": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices"
     }
   },
   {

@@ -1,0 +1,132 @@
+{
+  "checkedAtUtc": "2026-10-21T00:35:17.722Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "phase": "before",
+  "scope": "Actual served catalogue, specified workflow queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "MoE expert",
+          "name": "mergeglass",
+          "visibleProjects": 0
+        },
+        {
+          "query": "scaled B bias",
+          "name": "mergeglass",
+          "visibleProjects": 0
+        },
+        {
+          "query": "enum/type",
+          "name": "mcplint",
+          "visibleProjects": 0
+        },
+        {
+          "query": "SVGverseAI",
+          "name": "mcplint",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "MoE expert",
+          "name": "mergeglass",
+          "visibleProjects": 0
+        },
+        {
+          "query": "scaled B bias",
+          "name": "mergeglass",
+          "visibleProjects": 0
+        },
+        {
+          "query": "enum/type",
+          "name": "mcplint",
+          "visibleProjects": 0
+        },
+        {
+          "query": "SVGverseAI",
+          "name": "mcplint",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "MoE expert",
+          "name": "mergeglass",
+          "visibleProjects": 0
+        },
+        {
+          "query": "scaled B bias",
+          "name": "mergeglass",
+          "visibleProjects": 0
+        },
+        {
+          "query": "enum/type",
+          "name": "mcplint",
+          "visibleProjects": 0
+        },
+        {
+          "query": "SVGverseAI",
+          "name": "mcplint",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "MoE expert",
+          "name": "mergeglass",
+          "visibleProjects": 0
+        },
+        {
+          "query": "scaled B bias",
+          "name": "mergeglass",
+          "visibleProjects": 0
+        },
+        {
+          "query": "enum/type",
+          "name": "mcplint",
+          "visibleProjects": 0
+        },
+        {
+          "query": "SVGverseAI",
+          "name": "mcplint",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}

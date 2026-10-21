@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "project": "mergeglass",
+      "study_url": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters",
+      "commit": "b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3",
+      "path": "studies/expert-parameters/README.md",
+      "bytes": 8384,
+      "sha256": "b58951f6ed37dd48c563109432a71467c8a5c5f60677fdbae58043cd52856784",
+      "public_source_matches_pinned_git_object": true,
+      "demo_url": null,
+      "registry_url": null
+    },
+    {
+      "project": "mcplint",
+      "study_url": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices",
+      "commit": "49e98dcb9fba7b560a1e1a8010e85b2febcb793e",
+      "path": "studies/finite-choices/README.md",
+      "bytes": 7361,
+      "sha256": "5031dbc380c5fd32a95bc9a9df835fb55a43880005bac14c075adea6a170d309",
+      "public_source_matches_pinned_git_object": true,
+      "demo_url": "https://antonsoo.github.io/mcplint/filesystem-dependencies.html",
+      "registry_url": "https://www.npmjs.com/package/@antonsoloviev/mcplint"
+    }
+  ]
+}

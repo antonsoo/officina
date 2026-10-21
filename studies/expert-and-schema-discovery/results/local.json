@@ -1,0 +1,164 @@
+{
+  "checkedAtUtc": "2026-10-21T00:36:02.761Z",
+  "base": "http://127.0.0.1:4195/officina/",
+  "phase": "after",
+  "scope": "Actual served catalogue, specified workflow queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "MoE expert",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44 native MoE saves: omitted experts give gain 0; wrong B order changes a zero-reference expert. Saved-head and bias controls stay replayable.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters"
+        },
+        {
+          "query": "scaled B bias",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44 native MoE saves: omitted experts give gain 0; wrong B order changes a zero-reference expert. Saved-head and bias controls stay replayable.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters"
+        },
+        {
+          "query": "enum/type",
+          "name": "mcplint",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nFour native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
+          "studyUrl": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices"
+        },
+        {
+          "query": "SVGverseAI",
+          "name": "mcplint",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nFour native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
+          "studyUrl": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "MoE expert",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44 native MoE saves: omitted experts give gain 0; wrong B order changes a zero-reference expert. Saved-head and bias controls stay replayable.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters"
+        },
+        {
+          "query": "scaled B bias",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44 native MoE saves: omitted experts give gain 0; wrong B order changes a zero-reference expert. Saved-head and bias controls stay replayable.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters"
+        },
+        {
+          "query": "enum/type",
+          "name": "mcplint",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nFour native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
+          "studyUrl": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices"
+        },
+        {
+          "query": "SVGverseAI",
+          "name": "mcplint",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nFour native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
+          "studyUrl": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "MoE expert",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44 native MoE saves: omitted experts give gain 0; wrong B order changes a zero-reference expert. Saved-head and bias controls stay replayable.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters"
+        },
+        {
+          "query": "scaled B bias",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44 native MoE saves: omitted experts give gain 0; wrong B order changes a zero-reference expert. Saved-head and bias controls stay replayable.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters"
+        },
+        {
+          "query": "enum/type",
+          "name": "mcplint",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nFour native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
+          "studyUrl": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices"
+        },
+        {
+          "query": "SVGverseAI",
+          "name": "mcplint",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nFour native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
+          "studyUrl": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "MoE expert",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44 native MoE saves: omitted experts give gain 0; wrong B order changes a zero-reference expert. Saved-head and bias controls stay replayable.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters"
+        },
+        {
+          "query": "scaled B bias",
+          "name": "mergeglass",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n44 native MoE saves: omitted experts give gain 0; wrong B order changes a zero-reference expert. Saved-head and bias controls stay replayable.",
+          "studyUrl": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters"
+        },
+        {
+          "query": "enum/type",
+          "name": "mcplint",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nFour native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
+          "studyUrl": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices"
+        },
+        {
+          "query": "SVGverseAI",
+          "name": "mcplint",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nFour native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
+          "studyUrl": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}
