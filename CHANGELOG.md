@@ -22,6 +22,11 @@ All notable changes to this project are documented in this file.
 
 ### Changed
 
+- Find Gnomon's opposite-face construction and polar azimuth evidence, and
+  ToneMirror's per-voice pitch floor tradeoffs, through the catalogue's search.
+  Link pinned studies and keep the physical/learner validation limits visible.
+- Update Vite to 7.3.7 with the patched development editor launcher.
+
 - Make DoRA norm inspection and saved AcroForm appearances searchable, with
   immutable links to native measurements and the required Fieldproof source upgrade.
 

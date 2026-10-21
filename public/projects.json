@@ -18,15 +18,15 @@
   },
   {
     "name": "gnomon",
-    "description": "Design horizontal, wall, equatorial and analemmatic sundials; export dimensioned SVGs and full-scale PDF construction kits.",
+    "description": "Design horizontal, wall, equatorial and analemmatic sundials; preview either equatorial face and print a full-scale kit with a shared mirrored cut.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gnomon",
     "demoUrl": "https://antonsoo.github.io/gnomon/",
     "thumbnail": "thumbs/gnomon.webp",
     "status": "published",
     "study": {
-      "finding": "26 PDF kits, 192 pages: digital checks cover dimensions, angles and tile seams. Physical printing, assembly and outdoor accuracy remain unverified.",
-      "url": "https://github.com/antonsoo/gnomon/blob/4bdf1ebee39f832bcc579aeb11b55a0f77663da9/docs/verification-2026-10-10.md"
+      "finding": "Pole-facing and opposite faces share one cut; polar azimuth corrected. Native checks: 1,383 SVG rays, 3,521 PDF ray copies. Physical assembly unverified.",
+      "url": "https://github.com/antonsoo/gnomon/tree/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces"
     }
   },
   {
@@ -44,15 +44,15 @@
   },
   {
     "name": "tonemirror",
-    "description": "Practice Mandarin intonation with recorded examples, preserve unvoiced gaps, and choose separate stereo channels for reference and practice audio.",
+    "description": "Practice with recorded Mandarin; preserve unvoiced gaps and choose separate stereo channels and a pitch search floor for each voice.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/tonemirror",
     "demoUrl": "https://antonsoo.github.io/tonemirror/",
     "thumbnail": "thumbs/tonemirror.webp",
     "status": "published",
     "study": {
-      "finding": "Constructed stereo from recorded Mandarin: silent mix refused; either channel keeps 227 voiced frames. Pronunciation accuracy remains untested.",
-      "url": "https://github.com/antonsoo/tonemirror/tree/129cd2f541bed48f8f5c0d0d7716c6ec03163df2/studies/file-channels"
+      "finding": "580 recordings: 40 Hz improves reference agreement below 60 Hz but adds false voicing. Separate voice floors; default 60 Hz. Pronunciation untested.",
+      "url": "https://github.com/antonsoo/tonemirror/tree/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor"
     }
   },
   {

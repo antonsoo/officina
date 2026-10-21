@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "project": "gnomon",
+      "sourceCommit": "2ce34ef5829c8b5ab45d5ff97232f5b19626b017",
+      "path": "studies/equatorial-faces/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/gnomon/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces/README.md",
+      "bytes": 10693,
+      "sha256": "e3dffbb3cb8517dfd95c5e7e6286148c13e8f33e4ca51d558caa295112f5d07f",
+      "matchedGitObject": true
+    },
+    {
+      "project": "tonemirror",
+      "sourceCommit": "83db3423af49dcfac7c9b3ed5c2518c9a8a1a956",
+      "path": "studies/pitch-floor/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/tonemirror/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor/README.md",
+      "bytes": 12176,
+      "sha256": "4004c22088051e92bdf894356aa56f29ff036891f5442516f281578420059e29",
+      "matchedGitObject": true
+    }
+  ]
+}

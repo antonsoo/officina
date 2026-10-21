@@ -1,0 +1,164 @@
+{
+  "checkedAtUtc": "2026-10-21T11:34:54.283Z",
+  "base": "http://127.0.0.1:4195/officina/",
+  "phase": "after",
+  "scope": "Actual served catalogue, specified workflow queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "opposite face",
+          "name": "gnomon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nPole-facing and opposite faces share one cut; polar azimuth corrected. Native checks: 1,383 SVG rays, 3,521 PDF ray copies. Physical assembly unverified.",
+          "studyUrl": "https://github.com/antonsoo/gnomon/tree/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces"
+        },
+        {
+          "query": "polar azimuth",
+          "name": "gnomon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nPole-facing and opposite faces share one cut; polar azimuth corrected. Native checks: 1,383 SVG rays, 3,521 PDF ray copies. Physical assembly unverified.",
+          "studyUrl": "https://github.com/antonsoo/gnomon/tree/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces"
+        },
+        {
+          "query": "pitch search floor",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings: 40 Hz improves reference agreement below 60 Hz but adds false voicing. Separate voice floors; default 60 Hz. Pronunciation untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor"
+        },
+        {
+          "query": "40 Hz",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings: 40 Hz improves reference agreement below 60 Hz but adds false voicing. Separate voice floors; default 60 Hz. Pronunciation untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "opposite face",
+          "name": "gnomon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nPole-facing and opposite faces share one cut; polar azimuth corrected. Native checks: 1,383 SVG rays, 3,521 PDF ray copies. Physical assembly unverified.",
+          "studyUrl": "https://github.com/antonsoo/gnomon/tree/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces"
+        },
+        {
+          "query": "polar azimuth",
+          "name": "gnomon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nPole-facing and opposite faces share one cut; polar azimuth corrected. Native checks: 1,383 SVG rays, 3,521 PDF ray copies. Physical assembly unverified.",
+          "studyUrl": "https://github.com/antonsoo/gnomon/tree/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces"
+        },
+        {
+          "query": "pitch search floor",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings: 40 Hz improves reference agreement below 60 Hz but adds false voicing. Separate voice floors; default 60 Hz. Pronunciation untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor"
+        },
+        {
+          "query": "40 Hz",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings: 40 Hz improves reference agreement below 60 Hz but adds false voicing. Separate voice floors; default 60 Hz. Pronunciation untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "opposite face",
+          "name": "gnomon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nPole-facing and opposite faces share one cut; polar azimuth corrected. Native checks: 1,383 SVG rays, 3,521 PDF ray copies. Physical assembly unverified.",
+          "studyUrl": "https://github.com/antonsoo/gnomon/tree/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces"
+        },
+        {
+          "query": "polar azimuth",
+          "name": "gnomon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nPole-facing and opposite faces share one cut; polar azimuth corrected. Native checks: 1,383 SVG rays, 3,521 PDF ray copies. Physical assembly unverified.",
+          "studyUrl": "https://github.com/antonsoo/gnomon/tree/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces"
+        },
+        {
+          "query": "pitch search floor",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings: 40 Hz improves reference agreement below 60 Hz but adds false voicing. Separate voice floors; default 60 Hz. Pronunciation untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor"
+        },
+        {
+          "query": "40 Hz",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings: 40 Hz improves reference agreement below 60 Hz but adds false voicing. Separate voice floors; default 60 Hz. Pronunciation untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "opposite face",
+          "name": "gnomon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nPole-facing and opposite faces share one cut; polar azimuth corrected. Native checks: 1,383 SVG rays, 3,521 PDF ray copies. Physical assembly unverified.",
+          "studyUrl": "https://github.com/antonsoo/gnomon/tree/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces"
+        },
+        {
+          "query": "polar azimuth",
+          "name": "gnomon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nPole-facing and opposite faces share one cut; polar azimuth corrected. Native checks: 1,383 SVG rays, 3,521 PDF ray copies. Physical assembly unverified.",
+          "studyUrl": "https://github.com/antonsoo/gnomon/tree/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces"
+        },
+        {
+          "query": "pitch search floor",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings: 40 Hz improves reference agreement below 60 Hz but adds false voicing. Separate voice floors; default 60 Hz. Pronunciation untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor"
+        },
+        {
+          "query": "40 Hz",
+          "name": "tonemirror",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\n580 recordings: 40 Hz improves reference agreement below 60 Hz but adds false voicing. Separate voice floors; default 60 Hz. Pronunciation untested.",
+          "studyUrl": "https://github.com/antonsoo/tonemirror/tree/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}

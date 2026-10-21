@@ -1,10 +1,24 @@
 import assert from "node:assert/strict";
 import { readFile, writeFile } from "node:fs/promises";
 import { chromium, firefox } from "@playwright/test";
+import { resolve } from "node:path";
 const root = new URL("../../", import.meta.url);
-const entries = JSON.parse(await readFile(new URL("public/projects.json", root), "utf8")).filter((x) =>
-  ["mergeglass", "mcplint"].includes(x.name),
+// Optional arguments let later catalogue studies reuse the actual keyboard flow.
+const [base = "https://antonsoo.github.io/officina/", output, headingsFile] = process.argv.slice(2);
+const headings = headingsFile
+  ? JSON.parse(await readFile(resolve(headingsFile), "utf8"))
+  : {
+      mergeglass: "Follow a fused expert parameter into its saved matrices",
+      mcplint: "Declared choices that cannot satisfy their type",
+    };
+assert(
+  Object.keys(headings).length > 0 &&
+    Object.values(headings).every((title) => typeof title === "string" && title.length > 0),
 );
+const entries = JSON.parse(await readFile(new URL("public/projects.json", root), "utf8")).filter((x) =>
+  Object.hasOwn(headings, x.name),
+);
+assert.equal(entries.length, Object.keys(headings).length);
 const records = [];
 for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
   const browser = await launcher.launch();
@@ -14,7 +28,7 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
       try {
         for (const entry of entries) {
           const page = await context.newPage();
-          await page.goto("https://antonsoo.github.io/officina/");
+          await page.goto(base);
           await page.getByRole("searchbox", { name: "Find a tool" }).fill(entry.name);
           const link = page.locator(`[data-project="${entry.name}"] .card-study a`);
           await link.scrollIntoViewIfNeeded();
@@ -32,10 +46,7 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
           ]);
           assert.equal(response.status(), 200);
           assert.equal(page.url(), entry.study.url);
-          const title =
-            entry.name === "mergeglass"
-              ? "Follow a fused expert parameter into its saved matrices"
-              : "Declared choices that cannot satisfy their type";
+          const title = headings[entry.name];
           await page.getByRole("heading", { name: title, exact: true }).first().waitFor({ timeout: 15000 });
           records.push({
             engine,
@@ -58,9 +69,9 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
   }
 }
 await writeFile(
-  new URL("results/public-links.json", import.meta.url),
+  output ? resolve(output) : new URL("results/public-links.json", import.meta.url),
   JSON.stringify({ records }, null, 2) + "\n",
 );
 console.log(
-  "Eight real keyboard evidence-link navigations reached the intended pinned GitHub study headings.",
+  `${records.length} real keyboard evidence-link navigations reached the intended pinned GitHub study headings.`,
 );
