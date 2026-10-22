@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-22T07:46:40.450Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "stoicheia",
+      "url": "https://antonsoo.github.io/stoicheia/#p=20&s=7&pair=2",
+      "anchor": "#workbench",
+      "anchorTop": 16.0625,
+      "file": "thumbs/stoicheia.png",
+      "sha256": "89c3e6312c16bd0126a3bcb4d49f6422ce412df486c02e49b9c039197058e93b"
+    }
+  ]
+}

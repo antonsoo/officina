@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-10-22T07:47:21.138Z",
+  "base": "http://127.0.0.1:4380/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "search": "Euclid",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/#p=20&s=7&pair=2",
+      "keyboardDemo": true,
+      "interaction": {
+        "proposition": 20,
+        "comparedPairs": [
+          "ΒΓ + ΓΑ > ΑΒ",
+          "ΒΑ + ΑΓ > ΒΓ"
+        ],
+        "printedLatinPage": 51,
+        "converseTemporaryPremise": "Not satisfied"
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/697217ae7d015956ef1bfaf77fb81f3e150ac31a/docs/inequalities-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 124.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "search": "Euclid",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/#p=20&s=7&pair=2",
+      "keyboardDemo": true,
+      "interaction": {
+        "proposition": 20,
+        "comparedPairs": [
+          "ΒΓ + ΓΑ > ΑΒ",
+          "ΒΑ + ΑΓ > ΒΓ"
+        ],
+        "printedLatinPage": 51,
+        "converseTemporaryPremise": "Not satisfied"
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/697217ae7d015956ef1bfaf77fb81f3e150ac31a/docs/inequalities-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 623.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "search": "Euclid",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/#p=20&s=7&pair=2",
+      "keyboardDemo": true,
+      "interaction": {
+        "proposition": 20,
+        "comparedPairs": [
+          "ΒΓ + ΓΑ > ΑΒ",
+          "ΒΑ + ΑΓ > ΒΓ"
+        ],
+        "printedLatinPage": 51,
+        "converseTemporaryPremise": "Not satisfied"
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/697217ae7d015956ef1bfaf77fb81f3e150ac31a/docs/inequalities-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 127.5999984741211,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "search": "Euclid",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/#p=20&s=7&pair=2",
+      "keyboardDemo": true,
+      "interaction": {
+        "proposition": 20,
+        "comparedPairs": [
+          "ΒΓ + ΓΑ > ΑΒ",
+          "ΒΑ + ΑΓ > ΒΓ"
+        ],
+        "printedLatinPage": 51,
+        "converseTemporaryPremise": "Not satisfied"
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/697217ae7d015956ef1bfaf77fb81f3e150ac31a/docs/inequalities-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 166.60000610351562,
+      "pageErrors": []
+    }
+  ]
+}

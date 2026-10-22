@@ -53,15 +53,15 @@
   },
   {
     "name": "stoicheia",
-    "description": "Read Euclid I.1–16 in Greek, Latin and English. Explore angle bisection, perpendiculars and the exterior-angle proof beside source pages. Save offline study sheets.",
+    "description": "Read Euclid I.1–20 in Greek, Latin and English. Construct all three triangle inequalities, inspect a rejected premise, and explore bisection and perpendiculars beside the source pages.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/stoicheia",
-    "demoUrl": "https://antonsoo.github.io/stoicheia/#p=16&s=8",
+    "demoUrl": "https://antonsoo.github.io/stoicheia/#p=20&s=7&pair=2",
     "thumbnail": "thumbs/stoicheia.png",
     "status": "published",
     "study": {
-      "finding": "Euclid’s “similarly” needs a second midpoint construction. I.16 proves two inequalities without the later angle-sum theorem.",
-      "url": "https://github.com/antonsoo/stoicheia/blob/e7154dbb475aa52dc1bdf2aa2d25b6fa22185f4d/docs/right-angles-review.md#what-can-be-explored"
+      "finding": "Copying a side onto a continuation proves the triangle inequality. I.19’s rejected alternatives visibly lose the given angle premise.",
+      "url": "https://github.com/antonsoo/stoicheia/blob/697217ae7d015956ef1bfaf77fb81f3e150ac31a/docs/inequalities-review.md#what-can-be-learned"
     }
   },
   {

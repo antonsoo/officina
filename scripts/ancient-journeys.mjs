@@ -8,7 +8,7 @@ const lessons = [
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
   { id: "pyknon", query: "Seikilos", legacy: "tetrachords", heading: "Seikilos reading review" },
   { id: "gonia", query: "entasis", legacy: "Doric", heading: "What can be learned" },
-  { id: "stoicheia", query: "Euclid", legacy: "bisection", heading: "What can be explored" },
+  { id: "stoicheia", query: "Euclid", legacy: "bisection", heading: "What can be learned" },
 ];
 
 async function explore(page, id) {
@@ -119,29 +119,40 @@ async function explore(page, id) {
       allThreeWorkshopsReachable: true,
     };
   }
-  assert.equal(new URL(page.url()).hash.includes("p=16&s=8"), true);
-  assert.equal(await page.locator('#diagram [data-point="Κ"]').count(), 1);
-  assert.match(await page.locator("#diagram-notice").innerText(), /second construction/);
-  await page.locator('#step-list [data-step="7"]').click();
-  assert.equal(await page.locator('#diagram [data-point="Ζ"]').count(), 1);
-  assert.equal(await page.locator('#diagram [data-point="Κ"]').count(), 0);
-  await page.locator('#step-list [data-step="8"]').focus();
+  const state = new URLSearchParams(new URL(page.url()).hash.slice(1));
+  assert.equal(state.get("p"), "20");
+  assert.equal(state.get("s"), "7");
+  assert.equal(state.get("pair"), "2");
+  assert.equal(await page.locator('#diagram [data-point="Δ"]').count(), 1);
+  assert.match(await page.locator("#diagram-notice").innerText(), /modern expansion/);
+  assert.match(await page.locator("#equations").innerText(), /ΒΓ \+ ΓΑ/);
+  await page.locator("#pair").focus();
+  await page.keyboard.press("Home");
   await page.keyboard.press("Enter");
-  assert.equal(await page.locator('#diagram [data-point="Κ"]').count(), 1);
-  assert.deepEqual(await page.locator("#comparison tbody tr").first().locator("td").allTextContents(), [
-    "ΒΘ",
-    "ΓΘ",
-    "equal halves · I.10",
-  ]);
-  await page.locator('[data-source="45"]').first().click();
+  assert.equal(await page.locator("#pair").inputValue(), "0");
+  assert.match(await page.locator("#equations").innerText(), /ΒΑ \+ ΑΓ/);
+  await page.locator("#next").click();
+  await page.locator('#current-passage [data-source="51"]').click();
   await page.waitForFunction(() => document.querySelector("#source-image").naturalWidth > 0);
-  assert.match(await page.locator("#source-title").innerText(), /45/);
+  assert.match(await page.locator("#source-title").innerText(), /51/);
   await page.keyboard.press("Escape");
+  if (await page.locator("#lesson-select").isVisible())
+    await page.locator("#lesson-select").selectOption("19");
+  else await page.locator('.lesson-tab[data-lesson="19"]').click();
+  await page.locator('#step-list [data-step="2"]').focus();
+  await page.keyboard.press("Enter");
+  assert.match(await page.locator("#diagram-notice").innerText(), /given angle inequality no longer holds/);
+  assert.deepEqual(await page.locator("#comparison thead th").allTextContents(), [
+    "Quantity / premise",
+    "Original given",
+    "Temporary case",
+  ]);
+  assert.match(await page.locator("#comparison").innerText(), /Not satisfied/);
   return {
-    proposition: 16,
-    bothMidpointConstructions: true,
-    correspondingSides: ["ΒΘ", "ΓΘ"],
-    printedLatinPage: 45,
+    proposition: 20,
+    comparedPairs: ["ΒΓ + ΓΑ > ΑΒ", "ΒΑ + ΑΓ > ΒΓ"],
+    printedLatinPage: 51,
+    converseTemporaryPremise: "Not satisfied",
   };
 }
 
@@ -195,7 +206,15 @@ export async function runJourneys(base, out, only) {
           const demoURL = await demo.getAttribute("href");
           await demo.focus();
           await page.keyboard.press("Enter");
-          await page.waitForURL(demoURL);
+          if (lesson.id === "stoicheia") {
+            const target = new URL(demoURL);
+            await page.waitForURL(
+              (url) =>
+                url.origin === target.origin &&
+                url.pathname === target.pathname &&
+                new URLSearchParams(url.hash.slice(1)).get("p") === "20",
+            );
+          } else await page.waitForURL(demoURL);
           const interaction = await explore(page, lesson.id);
           assert.equal(
             await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1),

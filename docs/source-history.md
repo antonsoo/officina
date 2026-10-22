@@ -540,3 +540,7 @@ published release, retaining exact source commits and reference-resolution evide
 The [geometry readings](geometry-readings-2026-10-21.md) add the Rhind papyrus
 workshop and measured Parthenon entasis, with native catalogue-to-source
 journeys and complete publication receipts.
+
+The [Euclid inequality reading](euclid-inequalities-2026-10-22.md) connects
+the twenty-proposition Greek/Latin reader to its new construction and
+temporary-premise workflows.

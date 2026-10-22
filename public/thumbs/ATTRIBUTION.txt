@@ -50,3 +50,10 @@ Screenshot of the application's original plots of Penrose's 1888 measurements
 and predictions. The left plot retains equal scales; the right explicitly
 marks horizontal enlargement. No source photograph is included. Diagram and
 screenshot: Anton Soloviev, MIT.
+
+Stoicheia triangle-inequality thumbnail (stoicheia.png, updated 2026-10-22)
+
+Screenshot of the application's original I.20 construction and parallel reading.
+The third side-pair drawing explicitly expands the source's "similarly".
+Greek and Latin text: Heiberg 1883, public domain. New English and coordinate
+diagram: Anton Soloviev, MIT. No source-page scan is included.

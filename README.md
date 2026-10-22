@@ -106,6 +106,9 @@ real 37-of-38-file mismatch, corrected deployments and controlled propagation
 checks. Browser behavior, source publication and registry releases need their
 own evidence.
 
+The [Euclid inequality reading](docs/euclid-inequalities-2026-10-22.md) opens
+I.20’s third construction and follows the lost premise in I.19.
+
 ## Design
 
 Imperial Roman: a parchment ground, a crimson accent, gold hairlines,
