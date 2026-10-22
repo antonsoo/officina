@@ -30,3 +30,11 @@ heading must land visibly through native fragment navigation.
 The earlier [four-reading record](ancient-readings-2026-10-21.md) remains an
 account of its own published revision. Current publication and browser evidence
 is retained in [the geometry-reading receipts](evidence/geometry-readings-2026-10-21/).
+
+The published revision was verified on 22 October 2026 UTC. All 46 files
+(1,992,758 bytes) matched the completed clean build, including the canonical
+root before and after the comparison. Eight public catalogue-to-lesson-to-source
+journeys passed in Chromium and Firefox at 1280 and 375 pixels. Their four
+screenshots were visually reviewed. Source publication and Pages publication
+are separate records; the clean-build receipt also explicitly supersedes an
+earlier, premature empty inventory.
