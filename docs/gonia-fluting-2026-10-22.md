@@ -15,5 +15,10 @@ checks. Native navigation reaches the pinned source review's intended heading.
 
 The numerical study is a source-based geometric interpretation. Its source
 pages, Latin editorial brackets, Greek context, model dimensions and printer
-scaling boundary remain explicit. Public catalogue bytes and journeys are
-recorded after publication.
+scaling boundary remain explicit. Source commit `e5d74bb` and Pages commit `a6d33e9` were pushed.
+The [canonical public byte check](evidence/gonia-fluting-2026-10-22/hosted-bytes.json)
+matched all 49 build files. The [public journeys](evidence/gonia-fluting-2026-10-22/hosted-journeys.json)
+passed in both engines and widths. They follow the final pinned Gonia source
+`52b883e70ecdf6821ebcc33212571756f6dde3df`, which includes actual public
+file identities and existing-tab offline upgrades. The local journeys use
+the initial source pin `314e600`; the final public route verifies its replacement.

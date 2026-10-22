@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-10-22T22:41:02.010Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "search": "flute",
+      "legacySearch": "entasis",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/fluting.html?recipe=doric&width=100&fillet=20&point=50&gauge=1&compare=0#fluting-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "circleDifferenceMm": 2.042,
+        "fivePointMaximumMm": 16.508,
+        "sourceDecoded": "Penrose 41",
+        "doricDepthMm": 20.71,
+        "ionicDepthMm": 50,
+        "movingIonicAngle": 90,
+        "nativeTemplateDownloaded": true,
+        "greekGenitivesRead": true,
+        "allFourWorkshopsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/52b883e70ecdf6821ebcc33212571756f6dde3df/docs/fluting-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 450.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "search": "flute",
+      "legacySearch": "entasis",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/fluting.html?recipe=doric&width=100&fillet=20&point=50&gauge=1&compare=0#fluting-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "circleDifferenceMm": 2.042,
+        "fivePointMaximumMm": 16.508,
+        "sourceDecoded": "Penrose 41",
+        "doricDepthMm": 20.71,
+        "ionicDepthMm": 50,
+        "movingIonicAngle": 90,
+        "nativeTemplateDownloaded": true,
+        "greekGenitivesRead": true,
+        "allFourWorkshopsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/52b883e70ecdf6821ebcc33212571756f6dde3df/docs/fluting-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 599.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "search": "flute",
+      "legacySearch": "entasis",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/fluting.html?recipe=doric&width=100&fillet=20&point=50&gauge=1&compare=0#fluting-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "circleDifferenceMm": 2.042,
+        "fivePointMaximumMm": 16.508,
+        "sourceDecoded": "Penrose 41",
+        "doricDepthMm": 20.71,
+        "ionicDepthMm": 50,
+        "movingIonicAngle": 90,
+        "nativeTemplateDownloaded": true,
+        "greekGenitivesRead": true,
+        "allFourWorkshopsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/52b883e70ecdf6821ebcc33212571756f6dde3df/docs/fluting-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 209.60000610351562,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "search": "flute",
+      "legacySearch": "entasis",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/fluting.html?recipe=doric&width=100&fillet=20&point=50&gauge=1&compare=0#fluting-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "circleDifferenceMm": 2.042,
+        "fivePointMaximumMm": 16.508,
+        "sourceDecoded": "Penrose 41",
+        "doricDepthMm": 20.71,
+        "ionicDepthMm": 50,
+        "movingIonicAngle": 90,
+        "nativeTemplateDownloaded": true,
+        "greekGenitivesRead": true,
+        "allFourWorkshopsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/52b883e70ecdf6821ebcc33212571756f6dde3df/docs/fluting-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 334.6000061035156,
+      "pageErrors": []
+    }
+  ]
+}
