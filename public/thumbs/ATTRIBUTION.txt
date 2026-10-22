@@ -13,6 +13,27 @@ decoded to mono, excerpts selected, pitch contours drawn by ToneMirror and
 the resulting application screenshot framed and re-encoded for this catalogue.
 No endorsement by the recording's creator is implied.
 
+Pyknon thumbnail (pyknon.png)
+
+Screenshot of Pyknon's Seikilos reader by Anton Soloviev. The inscription
+photograph is by Lennart Larsen / Nationalmuseet, AS-10006:
+https://samlinger.natmus.dk/as/asset/10006
+Licensed under Creative Commons Attribution-ShareAlike 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+This thumbnail is distributed under CC BY-SA 4.0. Changes: the application
+shows a selected viewport of the photograph with a highlighted syllable;
+the screenshot includes the modern reading diagram and notes. No endorsement
+by the photographer or museum is implied.
+
+Shiguzhai thumbnail (shiguzhai.png)
+
+Screenshot of the application's original frequency chart, based on the
+published measurement table in Li et al. (2024), Heritage Science 12:264:
+https://doi.org/10.1186/s40494-024-01377-0
+The article's data are CC0 unless otherwise stated. No museum photograph
+is included in this thumbnail. Screenshot and chart: Anton Soloviev, MIT.
+
 Other project thumbnails retain the repository's existing notices and MIT
 license unless separately attributed. This notice does not change the
 licenses of the catalogue's code or the linked applications.

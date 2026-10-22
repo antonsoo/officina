@@ -1,41 +1,54 @@
 [
   {
+    "name": "shiguzhai",
+    "description": "Explore ten ancient Chinese bronze bells through 87 published frequency measurements, museum photographs and listening comparisons. Change the modern tuning grid without moving the evidence.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/shiguzhai",
+    "demoUrl": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439#listen",
+    "thumbnail": "thumbs/shiguzhai.png",
+    "status": "published",
+    "study": {
+      "finding": "At A4=440 Hz, 87 listed frequencies map to ten modern keys; at 439 Hz, nine. The measured frequencies stay fixed.",
+      "url": "https://github.com/antonsoo/shiguzhai/blob/1cbfc3a3476e6cb10555830a28b38c13cadb2511/docs/sources.md#what-the-controls-do"
+    }
+  },
+  {
     "name": "pyknon",
-    "description": "Hear Archytas’s ancient Greek tetrachords, compare them with modern piano keys, and read the Greek and Latin source behind the ratios.",
+    "description": "Read and hear the Seikilos song beside its Greek inscription, then explore Archytas’s tetrachords and their Greek and Latin sources. Save the annotated melody offline.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/pyknon",
-    "demoUrl": "https://antonsoo.github.io/pyknon/?g=enharmonic&a=220&d=up#listen",
+    "demoUrl": "https://antonsoo.github.io/pyknon/song.html?s=3&a=220&pace=150#reader",
     "thumbnail": "thumbs/pyknon.png",
     "status": "published",
     "study": {
-      "finding": "A 48.77-cent enharmonic interval disappears when two pitches round to B-flat. 304 generated tones measured against source-derived frequencies.",
-      "url": "https://github.com/antonsoo/pyknon/blob/363105d2fa9aac34700983cc0965b358a81b68f9/docs/model.md#what-modern-rounding-removes"
+      "finding": "29 Greek syllables, 37 notes and 48 timing units connect the inscription to modern playback; the final pitch retains an explicit source disagreement.",
+      "url": "https://github.com/antonsoo/pyknon/blob/5f98f6847b28d7b6a270cc801db3365f63f04107/docs/seikilos-review.md#seikilos-reading-review"
     }
   },
   {
     "name": "gonia",
-    "description": "Why does a Doric temple change rhythm at the corner? Adjust the beam, compare three compromises, and learn the Greek and Latin names of the parts.",
+    "description": "Explore Vitruvius’s five column-spacing systems and the Doric corner problem. Change the frontage, compare a wider central passage, and read the Latin with Greek vocabulary.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gonia",
-    "demoUrl": "https://antonsoo.github.io/gonia/?b=2.00&t=widen#workshop",
+    "demoUrl": "https://antonsoo.github.io/gonia/spacing.html?system=eustyle&n=6&hold=front&front=18&centre=wide#spacing-workshop",
     "thumbnail": "thumbs/gonia.png",
     "status": "published",
     "study": {
-      "finding": "603 corner geometries checked against exact positional constraints. Contraction preserves the frieze rhythm but leaves the corner triglyph off-axis.",
-      "url": "https://github.com/antonsoo/gonia/blob/4ffadaced8ea90b41a826daa451480083e8128d0/docs/model.md#coordinates-and-constraints"
+      "finding": "Eustyle spacing gives the central passage 3 diameters and ordinary gaps 2¼. Remove that allowance at fixed frontage and the column diameter changes.",
+      "url": "https://github.com/antonsoo/gonia/blob/e3c6346d92fc2a33290e6d864b6a810cc7044c3f/docs/spacing-review.md#the-lesson"
     }
   },
   {
     "name": "stoicheia",
-    "description": "Read Euclid I.1–10 in Greek, Latin and English beside interactive constructions. Inspect the printed source, test assumptions, and save offline study sheets.",
+    "description": "Read Euclid I.1–16 in Greek, Latin and English. Explore angle bisection, perpendiculars and the exterior-angle proof beside source pages. Save offline study sheets.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/stoicheia",
-    "demoUrl": "https://antonsoo.github.io/stoicheia/#p=9&s=7&a=45",
+    "demoUrl": "https://antonsoo.github.io/stoicheia/#p=16&s=8",
     "thumbnail": "thumbs/stoicheia.png",
     "status": "published",
     "study": {
-      "finding": "Both circle crossings checked across 378 angle-bisection cases; the alternate ray can collapse or point outward. Numerical model, not formal proof.",
-      "url": "https://github.com/antonsoo/stoicheia/blob/306bae294ba8de25dfa0cefdd88b0d89dc11d84b/docs/review.md#the-circle-crossing-choice"
+      "finding": "Euclid’s “similarly” needs a second midpoint construction. I.16 proves two inequalities without the later angle-sum theorem.",
+      "url": "https://github.com/antonsoo/stoicheia/blob/e7154dbb475aa52dc1bdf2aa2d25b6fa22185f4d/docs/right-angles-review.md#what-can-be-explored"
     }
   },
   {

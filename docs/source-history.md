@@ -1,5 +1,10 @@
 # Source update history
 
+The [ancient reading expansion](ancient-readings-2026-10-21.md) adds Shiguzhai's
+bronze-bell measurements and updates three existing destinations: Seikilos's
+syllables, Vitruvius's wider central passage and Euclid's second I.16 construction.
+It supersedes the three initial demo and evidence destinations recorded below.
+
 The [tetrachord listening update](pyknon-2026-10-21.md) adds Pyknon: exact
 ancient ratios, a modern-key comparison that merges two enharmonic pitches,
 Greek vocabulary and scanned sources. The evidence link pins the source model;
