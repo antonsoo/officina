@@ -1,0 +1,95 @@
+{
+  "checkedAt": "2026-10-22T20:56:30.208Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "pnigeus",
+      "search": "water organ",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pnigeus/?tank=6&events=P.P.P.K1.W5#experiment",
+      "keyboardDemo": true,
+      "interaction": {
+        "gaugePressurePa": 410,
+        "actionSequenceRestored": true,
+        "keyboardPumpAndUndo": true,
+        "latinWaterSubject": true,
+        "sourceFigureDecoded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pnigeus/blob/2ba0b7d8be3f5b439067f5efd8f954f28092972a/docs/publication.md#what-can-be-learned",
+      "pinnedHeadingTop": 539.375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "pnigeus",
+      "search": "water organ",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pnigeus/?tank=6&events=P.P.P.K1.W5#experiment",
+      "keyboardDemo": true,
+      "interaction": {
+        "gaugePressurePa": 410,
+        "actionSequenceRestored": true,
+        "keyboardPumpAndUndo": true,
+        "latinWaterSubject": true,
+        "sourceFigureDecoded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pnigeus/blob/2ba0b7d8be3f5b439067f5efd8f954f28092972a/docs/publication.md#what-can-be-learned",
+      "pinnedHeadingTop": 492.9375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "pnigeus",
+      "search": "water organ",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pnigeus/?tank=6&events=P.P.P.K1.W5#experiment",
+      "keyboardDemo": true,
+      "interaction": {
+        "gaugePressurePa": 410,
+        "actionSequenceRestored": true,
+        "keyboardPumpAndUndo": true,
+        "latinWaterSubject": true,
+        "sourceFigureDecoded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pnigeus/blob/2ba0b7d8be3f5b439067f5efd8f954f28092972a/docs/publication.md#what-can-be-learned",
+      "pinnedHeadingTop": 215,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "pnigeus",
+      "search": "water organ",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pnigeus/?tank=6&events=P.P.P.K1.W5#experiment",
+      "keyboardDemo": true,
+      "interaction": {
+        "gaugePressurePa": 410,
+        "actionSequenceRestored": true,
+        "keyboardPumpAndUndo": true,
+        "latinWaterSubject": true,
+        "sourceFigureDecoded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pnigeus/blob/2ba0b7d8be3f5b439067f5efd8f954f28092972a/docs/publication.md#what-can-be-learned",
+      "pinnedHeadingTop": 533.7999877929688,
+      "pageErrors": []
+    }
+  ]
+}
