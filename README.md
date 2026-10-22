@@ -42,6 +42,10 @@ The [source update history](docs/source-history.md) collects later fixes,
 workflow additions and their retained verification. Each record distinguishes
 source changes from package releases and hosted deployments.
 
+The [four ancient readings](docs/ancient-readings-2026-10-21.md) connect the
+bronze-bell measurements, Seikilos's syllables, Vitruvius's column spacing and
+Euclid's exterior-angle construction to their sources and working demos.
+
 Thumbnails use a 1200:750 aspect ratio. They are real demo screenshots or
 cropped CLI output, stored as WebP or PNG. [`scripts/make_thumb.py`](scripts/make_thumb.py)
 can compress a screenshot to WebP. For explanatory diagrams, take the screenshot

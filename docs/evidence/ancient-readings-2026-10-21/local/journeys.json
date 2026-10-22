@@ -1,0 +1,363 @@
+{
+  "checkedAt": "2026-10-22T04:56:00.291Z",
+  "base": "http://127.0.0.1:4362/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "shiguzhai",
+      "search": "bronze bells",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439#listen",
+      "keyboardDemo": true,
+      "interaction": {
+        "entries": 87,
+        "keysAt439": 9,
+        "keysAt440": 10,
+        "measuredPointsUnchanged": true,
+        "playbackStartedAndStopped": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/shiguzhai/blob/1cbfc3a3476e6cb10555830a28b38c13cadb2511/docs/sources.md#what-the-controls-do",
+      "pinnedHeadingTop": 468.78125,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "pyknon",
+      "search": "Seikilos",
+      "legacySearch": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pyknon/song.html?s=3&a=220&pace=150#reader",
+      "keyboardDemo": true,
+      "interaction": {
+        "selectedSyllable": "φαί",
+        "notes": 3,
+        "museumPhotographDecoded": true,
+        "versePlaybackStartedAndStopped": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/5f98f6847b28d7b6a270cc801db3365f63f04107/docs/seikilos-review.md#seikilos-reading-review",
+      "pinnedHeadingTop": 376,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "search": "Vitruvius",
+      "legacySearch": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/spacing.html?system=eustyle&n=6&hold=front&front=18&centre=wide#spacing-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "columns": 6,
+        "frontMetres": 18,
+        "centralGapBefore": 3,
+        "centralGapAfter": 2.25,
+        "printedSourceDecoded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/e3c6346d92fc2a33290e6d864b6a810cc7044c3f/docs/spacing-review.md#the-lesson",
+      "pinnedHeadingTop": 587.765625,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "search": "Euclid",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/#p=16&s=8",
+      "keyboardDemo": true,
+      "interaction": {
+        "proposition": 16,
+        "bothMidpointConstructions": true,
+        "correspondingSides": [
+          "ΒΘ",
+          "ΓΘ"
+        ],
+        "printedLatinPage": 45
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/e7154dbb475aa52dc1bdf2aa2d25b6fa22185f4d/docs/right-angles-review.md#what-can-be-explored",
+      "pinnedHeadingTop": 650.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "shiguzhai",
+      "search": "bronze bells",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439#listen",
+      "keyboardDemo": true,
+      "interaction": {
+        "entries": 87,
+        "keysAt439": 9,
+        "keysAt440": 10,
+        "measuredPointsUnchanged": true,
+        "playbackStartedAndStopped": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/shiguzhai/blob/1cbfc3a3476e6cb10555830a28b38c13cadb2511/docs/sources.md#what-the-controls-do",
+      "pinnedHeadingTop": 264.78125,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "pyknon",
+      "search": "Seikilos",
+      "legacySearch": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pyknon/song.html?s=3&a=220&pace=150#reader",
+      "keyboardDemo": true,
+      "interaction": {
+        "selectedSyllable": "φαί",
+        "notes": 3,
+        "museumPhotographDecoded": true,
+        "versePlaybackStartedAndStopped": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/5f98f6847b28d7b6a270cc801db3365f63f04107/docs/seikilos-review.md#seikilos-reading-review",
+      "pinnedHeadingTop": 227,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "search": "Vitruvius",
+      "legacySearch": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/spacing.html?system=eustyle&n=6&hold=front&front=18&centre=wide#spacing-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "columns": 6,
+        "frontMetres": 18,
+        "centralGapBefore": 3,
+        "centralGapAfter": 2.25,
+        "printedSourceDecoded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/e3c6346d92fc2a33290e6d864b6a810cc7044c3f/docs/spacing-review.md#the-lesson",
+      "pinnedHeadingTop": 622.328125,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "search": "Euclid",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/#p=16&s=8",
+      "keyboardDemo": true,
+      "interaction": {
+        "proposition": 16,
+        "bothMidpointConstructions": true,
+        "correspondingSides": [
+          "ΒΘ",
+          "ΓΘ"
+        ],
+        "printedLatinPage": 45
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/e7154dbb475aa52dc1bdf2aa2d25b6fa22185f4d/docs/right-angles-review.md#what-can-be-explored",
+      "pinnedHeadingTop": 159.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "shiguzhai",
+      "search": "bronze bells",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439#listen",
+      "keyboardDemo": true,
+      "interaction": {
+        "entries": 87,
+        "keysAt439": 9,
+        "keysAt440": 10,
+        "measuredPointsUnchanged": true,
+        "playbackStartedAndStopped": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/shiguzhai/blob/1cbfc3a3476e6cb10555830a28b38c13cadb2511/docs/sources.md#what-the-controls-do",
+      "pinnedHeadingTop": 677.7999877929688,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "pyknon",
+      "search": "Seikilos",
+      "legacySearch": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pyknon/song.html?s=3&a=220&pace=150#reader",
+      "keyboardDemo": true,
+      "interaction": {
+        "selectedSyllable": "φαί",
+        "notes": 3,
+        "museumPhotographDecoded": true,
+        "versePlaybackStartedAndStopped": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/5f98f6847b28d7b6a270cc801db3365f63f04107/docs/seikilos-review.md#seikilos-reading-review",
+      "pinnedHeadingTop": 301,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "search": "Vitruvius",
+      "legacySearch": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/spacing.html?system=eustyle&n=6&hold=front&front=18&centre=wide#spacing-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "columns": 6,
+        "frontMetres": 18,
+        "centralGapBefore": 3,
+        "centralGapAfter": 2.25,
+        "printedSourceDecoded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/e3c6346d92fc2a33290e6d864b6a810cc7044c3f/docs/spacing-review.md#the-lesson",
+      "pinnedHeadingTop": 326.20001220703125,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "search": "Euclid",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/#p=16&s=8",
+      "keyboardDemo": true,
+      "interaction": {
+        "proposition": 16,
+        "bothMidpointConstructions": true,
+        "correspondingSides": [
+          "ΒΘ",
+          "ΓΘ"
+        ],
+        "printedLatinPage": 45
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/e7154dbb475aa52dc1bdf2aa2d25b6fa22185f4d/docs/right-angles-review.md#what-can-be-explored",
+      "pinnedHeadingTop": 334.6000061035156,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "shiguzhai",
+      "search": "bronze bells",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439#listen",
+      "keyboardDemo": true,
+      "interaction": {
+        "entries": 87,
+        "keysAt439": 9,
+        "keysAt440": 10,
+        "measuredPointsUnchanged": true,
+        "playbackStartedAndStopped": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/shiguzhai/blob/1cbfc3a3476e6cb10555830a28b38c13cadb2511/docs/sources.md#what-the-controls-do",
+      "pinnedHeadingTop": 175.8000030517578,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "pyknon",
+      "search": "Seikilos",
+      "legacySearch": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pyknon/song.html?s=3&a=220&pace=150#reader",
+      "keyboardDemo": true,
+      "interaction": {
+        "selectedSyllable": "φαί",
+        "notes": 3,
+        "museumPhotographDecoded": true,
+        "versePlaybackStartedAndStopped": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/5f98f6847b28d7b6a270cc801db3365f63f04107/docs/seikilos-review.md#seikilos-reading-review",
+      "pinnedHeadingTop": 384,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "search": "Vitruvius",
+      "legacySearch": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/spacing.html?system=eustyle&n=6&hold=front&front=18&centre=wide#spacing-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "columns": 6,
+        "frontMetres": 18,
+        "centralGapBefore": 3,
+        "centralGapAfter": 2.25,
+        "printedSourceDecoded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/e3c6346d92fc2a33290e6d864b6a810cc7044c3f/docs/spacing-review.md#the-lesson",
+      "pinnedHeadingTop": 687,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "search": "Euclid",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/#p=16&s=8",
+      "keyboardDemo": true,
+      "interaction": {
+        "proposition": 16,
+        "bothMidpointConstructions": true,
+        "correspondingSides": [
+          "ΒΘ",
+          "ΓΘ"
+        ],
+        "printedLatinPage": 45
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/e7154dbb475aa52dc1bdf2aa2d25b6fa22185f4d/docs/right-angles-review.md#what-can-be-explored",
+      "pinnedHeadingTop": 826.5999755859375,
+      "pageErrors": []
+    }
+  ]
+}
