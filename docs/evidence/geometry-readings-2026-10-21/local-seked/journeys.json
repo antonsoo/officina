@@ -1,0 +1,95 @@
+{
+  "checkedAt": "2026-10-22T06:50:39.834Z",
+  "base": "http://127.0.0.1:4380/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "seked",
+      "search": "Rhind",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/seked/?p=59&rows=3&step=3&reading=written#reader",
+      "keyboardDemo": true,
+      "interaction": {
+        "statementPalms": "7/3",
+        "workingPalms": "21/4",
+        "literalResultPalms": "11/2",
+        "keyboardFractionSum": "3/4",
+        "sourceDecoded": "Peet 100"
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/seked/blob/c0c99a3edd967a224d4eb60e0651c6671c743ed5/docs/review.md#what-can-be-learned",
+      "pinnedHeadingTop": 450.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "seked",
+      "search": "Rhind",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/seked/?p=59&rows=3&step=3&reading=written#reader",
+      "keyboardDemo": true,
+      "interaction": {
+        "statementPalms": "7/3",
+        "workingPalms": "21/4",
+        "literalResultPalms": "11/2",
+        "keyboardFractionSum": "3/4",
+        "sourceDecoded": "Peet 100"
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/seked/blob/c0c99a3edd967a224d4eb60e0651c6671c743ed5/docs/review.md#what-can-be-learned",
+      "pinnedHeadingTop": 559.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "seked",
+      "search": "Rhind",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/seked/?p=59&rows=3&step=3&reading=written#reader",
+      "keyboardDemo": true,
+      "interaction": {
+        "statementPalms": "7/3",
+        "workingPalms": "21/4",
+        "literalResultPalms": "11/2",
+        "keyboardFractionSum": "3/4",
+        "sourceDecoded": "Peet 100"
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/seked/blob/c0c99a3edd967a224d4eb60e0651c6671c743ed5/docs/review.md#what-can-be-learned",
+      "pinnedHeadingTop": 210.60000610351562,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "seked",
+      "search": "Rhind",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/seked/?p=59&rows=3&step=3&reading=written#reader",
+      "keyboardDemo": true,
+      "interaction": {
+        "statementPalms": "7/3",
+        "workingPalms": "21/4",
+        "literalResultPalms": "11/2",
+        "keyboardFractionSum": "3/4",
+        "sourceDecoded": "Peet 100"
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/seked/blob/c0c99a3edd967a224d4eb60e0651c6671c743ed5/docs/review.md#what-can-be-learned",
+      "pinnedHeadingTop": 266.6000061035156,
+      "pageErrors": []
+    }
+  ]
+}

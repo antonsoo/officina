@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-22T06:50:59.661Z",
+  "base": "http://127.0.0.1:4380/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "search": "entasis",
+      "legacySearch": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/entasis.html?station=1&enlarge=200&prediction=circle&units=metric&compare=equal#entasis-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "circleDifferenceMm": 2.042,
+        "fivePointMaximumMm": 16.508,
+        "sourceDecoded": "Penrose 41",
+        "allThreeWorkshopsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/2f6b6a2e3eb3dd01cf3a37801745352aebce5c9f/docs/entasis-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 184.375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "search": "entasis",
+      "legacySearch": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/entasis.html?station=1&enlarge=200&prediction=circle&units=metric&compare=equal#entasis-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "circleDifferenceMm": 2.042,
+        "fivePointMaximumMm": 16.508,
+        "sourceDecoded": "Penrose 41",
+        "allThreeWorkshopsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/2f6b6a2e3eb3dd01cf3a37801745352aebce5c9f/docs/entasis-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 769.15625,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "search": "entasis",
+      "legacySearch": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/entasis.html?station=1&enlarge=200&prediction=circle&units=metric&compare=equal#entasis-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "circleDifferenceMm": 2.042,
+        "fivePointMaximumMm": 16.508,
+        "sourceDecoded": "Penrose 41",
+        "allThreeWorkshopsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/2f6b6a2e3eb3dd01cf3a37801745352aebce5c9f/docs/entasis-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 244,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "search": "entasis",
+      "legacySearch": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/gonia/entasis.html?station=1&enlarge=200&prediction=circle&units=metric&compare=equal#entasis-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "circleDifferenceMm": 2.042,
+        "fivePointMaximumMm": 16.508,
+        "sourceDecoded": "Penrose 41",
+        "allThreeWorkshopsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/2f6b6a2e3eb3dd01cf3a37801745352aebce5c9f/docs/entasis-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 307.3999938964844,
+      "pageErrors": []
+    }
+  ]
+}
