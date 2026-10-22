@@ -112,6 +112,11 @@ own evidence.
 The [Euclid inequality reading](docs/euclid-inequalities-2026-10-22.md) opens
 I.20’s third construction and follows the lost premise in I.19.
 
+The [Euclid discovery review](docs/gonia-segments-2026-10-22.md) connects the
+architecture lesson, music experiment and full reading course. The
+[original carving review](docs/gonia-fluting-2026-10-22.md) retains the earlier
+four-workshop publication evidence.
+
 ## Design
 
 Imperial Roman: a parchment ground, a crimson accent, gold hairlines,
@@ -129,7 +134,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 [MIT](LICENSE) (c) 2026 Anton Soloviev
-
-The [Gonia flute-carving discovery review](docs/gonia-fluting-2026-10-22.md) follows the catalogue through all four architecture workshops.
-
-[Euclid discovery review](docs/gonia-segments-2026-10-22.md): the catalogue keeps architecture, music and the full reading course findable.

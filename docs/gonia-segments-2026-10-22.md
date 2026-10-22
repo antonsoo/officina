@@ -27,4 +27,12 @@ verify the existing triangle-inequality reading with three visible search
 results. Both run in Chromium and Firefox at 1280 and 375 px. Native fragment
 navigation reaches each immutable source heading.
 
-Public bytes and routes are retained after catalogue deployment.
+Source `b53a61d` and Pages `fc374df` were pushed. The
+[canonical public receipt](evidence/gonia-segments-2026-10-22/hosted-bytes.json)
+verified all 49 current build files. The [public Gonia journeys](evidence/gonia-segments-2026-10-22/hosted-gonia.json)
+and [public Stoicheia journeys](evidence/gonia-segments-2026-10-22/hosted-stoicheia.json)
+passed in both engines and widths: eight complete catalogue-to-lesson-to-source
+routes, with one and three observed search results respectively. The intended
+project is selected among the results; both immutable headings are reached
+through native fragment navigation. This is direct public evidence, separate
+from source pushes or local builds.
