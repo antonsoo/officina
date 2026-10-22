@@ -1,0 +1,28 @@
+{
+  "scope": "Reviewed static build and public catalogue-to-lesson-to-source navigation. These records do not infer a remote CI result.",
+  "checkedAt": "2026-10-22T05:01:26.763485+00:00",
+  "sourceCommit": "34aa9becd4a8c068f33f8fd36a132c5ed8f3e68d",
+  "runtimeSourceCommit": "77f507ea5e1bcea50bcbc0fcee3c078dedc9aec3",
+  "pagesCommit": "be05b7bcc7e3fd4470c80fa28129b45ba55b29d0",
+  "url": "https://antonsoo.github.io/officina/",
+  "canonicalFiles": 45,
+  "directoryEntryBeforeAndAfter": "verified",
+  "localJourneys": 16,
+  "publicJourneys": 16,
+  "browsers": [
+    "Chromium 153.0.8010.12",
+    "Firefox 155.0"
+  ],
+  "widths": [
+    1280,
+    375
+  ],
+  "receipts": [
+    "build.json",
+    "local-bytes.json",
+    "local/journeys.json",
+    "hosted-bytes.json",
+    "public/journeys.json",
+    "thumbnails.json"
+  ]
+}

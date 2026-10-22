@@ -1,5 +1,12 @@
 # Four ancient readings
 
+Published runtime/catalogue revision: `77f507ea5e1bcea50bcbc0fcee3c078dedc9aec3`.
+All 45 canonical files and the directory entry matched the clean build. Sixteen
+local-catalogue journeys and sixteen public-catalogue journeys reached the
+intended lesson and pinned evidence heading. The
+[publication record](evidence/ancient-readings-2026-10-21/publication.json)
+separates those observations from source and Pages commits.
+
 The catalogue now has 22 projects. Shiguzhai adds an ancient Chinese collection
 with a particularly revealing modern classification problem. The three existing
 Greek and Roman projects open their new lessons directly, instead of leaving
