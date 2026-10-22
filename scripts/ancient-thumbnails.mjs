@@ -5,9 +5,10 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const cards = JSON.parse(await readFile("public/projects.json", "utf8"));
 const anchors = {
+  seked: ".reading-desk",
   shiguzhai: ".reference-control",
   pyknon: ".verse-tabs",
-  gonia: "#spacing-drawing-area",
+  gonia: ".entasis-figures",
   stoicheia: "#workbench",
 };
 const browser = await chromium.launch();
@@ -18,7 +19,9 @@ const report = {
   captures: [],
 };
 try {
-  for (const [name, anchor] of Object.entries(anchors)) {
+  for (const [name, anchor] of Object.entries(anchors).filter(
+    ([name]) => !process.argv[3] || process.argv.slice(3).includes(name),
+  )) {
     const card = cards.find((c) => c.name.toLowerCase() === name);
     const page = await browser.newPage({ viewport: report.viewport });
     await page.goto(card.demoUrl);
@@ -61,6 +64,6 @@ try {
 } finally {
   await browser.close();
 }
-const out = "docs/evidence/ancient-readings-2026-10-21";
+const out = process.argv[2] ?? "docs/evidence/ancient-readings-2026-10-21";
 await mkdir(out, { recursive: true });
 await writeFile(`${out}/thumbnails.json`, JSON.stringify(report, null, 2) + "\n");

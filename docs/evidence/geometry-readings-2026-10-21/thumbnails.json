@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-22T06:48:32.092Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "seked",
+      "url": "https://antonsoo.github.io/seked/?p=59&rows=3&step=3&reading=written#reader",
+      "anchor": ".reading-desk",
+      "anchorTop": 21.609375,
+      "file": "thumbs/seked.png",
+      "sha256": "f5b96c3b7c879e57906b70e266d55c00d568788e07b4adb5003e2df1f2ffa0d3"
+    },
+    {
+      "project": "gonia",
+      "url": "https://antonsoo.github.io/gonia/entasis.html?station=1&enlarge=200&prediction=circle&units=metric&compare=equal#entasis-workshop",
+      "anchor": ".entasis-figures",
+      "anchorTop": 25.453125,
+      "file": "thumbs/gonia.png",
+      "sha256": "61cb5cb4fcf26169cdb990aa9672a7ad0f28fc35e8ab3f593aa88aa86cdb1fd6"
+    }
+  ]
+}

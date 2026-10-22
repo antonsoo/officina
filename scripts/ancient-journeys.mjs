@@ -4,9 +4,10 @@ import { pathToFileURL } from "node:url";
 import { chromium, firefox, expect } from "@playwright/test";
 
 const lessons = [
+  { id: "seked", query: "Rhind", heading: "What can be learned" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
   { id: "pyknon", query: "Seikilos", legacy: "tetrachords", heading: "Seikilos reading review" },
-  { id: "gonia", query: "Vitruvius", legacy: "Doric", heading: "The lesson" },
+  { id: "gonia", query: "entasis", legacy: "Doric", heading: "What can be learned" },
   { id: "stoicheia", query: "Euclid", legacy: "bisection", heading: "What can be explored" },
 ];
 
@@ -73,29 +74,49 @@ async function explore(page, id) {
       versePlaybackStartedAndStopped: true,
     };
   }
-  if (id === "gonia") {
-    assert.equal(await page.locator("#column-count").inputValue(), "6");
-    assert.equal(await page.locator("#front-width").inputValue(), "18");
-    assert.equal(await page.locator("#equal-centre").isChecked(), false);
-    const numbers = page.locator("#spacing-numbers");
-    const before = await numbers.innerText();
-    assert.match(before, /Central clear gap\s+3 D/);
-    await page.locator("#equal-centre").focus();
-    await page.keyboard.press("Space");
-    assert.equal(await page.locator("#equal-centre").isChecked(), true);
-    const after = await numbers.innerText();
-    assert.match(after, /Central clear gap\s+2.25 D/);
-    assert.notEqual(after, before);
-    assert.equal(await page.locator("#front-width").inputValue(), "18");
-    assert.match(await page.locator("#scale-description").innerText(), /18 m/);
-    await page.locator("#inspect-passage").click();
-    await page.waitForFunction(() => document.querySelector("#source-figure img")?.naturalWidth > 0);
+  if (id === "seked") {
+    assert.equal(await page.locator("#lesson-palms").innerText(), "2 1/3 palms");
+    assert.match(await page.locator("#step-text").innerText(), /five palms and two fingers/);
+    await page.locator('[data-reading="working"]').focus();
+    await page.keyboard.press("Enter");
+    assert.equal(await page.locator("#lesson-palms").innerText(), "5 1/4 palms");
+    await page.locator("#clear-rows").click();
+    for (const i of [0, 1]) {
+      await page.locator(`#row-${i}`).focus();
+      await page.keyboard.press("Space");
+    }
+    assert.match(await page.locator("#reckoning-sum").innerText(), /Target reached/);
+    await page.locator("#read-peet").click();
+    await page.locator("#scan-window img").evaluate((img) => img.decode());
+    assert.match(await page.locator("#scan-caption").innerText(), /Peet/);
     return {
-      columns: 6,
-      frontMetres: 18,
-      centralGapBefore: 3,
-      centralGapAfter: 2.25,
-      printedSourceDecoded: true,
+      statementPalms: "7/3",
+      workingPalms: "21/4",
+      literalResultPalms: "11/2",
+      keyboardFractionSum: "3/4",
+      sourceDecoded: "Peet 100",
+    };
+  }
+  if (id === "gonia") {
+    assert.equal(await page.locator("#entasis-station").inputValue(), "1");
+    assert.equal(await page.locator("#entasis-enlargement").inputValue(), "200");
+    assert.equal(await page.locator("#entasis-prediction").inputValue(), "circle");
+    assert.match(await page.locator("#prediction-assessment").innerText(), /2\.042 mm/);
+    await page.locator("#inspect-rounding").focus();
+    await page.keyboard.press("Enter");
+    assert.equal(await page.locator("#entasis-prediction").inputValue(), "hyperbola");
+    assert.match(await page.locator("#entasis-equation").innerText(), /16\.508 mm/);
+    await page.locator('a[data-source="41"]').first().click();
+    await page.locator("#entasis-scan-window img").evaluate((img) => img.decode());
+    await page.getByRole("link", { name: "Column spacing", exact: true }).click();
+    assert.equal(await page.locator("#spacing-title").innerText(), "The space between columns");
+    await page.getByRole("link", { name: "Doric corner", exact: true }).click();
+    assert.equal(await page.locator("#workshop-title").innerText(), "The corner workshop");
+    return {
+      circleDifferenceMm: 2.042,
+      fivePointMaximumMm: 16.508,
+      sourceDecoded: "Penrose 41",
+      allThreeWorkshopsReachable: true,
     };
   }
   assert.equal(new URL(page.url()).hash.includes("p=16&s=8"), true);

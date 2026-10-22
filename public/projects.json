@@ -1,5 +1,18 @@
 [
   {
+    "name": "seked",
+    "description": "Read six Egyptian slope exercises from the Rhind papyrus. Reconstruct exact fraction rows, compare face and corner sections, and inspect written numbers that disagree with the working.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/seked",
+    "demoUrl": "https://antonsoo.github.io/seked/?p=59&rows=3&step=3&reading=written#reader",
+    "thumbnail": "thumbs/seked.png",
+    "status": "published",
+    "study": {
+      "finding": "Problem 59 keeps three results separate: stated dimensions give 7/3 palms, the working gives 21/4, and the literal text ends with 11/2.",
+      "url": "https://github.com/antonsoo/seked/blob/c0c99a3edd967a224d4eb60e0651c6671c743ed5/docs/review.md#what-can-be-learned"
+    }
+  },
+  {
     "name": "shiguzhai",
     "description": "Explore ten ancient Chinese bronze bells through 87 published frequency measurements, museum photographs and listening comparisons. Change the modern tuning grid without moving the evidence.",
     "group": "Ancient world",
@@ -27,15 +40,15 @@
   },
   {
     "name": "gonia",
-    "description": "Explore Vitruvius’s five column-spacing systems and the Doric corner problem. Change the frontage, compare a wider central passage, and read the Latin with Greek vocabulary.",
+    "description": "Measure the Parthenon’s entasis from Penrose’s five survey points, compare his circular and hyperbolic predictions, and read Vitruvius’s Latin. Explore column spacing and the Doric corner too.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gonia",
-    "demoUrl": "https://antonsoo.github.io/gonia/spacing.html?system=eustyle&n=6&hold=front&front=18&centre=wide#spacing-workshop",
+    "demoUrl": "https://antonsoo.github.io/gonia/entasis.html?station=1&enlarge=200&prediction=circle&units=metric&compare=equal#entasis-workshop",
     "thumbnail": "thumbs/gonia.png",
     "status": "published",
     "study": {
-      "finding": "Eustyle spacing gives the central passage 3 diameters and ordinary gaps 2¼. Remove that allowance at fixed frontage and the column diameter changes.",
-      "url": "https://github.com/antonsoo/gonia/blob/e3c6346d92fc2a33290e6d864b6a810cc7044c3f/docs/spacing-review.md#the-lesson"
+      "finding": "Five offsets reveal a curve beyond the straight taper. Three circle points are fitted, and the hyperbola table differs slightly from its prose.",
+      "url": "https://github.com/antonsoo/gonia/blob/2f6b6a2e3eb3dd01cf3a37801745352aebce5c9f/docs/entasis-review.md#what-can-be-learned"
     }
   },
   {

@@ -37,3 +37,16 @@ is included in this thumbnail. Screenshot and chart: Anton Soloviev, MIT.
 Other project thumbnails retain the repository's existing notices and MIT
 license unless separately attributed. This notice does not change the
 licenses of the catalogue's code or the linked applications.
+
+Seked thumbnail (seked.png)
+
+Screenshot of the application's original measured section, unit triangle and
+new English explanation of Rhind problem 59. No source scan or museum photograph
+is included. Illustration, prose and screenshot: Anton Soloviev, MIT.
+
+Gonia entasis thumbnail (gonia.png, updated 2026-10-21)
+
+Screenshot of the application's original plots of Penrose's 1888 measurements
+and predictions. The left plot retains equal scales; the right explicitly
+marks horizontal enlargement. No source photograph is included. Diagram and
+screenshot: Anton Soloviev, MIT.

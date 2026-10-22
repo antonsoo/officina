@@ -536,3 +536,7 @@ static deployments and unchanged registry releases.
 The [setup-uv reference repair](setup-uv-refs-2026-10-19.md) replaces 20
 unresolvable action references across eight public repositories with the actual
 published release, retaining exact source commits and reference-resolution evidence.
+
+The [geometry readings](geometry-readings-2026-10-21.md) add the Rhind papyrus
+workshop and measured Parthenon entasis, with native catalogue-to-source
+journeys and complete publication receipts.
