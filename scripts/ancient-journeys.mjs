@@ -8,7 +8,7 @@ const lessons = [
   { id: "seked", query: "Rhind", heading: "What can be learned" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
   { id: "pyknon", query: "Seikilos", legacy: "tetrachords", heading: "Seikilos reading review" },
-  { id: "gonia", query: "entasis", legacy: "Doric", heading: "What can be learned" },
+  { id: "gonia", query: "flute", legacy: "entasis", heading: "What can be learned" },
   { id: "stoicheia", query: "Euclid", legacy: "bisection", heading: "What can be learned" },
 ];
 
@@ -131,9 +131,24 @@ async function explore(page, id) {
     };
   }
   if (id === "gonia") {
-    assert.equal(await page.locator("#entasis-station").inputValue(), "1");
-    assert.equal(await page.locator("#entasis-enlargement").inputValue(), "200");
-    assert.equal(await page.locator("#entasis-prediction").inputValue(), "circle");
+    assert.equal(await page.locator("#cut-depth").innerText(), "20.71 mm");
+    assert.equal(await page.locator("#edge-angle").innerText(), "135°");
+    await page.locator("#recipe").selectOption("ionic");
+    assert.equal(await page.locator("#cut-depth").innerText(), "50.00 mm");
+    assert.equal(await page.locator("#gauge-miss").innerText(), "0.00 mm");
+    await page.locator("#point").focus();
+    await page.keyboard.press("End");
+    assert.equal(await page.locator("#edge-angle").innerText(), "90°");
+    const [template] = await Promise.all([page.waitForEvent("download"), page.locator("#save-template").click()]);
+    assert.equal(template.suggestedFilename(), "gonia-ionic-100mm.svg");
+    await page.locator('[data-source="2"]').click();
+    await page.locator("#source-window img").evaluate(img=>img.decode());
+    assert.match(await page.locator(".genitive-line").innerText(), /κίονος/);
+    await page.getByRole("link",{name:"Entasis",exact:true}).click();
+    await page.locator("#entasis-station").fill("1");
+    await page.locator("#entasis-station").dispatchEvent("input");
+    await page.locator("#entasis-enlargement").selectOption("200");
+    await page.locator("#entasis-prediction").selectOption("circle");
     assert.match(await page.locator("#prediction-assessment").innerText(), /2\.042 mm/);
     await page.locator("#inspect-rounding").focus();
     await page.keyboard.press("Enter");
@@ -149,7 +164,7 @@ async function explore(page, id) {
       circleDifferenceMm: 2.042,
       fivePointMaximumMm: 16.508,
       sourceDecoded: "Penrose 41",
-      allThreeWorkshopsReachable: true,
+      doricDepthMm:20.71, ionicDepthMm:50, movingIonicAngle:90, nativeTemplateDownloaded:true, greekGenitivesRead:true, allFourWorkshopsReachable: true,
     };
   }
   const state = new URLSearchParams(new URL(page.url()).hash.slice(1));

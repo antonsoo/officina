@@ -9,7 +9,7 @@ const anchors = {
   seked: ".reading-desk",
   shiguzhai: ".reference-control",
   pyknon: ".verse-tabs",
-  gonia: ".entasis-figures",
+  gonia: ".fluting-plates",
   stoicheia: "#workbench",
 };
 const browser = await chromium.launch();

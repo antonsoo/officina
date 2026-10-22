@@ -129,3 +129,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 [MIT](LICENSE) (c) 2026 Anton Soloviev
+
+The [Gonia flute-carving discovery review](docs/gonia-fluting-2026-10-22.md) follows the catalogue through all four architecture workshops.

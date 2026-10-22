@@ -1,5 +1,7 @@
 # Source update history
 
+2026-10-22: [Gonia flute carving](gonia-fluting-2026-10-22.md) connects its fourth room, true-scale paper template, Latin instructions and Aristotle’s Greek to the catalogue.
+
 The [chamber-shape discovery update](pnigeus-shapes-2026-10-22.md) opens Hero’s
 hemisphere study and Greek source reading, then reaches the retained pump
 workshop. Actual air space and ambient-equivalent gas remain distinct.

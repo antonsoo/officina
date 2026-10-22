@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-22T22:31:30.002Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "gonia",
+      "url": "https://antonsoo.github.io/gonia/fluting.html?recipe=doric&width=100&fillet=20&point=50&gauge=1&compare=0#fluting-workshop",
+      "anchor": ".fluting-plates",
+      "anchorTop": 24.53125,
+      "file": "thumbs/gonia.png",
+      "sha256": "dcd681f8cc8e7cd611d9b44b8ad2927e1d574d18d46c9b101e38679e101bc0c1"
+    }
+  ]
+}
