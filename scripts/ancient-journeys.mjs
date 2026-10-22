@@ -192,16 +192,18 @@ export async function runJourneys(base, out, only) {
           await heading.waitFor();
           // Observe native fragment navigation after hydration; never scroll
           // the heading into position to make a broken link pass.
+          let headingTop;
           await expect
             .poll(
               async () => {
                 const box = await heading.boundingBox();
-                return box !== null && box.y >= -2 && box.y < 900;
+                const visible = box !== null && box.y >= -2 && box.y < 900;
+                if (visible) headingTop = box.y;
+                return visible;
               },
               { timeout: 15000 },
             )
             .toBe(true);
-          const box = await heading.boundingBox();
           assert.deepEqual(errors, []);
           report.configurations.push({
             browser: name,
@@ -216,7 +218,7 @@ export async function runJourneys(base, out, only) {
             keyboardDemo: true,
             interaction,
             pinnedEvidence: expected,
-            pinnedHeadingTop: box.y,
+            pinnedHeadingTop: headingTop,
             pageErrors: errors,
           });
           await context.close();

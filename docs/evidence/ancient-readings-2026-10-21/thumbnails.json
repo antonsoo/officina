@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-22T04:50:51.982Z",
+  "checkedAt": "2026-10-22T04:54:40.148Z",
   "browser": "153.0.8010.12",
   "viewport": {
     "width": 1200,
@@ -10,20 +10,23 @@
       "project": "shiguzhai",
       "url": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439#listen",
       "anchor": ".reference-control",
+      "anchorTop": 24.453125,
       "file": "thumbs/shiguzhai.png",
-      "sha256": "94d5ecd7ad571bf7975b9b69b37c26ca9153b3cad50dddab34c8aab7968fd750"
+      "sha256": "abfd87e5e48fc7ddd82bcbb42c0ce590d721c2c50aa342fceb5c916598b6a2f8"
     },
     {
       "project": "pyknon",
       "url": "https://antonsoo.github.io/pyknon/song.html?s=3&a=220&pace=150#reader",
       "anchor": ".verse-tabs",
+      "anchorTop": 0.421875,
       "file": "thumbs/pyknon.png",
-      "sha256": "0c8d0074fbd433a3290fcca28d1d973d57816eccc2cda7be49422b7c0a62cf59"
+      "sha256": "33cd98553514578e44b80486631c57cf4db95abbad67da6b0040a3bdd254dfff"
     },
     {
       "project": "gonia",
       "url": "https://antonsoo.github.io/gonia/spacing.html?system=eustyle&n=6&hold=front&front=18&centre=wide#spacing-workshop",
       "anchor": "#spacing-drawing-area",
+      "anchorTop": 24.765625,
       "file": "thumbs/gonia.png",
       "sha256": "b2e6781ac845306b33493ded8d1201f68eeef63f262aeb06e26d1034dffefba8"
     },
@@ -31,6 +34,7 @@
       "project": "stoicheia",
       "url": "https://antonsoo.github.io/stoicheia/#p=16&s=8",
       "anchor": "#workbench",
+      "anchorTop": 15.90625,
       "file": "thumbs/stoicheia.png",
       "sha256": "5c4d58a86f9fb5618e536d293761d87625e2dd0e4acb0d7191aaeaad270ebb58"
     }

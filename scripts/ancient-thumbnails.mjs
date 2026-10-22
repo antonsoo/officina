@@ -1,5 +1,6 @@
 import { chromium } from "@playwright/test";
 import { createHash } from "node:crypto";
+import assert from "node:assert/strict";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const cards = JSON.parse(await readFile("public/projects.json", "utf8"));
@@ -22,7 +23,20 @@ try {
     const page = await browser.newPage({ viewport: report.viewport });
     await page.goto(card.demoUrl);
     await page.evaluate(() => document.fonts.ready);
-    await page.locator(anchor).evaluate((e) => e.scrollIntoView({ block: "start" }));
+    // Let the application's own fragment scroll finish before choosing the
+    // screenshot frame. Otherwise a scheduled frame can undo our scroll.
+    await page.evaluate(
+      () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
+    );
+    await page.locator(anchor).evaluate((e) => e.scrollIntoView({ block: "start", behavior: "instant" }));
+    await page.evaluate(
+      () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
+    );
+    const anchorTop = (await page.locator(anchor).boundingBox()).y;
+    assert.ok(
+      Math.abs(anchorTop) <= 32,
+      `${name}: screenshot anchor is outside the intended frame (${anchorTop})`,
+    );
     if (name === "pyknon")
       await page.waitForFunction(async () => {
         const img = new Image();
@@ -36,6 +50,7 @@ try {
       project: name,
       url: card.demoUrl,
       anchor,
+      anchorTop,
       file: card.thumbnail,
       sha256: createHash("sha256")
         .update(await readFile(path))
