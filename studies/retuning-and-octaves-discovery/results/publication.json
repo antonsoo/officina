@@ -1,0 +1,18 @@
+{
+  "source": "8df88cd2041aeaab5662c3e25ba7d7fc68af3bbc",
+  "pages": "7dc61b4232ef20612003a51d71b0c44a11dffe0f",
+  "publicBytes": "verified",
+  "canonicalFileCount": 48,
+  "priorFilesPreserved": 45,
+  "changedPriorFiles": [
+    "projects.json",
+    "thumbs/ATTRIBUTION.txt"
+  ],
+  "newThumbnails": [
+    "thumbs/sammu.png",
+    "thumbs/pyknon-canon.png"
+  ],
+  "hostedSearches": 28,
+  "evidenceKeyboardNavigations": 8,
+  "demoKeyboardNavigations": 8
+}

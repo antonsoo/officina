@@ -32,3 +32,9 @@ The review links identify their source commits and source locations. Sammû’s 
 <img src="../../docs/assets/octave-discovery-phone.png" width="300" alt="Pyknon’s octave proof found by its Pythagorean comma on a 375 px catalogue view">
 
 The new thumbnails and these two screenshots contain original programmatic diagrams and explanatory prose, with no article figure, tablet photograph or third-party recording. Their screenshot content is MIT; existing earlier thumbnail notices remain in the catalogue attribution file.
+
+## Published catalogue
+
+Source `8df88cd` and Pages `7dc61b4` publish the two entries. A fresh installation passes lint, the 38 existing unit cases, strict typecheck and build; its 48 files are byte-identical to the reviewed working build ([build record](results/build.json)). [All 48 canonical hosted files](results/public-bytes.json) match that build. Forty-five prior files remain byte-identical; only `projects.json` and attribution text change, alongside the two new thumbnails.
+
+[Public search replay](results/public.json) repeats all 28 searches and offline filtering. [Eight public keyboard evidence links](results/public-links.json) reach the intended pinned GitHub headings. [Eight public keyboard demo links](results/public-demos.json) reach the requested running experiments, including their numerical state. [Publication receipt](results/publication.json).
