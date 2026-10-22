@@ -1,5 +1,18 @@
 [
   {
+    "name": "pyknon",
+    "description": "Hear Archytas’s ancient Greek tetrachords, compare them with modern piano keys, and read the Greek and Latin source behind the ratios.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/pyknon",
+    "demoUrl": "https://antonsoo.github.io/pyknon/?g=enharmonic&a=220&d=up#listen",
+    "thumbnail": "thumbs/pyknon.png",
+    "status": "published",
+    "study": {
+      "finding": "A 48.77-cent enharmonic interval disappears when two pitches round to B-flat. 304 generated tones measured against source-derived frequencies.",
+      "url": "https://github.com/antonsoo/pyknon/blob/363105d2fa9aac34700983cc0965b358a81b68f9/docs/model.md#what-modern-rounding-removes"
+    }
+  },
+  {
     "name": "gonia",
     "description": "Why does a Doric temple change rhythm at the corner? Adjust the beam, compare three compromises, and learn the Greek and Latin names of the parts.",
     "group": "Ancient world",

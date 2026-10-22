@@ -1,5 +1,10 @@
 # Source update history
 
+The [tetrachord listening update](pyknon-2026-10-21.md) adds Pyknon: exact
+ancient ratios, a modern-key comparison that merges two enharmonic pitches,
+Greek vocabulary and scanned sources. The evidence link pins the source model;
+actual browser journeys check that the catalogue leads to the working lesson.
+
 The [Doric corner workshop update](gonia-2026-10-21.md) adds Gonia: a measured
 architectural problem with Greek and Latin vocabulary and Vitruvius’s account.
 The demo opens the widened-metope example; the evidence link pins the model’s
