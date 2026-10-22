@@ -1,7 +1,7 @@
 [
   {
     "name": "sammu",
-    "description": "Follow an Old Babylonian retuning procedure on nine strings. Hear changing overtones, learn Akkadian terms, and keep exact pitch histories from this Mesopotamian model.",
+    "description": "Follow an Old Babylonian retuning procedure on nine strings. Retune by ear with isolated partials, hear overtones, learn Akkadian terms, and keep exact pitch histories from a Mesopotamian model.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/sammu",
     "demoUrl": "https://antonsoo.github.io/sammu/?start=isartum&a=440&companions=octave&sound=plucked&moves=LLLLLLL#cycle",
