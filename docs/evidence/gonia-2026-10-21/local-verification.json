@@ -1,0 +1,19 @@
+{
+  "sourceCommit": "e5dbe8efe08438d3700ab2c75e944cc6885953f5",
+  "checkedAt": "2026-10-22T00:23:12.221498+00:00",
+  "node": "24.22.0",
+  "freshInstall": "npm ci",
+  "checks": [
+    "lint",
+    "typecheck",
+    "format:check",
+    "test",
+    "build",
+    "playwright test"
+  ],
+  "unitChecks": 38,
+  "browserScenarios": 32,
+  "catalogueEntries": 20,
+  "newDemoJourneys": 4,
+  "scope": "Unchanged catalogue application code; new Gonia record and screenshot. Fresh source export and install."
+}
