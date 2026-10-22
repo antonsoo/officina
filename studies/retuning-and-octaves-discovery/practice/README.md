@@ -17,3 +17,5 @@ node scripts/replay-native-workflow-search.mjs http://127.0.0.1:4387/officina/ /
 ```
 
 The parent [retuning and octave study](../README.md) retains the initial publication, keyboard navigation and demo-state evidence. Sammû’s [practice review](https://github.com/antonsoo/sammu/blob/b025186cf2cd6e36142a6822a4a78289b84abe62/docs/practice-review.md) identifies its implementation, numerical controls, native packet and offline upgrade.
+
+Published source: `bce6d1d`; Pages: `e489164`. [All 48 canonical hosted files](public-bytes.json) match the build, with only the catalogue description changed. [All forty hosted searches](public.json) repeat the local results and offline filtering in both engines at both widths. The earlier demo and evidence targets are unchanged. [Build inventory and forty-seven preserved files](build.json).
