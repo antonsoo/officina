@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-22T00:23:53.405Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "width": 1280,
+      "search": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "beam": 2,
+      "metope": 2,
+      "contractedBay": 4.5,
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/4ffadaced8ea90b41a826daa451480083e8128d0/docs/model.md#coordinates-and-constraints",
+      "pinnedHeadingTop": 538.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "search": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "beam": 2,
+      "metope": 2,
+      "contractedBay": 4.5,
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/4ffadaced8ea90b41a826daa451480083e8128d0/docs/model.md#coordinates-and-constraints",
+      "pinnedHeadingTop": 767.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1280,
+      "search": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "beam": 2,
+      "metope": 2,
+      "contractedBay": 4.5,
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/4ffadaced8ea90b41a826daa451480083e8128d0/docs/model.md#coordinates-and-constraints",
+      "pinnedHeadingTop": 235.60000610351562,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "search": "Doric",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "beam": 2,
+      "metope": 2,
+      "contractedBay": 4.5,
+      "pinnedEvidence": "https://github.com/antonsoo/gonia/blob/4ffadaced8ea90b41a826daa451480083e8128d0/docs/model.md#coordinates-and-constraints",
+      "pinnedHeadingTop": 223.60000610351562,
+      "pageErrors": []
+    }
+  ]
+}
