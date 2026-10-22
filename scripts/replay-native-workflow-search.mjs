@@ -61,7 +61,10 @@ for (const [engine, launch] of Object.entries({ chromium, firefox })) {
             );
             finding = await card.locator(".card-study").innerText();
             studyUrl = await card.locator(".card-study a").getAttribute("href");
-            assert.match(studyUrl, /github\.com\/antonsoo\/[^/]+\/tree\/[a-f0-9]{40}\/studies\//);
+            assert.match(
+              studyUrl,
+              /github\.com\/antonsoo\/[^/]+\/(?:tree|blob)\/[a-f0-9]{40}\/(?:studies|docs)\//,
+            );
             assert.equal(
               await card.locator(".card-links a").evaluateAll((links) =>
                 links.every((link) => {

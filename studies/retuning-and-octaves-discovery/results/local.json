@@ -1,0 +1,248 @@
+{
+  "checkedAtUtc": "2026-10-22T11:15:15.767Z",
+  "base": "http://127.0.0.1:4387/officina/",
+  "phase": "after",
+  "scope": "Actual served catalogue, specified workflow queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "Akkadian retuning",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "Babylonian strings",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "Mesopotamian tuning",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "six whole tones",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Sectio canonis",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Euclid octave",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Pythagorean comma",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "Akkadian retuning",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "Babylonian strings",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "Mesopotamian tuning",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "six whole tones",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Sectio canonis",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Euclid octave",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Pythagorean comma",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "Akkadian retuning",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "Babylonian strings",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "Mesopotamian tuning",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "six whole tones",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Sectio canonis",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Euclid octave",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Pythagorean comma",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "Akkadian retuning",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "Babylonian strings",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "Mesopotamian tuning",
+          "name": "sammu",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+          "studyUrl": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+        },
+        {
+          "query": "six whole tones",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Sectio canonis",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Euclid octave",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        },
+        {
+          "query": "Pythagorean comma",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSix 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}

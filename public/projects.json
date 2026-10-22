@@ -1,5 +1,18 @@
 [
   {
+    "name": "sammu",
+    "description": "Follow an Old Babylonian retuning procedure on nine strings. Hear changing overtones, learn Akkadian terms, and keep exact pitch histories from this Mesopotamian model.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/sammu",
+    "demoUrl": "https://antonsoo.github.io/sammu/?start=isartum&a=440&companions=octave&sound=plucked&moves=LLLLLLL#cycle",
+    "thumbnail": "thumbs/sammu.png",
+    "status": "published",
+    "study": {
+      "finding": "Seven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+      "url": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+    }
+  },
+  {
     "name": "seked",
     "description": "Read six Egyptian slope exercises from the Rhind papyrus. Reconstruct exact fraction rows, compare face and corner sections, and inspect written numbers that disagree with the working.",
     "group": "Ancient world",
@@ -27,15 +40,15 @@
   },
   {
     "name": "pyknon",
-    "description": "Read and hear the Seikilos song beside its Greek inscription, then explore Archytas’s tetrachords and their Greek and Latin sources. Save the annotated melody offline.",
+    "description": "Hear why six whole tones overshoot an octave. Read the Sectio canonis, transmitted under Euclid’s name, in Greek and Latin; explore tetrachords and the Seikilos song too.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/pyknon",
-    "demoUrl": "https://antonsoo.github.io/pyknon/song.html?s=3&a=220&pace=150#reader",
-    "thumbnail": "thumbs/pyknon.png",
+    "demoUrl": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat#canon",
+    "thumbnail": "thumbs/pyknon-canon.png",
     "status": "published",
     "study": {
-      "finding": "29 Greek syllables, 37 notes and 48 timing units connect the inscription to modern playback; the final pitch retains an explicit source disagreement.",
-      "url": "https://github.com/antonsoo/pyknon/blob/5f98f6847b28d7b6a270cc801db3365f63f04107/docs/seikilos-review.md#seikilos-reading-review"
+      "finding": "Six 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+      "url": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
     }
   },
   {

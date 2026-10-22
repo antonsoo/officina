@@ -1,0 +1,85 @@
+{
+  "base": "http://127.0.0.1:4387/officina/",
+  "records": [
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "project": "sammu",
+      "url": "https://antonsoo.github.io/sammu/?start=isartum&a=440&companions=octave&sound=plucked&moves=LLLLLLL#cycle",
+      "status": 200,
+      "keyboardEnter": true,
+      "requestedExperimentReached": true,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "project": "pyknon",
+      "url": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat#canon",
+      "status": 200,
+      "keyboardEnter": true,
+      "requestedExperimentReached": true,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "project": "sammu",
+      "url": "https://antonsoo.github.io/sammu/?start=isartum&a=440&companions=octave&sound=plucked&moves=LLLLLLL#cycle",
+      "status": 200,
+      "keyboardEnter": true,
+      "requestedExperimentReached": true,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "project": "pyknon",
+      "url": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat#canon",
+      "status": 200,
+      "keyboardEnter": true,
+      "requestedExperimentReached": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "project": "sammu",
+      "url": "https://antonsoo.github.io/sammu/?start=isartum&a=440&companions=octave&sound=plucked&moves=LLLLLLL#cycle",
+      "status": 200,
+      "keyboardEnter": true,
+      "requestedExperimentReached": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "project": "pyknon",
+      "url": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat#canon",
+      "status": 200,
+      "keyboardEnter": true,
+      "requestedExperimentReached": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "project": "sammu",
+      "url": "https://antonsoo.github.io/sammu/?start=isartum&a=440&companions=octave&sound=plucked&moves=LLLLLLL#cycle",
+      "status": 200,
+      "keyboardEnter": true,
+      "requestedExperimentReached": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "project": "pyknon",
+      "url": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat#canon",
+      "status": 200,
+      "keyboardEnter": true,
+      "requestedExperimentReached": true,
+      "errors": []
+    }
+  ]
+}

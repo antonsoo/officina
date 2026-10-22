@@ -1,0 +1,192 @@
+{
+  "checkedAtUtc": "2026-10-22T11:14:21.885Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "phase": "before",
+  "scope": "Actual served catalogue, specified workflow queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "Akkadian retuning",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Babylonian strings",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Mesopotamian tuning",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "six whole tones",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Sectio canonis",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Euclid octave",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Pythagorean comma",
+          "name": "pyknon",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "Akkadian retuning",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Babylonian strings",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Mesopotamian tuning",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "six whole tones",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Sectio canonis",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Euclid octave",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Pythagorean comma",
+          "name": "pyknon",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "Akkadian retuning",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Babylonian strings",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Mesopotamian tuning",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "six whole tones",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Sectio canonis",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Euclid octave",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Pythagorean comma",
+          "name": "pyknon",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "Akkadian retuning",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Babylonian strings",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Mesopotamian tuning",
+          "name": "sammu",
+          "visibleProjects": 0
+        },
+        {
+          "query": "six whole tones",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Sectio canonis",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Euclid octave",
+          "name": "pyknon",
+          "visibleProjects": 0
+        },
+        {
+          "query": "Pythagorean comma",
+          "name": "pyknon",
+          "visibleProjects": 0
+        }
+      ],
+      "offlineRefilter": false,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}

@@ -57,3 +57,19 @@ Screenshot of the application's original I.20 construction and parallel reading.
 The third side-pair drawing explicitly expands the source's "similarly".
 Greek and Latin text: Heiberg 1883, public domain. New English and coordinate
 diagram: Anton Soloviev, MIT. No source-page scan is included.
+
+Pyknon octave-proof thumbnail (pyknon-canon.png, added 2026-10-22)
+
+Screenshot of the application's original pitch comparison and enlarged endpoint
+diagram. The two routes and frequencies are computed from the stated numerical
+model. No source-page scan, inscription photograph or recording is included.
+Diagram, explanatory prose and screenshot: Anton Soloviev, MIT. The earlier
+Seikilos thumbnail and its separate CC BY-SA notice remain above.
+
+Sammu retuning thumbnail (sammu.png, added 2026-10-22)
+
+Actual public-workshop screenshot after one loosening operation. Numbered
+strings, exact pitch traces and explanations are original work by Anton
+Soloviev, MIT. The diagram is a modern numerical realization, not the shape
+or measured pitch of an excavated instrument. No tablet photograph, source
+figure, third-party recording or article excerpt is included.
