@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-22T20:52:53.116Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "pnigeus",
+      "url": "https://antonsoo.github.io/pnigeus/?tank=6&events=P.P.P.K1.W5#experiment",
+      "anchor": ".bench",
+      "anchorTop": -0.28125,
+      "file": "thumbs/pnigeus.png",
+      "sha256": "a350dbe14de9dcb8f11df057b33e1650c3c021e6d15ad28937e70c3b581e3edf"
+    }
+  ]
+}

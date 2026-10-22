@@ -1,5 +1,18 @@
 [
   {
+    "name": "pnigeus",
+    "description": "Pump air through an ancient water-organ regulator. Move two water levels, hear the wind reserve run out, read Vitruvius in Latin, and save an illustrated offline reading.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/pnigeus",
+    "demoUrl": "https://antonsoo.github.io/pnigeus/?tank=6&events=P.P.P.K1.W5#experiment",
+    "thumbnail": "thumbs/pnigeus.png",
+    "status": "published",
+    "study": {
+      "finding": "Three strokes give 854 Pa; one pipe for five seconds leaves 410 Pa. The water-level difference supports the wind; surplus air vents at the rim.",
+      "url": "https://github.com/antonsoo/pnigeus/blob/2ba0b7d8be3f5b439067f5efd8f954f28092972a/docs/publication.md#what-can-be-learned"
+    }
+  },
+  {
     "name": "sammu",
     "description": "Follow an Old Babylonian retuning procedure on nine strings. Retune by ear with isolated partials, hear overtones, learn Akkadian terms, and keep exact pitch histories from a Mesopotamian model.",
     "group": "Ancient world",

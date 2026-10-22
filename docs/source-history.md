@@ -1,5 +1,9 @@
 # Source update history
 
+The [water-organ discovery update](pnigeus-2026-10-22.md) adds Pnigeus: a moving
+water-and-air experiment, a Latin reading and downloadable evidence. The catalogue
+opens an actual five-second release and links its pinned public review.
+
 The [ancient reading expansion](ancient-readings-2026-10-21.md) adds Shiguzhai's
 bronze-bell measurements and updates three existing destinations: Seikilos's
 syllables, Vitruvius's wider central passage and Euclid's second I.16 construction.

@@ -4,6 +4,7 @@ import { pathToFileURL } from "node:url";
 import { chromium, firefox, expect } from "@playwright/test";
 
 const lessons = [
+  { id: "pnigeus", query: "water organ", heading: "What can be learned" },
   { id: "seked", query: "Rhind", heading: "What can be learned" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
   { id: "pyknon", query: "Seikilos", legacy: "tetrachords", heading: "Seikilos reading review" },
@@ -12,6 +13,26 @@ const lessons = [
 ];
 
 async function explore(page, id) {
+  if (id === "pnigeus") {
+    assert.equal(await page.locator("#pressure").innerText(), "410");
+    assert.equal(await page.locator("#key-0").isChecked(), true);
+    await page.locator("#pump").focus();
+    await page.keyboard.press("Enter");
+    assert.ok(Number(await page.locator("#pressure").innerText()) > 410);
+    await page.locator("#undo").click();
+    assert.equal(await page.locator("#pressure").innerText(), "410");
+    await page.locator('[data-word="aqua"]').click();
+    assert.match(await page.locator("#word-note").innerText(), /nominative subject/);
+    await page.locator(".source-figure img").scrollIntoViewIfNeeded();
+    await page.locator(".source-figure img").evaluate((img) => img.decode());
+    return {
+      gaugePressurePa: 410,
+      actionSequenceRestored: true,
+      keyboardPumpAndUndo: true,
+      latinWaterSubject: true,
+      sourceFigureDecoded: true,
+    };
+  }
   if (id === "shiguzhai") {
     assert.equal(await page.locator("#reference-pitch").inputValue(), "439");
     assert.match(await page.locator("#coverage-summary").innerText(), /87.*9 modern keys/);
