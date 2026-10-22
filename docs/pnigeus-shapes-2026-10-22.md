@@ -18,4 +18,4 @@ three-stroke/one-pipe release to 410 Pa. The pinned evidence link reaches
 its intended heading through native GitHub fragment navigation.
 
 This supersedes the initial pump-first destination; both workshops remain
-reachable. Public catalogue bytes and journeys are recorded after deployment.
+reachable. Source commit `59a53cc` and Pages commit `62f87dd` were pushed. The canonical public URLs matched all 49 expected build files by SHA-256; see [hosted bytes](evidence/pnigeus-shapes-2026-10-22/hosted-bytes.json). The [public journeys](evidence/pnigeus-shapes-2026-10-22/hosted-journeys.json) passed in both engines at both widths, including the real catalogue-to-shape-to-pump-to-pinned-source route. This is direct hosted evidence, not an inference from a Git push or HTTP status.

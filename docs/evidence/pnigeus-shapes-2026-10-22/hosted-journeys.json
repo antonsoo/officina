@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-22T22:09:00.598Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "pnigeus",
+      "search": "water organ",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pnigeus/shapes.html?r=40&fill=roof&plan=octagon&drop=30&form=hemisphere&phase=after#shape-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "geometricPresetDiameterCm": 80,
+        "halfSizeEndpointPa": 2241,
+        "greekDativeRead": true,
+        "originalSourcePageDecoded": true,
+        "pumpWorkshopReached": true,
+        "threeStrokesThenOnePipePa": 410
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pnigeus/blob/2a1f13c6328bd3fd449bd0352a16f201c9805c62/docs/shapes-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 611.765625,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "pnigeus",
+      "search": "water organ",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pnigeus/shapes.html?r=40&fill=roof&plan=octagon&drop=30&form=hemisphere&phase=after#shape-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "geometricPresetDiameterCm": 80,
+        "halfSizeEndpointPa": 2241,
+        "greekDativeRead": true,
+        "originalSourcePageDecoded": true,
+        "pumpWorkshopReached": true,
+        "threeStrokesThenOnePipePa": 410
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pnigeus/blob/2a1f13c6328bd3fd449bd0352a16f201c9805c62/docs/shapes-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 712.9375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "pnigeus",
+      "search": "water organ",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pnigeus/shapes.html?r=40&fill=roof&plan=octagon&drop=30&form=hemisphere&phase=after#shape-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "geometricPresetDiameterCm": 80,
+        "halfSizeEndpointPa": 2241,
+        "greekDativeRead": true,
+        "originalSourcePageDecoded": true,
+        "pumpWorkshopReached": true,
+        "threeStrokesThenOnePipePa": 410
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pnigeus/blob/2a1f13c6328bd3fd449bd0352a16f201c9805c62/docs/shapes-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 357.20001220703125,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "pnigeus",
+      "search": "water organ",
+      "legacySearch": null,
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pnigeus/shapes.html?r=40&fill=roof&plan=octagon&drop=30&form=hemisphere&phase=after#shape-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "geometricPresetDiameterCm": 80,
+        "halfSizeEndpointPa": 2241,
+        "greekDativeRead": true,
+        "originalSourcePageDecoded": true,
+        "pumpWorkshopReached": true,
+        "threeStrokesThenOnePipePa": 410
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pnigeus/blob/2a1f13c6328bd3fd449bd0352a16f201c9805c62/docs/shapes-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 529.7999877929688,
+      "pageErrors": []
+    }
+  ]
+}
