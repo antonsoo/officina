@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-22T21:55:11.228Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "pnigeus",
+      "url": "https://antonsoo.github.io/pnigeus/shapes.html?r=40&fill=roof&plan=octagon&drop=30&form=hemisphere&phase=after#shape-workshop",
+      "anchor": ".shape-section",
+      "anchorTop": -0.125,
+      "file": "thumbs/pnigeus.png",
+      "sha256": "0c528370d6c22555e042b51431655e5a461020086f9140b5ad8da8636a5a8779"
+    }
+  ]
+}

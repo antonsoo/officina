@@ -14,23 +14,35 @@ const lessons = [
 
 async function explore(page, id) {
   if (id === "pnigeus") {
-    assert.equal(await page.locator("#pressure").innerText(), "410");
-    assert.equal(await page.locator("#key-0").isChecked(), true);
-    await page.locator("#pump").focus();
+    assert.equal(await page.locator("#shape-pressure").innerText(), "4481");
+    assert.equal(await page.locator("#radius").inputValue(), "40");
+    await page.locator("#half-radius").focus();
     await page.keyboard.press("Enter");
-    assert.ok(Number(await page.locator("#pressure").innerText()) > 410);
-    await page.locator("#undo").click();
+    assert.equal(await page.locator("#radius").inputValue(), "20");
+    assert.equal(await page.locator("#shape-pressure").innerText(), "2241");
+    await page.locator("#published-case").click();
+    await page.locator('[data-greek="water"]').click();
+    assert.match(await page.locator("#greek-note").innerText(), /dative singular/);
+    await page.locator("#greek-scan image").evaluate(async (node) => {
+      const img = new Image();
+      img.src = node.getAttribute("href");
+      await img.decode();
+      if (img.naturalWidth !== 1650) throw new Error("Wrong source page");
+    });
+    await page.getByRole("link", { name: "Return to the pump and listening workshop" }).click();
+    for (let i = 0; i < 3; i++) await page.locator("#pump").click();
+    assert.equal(await page.locator("#pressure").innerText(), "854");
+    await page.locator("#key-0").check();
+    await page.locator("#seconds").selectOption("5");
+    await page.locator("#release").click();
     assert.equal(await page.locator("#pressure").innerText(), "410");
-    await page.locator('[data-word="aqua"]').click();
-    assert.match(await page.locator("#word-note").innerText(), /nominative subject/);
-    await page.locator(".source-figure img").scrollIntoViewIfNeeded();
-    await page.locator(".source-figure img").evaluate((img) => img.decode());
     return {
-      gaugePressurePa: 410,
-      actionSequenceRestored: true,
-      keyboardPumpAndUndo: true,
-      latinWaterSubject: true,
-      sourceFigureDecoded: true,
+      geometricPresetDiameterCm: 80,
+      halfSizeEndpointPa: 2241,
+      greekDativeRead: true,
+      originalSourcePageDecoded: true,
+      pumpWorkshopReached: true,
+      threeStrokesThenOnePipePa: 410,
     };
   }
   if (id === "shiguzhai") {

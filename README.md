@@ -65,7 +65,7 @@ npm install
 npm run dev
 ```
 
-The [water-organ workshop](docs/pnigeus-2026-10-22.md) opens a worked Pnigeus
+The [water-organ workshop](docs/pnigeus-shapes-2026-10-22.md) opens a worked Pnigeus
 experiment and follows it to the Latin reading and public evidence.
 
 ## Development

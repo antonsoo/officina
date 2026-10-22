@@ -1,5 +1,9 @@
 # Source update history
 
+The [chamber-shape discovery update](pnigeus-shapes-2026-10-22.md) opens Hero’s
+hemisphere study and Greek source reading, then reaches the retained pump
+workshop. Actual air space and ambient-equivalent gas remain distinct.
+
 The [water-organ discovery update](pnigeus-2026-10-22.md) adds Pnigeus: a moving
 water-and-air experiment, a Latin reading and downloadable evidence. The catalogue
 opens an actual five-second release and links its pinned public review.

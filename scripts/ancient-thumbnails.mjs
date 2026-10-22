@@ -5,7 +5,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const cards = JSON.parse(await readFile("public/projects.json", "utf8"));
 const anchors = {
-  pnigeus: ".bench",
+  pnigeus: ".shape-section",
   seked: ".reading-desk",
   shiguzhai: ".reference-control",
   pyknon: ".verse-tabs",
