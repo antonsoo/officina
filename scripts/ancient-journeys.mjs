@@ -133,6 +133,14 @@ async function explore(page, id) {
   if (id === "gonia") {
     assert.equal(await page.locator("#cut-depth").innerText(), "20.71 mm");
     assert.equal(await page.locator("#edge-angle").innerText(), "135°");
+    await page.locator('a[href="#segment-study"]').click();
+    assert.equal(await page.locator("#segment-p-title").textContent(),"P makes 135 degrees in the smaller segment");
+    assert.equal(await page.locator("#segment-q-title").textContent(),"Q makes 45 degrees in the larger segment");
+    await page.locator("#segment-point").focus();await page.keyboard.press("Home");
+    assert.equal(await page.locator("#point").inputValue(),"5");
+    assert.match(await page.locator(".segment-reading [lang=la].source-words").textContent(),/minor recto/);
+    await page.locator('[data-source="3"]').click();await page.locator("#source-window img").evaluate(img=>img.decode());
+    assert.match(await page.locator("#source-caption").innerText(),/Heiberg/);
     await page.locator("#recipe").selectOption("ionic");
     assert.equal(await page.locator("#cut-depth").innerText(), "50.00 mm");
     assert.equal(await page.locator("#gauge-miss").innerText(), "0.00 mm");
@@ -237,7 +245,8 @@ export async function runJourneys(base, out, only) {
           await search.fill(lesson.query);
           const card = page.locator(`[data-project="${lesson.id}"]`);
           await card.waitFor({ state: "visible" });
-          assert.equal(await page.locator(".card:visible").count(), 1);
+          const matchingCards=await page.locator(".card:visible").count();
+          assert(matchingCards>=1);
           const thumbnail = card.locator("img");
           await thumbnail.scrollIntoViewIfNeeded();
           await thumbnail.evaluate((e) => e.decode());
@@ -300,7 +309,7 @@ export async function runJourneys(base, out, only) {
             project: lesson.id,
             search: lesson.query,
             legacySearch: lesson.legacy ?? null,
-            matchingCards: 1,
+            matchingCards,
             thumbnailLoaded: true,
             demoURL,
             keyboardDemo: true,

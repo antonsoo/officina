@@ -66,7 +66,7 @@
   },
   {
     "name": "gonia",
-    "description": "Try Vitruvius’s flute-carving instructions: move a right-angle tool, print a millimetre template, and read Latin and Greek. Explore entasis, column spacing and the Doric corner.",
+    "description": "Carve Vitruvius’s flute profiles, explain their angles with Euclid in Greek and Latin, and print a millimetre template. Explore entasis, column spacing and the Doric corner.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gonia",
     "demoUrl": "https://antonsoo.github.io/gonia/fluting.html?recipe=doric&width=100&fillet=20&point=50&gauge=1&compare=0#fluting-workshop",
@@ -74,7 +74,7 @@
     "status": "published",
     "study": {
       "finding": "At the same 100 mm width, the Doric compass cut is 20.71 mm deep; the Ionic semicircle is 50 mm. A right-angle tool fits only the second.",
-      "url": "https://github.com/antonsoo/gonia/blob/52b883e70ecdf6821ebcc33212571756f6dde3df/docs/fluting-review.md#what-can-be-learned"
+      "url": "https://github.com/antonsoo/gonia/blob/613d3664c9ec0a2848c4f35598f0d66464e6aef7/docs/segments-review.md#what-can-be-learned"
     }
   },
   {

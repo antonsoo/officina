@@ -131,3 +131,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 [MIT](LICENSE) (c) 2026 Anton Soloviev
 
 The [Gonia flute-carving discovery review](docs/gonia-fluting-2026-10-22.md) follows the catalogue through all four architecture workshops.
+
+[Euclid discovery review](docs/gonia-segments-2026-10-22.md): the catalogue keeps architecture, music and the full reading course findable.

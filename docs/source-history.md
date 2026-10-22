@@ -1,5 +1,7 @@
 # Source update history
 
+2026-10-22: [Euclid across architecture, music and the reading course](gonia-segments-2026-10-22.md) preserves all relevant search results and verifies the deeper Gonia comparison.
+
 2026-10-22: [Gonia flute carving](gonia-fluting-2026-10-22.md) connects its fourth room, true-scale paper template, Latin instructions and Aristotle’s Greek to the catalogue.
 
 The [chamber-shape discovery update](pnigeus-shapes-2026-10-22.md) opens Hero’s
