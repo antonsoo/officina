@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { mkdir, writeFile } from "node:fs/promises";
-import { chromium, firefox } from "@playwright/test";
+import { chromium, firefox, expect } from "@playwright/test";
 const base = process.argv[2];
 const out = process.argv[3];
 await mkdir(out, { recursive: true });
@@ -27,7 +27,7 @@ for (const [name, engine] of [
       await image.evaluate((e) => e.decode());
       assert.equal(await image.evaluate((e) => e.complete && e.naturalWidth > 0), true);
       await page.evaluate(() => document.fonts.ready);
-      if (name === "chromium") await page.screenshot({ path: `${out}/search-${width}.png` });
+      if (name === "chromium") await page.screenshot({ path: `${out}/search-${width}.png`, fullPage: true });
       const demo = card.getByRole("link", { name: "Live demo" });
       await demo.focus();
       await page.keyboard.press("Enter");
@@ -49,6 +49,12 @@ for (const [name, engine] of [
       await page.waitForURL(expected);
       const heading = page.getByRole("heading", { name: "What modern rounding removes", exact: true });
       await heading.waitFor();
+      // GitHub applies the fragment after its document has hydrated. Observe
+      // native navigation settling; do not scroll the target ourselves.
+      await expect.poll(async () => {
+        const box = await heading.boundingBox();
+        return box !== null && box.y >= -2 && box.y < 900;
+      }, { timeout: 15000 }).toBe(true);
       const h = await heading.boundingBox();
       assert.ok(h.y >= -2 && h.y < 900, `Pinned heading is outside viewport: ${h.y}`);
       assert.deepEqual(errors, []);

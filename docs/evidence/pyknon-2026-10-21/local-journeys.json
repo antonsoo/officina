@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-22T01:04:08.258Z",
+  "base": "http://127.0.0.1:4333/officina/",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "width": 1280,
+      "search": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "selectedGenus": "enharmonic",
+      "audibleComparisonAndStop": true,
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/363105d2fa9aac34700983cc0965b358a81b68f9/docs/model.md#what-modern-rounding-removes",
+      "pinnedHeadingTop": 449.75,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "search": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "selectedGenus": "enharmonic",
+      "audibleComparisonAndStop": true,
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/363105d2fa9aac34700983cc0965b358a81b68f9/docs/model.md#what-modern-rounding-removes",
+      "pinnedHeadingTop": 392.75,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1280,
+      "search": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "selectedGenus": "enharmonic",
+      "audibleComparisonAndStop": true,
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/363105d2fa9aac34700983cc0965b358a81b68f9/docs/model.md#what-modern-rounding-removes",
+      "pinnedHeadingTop": 626.4000244140625,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "search": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "selectedGenus": "enharmonic",
+      "audibleComparisonAndStop": true,
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/363105d2fa9aac34700983cc0965b358a81b68f9/docs/model.md#what-modern-rounding-removes",
+      "pinnedHeadingTop": 314.3999938964844,
+      "pageErrors": []
+    }
+  ]
+}

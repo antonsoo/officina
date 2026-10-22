@@ -1,0 +1,19 @@
+{
+  "sourceCommit": "0b900f43077a3d497391a5532dff20c3ad4d4f17",
+  "checkedAt": "2026-10-22T01:05:13.888371+00:00",
+  "node": "24.22.0",
+  "freshInstall": "npm ci",
+  "checks": [
+    "lint",
+    "typecheck",
+    "format:check",
+    "test",
+    "build",
+    "playwright test"
+  ],
+  "unitChecks": 38,
+  "browserScenarios": 32,
+  "catalogueEntries": 21,
+  "newDemoJourneys": 4,
+  "scope": "New Pyknon record and actual thumbnail, unchanged catalogue runtime. Fresh source export and install. Journey harness waits for native GitHub anchor navigation to settle."
+}
