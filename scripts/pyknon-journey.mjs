@@ -27,6 +27,7 @@ for (const [name, engine] of [
       await image.evaluate((e) => e.decode());
       assert.equal(await image.evaluate((e) => e.complete && e.naturalWidth > 0), true);
       await page.evaluate(() => document.fonts.ready);
+      await page.evaluate(() => window.scrollTo(0, 0));
       if (name === "chromium") await page.screenshot({ path: `${out}/search-${width}.png`, fullPage: true });
       const demo = card.getByRole("link", { name: "Live demo" });
       await demo.focus();

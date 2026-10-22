@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-22T01:06:16.358Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "width": 1280,
+      "search": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "selectedGenus": "enharmonic",
+      "audibleComparisonAndStop": true,
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/363105d2fa9aac34700983cc0965b358a81b68f9/docs/model.md#what-modern-rounding-removes",
+      "pinnedHeadingTop": 271.75,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "search": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "selectedGenus": "enharmonic",
+      "audibleComparisonAndStop": true,
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/363105d2fa9aac34700983cc0965b358a81b68f9/docs/model.md#what-modern-rounding-removes",
+      "pinnedHeadingTop": 176.75,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1280,
+      "search": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "selectedGenus": "enharmonic",
+      "audibleComparisonAndStop": true,
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/363105d2fa9aac34700983cc0965b358a81b68f9/docs/model.md#what-modern-rounding-removes",
+      "pinnedHeadingTop": 298.3999938964844,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "search": "tetrachords",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "keyboardDemo": true,
+      "selectedGenus": "enharmonic",
+      "audibleComparisonAndStop": true,
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/363105d2fa9aac34700983cc0965b358a81b68f9/docs/model.md#what-modern-rounding-removes",
+      "pinnedHeadingTop": 881.4000244140625,
+      "pageErrors": []
+    }
+  ]
+}
