@@ -42,10 +42,10 @@ The [source update history](docs/source-history.md) collects later fixes,
 workflow additions and their retained verification. Each record distinguishes
 source changes from package releases and hosted deployments.
 
-Thumbnails are 1200x750 WebP, produced by [`scripts/make_thumb.py`](scripts/make_thumb.py):
-either a fresh screenshot of the live demo (`shot.mjs ... --width 1200
---height 750 --scale 1`) or a cover-fit crop of a CLI-only project's own
-README hero image, compressed to stay under about 200 KB each.
+Thumbnails use a 1200:750 aspect ratio. They are real demo screenshots or
+cropped CLI output, stored as WebP or PNG. [`scripts/make_thumb.py`](scripts/make_thumb.py)
+can compress a screenshot to WebP. For explanatory diagrams, take the screenshot
+at the intended aspect ratio so a cover crop does not hide the relevant detail.
 
 The page itself is a single TypeScript module (`src/main.ts`) that fetches
 the JSON, groups by audience, and renders the cards. Catalogue validation

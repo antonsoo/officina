@@ -1,5 +1,10 @@
 # Source update history
 
+The [Doric corner workshop update](gonia-2026-10-21.md) adds Gonia: a measured
+architectural problem with Greek and Latin vocabulary and Vitruvius’s account.
+The demo opens the widened-metope example; the evidence link pins the model’s
+coordinate constraints and historical limits.
+
 The [Euclid course discovery update](stoicheia-2026-10-21.md) adds Stoicheia: Greek,
 Latin and English beside working constructions and inspectable source pages.
 The catalogue opens I.9’s circle-crossing exploration and links its independent

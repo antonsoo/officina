@@ -1,5 +1,18 @@
 [
   {
+    "name": "gonia",
+    "description": "Why does a Doric temple change rhythm at the corner? Adjust the beam, compare three compromises, and learn the Greek and Latin names of the parts.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/gonia",
+    "demoUrl": "https://antonsoo.github.io/gonia/?b=2.00&t=widen#workshop",
+    "thumbnail": "thumbs/gonia.png",
+    "status": "published",
+    "study": {
+      "finding": "603 corner geometries checked against exact positional constraints. Contraction preserves the frieze rhythm but leaves the corner triglyph off-axis.",
+      "url": "https://github.com/antonsoo/gonia/blob/4ffadaced8ea90b41a826daa451480083e8128d0/docs/model.md#coordinates-and-constraints"
+    }
+  },
+  {
     "name": "stoicheia",
     "description": "Read Euclid I.1–10 in Greek, Latin and English beside interactive constructions. Inspect the printed source, test assumptions, and save offline study sheets.",
     "group": "Ancient world",
