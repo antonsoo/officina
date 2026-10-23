@@ -51,3 +51,17 @@ passed. A clean Node 24.21.0 archive of `ed873aa` produced 51 files,
 byte-identical to the working build (2,461,422 bytes).
 [Build inventory](evidence/ancient-constructions-2026-10-23/build.json). These checks do not establish hosted CI execution,
 physical surveying accuracy, or a new critical edition of the ancient texts.
+
+## Public catalogue
+
+Pages commit `bbcd215d7463926f8cc161ce9c6ca448c6ae93e9` was published by a normal
+fast-forward push. All 51 canonical HTTPS files match the clean build, including
+both entry aliases and the final images. [Hosted file receipt](evidence/ancient-constructions-2026-10-23/hosted-files.json).
+
+All twelve journeys then passed again starting from the public catalogue, in
+both engines and both widths, including native lesson controls, downloads and
+pinned review headings. [Hosted journey receipt](evidence/ancient-constructions-2026-10-23/hosted-journeys.json).
+The final public cards were also read visually: [Dioptra](evidence/ancient-constructions-2026-10-23/dioptra-search-1280.png),
+[Stoicheia](evidence/ancient-constructions-2026-10-23/stoicheia-search-1280.png) and
+[Gonia on a phone](evidence/ancient-constructions-2026-10-23/gonia-search-375.png).
+No hosted CI result is inferred from these direct observations.
