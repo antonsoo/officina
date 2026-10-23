@@ -1,0 +1,392 @@
+[
+  {
+    "name": "rajju",
+    "description": "Place Āpastamba’s four corner pegs with marked cords. Separate the grip from the stake, compare four procedures, and read Sanskrit beside original pages; explore circle and diagonal rules too.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/rajju",
+    "demoUrl": "https://antonsoo.github.io/rajju/field.html?corner=en&method=one&grip=1500&stake=mark#field-workshop",
+    "thumbnail": "thumbs/rajju.png",
+    "status": "published",
+    "study": {
+      "finding": "Holding at 15 makes a perpendicular; staking at 12 gives the prescribed ground. Staking both eastern grips changes area from 972 to 1080.",
+      "url": "https://github.com/antonsoo/rajju/blob/12e1ddf3b0b53ca65f48c0f39a0cb2439fbcf02e/docs/field-model.md#what-can-be-learned"
+    }
+  },
+  {
+    "name": "pnigeus",
+    "description": "Read Hero’s Greek beside the source page. Compare a water-organ hemisphere, cylinder and cone; explore pressure, air reserve, pumping and Vitruvius’s Latin.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/pnigeus",
+    "demoUrl": "https://antonsoo.github.io/pnigeus/shapes.html?r=40&fill=roof&plan=octagon&drop=30&form=hemisphere&phase=after#shape-workshop",
+    "thumbnail": "thumbs/pnigeus.png",
+    "status": "published",
+    "study": {
+      "finding": "In the 80 cm model, a 30% pressure drop loses 49.97 L of chamber space but supplies 54.72 ambient L. Halving radius divides space by eight.",
+      "url": "https://github.com/antonsoo/pnigeus/blob/2a1f13c6328bd3fd449bd0352a16f201c9805c62/docs/shapes-review.md#what-can-be-learned"
+    }
+  },
+  {
+    "name": "sammu",
+    "description": "Follow an Old Babylonian retuning procedure on nine strings. Retune by ear with isolated partials, hear overtones, learn Akkadian terms, and keep exact pitch histories from a Mesopotamian model.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/sammu",
+    "demoUrl": "https://antonsoo.github.io/sammu/?start=isartum&a=440&companions=octave&sound=plucked&moves=LLLLLLL#cycle",
+    "thumbnail": "thumbs/sammu.png",
+    "status": "published",
+    "study": {
+      "finding": "Seven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
+      "url": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
+    }
+  },
+  {
+    "name": "seked",
+    "description": "Read six Egyptian slope exercises from the Rhind papyrus. Reconstruct exact fraction rows, compare face and corner sections, and inspect written numbers that disagree with the working.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/seked",
+    "demoUrl": "https://antonsoo.github.io/seked/?p=59&rows=3&step=3&reading=written#reader",
+    "thumbnail": "thumbs/seked.png",
+    "status": "published",
+    "study": {
+      "finding": "Problem 59 keeps three results separate: stated dimensions give 7/3 palms, the working gives 21/4, and the literal text ends with 11/2.",
+      "url": "https://github.com/antonsoo/seked/blob/c0c99a3edd967a224d4eb60e0651c6671c743ed5/docs/review.md#what-can-be-learned"
+    }
+  },
+  {
+    "name": "shiguzhai",
+    "description": "Explore ten ancient Chinese bronze bells through 87 published frequency measurements, museum photographs and listening comparisons. Change the modern tuning grid without moving the evidence.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/shiguzhai",
+    "demoUrl": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439#listen",
+    "thumbnail": "thumbs/shiguzhai.png",
+    "status": "published",
+    "study": {
+      "finding": "At A4=440 Hz, 87 listed frequencies map to ten modern keys; at 439 Hz, nine. The measured frequencies stay fixed.",
+      "url": "https://github.com/antonsoo/shiguzhai/blob/1cbfc3a3476e6cb10555830a28b38c13cadb2511/docs/sources.md#what-the-controls-do"
+    }
+  },
+  {
+    "name": "pyknon",
+    "description": "Hear why six whole tones overshoot an octave. Read the Sectio canonis, transmitted under Euclid’s name, in Greek and Latin; explore tetrachords and the Seikilos song too.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/pyknon",
+    "demoUrl": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat#canon",
+    "thumbnail": "thumbs/pyknon-canon.png",
+    "status": "published",
+    "study": {
+      "finding": "Six 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
+      "url": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
+    }
+  },
+  {
+    "name": "gonia",
+    "description": "Roll column shafts and rectangular stones through Vitruvius’s transport account. Read Latin and Greek technical words, test wheel clearance, and explore flute cuts, entasis, spacing and Doric corners.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/gonia",
+    "demoUrl": "https://antonsoo.github.io/gonia/transport.html?kind=wheels&w=8&h=6&r=7.5&angle=53&unit=feet&page=231#transport-workshop",
+    "thumbnail": "thumbs/gonia.png",
+    "status": "published",
+    "study": {
+      "finding": "In the model, 15-foot wheels give an 8 × 6 section 2.5 feet of clearance. That fit cannot explain the reported veering.",
+      "url": "https://github.com/antonsoo/gonia/blob/35f8d1d20783a1d4297100a8991b84946c7baf01/docs/transport-model.md#what-can-be-learned"
+    }
+  },
+  {
+    "name": "stoicheia",
+    "description": "Read Euclid I.1–20 in Greek, Latin and English. Construct all three triangle inequalities, inspect a rejected premise, and explore bisection and perpendiculars beside the source pages.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/stoicheia",
+    "demoUrl": "https://antonsoo.github.io/stoicheia/#p=20&s=7&pair=2",
+    "thumbnail": "thumbs/stoicheia.png",
+    "status": "published",
+    "study": {
+      "finding": "Copying a side onto a continuation proves the triangle inequality. I.19’s rejected alternatives visibly lose the given angle premise.",
+      "url": "https://github.com/antonsoo/stoicheia/blob/697217ae7d015956ef1bfaf77fb81f3e150ac31a/docs/inequalities-review.md#what-can-be-learned"
+    }
+  },
+  {
+    "name": "horologium",
+    "description": "Explore 13 calendars, ancient planets checked against DE441, and local sunrise and sunset; marginal polar events stay unresolved.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/horologium",
+    "demoUrl": "https://antonsoo.github.io/horologium/",
+    "thumbnail": "thumbs/horologium.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/horologium"
+    },
+    "study": {
+      "finding": "74 sites across 2026: 90 false solar crossings removed; marginal polar events withheld. Terrain and weather remain outside the model.",
+      "url": "https://github.com/antonsoo/horologium/tree/122639f874a8f218dfe96894314ca9855a78b04d/studies/solar-events"
+    }
+  },
+  {
+    "name": "gnomon",
+    "description": "Design horizontal, wall, equatorial and analemmatic sundials; preview either equatorial face and print a full-scale kit with a shared mirrored cut.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/gnomon",
+    "demoUrl": "https://antonsoo.github.io/gnomon/",
+    "thumbnail": "thumbs/gnomon.webp",
+    "status": "published",
+    "study": {
+      "finding": "Pole-facing and opposite faces share one cut; polar azimuth corrected. Native checks: 1,383 SVG rays, 3,521 PDF ray copies. Physical assembly unverified.",
+      "url": "https://github.com/antonsoo/gnomon/tree/2ce34ef5829c8b5ab45d5ff97232f5b19626b017/studies/equatorial-faces"
+    }
+  },
+  {
+    "name": "planisphere",
+    "description": "Build a printable star wheel for either hemisphere, check southern sky orientation, and compare stellar epochs from 3000 BCE to 3000 CE.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/planisphere",
+    "demoUrl": "https://antonsoo.github.io/planisphere/",
+    "thumbnail": "thumbs/planisphere.webp",
+    "status": "published",
+    "study": {
+      "finding": "2,668 printable star positions: 1,164 mirrored positions corrected against independent outward-view geometry. Physical printing remains unverified.",
+      "url": "https://github.com/antonsoo/planisphere/tree/1fef7f63e01f89297563746a983b0545e045ab5f/studies/sky-handedness"
+    }
+  },
+  {
+    "name": "tonemirror",
+    "description": "Practice with recorded Mandarin; preserve unvoiced gaps and choose separate stereo channels and a pitch search floor for each voice.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/tonemirror",
+    "demoUrl": "https://antonsoo.github.io/tonemirror/",
+    "thumbnail": "thumbs/tonemirror.webp",
+    "status": "published",
+    "study": {
+      "finding": "580 recordings: 40 Hz improves reference agreement below 60 Hz but adds false voicing. Separate voice floors; default 60 Hz. Pronunciation untested.",
+      "url": "https://github.com/antonsoo/tonemirror/tree/83db3423af49dcfac7c9b3ed5c2518c9a8a1a956/studies/pitch-floor"
+    }
+  },
+  {
+    "name": "errorbars",
+    "description": "Compare LLM evals on recorded task intersections, account for repository clusters, and inspect missing outcomes before ranking.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/errorbars",
+    "demoUrl": "https://antonsoo.github.io/errorbars/",
+    "thumbnail": "thumbs/errorbars.webp",
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/errorbars",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/errorbars/"
+    },
+    "study": {
+      "finding": "A public SWE-bench file records 441/500 tasks. Removing 59 invented failures changes paired-task p from 0.000060 to 0.644; official score unchanged.",
+      "url": "https://github.com/antonsoo/errorbars/tree/661ff9988b1bb8f78854b8068423a3b87045099e/studies/observed-cohorts"
+    }
+  },
+  {
+    "name": "mergeglass",
+    "description": "Source audit: saved LoRA/DoRA and BF16 merges, Conv1D, embedding adapters, scaled B bias and Qwen3 MoE expert parameters; full saved heads, learned row norms and partial observations without loading a model.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/mergeglass",
+    "demoUrl": null,
+    "thumbnail": "thumbs/mergeglass.webp",
+    "status": "published",
+    "study": {
+      "finding": "44 native MoE saves: omitted experts give gain 0; wrong B order changes a zero-reference expert. Saved-head and bias controls stay replayable.",
+      "url": "https://github.com/antonsoo/mergeglass/tree/b4b3eea478dacbd4b0c6610bbdf00e2480a9e7c3/studies/expert-parameters"
+    }
+  },
+  {
+    "name": "contextscope",
+    "description": "Diagnose prompt-cache misses from captured Anthropic/OpenAI requests; MCP tools, media and stored history keep unresolved token counts explicit.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/contextscope",
+    "demoUrl": "https://antonsoo.github.io/contextscope/",
+    "thumbnail": "thumbs/contextscope.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/contextscope"
+    },
+    "study": {
+      "finding": "MCP URLs do not reveal model-visible tools: 11 SDK workflows now keep token/cache totals unknown; two local-tool controls retain known totals.",
+      "url": "https://github.com/antonsoo/contextscope/tree/16d98ecf53f38287e0bb019b2fdd0c767036a45d/studies/mcp-context"
+    }
+  },
+  {
+    "name": "fieldproof",
+    "description": "Review scanned receipt PDFs locally, inspect native and OCR words beside page images, and keep evidence provenance through corrections, exports and archived reviews.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/fieldproof",
+    "demoUrl": "https://antonsoo.github.io/fieldproof/",
+    "thumbnail": "thumbs/fieldproof.webp",
+    "status": "published",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/fieldproof/"
+    },
+    "study": {
+      "finding": "Source upgrade: a scanned CORD receipt opens locally; 12 API cases retain OCR provenance and eight archives. Hosted example is precomputed.",
+      "url": "https://github.com/antonsoo/fieldproof/tree/0504f8e85cd783554d7f0a9a9f8c0800b00590ad/studies/server-ocr"
+    }
+  },
+  {
+    "name": "mcplint",
+    "description": "Capture and compare actual MCP tool contracts: enum/type contradictions, dependency drift, token estimates, descriptions and hidden-instruction heuristics.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/mcplint",
+    "demoUrl": "https://antonsoo.github.io/mcplint/filesystem-dependencies.html",
+    "thumbnail": "thumbs/mcplint.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/mcplint"
+    },
+    "study": {
+      "finding": "Four native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
+      "url": "https://github.com/antonsoo/mcplint/tree/49e98dcb9fba7b560a1e1a8010e85b2febcb793e/studies/finite-choices"
+    }
+  },
+  {
+    "name": "veil",
+    "description": "Mask detected personal data and credentials in native HAR exports and ordinary URLs; keep a local vault and restore exact values across reply chunks.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/veil",
+    "demoUrl": "https://antonsoo.github.io/veil/",
+    "thumbnail": "thumbs/veil.webp",
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/veil",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/veil-pii/"
+    },
+    "study": {
+      "finding": "16,082 held-out phone numbers with a +: masking rose from 53.9% to 99.3%. International numbers without + remain a detection gap.",
+      "url": "https://github.com/antonsoo/veil/tree/4a404a632f94892aef6af0e39d5985fe99d4a984/studies/real-text"
+    }
+  },
+  {
+    "name": "tracelens",
+    "description": "Open local OTLP or Jaeger traces, including Zstandard Collector JSON/protobuf; follow span evidence, compare runs and reconcile recorded token costs.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/tracelens",
+    "demoUrl": "https://antonsoo.github.io/tracelens/?example=collector-zstd",
+    "thumbnail": "thumbs/tracelens.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/tracelens"
+    },
+    "study": {
+      "finding": "Native Collector exports: all 5,001 SDK spans survive compressed imports offline. Damaged streams refuse; this is a controlled local workload.",
+      "url": "https://github.com/antonsoo/tracelens/tree/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector"
+    }
+  },
+  {
+    "name": "trainspotter",
+    "description": "Source/live workbench: native binary .wandb logs, quoted W&B CSV and MLflow histories, typed gaps, explicit model/dataset scopes, and offline charts with source/axis context.",
+    "group": "AI engineering",
+    "repoUrl": "https://github.com/antonsoo/trainspotter",
+    "demoUrl": "https://antonsoo.github.io/trainspotter/",
+    "thumbnail": "thumbs/trainspotter.webp",
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/trainspotter",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/trainspotter/"
+    },
+    "study": {
+      "finding": "Native W&B: 400 history packets match independent SDK/Go readers; text NaN remains a gap while observed overflow stays divergence.",
+      "url": "https://huggingface.co/spaces/antonsoloviev/trainspotter/blob/d29692cfe4f3dd7a0e3fbcdc989c0f335874f256/evidence/wandb-browser/README.md"
+    }
+  },
+  {
+    "name": "ghostchars",
+    "description": "See the characters you can't: catch Trojan Source bidi tricks, invisible and lookalike Unicode, and ASCII smuggling in code and LLM prompts.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/ghostchars",
+    "demoUrl": "https://antonsoo.github.io/ghostchars/",
+    "thumbnail": "thumbs/ghostchars.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/ghostchars"
+    },
+    "study": {
+      "finding": "Source upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
+      "url": "https://github.com/antonsoo/ghostchars/blob/3c95cad49cb464b4bf5e9795f6b618415985b63f/studies/javascript-names/README.md"
+    }
+  },
+  {
+    "name": "logdelta",
+    "description": "Diff logs by meaning, not by bytes: masks variables, mines templates, and shows what's new in the failing run.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/logdelta",
+    "demoUrl": "https://antonsoo.github.io/logdelta/",
+    "thumbnail": "thumbs/logdelta.webp",
+    "status": "published",
+    "package": {
+      "registry": "crates.io",
+      "url": "https://crates.io/crates/logdelta"
+    },
+    "study": {
+      "finding": "264 failed Kubernetes builds: excerpts show the recorded reason in 212/239 eligible cases, at 40.5 median lines. The rule was tuned on these logs.",
+      "url": "https://github.com/antonsoo/logdelta/tree/1baa53b7dcab2631a420bf7710c44e78aca45d3d/studies/kubernetes-ci"
+    }
+  },
+  {
+    "name": "flakemap",
+    "description": "Read JUnit, native NUnit XML or .NET TRX histories. Inspect distinct fixtures, retry evidence and uncertain outcomes in a ranked CI report.",
+    "group": "Developer tools",
+    "repoUrl": "https://github.com/antonsoo/flakemap",
+    "demoUrl": "https://antonsoo.github.io/flakemap/",
+    "thumbnail": "thumbs/flakemap.webp",
+    "status": "published",
+    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/flakemap",
+    "package": {
+      "registry": "PyPI",
+      "url": "https://pypi.org/project/flakemap/"
+    },
+    "study": {
+      "finding": "44,724 native NUnit case records from unchanged NodaTime and Math.NET suites match an independent identity/outcome oracle.",
+      "url": "https://github.com/antonsoo/flakemap/tree/0ba3d6e5e64dd6fd6ef097a4e81587c41d645bb0/studies/nunit3"
+    }
+  },
+  {
+    "name": "stutterscope",
+    "description": "Open native CapFrameX JSON or PresentMon 2.6 CSV, select a recording, and inspect frame-time gaps with CPU, GPU and latency source evidence.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/stutterscope",
+    "demoUrl": "https://antonsoo.github.io/stutterscope/?example=presentmon-default",
+    "thumbnail": "thumbs/stutterscope-presentmon-default.webp",
+    "status": "published",
+    "package": {
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@antonsoloviev/stutterscope"
+    },
+    "study": {
+      "finding": "Native PresentMon 2.6: 174 filtered frames retain CPU/GPU and latency; 83 clock gaps leave 90 observed pacing pairs.",
+      "url": "https://github.com/antonsoo/stutterscope/tree/070ccc1b1e76ebc05478a6057b04099152177655/studies/presentmon-default"
+    }
+  },
+  {
+    "name": "splitscope",
+    "description": "Compare completed attempts and reset segments by count or elapsed attempt time; inspect linked LiveSplit attempts and unavailable clocks in your browser.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/splitscope",
+    "demoUrl": "https://antonsoo.github.io/splitscope/",
+    "thumbnail": "thumbs/splitscope.webp",
+    "status": "published",
+    "study": {
+      "finding": "Re-Loaded: 10 Desert resets total 3:56; four Monestary resets total 48:18. Elapsed clocks include pauses; missing and overlapping clocks stay explicit.",
+      "url": "https://github.com/antonsoo/splitscope/tree/e1f31bbd4efcf6b2b4d71b68a7f47d05f360503b/studies/time-budget"
+    }
+  },
+  {
+    "name": "am-i-unlucky",
+    "description": "Plan explicit drop batches from the next weekly reset; inspect community-logged Genshin pity rates and collection odds, and share luck cards with ties visible.",
+    "group": "Games",
+    "repoUrl": "https://github.com/antonsoo/am-i-unlucky",
+    "demoUrl": "https://antonsoo.github.io/am-i-unlucky/?mode=time&sources=%5B%7B%22name%22%3A%22Weekly+raid%22%2C%22rate%22%3A%2250%25%22%2C%22attempts%22%3A1%2C%22everyDays%22%3A7%2C%22firstDay%22%3A2%7D%5D&k=1&days=2",
+    "thumbnail": "thumbs/am-i-unlucky.webp",
+    "status": "published",
+    "study": {
+      "finding": "Weekly 50% attempt starting on day 2: 9-day mean; day 7: 14 days. Checked against 134 rational models; calendar-time forecasts omitted.",
+      "url": "https://github.com/antonsoo/am-i-unlucky/tree/7d3404163a60edec86ebbd179e1643bdd045785a/studies/next-batch"
+    }
+  }
+]

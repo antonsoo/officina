@@ -1,0 +1,75 @@
+ToneMirror thumbnail (tonemirror.webp)
+
+Screenshot of ToneMirror by Anton Soloviev, comparing pitch curves derived
+from the rising and falling excerpts of FourMandarinTones.ogg by Wolfdog (2019).
+Original recording and source details:
+https://commons.wikimedia.org/w/index.php?title=File:FourMandarinTones.ogg&oldid=1277043205
+
+The recording is licensed under Creative Commons Attribution-ShareAlike 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+This thumbnail is distributed under CC BY-SA 4.0. Changes: the recording was
+decoded to mono, excerpts selected, pitch contours drawn by ToneMirror and
+the resulting application screenshot framed and re-encoded for this catalogue.
+No endorsement by the recording's creator is implied.
+
+Pyknon thumbnail (pyknon.png)
+
+Screenshot of Pyknon's Seikilos reader by Anton Soloviev. The inscription
+photograph is by Lennart Larsen / Nationalmuseet, AS-10006:
+https://samlinger.natmus.dk/as/asset/10006
+Licensed under Creative Commons Attribution-ShareAlike 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+This thumbnail is distributed under CC BY-SA 4.0. Changes: the application
+shows a selected viewport of the photograph with a highlighted syllable;
+the screenshot includes the modern reading diagram and notes. No endorsement
+by the photographer or museum is implied.
+
+Shiguzhai thumbnail (shiguzhai.png)
+
+Screenshot of the application's original frequency chart, based on the
+published measurement table in Li et al. (2024), Heritage Science 12:264:
+https://doi.org/10.1186/s40494-024-01377-0
+The article's data are CC0 unless otherwise stated. No museum photograph
+is included in this thumbnail. Screenshot and chart: Anton Soloviev, MIT.
+
+Other project thumbnails retain the repository's existing notices and MIT
+license unless separately attributed. This notice does not change the
+licenses of the catalogue's code or the linked applications.
+
+Seked thumbnail (seked.png)
+
+Screenshot of the application's original measured section, unit triangle and
+new English explanation of Rhind problem 59. No source scan or museum photograph
+is included. Illustration, prose and screenshot: Anton Soloviev, MIT.
+
+Gonia entasis thumbnail (gonia.png, updated 2026-10-21)
+
+Screenshot of the application's original plots of Penrose's 1888 measurements
+and predictions. The left plot retains equal scales; the right explicitly
+marks horizontal enlargement. No source photograph is included. Diagram and
+screenshot: Anton Soloviev, MIT.
+
+Stoicheia triangle-inequality thumbnail (stoicheia.png, updated 2026-10-22)
+
+Screenshot of the application's original I.20 construction and parallel reading.
+The third side-pair drawing explicitly expands the source's "similarly".
+Greek and Latin text: Heiberg 1883, public domain. New English and coordinate
+diagram: Anton Soloviev, MIT. No source-page scan is included.
+
+Pyknon octave-proof thumbnail (pyknon-canon.png, added 2026-10-22)
+
+Screenshot of the application's original pitch comparison and enlarged endpoint
+diagram. The two routes and frequencies are computed from the stated numerical
+model. No source-page scan, inscription photograph or recording is included.
+Diagram, explanatory prose and screenshot: Anton Soloviev, MIT. The earlier
+Seikilos thumbnail and its separate CC BY-SA notice remain above.
+
+Sammu retuning thumbnail (sammu.png, added 2026-10-22)
+
+Actual public-workshop screenshot after one loosening operation. Numbered
+strings, exact pitch traces and explanations are original work by Anton
+Soloviev, MIT. The diagram is a modern numerical realization, not the shape
+or measured pitch of an excavated instrument. No tablet photograph, source
+figure, third-party recording or article excerpt is included.
