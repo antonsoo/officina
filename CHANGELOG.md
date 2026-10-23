@@ -6,6 +6,9 @@ All notable changes to this project are documented in this file.
 
 ### Added
 
+- Add Dioptra: Hero's unseen-tunnel survey with Greek readings, outside aiming
+  pegs, a signed distance ledger and downloadable illustrated field books.
+
 - Search by project, description, audience, or package registry, combined
   with audience filters and a live result count. Search stays in the page.
 - Clear filters, an empty-results action, and a skip link for keyboard users.
@@ -21,6 +24,10 @@ All notable changes to this project are documented in this file.
   tool's own repository. Findings are searchable.
 
 ### Changed
+
+- Open Gonia at its Greek/Roman theatre experiment and Stoicheia at Euclid I.21,
+  with the I.22 workshop reachable next. Refresh actual lesson screenshots and
+  link immutable reviews; retain older subject keywords for discovery.
 
 - Find Gnomon's opposite-face construction and polar azimuth evidence, and
   ToneMirror's per-voice pitch floor tradeoffs, through the catalogue's search.

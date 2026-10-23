@@ -42,6 +42,11 @@ The [source update history](docs/source-history.md) collects later fixes,
 workflow additions and their retained verification. Each record distinguishes
 source changes from package releases and hosted deployments.
 
+The [tunnel, theatre and interior-route lessons](docs/ancient-constructions-2026-10-23.md)
+introduce Hero's outside survey, Vitruvius's different theatre plans and Euclid's
+shorter route with its larger angle. Their source readings, movable diagrams
+and illustrated study files are public, with pinned reviews and direct lesson links.
+
 The [geometry readings](docs/geometry-readings-2026-10-21.md) open Seked's
 conflicting Rhind calculations and Gonia's measured entasis directly. The
 [earlier ancient readings](docs/ancient-readings-2026-10-21.md) connect bronze-bell
@@ -65,7 +70,7 @@ npm install
 npm run dev
 ```
 
-The [stone-transport workshop](docs/gonia-transport-2026-10-22.md) opens Gonia
+The [earlier stone-transport review](docs/gonia-transport-2026-10-22.md) opens Gonia
 at the reported-dimensions example, with 2.5 source feet of minimum clearance.
 Its pinned source explains why that geometric fit cannot account for the reported
 veering; the other four architecture rooms remain discoverable.
@@ -119,7 +124,7 @@ real 37-of-38-file mismatch, corrected deployments and controlled propagation
 checks. Browser behavior, source publication and registry releases need their
 own evidence.
 
-The [Euclid inequality reading](docs/euclid-inequalities-2026-10-22.md) opens
+The [earlier Euclid inequality reading](docs/euclid-inequalities-2026-10-22.md) opens
 I.20’s third construction and follows the lost premise in I.19.
 
 The [Euclid discovery review](docs/gonia-segments-2026-10-22.md) connects the
