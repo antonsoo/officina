@@ -9,7 +9,8 @@ const lessons = [
   { id: "seked", query: "Rhind", heading: "What can be learned" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
   { id: "pyknon", query: "Seikilos", legacy: "tetrachords", heading: "Seikilos reading review" },
-  { id: "gonia", query: "stone transport", legacy: "flute", heading: "What can be learned" },
+  { id: "gonia", query: "theatres", legacy: "flute", heading: "What changed for the learner" },
+  { id: "dioptra", query: "unseen tunnel", legacy: "Greek", heading: "What the learner can do" },
   { id: "stoicheia", query: "Euclid", legacy: "bisection", heading: "What can be learned" },
 ];
 
@@ -18,12 +19,14 @@ async function explore(page, id) {
     assert.match(await page.locator("#peg-error").innerText(), /Position \(36, 12\)/);
     for (const c of ["wn", "ws", "en", "es"]) {
       await page.locator(`button[data-corner="${c}"]`).click();
-      await page.locator("#restore-source").click();await page.locator("#place-peg").click();
+      await page.locator("#restore-source").click();
+      await page.locator("#place-peg").click();
     }
     assert.match(await page.locator("#ground-result").innerText(), /972 square/);
     for (const c of ["en", "es"]) {
       await page.locator(`button[data-corner="${c}"]`).click();
-      await page.locator('input[name="field-stake"][value="grip"]').focus();await page.keyboard.press("Space");
+      await page.locator('input[name="field-stake"][value="grip"]').focus();
+      await page.keyboard.press("Space");
       await page.locator("#place-peg").click();
     }
     assert.match(await page.locator("#ground-result").innerText(), /1,080 square/);
@@ -31,13 +34,25 @@ async function explore(page, id) {
     await page.locator('[data-field-page="10"]').click();
     await page.locator("#field-source-image").evaluate((img) => img.decode());
     assert.match(await page.locator("#field-source-note").innerText(), /southwest and southeast/);
-    const [template] = await Promise.all([page.waitForEvent("download"), page.locator("#field-template").click()]);
+    const [template] = await Promise.all([
+      page.waitForEvent("download"),
+      page.locator("#field-template").click(),
+    ]);
     assert.equal(template.suggestedFilename(), "rajju-paper-cord.svg");
     await page.getByRole("link", { name: "Circle & return", exact: true }).click();
     assert.match(await page.locator("#lesson-title").innerText(), /circle/);
-    await page.locator("#diagonal-tab").focus();await page.keyboard.press("Enter");
+    await page.locator("#diagonal-tab").focus();
+    await page.keyboard.press("Enter");
     assert.match(await page.locator("#lesson-title").innerText(), /diagonal/);
-    return {sourcePeg:{east:36,north:12},prescribedArea:972,easternGripsArea:1080,baselineAngleRemainsDegrees:90,printedDirectionDiscrepancyRead:true,nativeTemplateDownloaded:true,allThreeLessonsReachable:true};
+    return {
+      sourcePeg: { east: 36, north: 12 },
+      prescribedArea: 972,
+      easternGripsArea: 1080,
+      baselineAngleRemainsDegrees: 90,
+      printedDirectionDiscrepancyRead: true,
+      nativeTemplateDownloaded: true,
+      allThreeLessonsReachable: true,
+    };
   }
   if (id === "pnigeus") {
     assert.equal(await page.locator("#shape-pressure").innerText(), "4481");
@@ -156,43 +171,106 @@ async function explore(page, id) {
       sourceDecoded: "Peet 100",
     };
   }
+  if (id === "dioptra") {
+    await page.locator("#detour").focus();
+    await page.keyboard.press("End");
+    assert.match(await page.locator("#net-x").innerText(), /300/);
+    assert.match(await page.locator("#net-y").innerText(), /60/);
+    await page.locator("#set-aim").click();
+    await page.locator("#error").fill("10");
+    assert.match(await page.locator("#gap-note").innerText(), /60 mm/);
+    await page.locator("#passage").selectOption("7");
+    assert.match(await page.locator("#greek").innerText(), /ἀλλήλοις/);
+    await page.locator("#show-source").click();
+    await page.waitForFunction(() => {
+      const im = document.querySelector("#source-image");
+      return im.complete && im.naturalWidth > 0 && im.currentSrc === im.src;
+    });
+    const [saved] = await Promise.all([page.waitForEvent("download"), page.locator("#save-study").click()]);
+    assert.equal(saved.suggestedFilename(), "dioptra-field-book.html");
+    return {
+      net: [300, 60],
+      chosenPegErrorMm: 10,
+      middleGapMm: 60,
+      reciprocalGreekRead: true,
+      sourceDecoded: true,
+      completeFieldBookDownloaded: true,
+    };
+  }
   if (id === "gonia") {
+    await page.locator("#th-roman").focus();
+    await page.keyboard.press("Enter");
+    assert.equal(await page.locator("#th-roman-depth").innerText(), "5 m");
+    await page.locator("#th-greek").click();
+    assert.equal(await page.locator("#th-greek-depth").innerText(), "2.93 m");
+    await page.locator("#th-single").click();
+    assert.match(await page.locator("#th-arc-note").innerText(), /Your alteration/);
+    await page.locator("#th-three").click();
+    await page.locator("#th-source").selectOption("4");
+    await page.locator("#th-source-image").scrollIntoViewIfNeeded();
+    await page.waitForFunction(() => {
+      const im = document.querySelector("#th-source-image");
+      return im.complete && im.naturalWidth > 0 && im.currentSrc === im.src;
+    });
+    const [plan] = await Promise.all([page.waitForEvent("download"), page.locator("#th-save-csv").click()]);
+    assert.match(plan.suggestedFilename(), /theatre.*csv/);
+    await page.getByRole("link", { name: "Temple plan", exact: true }).click();
+    assert.ok((await page.locator("h1").innerText()).length > 10);
+    await page.goto(
+      "https://antonsoo.github.io/gonia/transport.html?kind=wheels&w=8&h=6&r=7.5&angle=53&unit=feet&page=231#transport-workshop",
+    );
+
     assert.equal(await page.locator("#full-clearance").textContent(), "2.5 source feet");
     assert.match(await page.locator("#transport-verdict").textContent(), /does not explain the veering/);
-    await page.locator("#transport-tight").focus();await page.keyboard.press("Enter");
-    assert.equal(await page.locator(".stone-intrusion").count(),1);
+    await page.locator("#transport-tight").focus();
+    await page.keyboard.press("Enter");
+    assert.equal(await page.locator(".stone-intrusion").count(), 1);
     await page.locator("#transport-quarter").click();
-    assert.equal(await page.locator(".stone-intrusion").count(),0);
-    assert.match(await page.locator("#transport-verdict").textContent(),/too small/);
+    assert.equal(await page.locator(".stone-intrusion").count(), 0);
+    assert.match(await page.locator("#transport-verdict").textContent(), /too small/);
     await page.locator('[data-transport-word="armillis"]').click();
-    assert.match(await page.locator("#transport-word-note").textContent(),/Ablative plural/);
-    assert.ok(await page.locator("#transport-word-panel").evaluate(e=>Boolean(e.closest(".transport-reading"))));
-    await page.locator('button[data-transport-page="230"]').click();await page.locator("#transport-source-image").evaluate(img=>img.decode());
-    const [turn]=await Promise.all([page.waitForEvent("download"),page.locator("#transport-csv").click()]);
-    assert.equal(turn.suggestedFilename(),"gonia-transport.csv");
-    await page.getByRole("link",{name:"Fluting",exact:true}).click();
+    assert.match(await page.locator("#transport-word-note").textContent(), /Ablative plural/);
+    assert.ok(
+      await page.locator("#transport-word-panel").evaluate((e) => Boolean(e.closest(".transport-reading"))),
+    );
+    await page.locator('button[data-transport-page="230"]').click();
+    await page.locator("#transport-source-image").evaluate((img) => img.decode());
+    const [turn] = await Promise.all([page.waitForEvent("download"), page.locator("#transport-csv").click()]);
+    assert.equal(turn.suggestedFilename(), "gonia-transport.csv");
+    await page.getByRole("link", { name: "Fluting", exact: true }).click();
     assert.equal(await page.locator("#cut-depth").innerText(), "20.71 mm");
     assert.equal(await page.locator("#edge-angle").innerText(), "135°");
     await page.locator('a[href="#segment-study"]').click();
-    assert.equal(await page.locator("#segment-p-title").textContent(),"P makes 135 degrees in the smaller segment");
-    assert.equal(await page.locator("#segment-q-title").textContent(),"Q makes 45 degrees in the larger segment");
-    await page.locator("#segment-point").focus();await page.keyboard.press("Home");
-    assert.equal(await page.locator("#point").inputValue(),"5");
-    assert.match(await page.locator(".segment-reading [lang=la].source-words").textContent(),/minor recto/);
-    await page.locator('[data-source="3"]').click();await page.locator("#source-window img").evaluate(img=>img.decode());
-    assert.match(await page.locator("#source-caption").innerText(),/Heiberg/);
+    assert.equal(
+      await page.locator("#segment-p-title").textContent(),
+      "P makes 135 degrees in the smaller segment",
+    );
+    assert.equal(
+      await page.locator("#segment-q-title").textContent(),
+      "Q makes 45 degrees in the larger segment",
+    );
+    await page.locator("#segment-point").focus();
+    await page.keyboard.press("Home");
+    assert.equal(await page.locator("#point").inputValue(), "5");
+    assert.match(await page.locator(".segment-reading [lang=la].source-words").textContent(), /minor recto/);
+    await page.locator('[data-source="3"]').click();
+    await page.locator("#source-window img").evaluate((img) => img.decode());
+    assert.match(await page.locator("#source-caption").innerText(), /Heiberg/);
     await page.locator("#recipe").selectOption("ionic");
     assert.equal(await page.locator("#cut-depth").innerText(), "50.00 mm");
     assert.equal(await page.locator("#gauge-miss").innerText(), "0.00 mm");
     await page.locator("#point").focus();
     await page.keyboard.press("End");
     assert.equal(await page.locator("#edge-angle").innerText(), "90°");
-    const [template] = await Promise.all([page.waitForEvent("download"), page.locator("#save-template").click()]);
+    const [template] = await Promise.all([
+      page.waitForEvent("download"),
+      page.locator("#save-template").click(),
+    ]);
     assert.equal(template.suggestedFilename(), "gonia-ionic-100mm.svg");
     await page.locator('[data-source="2"]').click();
-    await page.locator("#source-window img").evaluate(img=>img.decode());
+    await page.locator("#source-window img").evaluate((img) => img.decode());
     assert.match(await page.locator(".genitive-line").innerText(), /κίονος/);
-    await page.getByRole("link",{name:"Entasis",exact:true}).click();
+    await page.getByRole("link", { name: "Entasis", exact: true }).click();
     await page.locator("#entasis-station").fill("1");
     await page.locator("#entasis-station").dispatchEvent("input");
     await page.locator("#entasis-enlargement").selectOption("200");
@@ -209,47 +287,63 @@ async function explore(page, id) {
     await page.getByRole("link", { name: "Doric corner", exact: true }).click();
     assert.equal(await page.locator("#workshop-title").innerText(), "The corner workshop");
     return {
+      romanStageDepthM: 5,
+      greekStageDepthM: 2.93,
+      changedCompassCentresRead: true,
+      theatreCsvDownloaded: true,
+      colonnadeReached: true,
       circleDifferenceMm: 2.042,
       fivePointMaximumMm: 16.508,
       sourceDecoded: "Penrose 41",
-      transportMinimumClearanceSourceFeet:2.5,blockedBetweenQuarterTurns:true,inlineLatinAblativeRead:true,nativeFullTurnDownloaded:true,
-      doricDepthMm:20.71, ionicDepthMm:50, movingIonicAngle:90, nativeTemplateDownloaded:true, greekGenitivesRead:true, allFiveWorkshopsReachable: true,
+      transportMinimumClearanceSourceFeet: 2.5,
+      blockedBetweenQuarterTurns: true,
+      inlineLatinAblativeRead: true,
+      nativeFullTurnDownloaded: true,
+      doricDepthMm: 20.71,
+      ionicDepthMm: 50,
+      movingIonicAngle: 90,
+      nativeTemplateDownloaded: true,
+      greekGenitivesRead: true,
+      allFiveWorkshopsReachable: true,
     };
   }
   const state = new URLSearchParams(new URL(page.url()).hash.slice(1));
-  assert.equal(state.get("p"), "20");
-  assert.equal(state.get("s"), "7");
-  assert.equal(state.get("pair"), "2");
-  assert.equal(await page.locator('#diagram [data-point="Δ"]').count(), 1);
-  assert.match(await page.locator("#diagram-notice").innerText(), /modern expansion/);
-  assert.match(await page.locator("#equations").innerText(), /ΒΓ \+ ΓΑ/);
-  await page.locator("#pair").focus();
+  assert.equal(state.get("p"), "21");
+  assert.equal(state.get("s"), "9");
+  await page.locator("#motion").focus();
   await page.keyboard.press("Home");
-  await page.keyboard.press("Enter");
-  assert.equal(await page.locator("#pair").inputValue(), "0");
-  assert.match(await page.locator("#equations").innerText(), /ΒΑ \+ ΑΓ/);
-  await page.locator("#next").click();
-  await page.locator('#current-passage [data-source="51"]').click();
-  await page.waitForFunction(() => document.querySelector("#source-image").naturalWidth > 0);
-  assert.match(await page.locator("#source-title").innerText(), /51/);
+  await page.keyboard.press("ArrowRight");
+  assert.equal(await page.locator("#motion").inputValue(), "11");
+  const values = await page.locator("#comparison tbody td:not(:first-child)").allTextContents();
+  assert.ok(Number(values[3]) > Number(values[2]));
+  assert.ok(Number(values[5]) < Number(values[4]));
+  assert.ok(parseFloat(values[7]) > parseFloat(values[6]));
+  await page.locator('#current-passage [data-source="53"]').click();
+  await page.waitForFunction(() => {
+    const im = document.querySelector("#source-image");
+    return im.complete && im.naturalWidth > 0;
+  });
+  assert.match(await page.locator("#source-title").innerText(), /53/);
   await page.keyboard.press("Escape");
-  if (await page.locator("#lesson-select").isVisible())
-    await page.locator("#lesson-select").selectOption("19");
-  else await page.locator('.lesson-tab[data-lesson="19"]').click();
-  await page.locator('#step-list [data-step="2"]').focus();
-  await page.keyboard.press("Enter");
-  assert.match(await page.locator("#diagram-notice").innerText(), /given angle inequality no longer holds/);
-  assert.deepEqual(await page.locator("#comparison thead th").allTextContents(), [
-    "Quantity / premise",
-    "Original given",
-    "Temporary case",
-  ]);
-  assert.match(await page.locator("#comparison").innerText(), /Not satisfied/);
+  const [study] = await Promise.all([page.waitForEvent("download"), page.locator("#save-sheet").click()]);
+  assert.equal(study.suggestedFilename(), "stoicheia-I21-study.html");
+  await page.locator('a[href$="triangle.html"]').click();
+  await page.locator(".cl-presets summary").click();
+  await page.getByRole("button", { name: "Touch inside", exact: true }).click();
+  assert.match(await page.locator("#closure-result").innerText(), /touch|tangent/i);
+  const [closure] = await Promise.all([page.waitForEvent("download"), page.locator("#save-study").click()]);
+  assert.match(closure.suggestedFilename(), /I22/);
   return {
-    proposition: 20,
-    comparedPairs: ["ΒΓ + ΓΑ > ΑΒ", "ΒΑ + ΑΓ > ΒΓ"],
-    printedLatinPage: 51,
-    converseTemporaryPremise: "Not satisfied",
+    proposition: 21,
+    interiorPercent: 11,
+    individualSideCanGrow: true,
+    combinedLengthSmaller: true,
+    includedAngleLarger: true,
+    printedLatinPage: 53,
+    illustratedStudyDownloaded: true,
+    closureWorkshopReached: true,
+    internalTangencyExplored: true,
+    closureReadingDownloaded: true,
   };
 }
 
@@ -270,7 +364,7 @@ export async function runJourneys(base, out, only) {
     const browser = await engine.launch();
     try {
       for (const width of [1280, 375]) {
-        for (const lesson of lessons.filter((l) => !only || l.id === only)) {
+        for (const lesson of lessons.filter((l) => !only || only.split(",").includes(l.id))) {
           console.log(`${name} ${width}px ${lesson.id}`);
           const context = await browser.newContext({ viewport: { width, height: 900 } });
           context.setDefaultTimeout(20000);
@@ -286,8 +380,8 @@ export async function runJourneys(base, out, only) {
           await search.fill(lesson.query);
           const card = page.locator(`[data-project="${lesson.id}"]`);
           await card.waitFor({ state: "visible" });
-          const matchingCards=await page.locator(".card:visible").count();
-          assert(matchingCards>=1);
+          const matchingCards = await page.locator(".card:visible").count();
+          assert(matchingCards >= 1);
           const thumbnail = card.locator("img");
           await thumbnail.scrollIntoViewIfNeeded();
           await thumbnail.evaluate((e) => e.decode());
@@ -310,7 +404,7 @@ export async function runJourneys(base, out, only) {
               (url) =>
                 url.origin === target.origin &&
                 url.pathname === target.pathname &&
-                new URLSearchParams(url.hash.slice(1)).get("p") === "20",
+                new URLSearchParams(url.hash.slice(1)).get("p") === "21",
             );
           } else await page.waitForURL(demoURL);
           const interaction = await explore(page, lesson.id);

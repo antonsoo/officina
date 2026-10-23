@@ -78,29 +78,42 @@
     }
   },
   {
+    "name": "dioptra",
+    "description": "Aim an unseen tunnel with Hero’s Greek instructions. Walk a right-angle circuit, cancel detours, set outside aiming pegs, and inspect a chosen error beside the original source pages.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/dioptra",
+    "demoUrl": "https://antonsoo.github.io/dioptra/?stage=3&aim=0.2#field-book",
+    "thumbnail": "thumbs/dioptra.png",
+    "status": "published",
+    "study": {
+      "finding": "The outside walk grows from 560 to 760 chosen metres while the displacement stays 300 by 60. Two 10 mm peg errors make a 60 mm middle gap.",
+      "url": "https://github.com/antonsoo/dioptra/blob/90527ebcbbc572c0b2c06d37bbe321d345b9f01d/docs/review.md#what-the-learner-can-do"
+    }
+  },
+  {
     "name": "gonia",
-    "description": "Roll column shafts and rectangular stones through Vitruvius’s transport account. Read Latin and Greek technical words, test wheel clearance, and explore flute cuts, entasis, spacing and Doric corners.",
+    "description": "Construct Vitruvius’s Greek and Roman theatres from twelve points. Read the Latin, move the compass centres, and explore colonnades, stone transport, flute cuts, entasis and Doric corners.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gonia",
-    "demoUrl": "https://antonsoo.github.io/gonia/transport.html?kind=wheels&w=8&h=6&r=7.5&angle=53&unit=feet&page=231#transport-workshop",
+    "demoUrl": "https://antonsoo.github.io/gonia/theatre.html#th-workshop",
     "thumbnail": "thumbs/gonia.png",
     "status": "published",
     "study": {
-      "finding": "In the model, 15-foot wheels give an 8 × 6 section 2.5 feet of clearance. That fit cannot explain the reported veering.",
-      "url": "https://github.com/antonsoo/gonia/blob/35f8d1d20783a1d4297100a8991b84946c7baf01/docs/transport-model.md#what-can-be-learned"
+      "finding": "The same 20 m circle gives a 5 m Roman stage and a 2.93 m Greek stage. Moving the Greek compass centres changes the orchestra boundary.",
+      "url": "https://github.com/antonsoo/gonia/blob/f8b31e3d6dbdbdf568800652fab7a997889b20b2/docs/theatre-review.md#what-changed-for-the-learner"
     }
   },
   {
     "name": "stoicheia",
-    "description": "Read Euclid I.1–20 in Greek, Latin and English. Construct all three triangle inequalities, inspect a rejected premise, and explore bisection and perpendiculars beside the source pages.",
+    "description": "Read Euclid I.1–21 in Greek, Latin and English, then construct I.22. Move an interior vertex, compare lengths and angles, and keep illustrated proofs with their verified source pages. Explore bisection and perpendiculars.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/stoicheia",
-    "demoUrl": "https://antonsoo.github.io/stoicheia/#p=20&s=7&pair=2",
+    "demoUrl": "https://antonsoo.github.io/stoicheia/#p=21&s=9&m=55",
     "thumbnail": "thumbs/stoicheia.png",
     "status": "published",
     "study": {
-      "finding": "Copying a side onto a continuation proves the triangle inequality. I.19’s rejected alternatives visibly lose the given angle premise.",
-      "url": "https://github.com/antonsoo/stoicheia/blob/697217ae7d015956ef1bfaf77fb81f3e150ac31a/docs/inequalities-review.md#what-can-be-learned"
+      "finding": "The inner route is shorter but its angle is larger. One inner segment can still be longer: Euclid compares sums, with a separate proof for angles.",
+      "url": "https://github.com/antonsoo/stoicheia/blob/9a698b8bc3ed3e92929019dbe761d18cde0623a9/docs/nested-review.md#what-can-be-learned"
     }
   },
   {

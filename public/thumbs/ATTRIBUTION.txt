@@ -44,20 +44,6 @@ Screenshot of the application's original measured section, unit triangle and
 new English explanation of Rhind problem 59. No source scan or museum photograph
 is included. Illustration, prose and screenshot: Anton Soloviev, MIT.
 
-Gonia entasis thumbnail (gonia.png, updated 2026-10-21)
-
-Screenshot of the application's original plots of Penrose's 1888 measurements
-and predictions. The left plot retains equal scales; the right explicitly
-marks horizontal enlargement. No source photograph is included. Diagram and
-screenshot: Anton Soloviev, MIT.
-
-Stoicheia triangle-inequality thumbnail (stoicheia.png, updated 2026-10-22)
-
-Screenshot of the application's original I.20 construction and parallel reading.
-The third side-pair drawing explicitly expands the source's "similarly".
-Greek and Latin text: Heiberg 1883, public domain. New English and coordinate
-diagram: Anton Soloviev, MIT. No source-page scan is included.
-
 Pyknon octave-proof thumbnail (pyknon-canon.png, added 2026-10-22)
 
 Screenshot of the application's original pitch comparison and enlarged endpoint
@@ -73,3 +59,24 @@ strings, exact pitch traces and explanations are original work by Anton
 Soloviev, MIT. The diagram is a modern numerical realization, not the shape
 or measured pitch of an excavated instrument. No tablet photograph, source
 figure, third-party recording or article excerpt is included.
+
+Gonia theatre thumbnail (gonia.png, updated 2026-10-23)
+
+Actual screenshot of the Greek plan, relocated compass centres and source-word
+explanation. The diagram is a modern geometric reading of Vitruvius, not an
+archaeological survey. No source scan is included. Anton Soloviev, MIT.
+
+Dioptra survey thumbnail (dioptra.png, added 2026-10-23)
+
+Actual screenshot of the measured circuit, outside aiming pegs and signed
+ledger. No scanned source page is included. Original diagram: Anton Soloviev,
+MIT. Original teaching text: Anton Soloviev, CC BY-SA 4.0; the screenshot is
+redistributed under CC BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/
+Source: https://github.com/antonsoo/dioptra ; no visual alterations.
+
+Stoicheia interior-route thumbnail (stoicheia.png, updated 2026-10-23)
+
+Actual I.21 proof and three-language reading. Greek and Latin: Heiberg 1883,
+public domain. New English, notes, diagram and screenshot: Anton Soloviev, MIT.
+No source-page scan is included. The native 1200 by 750 capture retains the
+complete triangle, selected interior point and three-language conclusion.
