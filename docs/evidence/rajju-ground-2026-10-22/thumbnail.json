@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-23T01:08:36.449Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "rajju",
+      "url": "https://antonsoo.github.io/rajju/field.html?corner=en&method=one&grip=1500&stake=mark#field-workshop",
+      "anchor": "#field-workshop",
+      "anchorTop": 23.84375,
+      "file": "thumbs/rajju.png",
+      "sha256": "3aeb8a9537a5b52048af50df2923abc784f54b8f61785b30631e690b31eae19d"
+    }
+  ]
+}

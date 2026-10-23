@@ -4,6 +4,7 @@ import { pathToFileURL } from "node:url";
 import { chromium, firefox, expect } from "@playwright/test";
 
 const lessons = [
+  { id: "rajju", query: "marked cords", legacy: "Sanskrit", heading: "What can be learned" },
   { id: "pnigeus", query: "water organ", heading: "What can be learned" },
   { id: "seked", query: "Rhind", heading: "What can be learned" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
@@ -13,6 +14,31 @@ const lessons = [
 ];
 
 async function explore(page, id) {
+  if (id === "rajju") {
+    assert.match(await page.locator("#peg-error").innerText(), /Position \(36, 12\)/);
+    for (const c of ["wn", "ws", "en", "es"]) {
+      await page.locator(`button[data-corner="${c}"]`).click();
+      await page.locator("#restore-source").click();await page.locator("#place-peg").click();
+    }
+    assert.match(await page.locator("#ground-result").innerText(), /972 square/);
+    for (const c of ["en", "es"]) {
+      await page.locator(`button[data-corner="${c}"]`).click();
+      await page.locator('input[name="field-stake"][value="grip"]').focus();await page.keyboard.press("Space");
+      await page.locator("#place-peg").click();
+    }
+    assert.match(await page.locator("#ground-result").innerText(), /1,080 square/);
+    assert.match(await page.locator("#peg-error").innerText(), /angle: 90°/);
+    await page.locator('[data-field-page="10"]').click();
+    await page.locator("#field-source-image").evaluate((img) => img.decode());
+    assert.match(await page.locator("#field-source-note").innerText(), /southwest and southeast/);
+    const [template] = await Promise.all([page.waitForEvent("download"), page.locator("#field-template").click()]);
+    assert.equal(template.suggestedFilename(), "rajju-paper-cord.svg");
+    await page.getByRole("link", { name: "Circle & return", exact: true }).click();
+    assert.match(await page.locator("#lesson-title").innerText(), /circle/);
+    await page.locator("#diagonal-tab").focus();await page.keyboard.press("Enter");
+    assert.match(await page.locator("#lesson-title").innerText(), /diagonal/);
+    return {sourcePeg:{east:36,north:12},prescribedArea:972,easternGripsArea:1080,baselineAngleRemainsDegrees:90,printedDirectionDiscrepancyRead:true,nativeTemplateDownloaded:true,allThreeLessonsReachable:true};
+  }
   if (id === "pnigeus") {
     assert.equal(await page.locator("#shape-pressure").innerText(), "4481");
     assert.equal(await page.locator("#radius").inputValue(), "40");

@@ -65,6 +65,11 @@ npm install
 npm run dev
 ```
 
+The [marked-cord ground lesson](docs/rajju-ground-2026-10-22.md) opens Rajju
+at the eastern operation: hold fifteen, stake twelve. The card links the
+source table and the counterexample in which four perpendiculars still give
+the wrong ground.
+
 The [water-organ workshop](docs/pnigeus-shapes-2026-10-22.md) opens a worked Pnigeus
 experiment and follows it to the Latin reading and public evidence.
 

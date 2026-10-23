@@ -1,5 +1,18 @@
 [
   {
+    "name": "rajju",
+    "description": "Place Āpastamba’s four corner pegs with marked cords. Separate the grip from the stake, compare four procedures, and read Sanskrit beside original pages; explore circle and diagonal rules too.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/rajju",
+    "demoUrl": "https://antonsoo.github.io/rajju/field.html?corner=en&method=one&grip=1500&stake=mark#field-workshop",
+    "thumbnail": "thumbs/rajju.png",
+    "status": "published",
+    "study": {
+      "finding": "Holding at 15 makes a perpendicular; staking at 12 gives the prescribed ground. Staking both eastern grips changes area from 972 to 1080.",
+      "url": "https://github.com/antonsoo/rajju/blob/12e1ddf3b0b53ca65f48c0f39a0cb2439fbcf02e/docs/field-model.md#what-can-be-learned"
+    }
+  },
+  {
     "name": "pnigeus",
     "description": "Read Hero’s Greek beside the source page. Compare a water-organ hemisphere, cylinder and cone; explore pressure, air reserve, pumping and Vitruvius’s Latin.",
     "group": "Ancient world",
