@@ -24,3 +24,9 @@ These checks cover catalogue discovery and the exercised public learning path.
 Rajju's own review records the complete source identities, numerical oracle,
 native illustrated readings and offline upgrade behavior. No physical survey,
 historical construction precision or hosted CI result is inferred.
+
+The catalogue update is public at `6e3204b`. All 50 canonical files match
+the reviewed build, and all four hosted search/keyboard/lesson/pinned-heading
+journeys pass in Chromium and Firefox. See the hosted receipts beside the local
+review. The catalogue source, hosted bytes and exercised browser path are distinct
+checks; no registry publication or hosted CI result is claimed.

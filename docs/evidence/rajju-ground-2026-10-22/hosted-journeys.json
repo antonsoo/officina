@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-10-23T01:12:28.059Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "rajju",
+      "search": "marked cords",
+      "legacySearch": "Sanskrit",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/rajju/field.html?corner=en&method=one&grip=1500&stake=mark#field-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "sourcePeg": {
+          "east": 36,
+          "north": 12
+        },
+        "prescribedArea": 972,
+        "easternGripsArea": 1080,
+        "baselineAngleRemainsDegrees": 90,
+        "printedDirectionDiscrepancyRead": true,
+        "nativeTemplateDownloaded": true,
+        "allThreeLessonsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/rajju/blob/12e1ddf3b0b53ca65f48c0f39a0cb2439fbcf02e/docs/field-model.md#what-can-be-learned",
+      "pinnedHeadingTop": 380.34375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "rajju",
+      "search": "marked cords",
+      "legacySearch": "Sanskrit",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/rajju/field.html?corner=en&method=one&grip=1500&stake=mark#field-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "sourcePeg": {
+          "east": 36,
+          "north": 12
+        },
+        "prescribedArea": 972,
+        "easternGripsArea": 1080,
+        "baselineAngleRemainsDegrees": 90,
+        "printedDirectionDiscrepancyRead": true,
+        "nativeTemplateDownloaded": true,
+        "allThreeLessonsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/rajju/blob/12e1ddf3b0b53ca65f48c0f39a0cb2439fbcf02e/docs/field-model.md#what-can-be-learned",
+      "pinnedHeadingTop": 136.125,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "rajju",
+      "search": "marked cords",
+      "legacySearch": "Sanskrit",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/rajju/field.html?corner=en&method=one&grip=1500&stake=mark#field-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "sourcePeg": {
+          "east": 36,
+          "north": 12
+        },
+        "prescribedArea": 972,
+        "easternGripsArea": 1080,
+        "baselineAngleRemainsDegrees": 90,
+        "printedDirectionDiscrepancyRead": true,
+        "nativeTemplateDownloaded": true,
+        "allThreeLessonsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/rajju/blob/12e1ddf3b0b53ca65f48c0f39a0cb2439fbcf02e/docs/field-model.md#what-can-be-learned",
+      "pinnedHeadingTop": 508.3666687011719,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "rajju",
+      "search": "marked cords",
+      "legacySearch": "Sanskrit",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/rajju/field.html?corner=en&method=one&grip=1500&stake=mark#field-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "sourcePeg": {
+          "east": 36,
+          "north": 12
+        },
+        "prescribedArea": 972,
+        "easternGripsArea": 1080,
+        "baselineAngleRemainsDegrees": 90,
+        "printedDirectionDiscrepancyRead": true,
+        "nativeTemplateDownloaded": true,
+        "allThreeLessonsReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/rajju/blob/12e1ddf3b0b53ca65f48c0f39a0cb2439fbcf02e/docs/field-model.md#what-can-be-learned",
+      "pinnedHeadingTop": 166.76666259765625,
+      "pageErrors": []
+    }
+  ]
+}
