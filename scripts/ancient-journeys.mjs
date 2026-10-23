@@ -9,7 +9,7 @@ const lessons = [
   { id: "seked", query: "Rhind", heading: "What can be learned" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
   { id: "pyknon", query: "Seikilos", legacy: "tetrachords", heading: "Seikilos reading review" },
-  { id: "gonia", query: "flute", legacy: "entasis", heading: "What can be learned" },
+  { id: "gonia", query: "stone transport", legacy: "flute", heading: "What can be learned" },
   { id: "stoicheia", query: "Euclid", legacy: "bisection", heading: "What can be learned" },
 ];
 
@@ -157,6 +157,20 @@ async function explore(page, id) {
     };
   }
   if (id === "gonia") {
+    assert.equal(await page.locator("#full-clearance").textContent(), "2.5 source feet");
+    assert.match(await page.locator("#transport-verdict").textContent(), /does not explain the veering/);
+    await page.locator("#transport-tight").focus();await page.keyboard.press("Enter");
+    assert.equal(await page.locator(".stone-intrusion").count(),1);
+    await page.locator("#transport-quarter").click();
+    assert.equal(await page.locator(".stone-intrusion").count(),0);
+    assert.match(await page.locator("#transport-verdict").textContent(),/too small/);
+    await page.locator('[data-transport-word="armillis"]').click();
+    assert.match(await page.locator("#transport-word-note").textContent(),/Ablative plural/);
+    assert.ok(await page.locator("#transport-word-panel").evaluate(e=>Boolean(e.closest(".transport-reading"))));
+    await page.locator('button[data-transport-page="230"]').click();await page.locator("#transport-source-image").evaluate(img=>img.decode());
+    const [turn]=await Promise.all([page.waitForEvent("download"),page.locator("#transport-csv").click()]);
+    assert.equal(turn.suggestedFilename(),"gonia-transport.csv");
+    await page.getByRole("link",{name:"Fluting",exact:true}).click();
     assert.equal(await page.locator("#cut-depth").innerText(), "20.71 mm");
     assert.equal(await page.locator("#edge-angle").innerText(), "135°");
     await page.locator('a[href="#segment-study"]').click();
@@ -198,7 +212,8 @@ async function explore(page, id) {
       circleDifferenceMm: 2.042,
       fivePointMaximumMm: 16.508,
       sourceDecoded: "Penrose 41",
-      doricDepthMm:20.71, ionicDepthMm:50, movingIonicAngle:90, nativeTemplateDownloaded:true, greekGenitivesRead:true, allFourWorkshopsReachable: true,
+      transportMinimumClearanceSourceFeet:2.5,blockedBetweenQuarterTurns:true,inlineLatinAblativeRead:true,nativeFullTurnDownloaded:true,
+      doricDepthMm:20.71, ionicDepthMm:50, movingIonicAngle:90, nativeTemplateDownloaded:true, greekGenitivesRead:true, allFiveWorkshopsReachable: true,
     };
   }
   const state = new URLSearchParams(new URL(page.url()).hash.slice(1));

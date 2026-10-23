@@ -10,7 +10,7 @@ const anchors = {
   seked: ".reading-desk",
   shiguzhai: ".reference-control",
   pyknon: ".verse-tabs",
-  gonia: ".fluting-plates",
+  gonia: ".transport-measures",
   stoicheia: "#workbench",
 };
 const browser = await chromium.launch();
@@ -34,12 +34,14 @@ try {
       () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
     );
     await page.locator(anchor).evaluate((e) => e.scrollIntoView({ block: "start", behavior: "instant" }));
+    const wantedTop = name === "gonia" ? 590 : 0;
+    if (wantedTop) await page.evaluate((offset) => window.scrollBy(0,-offset),wantedTop);
     await page.evaluate(
       () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
     );
     const anchorTop = (await page.locator(anchor).boundingBox()).y;
     assert.ok(
-      Math.abs(anchorTop) <= 32,
+      Math.abs(anchorTop-wantedTop) <= 32,
       `${name}: screenshot anchor is outside the intended frame (${anchorTop})`,
     );
     if (name === "pyknon")
@@ -56,6 +58,7 @@ try {
       url: card.demoUrl,
       anchor,
       anchorTop,
+      wantedTop,
       file: card.thumbnail,
       sha256: createHash("sha256")
         .update(await readFile(path))

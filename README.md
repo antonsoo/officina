@@ -65,6 +65,11 @@ npm install
 npm run dev
 ```
 
+The [stone-transport workshop](docs/gonia-transport-2026-10-22.md) opens Gonia
+at the reported-dimensions example, with 2.5 source feet of minimum clearance.
+Its pinned source explains why that geometric fit cannot account for the reported
+veering; the other four architecture rooms remain discoverable.
+
 The [marked-cord ground lesson](docs/rajju-ground-2026-10-22.md) opens Rajju
 at the eastern operation: hold fifteen, stake twelve. The card links the
 source table and the counterexample in which four perpendiculars still give

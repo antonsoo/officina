@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-23T02:20:24.000Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "gonia",
+      "url": "https://antonsoo.github.io/gonia/transport.html?kind=wheels&w=8&h=6&r=7.5&angle=53&unit=feet&page=231#transport-workshop",
+      "anchor": ".transport-measures",
+      "anchorTop": 614.96875,
+      "wantedTop": 590,
+      "file": "thumbs/gonia.png",
+      "sha256": "9ce4af72aabbaafae07873abce188d5a64e3888f3ff9f2939726f266ba3c92aa"
+    }
+  ]
+}
