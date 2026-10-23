@@ -31,3 +31,8 @@ retains the complete source identities, public 84-pose browser review,
 independent polygon/CSV checks, native readings and offline upgrades. This
 catalogue review establishes discovery and the exercised learning path; it
 does not infer archaeological measurements or a physical transport mechanism.
+
+The catalogue source is public at `68708a8`. All 50 canonical files match
+the reviewed production inventory. All four public catalogue/search/lesson/
+pinned-heading journeys also pass. The hosted receipts are retained beside
+the local ones; public bytes and observed browser navigation are separate checks.
