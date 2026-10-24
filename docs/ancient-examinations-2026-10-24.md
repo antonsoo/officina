@@ -73,5 +73,8 @@ node --input-type=module -e 'import {runJourneys} from "./scripts/ancient-journe
 The catalogue checks pass lint, typecheck, formatting, 40 unit checks and the
 production build. Its 32 existing Chromium/Firefox browser workflows pass,
 including keyboard focus, local filtering, failure/retry behavior, themes,
-375px layouts and automated accessibility checks. Public catalogue publication
-and a fresh Node 24 build are recorded separately after verification.
+375px layouts and automated accessibility checks. A fresh local Git clone of `4bac074` under Node 24.21.0, installed with
+`npm ci`, passes the production build and all 40 unit checks. Its 53 output
+files are byte-identical to the reviewed working build and its tree remains
+clean; [clean-build receipt](evidence/ancient-examinations-2026-10-24/clean-build.json).
+Public catalogue publication is recorded separately after verification.
