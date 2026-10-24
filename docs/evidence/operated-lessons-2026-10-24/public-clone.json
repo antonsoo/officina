@@ -1,0 +1,8 @@
+{
+  "sourceRevision": "08192c03579e36cd774ea39439a63e2c547eeec4",
+  "node": "24.22.0",
+  "install": "npm ci",
+  "check": "npm run build",
+  "fileCount": 57,
+  "byteIdentical": true
+}

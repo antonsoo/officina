@@ -17,6 +17,21 @@ a complete portable record.
 [Change the grāma](https://antonsoo.github.io/grama/) ·
 [Move the rope tie](https://antonsoo.github.io/gonia/hoist.html).
 
+## Read or print a saved experiment
+
+These retained examples are actual native downloads with complete source pages.
+Download the HTML from its linked file page and open it locally, or use the PDF
+for reading and printing. Each is a chosen snapshot; the live workshop lets you
+make a different experiment. All eight [public artifact identities](evidence/operated-lessons-2026-10-24/portable-files.json)
+match the retained native files.
+
+| Saved experiment                                             | Portable HTML                                                                                                                               | Printable PDF                                                                                                                          |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| I.2, completed eleven-command route                          | [Reading](https://github.com/antonsoo/stoicheia/blob/1855a9594a3a006bf42ae3639281cfe4f992f7de/examples/stoicheia-construction-reading.html) | [PDF](https://github.com/antonsoo/stoicheia/blob/1855a9594a3a006bf42ae3639281cfe4f992f7de/examples/stoicheia-construction-reading.pdf) |
+| Six times, 2+4, joined attacks                               | [Reading](https://github.com/antonsoo/pyknon/blob/c91cdc576af85baf113fba182fe89e8d44c9340f/examples/rhythm-reading.html)                    | [PDF](https://github.com/antonsoo/pyknon/blob/c91cdc576af85baf113fba182fe89e8d44c9340f/examples/rhythm-reading.pdf)                    |
+| Madhyama, start Re, equal-division counterexample, Sa 220 Hz | [Reading](https://github.com/antonsoo/grama/blob/433620732c1f4fef46947d38cdf677a821cd0102/examples/grama-illustrated-reading.html)          | [PDF](https://github.com/antonsoo/grama/blob/433620732c1f4fef46947d38cdf677a821cd0102/examples/grama-illustrated-reading.pdf)          |
+| Five wheels, moving tie, 1 m rise, 1200 N, arm ratio 4       | [Reading](https://github.com/antonsoo/gonia/blob/cc4a123ea05ae5f42dfb4313323ea55dc539ee31/examples/hoist-reading.html)                      | [PDF](https://github.com/antonsoo/gonia/blob/cc4a123ea05ae5f42dfb4313323ea55dc539ee31/examples/hoist-reading.pdf)                      |
+
 These are modern teaching interfaces to identified printed witnesses. The
 geometry desk's restricted operation does not establish an ancient physical
 compass design. Rhythmic sine markers do not recover a performance accent or
@@ -95,4 +110,31 @@ starts at localhost:5173, where the [native search workflow](evidence/operated-l
 passes in both browsers and widths. This source archive is an isolated local
 installation, not yet a claim about a fresh public clone.
 
-Public catalogue publication is recorded separately from the projects it links.
+## Public catalogue publication
+
+The updated [public catalogue](https://antonsoo.github.io/officina/) is verified.
+
+| Boundary                  | Observed identity or result                                                                                                                                                                                  |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Reviewed source           | `08192c03579e36cd774ea39439a63e2c547eeec4`                                                                                                                                                                   |
+| Pages branch              | `7f861f0ce69513734f18ea9d63e194754bb11e28`                                                                                                                                                                   |
+| Pages configuration       | API reports legacy publication from `gh-pages`, root `/`                                                                                                                                                     |
+| Canonical hosted bytes    | All 57 current files match SHA-256 identities, with matching directory checks before and after                                                                                                               |
+| Hosted native search      | 296 source/legacy queries, five music projects, retained input focus and audience narrowing; no additional catalogue-data requests                                                                           |
+| Hosted complete journeys  | 36 routes across nine projects, Chromium 153 and Firefox 155, 1280 and 375 px; actual controls and files, earlier-room navigation and the complete pinned heading visible through native fragment navigation |
+| Fresh public source clone | HTTPS clone of the reviewed source; Node 24.22.0, `npm ci`, `npm run build`; all 57 output files byte-identical                                                                                              |
+| Saved study artifacts     | All eight pinned public HTML/PDF files match the native retained files                                                                                                                                       |
+
+[Publication record](evidence/operated-lessons-2026-10-24/publication.json) ·
+[Canonical files](evidence/operated-lessons-2026-10-24/hosted-files.json) ·
+[Public search](evidence/operated-lessons-2026-10-24/hosted-search.json) ·
+[Public journeys](evidence/operated-lessons-2026-10-24/hosted-journeys.json) ·
+[Public clone](evidence/operated-lessons-2026-10-24/public-clone.json).
+
+The latest-build API returned HTTP 404, so no API build-status result is claimed.
+The Pages configuration, pushed branch, actual hosted bytes and browser behaviour
+are independently observed above. Historical hashed assets remain retained for
+already-open pages and are outside the current 57-file inventory. Later
+documentation-only commits retain these observations without changing runtime
+inputs. This publishes a static catalogue; it is not a registry release or a
+claim that hosted CI jobs ran.

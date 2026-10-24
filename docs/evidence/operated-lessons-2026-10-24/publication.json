@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-10-24T22:44:57.411005+00:00",
+  "sourceRevision": "08192c03579e36cd774ea39439a63e2c547eeec4",
+  "pagesRevision": "7f861f0ce69513734f18ea9d63e194754bb11e28",
+  "pagesConfiguration": {
+    "build_type": "legacy",
+    "source": {
+      "branch": "gh-pages",
+      "path": "/"
+    },
+    "html_url": "https://antonsoo.github.io/officina/"
+  },
+  "latestBuildApi": {
+    "httpStatus": 404,
+    "status": "unavailable; no build-status claim"
+  },
+  "canonicalFiles": 57,
+  "canonicalDirectoryChecks": 2,
+  "hostedJourneys": 36,
+  "hostedSearchQueries": 296,
+  "publicCloneFilesIdentical": 57,
+  "pinnedPortableArtifactsVerified": 8,
+  "scope": "Source push, Pages branch/configuration, actual canonical hosted bytes, native browser journeys and pinned files are independently observed. Later documentation commits do not change runtime inputs. Historical hashed assets retained outside the current inventory."
+}
