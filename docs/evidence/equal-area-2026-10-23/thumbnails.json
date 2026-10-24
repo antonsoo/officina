@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-24T03:15:17.015Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "stoicheia",
+      "url": "https://antonsoo.github.io/stoicheia/quadrature.html#a=90&b=40&s=5&m=100&c=0&k=0&r=8",
+      "anchor": "#qa-workshop",
+      "anchorTop": 20.4375,
+      "wantedTop": 0,
+      "file": "thumbs/stoicheia.png",
+      "sha256": "1c89585a33120a817afb398320ef5765a12f7bd934d224d7b7317a889ab068ea"
+    }
+  ]
+}

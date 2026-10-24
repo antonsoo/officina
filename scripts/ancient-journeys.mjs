@@ -11,7 +11,7 @@ const lessons = [
   { id: "pyknon", query: "Seikilos", legacy: "tetrachords", heading: "Seikilos reading review" },
   { id: "gonia", query: "sounding vessels", legacy: "flute", heading: "What a learner can now do" },
   { id: "dioptra", query: "unseen tunnel", legacy: "Greek", heading: "What the learner can do" },
-  { id: "stoicheia", query: "Euclid", legacy: "bisection", heading: "What can be learned" },
+  { id: "stoicheia", query: "equal-area", legacy: "bisection", heading: "What can be learned" },
 ];
 
 async function explore(page, id) {
@@ -329,6 +329,25 @@ async function explore(page, id) {
       allFiveWorkshopsReachable: true,
     };
   }
+  assert.match(await page.locator("#qa-result").innerText(), /Same area: 36 u²/);
+  await page.locator('[data-qa-stage="5"]').focus();
+  await page.keyboard.press("Enter");
+  assert.equal(await page.locator(".qa-constructed-square").count(), 1);
+  await page.locator("#qa-lock").check();
+  await page.locator("#qa-a").fill("11");
+  await page.locator("#qa-a").press("Tab");
+  assert.equal(await page.locator("#qa-b").inputValue(), "2");
+  assert.match(await page.locator("#qa-result").innerText(), /Same area: 22 u²/);
+  await page.locator('[data-qa-preset="90,40"]').click();
+  await page.locator("#qa-fold").click();
+  await page.locator("#qa-cancel").click();
+  assert.match(await page.locator("#qa-proof-note").innerText(), /Remove 6.25 u²/);
+  await page.locator("#qa-read-subtract").click();
+  assert.match(await page.locator('#qa-passage-text [lang="grc"]').first().innerText(), /^κοινὸν ἀφῃρήσθω/);
+  const [quadrature] = await Promise.all([page.waitForEvent("download"), page.locator("#qa-save-study").click()]);
+  assert.equal(quadrature.suggestedFilename(), "stoicheia-II14-reading.html");
+  await page.getByRole("link", { name: "I.1–21 · Read the course", exact: true }).click();
+  await page.goto(new URL("#p=21&s=9&m=55", page.url()).href);
   const state = new URLSearchParams(new URL(page.url()).hash.slice(1));
   assert.equal(state.get("p"), "21");
   assert.equal(state.get("s"), "9");
@@ -356,6 +375,11 @@ async function explore(page, id) {
   const [closure] = await Promise.all([page.waitForEvent("download"), page.locator("#save-study").click()]);
   assert.match(closure.suggestedFilename(), /I22/);
   return {
+    quadratureArea: 36,
+    samePerimeterRectangleArea: 22,
+    commonSquareRemoved: 6.25,
+    greekSubtractionRead: true,
+    quadratureReadingDownloaded: true,
     proposition: 21,
     interiorPercent: 11,
     individualSideCanGrow: true,
@@ -425,8 +449,7 @@ export async function runJourneys(base, out, only) {
             await page.waitForURL(
               (url) =>
                 url.origin === target.origin &&
-                url.pathname === target.pathname &&
-                new URLSearchParams(url.hash.slice(1)).get("p") === "21",
+                url.pathname === target.pathname,
             );
           } else await page.waitForURL(demoURL);
           const interaction = await explore(page, lesson.id);

@@ -11,7 +11,7 @@ const anchors = {
   shiguzhai: ".reference-control",
   pyknon: ".verse-tabs",
   gonia: ".ec-workbench",
-  stoicheia: "#workbench",
+  stoicheia: "#qa-workshop",
 };
 const browser = await chromium.launch();
 const report = {

@@ -80,3 +80,10 @@ Actual I.21 proof and three-language reading. Greek and Latin: Heiberg 1883,
 public domain. New English, notes, diagram and screenshot: Anton Soloviev, MIT.
 No source-page scan is included. The native 1200 by 750 capture retains the
 complete triangle, selected interior point and three-language conclusion.
+
+Stoicheia equal-area thumbnail (stoicheia.png, updated 2026-10-23)
+
+Actual screenshot of the original II.14 construction diagram and controls.
+The rectangle and constructed square use the same scale. No source-page scan
+or museum photograph is included. Diagram, prose and screenshot: Anton
+Soloviev, MIT.
