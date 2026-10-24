@@ -9,7 +9,7 @@ const lessons = [
   { id: "seked", query: "Rhind", heading: "What can be learned" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
   { id: "pyknon", query: "Seikilos", legacy: "tetrachords", heading: "Seikilos reading review" },
-  { id: "gonia", query: "theatres", legacy: "flute", heading: "What changed for the learner" },
+  { id: "gonia", query: "sounding vessels", legacy: "flute", heading: "What a learner can now do" },
   { id: "dioptra", query: "unseen tunnel", legacy: "Greek", heading: "What the learner can do" },
   { id: "stoicheia", query: "Euclid", legacy: "bisection", heading: "What can be learned" },
 ];
@@ -198,6 +198,24 @@ async function explore(page, id) {
     };
   }
   if (id === "gonia") {
+    assert.equal(await page.locator(".ec-vessel").count(), 13);
+    await page.locator('[data-ec-note="4"]').focus();
+    await page.keyboard.press("Enter");
+    assert.match(await page.locator("#ec-selection").innerText(), /247.50 Hz.*3 and 11/);
+    await page.locator('[data-ec-note="3"]').click();
+    await page.locator("#ec-read-order").click();
+    assert.match(await page.locator("#ec-latin").innerText(), /^quarta/);
+    await page.locator("#ec-play-row").click();
+    await expect(page.locator("#ec-stop")).toBeEnabled();
+    await page.locator("#ec-stop").click();
+    await expect(page.locator("#ec-stop")).toBeDisabled();
+    await page.locator("#ec-miss").click();
+    assert.match(await page.locator("#ec-amplitude").innerText(), /^6\.8%$/);
+    const [sound] = await Promise.all([
+      page.waitForEvent("download"), page.locator("#ec-save-response").click(),
+    ]);
+    assert.match(sound.suggestedFilename(), /\.wav$/);
+    await page.getByRole("link", { name: "Theatre", exact: true }).click();
     await page.locator("#th-roman").focus();
     await page.keyboard.press("Enter");
     assert.equal(await page.locator("#th-roman-depth").innerText(), "5 m");
@@ -287,6 +305,10 @@ async function explore(page, id) {
     await page.getByRole("link", { name: "Doric corner", exact: true }).click();
     assert.equal(await page.locator("#workshop-title").innerText(), "The corner workshop");
     return {
+      soundingVessels: 13,
+      fourthPlacementRead: true,
+      detunedAmplitudePercent: 6.8,
+      nativeResponseWavDownloaded: true,
       romanStageDepthM: 5,
       greekStageDepthM: 2.93,
       changedCompassCentresRead: true,

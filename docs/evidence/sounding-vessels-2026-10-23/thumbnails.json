@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-24T02:29:20.346Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "gonia",
+      "url": "https://antonsoo.github.io/gonia/echea.html#ec-workshop",
+      "anchor": ".ec-workbench",
+      "anchorTop": 0.25,
+      "wantedTop": 0,
+      "file": "thumbs/gonia.png",
+      "sha256": "018595d230a2fe45603150b98de322f19446d910d78a7eb459ed364b733258fd"
+    }
+  ]
+}

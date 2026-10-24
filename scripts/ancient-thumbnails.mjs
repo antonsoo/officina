@@ -10,7 +10,7 @@ const anchors = {
   seked: ".reading-desk",
   shiguzhai: ".reference-control",
   pyknon: ".verse-tabs",
-  gonia: ".transport-measures",
+  gonia: ".ec-workbench",
   stoicheia: "#workbench",
 };
 const browser = await chromium.launch();
@@ -34,8 +34,11 @@ try {
       () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
     );
     await page.locator(anchor).evaluate((e) => e.scrollIntoView({ block: "start", behavior: "instant" }));
-    const wantedTop = name === "gonia" ? 590 : 0;
-    if (wantedTop) await page.evaluate((offset) => window.scrollBy(0,-offset),wantedTop);
+    const wantedTop = 0;
+    if (name === "gonia") {
+      const top = (await page.locator(anchor).boundingBox()).y;
+      await page.evaluate((offset) => window.scrollBy(0, offset), top - wantedTop);
+    }
     await page.evaluate(
       () => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))),
     );
