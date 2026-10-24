@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-24T16:56:14.773Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "pyknon",
+      "url": "https://antonsoo.github.io/pyknon/trial.html?string=repeat&density=2.25&test=1&a=220&sound=compare&p=2&page=37#trial",
+      "anchor": ".tr-bench",
+      "anchorTop": -0.09375,
+      "wantedTop": 0,
+      "file": "thumbs/pyknon-trial.png",
+      "sha256": "07b34cfede67c4d21868a06c8b8dcd1209bad83f708b2241095020124830d475"
+    },
+    {
+      "project": "stoicheia",
+      "url": "https://antonsoo.github.io/stoicheia/mesolabe.html#r=2&l=0.12&q=0.47&m=first&s=0&p=3&page=109",
+      "anchor": "#ml-workshop",
+      "anchorTop": -0.453125,
+      "wantedTop": 0,
+      "file": "thumbs/stoicheia-mesolabe.png",
+      "sha256": "a2ed205bd75900db58bb45cce0acf2ab0955f8305f32a861605a75c61ada25e4"
+    }
+  ]
+}

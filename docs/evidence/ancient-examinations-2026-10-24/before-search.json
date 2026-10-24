@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-24T17:08:43.663Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "observations": [
+    {
+      "browser": "chromium",
+      "width": 1280,
+      "term": "ισοτονον",
+      "matches": 0
+    },
+    {
+      "browser": "chromium",
+      "width": 1280,
+      "term": "two mean proportionals",
+      "matches": 0
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "term": "ισοτονον",
+      "matches": 0
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "term": "two mean proportionals",
+      "matches": 0
+    },
+    {
+      "browser": "firefox",
+      "width": 1280,
+      "term": "ισοτονον",
+      "matches": 0
+    },
+    {
+      "browser": "firefox",
+      "width": 1280,
+      "term": "two mean proportionals",
+      "matches": 0
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "term": "ισοτονον",
+      "matches": 0
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "term": "two mean proportionals",
+      "matches": 0
+    }
+  ]
+}

@@ -9,9 +9,9 @@ const anchors = {
   pnigeus: ".shape-section",
   seked: ".reading-desk",
   shiguzhai: ".reference-control",
-  pyknon: ".verse-tabs",
+  pyknon: ".tr-bench",
   gonia: ".ec-workbench",
-  stoicheia: "#gn-complements",
+  stoicheia: "#ml-workshop",
   dioptra: ".fl-lab",
 };
 const browser = await chromium.launch();
@@ -48,13 +48,7 @@ try {
       Math.abs(anchorTop-wantedTop) <= 32,
       `${name}: screenshot anchor is outside the intended frame (${anchorTop})`,
     );
-    if (name === "pyknon")
-      await page.waitForFunction(async () => {
-        const img = new Image();
-        img.src = document.querySelector("#source-lens image").getAttribute("href");
-        await img.decode();
-        return img.naturalWidth > 0;
-      });
+    if (name === "pyknon") await page.locator("#tr-drawing svg").waitFor();
     const path = `public/${card.thumbnail}`;
     await page.screenshot({ path });
     report.captures.push({

@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
-import { mkdir, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 import { chromium, firefox, expect } from "@playwright/test";
 
@@ -8,10 +9,10 @@ const lessons = [
   { id: "pnigeus", query: "water organ", heading: "What can be learned" },
   { id: "seked", query: "Rhind", heading: "What can be learned" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
-  { id: "pyknon", query: "Seikilos", legacy: "tetrachords", heading: "Seikilos reading review" },
+  { id: "pyknon", query: "ισοτονον", legacy: "tetrachords", heading: "What the learner can do" },
   { id: "gonia", query: "sounding vessels", legacy: "flute", heading: "What a learner can now do" },
   { id: "dioptra", query: "water supply", legacy: "unseen tunnel", heading: "What the learner can do" },
-  { id: "stoicheia", query: "complements", legacy: "bisection", heading: "What can be learned" },
+  { id: "stoicheia", query: "two mean proportionals", legacy: "bisection", heading: "What a learner can do" },
 ];
 
 async function explore(page, id) {
@@ -122,31 +123,37 @@ async function explore(page, id) {
     };
   }
   if (id === "pyknon") {
-    assert.match(await page.locator("#selected-title").innerText(), /φαί/);
-    assert.equal(await page.locator("#syllable-table tr").count(), 3);
-    const photoURL = await page.locator("#source-lens image").getAttribute("href");
-    assert.ok(photoURL?.includes("inscription.jpg"));
-    assert.equal(
-      await page.evaluate(async (url) => {
-        const img = new Image();
-        img.src = url;
-        await img.decode();
-        return img.naturalWidth > 0;
-      }, photoURL),
-      true,
-    );
-    await page.locator('[data-song-play="verse"]').click();
-    await page.waitForFunction(() =>
-      document.querySelector("#song-status").textContent.startsWith("Playing verse"),
-    );
-    await page.locator("#song-stop").click();
-    assert.match(await page.locator("#song-status").innerText(), /Stopped/);
-    return {
-      selectedSyllable: "φαί",
-      notes: 3,
-      museumPhotographDecoded: true,
-      versePlaybackStartedAndStopped: true,
-    };
+    assert.equal(await page.locator("#tr-string").inputValue(), "repeat");
+    for (const test of [0, 1]) {
+      await page.locator(`input[name="tr-test"][value="${test}"]`).check();
+      assert.match(await page.locator("#tr-verdict").innerText(), /Same pitch/);
+    }
+    await page.locator('input[name="tr-test"][value="2"]').focus();
+    await page.keyboard.press("Space");
+    assert.match(await page.locator("#tr-difference").innerText(), /701.955 cents higher/);
+    await page.locator("#tr-play").click();
+    await page.waitForFunction(() => document.querySelector("#tr-drawing[data-sounding]"));
+    await page.locator("#tr-stop").click();
+    await page.locator("#tr-passage").selectOption("2");
+    assert.match(await page.locator('#tr-passage-text [lang="grc"]').innerText(), /ἰσότονον/);
+    await page.locator("#tr-inspect").click();
+    assert.equal(await page.evaluate(() => document.activeElement.id), "tr-source-viewport");
+    await page.locator("#tr-source-image").evaluate((image) => image.decode());
+    await page.locator("#tr-zoom").selectOption("2");
+    await page.locator("#tr-source-viewport").focus();
+    await page.keyboard.press("ArrowRight");
+    await page.waitForFunction(() => document.querySelector("#tr-source-viewport").scrollLeft > 0);
+    const waiting = page.waitForEvent("download");
+    await page.locator("#tr-save").click();
+    const saved = await waiting;
+    assert.equal(saved.suggestedFilename(), "pyknon-string-trial.html");
+    const bytes = await readFile(await saved.path());
+    assert.equal((bytes.toString().match(/data:image\/jpeg;base64,/g) ?? []).length, 6);
+    assert.match(bytes.toString(), /data:audio\/wav;base64,/);
+    return { repeatedProfilePassesHalvesAndQuarters: true, extraEighthsDifferenceCents: 701.955,
+      greekSourceWord: "ἰσότονον", sourcePage: 37, keyboardSourcePan: true,
+      playbackStartedAndStopped: true, savedPacketIncludesSixScansAndAudio: true,
+      nativeHtmlSha256: createHash("sha256").update(bytes).digest("hex") };
   }
   if (id === "seked") {
     assert.equal(await page.locator("#lesson-palms").innerText(), "2 1/3 palms");
@@ -353,86 +360,38 @@ async function explore(page, id) {
       allFiveWorkshopsReachable: true,
     };
   }
-  assert.match(await page.locator("#gn-complement-status").innerText(), /13.65 u²/);
-  await page.locator("#gn-break").focus();
+  assert.equal(id, "stoicheia");
+  assert.equal(await page.locator("#ml-factor").inputValue(), "2");
+  assert.equal(await page.locator("#ml-alignment").getAttribute("data-aligned"), "false");
+  assert.match(await page.locator("#ml-alignment").innerText(), /Β agrees. Check Γ/);
+  await page.locator("#ml-ideal").focus();
   await page.keyboard.press("Enter");
-  assert.match(await page.locator("#gn-complement-status").innerText(), /7.35 u².*25.35 u²/s);
-  assert.match(await page.locator("#gn-complement-note").innerText(), /small triangle pairs remain equal/);
-  assert.equal(await page.locator('[data-gn-step="3"]').isDisabled(), true);
-  await page.locator("#gn-restore").click();
-  await page.locator('[data-gn-gstep="5"]').click();
-  assert.match(await page.locator("#gn-gnomon-status").innerText(), /36 \+ 6.25 = 42.25/);
-  await page.locator("#gn-read-gnomon").click();
-  assert.equal(await page.locator("#gn-passage").inputValue(), "9");
-  const [gnomon] = await Promise.all([page.waitForEvent("download"), page.locator("#gn-save").click()]);
-  assert.equal(gnomon.suggestedFilename(), "stoicheia-gnomon-reading.html");
-  await page.locator("#gn-to-quadrature").click();
-  assert.match(await page.locator("#qa-result").innerText(), /Same area: 36 u²/);
-  await page.locator('[data-qa-stage="5"]').focus();
-  await page.keyboard.press("Enter");
-  assert.equal(await page.locator(".qa-constructed-square").count(), 1);
-  await page.locator("#qa-lock").check();
-  await page.locator("#qa-a").fill("11");
-  await page.locator("#qa-a").press("Tab");
-  assert.equal(await page.locator("#qa-b").inputValue(), "2");
-  assert.match(await page.locator("#qa-result").innerText(), /Same area: 22 u²/);
-  await page.locator('[data-qa-preset="90,40"]').click();
-  await page.locator("#qa-fold").click();
-  await page.locator("#qa-cancel").click();
-  assert.match(await page.locator("#qa-proof-note").innerText(), /Remove 6.25 u²/);
-  await page.locator("#qa-read-subtract").click();
-  assert.match(await page.locator('#qa-passage-text [lang="grc"]').first().innerText(), /^κοινὸν ἀφῃρήσθω/);
-  const [quadrature] = await Promise.all([page.waitForEvent("download"), page.locator("#qa-save-study").click()]);
-  assert.equal(quadrature.suggestedFilename(), "stoicheia-II14-reading.html");
-  await page.getByRole("link", { name: "I.1–21 · Read the course", exact: true }).click();
-  await page.goto(new URL("#p=21&s=9&m=55", page.url()).href);
-  const state = new URLSearchParams(new URL(page.url()).hash.slice(1));
-  assert.equal(state.get("p"), "21");
-  assert.equal(state.get("s"), "9");
-  await page.locator("#motion").focus();
-  await page.keyboard.press("Home");
-  await page.keyboard.press("ArrowRight");
-  assert.equal(await page.locator("#motion").inputValue(), "11");
-  const values = await page.locator("#comparison tbody td:not(:first-child)").allTextContents();
-  assert.ok(Number(values[3]) > Number(values[2]));
-  assert.ok(Number(values[5]) < Number(values[4]));
-  assert.ok(parseFloat(values[7]) > parseFloat(values[6]));
-  await page.locator('#current-passage [data-source="53"]').click();
-  await page.waitForFunction(() => {
-    const im = document.querySelector("#source-image");
-    return im.complete && im.naturalWidth > 0;
-  });
-  assert.match(await page.locator("#source-title").innerText(), /53/);
-  await page.keyboard.press("Escape");
-  const [study] = await Promise.all([page.waitForEvent("download"), page.locator("#save-sheet").click()]);
-  assert.equal(study.suggestedFilename(), "stoicheia-I21-study.html");
-  await page.locator('a[href$="triangle.html"]').click();
-  await page.locator(".cl-presets summary").click();
-  await page.getByRole("button", { name: "Touch inside", exact: true }).click();
-  assert.match(await page.locator("#closure-result").innerText(), /touch|tangent/i);
-  const [closure] = await Promise.all([page.waitForEvent("download"), page.locator("#save-study").click()]);
-  assert.match(closure.suggestedFilename(), /I22/);
-  return {
-    offDiagonalComplementAreas: [7.35, 25.35],
-    smallTrianglePairsRemainEqual: true,
-    gnomonArea: 36,
-    gnomonReadingDownloaded: true,
-    quadratureArea: 36,
-    samePerimeterRectangleArea: 22,
-    commonSquareRemoved: 6.25,
-    greekSubtractionRead: true,
-    quadratureReadingDownloaded: true,
-    proposition: 21,
-    interiorPercent: 11,
-    individualSideCanGrow: true,
-    combinedLengthSmaller: true,
-    includedAngleLarger: true,
-    printedLatinPage: 53,
-    illustratedStudyDownloaded: true,
-    closureWorkshopReached: true,
-    internalTangencyExplored: true,
-    closureReadingDownloaded: true,
-  };
+  assert.equal(await page.locator("#ml-alignment").getAttribute("data-aligned"), "true");
+  assert.match(await page.locator("#ml-volume").innerText(), /Volume 2/);
+  assert.match(await page.locator("#ml-ratios").innerText(), /1.25992/);
+  await page.locator("#ml-nudge").click();
+  assert.equal(await page.locator("#ml-alignment").getAttribute("data-aligned"), "false");
+  assert.equal(await page.locator('[data-step="4"]').isDisabled(), true);
+  await page.locator("#ml-ideal").click();
+  await page.locator('[data-step="4"]').click();
+  await page.locator("#ml-passage").selectOption("3");
+  for (const lang of ["grc", "la"]) {
+    assert(await page.locator(`#ml-passage-text [lang="${lang}"]`).innerText());
+  }
+  await page.locator('#ml-passage-text [data-page="109"]').click();
+  await page.locator("#ml-source-image").evaluate((image) => image.decode());
+  assert.match(await page.locator("#ml-source-caption").innerText(), /109/);
+  const waiting = page.waitForEvent("download");
+  await page.locator("#ml-save").click();
+  const saved = await waiting;
+  assert.equal(saved.suggestedFilename(), "stoicheia-mesolabe-reading.html");
+  const bytes = await readFile(await saved.path());
+  assert.equal((bytes.toString().match(/data:image\/jpeg;base64,/g) ?? []).length, 12);
+  assert.match(bytes.toString(), /stoicheia-mesolabe-paper.svg/);
+  return { firstContactInsufficient: true, mathematicalAlignmentVolume: 2,
+    cubeEdgeShown: 1.25992, chosenDisplacementMm: 0.5, invalidProofDisabled: true,
+    greekAndLatinRead: true, sourcePage: 109, savedPacketIncludesTwelveScansAndPaper: true,
+    nativeHtmlSha256: createHash("sha256").update(bytes).digest("hex") };
 }
 
 export async function runJourneys(base, out, only) {

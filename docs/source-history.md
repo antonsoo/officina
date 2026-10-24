@@ -558,3 +558,7 @@ journeys and complete publication receipts.
 The [Euclid inequality reading](euclid-inequalities-2026-10-22.md) connects
 the twenty-proposition Greek/Latin reader to its new construction and
 temporary-premise workflows.
+
+The [instrument and construction examinations](ancient-examinations-2026-10-24.md)
+connect Ptolemy’s equal-pitch string tests and the mesolabe’s two independent
+contacts to their public workshops, source words and portable readings.
