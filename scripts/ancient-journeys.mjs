@@ -10,8 +10,8 @@ const lessons = [
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
   { id: "pyknon", query: "Seikilos", legacy: "tetrachords", heading: "Seikilos reading review" },
   { id: "gonia", query: "sounding vessels", legacy: "flute", heading: "What a learner can now do" },
-  { id: "dioptra", query: "unseen tunnel", legacy: "Greek", heading: "What the learner can do" },
-  { id: "stoicheia", query: "equal-area", legacy: "bisection", heading: "What can be learned" },
+  { id: "dioptra", query: "water supply", legacy: "unseen tunnel", heading: "What the learner can do" },
+  { id: "stoicheia", query: "complements", legacy: "bisection", heading: "What can be learned" },
 ];
 
 async function explore(page, id) {
@@ -172,6 +172,25 @@ async function explore(page, id) {
     };
   }
   if (id === "dioptra") {
+    assert.match(await page.locator("#fl-result").innerText(), /A 9.6 L.*B 28.8 L/);
+    await page.locator("#fl-changing-example").focus();
+    await page.keyboard.press("Enter");
+    assert.match(await page.locator("#fl-prediction").innerText(), /overestimates.*9.6 L/);
+    await page.locator('[data-window="last"]').click();
+    assert.match(await page.locator("#fl-prediction").innerText(), /underestimates.*9.6 L/);
+    await page.locator('[data-window="whole"]').click();
+    assert.match(await page.locator("#fl-equation").innerText(), /19.2 L ÷ 20 s = 0.96 L\/s/);
+    await page.locator("#fl-passage").selectOption("7");
+    assert.match(await page.locator("#fl-note").innerText(), /apparatus.*πάχος/s);
+    await page.locator("#fl-inspect").click();
+    await page.waitForFunction(() => {
+      const im = document.querySelector("#fl-source-image");
+      return im.complete && im.naturalWidth > 0 && im.currentSrc === im.src;
+    });
+    const [water] = await Promise.all([page.waitForEvent("download"), page.locator("#fl-save-reading").click()]);
+    assert.equal(water.suggestedFilename(), "dioptra-flow-reading.html");
+    await page.getByRole("link", {name:"15 · Tunnel survey",exact:true}).click();
+    await page.locator('[data-stage="3"]').click();
     await page.locator("#detour").focus();
     await page.keyboard.press("End");
     assert.match(await page.locator("#net-x").innerText(), /300/);
@@ -189,6 +208,11 @@ async function explore(page, id) {
     const [saved] = await Promise.all([page.waitForEvent("download"), page.locator("#save-study").click()]);
     assert.equal(saved.suggestedFilename(), "dioptra-field-book.html");
     return {
+      equalSectionVolumesL: [9.6, 28.8],
+      changingTotalL: 19.2,
+      shortSampleErrorL: 9.6,
+      speedThicknessApparatusRead: true,
+      completeWaterReadingDownloaded: true,
       net: [300, 60],
       chosenPegErrorMm: 10,
       middleGapMm: 60,
@@ -329,6 +353,20 @@ async function explore(page, id) {
       allFiveWorkshopsReachable: true,
     };
   }
+  assert.match(await page.locator("#gn-complement-status").innerText(), /13.65 u²/);
+  await page.locator("#gn-break").focus();
+  await page.keyboard.press("Enter");
+  assert.match(await page.locator("#gn-complement-status").innerText(), /7.35 u².*25.35 u²/s);
+  assert.match(await page.locator("#gn-complement-note").innerText(), /small triangle pairs remain equal/);
+  assert.equal(await page.locator('[data-gn-step="3"]').isDisabled(), true);
+  await page.locator("#gn-restore").click();
+  await page.locator('[data-gn-gstep="5"]').click();
+  assert.match(await page.locator("#gn-gnomon-status").innerText(), /36 \+ 6.25 = 42.25/);
+  await page.locator("#gn-read-gnomon").click();
+  assert.equal(await page.locator("#gn-passage").inputValue(), "9");
+  const [gnomon] = await Promise.all([page.waitForEvent("download"), page.locator("#gn-save").click()]);
+  assert.equal(gnomon.suggestedFilename(), "stoicheia-gnomon-reading.html");
+  await page.locator("#gn-to-quadrature").click();
   assert.match(await page.locator("#qa-result").innerText(), /Same area: 36 u²/);
   await page.locator('[data-qa-stage="5"]').focus();
   await page.keyboard.press("Enter");
@@ -375,6 +413,10 @@ async function explore(page, id) {
   const [closure] = await Promise.all([page.waitForEvent("download"), page.locator("#save-study").click()]);
   assert.match(closure.suggestedFilename(), /I22/);
   return {
+    offDiagonalComplementAreas: [7.35, 25.35],
+    smallTrianglePairsRemainEqual: true,
+    gnomonArea: 36,
+    gnomonReadingDownloaded: true,
     quadratureArea: 36,
     samePerimeterRectangleArea: 22,
     commonSquareRemoved: 6.25,

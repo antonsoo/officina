@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-24T04:19:30.445Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "stoicheia",
+      "url": "https://antonsoo.github.io/stoicheia/gnomon.html#u=35&v=35&h=20&d=1&s=0&a=90&b=40&g=5&book=I43&r=5",
+      "anchor": "#gn-complements",
+      "anchorTop": -0.140625,
+      "wantedTop": 0,
+      "file": "thumbs/stoicheia.png",
+      "sha256": "53ee1f0b4287cd633a0697d9e46e2dfd864e8a7663fc2293c5af3bf1835e2fe3"
+    },
+    {
+      "project": "dioptra",
+      "url": "https://antonsoo.github.io/dioptra/flow.html?w=12&d=4&a=10&b=30&v=0&t=20&m=whole&r=7#fl-workshop",
+      "anchor": ".fl-lab",
+      "anchorTop": -0.078125,
+      "wantedTop": 0,
+      "file": "thumbs/dioptra.png",
+      "sha256": "96e1d4c07d937ea5b4e96293dbe858c51034fea04fd6b07d8802ffdba93abafc"
+    }
+  ]
+}

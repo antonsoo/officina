@@ -87,3 +87,17 @@ Actual screenshot of the original II.14 construction diagram and controls.
 The rectangle and constructed square use the same scale. No source-page scan
 or museum photograph is included. Diagram, prose and screenshot: Anton
 Soloviev, MIT.
+
+Stoicheia equal-complements thumbnail (stoicheia.png, updated 2026-10-23)
+
+Actual screenshot of the I.43 oblique parallelogram and diagonal controls.
+The blue and green complements have equal areas. No source-page scan is included.
+Diagram, teaching prose and screenshot: Anton Soloviev, MIT. No visual alterations.
+
+Dioptra water-collection thumbnail (dioptra.png, updated 2026-10-23)
+
+Actual screenshot of equal wetted stream sections and two graduated receivers.
+The centimetres, seconds and litres are chosen modern teaching quantities.
+No source-page scan is included. Diagram: Anton Soloviev, MIT. Teaching text:
+Anton Soloviev, CC BY-SA 4.0; screenshot redistributed under CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/ No visual alterations.
