@@ -6,6 +6,11 @@ All notable changes to this project are documented in this file.
 
 ### Added
 
+- Index source words and lesson names separately from card descriptions; Greek
+  terms can be found without accents and combined with audience filters.
+- Open Ptolemy’s string examination and Eratosthenes’ mesolabe directly, with
+  real workshop thumbnails and pinned source reviews.
+
 - Add Dioptra: Hero's unseen-tunnel survey with Greek readings, outside aiming
   pegs, a signed distance ledger and downloadable illustrated field books.
 

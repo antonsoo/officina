@@ -9,9 +9,11 @@ A single static page that lists every published tool in one place - built
 so there is one link to share on Upwork or with a client instead of a
 dozen. Officina is Latin for workshop.
 
-Search by name, task, or package registry, and narrow the list by audience.
+Search by name, task, package registry or source term, and narrow the list by audience.
 Search stays in the page: it makes no requests and is not saved in the URL
-or browser storage. Clear filters returns to the full catalogue.
+or browser storage. Clear filters returns to the full catalogue. Greek source
+terms such as `ἰσότονον` also work without accents (`ισοτονον`). Lesson names
+and source terms can stay indexed when a project features a different workshop.
 
 ![The officina index page, showing the header and the Ancient world section](docs/assets/hero.png)
 
@@ -29,6 +31,10 @@ so a project can be added to the data ahead of its public launch and
 switched on later by flipping one field. Adding a project is one JSON
 entry and one image - no other file changes.
 
+Optional `searchTerms` index source words and lesson names without filling the
+card description with keywords. Terms use the same case and accent folding as
+the visible text and combine with the audience filter.
+
 The build checks the catalogue's fields, links, duplicate names, and thumbnail
 files. The browser validates the fetched data too; a failed load offers a
 retry and a link to the GitHub profile.
@@ -41,6 +47,10 @@ description. See the [2026-10-10 evidence audit](docs/evidence-audit-2026-10-10.
 The [source update history](docs/source-history.md) collects later fixes,
 workflow additions and their retained verification. Each record distinguishes
 source changes from package releases and hosted deployments.
+
+The [string and mesolabe examinations](docs/ancient-examinations-2026-10-24.md)
+open Ptolemy’s instrument check and Eratosthenes’ sliding plates, with source-word
+search, audible or geometric counterexamples, and complete portable readings.
 
 The [tunnel, theatre and interior-route lessons](docs/ancient-constructions-2026-10-23.md)
 introduce Hero's outside survey, Vitruvius's different theatre plans and Euclid's

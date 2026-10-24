@@ -117,6 +117,37 @@ test("search treats markup and regular expressions as literal text", () => {
   assert.deepEqual(filterProjects(catalogue, ".*"), []);
 });
 
+test("source terms find the real Greek lesson with or without accents, within the selected audience", async () => {
+  const source = parseCatalogue(
+    JSON.parse(await readFile(new URL("../public/projects.json", import.meta.url), "utf8")),
+  );
+  for (const query of ["ἰσότονον", "ΙΣΟΤΟΝΟΝ", "δοκιμασιαν", "Ptolemy ισοτονον"]) {
+    assert.deepEqual(
+      filterProjects(source, query, "Ancient world").map((p) => p.name),
+      ["pyknon"],
+    );
+    assert.deepEqual(filterProjects(source, query, "AI engineering"), []);
+  }
+  assert.deepEqual(
+    filterProjects(source, "two mean proportionals").map((p) => p.name),
+    ["stoicheia"],
+  );
+});
+
+test("source terms reject malformed and ambiguous metadata", () => {
+  for (const searchTerms of [
+    "a string",
+    [null],
+    [" "],
+    [" word"],
+    ["x".repeat(81)],
+    Array.from({ length: 25 }, (_, i) => String(i)),
+    ["ἰσότονον", "ισοτονον"],
+  ]) {
+    assert.throws(() => parseCatalogue([{ ...entry, searchTerms }]), /searchTerms/);
+  }
+});
+
 test("a study is one sentence with a link, and its finding is searchable", () => {
   const study = {
     finding: "264 failed builds: the failed test is named every time.",

@@ -68,6 +68,20 @@ export function parseCatalogue(value: unknown): Project[] {
       if (finding.length > 160) throw new Error(`${name}.study.finding must be at most 160 characters`);
       project.study = { finding, url: link(study.url, `${name}.study.url`) };
     }
+    if (entry.searchTerms !== undefined) {
+      if (!Array.isArray(entry.searchTerms) || entry.searchTerms.length > 24) {
+        throw new Error(`${name}.searchTerms must be an array of at most 24 terms`);
+      }
+      const seen = new Set<string>();
+      project.searchTerms = entry.searchTerms.map((value: unknown) => {
+        const term = text(value, `${name}.searchTerms`);
+        if (term !== term.trim() || term.length > 80 || seen.has(searchable(term))) {
+          throw new Error(`${name}.searchTerms must contain unique trimmed terms of at most 80 characters`);
+        }
+        seen.add(searchable(term));
+        return term;
+      });
+    }
     return project;
   });
 }
@@ -99,6 +113,7 @@ export function filterProjects(projects: readonly Project[], query = "", group =
         project.group,
         project.package?.registry ?? "",
         project.study?.finding ?? "",
+        ...(project.searchTerms ?? []),
       ].join(" "),
     );
     return words.every((word) => haystack.includes(word));

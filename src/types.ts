@@ -11,6 +11,8 @@ export interface Project {
   status: "published" | "soon";
   /** What the tool found when it was run on real, public data: one sentence, and where the study is. */
   study?: { finding: string; url: string };
+  /** Source words and lesson names that need not all fit in the card description. */
+  searchTerms?: string[];
 }
 
 /** Display order for groups - anything not listed sorts after, alphabetically. */

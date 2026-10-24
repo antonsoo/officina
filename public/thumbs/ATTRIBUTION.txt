@@ -101,3 +101,10 @@ The centimetres, seconds and litres are chosen modern teaching quantities.
 No source-page scan is included. Diagram: Anton Soloviev, MIT. Teaching text:
 Anton Soloviev, CC BY-SA 4.0; screenshot redistributed under CC BY-SA 4.0.
 https://creativecommons.org/licenses/by-sa/4.0/ No visual alterations.
+
+Ptolemy string-trial and mesolabe thumbnails (2026-10-24)
+Files: pyknon-trial.png, stoicheia-mesolabe.png.
+Unedited 1200 x 750 browser screenshots of the actual hosted workshops, captured
+by Anton Soloviev. New diagrams and teaching text: MIT. Historical source text
+is public domain. These screenshots contain no museum photography. Exact URLs,
+framing selectors and SHA-256 identities are retained in the examination review.
