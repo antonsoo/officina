@@ -66,16 +66,25 @@
   },
   {
     "name": "pyknon",
-    "description": "Hear why six whole tones overshoot an octave. Read the Sectio canonis, transmitted under Euclid’s name, in Greek and Latin; explore tetrachords and the Seikilos song too.",
+    "description": "Ptolemy’s monochord string trial: equal halves can agree while equal quarters disagree. Read Greek, Latin and English; save a packet with audio, and explore tetrachords, six tones and Seikilos too.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/pyknon",
-    "demoUrl": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat#canon",
-    "thumbnail": "thumbs/pyknon-canon.png",
+    "demoUrl": "https://antonsoo.github.io/pyknon/trial.html?string=repeat&density=2.25&test=1&a=220&sound=compare&p=2&page=37#trial",
+    "thumbnail": "thumbs/pyknon-trial.png",
     "status": "published",
     "study": {
-      "finding": "Six 9:8 tones reach 446.003 Hz from 220 Hz, beyond the 440 Hz octave. The integer proof makes the Pythagorean comma exact.",
-      "url": "https://github.com/antonsoo/pyknon/blob/370ca53cac2608a3c810e11d5fc200a6f80b79ab/docs/canon-review.md#try-the-result"
-    }
+      "finding": "A repeating mass profile passes both of Ptolemy’s pitch comparisons, but fails an extra eighths test; passing two tests does not prove uniformity.",
+      "url": "https://github.com/antonsoo/pyknon/blob/872e046dc5eb66468744a02942e8fd7ba3b09293/docs/trial-review.md#what-the-learner-can-do"
+    },
+    "searchTerms": [
+      "ἰσότονον",
+      "δοκιμασίαν",
+      "ὁμότονον",
+      "Archytas",
+      "enharmonic",
+      "Sectio canonis",
+      "Wallis"
+    ]
   },
   {
     "name": "dioptra",
@@ -105,16 +114,24 @@
   },
   {
     "name": "stoicheia",
-    "description": "Explore Euclid’s equal complements and gnomon. Break a diagonal hypothesis, then construct an equal-area square. Read Greek, Latin and English; continue through I.1–21, bisection and I.22.",
+    "description": "Explore Eutocius’s account of Eratosthenes’ mesolabe: move two plates to double a cube. Read Greek, Latin and English; try Euclid’s bisection, triangles, equal-area squares, complements and gnomons too.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/stoicheia",
-    "demoUrl": "https://antonsoo.github.io/stoicheia/gnomon.html#u=35&v=35&h=20&d=1&s=0&a=90&b=40&g=5&book=I43&r=5",
-    "thumbnail": "thumbs/stoicheia.png",
+    "demoUrl": "https://antonsoo.github.io/stoicheia/mesolabe.html#r=2&l=0.12&q=0.47&m=first&s=0&p=3&page=109",
+    "thumbnail": "thumbs/stoicheia-mesolabe.png",
     "status": "published",
     "study": {
-      "finding": "Move a point off a parallelogram’s diagonal: complements become 7.35 and 25.35, even though the small triangle pairs remain equal.",
-      "url": "https://github.com/antonsoo/stoicheia/blob/7fbc7c391b808a0f8ee637bca9b47f2e811bbea2/docs/gnomon-review.md#what-can-be-learned"
-    }
+      "finding": "One aligned contact is insufficient: both must meet the ruler before the two means give an edge of 1.259921 for twice the cube’s volume.",
+      "url": "https://github.com/antonsoo/stoicheia/blob/51ed510fefa73da5d12ff6300c82f124add5c9c8/docs/mesolabe-review.md#what-a-learner-can-do"
+    },
+    "searchTerms": [
+      "cube duplication",
+      "two mean proportionals",
+      "Euclid I.21",
+      "Euclid II.14",
+      "Eutocius",
+      "Eratosthenes"
+    ]
   },
   {
     "name": "horologium",
