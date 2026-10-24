@@ -92,15 +92,15 @@
   },
   {
     "name": "gonia",
-    "description": "Construct Vitruvius’s Greek and Roman theatres from twelve points. Read the Latin, move the compass centres, and explore colonnades, stone transport, flute cuts, entasis and Doric corners.",
+    "description": "Place and hear Vitruvius’s thirteen sounding vessels. Read the Latin, follow seven Greek pitch names, and explore resonance, theatres, colonnades, stone transport and column flute cuts.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gonia",
-    "demoUrl": "https://antonsoo.github.io/gonia/theatre.html#th-workshop",
+    "demoUrl": "https://antonsoo.github.io/gonia/echea.html#ec-workshop",
     "thumbnail": "thumbs/gonia.png",
     "status": "published",
     "study": {
-      "finding": "The same 20 m circle gives a 5 m Roman stage and a 2.93 m Greek stage. Moving the Greek compass centres changes the orchestra boundary.",
-      "url": "https://github.com/antonsoo/gonia/blob/f8b31e3d6dbdbdf568800652fab7a997889b20b2/docs/theatre-review.md#what-changed-for-the-learner"
+      "finding": "The pitch row reverses between paramese and nete synhemmenon. Hear why the fourth placement does not mean another musical fourth.",
+      "url": "https://github.com/antonsoo/gonia/blob/0c0b116d96631bec4089aa6db62431d64ec88a1b/docs/echea-review.md#what-a-learner-can-now-do"
     }
   },
   {

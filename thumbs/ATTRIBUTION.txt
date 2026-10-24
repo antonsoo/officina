@@ -60,11 +60,11 @@ Soloviev, MIT. The diagram is a modern numerical realization, not the shape
 or measured pitch of an excavated instrument. No tablet photograph, source
 figure, third-party recording or article excerpt is included.
 
-Gonia theatre thumbnail (gonia.png, updated 2026-10-23)
+Gonia sounding-vessel thumbnail (gonia.png, updated 2026-10-23)
 
-Actual screenshot of the Greek plan, relocated compass centres and source-word
-explanation. The diagram is a modern geometric reading of Vitruvius, not an
-archaeological survey. No source scan is included. Anton Soloviev, MIT.
+Actual screenshot of the thirteen places, pitch trace and Greek pitch controls.
+The plan and ratios are an identified modern realization of Vitruvius's text,
+not an excavated theatre. No source scan is included. Anton Soloviev, MIT.
 
 Dioptra survey thumbnail (dioptra.png, added 2026-10-23)
 
