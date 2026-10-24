@@ -15,3 +15,8 @@ native fragment navigation.
 
 `local-journeys.json` records the local catalogue linked to the public lesson.
 `thumbnails.json` identifies the actual public screenshot and its hash.
+
+The published catalogue was checked separately after deployment `11beddf`:
+all 51 public files match `dist/`, and the same four full browser journeys pass
+from the public URL. See `hosted-files.json` and `public-journeys.json`.
+The source and deployment were pushed with ordinary fast-forward updates.
