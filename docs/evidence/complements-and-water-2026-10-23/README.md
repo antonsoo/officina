@@ -23,4 +23,8 @@ Eight local-catalogue journeys pass in Chromium and Firefox at 1280 and 375:
 - Reach each pinned GitHub review heading using the native fragment navigation;
   the review script does not scroll the heading into place to manufacture success.
 
-See `local-journeys.json`. Public-file and journey verification follows deployment.
+See `local-journeys.json`. The public catalogue was checked after Pages commit
+`eddd6d7`: all **51 canonical files** match the reviewed build, including both
+new thumbnails and pinned links (`hosted-files.json`). All eight complete
+public journeys also pass (`public-journeys.json`). Source and Pages updates
+were ordinary fast-forwards; older hashed assets were retained.

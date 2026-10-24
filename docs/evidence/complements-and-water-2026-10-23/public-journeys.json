@@ -1,0 +1,299 @@
+{
+  "checkedAt": "2026-10-24T04:25:05.336Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "dioptra",
+      "search": "water supply",
+      "legacySearch": "unseen tunnel",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/dioptra/flow.html?w=12&d=4&a=10&b=30&v=0&t=20&m=whole&r=7#fl-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "equalSectionVolumesL": [
+          9.6,
+          28.8
+        ],
+        "changingTotalL": 19.2,
+        "shortSampleErrorL": 9.6,
+        "speedThicknessApparatusRead": true,
+        "completeWaterReadingDownloaded": true,
+        "net": [
+          300,
+          60
+        ],
+        "chosenPegErrorMm": 10,
+        "middleGapMm": 60,
+        "reciprocalGreekRead": true,
+        "sourceDecoded": true,
+        "completeFieldBookDownloaded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/dioptra/blob/df1c92eb7b104e6c9dd0d70558ed0fb605da1e81/docs/flow-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 514.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "search": "complements",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/gnomon.html#u=35&v=35&h=20&d=1&s=0&a=90&b=40&g=5&book=I43&r=5",
+      "keyboardDemo": true,
+      "interaction": {
+        "offDiagonalComplementAreas": [
+          7.35,
+          25.35
+        ],
+        "smallTrianglePairsRemainEqual": true,
+        "gnomonArea": 36,
+        "gnomonReadingDownloaded": true,
+        "quadratureArea": 36,
+        "samePerimeterRectangleArea": 22,
+        "commonSquareRemoved": 6.25,
+        "greekSubtractionRead": true,
+        "quadratureReadingDownloaded": true,
+        "proposition": 21,
+        "interiorPercent": 11,
+        "individualSideCanGrow": true,
+        "combinedLengthSmaller": true,
+        "includedAngleLarger": true,
+        "printedLatinPage": 53,
+        "illustratedStudyDownloaded": true,
+        "closureWorkshopReached": true,
+        "internalTangencyExplored": true,
+        "closureReadingDownloaded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/7fbc7c391b808a0f8ee637bca9b47f2e811bbea2/docs/gnomon-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 514.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "dioptra",
+      "search": "water supply",
+      "legacySearch": "unseen tunnel",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/dioptra/flow.html?w=12&d=4&a=10&b=30&v=0&t=20&m=whole&r=7#fl-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "equalSectionVolumesL": [
+          9.6,
+          28.8
+        ],
+        "changingTotalL": 19.2,
+        "shortSampleErrorL": 9.6,
+        "speedThicknessApparatusRead": true,
+        "completeWaterReadingDownloaded": true,
+        "net": [
+          300,
+          60
+        ],
+        "chosenPegErrorMm": 10,
+        "middleGapMm": 60,
+        "reciprocalGreekRead": true,
+        "sourceDecoded": true,
+        "completeFieldBookDownloaded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/dioptra/blob/df1c92eb7b104e6c9dd0d70558ed0fb605da1e81/docs/flow-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 199.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "search": "complements",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/gnomon.html#u=35&v=35&h=20&d=1&s=0&a=90&b=40&g=5&book=I43&r=5",
+      "keyboardDemo": true,
+      "interaction": {
+        "offDiagonalComplementAreas": [
+          7.35,
+          25.35
+        ],
+        "smallTrianglePairsRemainEqual": true,
+        "gnomonArea": 36,
+        "gnomonReadingDownloaded": true,
+        "quadratureArea": 36,
+        "samePerimeterRectangleArea": 22,
+        "commonSquareRemoved": 6.25,
+        "greekSubtractionRead": true,
+        "quadratureReadingDownloaded": true,
+        "proposition": 21,
+        "interiorPercent": 11,
+        "individualSideCanGrow": true,
+        "combinedLengthSmaller": true,
+        "includedAngleLarger": true,
+        "printedLatinPage": 53,
+        "illustratedStudyDownloaded": true,
+        "closureWorkshopReached": true,
+        "internalTangencyExplored": true,
+        "closureReadingDownloaded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/7fbc7c391b808a0f8ee637bca9b47f2e811bbea2/docs/gnomon-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 270.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "dioptra",
+      "search": "water supply",
+      "legacySearch": "unseen tunnel",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/dioptra/flow.html?w=12&d=4&a=10&b=30&v=0&t=20&m=whole&r=7#fl-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "equalSectionVolumesL": [
+          9.6,
+          28.8
+        ],
+        "changingTotalL": 19.2,
+        "shortSampleErrorL": 9.6,
+        "speedThicknessApparatusRead": true,
+        "completeWaterReadingDownloaded": true,
+        "net": [
+          300,
+          60
+        ],
+        "chosenPegErrorMm": 10,
+        "middleGapMm": 60,
+        "reciprocalGreekRead": true,
+        "sourceDecoded": true,
+        "completeFieldBookDownloaded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/dioptra/blob/df1c92eb7b104e6c9dd0d70558ed0fb605da1e81/docs/flow-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 139.60000610351562,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "search": "complements",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/gnomon.html#u=35&v=35&h=20&d=1&s=0&a=90&b=40&g=5&book=I43&r=5",
+      "keyboardDemo": true,
+      "interaction": {
+        "offDiagonalComplementAreas": [
+          7.35,
+          25.35
+        ],
+        "smallTrianglePairsRemainEqual": true,
+        "gnomonArea": 36,
+        "gnomonReadingDownloaded": true,
+        "quadratureArea": 36,
+        "samePerimeterRectangleArea": 22,
+        "commonSquareRemoved": 6.25,
+        "greekSubtractionRead": true,
+        "quadratureReadingDownloaded": true,
+        "proposition": 21,
+        "interiorPercent": 11,
+        "individualSideCanGrow": true,
+        "combinedLengthSmaller": true,
+        "includedAngleLarger": true,
+        "printedLatinPage": 53,
+        "illustratedStudyDownloaded": true,
+        "closureWorkshopReached": true,
+        "internalTangencyExplored": true,
+        "closureReadingDownloaded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/7fbc7c391b808a0f8ee637bca9b47f2e811bbea2/docs/gnomon-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 171.60000610351562,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "dioptra",
+      "search": "water supply",
+      "legacySearch": "unseen tunnel",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/dioptra/flow.html?w=12&d=4&a=10&b=30&v=0&t=20&m=whole&r=7#fl-workshop",
+      "keyboardDemo": true,
+      "interaction": {
+        "equalSectionVolumesL": [
+          9.6,
+          28.8
+        ],
+        "changingTotalL": 19.2,
+        "shortSampleErrorL": 9.6,
+        "speedThicknessApparatusRead": true,
+        "completeWaterReadingDownloaded": true,
+        "net": [
+          300,
+          60
+        ],
+        "chosenPegErrorMm": 10,
+        "middleGapMm": 60,
+        "reciprocalGreekRead": true,
+        "sourceDecoded": true,
+        "completeFieldBookDownloaded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/dioptra/blob/df1c92eb7b104e6c9dd0d70558ed0fb605da1e81/docs/flow-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 119.5999984741211,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "search": "complements",
+      "legacySearch": "bisection",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/gnomon.html#u=35&v=35&h=20&d=1&s=0&a=90&b=40&g=5&book=I43&r=5",
+      "keyboardDemo": true,
+      "interaction": {
+        "offDiagonalComplementAreas": [
+          7.35,
+          25.35
+        ],
+        "smallTrianglePairsRemainEqual": true,
+        "gnomonArea": 36,
+        "gnomonReadingDownloaded": true,
+        "quadratureArea": 36,
+        "samePerimeterRectangleArea": 22,
+        "commonSquareRemoved": 6.25,
+        "greekSubtractionRead": true,
+        "quadratureReadingDownloaded": true,
+        "proposition": 21,
+        "interiorPercent": 11,
+        "individualSideCanGrow": true,
+        "combinedLengthSmaller": true,
+        "includedAngleLarger": true,
+        "printedLatinPage": 53,
+        "illustratedStudyDownloaded": true,
+        "closureWorkshopReached": true,
+        "internalTangencyExplored": true,
+        "closureReadingDownloaded": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/7fbc7c391b808a0f8ee637bca9b47f2e811bbea2/docs/gnomon-review.md#what-can-be-learned",
+      "pinnedHeadingTop": 205.60000610351562,
+      "pageErrors": []
+    }
+  ]
+}
