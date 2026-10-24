@@ -78,3 +78,19 @@ including keyboard focus, local filtering, failure/retry behavior, themes,
 files are byte-identical to the reviewed working build and its tree remains
 clean; [clean-build receipt](evidence/ancient-examinations-2026-10-24/clean-build.json).
 Public catalogue publication is recorded separately after verification.
+
+## Published catalogue
+
+Source `2ba640d` and Pages `9409d86` publish this update. All **53 canonical
+public files**, including the directory entry before and after the inventory,
+match the reviewed build; [public file receipt](evidence/ancient-examinations-2026-10-24/public-files.json).
+The verifier uses canonical URLs without query-string cache busting and waits
+for a complete matching set, rather than accepting HTTP success alone.
+
+[Eight public-catalogue journeys](evidence/ancient-examinations-2026-10-24/public-journeys.json)
+repeat the complete two-workshop routes in Chromium and Firefox at 1280 and
+375 pixels. The new queries each find their intended card, old queries still
+find it, native packet downloads succeed, and the pinned source headings
+arrive in the viewport through native fragment navigation. No page errors
+were observed. These hosted observations are separate from the earlier
+local-catalogue and clean-install checks.
