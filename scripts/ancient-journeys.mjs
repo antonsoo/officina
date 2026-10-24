@@ -9,13 +9,19 @@ const lessons = [
   { id: "pnigeus", query: "water organ", heading: "What can be learned" },
   { id: "seked", query: "Rhind", heading: "What can be learned" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
-  { id: "pyknon", query: "ισοτονον", legacy: "tetrachords", heading: "What the learner can do" },
-  { id: "gonia", query: "sounding vessels", legacy: "flute", heading: "What a learner can now do" },
+  { id: "pyknon", query: "ῥυθμός", legacy: "ισοτονον", heading: "What a learner can do" },
+  { id: "gonia", query: "religatur", legacy: "sounding vessels", heading: "What a learner can do" },
   { id: "dioptra", query: "water supply", legacy: "unseen tunnel", heading: "What the learner can do" },
-  { id: "stoicheia", query: "two mean proportionals", legacy: "bisection", heading: "What a learner can do" },
+  {
+    id: "stoicheia",
+    query: "restricted compass",
+    legacy: "two mean proportionals",
+    heading: "Try an actual construction",
+  },
+  { id: "grama", query: "pañcama", legacy: "Indian music", heading: "What changed for a learner" },
 ];
 
-async function explore(page, id) {
+async function exploreEarlier(page, id) {
   if (id === "rajju") {
     assert.match(await page.locator("#peg-error").innerText(), /Position \(36, 12\)/);
     for (const c of ["wn", "ws", "en", "es"]) {
@@ -150,10 +156,16 @@ async function explore(page, id) {
     const bytes = await readFile(await saved.path());
     assert.equal((bytes.toString().match(/data:image\/jpeg;base64,/g) ?? []).length, 6);
     assert.match(bytes.toString(), /data:audio\/wav;base64,/);
-    return { repeatedProfilePassesHalvesAndQuarters: true, extraEighthsDifferenceCents: 701.955,
-      greekSourceWord: "ἰσότονον", sourcePage: 37, keyboardSourcePan: true,
-      playbackStartedAndStopped: true, savedPacketIncludesSixScansAndAudio: true,
-      nativeHtmlSha256: createHash("sha256").update(bytes).digest("hex") };
+    return {
+      repeatedProfilePassesHalvesAndQuarters: true,
+      extraEighthsDifferenceCents: 701.955,
+      greekSourceWord: "ἰσότονον",
+      sourcePage: 37,
+      keyboardSourcePan: true,
+      playbackStartedAndStopped: true,
+      savedPacketIncludesSixScansAndAudio: true,
+      nativeHtmlSha256: createHash("sha256").update(bytes).digest("hex"),
+    };
   }
   if (id === "seked") {
     assert.equal(await page.locator("#lesson-palms").innerText(), "2 1/3 palms");
@@ -194,9 +206,12 @@ async function explore(page, id) {
       const im = document.querySelector("#fl-source-image");
       return im.complete && im.naturalWidth > 0 && im.currentSrc === im.src;
     });
-    const [water] = await Promise.all([page.waitForEvent("download"), page.locator("#fl-save-reading").click()]);
+    const [water] = await Promise.all([
+      page.waitForEvent("download"),
+      page.locator("#fl-save-reading").click(),
+    ]);
     assert.equal(water.suggestedFilename(), "dioptra-flow-reading.html");
-    await page.getByRole("link", {name:"15 · Tunnel survey",exact:true}).click();
+    await page.getByRole("link", { name: "15 · Tunnel survey", exact: true }).click();
     await page.locator('[data-stage="3"]').click();
     await page.locator("#detour").focus();
     await page.keyboard.press("End");
@@ -229,7 +244,7 @@ async function explore(page, id) {
     };
   }
   if (id === "gonia") {
-    assert.equal(await page.locator(".ec-vessel").count(), 13);
+    await expect(page.locator(".ec-vessel")).toHaveCount(13);
     await page.locator('[data-ec-note="4"]').focus();
     await page.keyboard.press("Enter");
     assert.match(await page.locator("#ec-selection").innerText(), /247.50 Hz.*3 and 11/);
@@ -243,7 +258,8 @@ async function explore(page, id) {
     await page.locator("#ec-miss").click();
     assert.match(await page.locator("#ec-amplitude").innerText(), /^6\.8%$/);
     const [sound] = await Promise.all([
-      page.waitForEvent("download"), page.locator("#ec-save-response").click(),
+      page.waitForEvent("download"),
+      page.locator("#ec-save-response").click(),
     ]);
     assert.match(sound.suggestedFilename(), /\.wav$/);
     await page.getByRole("link", { name: "Theatre", exact: true }).click();
@@ -388,10 +404,179 @@ async function explore(page, id) {
   const bytes = await readFile(await saved.path());
   assert.equal((bytes.toString().match(/data:image\/jpeg;base64,/g) ?? []).length, 12);
   assert.match(bytes.toString(), /stoicheia-mesolabe-paper.svg/);
-  return { firstContactInsufficient: true, mathematicalAlignmentVolume: 2,
-    cubeEdgeShown: 1.25992, chosenDisplacementMm: 0.5, invalidProofDisabled: true,
-    greekAndLatinRead: true, sourcePage: 109, savedPacketIncludesTwelveScansAndPaper: true,
-    nativeHtmlSha256: createHash("sha256").update(bytes).digest("hex") };
+  return {
+    firstContactInsufficient: true,
+    mathematicalAlignmentVolume: 2,
+    cubeEdgeShown: 1.25992,
+    chosenDisplacementMm: 0.5,
+    invalidProofDisabled: true,
+    greekAndLatinRead: true,
+    sourcePage: 109,
+    savedPacketIncludesTwelveScansAndPaper: true,
+    nativeHtmlSha256: createHash("sha256").update(bytes).digest("hex"),
+  };
+}
+
+const earlierRoutes = {
+  pyknon:
+    "https://antonsoo.github.io/pyknon/trial.html?string=repeat&density=2.25&test=1&a=220&sound=compare&p=2&page=37#trial",
+  gonia: "https://antonsoo.github.io/gonia/echea.html#ec-workshop",
+  stoicheia: "https://antonsoo.github.io/stoicheia/mesolabe.html#r=2&l=0.12&q=0.47&m=first&s=0&p=3&page=109",
+};
+async function nativeReading(page, selector, expected, scans) {
+  const pending = page.waitForEvent("download");
+  await page.locator(selector).click();
+  const saved = await pending;
+  assert.equal(saved.suggestedFilename(), expected);
+  const bytes = await readFile(await saved.path());
+  assert.equal((bytes.toString().match(/data:image\/jpeg;base64,/g) ?? []).length, scans);
+  assert(!/<script\b|\son\w+=/i.test(bytes.toString()));
+  return { name: expected, sha256: createHash("sha256").update(bytes).digest("hex"), scans };
+}
+async function deskOperation(page, kind, first, second, branch = 0) {
+  await page.locator(`[data-tool="${kind}"]`).click();
+  await page.locator("#dk-first").selectOption(first);
+  await page.locator("#dk-second").selectOption(second);
+  if (kind === "meet") await page.locator(`[data-keep="${branch}"]`).click();
+  else await page.locator("#dk-draw").click();
+}
+async function explore(page, id) {
+  if (id === "grama") {
+    assert.equal(await page.locator("#model").inputValue(), "ratios");
+    await page.locator("#start").selectOption("1");
+    assert.match(await page.locator("#order-description").innerText(), /^Re – Ga – Ma/);
+    await page.locator('input[value="madhyama"]').focus();
+    await page.keyboard.press("Space");
+    assert.match(await page.locator("#retune-result").innerText(), /Pa moved; the other six notes stayed/);
+    assert.match(await page.locator("#lowering-comparison").innerText(), /21\.506/);
+    await page.locator("#model").selectOption("equal");
+    assert.match(await page.locator("#lowering-comparison").innerText(), /54\.545/);
+    await page.locator("#hear-pa").click();
+    await expect(page.locator("#stop")).toBeEnabled();
+    await page.locator("#stop").click();
+    await page.locator("#passage").selectOption("2");
+    assert.match(await page.locator("#passage-text .deva").innerText(), /पञ्चम/);
+    await page.locator('[data-word="pañcama"]').focus();
+    await page.keyboard.press("Enter");
+    assert.match(await page.locator("#word-note").innerText(), /Pa/);
+    await page.locator("#scan").evaluate((image) => image.decode());
+    const packet = await nativeReading(page, "#save-reading", "grama-illustrated-reading.html", 11);
+    return {
+      startingNoteChangesOrder: true,
+      onlyPaRetuned: true,
+      modernRatioLoweringCents: 21.506,
+      equalDivisionLoweringCents: 54.545,
+      SanskritRead: true,
+      nativePacket: packet,
+    };
+  }
+  if (id === "pyknon") {
+    assert.equal(await page.locator("#rh-texture").inputValue(), "joined");
+    await page.locator("#rh-up").selectOption("3");
+    assert.match(await page.locator("#rh-result").innerText(), /dactylic/i);
+    await page.locator("#rh-up").selectOption("2");
+    assert.match(await page.locator("#rh-result").innerText(), /iambic/i);
+    await page.locator("#rh-reverse").focus();
+    await page.keyboard.press("Enter");
+    assert.equal(await page.locator("#rh-up").inputValue(), "4");
+    await page.locator('[data-rh-case="7"]').click();
+    assert.match(await page.locator("#rh-result").innerText(), /outside the three genera/);
+    await page.locator('[data-rh-case="6"]').click();
+    await page.locator("#rh-play-compare").click();
+    await expect(page.locator("#rh-stop")).toBeEnabled();
+    await page.locator("#rh-stop").click();
+    await page.locator("#rh-between-choice").selectOption("middle");
+    assert.match(await page.locator("#rh-between-result").innerText(), /3:4/);
+    await page.locator("#rh-passage").selectOption("3");
+    assert.match(await page.locator('#rh-passage-text [lang="la"]').innerText(), /tres partitiones/);
+    await page.locator("#rh-scan").evaluate((image) => image.decode());
+    const packet = await nativeReading(page, "#rh-save-reading", "pyknon-rhythm-reading.html", 8);
+    await page.getByRole("link", { name: "String trial", exact: true }).click();
+    await page.waitForURL(/trial\.html/);
+    await page.goto(earlierRoutes.pyknon);
+    return {
+      equalAndDoubleSameSize: true,
+      reversalPreservesGenus: true,
+      sevenScopeVisible: true,
+      chosenMidpointRatio: "3:4",
+      LatinParallelRead: true,
+      nativePacket: packet,
+      earlierLesson: await exploreEarlier(page, id),
+    };
+  }
+  if (id === "gonia") {
+    assert.equal(await page.locator("#hw-supports").innerText(), "3");
+    await page.locator("#hw-anchor").focus();
+    await page.locator("#hw-anchor").selectOption("fixed");
+    assert.equal(await page.locator("#hw-supports").innerText(), "2");
+    await page.locator("#hw-rig").selectOption("five");
+    assert.equal(await page.locator("#hw-supports").innerText(), "4");
+    await page.locator("#hw-anchor").selectOption("moving");
+    assert.equal(await page.locator("#hw-supports").innerText(), "5");
+    await page.locator("#hw-hold").selectOption("rope");
+    assert.equal(await page.locator("#hw-rise").innerText(), "0.2 m");
+    await page.locator("#hw-arm").selectOption("4");
+    assert.equal(await page.locator("#hw-hand").innerText(), "30 N");
+    assert.equal(await page.locator("#hw-hand-path").innerText(), "4 m");
+    await page.locator("#hw-read-tie").click();
+    await page.getByRole("button", { name: "religatur", exact: true }).focus();
+    await page.keyboard.press("Enter");
+    assert.match(await page.locator("#hw-word-note").innerText(), /fastened/);
+    await page.locator("#hw-source-image").evaluate((image) => image.decode());
+    const packet = await nativeReading(page, "#hw-save-reading", "gonia-hoist-reading.html", 5);
+    await page.getByRole("link", { name: "Sounding vessels", exact: true }).click();
+    return {
+      sameWheelsThreeToTwo: true,
+      sameWheelsFiveToFour: true,
+      oneMetreRopeRaisesPointTwo: true,
+      windlassForceN: 30,
+      windlassHandPathM: 4,
+      LatinTieRead: true,
+      nativePacket: packet,
+      earlierLesson: await exploreEarlier(page, id),
+    };
+  }
+  if (id === "stoicheia") {
+    await deskOperation(page, "line", "A", "B");
+    await deskOperation(page, "circle", "A", "B");
+    await deskOperation(page, "circle", "B", "A");
+    await deskOperation(page, "meet", "c2", "c3", 0);
+    await deskOperation(page, "line", "P1", "B");
+    await deskOperation(page, "circle", "B", "C");
+    await deskOperation(page, "meet", "l4", "c5", 0);
+    assert.match(await page.locator("#dk-proof-state").innerText(), /not complete/);
+    await page.locator("#dk-hint-toggle").click();
+    assert.match(await page.locator("#dk-hint-text").innerText(), /BEYOND B/);
+    await page.locator("#dk-hint-toggle").click();
+    await page.locator("#dk-undo").click();
+    await deskOperation(page, "meet", "l4", "c5", 1);
+    await deskOperation(page, "line", "P1", "A");
+    await deskOperation(page, "circle", "P1", "P2");
+    await deskOperation(page, "meet", "l6", "c7", 1);
+    await deskOperation(page, "line", "A", "P3");
+    assert.match(await page.locator("#dk-proof-state").innerText(), /chain is present/);
+    await page.locator("#dk-measure-point").selectOption("P3");
+    assert.match(await page.locator("#dk-measurements").innerText(), /Difference: -?0\.000000/);
+    await page.getByRole("link", { name: "Read the commands", exact: true }).click();
+    assert.match(await page.locator("#dk-position").innerText(), /Operation 11 of 11/);
+    await page.locator('[data-page="13"]').click();
+    await page.locator("#dk-scan").evaluate((image) => image.decode());
+    const packet = await nativeReading(page, "#dk-study", "stoicheia-construction-reading.html", 4);
+    await page.getByRole("link", { name: "I.2 in the course", exact: true }).click();
+    await page.getByRole("link", { name: /Twice the stone/ }).click();
+    await page.goto(earlierRoutes.stoicheia);
+    return {
+      learnerCommands: 11,
+      wrongCrossingRemainsLegitimate: true,
+      adaptiveHintRead: true,
+      undoChangesBranch: true,
+      incidenceProofPresent: true,
+      GreekAndLatinSourcesAvailable: true,
+      nativePacket: packet,
+      earlierLesson: await exploreEarlier(page, id),
+    };
+  }
+  return exploreEarlier(page, id);
 }
 
 export async function runJourneys(base, out, only) {
@@ -447,11 +632,7 @@ export async function runJourneys(base, out, only) {
           await page.keyboard.press("Enter");
           if (lesson.id === "stoicheia") {
             const target = new URL(demoURL);
-            await page.waitForURL(
-              (url) =>
-                url.origin === target.origin &&
-                url.pathname === target.pathname,
-            );
+            await page.waitForURL((url) => url.origin === target.origin && url.pathname === target.pathname);
           } else await page.waitForURL(demoURL);
           const interaction = await explore(page, lesson.id);
           assert.equal(
@@ -475,7 +656,7 @@ export async function runJourneys(base, out, only) {
             .poll(
               async () => {
                 const box = await heading.boundingBox();
-                const visible = box !== null && box.y >= -2 && box.y < 900;
+                const visible = box !== null && box.y >= -2 && box.y + box.height <= 900;
                 if (visible) headingTop = box.y;
                 return visible;
               },

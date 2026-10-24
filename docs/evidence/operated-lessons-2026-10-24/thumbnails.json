@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-24T22:11:46.637Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "pyknon",
+      "url": "https://antonsoo.github.io/pyknon/rhythm.html?total=6&up=2&unit=300&texture=joined&between=middle&sound=compare#rhythm",
+      "capturedURL": "https://antonsoo.github.io/pyknon/rhythm.html?total=6&up=2&unit=300&texture=joined&between=middle&sound=compare#rhythm",
+      "interactionBeforeCapture": "None",
+      "anchor": "#rhythm",
+      "anchorTop": 20.453125,
+      "wantedTop": 0,
+      "file": "thumbs/pyknon-rhythm.png",
+      "sha256": "ee47327ee21e09f058a7750d24fa9df849cbe5fae0eb8d211157879381e00db9"
+    },
+    {
+      "project": "gonia",
+      "url": "https://antonsoo.github.io/gonia/hoist.html?rig=three&anchor=moving&hold=rise&distance=1&weight=600&arm=2#hw-workshop",
+      "capturedURL": "https://antonsoo.github.io/gonia/hoist.html?rig=three&anchor=moving&hold=rise&distance=1&weight=600&arm=2#hw-workshop",
+      "interactionBeforeCapture": "None",
+      "anchor": ".hw-workbench",
+      "anchorTop": 0.296875,
+      "wantedTop": 0,
+      "file": "thumbs/gonia-hoist.png",
+      "sha256": "70642c630660f0926bfd3a82336fbbf7a323892cbe5220a840f1dbd224b9a57b"
+    },
+    {
+      "project": "stoicheia",
+      "url": "https://antonsoo.github.io/stoicheia/desk.html",
+      "capturedURL": "https://antonsoo.github.io/stoicheia/desk.html#drawing=%7B%22format%22%3A%22stoicheia-desk-v1%22%2C%22given%22%3A%22separate%22%2C%22actions%22%3A%5B%7B%22kind%22%3A%22line%22%2C%22a%22%3A%22A%22%2C%22b%22%3A%22B%22%7D%2C%7B%22kind%22%3A%22circle%22%2C%22center%22%3A%22A%22%2C%22through%22%3A%22B%22%7D%2C%7B%22kind%22%3A%22circle%22%2C%22center%22%3A%22B%22%2C%22through%22%3A%22A%22%7D%2C%7B%22kind%22%3A%22meet%22%2C%22first%22%3A%22c2%22%2C%22second%22%3A%22c3%22%2C%22branch%22%3A0%7D%2C%7B%22kind%22%3A%22line%22%2C%22a%22%3A%22P1%22%2C%22b%22%3A%22B%22%7D%2C%7B%22kind%22%3A%22circle%22%2C%22center%22%3A%22B%22%2C%22through%22%3A%22C%22%7D%5D%7D",
+      "interactionBeforeCapture": "Six learner commands; inspect both crossings before choosing the seventh",
+      "anchor": ".dk-layout",
+      "anchorTop": -0.46875,
+      "wantedTop": 0,
+      "file": "thumbs/stoicheia-desk.png",
+      "sha256": "e5cc4bc36dab32eb867cec935b182cb08d828f000100dac5a27230cd7452fa7f"
+    },
+    {
+      "project": "grama",
+      "url": "https://antonsoo.github.io/grama/#g=sadja&s=0&m=ratios&hz=220",
+      "capturedURL": "https://antonsoo.github.io/grama/#g=sadja&s=0&m=ratios&hz=220",
+      "interactionBeforeCapture": "None",
+      "anchor": "#bench",
+      "anchorTop": 23.953125,
+      "wantedTop": 0,
+      "file": "thumbs/grama.png",
+      "sha256": "531370a2b5dadd00ab415f1c869cfc8c9bb5cebcf2894788b624aaf9f640f87f"
+    }
+  ]
+}

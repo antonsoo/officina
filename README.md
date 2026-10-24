@@ -48,6 +48,11 @@ The [source update history](docs/source-history.md) collects later fixes,
 workflow additions and their retained verification. Each record distinguishes
 source changes from package releases and hosted deployments.
 
+The [operated lessons](docs/operated-lessons-2026-10-24.md) add Grāma and feature
+Euclid's construction desk, Aristoxenus's rhythmic divisions and Vitruvius's
+hoist. Each opens a learner's choice, a source reading and a complete portable
+record; earlier lessons remain discoverable. The catalogue contains 28 projects.
+
 The [string and mesolabe examinations](docs/ancient-examinations-2026-10-24.md)
 open Ptolemy’s instrument check and Eratosthenes’ sliding plates, with source-word
 search, audible or geometric counterexamples, and complete portable readings.

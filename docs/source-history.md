@@ -1,5 +1,7 @@
 # Source update history
 
+2026-10-24: [Operated lessons](operated-lessons-2026-10-24.md) add Grāma and connect the construction desk, rhythmic divisions and tied-end hoist experiments, with retained earlier lessons and pinned evidence.
+
 2026-10-23: [Tunnel, theatre and interior-route lessons](ancient-constructions-2026-10-23.md) add Dioptra and open the new Gonia and Stoicheia experiments, with illustrated offline studies and immutable reviews.
 
 2026-10-22: [Euclid across architecture, music and the reading course](gonia-segments-2026-10-22.md) preserves all relevant search results and verifies the deeper Gonia comparison.

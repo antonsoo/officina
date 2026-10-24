@@ -9,9 +9,10 @@ const anchors = {
   pnigeus: ".shape-section",
   seked: ".reading-desk",
   shiguzhai: ".reference-control",
-  pyknon: ".tr-bench",
-  gonia: ".ec-workbench",
-  stoicheia: "#ml-workshop",
+  pyknon: "#rhythm",
+  gonia: ".hw-workbench",
+  stoicheia: ".dk-layout",
+  grama: "#bench",
   dioptra: ".fl-lab",
 };
 const browser = await chromium.launch();
@@ -29,6 +30,25 @@ try {
     const page = await browser.newPage({ viewport: report.viewport });
     await page.goto(card.demoUrl);
     await page.evaluate(() => document.fonts.ready);
+    if (name === "stoicheia") {
+      for (const [kind, first, second, branch] of [
+        ["line", "A", "B"],
+        ["circle", "A", "B"],
+        ["circle", "B", "A"],
+        ["meet", "c2", "c3", 0],
+        ["line", "P1", "B"],
+        ["circle", "B", "C"],
+      ]) {
+        await page.locator(`[data-tool="${kind}"]`).click();
+        await page.locator("#dk-first").selectOption(first);
+        await page.locator("#dk-second").selectOption(second);
+        if (kind === "meet") await page.locator(`[data-keep="${branch}"]`).click();
+        else await page.locator("#dk-draw").click();
+      }
+      await page.locator('[data-tool="meet"]').click();
+      await page.locator("#dk-first").selectOption("l4");
+      await page.locator("#dk-second").selectOption("c5");
+    }
     // Let the application's own fragment scroll finish before choosing the
     // screenshot frame. Otherwise a scheduled frame can undo our scroll.
     await page.evaluate(
@@ -45,15 +65,20 @@ try {
     );
     const anchorTop = (await page.locator(anchor).boundingBox()).y;
     assert.ok(
-      Math.abs(anchorTop-wantedTop) <= 32,
+      Math.abs(anchorTop - wantedTop) <= 32,
       `${name}: screenshot anchor is outside the intended frame (${anchorTop})`,
     );
-    if (name === "pyknon") await page.locator("#tr-drawing svg").waitFor();
+    if (name === "pyknon") await page.locator("#rh-drawing svg").waitFor();
     const path = `public/${card.thumbnail}`;
     await page.screenshot({ path });
     report.captures.push({
       project: name,
       url: card.demoUrl,
+      capturedURL: page.url(),
+      interactionBeforeCapture:
+        name === "stoicheia"
+          ? "Six learner commands; inspect both crossings before choosing the seventh"
+          : "None",
       anchor,
       anchorTop,
       wantedTop,
