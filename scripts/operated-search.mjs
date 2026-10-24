@@ -61,6 +61,7 @@ for (const [name, type] of [
           assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
           if (name === "chromium") {
             await page.evaluate(() => document.fonts.ready);
+            await page.evaluate(() => window.scrollTo(0, 0));
             await page.screenshot({ path: `${out}/${id}-${width}.png`, fullPage: true });
           }
         }

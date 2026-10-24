@@ -87,4 +87,12 @@ Pnigeus and Shiguzhai; the audience filter still narrows the result.
 
 ![The Sanskrit source term finds the grāma bench on a phone](assets/operated-grama-phone.png)
 
+The [isolated Node 24 review](evidence/operated-lessons-2026-10-24/clean-build.json)
+runs the documented `npm install`, lint, formatting, typecheck, all 40 unit checks,
+build and 32 browser workflows. The lockfile stays unchanged; all 57 build files
+are byte-identical to the working Node 26 build. The exact `npm run dev` command
+starts at localhost:5173, where the [native search workflow](evidence/operated-lessons-2026-10-24/development-search.json)
+passes in both browsers and widths. This source archive is an isolated local
+installation, not yet a claim about a fresh public clone.
+
 Public catalogue publication is recorded separately from the projects it links.
