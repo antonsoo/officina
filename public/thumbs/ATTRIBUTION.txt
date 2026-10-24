@@ -108,3 +108,10 @@ Unedited 1200 x 750 browser screenshots of the actual hosted workshops, captured
 by Anton Soloviev. New diagrams and teaching text: MIT. Historical source text
 is public domain. These screenshots contain no museum photography. Exact URLs,
 framing selectors and SHA-256 identities are retained in the examination review.
+
+Operated lessons, 2026-10-24
+- grama.png: actual Grama count-row bench, public demo; MIT code and diagrams, Anton Soloviev, 2026.
+- pyknon-rhythm.png: actual Pyknon rhythm bench, public demo; MIT code and diagrams, Anton Soloviev, 2026.
+- gonia-hoist.png: actual Gonia hoist bench, public demo; MIT code and diagrams, Anton Soloviev, 2026.
+- stoicheia-desk.png: actual Stoicheia construction desk after six learner commands, with two possible crossings awaiting a choice; MIT code and diagrams, Anton Soloviev, 2026.
+Exact URLs, captured state URLs, framing, dimensions and SHA-256 identities: docs/evidence/operated-lessons-2026-10-24/thumbnails.json.

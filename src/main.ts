@@ -98,7 +98,7 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
       <div class="search-row">
         <div class="search-field">
           <label for="tool-search">Find a tool</label>
-          <input id="tool-search" type="search" placeholder="Try traces, calendars, or logs" autocomplete="off" aria-controls="groups" />
+          <input id="tool-search" type="search" placeholder="Try Greek, music, traces, or logs" autocomplete="off" aria-controls="groups" />
         </div>
         <button class="clear-filters" type="reset">Clear filters</button>
       </div>
