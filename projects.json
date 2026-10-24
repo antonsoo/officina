@@ -79,15 +79,15 @@
   },
   {
     "name": "dioptra",
-    "description": "Aim an unseen tunnel with Hero’s Greek instructions. Walk a right-angle circuit, cancel detours, set outside aiming pegs, and inspect a chosen error beside the original source pages.",
+    "description": "Measure water supply with Hero’s Greek: equal stream sections, unequal collections and a changing-flow estimate. Read the complete chapter and printed evidence, then aim an unseen tunnel.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/dioptra",
-    "demoUrl": "https://antonsoo.github.io/dioptra/?stage=3&aim=0.2#field-book",
+    "demoUrl": "https://antonsoo.github.io/dioptra/flow.html?w=12&d=4&a=10&b=30&v=0&t=20&m=whole&r=7#fl-workshop",
     "thumbnail": "thumbs/dioptra.png",
     "status": "published",
     "study": {
-      "finding": "The outside walk grows from 560 to 760 chosen metres while the displacement stays 300 by 60. Two 10 mm peg errors make a 60 mm middle gap.",
-      "url": "https://github.com/antonsoo/dioptra/blob/90527ebcbbc572c0b2c06d37bbe321d345b9f01d/docs/review.md#what-the-learner-can-do"
+      "finding": "Equal stream sections collect 9.6 and 28.8 L. Change the supply halfway: a short sample overestimates the 19.2 L total by 9.6 L.",
+      "url": "https://github.com/antonsoo/dioptra/blob/df1c92eb7b104e6c9dd0d70558ed0fb605da1e81/docs/flow-review.md#what-the-learner-can-do"
     }
   },
   {
@@ -105,15 +105,15 @@
   },
   {
     "name": "stoicheia",
-    "description": "Construct an equal-area square with Euclid II.14. See why averaging sides adds a square; read Greek, Latin and English with the printed sources. Continue through I.1–21, bisection and the I.22 triangle workshop.",
+    "description": "Explore Euclid’s equal complements and gnomon. Break a diagonal hypothesis, then construct an equal-area square. Read Greek, Latin and English; continue through I.1–21, bisection and I.22.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/stoicheia",
-    "demoUrl": "https://antonsoo.github.io/stoicheia/quadrature.html#a=90&b=40&s=5&m=100&c=0&k=0&r=8",
+    "demoUrl": "https://antonsoo.github.io/stoicheia/gnomon.html#u=35&v=35&h=20&d=1&s=0&a=90&b=40&g=5&book=I43&r=5",
     "thumbnail": "thumbs/stoicheia.png",
     "status": "published",
     "study": {
-      "finding": "A 9 by 4 rectangle becomes a 6 by 6 square. Averaging the sides adds 6.25 square units: move the pieces to see why equal perimeter differs from equal area.",
-      "url": "https://github.com/antonsoo/stoicheia/blob/acefa1d3f3d72ecab81037e2ae0fa91c230b4a38/docs/quadrature-review.md#what-can-be-learned"
+      "finding": "Move a point off a parallelogram’s diagonal: complements become 7.35 and 25.35, even though the small triangle pairs remain equal.",
+      "url": "https://github.com/antonsoo/stoicheia/blob/7fbc7c391b808a0f8ee637bca9b47f2e811bbea2/docs/gnomon-review.md#what-can-be-learned"
     }
   },
   {
