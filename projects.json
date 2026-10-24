@@ -100,20 +100,20 @@
     "status": "published",
     "study": {
       "finding": "The pitch row reverses between paramese and nete synhemmenon. Hear why the fourth placement does not mean another musical fourth.",
-      "url": "https://github.com/antonsoo/gonia/blob/0c0b116d96631bec4089aa6db62431d64ec88a1b/docs/echea-review.md#what-a-learner-can-now-do"
+      "url": "https://github.com/antonsoo/gonia/blob/f8158e47833aa9cd62f5450812605f9559295d45/docs/echea-review.md#what-a-learner-can-now-do"
     }
   },
   {
     "name": "stoicheia",
-    "description": "Read Euclid I.1–21 in Greek, Latin and English, then construct I.22. Move an interior vertex, compare lengths and angles, and keep illustrated proofs with their verified source pages. Explore bisection and perpendiculars.",
+    "description": "Construct an equal-area square with Euclid II.14. See why averaging sides adds a square; read Greek, Latin and English with the printed sources. Continue through I.1–21, bisection and the I.22 triangle workshop.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/stoicheia",
-    "demoUrl": "https://antonsoo.github.io/stoicheia/#p=21&s=9&m=55",
+    "demoUrl": "https://antonsoo.github.io/stoicheia/quadrature.html#a=90&b=40&s=5&m=100&c=0&k=0&r=8",
     "thumbnail": "thumbs/stoicheia.png",
     "status": "published",
     "study": {
-      "finding": "The inner route is shorter but its angle is larger. One inner segment can still be longer: Euclid compares sums, with a separate proof for angles.",
-      "url": "https://github.com/antonsoo/stoicheia/blob/9a698b8bc3ed3e92929019dbe761d18cde0623a9/docs/nested-review.md#what-can-be-learned"
+      "finding": "A 9 by 4 rectangle becomes a 6 by 6 square. Averaging the sides adds 6.25 square units: move the pieces to see why equal perimeter differs from equal area.",
+      "url": "https://github.com/antonsoo/stoicheia/blob/acefa1d3f3d72ecab81037e2ae0fa91c230b4a38/docs/quadrature-review.md#what-can-be-learned"
     }
   },
   {
