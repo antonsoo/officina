@@ -24,7 +24,9 @@
       "finding": "In the 80 cm model, a 30% pressure drop loses 49.97 L of chamber space but supplies 54.72 ambient L. Halving radius divides space by eight.",
       "url": "https://github.com/antonsoo/pnigeus/blob/2a1f13c6328bd3fd449bd0352a16f201c9805c62/docs/shapes-review.md#what-can-be-learned"
     },
-    "searchTerms": ["music"]
+    "searchTerms": [
+      "music"
+    ]
   },
   {
     "name": "sammu",
@@ -38,7 +40,9 @@
       "finding": "Seven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
       "url": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
     },
-    "searchTerms": ["music"]
+    "searchTerms": [
+      "music"
+    ]
   },
   {
     "name": "seked",
@@ -55,17 +59,33 @@
   },
   {
     "name": "shiguzhai",
-    "description": "Explore ten ancient Chinese bronze bells through 87 published frequency measurements, museum photographs and listening comparisons. Change the modern tuning grid without moving the evidence.",
+    "description": "Explore two Chinese bell studies: keep Shiguzhai’s observed pitch lists, then couple Piao-shi bending patterns and compare a bell-maker’s Chinese proportions with measured dimensions.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/shiguzhai",
-    "demoUrl": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439#listen",
-    "thumbnail": "thumbs/shiguzhai.png",
+    "demoUrl": "https://antonsoo.github.io/shiguzhai/shuang.html?bell=p08&strike=22&tuning=measured&rule=successive&read=4&scale=200#bench",
+    "thumbnail": "thumbs/shiguzhai-shuang.png",
     "status": "published",
     "study": {
-      "finding": "At A4=440 Hz, 87 listed frequencies map to ten modern keys; at 439 Hz, nine. The measured frequencies stay fixed.",
-      "url": "https://github.com/antonsoo/shiguzhai/blob/1cbfc3a3476e6cb10555830a28b38c13cadb2511/docs/sources.md#what-the-controls-do"
+      "finding": "The model strike changes a mixture of 1214.1/1486.8 Hz; two readings predict a mouth depth of 6 or 6.4 for a ridge length of ten.",
+      "url": "https://github.com/antonsoo/shiguzhai/blob/fc13b9747b4ed34297697fff81809a0226312e1c/docs/shuang-review.md#what-a-learner-can-do"
     },
-    "searchTerms": ["music"]
+    "searchTerms": [
+      "music",
+      "Chinese bells",
+      "Shuang",
+      "Piao-shi",
+      "Kaogongji",
+      "bell maker",
+      "bending patterns",
+      "two-tone bells",
+      "351 cents",
+      "remove two parts",
+      "銑間",
+      "舞廣",
+      "269 Hz",
+      "87 frequencies",
+      "modern reference"
+    ]
   },
   {
     "name": "pyknon",
@@ -131,17 +151,61 @@
     ]
   },
   {
-    "name": "dioptra",
-    "description": "Measure water supply with Hero’s Greek: equal stream sections, unequal collections and a changing-flow estimate. Read the complete chapter and printed evidence, then aim an unseen tunnel.",
+    "name": "zygon",
+    "description": "Find Archimedes’ balancing arm, then see why an exactly balanced stack can still misjudge a sphere’s volume. Read Greek with new English and Latin beside its mapped manuscript lines.",
     "group": "Ancient world",
-    "repoUrl": "https://github.com/antonsoo/dioptra",
-    "demoUrl": "https://antonsoo.github.io/dioptra/flow.html?w=12&d=4&a=10&b=30&v=0&t=20&m=whole&r=7#fl-workshop",
-    "thumbnail": "thumbs/dioptra.png",
+    "repoUrl": "https://github.com/antonsoo/zygon",
+    "demoUrl": "https://antonsoo.github.io/zygon/?x=75&h=200&n=8&view=stack&read=8#workshop",
+    "thumbnail": "thumbs/zygon.png",
     "status": "published",
     "study": {
-      "finding": "Equal stream sections collect 9.6 and 28.8 L. Change the supply halfway: a short sample overestimates the 19.2 L total by 9.6 L.",
-      "url": "https://github.com/antonsoo/dioptra/blob/df1c92eb7b104e6c9dd0d70558ed0fb605da1e81/docs/flow-review.md#what-the-learner-can-do"
-    }
+      "finding": "Eight midpoint bands balance exactly, while the sphere estimate remains high by πr³/96; equal moments do not make each volume exact.",
+      "url": "https://github.com/antonsoo/zygon/blob/b945c7e017c70c9e82f11e8c82360084345ba00e/docs/review.md#what-a-learner-can-do"
+    },
+    "searchTerms": [
+      "Archimedes",
+      "Method II",
+      "sphere volume",
+      "lever",
+      "balance",
+      "finite bands",
+      "midpoint",
+      "exhaustion bounds",
+      "palimpsest",
+      "Netz",
+      "Wilson",
+      "διπλασία",
+      "τετραπλασίων",
+      "Greek and Latin"
+    ]
+  },
+  {
+    "name": "dioptra",
+    "description": "Calibrate Hero’s distance counter by trial: keep its pointers and change the distance scale. Read the Greek chapter and printed evidence; also measure water supply and tunnel routes.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/dioptra",
+    "demoUrl": "https://antonsoo.github.io/dioptra/counter.html#ct-workshop",
+    "thumbnail": "thumbs/dioptra-counter.png",
+    "status": "published",
+    "study": {
+      "finding": "A completed twenty-turn trial changes the same fifteen dial divisions from 1,200 to 800 cubits, without moving either pointer.",
+      "url": "https://github.com/antonsoo/dioptra/blob/acb04bdd178d3befc427beb14edd04568391e814/docs/counter-review.md#what-a-learner-can-do"
+    },
+    "searchTerms": [
+      "Hero",
+      "hodometer",
+      "distance counter",
+      "calibration",
+      "first worm",
+      "twenty shaft turns",
+      "fifteen divisions",
+      "πείρᾳ",
+      "τύμπανον",
+      "water supply",
+      "changing flow",
+      "tunnel survey",
+      "outside survey"
+    ]
   },
   {
     "name": "gonia",
