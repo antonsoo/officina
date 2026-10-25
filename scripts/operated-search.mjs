@@ -6,9 +6,10 @@ const base = process.argv[2],
 assert(base && out);
 await mkdir(out, { recursive: true });
 const catalogue = JSON.parse(await readFile("public/projects.json", "utf8")),
-  ids = ["pyknon", "gonia", "stoicheia", "grama"],
+  ids = ["pyknon", "gonia", "stoicheia", "grama", "haidao"],
   cases = [];
 const extra = {
+  haidao: ["HAIDAO", "Liu Hui", "sea-island", "海島算經", "海岛算经", "相多", "表間", "ground eyes"],
   pyknon: ["ΙΣΟΤΟΝΟΝ", "tetrachords", "Ptolemy ισοτονον"],
   gonia: [
     "trispastos",
@@ -85,6 +86,7 @@ for (const [name, type] of [
             gonia: "religatur",
             stoicheia: "restricted compass",
             grama: "pañcama",
+            haidao: "相多",
           }[id];
           await search.fill(query);
           const target = page.locator(`[data-project="${id}"]`);
@@ -135,7 +137,7 @@ await writeFile(
       checkedAt: new Date().toISOString(),
       base,
       scope:
-        "Actual native search inputs; every indexed term of the four featured lessons plus explicit older-topic and unaccented queries, link identities, music discovery and audience narrowing",
+        "Actual native search inputs; every indexed term of the five featured lessons plus explicit older-topic and unaccented queries, link identities, music discovery and audience narrowing",
       cases,
     },
     null,

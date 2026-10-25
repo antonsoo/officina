@@ -5,6 +5,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const cards = JSON.parse(await readFile("public/projects.json", "utf8"));
 const anchors = {
+  haidao: ".survey-layout",
   rajju: "#field-workshop",
   pnigeus: ".shape-section",
   seked: ".reading-desk",

@@ -53,10 +53,14 @@ connect new Book X and Vitruvian workshops with source-word search, native
 operations, original pages and complete portable readings. Older workshop
 terms remain indexed, including the restored `column flute` query.
 
+The [Haidao survey](docs/haidao-2026-10-25.md) adds Liu Hui’s two-sighting
+problem with Classical Chinese. Try a divisor that passes one observation and
+fails the other, then inspect the correction in a complete printed witness.
+
 The [operated lessons](docs/operated-lessons-2026-10-24.md) add Grāma and feature
 Euclid's construction desk, Aristoxenus's rhythmic divisions and Vitruvius's
 hoist. Each opens a learner's choice, a source reading and a complete portable
-record; earlier lessons remain discoverable. The catalogue contains 29 projects.
+record; earlier lessons remain discoverable. The catalogue contains 30 projects.
 
 The [viewpoint experiment](docs/viewpoint-2026-10-24.md) opens Gonia’s fixed
 1:12 inclination and a movable observer, with a source reading and a pinned

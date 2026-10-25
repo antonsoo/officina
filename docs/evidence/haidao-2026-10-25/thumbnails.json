@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-25T14:10:52.713Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "haidao",
+      "url": "https://antonsoo.github.io/haidao/?pole=5&gap=1000&front=123&rear=127&error=0&choice=gap&step=0&read=6&page=11#survey",
+      "capturedURL": "https://antonsoo.github.io/haidao/?pole=5&gap=1000&front=123&rear=127&error=0&choice=gap&step=0&read=6&page=11#survey",
+      "interactionBeforeCapture": "None",
+      "anchor": ".survey-layout",
+      "anchorTop": 15.984375,
+      "wantedTop": 0,
+      "file": "thumbs/haidao.png",
+      "sha256": "939a7f1daf1e3026991caf6c7c5f13e444bf171bd8ed5ace792213d9ea03b1c8"
+    }
+  ]
+}

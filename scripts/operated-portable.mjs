@@ -5,6 +5,14 @@ import path from "node:path";
 import { gunzipSync } from "node:zlib";
 const packets = [
   {
+    project: "haidao",
+    revision: "f42a7c4681799710aa617a7bcc14e29a21335580",
+    stem: "haidao-reading",
+    htmlExtension: "html.gz",
+    preset:
+      "Source observations; retreat-difference divisor; completed recipe; independent setback half-width 2 bu",
+  },
+  {
     project: "stoicheia",
     revision: "3d33c47c92a69e46862cce554afd74cc51dd91eb",
     stem: "common-measure",

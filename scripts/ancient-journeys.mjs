@@ -5,6 +5,7 @@ import { pathToFileURL } from "node:url";
 import { chromium, firefox, expect } from "@playwright/test";
 
 const lessons = [
+  { id: "haidao", query: "相多", legacy: "Liu Hui", heading: "Try the received wording" },
   { id: "rajju", query: "marked cords", legacy: "Sanskrit", heading: "What can be learned" },
   { id: "pnigeus", query: "water organ", heading: "What can be learned" },
   { id: "seked", query: "Rhind", heading: "What can be learned" },
@@ -441,6 +442,35 @@ async function deskOperation(page, kind, first, second, branch = 0) {
   else await page.locator("#dk-draw").click();
 }
 async function explore(page, id) {
+  if (id === "haidao") {
+    assert.equal(await page.locator('[name="front"]').inputValue(), "123");
+    assert.equal(await page.locator('[name="rear"]').inputValue(), "127");
+    await page.locator("#next-step").focus();
+    for (let i = 0; i < 6; i++) await page.keyboard.press("Enter");
+    assert.match(await page.locator("#checks").innerText(), /-4980\/127/);
+    await page.locator("#choose-difference").click();
+    assert.match(await page.locator("#checks").innerText(), /Both sightings agree/);
+    assert.match(await page.locator("#checks").innerText(), /30750/);
+    assert.match(await page.locator("#passage .chinese").innerText(), /餘四步為相多/);
+    await page.waitForFunction(() =>
+      document.querySelector("#source-status").textContent.startsWith("Opening 11 · complete"),
+    );
+    await page.locator('[data-error="8"]').click();
+    assert.match(await page.locator("#bounds").innerText(), /No finite upper bound/);
+    const packet = await nativeReading(page, "#save-html", "haidao-reading.html", 5);
+    return {
+      wrongDivisorFrontResidual: "0",
+      wrongDivisorRearResidual: "-4980/127",
+      correctHeightBu: 1255,
+      correctDistanceBu: 30750,
+      chineseCorrectionRead: true,
+      wholeSourceOpening: 11,
+      independentSetbackHalfWidthBu: 2,
+      finiteUpperBound: false,
+      nativePacket: packet,
+    };
+  }
+
   if (id === "gonia" && new URL(page.url()).pathname.endsWith("/screw.html")) {
     assert.equal(await page.locator("#sc-fraction").innerText(), "17.03%");
     await page.locator("#sc-step-next").focus();

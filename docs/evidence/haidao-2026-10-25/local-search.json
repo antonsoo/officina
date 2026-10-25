@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-25T14:16:54.251Z",
+  "base": "http://127.0.0.1:4332/officina/",
+  "scope": "Actual native search inputs; every indexed term of the five featured lessons plus explicit older-topic and unaccented queries, link identities, music discovery and audience narrowing",
+  "cases": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "queries": 133,
+      "sourceAndLegacyTermsAllFound": true,
+      "focusAndURLPreserved": true,
+      "musicFindsFiveLearningProjects": true,
+      "audienceFilterNarrows": true,
+      "additionalCatalogueRequests": 0
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "queries": 133,
+      "sourceAndLegacyTermsAllFound": true,
+      "focusAndURLPreserved": true,
+      "musicFindsFiveLearningProjects": true,
+      "audienceFilterNarrows": true,
+      "additionalCatalogueRequests": 0
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "queries": 133,
+      "sourceAndLegacyTermsAllFound": true,
+      "focusAndURLPreserved": true,
+      "musicFindsFiveLearningProjects": true,
+      "audienceFilterNarrows": true,
+      "additionalCatalogueRequests": 0
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "queries": 133,
+      "sourceAndLegacyTermsAllFound": true,
+      "focusAndURLPreserved": true,
+      "musicFindsFiveLearningProjects": true,
+      "audienceFilterNarrows": true,
+      "additionalCatalogueRequests": 0
+    }
+  ]
+}
