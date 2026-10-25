@@ -10,13 +10,13 @@ const lessons = [
   { id: "seked", query: "Rhind", heading: "What can be learned" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
   { id: "pyknon", query: "ῥυθμός", legacy: "ισοτονον", heading: "What a learner can do" },
-  { id: "gonia", query: "religatur", legacy: "sounding vessels", heading: "What a learner can do" },
+  { id: "gonia", query: "coclea", legacy: "religatur", heading: "Try a retained bucket" },
   { id: "dioptra", query: "water supply", legacy: "unseen tunnel", heading: "What the learner can do" },
   {
     id: "stoicheia",
-    query: "restricted compass",
-    legacy: "two mean proportionals",
-    heading: "Try an actual construction",
+    query: "ἀνθυφαιρουμένου",
+    legacy: "restricted compass",
+    heading: "What the learner can do",
   },
   { id: "grama", query: "pañcama", legacy: "Indian music", heading: "What changed for a learner" },
 ];
@@ -441,6 +441,104 @@ async function deskOperation(page, kind, first, second, branch = 0) {
   else await page.locator("#dk-draw").click();
 }
 async function explore(page, id) {
+  if (id === "gonia" && new URL(page.url()).pathname.endsWith("/screw.html")) {
+    assert.equal(await page.locator("#sc-fraction").innerText(), "17.03%");
+    await page.locator("#sc-step-next").focus();
+    await page.keyboard.press("Enter");
+    assert.equal(await page.locator("#sc-step").inputValue(), "4");
+    assert.equal(await page.locator('#sc-net [data-net-start="7"]').count(), 2);
+    await page.locator("#sc-lead").focus();
+    await page.keyboard.press("ArrowLeft");
+    assert.equal(await page.locator("#sc-lead").inputValue(), "99");
+    await page.locator("#sc-reset").click();
+    await page.locator("#sc-slope").selectOption("custom");
+    await page.locator("#sc-angle").fill("500");
+    assert.match(await page.locator("#sc-regime").innerText(), /outer pocket/);
+    await page.locator("#sc-angle").fill("650");
+    assert.match(await page.locator("#sc-regime").innerText(), /No retained bucket/);
+    await page.locator("#sc-reset").click();
+    await page.locator("#sc-turn").fill("360");
+    assert.equal(await page.locator("#sc-advance").innerText(), "3.142 R");
+    assert.equal(await page.locator("#sc-rise").innerText(), "1.885 R");
+    await page.locator("#sc-turn-back").click();
+    await page.locator("#sc-passage").selectOption("2");
+    await page.locator("#sc-find-source").click();
+    await page.waitForFunction(() =>
+      document.querySelector("#sc-source-status").textContent.includes("matches"),
+    );
+    assert.equal(await page.locator("#sc-source").inputValue(), "062");
+    assert.match(await page.locator("#sc-latin").innerText(), /sedecim digitos/);
+    await page.locator("#sc-words button").nth(1).focus();
+    await page.keyboard.press("Enter");
+    assert.match(await page.locator("#sc-word-note").innerText(), /Sixteen/);
+    const packet = await nativeReading(page, "#sc-save-study", "screw-illustrated-reading.html", 5);
+    await page.getByRole("link", { name: "Hoists", exact: true }).click();
+    await expect(page.locator("#hw-supports")).toHaveText("3");
+    await page.locator("#hw-anchor").selectOption("fixed");
+    await expect(page.locator("#hw-supports")).toHaveText("2");
+    return {
+      sourceGridEightStarts: true,
+      keyboardPitch: true,
+      sourceFraction: 0.1703,
+      outerPocketAtDegrees: 50,
+      noRetentionAtDegrees: 65,
+      fullTurnAdvanceR: Math.PI,
+      fullTurnRiseR: Math.PI * 0.6,
+      sixteenDigitSourceRead: true,
+      nativePacket: packet,
+      earlierHoistStillReachable: true,
+    };
+  }
+  if (id === "stoicheia" && new URL(page.url()).pathname.endsWith("/measure.html")) {
+    await expect(page.locator("#mr-n")).toHaveValue("577");
+    await expect(page.locator("#mr-d")).toHaveValue("408");
+    for (let row = 0; row < 8; row++) {
+      const q = row === 0 ? 1 : 2;
+      for (let i = 0; i < q; i++) {
+        await page.locator("#mr-fit").focus();
+        await page.keyboard.press("Enter");
+      }
+      if (row < 7) {
+        await page.locator("#mr-turn").focus();
+        await page.keyboard.press("Enter");
+      }
+    }
+    assert.match(await page.locator("#mr-conclusion").innerText(), /1\/408/);
+    assert.match(await page.locator("#mr-conclusion").innerText(), /577 times and the side 408 times/);
+    await page.locator("#mr-compare-length").click();
+    assert.match(await page.locator("#mr-status").innerText(), /positive remainder/);
+    await page.locator("#mr-proof summary").click();
+    await expect(page.locator("#mr-proof")).toHaveAttribute("open", "");
+    await page.locator("#mr-read-never").click();
+    assert.match(await page.locator('#mr-reading-text [lang="grc"]').innerText(), /μηδέποτε/);
+    assert.match(await page.locator('#mr-reading-text [lang="la"]').innerText(), /nunquam/);
+    await page.locator('[data-page="7"]').click();
+    await page.waitForFunction(
+      () =>
+        !document.querySelector("#mr-source-image").hidden &&
+        document.querySelector("#mr-source-image").naturalWidth > 1000,
+    );
+    await page.locator('input[name="mr-answer"][value="no"]').check();
+    await page.locator('#mr-question button[type="submit"]').click();
+    assert.match(await page.locator("#mr-feedback").innerText(), /^Correct\./);
+    const packet = await nativeReading(page, "#mr-save", "stoicheia-common-measure.html", 12);
+    await page.getByRole("link", { name: "Euclid course", exact: true }).click();
+    await page.getByRole("link", { name: /construction desk/i }).click();
+    await page.locator("#dk-draw").waitFor();
+    return {
+      eightMatchingCopyCounts: true,
+      exactCommonMeasure: "1/408",
+      originalCounts: [577, 408],
+      diagonalStillPositive: true,
+      recurrenceArgumentOpened: true,
+      GreekNever: "μηδέποτε",
+      LatinNever: "nunquam",
+      fullPrintedLatinPage: 7,
+      finiteRunQuestionAnswered: true,
+      nativePacket: packet,
+      earlierConstructionDeskReachable: true,
+    };
+  }
   if (id === "grama") {
     assert.equal(await page.locator("#model").inputValue(), "ratios");
     await page.locator("#start").selectOption("1");

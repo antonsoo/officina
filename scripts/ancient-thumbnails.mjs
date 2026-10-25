@@ -10,8 +10,8 @@ const anchors = {
   seked: ".reading-desk",
   shiguzhai: ".reference-control",
   pyknon: "#rhythm",
-  gonia: ".hw-workbench",
-  stoicheia: ".dk-layout",
+  gonia: ".sc-machine-layout",
+  stoicheia: "#mr-bench",
   grama: "#bench",
   dioptra: ".fl-lab",
 };
@@ -30,7 +30,7 @@ try {
     const page = await browser.newPage({ viewport: report.viewport });
     await page.goto(card.demoUrl);
     await page.evaluate(() => document.fonts.ready);
-    if (name === "stoicheia") {
+    if (name === "stoicheia" && new URL(card.demoUrl).pathname.endsWith("/desk.html")) {
       for (const [kind, first, second, branch] of [
         ["line", "A", "B"],
         ["circle", "A", "B"],
@@ -76,7 +76,7 @@ try {
       url: card.demoUrl,
       capturedURL: page.url(),
       interactionBeforeCapture:
-        name === "stoicheia"
+        name === "stoicheia" && new URL(card.demoUrl).pathname.endsWith("/desk.html")
           ? "Six learner commands; inspect both crossings before choosing the seventh"
           : "None",
       anchor,

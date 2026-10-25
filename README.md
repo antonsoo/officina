@@ -48,6 +48,11 @@ The [source update history](docs/source-history.md) collects later fixes,
 workflow additions and their retained verification. Each record distinguishes
 source changes from package releases and hosted deployments.
 
+The [common-measure and water-screw lessons](docs/measure-and-water-2026-10-25.md)
+connect new Book X and Vitruvian workshops with source-word search, native
+operations, original pages and complete portable readings. Older workshop
+terms remain indexed, including the restored `column flute` query.
+
 The [operated lessons](docs/operated-lessons-2026-10-24.md) add Grāma and feature
 Euclid's construction desk, Aristoxenus's rhythmic divisions and Vitruvius's
 hoist. Each opens a learner's choice, a source reading and a complete portable

@@ -115,3 +115,13 @@ Operated lessons, 2026-10-24
 - gonia-hoist.png: actual Gonia hoist bench, public demo; MIT code and diagrams, Anton Soloviev, 2026.
 - stoicheia-desk.png: actual Stoicheia construction desk after six learner commands, with two possible crossings awaiting a choice; MIT code and diagrams, Anton Soloviev, 2026.
 Exact URLs, captured state URLs, framing, dimensions and SHA-256 identities: docs/evidence/operated-lessons-2026-10-24/thumbnails.json.
+
+Water screw and Book X measurement (2026-10-25)
+Files: gonia-screw.png, stoicheia-measure.png.
+Actual Chromium screenshots at 1200 by 750 pixels from the public workshops.
+Gonia shows its transparent eight-start screw at the source 3-4-5 slope;
+Stoicheia shows the initial 577/408 length and side before a copy is fitted.
+Original interface and diagrams: Anton Soloviev, 2026, MIT.
+The captures contain no reconstructed historical photograph or generated art.
+Capture URLs, framing and SHA-256 identities are retained in
+docs/evidence/measure-and-water-2026-10-25/thumbnails.json.

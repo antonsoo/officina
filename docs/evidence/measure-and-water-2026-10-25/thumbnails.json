@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-25T11:54:38.008Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "gonia",
+      "url": "https://antonsoo.github.io/gonia/screw.html?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=500&step=3&passage=11&page=238#sc-build",
+      "capturedURL": "https://antonsoo.github.io/gonia/screw.html?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=500&step=3&passage=11&page=238#sc-build",
+      "interactionBeforeCapture": "None",
+      "anchor": ".sc-machine-layout",
+      "anchorTop": -0.265625,
+      "wantedTop": 0,
+      "file": "thumbs/gonia-screw.png",
+      "sha256": "a65609b24b9b7ad7de9a30b8ec87a46d2d7c3eb5b3c5453b730b29bdc12badbf"
+    },
+    {
+      "project": "stoicheia",
+      "url": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "capturedURL": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "interactionBeforeCapture": "None",
+      "anchor": "#mr-bench",
+      "anchorTop": -0.171875,
+      "wantedTop": 0,
+      "file": "thumbs/stoicheia-measure.png",
+      "sha256": "0e439fcfd8bfc8d14d25e3a5d0e41fbbe8ab6a9c9ea2d951c867126111b49a0c"
+    }
+  ]
+}

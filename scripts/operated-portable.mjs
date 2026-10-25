@@ -2,7 +2,22 @@ import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { gunzipSync } from "node:zlib";
 const packets = [
+  {
+    project: "stoicheia",
+    revision: "3d33c47c92a69e46862cce554afd74cc51dd91eb",
+    stem: "common-measure",
+    htmlExtension: "html.gz",
+    preset: "Book X; exact 577/408 and diagonal comparison; complete native reading",
+  },
+  {
+    project: "gonia",
+    revision: "3c04ee1ca2ae21b59a45658a5cdf6ca93caa53ed",
+    stem: "screw-reading",
+    htmlExtension: "html.gz",
+    preset: "Eight starts; sixteen-digit source foot; source pitch and 3-4-5 slope",
+  },
   {
     project: "stoicheia",
     revision: "1855a9594a3a006bf42ae3639281cfe4f992f7de",
@@ -31,7 +46,7 @@ const packets = [
 const out = process.argv[2] ?? "/tmp/operated-portable.json",
   results = [];
 for (const p of packets)
-  for (const ext of ["html", "pdf"]) {
+  for (const ext of [p.htmlExtension ?? "html", "pdf"]) {
     const file = `examples/${p.stem}.${ext}`,
       url = `https://raw.githubusercontent.com/antonsoo/${p.project}/${p.revision}/${file}`,
       local = await readFile(path.join("..", p.project, file)),
@@ -40,7 +55,19 @@ for (const p of packets)
     const remote = Buffer.from(await response.arrayBuffer()),
       hash = (b) => createHash("sha256").update(b).digest("hex");
     assert.equal(hash(remote), hash(local), url);
-    results.push({ ...p, file, url, bytes: remote.length, sha256: hash(remote), matchesLocal: true });
+    const expanded = ext.endsWith(".gz") ? gunzipSync(remote) : remote;
+    if (ext.startsWith("html")) assert.match(expanded.toString(), /^<!doctype html>/i);
+    else assert.equal(expanded.subarray(0, 5).toString(), "%PDF-");
+    results.push({
+      ...p,
+      file,
+      url,
+      bytes: remote.length,
+      sha256: hash(remote),
+      expandedBytes: expanded.length,
+      expandedSha256: hash(expanded),
+      matchesLocal: true,
+    });
   }
 await mkdir(path.dirname(out), { recursive: true });
 await writeFile(
@@ -56,4 +83,4 @@ await writeFile(
     2,
   ) + "\n",
 );
-console.log("All eight pinned public HTML/PDF packets match their retained files.");
+console.log(`All ${results.length} pinned public HTML/PDF files match their retained files.`);
