@@ -728,6 +728,9 @@ async function explore(page, id) {
     await page.locator("#dk-scan").evaluate((image) => image.decode());
     const packet = await nativeReading(page, "#dk-study", "stoicheia-construction-reading.html", 4);
     await page.getByRole("link", { name: "I.2 in the course", exact: true }).click();
+    const companions = page.locator("#companion-workshops");
+    if (await companions.count() && await companions.getAttribute("open") === null)
+      await companions.locator("summary").click();
     await page.getByRole("link", { name: /Twice the stone/ }).click();
     await page.goto(earlierRoutes.stoicheia);
     return {
