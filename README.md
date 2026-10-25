@@ -53,6 +53,10 @@ Euclid's construction desk, Aristoxenus's rhythmic divisions and Vitruvius's
 hoist. Each opens a learner's choice, a source reading and a complete portable
 record; earlier lessons remain discoverable. The catalogue contains 29 projects.
 
+The [viewpoint experiment](docs/viewpoint-2026-10-24.md) opens Gonia’s fixed
+1:12 inclination and a movable observer, with a source reading and a pinned
+geometric review. Earlier hoist, column and sounding-vessel terms remain.
+
 The [calibration, balance and Chinese craft lessons](docs/balance-and-calibration-2026-10-24.md)
 add Archimedes' Zygon workshop and feature Hero's distance calibration and
 Shiguzhai's second bell room. Native search finds their source words while

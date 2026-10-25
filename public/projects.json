@@ -24,9 +24,7 @@
       "finding": "In the 80 cm model, a 30% pressure drop loses 49.97 L of chamber space but supplies 54.72 ambient L. Halving radius divides space by eight.",
       "url": "https://github.com/antonsoo/pnigeus/blob/2a1f13c6328bd3fd449bd0352a16f201c9805c62/docs/shapes-review.md#what-can-be-learned"
     },
-    "searchTerms": [
-      "music"
-    ]
+    "searchTerms": ["music"]
   },
   {
     "name": "sammu",
@@ -40,9 +38,7 @@
       "finding": "Seven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
       "url": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
     },
-    "searchTerms": [
-      "music"
-    ]
+    "searchTerms": ["music"]
   },
   {
     "name": "seked",
@@ -209,15 +205,15 @@
   },
   {
     "name": "gonia",
-    "description": "Keep the wheels and move the tied end of Vitruvius’s hoist. Compare force, rope travel and work; read the Latin and Greek. Also explore sounding vessels, theatre plans, colonnades, stone transport and flute cuts.",
+    "description": "Keep Vitruvius’s 1:12 lean and move the observer. Compare sight lines with a modern geometric model; read Latin beside complete pages. Ten rooms also explore hoists, sounding vessels, theatres, columns and stone transport.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gonia",
-    "demoUrl": "https://antonsoo.github.io/gonia/hoist.html?rig=three&anchor=moving&hold=rise&distance=1&weight=600&arm=2#hw-workshop",
-    "thumbnail": "thumbs/gonia-hoist.png",
+    "demoUrl": "https://antonsoo.github.io/gonia/optics.html?d=300&h=120&e=16&l=40&a=48&mode=source&read=4#vp-workshop",
+    "thumbnail": "thumbs/gonia-optics.png",
     "status": "published",
     "study": {
-      "finding": "The same three wheels give three supporting tensions with a lower-block tie, or two with a fixed tie. Less force requires more travel in the ideal model.",
-      "url": "https://github.com/antonsoo/gonia/blob/cc4a123ea05ae5f42dfb4313323ea55dc539ee31/docs/hoist-review.md#what-a-learner-can-do"
+      "finding": "With a 12 m face centre and 1.6 m eye, the 1:12 face has equal rays at 124.8 m. One decimetre farther, its upper ray is shorter. Model geometry.",
+      "url": "https://github.com/antonsoo/gonia/blob/65e813814ed992b3efa1b8ee53adbab6e2602681/docs/optics-review.md#what-a-learner-can-do"
     },
     "searchTerms": [
       "trispastos",
@@ -239,7 +235,11 @@
       "column",
       "theatres",
       "resonance",
-      "Greek pitch names"
+      "Greek pitch names",
+      "one twelfth",
+      "perpendiculum",
+      "sight lines",
+      "ἐπιστύλιον"
     ]
   },
   {

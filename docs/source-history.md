@@ -1,5 +1,7 @@
 # Source update history
 
+2026-10-24: [A fixed inclination, a moving observer](viewpoint-2026-10-24.md) opens Gonia’s tenth room and retains its earlier architectural discoveries.
+
 The [calibration, balance and Chinese craft lessons](balance-and-calibration-2026-10-24.md)
 add Zygon and feature the new Dioptra counter and Shiguzhai craft bench, with
 pinned source reviews and direct operated destinations.
@@ -113,7 +115,6 @@ The [Gnomon date-curve correction](gnomon-shadow-gaps-2026-10-17.md) preserves u
 The [Gnomon standing-mark correction](gnomon-standing-marks-2026-10-17.md) names the solstices by month, fixes analemmatic mounting guidance, and publishes the verified current designer with actual offline SVG and PDF downloads.
 
 The [native MLflow capability](trainspotter-mlflow-2026-10-17.md) adds direct local SQLite and legacy FileStore ingestion to Trainspotter, with native SDK history comparisons, installed-wheel live watching and a verified offline public report. PyPI and the separate workbench remain outside this publication.
-
 
 These records describe particular source revisions and retain their verification
 and release boundaries. A source correction does not by itself update a package
