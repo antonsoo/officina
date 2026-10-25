@@ -44,3 +44,18 @@ four browser/width configurations. The [Node 24 clean archive](../studies/viewpo
 passes install, lint, formatting, forty tests and build, with all 61 static
 files byte identical to the reviewed Node 26 output. Both retained local
 screenshots were opened and visually inspected.
+
+## Publication
+
+Source revision `58f3c7b` was pushed to public `main`; the reviewed static
+output was pushed to the existing Pages branch as `c37e44e7e50461302d30a72caf1ae944f36e78a8`
+with its normal history preserved. The canonical hosted pass at
+`2026-10-25T03:02:11.760Z` verified all 61 files, including the directory
+entry before and after the inventory.
+
+The [hosted route receipt](../studies/viewpoint/hosted-replay.json) records
+four successful browser/width configurations with the actual geometric
+operation, reversal and pinned GitHub heading. The [hosted file receipt](../studies/viewpoint/hosted-files.json)
+is separate from source, clean build and browser behavior. This update retains
+all twenty older discovery terms and the 29-project catalogue. No registry
+release or CI result is inferred.
