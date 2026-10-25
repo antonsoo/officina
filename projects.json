@@ -1,5 +1,38 @@
 [
   {
+    "name": "haidao",
+    "description": "Test Liu Hui’s sea-island recipe against two independent sightings. Read Classical Chinese beside a later printed witness, choose between two divisors, and explore uncertainty in the retreats.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/haidao",
+    "demoUrl": "https://antonsoo.github.io/haidao/?pole=5&gap=1000&front=123&rear=127&error=0&choice=gap&step=0&read=6&page=11#survey",
+    "thumbnail": "thumbs/haidao.png",
+    "status": "published",
+    "study": {
+      "finding": "The pole-gap divisor passes the first sighting but misses the second by 4980/127 bu. Allowing ±2 bu in each retreat leaves no finite upper height bound.",
+      "url": "https://github.com/antonsoo/haidao/blob/f42a7c4681799710aa617a7bcc14e29a21335580/docs/review.md#try-the-received-wording"
+    },
+    "searchTerms": [
+      "Liu Hui",
+      "sea island",
+      "ancient China",
+      "Classical Chinese",
+      "Chinese geometry",
+      "surveying",
+      "two sight lines",
+      "retreat difference",
+      "相多",
+      "表間",
+      "received commentary",
+      "ground eyes",
+      "1777 witness",
+      "parallel lines",
+      "unbounded uncertainty",
+      "海島算經",
+      "海岛算经",
+      "pole gap"
+    ]
+  },
+  {
     "name": "rajju",
     "description": "Place Āpastamba’s four corner pegs with marked cords. Separate the grip from the stake, compare four procedures, and read Sanskrit beside original pages; explore circle and diagonal rules too.",
     "group": "Ancient world",

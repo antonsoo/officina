@@ -125,3 +125,6 @@ Original interface and diagrams: Anton Soloviev, 2026, MIT.
 The captures contain no reconstructed historical photograph or generated art.
 Capture URLs, framing and SHA-256 identities are retained in
 docs/evidence/measure-and-water-2026-10-25/thumbnails.json.
+
+haidao.png: native Chromium capture of the published Haidao survey at 1200 x 750.
+Original modern geometry and interface, MIT, Anton Soloviev. No historical landscape or borrowed illustration.
