@@ -57,7 +57,9 @@
       "finding": "In the 80 cm model, a 30% pressure drop loses 49.97 L of chamber space but supplies 54.72 ambient L. Halving radius divides space by eight.",
       "url": "https://github.com/antonsoo/pnigeus/blob/2a1f13c6328bd3fd449bd0352a16f201c9805c62/docs/shapes-review.md#what-can-be-learned"
     },
-    "searchTerms": ["music"]
+    "searchTerms": [
+      "music"
+    ]
   },
   {
     "name": "sammu",
@@ -71,20 +73,37 @@
       "finding": "Seven retunings return the name while shifting every pitch in the 4/3–3/2 model; reversing the route restores the exact starting frequencies.",
       "url": "https://github.com/antonsoo/sammu/blob/c671f39ca9405933132831a0a2f88c4f568f47af/docs/review.md#what-can-be-learned"
     },
-    "searchTerms": ["music"]
+    "searchTerms": [
+      "music"
+    ]
   },
   {
     "name": "seked",
-    "description": "Read six Egyptian slope exercises from the Rhind papyrus. Reconstruct exact fraction rows, compare face and corner sections, and inspect written numbers that disagree with the working.",
+    "description": "Dissect a square frustum into nine pieces; keep the Moscow papyrus calculation separate from the modern proof. Read six Rhind slope exercises, compare face and corner sections, and inspect the printed sources.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/seked",
-    "demoUrl": "https://antonsoo.github.io/seked/?p=59&rows=3&step=3&reading=written#reader",
-    "thumbnail": "thumbs/seked.png",
+    "demoUrl": "https://antonsoo.github.io/seked/frustum.html?a=4&b=2&h=6&spread=80&turn=35&cut=50&part=all&step=1&source=102#pieces",
+    "thumbnail": "thumbs/seked-frustum.png",
     "status": "published",
     "study": {
-      "finding": "Problem 59 keeps three results separate: stated dimensions give 7/3 palms, the working gives 21/4, and the literal text ends with 11/2.",
-      "url": "https://github.com/antonsoo/seked/blob/c0c99a3edd967a224d4eb60e0651c6671c743ed5/docs/review.md#what-can-be-learned"
-    }
+      "finding": "Separate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+      "url": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+    },
+    "searchTerms": [
+      "Egyptian mathematics",
+      "Rhind papyrus",
+      "Moscow papyrus",
+      "Touraeff",
+      "frustum",
+      "pyramid",
+      "dissection",
+      "exact fractions",
+      "seked",
+      "palms",
+      "written numbers",
+      "slope",
+      "face and corner sections"
+    ]
   },
   {
     "name": "shiguzhai",
@@ -118,15 +137,15 @@
   },
   {
     "name": "pyknon",
-    "description": "Divide six primary times into different rhythmic genera, hear their boundaries, and read Aristoxenus’s Greek with English and a Latin parallel. Explore string trials, tetrachords and the Seikilos song too.",
+    "description": "Test Nicomachus’s weighted strings: equal lengths, different loads, and a square root between weight and pitch. Read Greek and Meibom’s Latin; explore tetrachords, string trials, six primary times and Seikilos too.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/pyknon",
-    "demoUrl": "https://antonsoo.github.io/pyknon/rhythm.html?total=6&up=2&unit=300&texture=joined&between=middle&sound=compare#rhythm",
-    "thumbnail": "thumbs/pyknon-rhythm.png",
+    "demoUrl": "https://antonsoo.github.io/pyknon/tension.html?w=8,9,12&n=3&a=220&sound=compare&p=0&page=jan-247#weights",
+    "thumbnail": "thumbs/pyknon-tension.png",
     "status": "published",
     "study": {
-      "finding": "Six primary times admit 3+3 and 2+4: the size stays equal while the rhythmic genus changes. A numerical fraction alone does not settle rhythmic admissibility.",
-      "url": "https://github.com/antonsoo/pyknon/blob/c91cdc576af85baf113fba182fe89e8d44c9340f/docs/rhythm-review.md#what-a-learner-can-do"
+      "finding": "The account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+      "url": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
     },
     "searchTerms": [
       "ἰσότονον",
@@ -147,7 +166,12 @@
       "six tones",
       "monochord",
       "syllables",
-      "music"
+      "music",
+      "Nicomachus",
+      "weighted strings",
+      "ἰσοστρόφους",
+      "Pythagoras",
+      "square root"
     ]
   },
   {

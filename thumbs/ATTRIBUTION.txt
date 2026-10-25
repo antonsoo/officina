@@ -128,3 +128,10 @@ docs/evidence/measure-and-water-2026-10-25/thumbnails.json.
 
 haidao.png: native Chromium capture of the published Haidao survey at 1200 x 750.
 Original modern geometry and interface, MIT, Anton Soloviev. No historical landscape or borrowed illustration.
+
+Weighted-string and square-frustum thumbnails, added 2026-10-25:
+- pyknon-tension.png: actual published Nicomachus ideal-string comparison.
+- seked-frustum.png: actual published nine-piece square-frustum dissection.
+Both are original MIT code/diagrams, Anton Soloviev, 2026. No source-page
+photographs appear in these frames. Exact capture URLs, viewport and hashes
+are retained in studies/weight-and-volume-discovery/results/thumbnails.json.
