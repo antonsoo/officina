@@ -51,3 +51,23 @@ node scripts/ancient-journeys.mjs \
 
 The current source, installed build and hosted catalogue are separate
 publication boundaries. Subsequent evidence is recorded below when available.
+
+## Published and checked
+
+Source `4b1a9a2` contains the two catalogue records, new thumbnails and updated
+journey programs. The fresh Node 24.22 `npm ci` build has **66 files**, all
+matching the checkout byte for byte. Forty existing tests, lint, typecheck and
+format checks passed. [Build identity](results/build-identity.json).
+
+Main, including that receipt, was pushed at `6fbe614`. The existing Pages branch
+was overlaid with the reviewed build and pushed normally as
+`e4347d0bc6a284729602de20ac486298faa288a2`, retaining older assets. All **66
+canonical public files** returned their exact expected hashes and HTTP 200.
+[Hosted file identities](results/hosted-files.json). No CI result is asserted.
+
+The actual [public catalogue](https://antonsoo.github.io/officina/) then passed
+all **24 new search cases** and **eight complete keyboard journeys** in Chromium
+and Firefox at 1280 and 375 px. The destinations operated the hosted lessons,
+saved their actual native packets, retained earlier lessons and reached their
+pinned GitHub evidence headings without manual scroll correction.
+[Public searches](results/public.json) · [Public journeys](results/public-journeys.json).

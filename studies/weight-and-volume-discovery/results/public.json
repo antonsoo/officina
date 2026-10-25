@@ -1,0 +1,220 @@
+{
+  "checkedAtUtc": "2026-10-25T21:14:08.033Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "phase": "after",
+  "scope": "Actual served catalogue, specified workflow queries in both engines and widths; no application assets or search responses mocked.",
+  "records": [
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "frustum",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "Moscow papyrus",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "Touraeff",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "weighted strings",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        },
+        {
+          "query": "Nicomachus",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        },
+        {
+          "query": "ισοστροφους",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 375,
+      "cases": [
+        {
+          "query": "frustum",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "Moscow papyrus",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "Touraeff",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "weighted strings",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        },
+        {
+          "query": "Nicomachus",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        },
+        {
+          "query": "ισοστροφους",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 1280,
+      "cases": [
+        {
+          "query": "frustum",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "Moscow papyrus",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "Touraeff",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "weighted strings",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        },
+        {
+          "query": "Nicomachus",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        },
+        {
+          "query": "ισοστροφους",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "browserVersion": "155.0",
+      "width": 375,
+      "cases": [
+        {
+          "query": "frustum",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "Moscow papyrus",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "Touraeff",
+          "name": "seked",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nSeparate nine solid pieces: 4,2,6 gives 56. Averaging the end areas gives 60; the midpoint estimate gives 54.",
+          "studyUrl": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result"
+        },
+        {
+          "query": "weighted strings",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        },
+        {
+          "query": "Nicomachus",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        },
+        {
+          "query": "ισοστροφους",
+          "name": "pyknon",
+          "visibleProjects": 1,
+          "finding": "RECORDED EVIDENCE\nThe account’s 12:6 loads claim an octave; fixed-length ideal strings give 600 cents. Squared replacement-load ratios restore the targets.",
+          "studyUrl": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do"
+        }
+      ],
+      "offlineRefilter": true,
+      "catalogueRequests": [],
+      "errors": [],
+      "overflow": false
+    }
+  ]
+}
