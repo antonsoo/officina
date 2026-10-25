@@ -1,5 +1,9 @@
 # Source update history
 
+The [calibration, balance and Chinese craft lessons](balance-and-calibration-2026-10-24.md)
+add Zygon and feature the new Dioptra counter and Shiguzhai craft bench, with
+pinned source reviews and direct operated destinations.
+
 2026-10-24: [Operated lessons](operated-lessons-2026-10-24.md) add Grāma and connect the construction desk, rhythmic divisions and tied-end hoist experiments, with retained earlier lessons and pinned evidence.
 
 2026-10-23: [Tunnel, theatre and interior-route lessons](ancient-constructions-2026-10-23.md) add Dioptra and open the new Gonia and Stoicheia experiments, with illustrated offline studies and immutable reviews.

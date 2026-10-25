@@ -1,0 +1,27 @@
+{
+  "checkedAtUtc": "2026-10-25T01:52:08.237Z",
+  "method": "Unedited native Chromium viewport screenshots, 1200 by 750, actual hosted application controls",
+  "rows": [
+    {
+      "name": "dioptra",
+      "url": "https://antonsoo.github.io/dioptra/counter.html#ct-workshop",
+      "thumbnail": "thumbs/dioptra-counter.png",
+      "width": 1200,
+      "height": 750
+    },
+    {
+      "name": "zygon",
+      "url": "https://antonsoo.github.io/zygon/?x=75&h=200&n=8&view=stack&read=8#workshop",
+      "thumbnail": "thumbs/zygon.png",
+      "width": 1200,
+      "height": 750
+    },
+    {
+      "name": "shiguzhai",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang.html?bell=p08&strike=22&tuning=measured&rule=successive&read=4&scale=200#bench",
+      "thumbnail": "thumbs/shiguzhai-shuang.png",
+      "width": 1200,
+      "height": 750
+    }
+  ]
+}

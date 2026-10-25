@@ -51,7 +51,12 @@ source changes from package releases and hosted deployments.
 The [operated lessons](docs/operated-lessons-2026-10-24.md) add Grāma and feature
 Euclid's construction desk, Aristoxenus's rhythmic divisions and Vitruvius's
 hoist. Each opens a learner's choice, a source reading and a complete portable
-record; earlier lessons remain discoverable. The catalogue contains 28 projects.
+record; earlier lessons remain discoverable. The catalogue contains 29 projects.
+
+The [calibration, balance and Chinese craft lessons](docs/balance-and-calibration-2026-10-24.md)
+add Archimedes' Zygon workshop and feature Hero's distance calibration and
+Shiguzhai's second bell room. Native search finds their source words while
+retaining older water, tunnel and bell-observation topics.
 
 The [string and mesolabe examinations](docs/ancient-examinations-2026-10-24.md)
 open Ptolemy’s instrument check and Eratosthenes’ sliding plates, with source-word
