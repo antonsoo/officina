@@ -53,3 +53,19 @@ now opens **Correct**, with its [separate public source and 125-file review](htt
 ![The water-screw project found by its Latin name](evidence/measure-and-water-2026-10-25/gonia-search-1280.png)
 
 ![The Book X project found through its Greek operation](evidence/measure-and-water-2026-10-25/stoicheia-search-1280.png)
+
+## Public edition
+
+Source main `65df8cd` adds the clean-build receipt after the reviewed change
+`bc31d74`. The static branch advanced normally to
+`835ce4ff571efa7dfe1bd4da1b4c22e68cc30207`, preserving earlier hashed assets.
+The [canonical check](evidence/measure-and-water-2026-10-25/hosted-files.json)
+verifies all 63 current files and both entry aliases, with no query cache busting.
+The [public journeys](evidence/measure-and-water-2026-10-25/hosted-journeys.json)
+repeat all eight lesson/source workflows from the public catalogue. The
+[public search pass](evidence/measure-and-water-2026-10-25/hosted-search.json)
+repeats 113 queries in each of four browser/width configurations: 452 native searches.
+
+The [clean Node 24 build](evidence/measure-and-water-2026-10-25/clean-build.json)
+reproduces all 63 output files. Public source artifacts, static files, native
+browser behavior and physical printing remain separate claims.
