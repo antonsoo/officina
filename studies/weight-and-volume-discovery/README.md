@@ -71,3 +71,21 @@ and Firefox at 1280 and 375 px. The destinations operated the hosted lessons,
 saved their actual native packets, retained earlier lessons and reached their
 pinned GitHub evidence headings without manual scroll correction.
 [Public searches](results/public.json) · [Public journeys](results/public-journeys.json).
+
+## Course navigation after I.22–23
+
+The [expanded Stoicheia course](https://antonsoo.github.io/stoicheia/#p=23&s=5)
+now collapses companion workshops on phones. The catalogue journey opens that
+native disclosure before following the construction-desk link. It waits for
+the reader to render before deciding whether the disclosure exists: Firefox
+phone navigation can finish before the course module creates its controls.
+Both course-to-workshop transitions use the same helper.
+
+The [four new public journeys](results/course-navigation.json) pass Chromium
+153.0.8010.12 and Firefox 155.0 at 1280 and 375px. They search the actual catalogue,
+operate the existing common-measure lesson, inspect its original Latin page,
+download the complete twelve-scan native study, reach the construction desk
+through the new course navigation and follow the immutable source heading.
+Each reports one matching card, a decoded thumbnail and no page errors.
+These are script and evidence changes; the published catalogue bytes remain
+those identified above.

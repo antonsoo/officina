@@ -1,0 +1,147 @@
+{
+  "checkedAt": "2026-10-25T22:11:12.657Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "search": "ἀνθυφαιρουμένου",
+      "legacySearch": "restricted compass",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "keyboardDemo": true,
+      "interaction": {
+        "eightMatchingCopyCounts": true,
+        "exactCommonMeasure": "1/408",
+        "originalCounts": [
+          577,
+          408
+        ],
+        "diagonalStillPositive": true,
+        "recurrenceArgumentOpened": true,
+        "GreekNever": "μηδέποτε",
+        "LatinNever": "nunquam",
+        "fullPrintedLatinPage": 7,
+        "finiteRunQuestionAnswered": true,
+        "nativePacket": {
+          "name": "stoicheia-common-measure.html",
+          "sha256": "b974d1c70477bc0c8d249cf2baa4d7c2fd9cfd9688943eddbae46bab98867ca5",
+          "scans": 12
+        },
+        "earlierConstructionDeskReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/3d33c47c92a69e46862cce554afd74cc51dd91eb/docs/measure-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 562.984375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "search": "ἀνθυφαιρουμένου",
+      "legacySearch": "restricted compass",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "keyboardDemo": true,
+      "interaction": {
+        "eightMatchingCopyCounts": true,
+        "exactCommonMeasure": "1/408",
+        "originalCounts": [
+          577,
+          408
+        ],
+        "diagonalStillPositive": true,
+        "recurrenceArgumentOpened": true,
+        "GreekNever": "μηδέποτε",
+        "LatinNever": "nunquam",
+        "fullPrintedLatinPage": 7,
+        "finiteRunQuestionAnswered": true,
+        "nativePacket": {
+          "name": "stoicheia-common-measure.html",
+          "sha256": "b974d1c70477bc0c8d249cf2baa4d7c2fd9cfd9688943eddbae46bab98867ca5",
+          "scans": 12
+        },
+        "earlierConstructionDeskReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/3d33c47c92a69e46862cce554afd74cc51dd91eb/docs/measure-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 701.984375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "search": "ἀνθυφαιρουμένου",
+      "legacySearch": "restricted compass",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "keyboardDemo": true,
+      "interaction": {
+        "eightMatchingCopyCounts": true,
+        "exactCommonMeasure": "1/408",
+        "originalCounts": [
+          577,
+          408
+        ],
+        "diagonalStillPositive": true,
+        "recurrenceArgumentOpened": true,
+        "GreekNever": "μηδέποτε",
+        "LatinNever": "nunquam",
+        "fullPrintedLatinPage": 7,
+        "finiteRunQuestionAnswered": true,
+        "nativePacket": {
+          "name": "stoicheia-common-measure.html",
+          "sha256": "b974d1c70477bc0c8d249cf2baa4d7c2fd9cfd9688943eddbae46bab98867ca5",
+          "scans": 12
+        },
+        "earlierConstructionDeskReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/3d33c47c92a69e46862cce554afd74cc51dd91eb/docs/measure-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 274.79998779296875,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "search": "ἀνθυφαιρουμένου",
+      "legacySearch": "restricted compass",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "keyboardDemo": true,
+      "interaction": {
+        "eightMatchingCopyCounts": true,
+        "exactCommonMeasure": "1/408",
+        "originalCounts": [
+          577,
+          408
+        ],
+        "diagonalStillPositive": true,
+        "recurrenceArgumentOpened": true,
+        "GreekNever": "μηδέποτε",
+        "LatinNever": "nunquam",
+        "fullPrintedLatinPage": 7,
+        "finiteRunQuestionAnswered": true,
+        "nativePacket": {
+          "name": "stoicheia-common-measure.html",
+          "sha256": "b974d1c70477bc0c8d249cf2baa4d7c2fd9cfd9688943eddbae46bab98867ca5",
+          "scans": 12
+        },
+        "earlierConstructionDeskReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/3d33c47c92a69e46862cce554afd74cc51dd91eb/docs/measure-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 420.79998779296875,
+      "pageErrors": []
+    }
+  ]
+}

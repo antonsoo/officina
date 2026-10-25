@@ -22,6 +22,15 @@ const lessons = [
   { id: "grama", query: "pañcama", legacy: "Indian music", heading: "What changed for a learner" },
 ];
 
+async function openCourseCompanions(page) {
+  // Navigation can finish before the course module creates its controls.
+  // Inspect the disclosure only after the reader has actually rendered.
+  await page.locator("#lesson-title").waitFor({ state: "visible" });
+  const companions = page.locator("#companion-workshops");
+  if (await companions.count() && await companions.getAttribute("open") === null)
+    await companions.locator("summary").click();
+}
+
 async function exploreEarlier(page, id) {
   if (id === "rajju") {
     assert.match(await page.locator("#peg-error").innerText(), /Position \(36, 12\)/);
@@ -590,6 +599,7 @@ async function explore(page, id) {
     assert.match(await page.locator("#mr-feedback").innerText(), /^Correct\./);
     const packet = await nativeReading(page, "#mr-save", "stoicheia-common-measure.html", 12);
     await page.getByRole("link", { name: "Euclid course", exact: true }).click();
+    await openCourseCompanions(page);
     await page.getByRole("link", { name: /construction desk/i }).click();
     await page.locator("#dk-draw").waitFor();
     return {
@@ -728,9 +738,7 @@ async function explore(page, id) {
     await page.locator("#dk-scan").evaluate((image) => image.decode());
     const packet = await nativeReading(page, "#dk-study", "stoicheia-construction-reading.html", 4);
     await page.getByRole("link", { name: "I.2 in the course", exact: true }).click();
-    const companions = page.locator("#companion-workshops");
-    if (await companions.count() && await companions.getAttribute("open") === null)
-      await companions.locator("summary").click();
+    await openCourseCompanions(page);
     await page.getByRole("link", { name: /Twice the stone/ }).click();
     await page.goto(earlierRoutes.stoicheia);
     return {
