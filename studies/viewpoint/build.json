@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-25T03:00:50.730923+00:00",
+  "sourceRevision": "acdabe4",
+  "node": "v24.21.0",
+  "source": "Clean git archive",
+  "commands": ["npm ci", "npm run lint", "npm run format:check", "npm test", "npm run build"],
+  "testsPassed": 40,
+  "canonicalFiles": 61,
+  "byteIdenticalToReviewedNode26Build": 61,
+  "scope": "Clean source/build comparison; actual hosted files and keyboard routes verified separately."
+}

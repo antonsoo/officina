@@ -38,3 +38,9 @@ Catalogue source, clean-build identity, canonical hosted files and actual
 hosted routes are recorded separately. The application's own primary-source,
 model, artifact, offline and publication records remain in Gonia. No registry
 release or CI run is inferred from this metadata update.
+
+The [local operated replay](../studies/viewpoint/local-replay.json) covers all
+four browser/width configurations. The [Node 24 clean archive](../studies/viewpoint/build.json)
+passes install, lint, formatting, forty tests and build, with all 61 static
+files byte identical to the reviewed Node 26 output. Both retained local
+screenshots were opened and visually inspected.
