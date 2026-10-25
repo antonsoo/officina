@@ -47,3 +47,8 @@ GitHub heading. [File receipt](../studies/balance-and-calibration/hosted-files.j
 and [hosted workflow receipt](../studies/balance-and-calibration/hosted-replay.json)
 are separate from the [Node 24 clean-build comparison](../studies/balance-and-calibration/build.json).
 No registry publication or CI result is inferred.
+
+A later [Shiguzhai source-loader review](https://github.com/antonsoo/shiguzhai/blob/ff1a750ef419f552ce5904f6fe1e4c27901cf1c8/docs/source-json-development.md)
+records the clean Node 24 development workflow, unchanged authoritative bell
+JSON, 37-file hosted build and repeated native audio/study operations. The
+card's pinned craft-learning review remains the record used above.

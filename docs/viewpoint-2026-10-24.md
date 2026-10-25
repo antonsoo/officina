@@ -59,3 +59,9 @@ operation, reversal and pinned GitHub heading. The [hosted file receipt](../stud
 is separate from source, clean build and browser behavior. This update retains
 all twenty older discovery terms and the 29-project catalogue. No registry
 release or CI result is inferred.
+
+The later [Gonia development-loader review](https://github.com/antonsoo/gonia/blob/2ccd4a21df013adae9eaf6a5b883c4ed7ce3ac42/docs/source-json-development.md)
+records the corrected Vite source-JSON loading, source editing/restoration,
+updated 91-file publication and new hosted browser operations. The learning
+model and primary-source corpus are unchanged; the card retains the pinned
+learning review used above.
