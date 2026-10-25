@@ -8,9 +8,9 @@ const anchors = {
   haidao: ".survey-layout",
   rajju: "#field-workshop",
   pnigeus: ".shape-section",
-  seked: ".reading-desk",
+  seked: ".f-lab",
   shiguzhai: ".reference-control",
-  pyknon: "#rhythm",
+  pyknon: "#weights",
   gonia: ".sc-machine-layout",
   stoicheia: "#mr-bench",
   grama: "#bench",
@@ -69,7 +69,7 @@ try {
       Math.abs(anchorTop - wantedTop) <= 32,
       `${name}: screenshot anchor is outside the intended frame (${anchorTop})`,
     );
-    if (name === "pyknon") await page.locator("#rh-drawing svg").waitFor();
+    if (name === "pyknon") await page.locator("#ts-drawing svg").waitFor();
     const path = `public/${card.thumbnail}`;
     await page.screenshot({ path });
     report.captures.push({

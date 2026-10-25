@@ -8,9 +8,9 @@ const lessons = [
   { id: "haidao", query: "相多", legacy: "Liu Hui", heading: "Try the received wording" },
   { id: "rajju", query: "marked cords", legacy: "Sanskrit", heading: "What can be learned" },
   { id: "pnigeus", query: "water organ", heading: "What can be learned" },
-  { id: "seked", query: "Rhind", heading: "What can be learned" },
+  { id: "seked", query: "frustum", legacy: "Rhind", heading: "Result" },
   { id: "shiguzhai", query: "bronze bells", heading: "What the controls do" },
-  { id: "pyknon", query: "ῥυθμός", legacy: "ισοτονον", heading: "What a learner can do" },
+  { id: "pyknon", query: "ἰσοστρόφους", legacy: "ῥυθμός", heading: "What a learner can do" },
   { id: "gonia", query: "coclea", legacy: "religatur", heading: "Try a retained bucket" },
   { id: "dioptra", query: "water supply", legacy: "unseen tunnel", heading: "What the learner can do" },
   {
@@ -442,6 +442,43 @@ async function deskOperation(page, kind, first, second, branch = 0) {
   else await page.locator("#dk-draw").click();
 }
 async function explore(page, id) {
+  if (id === "seked" && new URL(page.url()).pathname.endsWith("frustum.html")) {
+    assert.match(await page.locator("#total-equation").innerText(), /56/);
+    await page.locator("#spread").focus();
+    await page.keyboard.press("ArrowRight");
+    await page.locator('[data-part="corners"]').click();
+    assert.equal(await page.locator('[data-part="corners"]').getAttribute("aria-pressed"),"true");
+    await page.locator('[data-preset="other"]').click();
+    assert.match(await page.locator("#total-equation").innerText(), /74/);
+    assert.match(await page.locator("#source-products").textContent(), /a² = 16ab = 8b² = 4/);
+    await page.locator(".f-generalization summary").click();
+    await page.locator("#inspect-note").click();
+    await page.locator("#source-window img").waitFor();
+    await page.locator("#source-window img").evaluate(image=>image.decode());
+    assert.match(await page.locator("#source-caption").innerText(), /102/);
+    const packet=await nativeReading(page,"#save-reading","seked-frustum-reading.html",3);
+    await page.goto("https://antonsoo.github.io/seked/?p=59&rows=3&step=3&reading=written#reader");
+    return {exactNewVolume:74,recordedCalculationUnchanged:true,cornerPyramidsIsolated:true,editorNoteRead:true,nativePacket:packet,earlierLesson:await exploreEarlier(page,id)};
+  }
+  if (id === "pyknon" && new URL(page.url()).pathname.endsWith("tension.html")) {
+    assert.match(await page.locator("#ts-result").innerText(), /600.00 cents below/);
+    await page.locator("#ts-weight").focus();
+    await page.keyboard.press("ArrowRight");
+    assert.equal(await page.locator("#ts-exact").inputValue(),"49/4");
+    await page.locator("#ts-exact").fill("24");
+    await page.locator("#ts-weight-form button").click();
+    assert.match(await page.locator("#ts-result").innerText(),/Exact ratio reached/);
+    assert.match(await page.locator("#ts-target").innerText(),/source 12 against 6/);
+    await page.locator("#ts-play").click();
+    await expect(page.locator("#ts-stop")).toBeEnabled();
+    await page.locator("#ts-stop").click();
+    await page.locator("#ts-latin-page").click();
+    await page.locator("#ts-source-status").filter({hasText:/page verified/}).waitFor();
+    assert.match(await page.locator("#ts-passage-text").innerText(),/aeque graves/);
+    const packet=await nativeReading(page,"#ts-save-html","pyknon-weighted-strings-reading.html",8);
+    await page.goto("https://antonsoo.github.io/pyknon/rhythm.html?total=6&up=2&unit=300&texture=joined&between=middle&sound=compare#rhythm");
+    return {originalIdealIntervalCents:600,claimedIntervalCents:1200,repairedLoad:24,sourceLoadRemains:12,LatinDifferenceRead:true,nativePacket:packet,earlierLesson:await explore(page,id)};
+  }
   if (id === "haidao") {
     assert.equal(await page.locator('[name="front"]').inputValue(), "123");
     assert.equal(await page.locator('[name="rear"]').inputValue(), "127");

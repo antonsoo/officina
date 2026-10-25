@@ -1,0 +1,335 @@
+{
+  "checkedAt": "2026-10-25T21:10:10.500Z",
+  "base": "http://127.0.0.1:4196/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "seked",
+      "search": "frustum",
+      "legacySearch": "Rhind",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/seked/frustum.html?a=4&b=2&h=6&spread=80&turn=35&cut=50&part=all&step=1&source=102#pieces",
+      "keyboardDemo": true,
+      "interaction": {
+        "exactNewVolume": 74,
+        "recordedCalculationUnchanged": true,
+        "cornerPyramidsIsolated": true,
+        "editorNoteRead": true,
+        "nativePacket": {
+          "name": "seked-frustum-reading.html",
+          "sha256": "52cfd0c794e87172e14d5346043d3c43609fc31f98a85a128a643dd2bae7c474",
+          "scans": 3
+        },
+        "earlierLesson": {
+          "statementPalms": "7/3",
+          "workingPalms": "21/4",
+          "literalResultPalms": "11/2",
+          "keyboardFractionSum": "3/4",
+          "sourceDecoded": "Peet 100"
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result",
+      "pinnedHeadingTop": 514.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "pyknon",
+      "search": "ἰσοστρόφους",
+      "legacySearch": "ῥυθμός",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pyknon/tension.html?w=8,9,12&n=3&a=220&sound=compare&p=0&page=jan-247#weights",
+      "keyboardDemo": true,
+      "interaction": {
+        "originalIdealIntervalCents": 600,
+        "claimedIntervalCents": 1200,
+        "repairedLoad": 24,
+        "sourceLoadRemains": 12,
+        "LatinDifferenceRead": true,
+        "nativePacket": {
+          "name": "pyknon-weighted-strings-reading.html",
+          "sha256": "f454e3ca839a97c1472fb627d7f89e713db80036d876274501c9ada4e876546f",
+          "scans": 8
+        },
+        "earlierLesson": {
+          "equalAndDoubleSameSize": true,
+          "reversalPreservesGenus": true,
+          "sevenScopeVisible": true,
+          "chosenMidpointRatio": "3:4",
+          "LatinParallelRead": true,
+          "nativePacket": {
+            "name": "pyknon-rhythm-reading.html",
+            "sha256": "1dd135d61891674e44fda2d3c25c456cf8da2448721a4e0719f4dabbc3efd138",
+            "scans": 8
+          },
+          "earlierLesson": {
+            "repeatedProfilePassesHalvesAndQuarters": true,
+            "extraEighthsDifferenceCents": 701.955,
+            "greekSourceWord": "ἰσότονον",
+            "sourcePage": 37,
+            "keyboardSourcePan": true,
+            "playbackStartedAndStopped": true,
+            "savedPacketIncludesSixScansAndAudio": true,
+            "nativeHtmlSha256": "9e56fe5c1c4841d8b61355a654fa1711a0575f63e89473b012e9661745960ffe"
+          }
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do",
+      "pinnedHeadingTop": 431.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "seked",
+      "search": "frustum",
+      "legacySearch": "Rhind",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/seked/frustum.html?a=4&b=2&h=6&spread=80&turn=35&cut=50&part=all&step=1&source=102#pieces",
+      "keyboardDemo": true,
+      "interaction": {
+        "exactNewVolume": 74,
+        "recordedCalculationUnchanged": true,
+        "cornerPyramidsIsolated": true,
+        "editorNoteRead": true,
+        "nativePacket": {
+          "name": "seked-frustum-reading.html",
+          "sha256": "52cfd0c794e87172e14d5346043d3c43609fc31f98a85a128a643dd2bae7c474",
+          "scans": 3
+        },
+        "earlierLesson": {
+          "statementPalms": "7/3",
+          "workingPalms": "21/4",
+          "literalResultPalms": "11/2",
+          "keyboardFractionSum": "3/4",
+          "sourceDecoded": "Peet 100"
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result",
+      "pinnedHeadingTop": 759.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "pyknon",
+      "search": "ἰσοστρόφους",
+      "legacySearch": "ῥυθμός",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pyknon/tension.html?w=8,9,12&n=3&a=220&sound=compare&p=0&page=jan-247#weights",
+      "keyboardDemo": true,
+      "interaction": {
+        "originalIdealIntervalCents": 600,
+        "claimedIntervalCents": 1200,
+        "repairedLoad": 24,
+        "sourceLoadRemains": 12,
+        "LatinDifferenceRead": true,
+        "nativePacket": {
+          "name": "pyknon-weighted-strings-reading.html",
+          "sha256": "f454e3ca839a97c1472fb627d7f89e713db80036d876274501c9ada4e876546f",
+          "scans": 8
+        },
+        "earlierLesson": {
+          "equalAndDoubleSameSize": true,
+          "reversalPreservesGenus": true,
+          "sevenScopeVisible": true,
+          "chosenMidpointRatio": "3:4",
+          "LatinParallelRead": true,
+          "nativePacket": {
+            "name": "pyknon-rhythm-reading.html",
+            "sha256": "1dd135d61891674e44fda2d3c25c456cf8da2448721a4e0719f4dabbc3efd138",
+            "scans": 8
+          },
+          "earlierLesson": {
+            "repeatedProfilePassesHalvesAndQuarters": true,
+            "extraEighthsDifferenceCents": 701.955,
+            "greekSourceWord": "ἰσότονον",
+            "sourcePage": 37,
+            "keyboardSourcePan": true,
+            "playbackStartedAndStopped": true,
+            "savedPacketIncludesSixScansAndAudio": true,
+            "nativeHtmlSha256": "9e56fe5c1c4841d8b61355a654fa1711a0575f63e89473b012e9661745960ffe"
+          }
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do",
+      "pinnedHeadingTop": 671.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "seked",
+      "search": "frustum",
+      "legacySearch": "Rhind",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/seked/frustum.html?a=4&b=2&h=6&spread=80&turn=35&cut=50&part=all&step=1&source=102#pieces",
+      "keyboardDemo": true,
+      "interaction": {
+        "exactNewVolume": 74,
+        "recordedCalculationUnchanged": true,
+        "cornerPyramidsIsolated": true,
+        "editorNoteRead": true,
+        "nativePacket": {
+          "name": "seked-frustum-reading.html",
+          "sha256": "f6d8302dc3fa36c701b46305ae8bf1af50c1ed855964e8bcb0745a9570d03f20",
+          "scans": 3
+        },
+        "earlierLesson": {
+          "statementPalms": "7/3",
+          "workingPalms": "21/4",
+          "literalResultPalms": "11/2",
+          "keyboardFractionSum": "3/4",
+          "sourceDecoded": "Peet 100"
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result",
+      "pinnedHeadingTop": 278.6000061035156,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "pyknon",
+      "search": "ἰσοστρόφους",
+      "legacySearch": "ῥυθμός",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pyknon/tension.html?w=8,9,12&n=3&a=220&sound=compare&p=0&page=jan-247#weights",
+      "keyboardDemo": true,
+      "interaction": {
+        "originalIdealIntervalCents": 600,
+        "claimedIntervalCents": 1200,
+        "repairedLoad": 24,
+        "sourceLoadRemains": 12,
+        "LatinDifferenceRead": true,
+        "nativePacket": {
+          "name": "pyknon-weighted-strings-reading.html",
+          "sha256": "67e01beb2cd61cfc667c95ac23efaee0275ecc66091e7f8f4110cc0532ad638a",
+          "scans": 8
+        },
+        "earlierLesson": {
+          "equalAndDoubleSameSize": true,
+          "reversalPreservesGenus": true,
+          "sevenScopeVisible": true,
+          "chosenMidpointRatio": "3:4",
+          "LatinParallelRead": true,
+          "nativePacket": {
+            "name": "pyknon-rhythm-reading.html",
+            "sha256": "7c530cc8c65cb6b81d656c44db961fc7fa1aeb6a477fa6f41318c9d7faffbf6d",
+            "scans": 8
+          },
+          "earlierLesson": {
+            "repeatedProfilePassesHalvesAndQuarters": true,
+            "extraEighthsDifferenceCents": 701.955,
+            "greekSourceWord": "ἰσότονον",
+            "sourcePage": 37,
+            "keyboardSourcePan": true,
+            "playbackStartedAndStopped": true,
+            "savedPacketIncludesSixScansAndAudio": true,
+            "nativeHtmlSha256": "5a96fb9c7c3aed7fe0bcf32c06de1d54ff05604b076b4dd6940564166577357c"
+          }
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do",
+      "pinnedHeadingTop": 231.60000610351562,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "seked",
+      "search": "frustum",
+      "legacySearch": "Rhind",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/seked/frustum.html?a=4&b=2&h=6&spread=80&turn=35&cut=50&part=all&step=1&source=102#pieces",
+      "keyboardDemo": true,
+      "interaction": {
+        "exactNewVolume": 74,
+        "recordedCalculationUnchanged": true,
+        "cornerPyramidsIsolated": true,
+        "editorNoteRead": true,
+        "nativePacket": {
+          "name": "seked-frustum-reading.html",
+          "sha256": "f6d8302dc3fa36c701b46305ae8bf1af50c1ed855964e8bcb0745a9570d03f20",
+          "scans": 3
+        },
+        "earlierLesson": {
+          "statementPalms": "7/3",
+          "workingPalms": "21/4",
+          "literalResultPalms": "11/2",
+          "keyboardFractionSum": "3/4",
+          "sourceDecoded": "Peet 100"
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/seked/blob/ba526b06e7d75a650529a20fa0fcc850c7e0c349/docs/frustum-review.md#result",
+      "pinnedHeadingTop": 442.6000061035156,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "pyknon",
+      "search": "ἰσοστρόφους",
+      "legacySearch": "ῥυθμός",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/pyknon/tension.html?w=8,9,12&n=3&a=220&sound=compare&p=0&page=jan-247#weights",
+      "keyboardDemo": true,
+      "interaction": {
+        "originalIdealIntervalCents": 600,
+        "claimedIntervalCents": 1200,
+        "repairedLoad": 24,
+        "sourceLoadRemains": 12,
+        "LatinDifferenceRead": true,
+        "nativePacket": {
+          "name": "pyknon-weighted-strings-reading.html",
+          "sha256": "67e01beb2cd61cfc667c95ac23efaee0275ecc66091e7f8f4110cc0532ad638a",
+          "scans": 8
+        },
+        "earlierLesson": {
+          "equalAndDoubleSameSize": true,
+          "reversalPreservesGenus": true,
+          "sevenScopeVisible": true,
+          "chosenMidpointRatio": "3:4",
+          "LatinParallelRead": true,
+          "nativePacket": {
+            "name": "pyknon-rhythm-reading.html",
+            "sha256": "7c530cc8c65cb6b81d656c44db961fc7fa1aeb6a477fa6f41318c9d7faffbf6d",
+            "scans": 8
+          },
+          "earlierLesson": {
+            "repeatedProfilePassesHalvesAndQuarters": true,
+            "extraEighthsDifferenceCents": 701.955,
+            "greekSourceWord": "ἰσότονον",
+            "sourcePage": 37,
+            "keyboardSourcePan": true,
+            "playbackStartedAndStopped": true,
+            "savedPacketIncludesSixScansAndAudio": true,
+            "nativeHtmlSha256": "5a96fb9c7c3aed7fe0bcf32c06de1d54ff05604b076b4dd6940564166577357c"
+          }
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/pyknon/blob/8e0ac2a9e8525a345582ffbbabaf29072e97b24c/docs/tension-review.md#what-a-learner-can-do",
+      "pinnedHeadingTop": 532.5999755859375,
+      "pageErrors": []
+    }
+  ]
+}

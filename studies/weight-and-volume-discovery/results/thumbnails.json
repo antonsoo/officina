@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-25T21:11:06.257Z",
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1200,
+    "height": 750
+  },
+  "captures": [
+    {
+      "project": "seked",
+      "url": "https://antonsoo.github.io/seked/frustum.html?a=4&b=2&h=6&spread=80&turn=35&cut=50&part=all&step=1&source=102#pieces",
+      "capturedURL": "https://antonsoo.github.io/seked/frustum.html?a=4&b=2&h=6&spread=80&turn=35&cut=50&part=all&step=1&source=102#pieces",
+      "interactionBeforeCapture": "None",
+      "anchor": ".f-lab",
+      "anchorTop": 21.65625,
+      "wantedTop": 0,
+      "file": "thumbs/seked-frustum.png",
+      "sha256": "defc660b0620835d06a04178c8856a975be0f61484569237e9d4b9cf53f75faa"
+    },
+    {
+      "project": "pyknon",
+      "url": "https://antonsoo.github.io/pyknon/tension.html?w=8,9,12&n=3&a=220&sound=compare&p=0&page=jan-247#weights",
+      "capturedURL": "https://antonsoo.github.io/pyknon/tension.html?w=8,9,12&n=3&a=220&sound=compare&p=0&page=jan-247#weights",
+      "interactionBeforeCapture": "None",
+      "anchor": "#weights",
+      "anchorTop": 20.34375,
+      "wantedTop": 0,
+      "file": "thumbs/pyknon-tension.png",
+      "sha256": "2a8cfcf54911fd8b5835bbb2e523aa1f32666d379ca0ea564bec7ff7e892f3e8"
+    }
+  ]
+}
