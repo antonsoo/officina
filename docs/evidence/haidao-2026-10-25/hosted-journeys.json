@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-10-25T14:24:14.301Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "haidao",
+      "search": "相多",
+      "legacySearch": "Liu Hui",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/haidao/?pole=5&gap=1000&front=123&rear=127&error=0&choice=gap&step=0&read=6&page=11#survey",
+      "keyboardDemo": true,
+      "interaction": {
+        "wrongDivisorFrontResidual": "0",
+        "wrongDivisorRearResidual": "-4980/127",
+        "correctHeightBu": 1255,
+        "correctDistanceBu": 30750,
+        "chineseCorrectionRead": true,
+        "wholeSourceOpening": 11,
+        "independentSetbackHalfWidthBu": 2,
+        "finiteUpperBound": false,
+        "nativePacket": {
+          "name": "haidao-reading.html",
+          "sha256": "0e1d8b86c8bb7de096b7fee75ae9e0a14232f139000221a223cce212b2f0e1c2",
+          "scans": 5
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/haidao/blob/f42a7c4681799710aa617a7bcc14e29a21335580/docs/review.md#try-the-received-wording",
+      "pinnedHeadingTop": 450.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "haidao",
+      "search": "相多",
+      "legacySearch": "Liu Hui",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/haidao/?pole=5&gap=1000&front=123&rear=127&error=0&choice=gap&step=0&read=6&page=11#survey",
+      "keyboardDemo": true,
+      "interaction": {
+        "wrongDivisorFrontResidual": "0",
+        "wrongDivisorRearResidual": "-4980/127",
+        "correctHeightBu": 1255,
+        "correctDistanceBu": 30750,
+        "chineseCorrectionRead": true,
+        "wholeSourceOpening": 11,
+        "independentSetbackHalfWidthBu": 2,
+        "finiteUpperBound": false,
+        "nativePacket": {
+          "name": "haidao-reading.html",
+          "sha256": "0e1d8b86c8bb7de096b7fee75ae9e0a14232f139000221a223cce212b2f0e1c2",
+          "scans": 5
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/haidao/blob/f42a7c4681799710aa617a7bcc14e29a21335580/docs/review.md#try-the-received-wording",
+      "pinnedHeadingTop": 559.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "haidao",
+      "search": "相多",
+      "legacySearch": "Liu Hui",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/haidao/?pole=5&gap=1000&front=123&rear=127&error=0&choice=gap&step=0&read=6&page=11#survey",
+      "keyboardDemo": true,
+      "interaction": {
+        "wrongDivisorFrontResidual": "0",
+        "wrongDivisorRearResidual": "-4980/127",
+        "correctHeightBu": 1255,
+        "correctDistanceBu": 30750,
+        "chineseCorrectionRead": true,
+        "wholeSourceOpening": 11,
+        "independentSetbackHalfWidthBu": 2,
+        "finiteUpperBound": false,
+        "nativePacket": {
+          "name": "haidao-reading.html",
+          "sha256": "0e1d8b86c8bb7de096b7fee75ae9e0a14232f139000221a223cce212b2f0e1c2",
+          "scans": 5
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/haidao/blob/f42a7c4681799710aa617a7bcc14e29a21335580/docs/review.md#try-the-received-wording",
+      "pinnedHeadingTop": 208.60000610351562,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "haidao",
+      "search": "相多",
+      "legacySearch": "Liu Hui",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/haidao/?pole=5&gap=1000&front=123&rear=127&error=0&choice=gap&step=0&read=6&page=11#survey",
+      "keyboardDemo": true,
+      "interaction": {
+        "wrongDivisorFrontResidual": "0",
+        "wrongDivisorRearResidual": "-4980/127",
+        "correctHeightBu": 1255,
+        "correctDistanceBu": 30750,
+        "chineseCorrectionRead": true,
+        "wholeSourceOpening": 11,
+        "independentSetbackHalfWidthBu": 2,
+        "finiteUpperBound": false,
+        "nativePacket": {
+          "name": "haidao-reading.html",
+          "sha256": "0e1d8b86c8bb7de096b7fee75ae9e0a14232f139000221a223cce212b2f0e1c2",
+          "scans": 5
+        }
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/haidao/blob/f42a7c4681799710aa617a7bcc14e29a21335580/docs/review.md#try-the-received-wording",
+      "pinnedHeadingTop": 428.6000061035156,
+      "pageErrors": []
+    }
+  ]
+}
