@@ -1,0 +1,123 @@
+{
+  "checkedAt": "2026-10-26T00:35:18.267Z",
+  "base": "http://127.0.0.1:4488/officina/",
+  "scope": "Native catalogue search and keyboard navigation, hosted lesson interactions and pinned GitHub heading placement. Playback state is observed; historical timbre or physical speaker output is not established.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "search": "κύκλου",
+      "legacySearch": "restricted compass",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=3&page=264",
+      "keyboardDemo": true,
+      "interaction": {
+        "exactOriginalUpperBound": "29376/9347",
+        "unsafeHypotenuse": "591.15",
+        "sameRowPerimeterStillJustified": true,
+        "nextBisectionProofBroken": true,
+        "GreekCircleAndPrintedLatinSphereRead": true,
+        "bothStatementPagesVerified": true,
+        "nativePacket": {
+          "name": "stoicheia-circle.html",
+          "sha256": "764af7c2e7c64b17c0ed0a3edb57abdad2005f61c89186b591422ee8f1553d00",
+          "scans": 10
+        },
+        "earlierCommonMeasureReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/3ede643289b654c54701097b333bef283d5c9f4a/docs/circle-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 514.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "search": "κύκλου",
+      "legacySearch": "restricted compass",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=3&page=264",
+      "keyboardDemo": true,
+      "interaction": {
+        "exactOriginalUpperBound": "29376/9347",
+        "unsafeHypotenuse": "591.15",
+        "sameRowPerimeterStillJustified": true,
+        "nextBisectionProofBroken": true,
+        "GreekCircleAndPrintedLatinSphereRead": true,
+        "bothStatementPagesVerified": true,
+        "nativePacket": {
+          "name": "stoicheia-circle.html",
+          "sha256": "764af7c2e7c64b17c0ed0a3edb57abdad2005f61c89186b591422ee8f1553d00",
+          "scans": 10
+        },
+        "earlierCommonMeasureReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/3ede643289b654c54701097b333bef283d5c9f4a/docs/circle-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 695.59375,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "search": "κύκλου",
+      "legacySearch": "restricted compass",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=3&page=264",
+      "keyboardDemo": true,
+      "interaction": {
+        "exactOriginalUpperBound": "29376/9347",
+        "unsafeHypotenuse": "591.15",
+        "sameRowPerimeterStillJustified": true,
+        "nextBisectionProofBroken": true,
+        "GreekCircleAndPrintedLatinSphereRead": true,
+        "bothStatementPagesVerified": true,
+        "nativePacket": {
+          "name": "stoicheia-circle.html",
+          "sha256": "764af7c2e7c64b17c0ed0a3edb57abdad2005f61c89186b591422ee8f1553d00",
+          "scans": 10
+        },
+        "earlierCommonMeasureReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/3ede643289b654c54701097b333bef283d5c9f4a/docs/circle-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 285.6000061035156,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "search": "κύκλου",
+      "legacySearch": "restricted compass",
+      "matchingCards": 1,
+      "thumbnailLoaded": true,
+      "demoURL": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=3&page=264",
+      "keyboardDemo": true,
+      "interaction": {
+        "exactOriginalUpperBound": "29376/9347",
+        "unsafeHypotenuse": "591.15",
+        "sameRowPerimeterStillJustified": true,
+        "nextBisectionProofBroken": true,
+        "GreekCircleAndPrintedLatinSphereRead": true,
+        "bothStatementPagesVerified": true,
+        "nativePacket": {
+          "name": "stoicheia-circle.html",
+          "sha256": "764af7c2e7c64b17c0ed0a3edb57abdad2005f61c89186b591422ee8f1553d00",
+          "scans": 10
+        },
+        "earlierCommonMeasureReachable": true
+      },
+      "pinnedEvidence": "https://github.com/antonsoo/stoicheia/blob/3ede643289b654c54701097b333bef283d5c9f4a/docs/circle-review.md#what-the-learner-can-do",
+      "pinnedHeadingTop": 400.6000061035156,
+      "pageErrors": []
+    }
+  ]
+}

@@ -48,6 +48,10 @@ The [source update history](docs/source-history.md) collects later fixes,
 workflow additions and their retained verification. Each record distinguishes
 source changes from package releases and hosted deployments.
 
+The [Archimedes circle workshop](docs/circle-2026-10-26.md) connects source-word
+search to an exact failed-proof experiment. Earlier Book X and construction
+queries remain indexed.
+
 The [common-measure and water-screw lessons](docs/measure-and-water-2026-10-25.md)
 connect new Book X and Vitruvian workshops with source-word search, native
 operations, original pages and complete portable readings. Older workshop
