@@ -15,7 +15,7 @@ const lessons = [
   { id: "dioptra", query: "water supply", legacy: "unseen tunnel", heading: "What the learner can do" },
   {
     id: "stoicheia",
-    query: "ἀνθυφαιρουμένου",
+    query: "κύκλου",
     legacy: "restricted compass",
     heading: "What the learner can do",
   },
@@ -563,6 +563,36 @@ async function explore(page, id) {
       sixteenDigitSourceRead: true,
       nativePacket: packet,
       earlierHoistStillReachable: true,
+    };
+  }
+  if (id === "stoicheia" && new URL(page.url()).pathname.endsWith("/circle.html")) {
+    await page.locator('#ci-bounds').filter({hasText:'29376/9347'}).waitFor();
+    await page.locator('#ci-near-miss').focus();
+    await page.keyboard.press('Enter');
+    await expect(page.locator('#ci-bound-status')).toContainText('chain has a gap');
+    await page.locator('[data-stage="1"]').click();
+    await expect(page.locator('#ci-bound-status')).toContainText('Both perimeter bounds');
+    await page.locator('[data-stage="2"]').click();
+    await expect(page.locator('#ci-bound-status')).toContainText('chain has a gap');
+    await page.locator('#ci-passage').selectOption('0');
+    await expect(page.locator('#ci-reading [lang="grc"]').first()).toContainText('κύκλου');
+    await expect(page.locator('#ci-reading [lang="la"]').first()).toContainText('sphaerae');
+    await page.locator('#ci-see-page').click();
+    await expect(page.locator('#ci-source-caption')).toContainText('Printed p.262', {timeout:20000});
+    await page.locator('#ci-page').selectOption('263');
+    await expect(page.locator('#ci-source-caption')).toContainText('Printed p.263', {timeout:20000});
+    const packet = await nativeReading(page, '#ci-save', 'stoicheia-circle.html', 10);
+    await page.getByRole('link', { name: /Explore why a finite measurement/ }).click();
+    await expect(page.locator('#mr-n')).toHaveValue('577');
+    return {
+      exactOriginalUpperBound: '29376/9347',
+      unsafeHypotenuse: '591.15',
+      sameRowPerimeterStillJustified: true,
+      nextBisectionProofBroken: true,
+      GreekCircleAndPrintedLatinSphereRead: true,
+      bothStatementPagesVerified: true,
+      nativePacket: packet,
+      earlierCommonMeasureReachable: true,
     };
   }
   if (id === "stoicheia" && new URL(page.url()).pathname.endsWith("/measure.html")) {

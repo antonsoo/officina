@@ -300,15 +300,15 @@
   },
   {
     "name": "stoicheia",
-    "description": "Find a common measure by repeated subtraction. Compare 577/408 with a square’s diagonal, then read Euclid’s Book X in Greek, Latin and English. Seven rooms also offer constructions, triangles, equal areas and the mesolabe.",
+    "description": "Double a polygon’s sides, then change one root estimate: does Archimedes’ circle bound still have a proof? Read the Greek and Latin, inspect ten original pages and save the complete illustrated argument.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/stoicheia",
-    "demoUrl": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
-    "thumbnail": "thumbs/stoicheia-measure.png",
+    "demoUrl": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=3&page=264",
+    "thumbnail": "thumbs/stoicheia-circle.png",
     "status": "published",
     "study": {
-      "finding": "577/408 stops with a common measure of 1/408; the diagonal shares eight copy counts but retains a positive remainder.",
-      "url": "https://github.com/antonsoo/stoicheia/blob/3d33c47c92a69e46862cce554afd74cc51dd91eb/docs/measure-review.md#what-the-learner-can-do"
+      "finding": "A failed outer root estimate leaves its current perimeter bound intact, then breaks the next bisection’s proof. Exact fractions reveal why.",
+      "url": "https://github.com/antonsoo/stoicheia/blob/3ede643289b654c54701097b333bef283d5c9f4a/docs/circle-review.md#what-the-learner-can-do"
     },
     "searchTerms": [
       "cube duplication",
@@ -324,7 +324,7 @@
       "complements",
       "equal-area squares",
       "gnomons",
-      "common measure anthyphairesis",
+      "Book X common measure anthyphairesis",
       "σύμμετρα commensurable",
       "Euclid X.2 Euclid X.3",
       "577/408",
@@ -332,7 +332,9 @@
       "ἀνθυφαιρουμένου",
       "μηδέποτε",
       "rationalis",
-      "circles lines crossings wrong branch undo"
+      "circles lines crossings wrong branch undo",
+      "Archimedes circle measurement polygon bounds",
+      "κύκλου sphaerae 591.15 2017.24"
     ]
   },
   {

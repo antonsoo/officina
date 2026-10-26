@@ -49,6 +49,10 @@ const extra = {
     "construction desk",
     "wrong branch",
     "Book X",
+    "Archimedes circle",
+    "κυκλου",
+    "sphaerae",
+    "591.15",
   ],
   grama: ["PANCAMA", "Grama", "पञ्चम"],
 };
