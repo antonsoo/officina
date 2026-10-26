@@ -1,0 +1,191 @@
+{
+  "checkedAt": "2026-10-26T08:32:24.855Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/f58295fc-80dd-4279-bab3-d8a0edc83c62",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 514.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/3f014426-bc21-4664-85fd-be4d34b46693",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 248.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/46d7798d-2014-481a-9909-07bf76482950",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 735.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/f0a4e78e-31a0-4efe-bd78-7cc29bef7275",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 855.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/2b8d506a-fe74-404f-8236-5b63f6d69bdd",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 222.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/cfd901c3-1f2f-4d02-9848-ac0e445e0358",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 53.599998474121094,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/2705c868-81e6-437e-ad4c-524e93590ab9",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 101.5999984741211,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/5ef13b50-4000-4415-ba96-b97ad0342ed1",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 487.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
