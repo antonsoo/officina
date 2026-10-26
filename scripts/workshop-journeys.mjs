@@ -57,6 +57,14 @@ const cases = [
     heading: "What can be learned",
   },
   {
+    project: "gonia",
+    id: "ledger",
+    query: "σιμιο",
+    word: "Σιμίο",
+    path: "/gonia/ledger.html",
+    heading: "Try the ledger",
+  },
+  {
     project: "pyknon",
     id: "canon",
     query: "επογδοος",
@@ -180,6 +188,19 @@ async function operate(page, id) {
       halvesHz: halves,
       quartersHz: quarters,
     };
+  }
+  if (id === "ledger") {
+    for (const i of [0, 1, 2, 3, 4]) await page.locator(`#lg-extra-${i}`).check();
+    await page.locator("#lg-reveal").focus();
+    await page.keyboard.press("Enter");
+    assert.match(await page.locator("#lg-result").textContent(), /matches the edited record/);
+    await page.locator("#lg-extra-0").uncheck();
+    await page.locator("#lg-extra-6").check();
+    assert.match(await page.locator("#lg-result").textContent(), /Balanced, but different/);
+    await page.locator('[data-lg-person="6"]').click();
+    await page.locator("#lg-find").click();
+    await page.waitForFunction(() => document.querySelector("#lg-source-note").textContent.startsWith("Verified"));
+    return { action: "same total with different named allocation; Sosandros located on the original printed page", source: await image(page, "#lg-source-image") };
   }
   throw Error(`Unknown workshop ${id}`);
 }

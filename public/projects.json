@@ -298,7 +298,7 @@
   },
   {
     "name": "gonia",
-    "description": "Build Vitruvius’s eight-channel water screw from a square grid. Change pitch and slope, follow a retained bucket, and read the Latin dimensions. Eleven rooms also cover temples, columns, theatres, hoists and sight lines.",
+    "description": "Build Vitruvius’s eight-channel water screw from a square grid. Change pitch and slope, follow a retained bucket, and read the Latin dimensions. Twelve rooms also cover temples, columns, theatres, hoists, sight lines and the names in a building account.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gonia",
     "demoUrl": "https://antonsoo.github.io/gonia/screw.html?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=500&step=3&passage=11&page=238#sc-build",
@@ -362,6 +362,30 @@
           "measured taper",
           "hyperbola",
           "true scale"
+        ]
+      },
+      {
+        "id": "ledger",
+        "title": "Seven names, one uneven obol · Building accounts",
+        "url": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+        "reviewUrl": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+        "searchTerms": [
+          "Erechtheion",
+          "building accounts",
+          "column fluting workers",
+          "obol",
+          "obols",
+          "drachma",
+          "drachmas",
+          "Σιμίο",
+          "ῥαβδόσεος",
+          "Simias",
+          "Sosandros",
+          "enslaved workers",
+          "90 100 drachmas",
+          "IG I3 476",
+          "uneven payments",
+          "ownership identifiers"
         ]
       }
     ]

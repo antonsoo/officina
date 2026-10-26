@@ -14,6 +14,10 @@ test("a source word identifies its actual workshop with case and accent folding"
     ["stoicheia", "sphaerae", "circle", "/stoicheia/circle.html"],
     ["gonia", "ῥαβδωσεως", "fluting", "/gonia/fluting.html"],
     ["gonia", "PENROSE", "entasis", "/gonia/entasis.html"],
+    ["gonia", "ΣΙΜΙΟ", "ledger", "/gonia/ledger.html"],
+    ["gonia", "Erechtheion", "ledger", "/gonia/ledger.html"],
+    ["gonia", "obols", "ledger", "/gonia/ledger.html"],
+    ["gonia", "ραβδοσεος", "ledger", "/gonia/ledger.html"],
     ["pyknon", "επογδοος", "canon", "/pyknon/canon.html"],
     ["pyknon", "AEQUITONA", "trial", "/pyknon/trial.html"],
   ]) {

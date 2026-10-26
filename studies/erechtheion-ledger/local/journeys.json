@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-26T05:45:51.424Z",
+  "base": "http://127.0.0.1:4500/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/fe3f440d-5ad3-40aa-bb22-1313c1ab726a",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 124.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/a78aa7a0-9930-4721-a702-97a65ba932a3",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 855.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/cb266b4c-665e-4bd0-879f-79ebf77b104a",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 281.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/d375de5d-c37b-41ef-b2f9-725428ef5057",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 379.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
