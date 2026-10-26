@@ -6,6 +6,8 @@ All notable changes to this project are documented in this file.
 
 ### Added
 
+- Find Pappus's quadratrix through its source words and open the positive-time
+  crossing beside the final-instant objection, with a pinned implementation review.
 - Index source words and lesson names separately from card descriptions; Greek
   terms can be found without accents and combined with audience filters.
 - Open Ptolemy’s string examination and Eratosthenes’ mesolabe directly, with

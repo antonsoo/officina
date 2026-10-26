@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-26T23:29:58.343Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "quadratrix",
+      "query": "ουκετι",
+      "target": "https://antonsoo.github.io/stoicheia/quadratrix.html?tick=999999&timing=together&limit=1&reading=6&page=254#qx-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/quadratrix.html?tick=999999&timing=together&limit=1&reading=6&page=254#qx-bench",
+      "sourceWord": "οὐκέτι",
+      "interaction": {
+        "action": "positive-time crossing compared with final coincident lines; separately added H retained",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/fcc7469d-2f73-46ea-abe8-abf8d05e5e41",
+          "width": 909,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/3168a3ee3390d44a5fda26be5acd052f1bb0fab4/docs/quadratrix-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 538.984375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "quadratrix",
+      "query": "ουκετι",
+      "target": "https://antonsoo.github.io/stoicheia/quadratrix.html?tick=999999&timing=together&limit=1&reading=6&page=254#qx-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/quadratrix.html?tick=999999&timing=together&limit=1&reading=6&page=254#qx-bench",
+      "sourceWord": "οὐκέτι",
+      "interaction": {
+        "action": "positive-time crossing compared with final coincident lines; separately added H retained",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/877c1bbe-c104-4f07-a24b-15e477c4a6dc",
+          "width": 909,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/3168a3ee3390d44a5fda26be5acd052f1bb0fab4/docs/quadratrix-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 507.984375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "quadratrix",
+      "query": "ουκετι",
+      "target": "https://antonsoo.github.io/stoicheia/quadratrix.html?tick=999999&timing=together&limit=1&reading=6&page=254#qx-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/quadratrix.html?tick=999999&timing=together&limit=1&reading=6&page=254#qx-bench",
+      "sourceWord": "οὐκέτι",
+      "interaction": {
+        "action": "positive-time crossing compared with final coincident lines; separately added H retained",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/ad50484f-6f38-4cc3-a6cc-9fda91439267",
+          "width": 909,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/3168a3ee3390d44a5fda26be5acd052f1bb0fab4/docs/quadratrix-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 177.8000030517578,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "quadratrix",
+      "query": "ουκετι",
+      "target": "https://antonsoo.github.io/stoicheia/quadratrix.html?tick=999999&timing=together&limit=1&reading=6&page=254#qx-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/quadratrix.html?tick=999999&timing=together&limit=1&reading=6&page=254#qx-bench",
+      "sourceWord": "οὐκέτι",
+      "interaction": {
+        "action": "positive-time crossing compared with final coincident lines; separately added H retained",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/18c44931-94b0-424d-bc0a-122d8f4c2595",
+          "width": 909,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/3168a3ee3390d44a5fda26be5acd052f1bb0fab4/docs/quadratrix-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 397.79998779296875,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
