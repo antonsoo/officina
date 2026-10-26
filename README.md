@@ -17,6 +17,7 @@ ordinary typing never saves the query in the URL or browser storage. Choose
 them from an incoming address so reload stays clear. Greek source
 terms such as `ἰσότονον` also work without accents (`ισοτονον`). Lesson names
 and source terms can stay indexed when a project features a different workshop.
+[Shared-search behavior and review](studies/shared-search-links/README.md).
 Ten curated geometry, architecture, water-measurement and music workshops now have direct search
 links: `μηδεποτε` opens Book X, `ἤχθω` the circle-tangent argument, and `ἐπόγδοος`
 the six-tones experiment. Each matching workshop also links its recorded review.

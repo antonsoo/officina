@@ -24,5 +24,5 @@ locates the bronze calix passage in the full source page. The ledger action
 keeps the same total while changing a named allocation and finds Sosandros in
 the retained source. These are browser operations, not a static-link checklist.
 
-Later search-link behavior is recorded separately in the shared-search review;
+Later search-link behavior is recorded separately in the [shared-search review](../shared-search-links/README.md);
 these receipts describe the captured manual-search edition.

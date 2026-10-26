@@ -1,0 +1,923 @@
+{
+  "checkedAt": "2026-10-26T08:39:05.571Z",
+  "base": "http://127.0.0.1:4500/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/ce336677-39f1-48a9-a76e-eeaeb81e4f7f",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 514.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "measure",
+      "query": "μηδεποτε",
+      "target": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "sourceWord": "μηδέποτε",
+      "interaction": {
+        "action": "one copy of 408 fitted into 577",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/bce0c556-f0b0-4a51-8049-632138e09a2c",
+          "width": 1319,
+          "height": 1700
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/measure-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 562.984375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "horn",
+      "query": "ηχθω",
+      "target": "https://antonsoo.github.io/stoicheia/horn.html?rise=1&run=1000000&focus=foot&read=3&page=210#hn-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/horn.html?rise=1&run=1000000&focus=foot&read=3&page=210#hn-bench",
+      "sourceWord": "ἤχθω",
+      "interaction": {
+        "action": "tiny positive ray compared with the tangent",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/c3ef859a-44b4-4d9c-ba55-1228b681f99c",
+          "width": 1146,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/horn-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 538.984375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "circle",
+      "query": "sphaerae",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=0&page=263#ci-readings",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=0&page=263#ci-readings",
+      "sourceWord": "sphaerae",
+      "interaction": {
+        "action": "unsafe root compared with the still-justified same-row bound",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/2e296624-1cbb-4d00-8b22-7e8e09c25825",
+          "width": 1312,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 514.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "desk",
+      "query": "restricted compass",
+      "target": "https://antonsoo.github.io/stoicheia/desk.html",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/desk.html",
+      "sourceWord": null,
+      "interaction": {
+        "action": "first line constructed through the two given points",
+        "before": "3 points · 0 curves",
+        "after": "3 points · 1 curves"
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/desk-review.md#try-an-actual-construction",
+      "nativeReviewHeadingTop": 567.78125,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "fluting",
+      "query": "ῥαβδωσεως",
+      "target": "https://antonsoo.github.io/gonia/fluting.html#fluting-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/fluting.html?recipe=doric&width=100&fillet=20&point=50&gauge=1&compare=0#fluting-workshop",
+      "sourceWord": "ῥαβδώσεως",
+      "interaction": {
+        "action": "Ionic hollow selected; Greek fluting clause located",
+        "source": {
+          "src": "https://antonsoo.github.io/gonia/sources/fluting/bywater-205.jpg",
+          "width": 1419,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/7fab06429b9834fd1b2bc8409067e3460112fb61/docs/fluting-review.md#what-can-be-learned",
+      "nativeReviewHeadingTop": 450.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "entasis",
+      "query": "Penrose",
+      "target": "https://antonsoo.github.io/gonia/entasis.html#entasis-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/entasis.html?station=2&enlarge=100&prediction=none&units=metric&compare=actual#entasis-workshop",
+      "sourceWord": "Penrose",
+      "interaction": {
+        "action": "second measurement inspected and departure enlarged",
+        "station": "2.652 m · station 2 of 5",
+        "calculation": "57.709 mmstraight taper−42.581 mmcorrected column=15.129 mmoutward departure"
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/7fab06429b9834fd1b2bc8409067e3460112fb61/docs/entasis-review.md#what-can-be-learned",
+      "nativeReviewHeadingTop": 227.375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/db2a2cbb-66c0-4ef3-8233-ab7e5afd6abe",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 578.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "canon",
+      "query": "επογδοος",
+      "target": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat&p=1&page=174#canon",
+      "initialAddress": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat&p=1&page=174#canon",
+      "sourceWord": "ἐπόγδοος",
+      "interaction": {
+        "action": "fifth interval selected and synthetic pair scheduled/stopped",
+        "before": "446.003 Hz",
+        "after": "396.447 Hz",
+        "source": {
+          "src": "https://antonsoo.github.io/pyknon/sources/canon/menge-174.jpg",
+          "width": 1122,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/b49326e354d74c9c06583c8343357b2e88729192/docs/canon-review.md#try-the-result",
+      "nativeReviewHeadingTop": 724.515625,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "trial",
+      "query": "aequitona",
+      "target": "https://antonsoo.github.io/pyknon/trial.html?string=outer&density=2.25&test=0&a=110&p=2&page=37#trial",
+      "initialAddress": "https://antonsoo.github.io/pyknon/trial.html?string=outer&density=2.25&test=0&a=110&p=2&page=37#trial",
+      "sourceWord": "aequitona",
+      "interaction": {
+        "action": "equal halves followed by unequal right quarters",
+        "halvesHz": [
+          169.60882033738153,
+          169.60882033738153
+        ],
+        "quartersHz": [
+          440,
+          293.3333333333333
+        ]
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/b49326e354d74c9c06583c8343357b2e88729192/docs/trial-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 562.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/64539377-6fd2-4eba-bb7b-43f2c7d3ee14",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 735.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "measure",
+      "query": "μηδεποτε",
+      "target": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "sourceWord": "μηδέποτε",
+      "interaction": {
+        "action": "one copy of 408 fitted into 577",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/bdc40343-13fa-4bc7-bab8-749be55ccea0",
+          "width": 1319,
+          "height": 1700
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/measure-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 485.984375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "horn",
+      "query": "ηχθω",
+      "target": "https://antonsoo.github.io/stoicheia/horn.html?rise=1&run=1000000&focus=foot&read=3&page=210#hn-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/horn.html?rise=1&run=1000000&focus=foot&read=3&page=210#hn-bench",
+      "sourceWord": "ἤχθω",
+      "interaction": {
+        "action": "tiny positive ray compared with the tangent",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/41ec0adc-51dc-4369-b044-fee14f5f7a4d",
+          "width": 1146,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/horn-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 767.984375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "circle",
+      "query": "sphaerae",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=0&page=263#ci-readings",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=0&page=263#ci-readings",
+      "sourceWord": "sphaerae",
+      "interaction": {
+        "action": "unsafe root compared with the still-justified same-row bound",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/66b38a93-a916-4aef-b136-f153897ebdc0",
+          "width": 1312,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 695.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "desk",
+      "query": "restricted compass",
+      "target": "https://antonsoo.github.io/stoicheia/desk.html",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/desk.html",
+      "sourceWord": null,
+      "interaction": {
+        "action": "first line constructed through the two given points",
+        "before": "3 points · 0 curves",
+        "after": "3 points · 1 curves"
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/desk-review.md#try-an-actual-construction",
+      "nativeReviewHeadingTop": 224.78125,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "fluting",
+      "query": "ῥαβδωσεως",
+      "target": "https://antonsoo.github.io/gonia/fluting.html#fluting-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/fluting.html?recipe=doric&width=100&fillet=20&point=50&gauge=1&compare=0#fluting-workshop",
+      "sourceWord": "ῥαβδώσεως",
+      "interaction": {
+        "action": "Ionic hollow selected; Greek fluting clause located",
+        "source": {
+          "src": "https://antonsoo.github.io/gonia/sources/fluting/bywater-205.jpg",
+          "width": 1419,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/7fab06429b9834fd1b2bc8409067e3460112fb61/docs/fluting-review.md#what-can-be-learned",
+      "nativeReviewHeadingTop": 599.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "entasis",
+      "query": "Penrose",
+      "target": "https://antonsoo.github.io/gonia/entasis.html#entasis-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/entasis.html?station=2&enlarge=100&prediction=none&units=metric&compare=actual#entasis-workshop",
+      "sourceWord": "Penrose",
+      "interaction": {
+        "action": "second measurement inspected and departure enlarged",
+        "station": "2.652 m · station 2 of 5",
+        "calculation": "57.709 mmstraight taper−42.581 mmcorrected column=15.129 mmoutward departure"
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/7fab06429b9834fd1b2bc8409067e3460112fb61/docs/entasis-review.md#what-can-be-learned",
+      "nativeReviewHeadingTop": 769.15625,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/463368c2-5256-465d-bf5a-f2b3920399e8",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 855.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "canon",
+      "query": "επογδοος",
+      "target": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat&p=1&page=174#canon",
+      "initialAddress": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat&p=1&page=174#canon",
+      "sourceWord": "ἐπόγδοος",
+      "interaction": {
+        "action": "fifth interval selected and synthetic pair scheduled/stopped",
+        "before": "446.003 Hz",
+        "after": "396.447 Hz",
+        "source": {
+          "src": "https://antonsoo.github.io/pyknon/sources/canon/menge-174.jpg",
+          "width": 1122,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/b49326e354d74c9c06583c8343357b2e88729192/docs/canon-review.md#try-the-result",
+      "nativeReviewHeadingTop": 731.515625,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "trial",
+      "query": "aequitona",
+      "target": "https://antonsoo.github.io/pyknon/trial.html?string=outer&density=2.25&test=0&a=110&p=2&page=37#trial",
+      "initialAddress": "https://antonsoo.github.io/pyknon/trial.html?string=outer&density=2.25&test=0&a=110&p=2&page=37#trial",
+      "sourceWord": "aequitona",
+      "interaction": {
+        "action": "equal halves followed by unequal right quarters",
+        "halvesHz": [
+          169.60882033738153,
+          169.60882033738153
+        ],
+        "quartersHz": [
+          440,
+          293.3333333333333
+        ]
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/b49326e354d74c9c06583c8343357b2e88729192/docs/trial-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 804.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/a60f6f52-2581-40df-9347-4f8415d2b1ba",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 267.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "measure",
+      "query": "μηδεποτε",
+      "target": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "sourceWord": "μηδέποτε",
+      "interaction": {
+        "action": "one copy of 408 fitted into 577",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/ea7907bd-b6e7-437c-b8ed-43d98fe09e29",
+          "width": 1319,
+          "height": 1700
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/measure-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 217.8000030517578,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "horn",
+      "query": "ηχθω",
+      "target": "https://antonsoo.github.io/stoicheia/horn.html?rise=1&run=1000000&focus=foot&read=3&page=210#hn-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/horn.html?rise=1&run=1000000&focus=foot&read=3&page=210#hn-bench",
+      "sourceWord": "ἤχθω",
+      "interaction": {
+        "action": "tiny positive ray compared with the tangent",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/a62a194b-8702-47b7-afb1-a4e66d0418db",
+          "width": 1146,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/horn-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 179.8000030517578,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "circle",
+      "query": "sphaerae",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=0&page=263#ci-readings",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=0&page=263#ci-readings",
+      "sourceWord": "sphaerae",
+      "interaction": {
+        "action": "unsafe root compared with the still-justified same-row bound",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/50eca460-544d-4c4d-ab1d-200748b29836",
+          "width": 1312,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 161.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "desk",
+      "query": "restricted compass",
+      "target": "https://antonsoo.github.io/stoicheia/desk.html",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/desk.html",
+      "sourceWord": null,
+      "interaction": {
+        "action": "first line constructed through the two given points",
+        "before": "3 points · 0 curves",
+        "after": "3 points · 1 curves"
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/desk-review.md#try-an-actual-construction",
+      "nativeReviewHeadingTop": 183.8000030517578,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "fluting",
+      "query": "ῥαβδωσεως",
+      "target": "https://antonsoo.github.io/gonia/fluting.html#fluting-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/fluting.html?recipe=doric&width=100&fillet=20&point=50&gauge=1&compare=0#fluting-workshop",
+      "sourceWord": "ῥαβδώσεως",
+      "interaction": {
+        "action": "Ionic hollow selected; Greek fluting clause located",
+        "source": {
+          "src": "https://antonsoo.github.io/gonia/sources/fluting/bywater-205.jpg",
+          "width": 1419,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/7fab06429b9834fd1b2bc8409067e3460112fb61/docs/fluting-review.md#what-can-be-learned",
+      "nativeReviewHeadingTop": 139.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "entasis",
+      "query": "Penrose",
+      "target": "https://antonsoo.github.io/gonia/entasis.html#entasis-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/entasis.html?station=2&enlarge=100&prediction=none&units=metric&compare=actual#entasis-workshop",
+      "sourceWord": "Penrose",
+      "interaction": {
+        "action": "second measurement inspected and departure enlarged",
+        "station": "2.652 m · station 2 of 5",
+        "calculation": "57.709 mmstraight taper−42.581 mmcorrected column=15.129 mmoutward departure"
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/7fab06429b9834fd1b2bc8409067e3460112fb61/docs/entasis-review.md#what-can-be-learned",
+      "nativeReviewHeadingTop": 358,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/2fa81b31-09ad-4ad5-9d89-ec51820a6da1",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 228.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "canon",
+      "query": "επογδοος",
+      "target": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat&p=1&page=174#canon",
+      "initialAddress": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat&p=1&page=174#canon",
+      "sourceWord": "ἐπόγδοος",
+      "interaction": {
+        "action": "fifth interval selected and synthetic pair scheduled/stopped",
+        "before": "446.003 Hz",
+        "after": "396.447 Hz",
+        "source": {
+          "src": "https://antonsoo.github.io/pyknon/sources/canon/menge-174.jpg",
+          "width": 1122,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/b49326e354d74c9c06583c8343357b2e88729192/docs/canon-review.md#try-the-result",
+      "nativeReviewHeadingTop": 293.6166687011719,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "trial",
+      "query": "aequitona",
+      "target": "https://antonsoo.github.io/pyknon/trial.html?string=outer&density=2.25&test=0&a=110&p=2&page=37#trial",
+      "initialAddress": "https://antonsoo.github.io/pyknon/trial.html?string=outer&density=2.25&test=0&a=110&p=2&page=37#trial",
+      "sourceWord": "aequitona",
+      "interaction": {
+        "action": "equal halves followed by unequal right quarters",
+        "halvesHz": [
+          169.60882033738145,
+          169.60882033738153
+        ],
+        "quartersHz": [
+          440,
+          293.3333333333333
+        ]
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/b49326e354d74c9c06583c8343357b2e88729192/docs/trial-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 160.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/78f49a7e-5212-41c6-bfc8-a601f1bb0fbe",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 336.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "measure",
+      "query": "μηδεποτε",
+      "target": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+      "sourceWord": "μηδέποτε",
+      "interaction": {
+        "action": "one copy of 408 fitted into 577",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/639bd2fb-61f3-4694-828e-f2aa9aad9da8",
+          "width": 1319,
+          "height": 1700
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/measure-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 138.8000030517578,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "horn",
+      "query": "ηχθω",
+      "target": "https://antonsoo.github.io/stoicheia/horn.html?rise=1&run=1000000&focus=foot&read=3&page=210#hn-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/horn.html?rise=1&run=1000000&focus=foot&read=3&page=210#hn-bench",
+      "sourceWord": "ἤχθω",
+      "interaction": {
+        "action": "tiny positive ray compared with the tangent",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/fe362c07-ca76-4035-8c1d-8acc41fb0445",
+          "width": 1146,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/horn-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 176.8000030517578,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "circle",
+      "query": "sphaerae",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=0&page=263#ci-readings",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=0&page=263#ci-readings",
+      "sourceWord": "sphaerae",
+      "interaction": {
+        "action": "unsafe root compared with the still-justified same-row bound",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/655f4f48-52a7-46c3-9e1c-845082dfd6d8",
+          "width": 1312,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 218.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "desk",
+      "query": "restricted compass",
+      "target": "https://antonsoo.github.io/stoicheia/desk.html",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/desk.html",
+      "sourceWord": null,
+      "interaction": {
+        "action": "first line constructed through the two given points",
+        "before": "3 points · 0 curves",
+        "after": "3 points · 1 curves"
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/desk-review.md#try-an-actual-construction",
+      "nativeReviewHeadingTop": 228.8000030517578,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "fluting",
+      "query": "ῥαβδωσεως",
+      "target": "https://antonsoo.github.io/gonia/fluting.html#fluting-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/fluting.html?recipe=doric&width=100&fillet=20&point=50&gauge=1&compare=0#fluting-workshop",
+      "sourceWord": "ῥαβδώσεως",
+      "interaction": {
+        "action": "Ionic hollow selected; Greek fluting clause located",
+        "source": {
+          "src": "https://antonsoo.github.io/gonia/sources/fluting/bywater-205.jpg",
+          "width": 1419,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/7fab06429b9834fd1b2bc8409067e3460112fb61/docs/fluting-review.md#what-can-be-learned",
+      "nativeReviewHeadingTop": 262.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "entasis",
+      "query": "Penrose",
+      "target": "https://antonsoo.github.io/gonia/entasis.html#entasis-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/entasis.html?station=2&enlarge=100&prediction=none&units=metric&compare=actual#entasis-workshop",
+      "sourceWord": "Penrose",
+      "interaction": {
+        "action": "second measurement inspected and departure enlarged",
+        "station": "2.652 m · station 2 of 5",
+        "calculation": "57.709 mmstraight taper−42.581 mmcorrected column=15.129 mmoutward departure"
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/7fab06429b9834fd1b2bc8409067e3460112fb61/docs/entasis-review.md#what-can-be-learned",
+      "nativeReviewHeadingTop": 252.39999389648438,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "ledger",
+      "query": "σιμιο",
+      "target": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "initialAddress": "https://antonsoo.github.io/gonia/ledger.html?entry=100&extra=0&person=0&record=0#lg-workshop",
+      "sourceWord": "Σιμίο",
+      "interaction": {
+        "action": "same total with different named allocation; Sosandros located on the original printed page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/2e4e1636-7415-4152-8bdc-9a81e5ea0dd8",
+          "width": 1600,
+          "height": 2196
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/1682b234f65db87f019e9ef2205837ee888e1842/docs/ledger-review.md#try-the-ledger",
+      "nativeReviewHeadingTop": 420.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "canon",
+      "query": "επογδοος",
+      "target": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat&p=1&page=174#canon",
+      "initialAddress": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat&p=1&page=174#canon",
+      "sourceWord": "ἐπόγδοος",
+      "interaction": {
+        "action": "fifth interval selected and synthetic pair scheduled/stopped",
+        "before": "446.003 Hz",
+        "after": "396.447 Hz",
+        "source": {
+          "src": "https://antonsoo.github.io/pyknon/sources/canon/menge-174.jpg",
+          "width": 1122,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/b49326e354d74c9c06583c8343357b2e88729192/docs/canon-review.md#try-the-result",
+      "nativeReviewHeadingTop": 521.6166381835938,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "trial",
+      "query": "aequitona",
+      "target": "https://antonsoo.github.io/pyknon/trial.html?string=outer&density=2.25&test=0&a=110&p=2&page=37#trial",
+      "initialAddress": "https://antonsoo.github.io/pyknon/trial.html?string=outer&density=2.25&test=0&a=110&p=2&page=37#trial",
+      "sourceWord": "aequitona",
+      "interaction": {
+        "action": "equal halves followed by unequal right quarters",
+        "halvesHz": [
+          169.60882033738145,
+          169.60882033738153
+        ],
+        "quartersHz": [
+          440,
+          293.3333333333333
+        ]
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/b49326e354d74c9c06583c8343357b2e88729192/docs/trial-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 620.5999755859375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}

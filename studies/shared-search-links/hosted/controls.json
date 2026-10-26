@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-26T08:45:42.766Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "rows": [
+    {
+      "browser": "chromium",
+      "width": 1280,
+      "latinSearchRestored": true,
+      "explicitAudienceRestored": true,
+      "clipboardDeniedFallbackLink": "https://antonsoo.github.io/officina/?q=minore+pressura&audience=Ancient+world#catalogue",
+      "clearRemovesFiltersForReload": true,
+      "greekSourceLinkRestored": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "latinSearchRestored": true,
+      "explicitAudienceRestored": true,
+      "clipboardDeniedFallbackLink": "https://antonsoo.github.io/officina/?q=minore+pressura&audience=Ancient+world#catalogue",
+      "clearRemovesFiltersForReload": true,
+      "greekSourceLinkRestored": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1280,
+      "latinSearchRestored": true,
+      "explicitAudienceRestored": true,
+      "clipboardDeniedFallbackLink": "https://antonsoo.github.io/officina/?q=minore+pressura&audience=Ancient+world#catalogue",
+      "clearRemovesFiltersForReload": true,
+      "greekSourceLinkRestored": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "latinSearchRestored": true,
+      "explicitAudienceRestored": true,
+      "clipboardDeniedFallbackLink": "https://antonsoo.github.io/officina/?q=minore+pressura&audience=Ancient+world#catalogue",
+      "clearRemovesFiltersForReload": true,
+      "greekSourceLinkRestored": true,
+      "errors": []
+    }
+  ]
+}

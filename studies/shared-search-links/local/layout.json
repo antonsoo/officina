@@ -1,0 +1,20 @@
+{
+  "rows": [
+    {
+      "width": 375,
+      "theme": "light",
+      "query": "minore pressura",
+      "visibleCards": 1,
+      "link": "http://127.0.0.1:4500/officina/?q=minore+pressura&audience=Ancient+world#catalogue",
+      "violations": 0
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "query": "minore pressura",
+      "visibleCards": 1,
+      "link": "http://127.0.0.1:4500/officina/?q=minore+pressura&audience=Ancient+world#catalogue",
+      "violations": 0
+    }
+  ]
+}
