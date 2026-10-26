@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-26T02:57:59.773611+00:00",
+  "source": "c737cd8543bae3737f502cb2d3f7f57f909f79b3",
+  "staticBranch": "49ef6b58325280c63b105b56908742e3a8642bbb",
+  "previousStaticBranch": "061c8968a5dff77d5edf0f68187691898dbb5f40",
+  "normalDescendant": true,
+  "oldHashedAssetsRetained": true,
+  "scope": "Source push and normal static-branch push; canonical responses, browser operation and remote build have separate receipts. No GitHub Actions execution claim."
+}

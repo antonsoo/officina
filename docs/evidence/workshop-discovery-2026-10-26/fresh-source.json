@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-26T02:55:50.336834+00:00",
+  "source": "c737cd8543bae3737f502cb2d3f7f57f909f79b3",
+  "scope": "A fresh shallow remote clone, clean Node 24 install and build; every output compared to an external inventory of the separately reviewed local build.",
+  "node": "v24.22.1",
+  "npm": "11.19.1",
+  "checks": [
+    "npm ci",
+    "npm run lint",
+    "npm run format:check",
+    "npm run typecheck",
+    "npm test (44 passed)",
+    "npm run build"
+  ],
+  "externalInventory": "build-files.json",
+  "comparedFiles": 67,
+  "allBytesMatch": true
+}
