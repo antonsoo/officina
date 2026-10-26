@@ -99,9 +99,16 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
       <div class="search-row">
         <div class="search-field">
           <label for="tool-search">Find a tool</label>
-          <input id="tool-search" type="search" placeholder="Try Greek, music, traces, or logs" autocomplete="off" aria-controls="groups" />
+          <input id="tool-search" type="search" placeholder="Try Greek, music, traces, or logs" autocomplete="off" maxlength="512" aria-controls="groups" />
         </div>
         <button class="clear-filters" type="reset">Clear filters</button>
+        <button class="clear-filters" id="copy-search-link" type="button">Copy search link</button>
+      </div>
+      <p id="shared-filter-note" class="filter-link-note" role="alert" hidden></p>
+      <div id="shared-filter-link" class="shared-filter-link" hidden>
+        <label for="filter-link-url">Search and audience link</label>
+        <input id="filter-link-url" readonly type="url" />
+        <p id="filter-link-status" role="status"></p>
       </div>
       <div class="audiences" role="group" aria-label="Filter by audience">
         <button type="button" data-group="" aria-pressed="true">All tools <span>${published.length}</span></button>
@@ -130,7 +137,26 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
   const sections = [...container.querySelectorAll<HTMLElement>(".group")];
   const count = container.querySelector<HTMLElement>(".result-count")!;
   const empty = container.querySelector<HTMLElement>(".empty-results")!;
+  const copy = container.querySelector<HTMLButtonElement>("#copy-search-link")!;
+  const linkBox = container.querySelector<HTMLElement>("#shared-filter-link")!;
+  const linkField = container.querySelector<HTMLInputElement>("#filter-link-url")!;
+  const linkStatus = container.querySelector<HTMLElement>("#filter-link-status")!;
+  const note = container.querySelector<HTMLElement>("#shared-filter-note")!;
   let audience = "";
+  const incoming = new URLSearchParams(location.search);
+  const query = incoming.get("q") ?? "";
+  const group = incoming.get("audience") ?? "";
+  if (incoming.getAll("q").length > 1 || incoming.getAll("audience").length > 1) {
+    note.textContent = "This link repeats its search or audience. Showing all tools.";
+  } else if (query.length > 512) {
+    note.textContent = "This shared search is too long. Showing all tools.";
+  } else if (group && !groupNames(published).includes(group)) {
+    note.textContent = "This link’s audience is not in the catalogue. Showing all tools.";
+  } else {
+    search.value = query;
+    audience = group;
+  }
+  note.hidden = !note.textContent;
 
   const update = (): void => {
     const matching = new Set(filterProjects(published, search.value, audience).map((p) => p.name));
@@ -154,10 +180,21 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
     }
     count.textContent = `Showing ${matching.size} of ${published.length} tools`;
     empty.hidden = matching.size !== 0;
+    copy.disabled = !search.value.trim() && !audience;
   };
   const reset = (): void => {
     search.value = "";
     audience = "";
+    note.hidden = true;
+    linkBox.hidden = true;
+    // Clearing an incoming link should also clear it on the next reload.
+    // Ordinary typing and audience changes never write a query to the address.
+    const url = new URL(location.href);
+    if (url.searchParams.has("q") || url.searchParams.has("audience")) {
+      url.searchParams.delete("q");
+      url.searchParams.delete("audience");
+      history.replaceState(null, "", url);
+    }
     update();
     search.focus();
   };
@@ -166,13 +203,34 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
     event.preventDefault();
     reset();
   });
-  search.addEventListener("input", update);
+  const changed = (): void => {
+    note.hidden = true;
+    linkBox.hidden = true;
+    update();
+  };
+  search.addEventListener("input", changed);
   for (const button of buttons) {
     button.addEventListener("click", () => {
       audience = button.dataset.group!;
-      update();
+      changed();
     });
   }
+  copy.addEventListener("click", async () => {
+    const url = new URL(import.meta.env.BASE_URL, location.origin);
+    if (search.value.trim()) url.searchParams.set("q", search.value.trim());
+    if (audience) url.searchParams.set("audience", audience);
+    url.hash = "catalogue";
+    linkField.value = url.href;
+    linkBox.hidden = false;
+    linkField.focus();
+    linkField.select();
+    try {
+      await navigator.clipboard.writeText(url.href);
+      linkStatus.textContent = "Search link copied.";
+    } catch {
+      linkStatus.textContent = "Copy the selected link to share this search and audience.";
+    }
+  });
   container.querySelector("#show-all")!.addEventListener("click", reset);
   update();
 }

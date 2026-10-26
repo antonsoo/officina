@@ -321,6 +321,34 @@ header.masthead {
   color: var(--ink-muted);
 }
 
+.filter-link-note,
+.shared-filter-link {
+  margin: 16px 0;
+  font-size: 15px;
+  color: var(--ink-muted);
+}
+
+.shared-filter-link label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.shared-filter-link input {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--ink-muted);
+  border-radius: 3px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+}
+
+#copy-search-link:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
 .catalogue-message,
 .empty-results {
   padding: 36px 0 64px;

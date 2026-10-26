@@ -11,10 +11,13 @@ dozen. Officina is Latin for workshop.
 
 Search by name, task, package registry or source term, and narrow the list by audience.
 Search filters the already downloaded catalogue without another data request;
-the query is not saved in the URL or browser storage. Clear filters returns to the full catalogue. Greek source
+ordinary typing never saves the query in the URL or browser storage. Choose
+**Copy search link** to share the current query and audience explicitly. Incoming
+`?q=...&audience=...#catalogue` links open those filters. Clear filters also removes
+them from an incoming address so reload stays clear. Greek source
 terms such as `ἰσότονον` also work without accents (`ισοτονον`). Lesson names
 and source terms can stay indexed when a project features a different workshop.
-Eight curated geometry, architecture and music workshops now have direct search
+Ten curated geometry, architecture, water-measurement and music workshops now have direct search
 links: `μηδεποτε` opens Book X, `ἤχθω` the circle-tangent argument, and `ἐπόγδοος`
 the six-tones experiment. Each matching workshop also links its recorded review.
 
@@ -50,7 +53,7 @@ keywords, with the project name or audience allowed as context. At least one
 word must identify the workshop itself. The catalogue does not combine aliases
 from different rooms to invent a matching reader. Direct workshop links appear
 during a matching search; the full index keeps its featured project links.
-These eight curated entries cover selected lessons in Stoicheia, Gonia and
+These ten curated entries cover selected lessons in Stoicheia, Gonia, Dioptra and
 Pyknon, rather than every room in the ancient-learning projects.
 
 The build checks the catalogue's fields, links, duplicate names, and thumbnail

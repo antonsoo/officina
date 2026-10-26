@@ -262,9 +262,12 @@ for (const [name, engine] of [
         });
         const prefix = `${out}/${name}-${width}-${c.id}`;
         try {
-          await page.goto(base);
+          const shared = new URL(base);
+          shared.searchParams.set("q", c.query);
+          shared.hash = "catalogue";
+          await page.goto(shared.href);
           const search = page.getByRole("searchbox", { name: "Find a tool" });
-          await search.waitFor();
+          await expect(search).toHaveValue(c.query);
           const catalogueRequests = [];
           page.on("request", (r) => {
             if (new URL(r.url()).pathname.endsWith("/projects.json")) catalogueRequests.push(r.url());
