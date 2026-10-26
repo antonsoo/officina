@@ -10,6 +10,14 @@ assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
   {
+    project: "dioptra",
+    id: "calix",
+    query: "minore pressura",
+    word: "minore pressura",
+    path: "/dioptra/calix.html",
+    heading: "Try the opening experiment",
+  },
+  {
     project: "stoicheia",
     id: "measure",
     query: "μηδεποτε",
@@ -201,6 +209,21 @@ async function operate(page, id) {
     await page.locator("#lg-find").click();
     await page.waitForFunction(() => document.querySelector("#lg-source-note").textContent.startsWith("Verified"));
     return { action: "same total with different named allocation; Sosandros located on the original printed page", source: await image(page, "#lg-source-image") };
+  }
+  if (id === "calix") {
+    assert.equal(await page.locator("#cx-flow-value").textContent(), "4 ×");
+    await page.locator("[data-preset=same]").focus();
+    await page.keyboard.press("Enter");
+    assert.equal(await page.locator("#cx-flow-value").textContent(), "1 ×");
+    await page.locator("#cx-record").click();
+    await page.locator("[data-preset=head]").click();
+    assert.equal(await page.locator("#cx-flow-value").textContent(), "2 ×");
+    await page.locator("#cx-record").click();
+    await expect(page.locator("#cx-trials tbody tr")).toHaveCount(2);
+    await page.selectOption("#cx-passage", "7");
+    await page.locator("#cx-find").click();
+    await page.waitForFunction(() => document.querySelector("#cx-source-status").textContent.includes("Source image verified"));
+    return { action: "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin", source: await image(page, "#cx-source-image") };
   }
   throw Error(`Unknown workshop ${id}`);
 }

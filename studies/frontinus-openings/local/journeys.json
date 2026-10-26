@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-26T08:30:19.746Z",
+  "base": "http://127.0.0.1:4500/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/a35ee679-a63a-40bc-ac21-2a98f1fd4ce2",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 124.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/f3e574b2-1111-4325-bfcf-b9663ddf20d0",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 412.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/f7e0d2ea-46cb-4451-8a43-54d966a84119",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 199.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "dioptra",
+      "workshop": "calix",
+      "query": "minore pressura",
+      "target": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "initialAddress": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+      "sourceWord": "minore pressura",
+      "interaction": {
+        "action": "equal delivery through four times the opening; then doubled delivery through the same opening; bronze calix located in Latin",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/339107cf-8f17-4fa7-b434-c12cdfd44150",
+          "width": 1209,
+          "height": 1900
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+      "nativeReviewHeadingTop": 584.5999755859375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}

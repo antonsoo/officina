@@ -9,6 +9,9 @@ const project = (name) => catalogue.find((p) => p.name === name);
 
 test("a source word identifies its actual workshop with case and accent folding", () => {
   for (const [name, query, id, pathname] of [
+    ["dioptra", "PRESSURA", "calix", "/dioptra/calix.html"],
+    ["dioptra", "quinaria", "calix", "/dioptra/calix.html"],
+    ["dioptra", "Frontinus", "calix", "/dioptra/calix.html"],
     ["stoicheia", "μηδεποτε", "measure", "/stoicheia/measure.html"],
     ["stoicheia", "ΗΧΘΩ", "horn", "/stoicheia/horn.html"],
     ["stoicheia", "sphaerae", "circle", "/stoicheia/circle.html"],
