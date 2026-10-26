@@ -270,7 +270,7 @@
   },
   {
     "name": "dioptra",
-    "description": "Calibrate Hero’s distance counter by trial: keep its pointers and change the distance scale. Read the Greek chapter and printed evidence; also measure water supply and tunnel routes.",
+    "description": "Calibrate Hero’s distance counter by trial: keep its pointers and change the distance scale. Compare Frontinus’s Latin pipe names, circular openings and relative delivery; also measure water supply and tunnel routes.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/dioptra",
     "demoUrl": "https://antonsoo.github.io/dioptra/counter.html#ct-workshop",
@@ -294,6 +294,31 @@
       "changing flow",
       "tunnel survey",
       "outside survey"
+    ],
+    "workshops": [
+      {
+        "id": "calix",
+        "title": "Double the bore · Frontinus’s pipe gauges",
+        "url": "https://antonsoo.github.io/dioptra/calix.html?rig=10.1.16.1&read=6#cx-workshop",
+        "reviewUrl": "https://github.com/antonsoo/dioptra/blob/d60abde570f3525890e1ff598acedac71b512fff/docs/calix-review.md#try-the-opening-experiment",
+        "searchTerms": [
+          "Frontinus",
+          "quinaria",
+          "quinariae",
+          "calix",
+          "pressura",
+          "minore pressura",
+          "lumine",
+          "senaria",
+          "denaria",
+          "modulus aeneus",
+          "quarter digits",
+          "constant head",
+          "pipe openings",
+          "diameter area",
+          "Roman water measurement"
+        ]
+      }
     ]
   },
   {
