@@ -1,7 +1,7 @@
 import "./fonts/fonts.css";
 import "./style.css";
 import type { Project } from "./types";
-import { filterProjects, groupNames, parseCatalogue } from "./catalogue";
+import { filterProjects, groupNames, matchingWorkshops, parseCatalogue } from "./catalogue";
 
 const app = document.getElementById("app")!;
 
@@ -50,6 +50,7 @@ function renderCard(p: Project): string {
       <div class="card-body">
         <span class="tag">${esc(p.group)}</span>
         <h3 class="card-name">${esc(p.name)}</h3>
+        ${p.workshops?.length ? `<section class="card-workshops" aria-label="${esc(p.name)} matching workshops" hidden><p class="workshop-label">Matching workshops</p><ul role="list">${p.workshops.map((w) => `<li data-workshop="${esc(w.id)}" hidden><a class="workshop-demo" href="${esc(w.url)}">${esc(w.title)}</a><a class="workshop-review" href="${esc(w.reviewUrl)}" aria-label="Recorded review: ${esc(w.title)}">Recorded review</a></li>`).join("")}</ul></section>` : ""}
         <p class="card-desc">${esc(p.description)}</p>
         ${
           p.study
@@ -125,6 +126,7 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
   const form = container.querySelector("form")!;
   const buttons = [...container.querySelectorAll<HTMLButtonElement>("[data-group]")];
   const cards = [...container.querySelectorAll<HTMLElement>("[data-project]")];
+  const byName = new Map(published.map((p) => [p.name, p]));
   const sections = [...container.querySelectorAll<HTMLElement>(".group")];
   const count = container.querySelector<HTMLElement>(".result-count")!;
   const empty = container.querySelector<HTMLElement>(".empty-results")!;
@@ -133,7 +135,19 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
   const update = (): void => {
     const matching = new Set(filterProjects(published, search.value, audience).map((p) => p.name));
     // Keep the controls and cards mounted so typing never steals focus or reloads images.
-    for (const card of cards) card.hidden = !matching.has(card.dataset.project!);
+    for (const card of cards) {
+      card.hidden = !matching.has(card.dataset.project!);
+      const workshops = card.querySelector<HTMLElement>(".card-workshops");
+      if (workshops) {
+        const ids = new Set(
+          matchingWorkshops(byName.get(card.dataset.project!)!, search.value).map((w) => w.id),
+        );
+        for (const row of workshops.querySelectorAll<HTMLElement>("[data-workshop]")) {
+          row.hidden = !ids.has(row.dataset.workshop!);
+        }
+        workshops.hidden = card.hidden || ids.size === 0;
+      }
+    }
     for (const section of sections) section.hidden = !section.querySelector(".card:not([hidden])");
     for (const button of buttons) {
       button.setAttribute("aria-pressed", String(button.dataset.group === audience));

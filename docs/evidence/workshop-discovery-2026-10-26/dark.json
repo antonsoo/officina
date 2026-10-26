@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-26T02:50:46.804Z",
+  "engine": "chromium",
+  "cases": [
+    {
+      "width": 1280,
+      "query": "Euclid",
+      "matched": 4,
+      "violations": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 375,
+      "query": "Euclid",
+      "matched": 4,
+      "violations": 0,
+      "horizontalOverflow": false
+    }
+  ]
+}

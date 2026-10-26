@@ -78,7 +78,13 @@ for (const [name, type] of [
         let queries = 0;
         for (const id of ids) {
           const card = catalogue.find((p) => p.name === id);
-          for (const query of [...new Set([...card.searchTerms, ...extra[id]])]) {
+          for (const query of [
+            ...new Set([
+              ...card.searchTerms,
+              ...(card.workshops ?? []).flatMap((w) => [w.title, ...w.searchTerms]),
+              ...extra[id],
+            ]),
+          ]) {
             await search.fill(query);
             await expect(page.locator(`[data-project="${id}"]`)).toBeVisible();
             await expect(search).toBeFocused();
@@ -141,7 +147,7 @@ await writeFile(
       checkedAt: new Date().toISOString(),
       base,
       scope:
-        "Actual native search inputs; every indexed term of the five featured lessons plus explicit older-topic and unaccented queries, link identities, music discovery and audience narrowing",
+        "Actual native search inputs; every indexed term and curated workshop title of five selected projects, plus explicit older-topic and unaccented queries, link identities, music discovery and audience narrowing",
       cases,
     },
     null,

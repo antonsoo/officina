@@ -10,10 +10,13 @@ so there is one link to share on Upwork or with a client instead of a
 dozen. Officina is Latin for workshop.
 
 Search by name, task, package registry or source term, and narrow the list by audience.
-Search stays in the page: it makes no requests and is not saved in the URL
-or browser storage. Clear filters returns to the full catalogue. Greek source
+Search filters the already downloaded catalogue without another data request;
+the query is not saved in the URL or browser storage. Clear filters returns to the full catalogue. Greek source
 terms such as `ἰσότονον` also work without accents (`ισοτονον`). Lesson names
 and source terms can stay indexed when a project features a different workshop.
+Eight curated geometry, architecture and music workshops now have direct search
+links: `μηδεποτε` opens Book X, `ἤχθω` the circle-tangent argument, and `ἐπόγδοος`
+the six-tones experiment. Each matching workshop also links its recorded review.
 
 ![The officina index page, showing the header and the Ancient world section](docs/assets/hero.png)
 
@@ -35,6 +38,21 @@ Optional `searchTerms` index source words and lesson names without filling the
 card description with keywords. Terms use the same case and accent folding as
 the visible text and combine with the audience filter.
 
+Optional `workshops` connect those searches to individual readers. Each entry
+has `id`, `title`, `url`, `reviewUrl`, and nonempty `searchTerms`. Use an immutable
+source revision and a heading anchor for `reviewUrl`. There may be at most twelve
+workshops per project; IDs are unique lowercase identifiers of at most forty
+characters, titles at most ninety, and keyword lists at most twenty-four unique
+terms of at most eighty characters. Both URLs must use HTTPS without credentials.
+
+A matching workshop must account for every query word in its own title and
+keywords, with the project name or audience allowed as context. At least one
+word must identify the workshop itself. The catalogue does not combine aliases
+from different rooms to invent a matching reader. Direct workshop links appear
+during a matching search; the full index keeps its featured project links.
+These eight curated entries cover selected lessons in Stoicheia, Gonia and
+Pyknon, rather than every room in the ancient-learning projects.
+
 The build checks the catalogue's fields, links, duplicate names, and thumbnail
 files. The browser validates the fetched data too; a failed load offers a
 retry and a link to the GitHub profile.
@@ -47,6 +65,10 @@ description. See the [2026-10-10 evidence audit](docs/evidence-audit-2026-10-10.
 The [source update history](docs/source-history.md) collects later fixes,
 workflow additions and their retained verification. Each record distinguishes
 source changes from package releases and hosted deployments.
+
+The [direct-workshop review](docs/workshop-discovery-2026-10-26.md) follows eight
+source-word or subject searches through a real lesson operation and its pinned
+review, in both browsers at desktop and phone widths.
 
 The [Archimedes circle workshop](docs/circle-2026-10-26.md) connects source-word
 search to an exact failed-proof experiment. Earlier Book X and construction
@@ -138,6 +160,18 @@ npm run test:browser
 The browser tests exercise the production build in Chromium and Firefox,
 including search, keyboard focus, load recovery, light/dark mobile layouts,
 accessibility checks, and Content-Security-Policy violations.
+
+To replay the eight curated journeys against a served build or the public site:
+
+```bash
+npm run test:workshops -- https://antonsoo.github.io/officina/ /tmp/officina-workshops
+node scripts/operated-search.mjs https://antonsoo.github.io/officina/ /tmp/officina-search
+```
+
+These journeys leave the catalogue for the public lessons and GitHub; they
+require the network. They exercise actual geometry, drawing and music controls,
+then follow the review's native heading anchor. They do not claim offline
+availability or physical audio output.
 
 ## Verify a static publication
 

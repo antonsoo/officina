@@ -1,4 +1,4 @@
-import type { Project } from "./types.ts";
+import type { Project, Workshop } from "./types.ts";
 import { GROUP_ORDER } from "./types.ts";
 
 function record(value: unknown, field: string): Record<string, unknown> {
@@ -22,6 +22,49 @@ function link(value: unknown, field: string): string {
     throw new Error(`${field} must be an HTTPS URL without credentials`);
   }
   return result;
+}
+
+function terms(value: unknown, field: string): string[] {
+  if (!Array.isArray(value) || value.length > 24) {
+    throw new Error(`${field} must be an array of at most 24 terms`);
+  }
+  const seen = new Set<string>();
+  return value.map((value: unknown) => {
+    const term = text(value, field);
+    if (term !== term.trim() || term.length > 80 || seen.has(searchable(term))) {
+      throw new Error(`${field} must contain unique trimmed terms of at most 80 characters`);
+    }
+    seen.add(searchable(term));
+    return term;
+  });
+}
+
+function workshops(value: unknown, field: string): Workshop[] {
+  if (!Array.isArray(value) || value.length > 12) {
+    throw new Error(`${field} must be an array of at most 12 workshops`);
+  }
+  const ids = new Set<string>();
+  return value.map((item: unknown) => {
+    const entry = record(item, field);
+    const id = text(entry.id, `${field}.id`);
+    if (!/^[a-z][a-z0-9-]{0,39}$/.test(id) || ids.has(id)) {
+      throw new Error(`${field}.id must be a unique lowercase identifier of at most 40 characters`);
+    }
+    ids.add(id);
+    const title = text(entry.title, `${field}.title`);
+    if (title !== title.trim() || title.length > 90) {
+      throw new Error(`${field}.title must be trimmed and at most 90 characters`);
+    }
+    const searchTerms = terms(entry.searchTerms, `${field}.searchTerms`);
+    if (!searchTerms.length) throw new Error(`${field}.searchTerms must identify the workshop`);
+    return {
+      id,
+      title,
+      url: link(entry.url, `${field}.url`),
+      reviewUrl: link(entry.reviewUrl, `${field}.reviewUrl`),
+      searchTerms,
+    };
+  });
 }
 
 /** Validate both at build time and at the fetch boundary; TypeScript cannot check JSON. */
@@ -69,18 +112,10 @@ export function parseCatalogue(value: unknown): Project[] {
       project.study = { finding, url: link(study.url, `${name}.study.url`) };
     }
     if (entry.searchTerms !== undefined) {
-      if (!Array.isArray(entry.searchTerms) || entry.searchTerms.length > 24) {
-        throw new Error(`${name}.searchTerms must be an array of at most 24 terms`);
-      }
-      const seen = new Set<string>();
-      project.searchTerms = entry.searchTerms.map((value: unknown) => {
-        const term = text(value, `${name}.searchTerms`);
-        if (term !== term.trim() || term.length > 80 || seen.has(searchable(term))) {
-          throw new Error(`${name}.searchTerms must contain unique trimmed terms of at most 80 characters`);
-        }
-        seen.add(searchable(term));
-        return term;
-      });
+      project.searchTerms = terms(entry.searchTerms, `${name}.searchTerms`);
+    }
+    if (entry.workshops !== undefined) {
+      project.workshops = workshops(entry.workshops, `${name}.workshops`);
     }
     return project;
   });
@@ -114,8 +149,23 @@ export function filterProjects(projects: readonly Project[], query = "", group =
         project.package?.registry ?? "",
         project.study?.finding ?? "",
         ...(project.searchTerms ?? []),
+        ...(project.workshops?.flatMap((w) => [w.title, ...w.searchTerms]) ?? []),
       ].join(" "),
     );
     return words.every((word) => haystack.includes(word));
+  });
+}
+
+/** Match one actual reader, without letting aliases from another room stand in for it. */
+export function matchingWorkshops(project: Project, query: string): Workshop[] {
+  const words = searchable(query).trim().split(/\s+/).filter(Boolean);
+  if (!words.length || project.status !== "published") return [];
+  const context = searchable(`${project.name} ${project.group}`);
+  return (project.workshops ?? []).filter((workshop) => {
+    const haystack = searchable([workshop.title, ...workshop.searchTerms].join(" "));
+    return (
+      words.some((word) => haystack.includes(word)) &&
+      words.every((word) => context.includes(word) || haystack.includes(word))
+    );
   });
 }

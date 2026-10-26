@@ -211,9 +211,57 @@ test("cards state their recorded evidence and link to its source revision", asyn
   await expect(studies).toHaveCount(visible.filter((project) => project.study).length);
   const flakemap = page.locator('[data-project="flakemap"] .card-study a');
   await expect(flakemap).toContainText("Recorded evidence");
-  await expect(flakemap).toHaveAttribute("href", /github\.com\/antonsoo\/flakemap\/tree\/[0-9a-f]{40}\/studies\//);
+  await expect(flakemap).toHaveAttribute(
+    "href",
+    /github\.com\/antonsoo\/flakemap\/tree\/[0-9a-f]{40}\/studies\//,
+  );
   // The finding is searchable like the description.
   await search(page).fill("independent identity");
   await expect(cards(page)).toHaveCount(1);
   await expect(page.locator('[data-project="flakemap"]')).toBeVisible();
+});
+
+test("source-word searches expose keyboard-accessible links to the matching reader", async ({ page }) => {
+  await page.goto("./");
+  const search = page.getByRole("searchbox", { name: "Find a tool" });
+  await search.fill("μηδεποτε");
+  const card = page.locator('[data-project="stoicheia"]');
+  const link = card.locator('[data-workshop="measure"] .workshop-demo');
+  await expect(link).toBeVisible();
+  await expect(link).toHaveAttribute("href", /\/measure\.html#/);
+  await expect(card.locator('[data-workshop="horn"]')).toBeHidden();
+  await expect(search).toBeFocused();
+  for (let i = 0; i < 12 && !(await link.evaluate((e) => e === document.activeElement)); i++)
+    await page.keyboard.press("Tab");
+  await expect(link).toBeFocused();
+  await expect(card.locator('[data-workshop="measure"] .workshop-review')).toHaveAttribute(
+    "href",
+    /\/blob\/[a-f0-9]{40}\/docs\/measure-review\.md#/,
+  );
+});
+
+test("matching workshop nodes survive searches and clear without leaking unrelated links", async ({
+  page,
+}) => {
+  await page.goto("./");
+  const search = page.getByRole("searchbox", { name: "Find a tool" });
+  await search.fill("μηδέποτε");
+  await page.locator('[data-workshop="measure"] .workshop-demo').evaluate((e) => {
+    window.originalWorkshopLink = e;
+  });
+  await search.fill("horn angle");
+  await expect(page.locator('[data-workshop="horn"] .workshop-demo')).toBeVisible();
+  await expect(page.locator('[data-workshop="measure"] .workshop-demo')).toBeHidden();
+  await search.fill("μηδέποτε 591.15");
+  await expect(page.locator('[data-project="stoicheia"]')).toBeVisible();
+  await expect(page.locator(".card-workshops:visible")).toHaveCount(0);
+  await page.getByRole("button", { name: "Clear filters" }).click();
+  await expect(page.locator(".card-workshops:visible")).toHaveCount(0);
+  await expect(search).toBeFocused();
+  await search.fill("μηδέποτε");
+  expect(
+    await page
+      .locator('[data-workshop="measure"] .workshop-demo')
+      .evaluate((e) => e === window.originalWorkshopLink),
+  ).toBe(true);
 });

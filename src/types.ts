@@ -1,3 +1,11 @@
+export interface Workshop {
+  id: string;
+  title: string;
+  url: string;
+  reviewUrl: string;
+  searchTerms: string[];
+}
+
 export interface Project {
   name: string;
   description: string;
@@ -13,6 +21,8 @@ export interface Project {
   study?: { finding: string; url: string };
   /** Source words and lesson names that need not all fit in the card description. */
   searchTerms?: string[];
+  /** Specific readers surfaced when their title or source terms match a search. */
+  workshops?: Workshop[];
 }
 
 /** Display order for groups - anything not listed sorts after, alphabetically. */
