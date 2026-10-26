@@ -455,6 +455,23 @@
     ],
     "workshops": [
       {
+        "id": "quadratrix",
+        "title": "The point the motion cannot draw · Pappus",
+        "url": "https://antonsoo.github.io/stoicheia/quadratrix.html?tick=999999&timing=together&limit=1&reading=6&page=254#qx-bench",
+        "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/3168a3ee3390d44a5fda26be5acd052f1bb0fab4/docs/quadratrix-review.md#what-changed-for-the-learner",
+        "searchTerms": [
+          "quadratrix",
+          "Pappus",
+          "Sporus",
+          "πέρας",
+          "οὐκέτι",
+          "coincident lines",
+          "squaring the circle",
+          "limiting point",
+          "uniform motion"
+        ]
+      },
+      {
         "id": "horn",
         "title": "A line that will not fit · Euclid III.16",
         "url": "https://antonsoo.github.io/stoicheia/horn.html?rise=1&run=1000000&focus=foot&read=3&page=210#hn-bench",

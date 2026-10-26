@@ -10,6 +10,10 @@ assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
   {
+    project: "stoicheia", id: "quadratrix", query: "ουκετι", word: "οὐκέτι",
+    path: "/stoicheia/quadratrix.html", heading: "What changed for the learner",
+  },
+  {
     project: "dioptra",
     id: "calix",
     query: "minore pressura",
@@ -100,6 +104,16 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if (id === "quadratrix") {
+    assert.equal(await page.locator("#qx-time").inputValue(), "999999");
+    assert.equal(await page.locator(".qx-z").count(), 1);
+    await page.locator('[data-qx-time="1000000"]').focus();
+    await page.keyboard.press("Enter");
+    assert.match(await page.locator("#qx-verdict").textContent(), /lines coincide/);
+    assert.equal(await page.locator(".qx-z").count(), 0);
+    assert.equal(await page.locator(".qx-limit").count(), 1);
+    return { action: "positive-time crossing compared with final coincident lines; separately added H retained", source: await image(page, "#qx-source-image") };
+  }
   if (id === "measure") {
     await expect(page.locator("#mr-n")).toHaveValue("577");
     await page.locator("#mr-fit").focus();
