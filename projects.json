@@ -172,6 +172,42 @@
       "ἰσοστρόφους",
       "Pythagoras",
       "square root"
+    ],
+    "workshops": [
+      {
+        "id": "canon",
+        "title": "Six tones and an octave · Sectio canonis",
+        "url": "https://antonsoo.github.io/pyknon/canon.html?n=6&a=220&sound=beat&p=1&page=174#canon",
+        "reviewUrl": "https://github.com/antonsoo/pyknon/blob/b49326e354d74c9c06583c8343357b2e88729192/docs/canon-review.md#try-the-result",
+        "searchTerms": [
+          "six tones",
+          "Sectio canonis",
+          "Pythagorean comma",
+          "ἐπόγδοος",
+          "sesqueoctavus",
+          "sesqueoctavum",
+          "diapason",
+          "9:8",
+          "Euclid"
+        ]
+      },
+      {
+        "id": "trial",
+        "title": "Equal lengths. Unequal notes. · Ptolemy",
+        "url": "https://antonsoo.github.io/pyknon/trial.html?string=outer&density=2.25&test=0&a=110&p=2&page=37#trial",
+        "reviewUrl": "https://github.com/antonsoo/pyknon/blob/b49326e354d74c9c06583c8343357b2e88729192/docs/trial-review.md#what-the-learner-can-do",
+        "searchTerms": [
+          "string examination",
+          "equal halves",
+          "right-hand quarters",
+          "ἰσότονον",
+          "aequitona",
+          "δοκιμασίαν",
+          "uniform string",
+          "Ptolemy I.8",
+          "Wallis"
+        ]
+      }
     ]
   },
   {
@@ -296,6 +332,38 @@
       "Vitruvius X.6",
       "column flute",
       "stone transport"
+    ],
+    "workshops": [
+      {
+        "id": "fluting",
+        "title": "The cut inside a column · Fluting",
+        "url": "https://antonsoo.github.io/gonia/fluting.html#fluting-workshop",
+        "reviewUrl": "https://github.com/antonsoo/gonia/blob/7fab06429b9834fd1b2bc8409067e3460112fb61/docs/fluting-review.md#what-can-be-learned",
+        "searchTerms": [
+          "column flute",
+          "fluting",
+          "ῥαβδώσεως",
+          "ῥάβδωσις",
+          "carpenter square",
+          "striarum",
+          "Doric square",
+          "Ionic flute"
+        ]
+      },
+      {
+        "id": "entasis",
+        "title": "The curve inside the taper · Entasis",
+        "url": "https://antonsoo.github.io/gonia/entasis.html#entasis-workshop",
+        "reviewUrl": "https://github.com/antonsoo/gonia/blob/7fab06429b9834fd1b2bc8409067e3460112fb61/docs/entasis-review.md#what-can-be-learned",
+        "searchTerms": [
+          "entasis",
+          "Penrose",
+          "Parthenon",
+          "measured taper",
+          "hyperbola",
+          "true scale"
+        ]
+      }
     ]
   },
   {
@@ -335,6 +403,75 @@
       "circles lines crossings wrong branch undo",
       "Archimedes circle measurement polygon bounds",
       "κύκλου sphaerae 591.15 2017.24"
+    ],
+    "workshops": [
+      {
+        "id": "horn",
+        "title": "A line that will not fit · Euclid III.16",
+        "url": "https://antonsoo.github.io/stoicheia/horn.html?rise=1&run=1000000&focus=foot&read=3&page=210#hn-bench",
+        "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/horn-review.md#what-the-learner-can-do",
+        "searchTerms": [
+          "horn angle",
+          "circle tangent",
+          "Euclid III.16",
+          "ἤχθω",
+          "παρεμπεσεῖται",
+          "ducatur",
+          "curved gap"
+        ]
+      },
+      {
+        "id": "circle",
+        "title": "Keep the safe side · Archimedes",
+        "url": "https://antonsoo.github.io/stoicheia/circle.html?stage=4&branch=outer&read=0&page=263#ci-readings",
+        "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+        "searchTerms": [
+          "circle measurement",
+          "Archimedes",
+          "polygon bounds",
+          "591.15",
+          "2017.24",
+          "κύκλου",
+          "sphaerae"
+        ]
+      },
+      {
+        "id": "measure",
+        "title": "A common measure · Euclid X.2–3",
+        "url": "https://antonsoo.github.io/stoicheia/measure.html#kind=fraction&n=577&d=408&row=0&copies=0&passage=3&page=6",
+        "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/measure-review.md#what-the-learner-can-do",
+        "searchTerms": [
+          "common measure",
+          "Book X",
+          "Euclid X.2",
+          "Euclid X.3",
+          "anthyphairesis",
+          "ἀνθυφαιρουμένου",
+          "μηδέποτε",
+          "nunquam",
+          "σύμμετρα",
+          "577/408",
+          "square diagonal",
+          "rationalis",
+          "incommensurable",
+          "commensurabiles"
+        ]
+      },
+      {
+        "id": "desk",
+        "title": "Make I.2 yourself · Construction desk",
+        "url": "https://antonsoo.github.io/stoicheia/desk.html",
+        "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/desk-review.md#try-an-actual-construction",
+        "searchTerms": [
+          "restricted compass",
+          "Euclid I.2",
+          "construction desk",
+          "wrong branch",
+          "circles lines crossings",
+          "undo",
+          "equal remainders"
+        ]
+      }
     ]
   },
   {
