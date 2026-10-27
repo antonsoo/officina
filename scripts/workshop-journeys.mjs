@@ -10,6 +10,10 @@ assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
   {
+    project: "pyknon", id: "vina", query: "dve vine", word: "dve vīṇe",
+    path: "/pyknon/vina.html", heading: "What changed for the learner",
+  },
+  {
     project: "gonia", id: "babylon", query: "nindanu", word: "nindanu",
     path: "/gonia/babylon.html", heading: "What changed for the learner",
   },
@@ -108,6 +112,28 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if (id === "vina") {
+    await expect(page.locator("#vn-tuning")).toHaveValue("comma");
+    await expect(page.locator("#vn-pair")).toContainText("244.4444 Hz");
+    await page.locator("#vn-change").focus();
+    await page.keyboard.press("Enter");
+    await expect(page.locator("#vn-tuning")).toHaveValue("quarter");
+    await expect(page.locator("#vn-pair")).toContainText("240.3184 Hz");
+    await expect(page.locator("#vn-validity")).toContainText("ordered matches survive");
+    await page.locator('[data-vn-stage="4"]').focus();
+    await page.keyboard.press("Enter");
+    await expect(page.locator("#vn-verdict")).toContainText("Sa → Ni↓; Ma → Ga; Pa → Ma");
+    await page.locator("#vn-read-stage").focus();
+    await page.keyboard.press("Enter");
+    await expect(page.locator("#vn-reading-choice")).toHaveValue("5");
+    await expect(page.locator("#vn-reading-text")).toContainText("lower octave");
+    await expect(page.locator("#vn-source-status")).toContainText("Verified");
+    assert.equal(await page.locator("#vn-page").inputValue(), "29");
+    return {
+      action: "keyboard-change preparation: second-stage Ga–Ri remains a match at 244.4444 then 240.3184 Hz; fourth-stage three matches, corresponding Sanskrit reading and verified complete source",
+      source: await image(page, "#vn-source-image"),
+    };
+  }
   if (id === "babylon") {
     await expect(page.locator("#bb-supplied")).not.toBeChecked();
     assert.match(await page.locator("#bb-total").textContent(), /84 m.*Total unresolved/);
