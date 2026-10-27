@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-27T04:40:38.366Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "ratios",
+      "query": "οποιονουν",
+      "target": "https://antonsoo.github.io/stoicheia/ratios.html?kind=fraction&p=99&q=70&m=7&n=10&bound=69&reading=3&page=2#rt-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/ratios.html?kind=fraction&p=99&q=70&m=7&n=10&bound=69&reading=3&page=2#rt-bench",
+      "sourceWord": "ὁποιονοῦν",
+      "interaction": {
+        "action": "4,761 agreeing comparisons through 69; keyboard-expanded search finds the exact 70/99 equality counterexample, distinguished from a V.7 strict-excess witness",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/c82f6baf-acf2-4db9-8928-0e8bb73f808d",
+          "width": 1136,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/7082a2edabff8e6f9c24db82cc484bc9c5d4a7f8/docs/ratios-review.md#direct-review-of-the-book-v-ratio-workshop",
+      "nativeReviewHeadingTop": 376,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "ratios",
+      "query": "οποιονουν",
+      "target": "https://antonsoo.github.io/stoicheia/ratios.html?kind=fraction&p=99&q=70&m=7&n=10&bound=69&reading=3&page=2#rt-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/ratios.html?kind=fraction&p=99&q=70&m=7&n=10&bound=69&reading=3&page=2#rt-bench",
+      "sourceWord": "ὁποιονοῦν",
+      "interaction": {
+        "action": "4,761 agreeing comparisons through 69; keyboard-expanded search finds the exact 70/99 equality counterexample, distinguished from a V.7 strict-excess witness",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/b185c8f0-3cd8-4813-8dd1-af3368afe1b6",
+          "width": 1136,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/7082a2edabff8e6f9c24db82cc484bc9c5d4a7f8/docs/ratios-review.md#direct-review-of-the-book-v-ratio-workshop",
+      "nativeReviewHeadingTop": 445,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "ratios",
+      "query": "οποιονουν",
+      "target": "https://antonsoo.github.io/stoicheia/ratios.html?kind=fraction&p=99&q=70&m=7&n=10&bound=69&reading=3&page=2#rt-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/ratios.html?kind=fraction&p=99&q=70&m=7&n=10&bound=69&reading=3&page=2#rt-bench",
+      "sourceWord": "ὁποιονοῦν",
+      "interaction": {
+        "action": "4,761 agreeing comparisons through 69; keyboard-expanded search finds the exact 70/99 equality counterexample, distinguished from a V.7 strict-excess witness",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/b33bd977-1df0-4844-8578-d4e652e87306",
+          "width": 1136,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/7082a2edabff8e6f9c24db82cc484bc9c5d4a7f8/docs/ratios-review.md#direct-review-of-the-book-v-ratio-workshop",
+      "nativeReviewHeadingTop": 145,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "ratios",
+      "query": "οποιονουν",
+      "target": "https://antonsoo.github.io/stoicheia/ratios.html?kind=fraction&p=99&q=70&m=7&n=10&bound=69&reading=3&page=2#rt-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/ratios.html?kind=fraction&p=99&q=70&m=7&n=10&bound=69&reading=3&page=2#rt-bench",
+      "sourceWord": "ὁποιονοῦν",
+      "interaction": {
+        "action": "4,761 agreeing comparisons through 69; keyboard-expanded search finds the exact 70/99 equality counterexample, distinguished from a V.7 strict-excess witness",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/d74dd536-6b87-4e39-8080-5fd7de244b7a",
+          "width": 1136,
+          "height": 1800
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/7082a2edabff8e6f9c24db82cc484bc9c5d4a7f8/docs/ratios-review.md#direct-review-of-the-book-v-ratio-workshop",
+      "nativeReviewHeadingTop": 154,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
