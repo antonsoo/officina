@@ -137,7 +137,7 @@
   },
   {
     "name": "pyknon",
-    "description": "Test Nicomachus’s weighted strings: equal lengths, different loads, and a square root between weight and pitch. Read Greek and Meibom’s Latin; explore tetrachords, string trials, six primary times and Seikilos too.",
+    "description": "Hear ancient musical arguments: weighted strings, tetrachords and Seikilos in Greek; a two-instrument matching argument in Sanskrit. Operate explicit modern models and read the printed evidence.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/pyknon",
     "demoUrl": "https://antonsoo.github.io/pyknon/tension.html?w=8,9,12&n=3&a=220&sound=compare&p=0&page=jan-247#weights",
@@ -206,6 +206,29 @@
           "uniform string",
           "Ptolemy I.8",
           "Wallis"
+        ]
+      },
+      {
+        "id": "vina",
+        "title": "Same matches. Different pitches. · Two vinas",
+        "url": "https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench",
+        "reviewUrl": "https://github.com/antonsoo/pyknon/blob/624cb6a79ae18c8547c6888687eb139a136fecd5/docs/vina-review.md#what-changed-for-the-learner",
+        "searchTerms": [
+          "dve vīṇe",
+          "two vinas",
+          "two instruments",
+          "Nāṭyaśāstra",
+          "Natyashastra",
+          "Bharata",
+          "Bernard Bel",
+          "śruti",
+          "shruti",
+          "pramāṇa",
+          "grāma",
+          "same matches different pitches",
+          "twenty-two counts",
+          "Ga Ri",
+          "Sanskrit music"
         ]
       }
     ]
