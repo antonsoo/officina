@@ -621,3 +621,57 @@ footer a {
     padding-inline: 10px;
   }
 }
+
+/* A specific workshop search should describe that activity at a readable width. */
+.card[data-matches-workshops="true"] {
+  grid-column: 1 / -1;
+}
+.card[data-matches-workshops="true"] .card-name {
+  font-size: 14px;
+  color: var(--ink-muted);
+}
+.card-workshops li {
+  padding: 20px 0;
+  border-top: 1px solid var(--border-hairline);
+}
+.card-workshops li + li {
+  margin-top: 0;
+}
+.card-workshops li:has(.workshop-thumb) {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+}
+.workshop-thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border-hairline);
+}
+.workshop-summary {
+  margin: 9px 0;
+  font-size: 16px;
+  line-height: 1.65;
+  max-width: 76ch;
+}
+.card[data-matches-workshops="true"] .workshop-demo {
+  font-size: 24px;
+  max-width: 55ch;
+}
+.card[data-matches-workshops="true"] .card-links {
+  margin-top: 0;
+  font-size: 13px;
+}
+@media (max-width: 650px) {
+  .card-workshops li:has(.workshop-thumb) {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .card[data-matches-workshops="true"] .workshop-demo {
+    font-size: 20px;
+  }
+  .workshop-summary {
+    font-size: 15.5px;
+  }
+}

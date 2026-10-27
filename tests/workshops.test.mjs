@@ -71,10 +71,22 @@ test("workshop metadata rejects ambiguous identities, unsafe links and malformed
     [w, w],
     [{ ...w, id: "../horn" }],
     [{ ...w, title: " " }],
+    [{ ...w, summary: " " }],
+    [{ ...w, summary: "a".repeat(321) }],
+    [{ ...w, thumbnail: "../image.png" }],
+    [{ ...w, thumbnail: "https://example.test/plate.png" }],
     [{ ...w, url: "javascript:alert(1)" }],
     [{ ...w, reviewUrl: "https://user:password@example.com/" }],
     [{ ...w, searchTerms: [] }],
     [{ ...w, searchTerms: ["ἤχθω", "ηχθω"] }],
   ])
     assert.throws(() => parseCatalogue([{ ...p, workshops: bad }]));
+});
+
+test("workshop summaries survive validation and can identify the specific activity", () => {
+  const p = project("stoicheia");
+  const matches = matchingWorkshops(p, "finite agreement universal condition");
+  assert.deepEqual(matches.map(w => w.id), ["ratios"]);
+  assert(matches[0].summary.includes("4,761"));
+  assert.equal(matches[0].thumbnail, "thumbs/stoicheia-ratios.png");
 });

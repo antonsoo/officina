@@ -10,6 +10,10 @@ assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
   {
+    project: "syngraphe", id: "arsenal", query: "συν τωι παχει", word: "σὺν τῶι πάχει",
+    path: "/syngraphe/", heading: "Try the actual work",
+  },
+  {
     project: "stoicheia", id: "ratios", query: "οποιονουν", word: "ὁποιονοῦν",
     path: "/stoicheia/ratios.html", heading: "Direct review of the Book V ratio workshop",
   },
@@ -116,6 +120,21 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if (id === "arsenal") {
+    await expect(page.locator("#width-result")).toContainText("60½ feet");
+    await page.locator("#side-inclusive").focus();await page.keyboard.press("Space");
+    await expect(page.locator("#width-result")).toContainText("55 feet");
+    await page.locator("#fit-total").focus();await page.keyboard.press("Enter");
+    await expect(page.locator("#height-result")).toContainText("contradicts");
+    await page.locator("#first-five").focus();await page.keyboard.press("Space");
+    await page.locator("#fit-total").focus();await page.keyboard.press("Enter");
+    await expect(page.locator("#height-result")).toContainText("exception is observed");
+    await page.locator('[data-reading="1"]').focus();await page.keyboard.press("Enter");
+    await expect(page.locator("#reading-greek")).toContainText("σὺν τῶι πάχει");
+    await page.locator('#reading-pages [data-page="34"]').focus();await page.keyboard.press("Enter");
+    await expect(page.locator("#source-status")).toContainText("Verified whole");
+    return { action: "inclusive width closes fifty-five feet; a thirty-foot total first hides the wrong segment, then the five-foot exception is observed; corresponding Greek and complete verified page", source: await image(page,"#source-image") };
+  }
   if (id === "ratios") {
     await expect(page.locator("#rt-bound")).toHaveValue("69");
     await expect(page.locator("#rt-scan-result")).toContainText("4,761");
@@ -376,6 +395,17 @@ for (const [name, engine] of [
               [],
             );
           }
+          const preview = row.locator(".workshop-thumb");
+          if (await preview.count()) {
+            await preview.scrollIntoViewIfNeeded();
+            await preview.evaluate(i => i.decode());
+            await search.focus();
+          }
+          await expect(row.locator(".workshop-summary")).toBeVisible();
+          await expect(page.locator(`[data-project="${c.project}"] .card-desc`)).toBeHidden();
+          // Fixed offscreen skip links can appear inside a full-document capture
+          // when the visual viewport was scrolled. Capture from document top.
+          await page.evaluate(() => scrollTo(0, 0));
           if (name === "chromium") await page.screenshot({ path: `${prefix}-search.png`, fullPage: true });
           await row.locator(".workshop-demo").focus();
           await page.keyboard.press("Enter");

@@ -4,6 +4,9 @@ export interface Workshop {
   url: string;
   reviewUrl: string;
   searchTerms: string[];
+  /** What the visitor can actually do in this workshop. */
+  summary?: string;
+  thumbnail?: string;
 }
 
 export interface Project {

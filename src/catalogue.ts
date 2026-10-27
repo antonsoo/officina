@@ -57,13 +57,26 @@ function workshops(value: unknown, field: string): Workshop[] {
     }
     const searchTerms = terms(entry.searchTerms, `${field}.searchTerms`);
     if (!searchTerms.length) throw new Error(`${field}.searchTerms must identify the workshop`);
-    return {
+    const workshop: Workshop = {
       id,
       title,
       url: link(entry.url, `${field}.url`),
       reviewUrl: link(entry.reviewUrl, `${field}.reviewUrl`),
       searchTerms,
     };
+    if (entry.summary !== undefined) {
+      const summary = text(entry.summary, `${field}.summary`);
+      if (summary !== summary.trim() || summary.length > 320)
+        throw new Error(`${field}.summary must be trimmed and at most 320 characters`);
+      workshop.summary = summary;
+    }
+    if (entry.thumbnail !== undefined) {
+      const thumbnail = text(entry.thumbnail, `${field}.thumbnail`);
+      if (!/^thumbs\/(?:[\w-]+\/)*[\w-]+\.(?:webp|png|jpe?g|avif)$/.test(thumbnail))
+        throw new Error(`${field}.thumbnail must be an image path under thumbs/`);
+      workshop.thumbnail = thumbnail;
+    }
+    return workshop;
   });
 }
 
@@ -149,7 +162,7 @@ export function filterProjects(projects: readonly Project[], query = "", group =
         project.package?.registry ?? "",
         project.study?.finding ?? "",
         ...(project.searchTerms ?? []),
-        ...(project.workshops?.flatMap((w) => [w.title, ...w.searchTerms]) ?? []),
+        ...(project.workshops?.flatMap((w) => [w.title, w.summary ?? "", ...w.searchTerms]) ?? []),
       ].join(" "),
     );
     return words.every((word) => haystack.includes(word));
@@ -162,7 +175,7 @@ export function matchingWorkshops(project: Project, query: string): Workshop[] {
   if (!words.length || project.status !== "published") return [];
   const context = searchable(`${project.name} ${project.group}`);
   return (project.workshops ?? []).filter((workshop) => {
-    const haystack = searchable([workshop.title, ...workshop.searchTerms].join(" "));
+    const haystack = searchable([workshop.title, workshop.summary ?? "", ...workshop.searchTerms].join(" "));
     return (
       words.some((word) => haystack.includes(word)) &&
       words.every((word) => context.includes(word) || haystack.includes(word))

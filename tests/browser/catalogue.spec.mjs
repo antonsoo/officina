@@ -265,3 +265,26 @@ test("matching workshop nodes survive searches and clear without leaking unrelat
       .evaluate((e) => e === window.originalWorkshopLink),
   ).toBe(true);
 });
+
+test("a specific workshop search keeps its own activity and restores the umbrella details on clear", async ({page}) => {
+  await page.goto("./");
+  const card = page.locator('[data-project="stoicheia"]');
+  await expect(card.locator('.card-thumb')).toBeVisible();
+  await search(page).fill("οποιονουν");
+  const row = card.locator('[data-workshop="ratios"]');
+  await expect(row).toBeVisible();
+  await expect(row.locator('.workshop-summary')).toContainText("4,761");
+  await expect(row.locator('img')).toHaveAttribute('src',/stoicheia-ratios/);
+  await expect(card.locator('.card-thumb')).toBeHidden();
+  await expect(card.locator('.card-desc')).toBeHidden();
+  await expect(card.locator('.card-study')).toBeHidden();
+  await expect(card.locator('[data-project-demo]')).toHaveText('Project demo');
+  await expect(card.locator('[data-project-demo]')).toHaveAttribute('href',/circle.html/);
+  await expect(row.locator('.workshop-demo')).toHaveAttribute('href',/ratios.html/);
+  await expect(search(page)).toBeFocused();
+  await page.getByRole('button',{name:'Clear filters'}).click();
+  await expect(card.locator('.card-thumb')).toBeVisible();
+  await expect(card.locator('.card-desc')).toBeVisible();
+  await expect(card.locator('.card-study')).toBeVisible();
+  await expect(row).toBeHidden();
+});

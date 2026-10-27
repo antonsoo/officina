@@ -6,6 +6,12 @@ All notable changes to this project are documented in this file.
 
 ### Added
 
+- Read a matching workshop’s own activity summary and actual preview in a wider
+  result. Clear restores the project overview, and project links are labeled
+  separately from the matched workshop.
+- Discover Syngraphe through its Greek building clauses and operate the inclusive
+  width and exceptional first-segment experiments with a pinned source review.
+
 - Find Euclid V.5 by its Greek or Latin words, compare 4,761 agreeing trials with
   an exact counterexample, and open the pinned source-and-operation review.
 

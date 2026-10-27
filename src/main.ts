@@ -1,6 +1,6 @@
 import "./fonts/fonts.css";
 import "./style.css";
-import type { Project } from "./types";
+import type { Project, Workshop } from "./types";
 import { filterProjects, groupNames, matchingWorkshops, parseCatalogue } from "./catalogue";
 
 const app = document.getElementById("app")!;
@@ -30,9 +30,19 @@ function toggleTheme(): void {
   }
 }
 
+function renderWorkshop(w: Workshop): string {
+  const base = import.meta.env.BASE_URL;
+  return `<li data-workshop="${esc(w.id)}" hidden>
+    ${w.thumbnail ? `<img class="workshop-thumb" src="${base}${esc(w.thumbnail)}" alt="${esc(w.title)}: actual workshop view" loading="lazy" width="1440" height="1000" />` : ""}
+    <div class="workshop-text"><a class="workshop-demo" href="${esc(w.url)}">${esc(w.title)}</a>
+    ${w.summary ? `<p class="workshop-summary">${esc(w.summary)}</p>` : ""}
+    <a class="workshop-review" href="${esc(w.reviewUrl)}" aria-label="Recorded review: ${esc(w.title)}">Recorded review</a></div>
+  </li>`;
+}
+
 function renderCard(p: Project): string {
   const base = import.meta.env.BASE_URL;
-  const links = [`<a href="${esc(p.repoUrl)}">Source</a>`];
+  const links = [`<a data-project-source href="${esc(p.repoUrl)}">Source</a>`];
   if (p.package) {
     links.unshift(`<a href="${esc(p.package.url)}">${esc(p.package.registry)}</a>`);
   }
@@ -40,7 +50,7 @@ function renderCard(p: Project): string {
     links.unshift(`<a href="${esc(p.spaceUrl)}">Hugging Face</a>`);
   }
   if (p.demoUrl) {
-    links.unshift(`<a href="${esc(p.demoUrl)}">Live demo</a>`);
+    links.unshift(`<a data-project-demo href="${esc(p.demoUrl)}">Live demo</a>`);
   }
   return `
     <li class="card" data-project="${esc(p.name)}">
@@ -50,7 +60,7 @@ function renderCard(p: Project): string {
       <div class="card-body">
         <span class="tag">${esc(p.group)}</span>
         <h3 class="card-name">${esc(p.name)}</h3>
-        ${p.workshops?.length ? `<section class="card-workshops" aria-label="${esc(p.name)} matching workshops" hidden><p class="workshop-label">Matching workshops</p><ul role="list">${p.workshops.map((w) => `<li data-workshop="${esc(w.id)}" hidden><a class="workshop-demo" href="${esc(w.url)}">${esc(w.title)}</a><a class="workshop-review" href="${esc(w.reviewUrl)}" aria-label="Recorded review: ${esc(w.title)}">Recorded review</a></li>`).join("")}</ul></section>` : ""}
+        ${p.workshops?.length ? `<section class="card-workshops" aria-label="${esc(p.name)} matching workshops" hidden><p class="workshop-label">Matching workshops</p><ul role="list">${p.workshops.map(renderWorkshop).join("")}</ul></section>` : ""}
         <p class="card-desc">${esc(p.description)}</p>
         ${
           p.study
@@ -168,10 +178,18 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
         const ids = new Set(
           matchingWorkshops(byName.get(card.dataset.project!)!, search.value).map((w) => w.id),
         );
+        const hasMatches = !card.hidden && ids.size > 0;
         for (const row of workshops.querySelectorAll<HTMLElement>("[data-workshop]")) {
           row.hidden = !ids.has(row.dataset.workshop!);
         }
-        workshops.hidden = card.hidden || ids.size === 0;
+        workshops.hidden = !hasMatches;
+        card.dataset.matchesWorkshops = String(hasMatches);
+        const projectDemo = card.querySelector("[data-project-demo]");
+        if (projectDemo) projectDemo.textContent = hasMatches ? "Project demo" : "Live demo";
+        const projectSource = card.querySelector("[data-project-source]");
+        if (projectSource) projectSource.textContent = hasMatches ? "Project source" : "Source";
+        for (const rootDetail of card.querySelectorAll<HTMLElement>(".card-thumb, .card-desc, .card-study"))
+          rootDetail.hidden = hasMatches;
       }
     }
     for (const section of sections) section.hidden = !section.querySelector(".card:not([hidden])");
