@@ -9,6 +9,7 @@ const base = process.argv[2],
 assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
+  {project:"pyknon",id:"halves",query:"superparticularis",word:"ἀνάλογον",path:"/pyknon/halves.html",heading:"Try the actual work"},
   {
     project: "syngraphe", id: "arsenal", query: "συν τωι παχει", word: "σὺν τῶι πάχει",
     path: "/syngraphe/", heading: "Try the actual work",
@@ -120,6 +121,19 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if(id==="halves"){
+    await expect(page.locator("#hf-result")).toContainText("First 17/16; second 18/17");
+    await page.locator('[data-hf-method="ratio"]').focus();await page.keyboard.press("Enter");
+    await expect(page.locator("#hf-result")).toContainText("ratios are equal");
+    await expect(page.locator("#hf-result")).toContainText("12√2");
+    await page.locator("#hf-control").focus();await page.keyboard.press("Enter");
+    await expect(page.locator("#hf-result")).toContainText("First 3/2; second 3/2");
+    await expect(page.locator("#hf-proof")).toContainText("outside III’s premise");
+    await page.locator("#hf-reading").selectOption("6");
+    await expect(page.locator("#hf-passage")).toContainText("non dividetur");
+    await expect(page.locator("#hf-source-status")).toContainText("Verified complete");
+    return {action:"17/16 differs from 18/17; keyboard geometric middle gives 12√2 and equal ratios; 4–6–9 control lies outside III’s premise; corresponding Greek/Latin conclusion and verified complete page",source:await image(page,"#hf-source-image")};
+  }
   if (id === "arsenal") {
     await expect(page.locator("#width-result")).toContainText("60½ feet");
     await page.locator("#side-inclusive").focus();await page.keyboard.press("Space");
@@ -405,7 +419,7 @@ for (const [name, engine] of [
           await expect(page.locator(`[data-project="${c.project}"] .card-desc`)).toBeHidden();
           // Fixed offscreen skip links can appear inside a full-document capture
           // when the visual viewport was scrolled. Capture from document top.
-          await page.evaluate(() => scrollTo(0, 0));
+          await page.evaluate(async () => { scrollTo(0, 0); await document.fonts.ready; await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))); });
           if (name === "chromium") await page.screenshot({ path: `${prefix}-search.png`, fullPage: true });
           await row.locator(".workshop-demo").focus();
           await page.keyboard.press("Enter");
@@ -468,7 +482,8 @@ for (const [name, engine] of [
             JSON.stringify({ ...report, partial: true }, null, 2) + "\n",
           );
         } catch (error) {
-          await page.screenshot({ path: `${prefix}-failure.png` });
+          console.error("Failed journey", prefix, page.url(), String(error));
+          await page.screenshot({ path: `${prefix}-failure.png`, timeout: 5000 }).catch(() => {});
           console.error({ workshop: c.id, url: page.url(), errors, failedRequests, consoleErrors });
           throw error;
         } finally {

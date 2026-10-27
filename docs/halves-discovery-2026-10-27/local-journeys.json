@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-27T06:36:30.287Z",
+  "base": "http://127.0.0.1:4359/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "halves",
+      "query": "superparticularis",
+      "target": "https://antonsoo.github.io/pyknon/halves.html#bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/halves.html#bench",
+      "sourceWord": "ἀνάλογον",
+      "interaction": {
+        "action": "17/16 differs from 18/17; keyboard geometric middle gives 12√2 and equal ratios; 4–6–9 control lies outside III’s premise; corresponding Greek/Latin conclusion and verified complete page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/09732845-12bc-4857-b2e9-611da3e5a7fa",
+          "width": 1371,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/35adb9fac29cfcda32c2334cfbd39004cc769481/docs/halves-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 124.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "halves",
+      "query": "superparticularis",
+      "target": "https://antonsoo.github.io/pyknon/halves.html#bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/halves.html#bench",
+      "sourceWord": "ἀνάλογον",
+      "interaction": {
+        "action": "17/16 differs from 18/17; keyboard geometric middle gives 12√2 and equal ratios; 4–6–9 control lies outside III’s premise; corresponding Greek/Latin conclusion and verified complete page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/4a7face9-1d6b-433a-9dab-99eb90aabfa7",
+          "width": 1371,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/35adb9fac29cfcda32c2334cfbd39004cc769481/docs/halves-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 717.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "halves",
+      "query": "superparticularis",
+      "target": "https://antonsoo.github.io/pyknon/halves.html#bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/halves.html#bench",
+      "sourceWord": "ἀνάλογον",
+      "interaction": {
+        "action": "17/16 differs from 18/17; keyboard geometric middle gives 12√2 and equal ratios; 4–6–9 control lies outside III’s premise; corresponding Greek/Latin conclusion and verified complete page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/1a54b839-e8cb-4fa5-858e-7148f00b6d92",
+          "width": 1371,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/35adb9fac29cfcda32c2334cfbd39004cc769481/docs/halves-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 365.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "halves",
+      "query": "superparticularis",
+      "target": "https://antonsoo.github.io/pyknon/halves.html#bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/halves.html#bench",
+      "sourceWord": "ἀνάλογον",
+      "interaction": {
+        "action": "17/16 differs from 18/17; keyboard geometric middle gives 12√2 and equal ratios; 4–6–9 control lies outside III’s premise; corresponding Greek/Latin conclusion and verified complete page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/e702debb-4eee-4813-ab33-18cd93bb5c17",
+          "width": 1371,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/35adb9fac29cfcda32c2334cfbd39004cc769481/docs/halves-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 360.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}

@@ -233,6 +233,30 @@
           "Sanskrit music"
         ],
         "summary": "Keep the text’s successive pitch matches, change a disclosed modern tuning preparation, and compare the different pitches that still satisfy them."
+      },
+      {
+        "id": "halves",
+        "title": "Three middles. One interval. · Sectio canonis III & XVI",
+        "url": "https://antonsoo.github.io/pyknon/halves.html#bench",
+        "reviewUrl": "https://github.com/antonsoo/pyknon/blob/35adb9fac29cfcda32c2334cfbd39004cc769481/docs/halves-review.md#try-the-actual-work",
+        "searchTerms": [
+          "superparticularis",
+          "ἀνάλογον",
+          "Ἐπιμορίου",
+          "proportional mean",
+          "whole-number means",
+          "tone bisection",
+          "three middles",
+          "geometric mean",
+          "harmonic mean",
+          "17:16",
+          "18:17",
+          "equal frequency increments",
+          "equal string lengths",
+          "Sectio canonis III XVI"
+        ],
+        "summary": "Seventeen is halfway between sixteen and eighteen by addition, but 17/16 and 18/17 differ. Compare three middles, hear the halves, and inspect the whole-number premise of the Greek proof.",
+        "thumbnail": "thumbs/pyknon-halves.png"
       }
     ]
   },
