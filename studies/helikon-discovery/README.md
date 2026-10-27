@@ -1,5 +1,9 @@
 # Find and operate Ptolemy’s helikon
 
+[Subsequent public verification](PUBLICATION.md) records the now-published
+continuous journey and canonical files. The local receipts below retain their
+original scope.
+
 Officina’s Pyknon card now has a direct helikon workshop route. English name,
 Greek source word and Latin source word searches reach the same operable
 instrument room, rather than requiring a learner to infer the room from the
