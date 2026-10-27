@@ -27,3 +27,18 @@ node scripts/workshop-journeys.mjs CATALOGUE_URL OUTPUT volute
 
 The [Gonia publication record](https://github.com/antonsoo/gonia/blob/0d78aa24509f87b2fc3a9965473e3a73d522d29b/docs/volute-publication.md)
 separately verifies its public bytes, actual downloads and offline use.
+
+## Public journey
+
+Source `9c1e75a` and the normal fast-forward static branch `6c05cc9` were
+pushed with the owner’s authorization. A fresh `npm ci` under Node 24.21.0
+passed lint, formatting, all 45 checks and build. All 72 clean output files
+match the workspace build. All 72 canonical public responses match before
+and after the browser journeys: [before](hosted-before.json),
+[after](hosted-after.json). Older static assets were preserved.
+
+The [public journeys](public-journeys.json) repeat the complete search,
+keyboard operation, verified source plate and native immutable-review
+heading in both engines and widths. No remote source-CI success is inferred.
+The actual [public search](https://antonsoo.github.io/officina/?q=minuatur#catalogue)
+opens the matching room.
