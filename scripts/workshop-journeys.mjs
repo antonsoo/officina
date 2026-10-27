@@ -9,6 +9,7 @@ const base = process.argv[2],
 assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
+  {project:"gonia",id:"volute",query:"minuatur",word:"minuatur",path:"/gonia/volute.html",heading:"What the learner can do"},
   {project:"zygon",id:"floating",query:"μη απτεσθαι",word:"μὴ ἅπτεσθαι",path:"/zygon/float.html",heading:"Try the actual work"},
   {project:"pyknon",id:"halves",query:"superparticularis",word:"ἀνάλογον",path:"/pyknon/halves.html",heading:"Try the actual work"},
   {
@@ -122,6 +123,26 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if(id==="volute") {
+    await page.locator('#vo-draw').waitFor();
+    await page.getByText('Other starting sheets',{exact:true}).click();
+    await page.locator('#vo-empty').focus(); await page.keyboard.press('Enter');
+    for(let pin=1;pin<=12;pin++) {
+      await page.locator(`[data-pin="${pin}"]`).focus(); await page.keyboard.press('Enter');
+      await page.locator('#vo-draw').focus(); await page.keyboard.press('Space');
+    }
+    await expect(page.locator('#vo-result')).toContainText('exactly on the eye');
+    await expect(page.locator('#vo-join-note')).toContainText('8.130102°');
+    await page.locator('#vo-join').selectOption('1');
+    await expect(page.locator('#vo-join-note')).toContainText('0.447614°');
+    const outline=await page.locator('[data-arc]').evaluateAll(ns=>ns.map(n=>n.getAttribute('d')));
+    await page.locator('#vo-repair').focus(); await page.keyboard.press('Enter');
+    await expect(page.locator('#vo-repair-note')).toContainText('difference becomes 0°');
+    assert.deepEqual(await page.locator('[data-arc]').evaluateAll(ns=>ns.map(n=>n.getAttribute('d'))),outline);
+    await page.locator('#vo-page').selectOption('2');
+    await expect(page.locator('#vo-source-caption')).toContainText('Image identity verified');
+    return {action:'Twelve keyboard compass arcs reach the eye; final direction differs by 8.130102 degrees; aligning the first join preserves the committed outline; whole 1889 plate verified',source:await image(page,'#vo-source-frame img')};
+  }
   if(id==="floating") {
     await expect(page.locator("#fl-result")).toContainText("turn it right");
     await page.locator("#fl-upright").focus(); await page.keyboard.press("Enter");

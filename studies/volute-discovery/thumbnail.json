@@ -1,0 +1,12 @@
+{
+  "sourceURL": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4.5.6.7.8.9.10.11.12&pin=12&join=1&repair=1&eye=12&page=2#vo-bench",
+  "selector": ".vo-bench",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "file": "thumbs/gonia-volute.webp",
+  "sha256": "9f974e5e141643083a4eb0c9461353b8f7cc5f1891e97db38d55fd862a05f791",
+  "bytes": 39222,
+  "derivation": "Real browser screenshot; cover crop and resize to 1200x750; WebP quality82"
+}

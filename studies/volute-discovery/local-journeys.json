@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-27T11:23:32.365Z",
+  "base": "http://127.0.0.1:4443/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "volute",
+      "query": "minuatur",
+      "target": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
+      "sourceWord": "minuatur",
+      "interaction": {
+        "action": "Twelve keyboard compass arcs reach the eye; final direction differs by 8.130102 degrees; aligning the first join preserves the committed outline; whole 1889 plate verified",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/81bb83ee-5e38-4690-af79-8358f3eb9597",
+          "width": 1487,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/0d78aa24509f87b2fc3a9965473e3a73d522d29b/docs/volute-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 603.375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "volute",
+      "query": "minuatur",
+      "target": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
+      "sourceWord": "minuatur",
+      "interaction": {
+        "action": "Twelve keyboard compass arcs reach the eye; final direction differs by 8.130102 degrees; aligning the first join preserves the committed outline; whole 1889 plate verified",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/f4bfb444-7624-4dfc-95ee-4bb3687b609b",
+          "width": 1487,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/0d78aa24509f87b2fc3a9965473e3a73d522d29b/docs/volute-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 127.546875,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "volute",
+      "query": "minuatur",
+      "target": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
+      "sourceWord": "minuatur",
+      "interaction": {
+        "action": "Twelve keyboard compass arcs reach the eye; final direction differs by 8.130102 degrees; aligning the first join preserves the committed outline; whole 1889 plate verified",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/169d6bd9-a81c-4e93-a32b-845d55bd57d4",
+          "width": 1487,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/0d78aa24509f87b2fc3a9965473e3a73d522d29b/docs/volute-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": 90,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "volute",
+      "query": "minuatur",
+      "target": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
+      "sourceWord": "minuatur",
+      "interaction": {
+        "action": "Twelve keyboard compass arcs reach the eye; final direction differs by 8.130102 degrees; aligning the first join preserves the committed outline; whole 1889 plate verified",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/1ecbc418-dbe8-48c0-84a7-02a7cff21311",
+          "width": 1487,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/0d78aa24509f87b2fc3a9965473e3a73d522d29b/docs/volute-review.md#what-the-learner-can-do",
+      "nativeReviewHeadingTop": -0.6000000238418579,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
