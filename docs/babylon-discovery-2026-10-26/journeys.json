@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-27T01:24:08.586Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "babylon",
+      "query": "nindanu",
+      "target": "https://antonsoo.github.io/gonia/babylon.html?supplied=0&selected=5&page=scheil-300#bb-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/babylon.html?supplied=0&selected=5&page=scheil-300#bb-bench",
+      "sourceWord": "nindanu",
+      "interaction": {
+        "action": "unknown sixth storey, disclosed 90 m completion, second-storey disagreement and corresponding numerical source",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/1323d8db-f502-4e26-84ce-ebdb08ed159e",
+          "width": 1685,
+          "height": 2140
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/39778411184c531547ab418968b581a2cbb9bd46/docs/babylon-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 124.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "babylon",
+      "query": "nindanu",
+      "target": "https://antonsoo.github.io/gonia/babylon.html?supplied=0&selected=5&page=scheil-300#bb-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/babylon.html?supplied=0&selected=5&page=scheil-300#bb-bench",
+      "sourceWord": "nindanu",
+      "interaction": {
+        "action": "unknown sixth storey, disclosed 90 m completion, second-storey disagreement and corresponding numerical source",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/de9ddea4-e721-43a1-95fd-99f73f6fb9c1",
+          "width": 1685,
+          "height": 2140
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/39778411184c531547ab418968b581a2cbb9bd46/docs/babylon-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 515.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "babylon",
+      "query": "nindanu",
+      "target": "https://antonsoo.github.io/gonia/babylon.html?supplied=0&selected=5&page=scheil-300#bb-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/babylon.html?supplied=0&selected=5&page=scheil-300#bb-bench",
+      "sourceWord": "nindanu",
+      "interaction": {
+        "action": "unknown sixth storey, disclosed 90 m completion, second-storey disagreement and corresponding numerical source",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/149dda9f-9d4d-4209-b394-b7f18a5ba96e",
+          "width": 1685,
+          "height": 2140
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/39778411184c531547ab418968b581a2cbb9bd46/docs/babylon-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 149.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "babylon",
+      "query": "nindanu",
+      "target": "https://antonsoo.github.io/gonia/babylon.html?supplied=0&selected=5&page=scheil-300#bb-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/babylon.html?supplied=0&selected=5&page=scheil-300#bb-bench",
+      "sourceWord": "nindanu",
+      "interaction": {
+        "action": "unknown sixth storey, disclosed 90 m completion, second-storey disagreement and corresponding numerical source",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/2f626488-2afe-4eed-b62d-315c4e169e20",
+          "width": 1685,
+          "height": 2140
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/39778411184c531547ab418968b581a2cbb9bd46/docs/babylon-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 320.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
