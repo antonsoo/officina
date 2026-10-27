@@ -175,6 +175,30 @@
     ],
     "workshops": [
       {
+        "id": "helikon",
+        "title": "One bridge. Four strings. · Ptolemy’s helikon",
+        "url": "https://antonsoo.github.io/pyknon/helikon.html?reading=4&page=100#hk-bench",
+        "reviewUrl": "https://github.com/antonsoo/pyknon/blob/d141e0dca839ac627fb50af52031283844a49f2e/docs/helikon-review.md#try-the-actual-work",
+        "searchTerms": [
+          "helikon",
+          "helicon",
+          "Ἑλικῶνα",
+          "ὑπαγωγέα",
+          "subductorium",
+          "παραλλήλους",
+          "ἰσοτόνους",
+          "four strings",
+          "straight bridge",
+          "common bridge",
+          "moving strings",
+          "Harmonics II.2",
+          "Ptolemy",
+          "Archytas"
+        ],
+        "summary": "Build Ptolemy’s four-string geometry and hear seven interval relations. Keep the end notes fixed, fit three targets by moving the inner strings, then transpose without erasing interval errors. Greek, Latin and whole printed evidence remain beside the experiment.",
+        "thumbnail": "thumbs/pyknon-helikon.png"
+      },
+      {
         "id": "notation",
         "title": "Keep the notes. Change the signs. · Alypius",
         "url": "https://antonsoo.github.io/pyknon/notation.html#translation",
