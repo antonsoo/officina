@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-27T03:08:03.546Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "vina",
+      "query": "dve vine",
+      "target": "https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench",
+      "sourceWord": "dve vīṇe",
+      "interaction": {
+        "action": "keyboard-change preparation: second-stage Ga–Ri remains a match at 244.4444 then 240.3184 Hz; fourth-stage three matches, corresponding Sanskrit reading and verified complete source",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/bc034239-668d-4916-8607-80f440fbb049",
+          "width": 1676,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/624cb6a79ae18c8547c6888687eb139a136fecd5/docs/vina-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 480.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "vina",
+      "query": "dve vine",
+      "target": "https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench",
+      "sourceWord": "dve vīṇe",
+      "interaction": {
+        "action": "keyboard-change preparation: second-stage Ga–Ri remains a match at 244.4444 then 240.3184 Hz; fourth-stage three matches, corresponding Sanskrit reading and verified complete source",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/105e6900-534a-4891-88bf-3a55f1b508a1",
+          "width": 1676,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/624cb6a79ae18c8547c6888687eb139a136fecd5/docs/vina-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 695.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "vina",
+      "query": "dve vine",
+      "target": "https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench",
+      "sourceWord": "dve vīṇe",
+      "interaction": {
+        "action": "keyboard-change preparation: second-stage Ga–Ri remains a match at 244.4444 then 240.3184 Hz; fourth-stage three matches, corresponding Sanskrit reading and verified complete source",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/2eda8630-e606-402d-a182-05700fa45e8b",
+          "width": 1676,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/624cb6a79ae18c8547c6888687eb139a136fecd5/docs/vina-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 323.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "vina",
+      "query": "dve vine",
+      "target": "https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench",
+      "initialAddress": "https://antonsoo.github.io/pyknon/vina.html?tuning=comma&tenth=215&position=2000&root=220&selected=2&sound=pair&reading=3&page=29#vn-bench",
+      "sourceWord": "dve vīṇe",
+      "interaction": {
+        "action": "keyboard-change preparation: second-stage Ga–Ri remains a match at 244.4444 then 240.3184 Hz; fourth-stage three matches, corresponding Sanskrit reading and verified complete source",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/3b9186f8-17e5-42ab-bb41-f6b31c721f09",
+          "width": 1676,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/624cb6a79ae18c8547c6888687eb139a136fecd5/docs/vina-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 418.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
