@@ -400,15 +400,15 @@
   },
   {
     "name": "gonia",
-    "description": "Build Vitruvius’s eight-channel water screw from a square grid. Change pitch and slope, follow a retained bucket, and read the Latin dimensions. Thirteen rooms also compare Babylonian building evidence, temples, columns, theatres, hoists, sight lines and a building account.",
+    "description": "Draw an Ionic scroll with twelve compass centres. Test why meeting the eye does not make a tangent, read Vitruvius’s Latin, and inspect the printed guide and surviving stone. Explore thirteen more architectural experiments.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gonia",
-    "demoUrl": "https://antonsoo.github.io/gonia/screw.html?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=500&step=3&passage=11&page=238#sc-build",
-    "thumbnail": "thumbs/gonia-screw.png",
+    "demoUrl": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
+    "thumbnail": "thumbs/gonia-volute.webp",
     "status": "published",
     "study": {
-      "finding": "Quartering the source pitch raises water fraction from 17.03% to 44.33%, but cuts ideal water per turn from 1.681 to 1.094 R³.",
-      "url": "https://github.com/antonsoo/gonia/blob/3c04ee1ca2ae21b59a45658a5cdf6ca93caa53ed/docs/screw-review.md#try-a-retained-bucket"
+      "finding": "Twelve compass arcs reach the eye but leave an 8.130102° turn. Aligning one tangent moves the next endpoint; the modern model is not an ancient drawing.",
+      "url": "https://github.com/antonsoo/gonia/blob/0d78aa24509f87b2fc3a9965473e3a73d522d29b/docs/volute-review.md#what-the-learner-can-do"
     },
     "searchTerms": [
       "trispastos pentaspaston religatur sucula pulley windlass",
@@ -516,6 +516,31 @@
           "Tower of Babylon stele"
         ],
         "summary": "Keep the sixth storey unknown, or supply a disclosed completion. Compare a tablet’s numerical scheme with calibrated stele measurements and inspect the carved stone."
+      },
+      {
+        "id": "volute",
+        "title": "The compass changes centre: draw an Ionic volute",
+        "summary": "Choose twelve compass pins, retain wrong turns and inspect the tangent at every join. Read the Latin beside complete pages; keep the later guide separate from the surviving capital.",
+        "reviewUrl": "https://github.com/antonsoo/gonia/blob/0d78aa24509f87b2fc3a9965473e3a73d522d29b/docs/volute-review.md#what-the-learner-can-do",
+        "thumbnail": "thumbs/gonia-volute.webp",
+        "url": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
+        "searchTerms": [
+          "Ionic volute",
+          "oculus oculi",
+          "circinus circini",
+          "minuatur",
+          "volutarum",
+          "schema volutae",
+          "tetrantorum",
+          "Vignola",
+          "Juglaris Locke",
+          "Sardis capital",
+          "Latin compass",
+          "quarter circle",
+          "tangent join",
+          "twelve centres",
+          "diametros"
+        ]
       }
     ]
   },
