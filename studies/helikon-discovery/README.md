@@ -66,8 +66,8 @@ than claiming its future GitHub URL was served. The receipt records this
 boundary on every journey.
 
 `npm run lint`, `npm run format:check`, `npm test` (45 tests),
-`npm run check:catalogue` and `npm run build` passed locally. A clean-install
-receipt is retained with the final handoff. The normal public
+`npm run check:catalogue` and `npm run build` passed locally. The [clean-install receipt](clean-build.json) records a fresh installation,
+all those checks and 74 build files matching the reviewed build byte for byte. The normal public
 `workshop-journeys.mjs` reviewer also contains a helikon case for the eventual
 published journey; it was not run against an unpublished canonical page.
 
