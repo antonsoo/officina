@@ -36,6 +36,24 @@ are recorded separately. The underlying workshop has its own numerical,
 source, artifact, offline-edition and public-delivery evidence; the catalogue
 review is not a new physical or historical measurement.
 
+The same journey passed on the actual public origin in all four configurations.
+[Public searches](../studies/floating-body-discovery/hosted-search.json) record
+72 online queries and 72 warm-page offline refilterings;
+[public continuous journeys](../studies/floating-body-discovery/hosted-journeys.json)
+reach the working source reader and the pinned review heading. All four public
+captures were inspected separately; their file identities are retained in the
+publication receipt.
+
+[The clean archive build](../studies/floating-body-discovery/build.json) passed
+the repository's required checks. All
+[71 current build files](../studies/floating-body-discovery/hosted-files.json)
+match their canonical hosted responses, and all
+[28 preceding asset URLs](../studies/floating-body-discovery/preserved-assets.json)
+retain their original bytes. The
+[publication receipt](../studies/floating-body-discovery/publication.json)
+records source and static branch identities. These observations do not establish
+a remote CI result.
+
 ## Reproduce
 
 Build the catalogue and run its production preview, then:
@@ -51,3 +69,8 @@ journeys from the workshop's dedicated offline-edition review.
 
 [Desktop discovery capture](assets/floating-body-discovery/chromium-1280-floating-search.png) ·
 [Phone discovery capture](assets/floating-body-discovery/chromium-375-floating-search.png).
+
+[Public desktop discovery](assets/floating-body-discovery/hosted-chromium-1280-floating-search.png) ·
+[Public phone discovery](assets/floating-body-discovery/hosted-chromium-375-floating-search.png) ·
+[Public desktop source operation](assets/floating-body-discovery/hosted-chromium-1280-floating-operation.png) ·
+[Public phone source operation](assets/floating-body-discovery/hosted-chromium-375-floating-operation.png).

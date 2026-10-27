@@ -1,0 +1,150 @@
+{
+  "checkedAt": "2026-10-27T08:03:29.082924+00:00",
+  "base": "https://antonsoo.github.io/officina/",
+  "precedingRef": "HEAD^",
+  "preservedAssetFiles": 28,
+  "files": [
+    {
+      "path": "assets/cinzel-latin-DMUuCU8H.woff2",
+      "bytes": 25904,
+      "sha256": "09941fb1c169c38fd414536b37690057fc01b3117a5c63dd6571186540c8f370"
+    },
+    {
+      "path": "assets/cinzel-latin-ext-CG36JvV6.woff2",
+      "bytes": 14540,
+      "sha256": "8fc2606f8ae6c569f444e138dba052d9a6e3f0657f9031796503bbb94eced600"
+    },
+    {
+      "path": "assets/eb-garamond-cyrillic-DBa2mnKT.woff2",
+      "bytes": 26024,
+      "sha256": "197ed98b8524dd8664aefb5d5ef4ca515d2df1ef90d3f771e19cb0893b95cc2b"
+    },
+    {
+      "path": "assets/eb-garamond-cyrillic-ext-Bt3rCdHq.woff2",
+      "bytes": 33948,
+      "sha256": "7738b6004721f3d23e4e284b1055120f0ac1fd96fd01e5786b58b3042998876c"
+    },
+    {
+      "path": "assets/eb-garamond-greek-DCPER7xl.woff2",
+      "bytes": 19868,
+      "sha256": "f6475b2f7530f248b5d3a0237d97dc2e1987665153dcb888fbeea3b0f9019b56"
+    },
+    {
+      "path": "assets/eb-garamond-greek-ext-CW-BywWH.woff2",
+      "bytes": 11484,
+      "sha256": "3cd432d0dc2b756e69eea4325fd40f3515a31753445238f7fb5d349588192511"
+    },
+    {
+      "path": "assets/eb-garamond-italic-cyrillic-Cini1BOa.woff2",
+      "bytes": 26520,
+      "sha256": "640020b01622b1c76c8f4137a3f39608fa22d718e17cb3e1d972e69c755ff6e0"
+    },
+    {
+      "path": "assets/eb-garamond-italic-cyrillic-ext-Ba0fXTjv.woff2",
+      "bytes": 35424,
+      "sha256": "5a7499fae103446ed709a2aaab7dbabb13ad1841a5258c0dd5b56750067ac2f1"
+    },
+    {
+      "path": "assets/eb-garamond-italic-greek-Dc0bJcw6.woff2",
+      "bytes": 19588,
+      "sha256": "288deb73f6a27a306138997d310e4efbfba9bb623eca0829be0e4475ff164b71"
+    },
+    {
+      "path": "assets/eb-garamond-italic-greek-ext-nvsmRjVx.woff2",
+      "bytes": 11956,
+      "sha256": "4caf65dfd9a97861e20565bcec00273c1e157af7eb4f6af7bd61f3462feb7e09"
+    },
+    {
+      "path": "assets/eb-garamond-italic-latin-AvGrCMCN.woff2",
+      "bytes": 47940,
+      "sha256": "c664773f7e1d42d36326aa457becf7674236168c74cf7d74e87e5778ef7640f9"
+    },
+    {
+      "path": "assets/eb-garamond-italic-latin-ext-CYvIfuu9.woff2",
+      "bytes": 88576,
+      "sha256": "fa866520f8b7fb646ebc730fd0d3cbf8945db74d92f25fdd6fee486808652fdf"
+    },
+    {
+      "path": "assets/eb-garamond-italic-vietnamese-2ii8blLS.woff2",
+      "bytes": 11016,
+      "sha256": "b086ea6d8bc9bc670c11015f13df0776c430b6c26a78a73b4dce9ddb423623c1"
+    },
+    {
+      "path": "assets/eb-garamond-latin-CRpggXlh.woff2",
+      "bytes": 44336,
+      "sha256": "88603384163d301aebd5bd769832a8bfe3c9004ec24178417b9817f0ad32c63b"
+    },
+    {
+      "path": "assets/eb-garamond-latin-ext-B6IpcvL2.woff2",
+      "bytes": 113928,
+      "sha256": "f8d3fa06e20989a938972165406a1b731cdc7fe33ff2b0b6798c75aa63709901"
+    },
+    {
+      "path": "assets/eb-garamond-vietnamese-DvUmmjCN.woff2",
+      "bytes": 10952,
+      "sha256": "af68d0b256558e0fecffabca6696d47c78902249db6bc7e1ac9964980a610a77"
+    },
+    {
+      "path": "assets/index-BeSBsaqH.js",
+      "bytes": 10083,
+      "sha256": "9980fbe9e93efd7bf07cbbeea565daa932e16673a56c4d2d9245dbd6bf58396a"
+    },
+    {
+      "path": "assets/index-BeSBsaqH.js.map",
+      "bytes": 23774,
+      "sha256": "87ca9e256c5ea0b5c3dcf15dec4602b3b269e4c3cee5d170c6daef8a51cae43b"
+    },
+    {
+      "path": "assets/index-BuHQDHKT.js",
+      "bytes": 13697,
+      "sha256": "71b037b363abb72899257051e139ec72ce213152641b691a94d35918acac4b64"
+    },
+    {
+      "path": "assets/index-BuHQDHKT.js.map",
+      "bytes": 33596,
+      "sha256": "e7925b13146043d7781d0cbe8485b9ca0516bcf24e54318e50919fd7073c3d92"
+    },
+    {
+      "path": "assets/index-CGJI9Kw8.css",
+      "bytes": 18934,
+      "sha256": "fc1ac2084f423365f1a4b10c53957103601b4ef90e9244c65a297776dc25ba54"
+    },
+    {
+      "path": "assets/index-CMLlNeyq.js",
+      "bytes": 14793,
+      "sha256": "834fb05a111742a1911c2631fd6892f94afbf3ecfa94e8f10dd89753a005e110"
+    },
+    {
+      "path": "assets/index-CMLlNeyq.js.map",
+      "bytes": 36456,
+      "sha256": "5b50f49b0fe6a0acefbb08191314fdb872aa0da763ff0c8ee9a811bfa9d9f5d2"
+    },
+    {
+      "path": "assets/index-D0G50ORB.css",
+      "bytes": 19394,
+      "sha256": "c70c06abba5d4026a478d41f9d22149066058a666a0f08ce946d5c509674dee2"
+    },
+    {
+      "path": "assets/index-_PucSryY.js",
+      "bytes": 11901,
+      "sha256": "9a0e0845ef0ee325cce66dfd783be48fc994e1c47f4575797cb6e6990c51aa9b"
+    },
+    {
+      "path": "assets/index-_PucSryY.js.map",
+      "bytes": 29334,
+      "sha256": "4785953469a8138054720cac7cef505659fc59bd3bfb9852330ca18bd8d8ca33"
+    },
+    {
+      "path": "assets/index-aHvIOkgL.css",
+      "bytes": 20685,
+      "sha256": "5452fc3db16f3bf4d918d6256dcc029c070899c00afe4bf25bb67d0d9c0d86c9"
+    },
+    {
+      "path": "assets/index-xWMKl4S6.css",
+      "bytes": 19774,
+      "sha256": "acb5c73c1a781f631ea3189a0e812a57bb338a6e50b163b3ea5f6411a3e61cb1"
+    }
+  ],
+  "precedingRevision": "3ca30adae08801077f502163cb088643636d6736",
+  "publishedRevision": "28fdd7fa4f2e9d1098d5624a38646c963006bc48"
+}

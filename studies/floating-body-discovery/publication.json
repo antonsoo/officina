@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-27T09:56:30.059749+00:00",
+  "sourceRevision": "a46df057d4de808ce229820e1dfc7266cdded15b",
+  "cleanBuildSourceRevision": "7f54e6998f274a991212ec74cb75c1ace23f440f",
+  "publishedStaticRevision": "28fdd7fa4f2e9d1098d5624a38646c963006bc48",
+  "precedingStaticRevision": "3ca30adae08801077f502163cb088643636d6736",
+  "workshopReviewRevision": "576e538885cdc89128c508fa8997ddf5057262a6",
+  "base": "https://antonsoo.github.io/officina/",
+  "canonicalBuildFilesVerified": 71,
+  "precedingAssetFilesPreservedAndVerified": 28,
+  "publicJourneys": 4,
+  "publicOnlineQueries": 72,
+  "publicWarmPageOfflineRefilterings": 72,
+  "screenshots": [
+    {
+      "path": "docs/assets/floating-body-discovery/hosted-chromium-1280-floating-operation.png",
+      "sha256": "954d5deb2d88b38cb517cdb7d95895d9f07c33c2de6b08304f884bec0b75008e",
+      "bytes": 450295,
+      "identicalToInspectedLocalCapture": false,
+      "publicCaptureVisuallyInspected": true
+    },
+    {
+      "path": "docs/assets/floating-body-discovery/hosted-chromium-1280-floating-search.png",
+      "sha256": "9b7d6b6a828eae0cdd81ab826cb732847c214377135e82a3f8b426bfbbde0eff",
+      "bytes": 235925,
+      "identicalToInspectedLocalCapture": true,
+      "publicCaptureVisuallyInspected": true
+    },
+    {
+      "path": "docs/assets/floating-body-discovery/hosted-chromium-375-floating-operation.png",
+      "sha256": "239dfe6d15eaea079a4b5e53ead35b4ec8d52fbd26cd680043a1fc97b6b72915",
+      "bytes": 289667,
+      "identicalToInspectedLocalCapture": true,
+      "publicCaptureVisuallyInspected": true
+    },
+    {
+      "path": "docs/assets/floating-body-discovery/hosted-chromium-375-floating-search.png",
+      "sha256": "d39c7c193226deb58a4746ad3c4c49af70fc01c2d303cdc30e363a6803161ca6",
+      "bytes": 139786,
+      "identicalToInspectedLocalCapture": true,
+      "publicCaptureVisuallyInspected": true
+    }
+  ],
+  "scope": "The current catalogue payload matches the clean build, the preceding static asset URLs remain available with identical bytes, and the recorded public browser journeys reach and operate the actual workshop and open its immutable review. Warm-page filtering does not establish offline catalogue reload. Physics, philology, remote CI and the workshop offline edition are separate evidence boundaries.",
+  "canonicalEntriesAfterPublicJourneys": {
+    "checkedAt": "2026-10-27T09:56:54.720039+00:00",
+    "files": [
+      {
+        "project": "zygon",
+        "url": "https://antonsoo.github.io/zygon/",
+        "httpStatus": 200,
+        "bytes": 808,
+        "sha256": "2676ead5d34d03ceb6e3fc44c14b8e7c0160da3539b3c02a52f525e8b9133924",
+        "identicalToCleanBuild": true
+      },
+      {
+        "project": "zygon",
+        "url": "https://antonsoo.github.io/zygon/float.html",
+        "httpStatus": 200,
+        "bytes": 926,
+        "sha256": "0674d9919de6d934dec23366003a95a054c8b806396337cb08bc8f83d3fcf30c",
+        "identicalToCleanBuild": true
+      },
+      {
+        "project": "officina",
+        "url": "https://antonsoo.github.io/officina/",
+        "httpStatus": 200,
+        "bytes": 3017,
+        "sha256": "cd58b3e90368b2bc9d91cdb81b42b3105130368806449fd54c32f15e46e17e0e",
+        "identicalToCleanBuild": true
+      },
+      {
+        "project": "officina",
+        "url": "https://antonsoo.github.io/officina/projects.json",
+        "httpStatus": 200,
+        "bytes": 45532,
+        "sha256": "ee5e9b219ce52987641f43e17767fa22d12eee3599075896b4de9713d3c9cd09",
+        "identicalToCleanBuild": true
+      }
+    ]
+  }
+}

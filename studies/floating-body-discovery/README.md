@@ -13,7 +13,15 @@ primary project route.
 - `hosted-search.json`: actual public searches and offline refiltering.
 - `hosted-journeys.json`: actual public continuous navigation journeys.
 - `publication.json`: source/static branch identities and bounded publication claims.
+- `preserved-assets.json`: all 28 preceding static asset URLs, checked against
+  their original bytes after publication.
 
 The local workflow captures are in `docs/assets/floating-body-discovery/`.
 The physics and source evidence belong to Zygon's separately recorded review;
 these discovery observations do not validate physical buoyancy or translations.
+
+Published 27 October 2026 UTC. All 71 current build files match canonical public
+responses. Both public browser engines at desktop and phone widths completed
+the actual continuous journey, 72 online searches and 72 warm-page offline
+refilterings. All four public captures were also inspected directly and retained.
+The source-only receipt commit does not alter the reviewed static payload.
