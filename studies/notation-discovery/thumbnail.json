@@ -1,0 +1,19 @@
+{
+  "scope": "Actual screenshot of the canonical public notation desk, with its initial two copied shapes, followed by cover-fit WebP encoding; no illustration or reconstruction",
+  "url": "https://antonsoo.github.io/pyknon/notation.html",
+  "sourceViewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "framing": "Focus written slot 2; scroll the given line to 20 px from the top",
+  "sourcePngSha256": "168952b2132b7ba2fc7d748453cf7e2c7a1930f7cbf0557da8331b84768dddce",
+  "thumbnail": {
+    "path": "public/thumbs/pyknon-notation.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 43522,
+    "sha256": "7f62d075af808ebd31b3e3a70bd8e9a1e23aff573d5a3d4eb1b6a5b4f61839cf"
+  },
+  "visuallyReviewed": true,
+  "appErrors": []
+}

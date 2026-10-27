@@ -9,6 +9,7 @@ const base = process.argv[2],
 assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
+  {project:"pyknon",id:"notation",query:"κρουσεως",word:"κρούσεως",path:"/pyknon/notation.html",heading:"Try the translation"},
   {project:"gonia",id:"volute",query:"minuatur",word:"minuatur",path:"/gonia/volute.html",heading:"What the learner can do"},
   {project:"zygon",id:"floating",query:"μη απτεσθαι",word:"μὴ ἅπτεσθαι",path:"/zygon/float.html",heading:"Try the actual work"},
   {project:"pyknon",id:"halves",query:"superparticularis",word:"ἀνάλογον",path:"/pyknon/halves.html",heading:"Try the actual work"},
@@ -123,6 +124,33 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if(id==="notation") {
+    await expect(page.locator('#nt-result')).toContainText('2 of 4 notes');
+    for(const [slot,sign] of [[1,'bracket'],[2,'zeta']]) {
+      await page.locator(`#nt-written-${slot}`).focus();await page.keyboard.press('Enter');
+      await page.locator(`[data-nt-write="${sign}"]`).focus();await page.keyboard.press('Enter');
+    }
+    await expect(page.locator('#nt-result')).toContainText('4 of 4 notes');
+    await page.locator('[data-nt-frame-sign="iota"]').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#nt-frame-result')).toContainText('247.5 Hz');
+    await page.locator('[data-nt-frame-anchor="mese"]').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#nt-frame-result')).toContainText('Hypolydian sign moves');
+    await expect(page.locator('#nt-frame-views')).toContainText('440 Hz');
+    await page.locator('#nt-frame-play').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#nt-frame-stop')).toBeEnabled();
+    await page.locator('#nt-frame-stop').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#nt-audio-status')).toHaveText('Stopped.');
+    await page.locator('[data-nt-frame-source="370"]').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#nt-source-status')).toContainText('Verified complete page');
+    await expect(page.locator('#nt-source-band-secondary')).toBeVisible();
+    const source=await image(page,'#nt-source-image');
+    source.sha256=await page.locator('#nt-source-image').evaluate(async im=>{
+      const bytes=await(await fetch(im.src)).arrayBuffer();
+      return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),v=>v.toString(16).padStart(2,'0')).join('');
+    });
+    assert.equal(source.sha256,'2ca20ce4ac8f2251e10eeddf603ae97c3c219dfb766c44ff423a84210ead6e85');
+    return {action:'Two keyboard sign replacements preserve all four pitches; holding the shared sign moves mesē, holding mesai moves the sign; local sound stops; two Hypolydian functions and the actual whole-page bytes remain',source};
+  }
   if(id==="volute") {
     await page.locator('#vo-draw').waitFor();
     await page.getByText('Other starting sheets',{exact:true}).click();
