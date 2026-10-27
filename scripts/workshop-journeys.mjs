@@ -9,6 +9,7 @@ const base = process.argv[2],
 assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
+  {project:"pyknon",id:"helikon",query:"subductorium",word:"ὑπαγωγέα",path:"/pyknon/helikon.html",heading:"Try the actual work"},
   {project:"pyknon",id:"notation",query:"κρουσεως",word:"κρούσεως",path:"/pyknon/notation.html",heading:"Try the translation"},
   {project:"gonia",id:"volute",query:"minuatur",word:"minuatur",path:"/gonia/volute.html",heading:"What the learner can do"},
   {project:"zygon",id:"floating",query:"μη απτεσθαι",word:"μὴ ἅπτεσθαι",path:"/zygon/float.html",heading:"Try the actual work"},
@@ -150,6 +151,20 @@ async function operate(page, id) {
     });
     assert.equal(source.sha256,'2ca20ce4ac8f2251e10eeddf603ae97c3c219dfb766c44ff423a84210ead6e85');
     return {action:'Two keyboard sign replacements preserve all four pitches; holding the shared sign moves mesē, holding mesai moves the sign; local sound stops; two Hypolydian functions and the actual whole-page bytes remain',source};
+  }
+  if(id === "helikon") {
+    await expect(page.locator('#hk-retuning-result')).toContainText('2 of 4');
+    await page.locator('#hk-fit').focus(); await page.keyboard.press('Enter');
+    await expect(page.locator('#hk-retuning-result')).toContainText('All four');
+    await expect(page.locator('#hk-x1-value')).toHaveText('1/7');
+    await expect(page.locator('#hk-x2-value')).toHaveText('1/4');
+    await page.locator('#hk-scale').focus(); await page.keyboard.press('ArrowLeft');
+    await expect(page.locator('#hk-transposition')).toContainText('240 Hz');
+    await page.locator('[data-hk-play="retuning"]').click();
+    await page.locator('#hk-retuning-stop').click();
+    await expect(page.locator('#hk-source-status')).toContainText('Verified complete page');
+    const source=await image(page,'#hk-source-image');
+    return {action:'The fixed strings miss two target notes; keyboard fitting puts the inner strings at 1/7 and 1/4; shortening the bridge scale raises the left note to 240 Hz without losing a target ratio; the common-support Greek and Latin and whole source page remain',source};
   }
   if(id==="volute") {
     await page.locator('#vo-draw').waitFor();
