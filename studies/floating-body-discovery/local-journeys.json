@@ -1,0 +1,95 @@
+{
+  "checkedAt": "2026-10-27T07:54:55.095Z",
+  "base": "http://127.0.0.1:4353/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "zygon",
+      "workshop": "floating",
+      "query": "μη απτεσθαι",
+      "target": "https://antonsoo.github.io/zygon/float.html?a=1.5&density=16&tilt=10&reading=1#fl-bench",
+      "initialAddress": "https://antonsoo.github.io/zygon/float.html?a=1.5&density=16&tilt=10&reading=1#fl-bench",
+      "sourceWord": "μὴ ἅπτεσθαι",
+      "interaction": {
+        "action": "Upright is balanced but unstable; keyboard nudge turns away; separate computed tilt balances; critical density keeps finite restoring response; Greek dry-base phrase locates its verified manuscript frame",
+        "source": {
+          "width": 2448,
+          "height": 3264
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/zygon/blob/576e538885cdc89128c508fa8997ddf5057262a6/docs/float-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 450.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "zygon",
+      "workshop": "floating",
+      "query": "μη απτεσθαι",
+      "target": "https://antonsoo.github.io/zygon/float.html?a=1.5&density=16&tilt=10&reading=1#fl-bench",
+      "initialAddress": "https://antonsoo.github.io/zygon/float.html?a=1.5&density=16&tilt=10&reading=1#fl-bench",
+      "sourceWord": "μὴ ἅπτεσθαι",
+      "interaction": {
+        "action": "Upright is balanced but unstable; keyboard nudge turns away; separate computed tilt balances; critical density keeps finite restoring response; Greek dry-base phrase locates its verified manuscript frame",
+        "source": {
+          "width": 2448,
+          "height": 3264
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/zygon/blob/576e538885cdc89128c508fa8997ddf5057262a6/docs/float-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 559.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "zygon",
+      "workshop": "floating",
+      "query": "μη απτεσθαι",
+      "target": "https://antonsoo.github.io/zygon/float.html?a=1.5&density=16&tilt=10&reading=1#fl-bench",
+      "initialAddress": "https://antonsoo.github.io/zygon/float.html?a=1.5&density=16&tilt=10&reading=1#fl-bench",
+      "sourceWord": "μὴ ἅπτεσθαι",
+      "interaction": {
+        "action": "Upright is balanced but unstable; keyboard nudge turns away; separate computed tilt balances; critical density keeps finite restoring response; Greek dry-base phrase locates its verified manuscript frame",
+        "source": {
+          "width": 2448,
+          "height": 3264
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/zygon/blob/576e538885cdc89128c508fa8997ddf5057262a6/docs/float-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 154.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "zygon",
+      "workshop": "floating",
+      "query": "μη απτεσθαι",
+      "target": "https://antonsoo.github.io/zygon/float.html?a=1.5&density=16&tilt=10&reading=1#fl-bench",
+      "initialAddress": "https://antonsoo.github.io/zygon/float.html?a=1.5&density=16&tilt=10&reading=1#fl-bench",
+      "sourceWord": "μὴ ἅπτεσθαι",
+      "interaction": {
+        "action": "Upright is balanced but unstable; keyboard nudge turns away; separate computed tilt balances; critical density keeps finite restoring response; Greek dry-base phrase locates its verified manuscript frame",
+        "source": {
+          "width": 2448,
+          "height": 3264
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/zygon/blob/576e538885cdc89128c508fa8997ddf5057262a6/docs/float-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 121.5999984741211,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}

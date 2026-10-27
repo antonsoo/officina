@@ -291,7 +291,7 @@
   },
   {
     "name": "zygon",
-    "description": "Find Archimedes’ balancing arm, then see why an exactly balanced stack can still misjudge a sphere’s volume. Read Greek with new English and Latin beside its mapped manuscript lines.",
+    "description": "Operate Archimedes’ balance and floating bodies. Test why equal forces can leave an unstable solid, then read Greek and Latin beside their manuscript and printed witnesses.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/zygon",
     "demoUrl": "https://antonsoo.github.io/zygon/?x=75&h=200&n=8&view=stack&read=8#workshop",
@@ -316,6 +316,32 @@
       "διπλασία",
       "τετραπλασίων",
       "Greek and Latin"
+    ],
+    "workshops": [
+      {
+        "id": "floating",
+        "title": "It floats. Will it stay upright? · Archimedes’ floating solids",
+        "url": "https://antonsoo.github.io/zygon/float.html?a=1.5&density=16&tilt=10&reading=1#fl-bench",
+        "reviewUrl": "https://github.com/antonsoo/zygon/blob/576e538885cdc89128c508fa8997ddf5057262a6/docs/float-review.md#try-the-actual-work",
+        "thumbnail": "thumbs/zygon-floating.png",
+        "searchTerms": [
+          "On Floating Bodies",
+          "floating solids",
+          "paraboloid",
+          "buoyancy",
+          "dry base",
+          "critical density",
+          "oblique equilibrium",
+          "unstable upright",
+          "force lines",
+          "Archimedes hydrostatics",
+          "μὴ ἅπτεσθαι",
+          "κωνοειδοῦς",
+          "non tangat humidum",
+          "emiolium"
+        ],
+        "summary": "Balance equal vertical forces, then see a tall, light solid turn farther over. Change density, find an oblique equilibrium, and read the Greek dry-base condition."
+      }
     ]
   },
   {

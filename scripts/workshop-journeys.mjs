@@ -9,6 +9,7 @@ const base = process.argv[2],
 assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
+  {project:"zygon",id:"floating",query:"μη απτεσθαι",word:"μὴ ἅπτεσθαι",path:"/zygon/float.html",heading:"Try the actual work"},
   {project:"pyknon",id:"halves",query:"superparticularis",word:"ἀνάλογον",path:"/pyknon/halves.html",heading:"Try the actual work"},
   {
     project: "syngraphe", id: "arsenal", query: "συν τωι παχει", word: "σὺν τῶι πάχει",
@@ -121,6 +122,28 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if(id==="floating") {
+    await expect(page.locator("#fl-result")).toContainText("turn it right");
+    await page.locator("#fl-upright").focus(); await page.keyboard.press("Enter");
+    await expect(page.locator("#fl-result")).toContainText("unstable");
+    await page.locator("#fl-nudge").focus(); await page.keyboard.press("Enter");
+    await expect(page.locator("#fl-result")).toContainText("turn it right");
+    await page.locator("#fl-equilibrium").focus(); await page.keyboard.press("Enter");
+    await expect(page.locator("#fl-result")).toContainText("Balanced at an oblique");
+    await expect(page.locator("#fl-angle-value")).toContainText("32.3115332");
+    await page.locator("#fl-critical").focus(); await page.keyboard.press("Enter");
+    await expect(page.locator("#fl-stability")).toContainText("zero linear");
+    await page.locator("#fl-reading-select").selectOption("1");
+    await expect(page.locator("#fl-greek")).toContainText("μὴ ἅπτεσθαι");
+    await page.locator("#fl-show-greek").focus(); await page.keyboard.press("Enter");
+    await expect(page.locator("#fl-source-status")).toContainText("identity checked");
+    const dimensions=await page.locator("#fl-source-frame image").evaluate(async node => {
+      const source=new Image();source.src=node.getAttribute("href");await source.decode();
+      return {width:source.naturalWidth,height:source.naturalHeight};
+    });
+    assert.deepEqual(dimensions,{width:2448,height:3264});
+    return {action:"Upright is balanced but unstable; keyboard nudge turns away; separate computed tilt balances; critical density keeps finite restoring response; Greek dry-base phrase locates its verified manuscript frame",source:dimensions};
+  }
   if(id==="halves"){
     await expect(page.locator("#hf-result")).toContainText("First 17/16; second 18/17");
     await page.locator('[data-hf-method="ratio"]').focus();await page.keyboard.press("Enter");
