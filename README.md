@@ -18,9 +18,15 @@ them from an incoming address so reload stays clear. Greek source
 terms such as `ἰσότονον` also work without accents (`ισοτονον`). Lesson names
 and source terms can stay indexed when a project features a different workshop.
 [Shared-search behavior and review](studies/shared-search-links/README.md).
-Ten curated geometry, architecture, water-measurement and music workshops now have direct search
+Selected geometry, architecture, water-measurement and music workshops have direct search
 links: `μηδεποτε` opens Book X, `ἤχθω` the circle-tangent argument, and `ἐπόγδοος`
 the six-tones experiment. Each matching workshop also links its recorded review.
+
+The [activity-specific search review](docs/workshop-context-2026-10-27.md) adds
+Syngraphe’s architectural specification: `συν τωι παχει` asks whether a side
+aisle measurement includes its pillar. The [three-middles review](docs/halves-discovery-2026-10-27.md)
+connects `superparticularis` to unequal ratio halves, a geometric mean and the
+whole-number premise in the Greek proof.
 
 ![The officina index page, showing the header and the Ancient world section](docs/assets/hero.png)
 
@@ -48,14 +54,17 @@ source revision and a heading anchor for `reviewUrl`. There may be at most twelv
 workshops per project; IDs are unique lowercase identifiers of at most forty
 characters, titles at most ninety, and keyword lists at most twenty-four unique
 terms of at most eighty characters. Both URLs must use HTTPS without credentials.
+Optional `summary` text (at most 320 characters) explains the specific learner
+task. An optional `thumbnail` uses a validated file under `thumbs/`. Matching
+rows show that activity’s description and preview, with separate project links.
 
 A matching workshop must account for every query word in its own title and
 keywords, with the project name or audience allowed as context. At least one
 word must identify the workshop itself. The catalogue does not combine aliases
 from different rooms to invent a matching reader. Direct workshop links appear
 during a matching search; the full index keeps its featured project links.
-These ten curated entries cover selected lessons in Stoicheia, Gonia, Dioptra and
-Pyknon, rather than every room in the ancient-learning projects.
+These entries cover selected lessons in Stoicheia, Gonia, Dioptra, Pyknon and
+Syngraphe, rather than every room in the ancient-learning projects.
 
 The build checks the catalogue's fields, links, duplicate names, and thumbnail
 files. The browser validates the fetched data too; a failed load offers a
@@ -90,7 +99,7 @@ fails the other, then inspect the correction in a complete printed witness.
 The [operated lessons](docs/operated-lessons-2026-10-24.md) add Grāma and feature
 Euclid's construction desk, Aristoxenus's rhythmic divisions and Vitruvius's
 hoist. Each opens a learner's choice, a source reading and a complete portable
-record; earlier lessons remain discoverable. The catalogue contains 30 projects.
+record; earlier lessons remain discoverable.
 
 The [viewpoint experiment](docs/viewpoint-2026-10-24.md) opens Gonia’s fixed
 1:12 inclination and a movable observer, with a source reading and a pinned
@@ -165,7 +174,7 @@ The browser tests exercise the production build in Chromium and Firefox,
 including search, keyboard focus, load recovery, light/dark mobile layouts,
 accessibility checks, and Content-Security-Policy violations.
 
-To replay the eight curated journeys against a served build or the public site:
+To replay the retained source-word journeys against a served build or the public site:
 
 ```bash
 npm run test:workshops -- https://antonsoo.github.io/officina/ /tmp/officina-workshops

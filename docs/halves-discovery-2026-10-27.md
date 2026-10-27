@@ -39,3 +39,17 @@ checks belong to Pyknon's own review. The failed first local attempt used an
 expired preview process; its incomplete output is not treated as evidence.
 The runner now preserves the original failure if a diagnostic capture also
 fails and waits for fonts and paint before search captures.
+
+## Public publication
+
+Source `e93262f` and static gh-pages `3ca30ad` were pushed. All seventy current
+canonical build files matched the hosted bytes before and after four completed
+public-catalogue journeys. Both browsers at both widths operated the public
+lesson and landed on the native pinned review heading. Receipts:
+[hosted before](halves-discovery-2026-10-27/hosted-before.json),
+[public journeys](halves-discovery-2026-10-27/public-journeys.json),
+[hosted after](halves-discovery-2026-10-27/hosted-after.json).
+
+The README now describes the optional activity summary and preview fields and
+removes stale fixed counts of workshops/projects. The current metadata remains
+the authority for the catalogue contents.
