@@ -189,7 +189,8 @@
           "diapason",
           "9:8",
           "Euclid"
-        ]
+        ],
+        "summary": "Stack six 9:8 steps against modern equal octave divisions. Compare the exact ratios and synthetic tones, then read the Greek argument."
       },
       {
         "id": "trial",
@@ -206,7 +207,8 @@
           "uniform string",
           "Ptolemy I.8",
           "Wallis"
-        ]
+        ],
+        "summary": "Equal halves can pass a string test while the right-hand quarters fail. Change a disclosed mass profile, compare the modern vibration model and read Ptolemy’s examination."
       },
       {
         "id": "vina",
@@ -229,7 +231,8 @@
           "twenty-two counts",
           "Ga Ri",
           "Sanskrit music"
-        ]
+        ],
+        "summary": "Keep the text’s successive pitch matches, change a disclosed modern tuning preparation, and compare the different pitches that still satisfy them."
       }
     ]
   },
@@ -340,7 +343,8 @@
           "pipe openings",
           "diameter area",
           "Roman water measurement"
-        ]
+        ],
+        "summary": "Compare opening area and maintained head. An opening four times the area can give the same model delivery at lower head; read Frontinus’s Latin qualification."
       }
     ]
   },
@@ -396,7 +400,8 @@
           "striarum",
           "Doric square",
           "Ionic flute"
-        ]
+        ],
+        "summary": "Move a right-angle tool across Vitruvius’s Doric and Ionic hollows. Compare the tool fit and read the Latin beside Aristotle’s Greek word for fluting."
       },
       {
         "id": "entasis",
@@ -410,7 +415,8 @@
           "measured taper",
           "hyperbola",
           "true scale"
-        ]
+        ],
+        "summary": "Compare Penrose’s measured offsets with a straight taper. Enlarge the departure explicitly, inspect a station and read the surviving Latin without supplying its lost diagram."
       },
       {
         "id": "ledger",
@@ -434,7 +440,8 @@
           "IG I3 476",
           "uneven payments",
           "ownership identifiers"
-        ]
+        ],
+        "summary": "Balance a hundred-drachma entry, then move one obol between names. The total still fits while the edited allocation changes; locate the name in the Greek account."
       },
       {
         "id": "babylon",
@@ -457,7 +464,59 @@
           "ziggurat",
           "Akkadian measurements",
           "Tower of Babylon stele"
-        ]
+        ],
+        "summary": "Keep the sixth storey unknown, or supply a disclosed completion. Compare a tablet’s numerical scheme with calibrated stele measurements and inspect the carved stone."
+      }
+    ]
+  },
+  {
+    "name": "syngraphe",
+    "description": "Fifteen feet includes the pillar. Read the Piraeus naval-storehouse programme in Greek, correct two plausible misreadings and compare measured drawings with whole printed pages.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/syngraphe",
+    "demoUrl": "https://antonsoo.github.io/syngraphe/#width",
+    "thumbnail": "thumbs/syngraphe.png",
+    "status": "published",
+    "study": {
+      "finding": "A thirty-foot total can still violate the first-segment clause. Inclusive Greek measurements constrain a drawing without completing a reconstruction.",
+      "url": "https://github.com/antonsoo/syngraphe/blob/35dfbe6cda4f9456eb58e8b555101cfbf1950650/docs/review.md#try-the-actual-work"
+    },
+    "searchTerms": [
+      "IG II² 1668",
+      "Piraeus arsenal",
+      "Philon",
+      "Choisy",
+      "σκευοθήκη",
+      "σὺν τῶι πάχει",
+      "τοῦ δὲ πρώτου",
+      "half feet",
+      "first segment",
+      "inclusive width",
+      "pillar capital",
+      "Greek building specification"
+    ],
+    "workshops": [
+      {
+        "id": "arsenal",
+        "title": "A building in the words · Piraeus",
+        "url": "https://antonsoo.github.io/syngraphe/#width",
+        "reviewUrl": "https://github.com/antonsoo/syngraphe/blob/35dfbe6cda4f9456eb58e8b555101cfbf1950650/docs/review.md#try-the-actual-work",
+        "searchTerms": [
+          "IG II² 1668",
+          "Piraeus arsenal",
+          "Philon",
+          "Choisy",
+          "σκευοθήκη",
+          "σὺν τῶι πάχει",
+          "τοῦ δὲ πρώτου",
+          "half feet",
+          "first segment",
+          "inclusive width",
+          "pillar capital",
+          "Greek building specification"
+        ],
+        "summary": "Correct an inclusive width, expose a wrong first segment inside a matching total and compare two modern grids under selected clauses. Read the Greek and the whole printed evidence.",
+        "thumbnail": "thumbs/syngraphe.png"
       }
     ]
   },
@@ -516,7 +575,9 @@
           "proportionales",
           "bounded search",
           "square diagonal"
-        ]
+        ],
+        "summary": "Search 4,761 multiplier pairs that agree, then find one exact disagreement. Read Euclid V.5 in Greek and Latin and distinguish finite agreement from the universal condition.",
+        "thumbnail": "thumbs/stoicheia-ratios.png"
       },
       {
         "id": "quadratrix",
@@ -533,7 +594,8 @@
           "squaring the circle",
           "limiting point",
           "uniform motion"
-        ]
+        ],
+        "summary": "Approach the end of synchronized motion, then finish exactly. The crossing becomes coincident lines; compare a separately added limit point with the Greek and Latin readings."
       },
       {
         "id": "horn",
@@ -548,7 +610,8 @@
           "παρεμπεσεῖται",
           "ducatur",
           "curved gap"
-        ]
+        ],
+        "summary": "Hide a ray’s crossing below the pixel scale, then inspect an exact positive deficit. Compare the tiny crossing with the tangent and read Euclid’s horn-angle argument."
       },
       {
         "id": "circle",
@@ -563,7 +626,8 @@
           "2017.24",
           "κύκλου",
           "sphaerae"
-        ]
+        ],
+        "summary": "Change one root estimate in Archimedes’ polygon calculation. Track which perimeter bound remains justified and where its proof chain first breaks, beside Greek and Latin."
       },
       {
         "id": "measure",
@@ -585,7 +649,8 @@
           "rationalis",
           "incommensurable",
           "commensurabiles"
-        ]
+        ],
+        "summary": "Repeat subtraction for a rational ratio and a square diagonal. Compare a finite common measure with a positive remainder, then read the distinct recurrence argument in Greek and Latin."
       },
       {
         "id": "desk",
@@ -600,7 +665,8 @@
           "circles lines crossings",
           "undo",
           "equal remainders"
-        ]
+        ],
+        "summary": "Choose circles, lines and their crossings to construct Euclid I.2 yourself. Work with the restricted compass, inspect a wrong branch and keep an editable construction."
       }
     ]
   },
