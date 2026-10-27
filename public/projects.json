@@ -684,6 +684,27 @@
     ],
     "workshops": [
       {
+        "id": "solids",
+        "title": "Six faces. Still not one of five. · Euclid’s solid corners",
+        "url": "https://antonsoo.github.io/stoicheia/solids.html?p=3&q=3&example=uniform&reading=0&page=336#sl-bench",
+        "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/276131d7b17a61db2cd2a48fab92aba2de3f72ab/docs/solids-review.md#try-the-actual-work",
+        "searchTerms": [
+          "solid corners",
+          "Euclid XIII.18",
+          "triangular bipyramid",
+          "tetrahedron",
+          "equal regular faces",
+          "uniform vertices",
+          "ἴσων ἀλλήλοις",
+          "aequiangulis",
+          "solidus angulus",
+          "angular deficit",
+          "tetrahedron cutting sheet"
+        ],
+        "summary": "Add a sixth triangle: the vertex goes flat. Compare two joined tetrahedra with uniform regular solids; equal faces can have different corners. Read the Greek and Latin, test the missing condition and keep a calibrated paper experiment.",
+        "thumbnail": "thumbs/stoicheia-solids.png"
+      },
+      {
         "id": "ratios",
         "title": "Thousands agree. One can disagree. · Euclid V.5",
         "url": "https://antonsoo.github.io/stoicheia/ratios.html?kind=fraction&p=99&q=70&m=7&n=10&bound=69&reading=3&page=2#rt-bench",

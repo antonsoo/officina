@@ -9,6 +9,7 @@ const base = process.argv[2],
 assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
+  {project:"stoicheia",id:"solids",query:"aequiangulis",word:"ἴσων ἀλλήλοις",path:"/stoicheia/solids.html",heading:"Try the actual work"},
   {project:"pyknon",id:"helikon",query:"subductorium",word:"ὑπαγωγέα",path:"/pyknon/helikon.html",heading:"Try the actual work"},
   {project:"pyknon",id:"notation",query:"κρουσεως",word:"κρούσεως",path:"/pyknon/notation.html",heading:"Try the translation"},
   {project:"gonia",id:"volute",query:"minuatur",word:"minuatur",path:"/gonia/volute.html",heading:"What the learner can do"},
@@ -125,6 +126,32 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if (id === "solids") {
+    await page.locator('#sl-title').waitFor();
+    await expect(page.locator('#sl-result')).toContainText('tetrahedron');
+    await page.locator('#sl-q').focus();
+    for(let i=0;i<3;i++)await page.keyboard.press('ArrowRight');
+    await expect(page.locator('#sl-result')).toContainText('360°');
+    await expect(page.locator('#sl-result')).toContainText('lies flat');
+    await page.locator('#sl-tip').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#sl-vertex-result')).toContainText('3 faces × 60° = 180°');
+    await page.locator('#sl-comparison details summary').click();
+    await expect(page.locator('#sl-inference')).toContainText('V = 720 / 180 = 4');
+    await page.locator('#sl-belt').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#sl-vertex-result')).toContainText('4 faces × 60° = 240°');
+    await expect(page.locator('#sl-inference')).toContainText('V = 720 / 120 = 6');
+    await expect(page.locator('#sl-inference')).toContainText('The actual solid has five');
+    await page.locator('#sl-latin-page').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#sl-source-status')).toContainText('Verified complete page');
+    await expect(page.locator('#sl-source-status')).toContainText('printed p.337');
+    const source=await image(page,'#sl-source-image');
+    source.sha256=await page.evaluate(async()=>{
+      const b=await(await fetch(new URL('sources/solids/heiberg-337.jpg',location.href))).arrayBuffer();
+      return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b)),v=>v.toString(16).padStart(2,'0')).join('');
+    });
+    assert.equal(source.sha256,'47960a27f1f8c3c6a300dbab59c848f1f986d7d11ee1c69f1015f5601ed36a90');
+    return {action:'The sixth triangle lies flat. The same six-faced bipyramid has three-face tips and four-face belt vertices; assuming a uniform tip predicts four vertices, assuming a uniform belt predicts six, and the actual model retains five. Greek, Latin and the complete page remain.',source};
+  }
   if(id==="notation") {
     await expect(page.locator('#nt-result')).toContainText('2 of 4 notes');
     for(const [slot,sign] of [[1,'bracket'],[2,'zeta']]) {
