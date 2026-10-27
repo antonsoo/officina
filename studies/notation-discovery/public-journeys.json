@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-10-27T13:42:58.344Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "notation",
+      "query": "κρουσεως",
+      "target": "https://antonsoo.github.io/pyknon/notation.html#translation",
+      "initialAddress": "https://antonsoo.github.io/pyknon/notation.html#translation",
+      "sourceWord": "κρούσεως",
+      "interaction": {
+        "action": "Two keyboard sign replacements preserve all four pitches; holding the shared sign moves mesē, holding mesai moves the sign; local sound stops; two Hypolydian functions and the actual whole-page bytes remain",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/f6ab7d56-ab51-4f8f-ad97-2eda56667be4",
+          "width": 1372,
+          "height": 2200,
+          "sha256": "2ca20ce4ac8f2251e10eeddf603ae97c3c219dfb766c44ff423a84210ead6e85"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/ff79c6270ecec1b9adc570f429a0edf2ec05f5ef/docs/notation-review.md#try-the-translation",
+      "nativeReviewHeadingTop": 514.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "notation",
+      "query": "κρουσεως",
+      "target": "https://antonsoo.github.io/pyknon/notation.html#translation",
+      "initialAddress": "https://antonsoo.github.io/pyknon/notation.html#translation",
+      "sourceWord": "κρούσεως",
+      "interaction": {
+        "action": "Two keyboard sign replacements preserve all four pitches; holding the shared sign moves mesē, holding mesai moves the sign; local sound stops; two Hypolydian functions and the actual whole-page bytes remain",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/fa863bae-7924-4dc0-b352-f0492681bf83",
+          "width": 1372,
+          "height": 2200,
+          "sha256": "2ca20ce4ac8f2251e10eeddf603ae97c3c219dfb766c44ff423a84210ead6e85"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/ff79c6270ecec1b9adc570f429a0edf2ec05f5ef/docs/notation-review.md#try-the-translation",
+      "nativeReviewHeadingTop": 695.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "pyknon",
+      "workshop": "notation",
+      "query": "κρουσεως",
+      "target": "https://antonsoo.github.io/pyknon/notation.html#translation",
+      "initialAddress": "https://antonsoo.github.io/pyknon/notation.html#translation",
+      "sourceWord": "κρούσεως",
+      "interaction": {
+        "action": "Two keyboard sign replacements preserve all four pitches; holding the shared sign moves mesē, holding mesai moves the sign; local sound stops; two Hypolydian functions and the actual whole-page bytes remain",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/aa1936bd-1493-4452-8225-c81ead1b954d",
+          "width": 1372,
+          "height": 2200,
+          "sha256": "2ca20ce4ac8f2251e10eeddf603ae97c3c219dfb766c44ff423a84210ead6e85"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/ff79c6270ecec1b9adc570f429a0edf2ec05f5ef/docs/notation-review.md#try-the-translation",
+      "nativeReviewHeadingTop": 333.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "pyknon",
+      "workshop": "notation",
+      "query": "κρουσεως",
+      "target": "https://antonsoo.github.io/pyknon/notation.html#translation",
+      "initialAddress": "https://antonsoo.github.io/pyknon/notation.html#translation",
+      "sourceWord": "κρούσεως",
+      "interaction": {
+        "action": "Two keyboard sign replacements preserve all four pitches; holding the shared sign moves mesē, holding mesai moves the sign; local sound stops; two Hypolydian functions and the actual whole-page bytes remain",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/e6549f32-91b8-4a41-8f4d-895e5db2f179",
+          "width": 1372,
+          "height": 2200,
+          "sha256": "2ca20ce4ac8f2251e10eeddf603ae97c3c219dfb766c44ff423a84210ead6e85"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/pyknon/blob/ff79c6270ecec1b9adc570f429a0edf2ec05f5ef/docs/notation-review.md#try-the-translation",
+      "nativeReviewHeadingTop": 437.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}

@@ -33,7 +33,31 @@ lesson and review. The search screenshots and thumbnail were visually inspected.
 node scripts/workshop-journeys.mjs CATALOGUE_URL OUTPUT notation
 ```
 
-Pyknon's [public publication record](https://github.com/antonsoo/pyknon/blob/0a5b7a5/docs/notation-publication.md)
+Pyknon's [public publication record](https://github.com/antonsoo/pyknon/blob/0a5b7a5f081e5dda94b8cb4ec0b5b6b2aeb4aed0/docs/notation-publication.md)
 separately identifies its clean build, canonical hosted bytes, actual downloads,
 portable reading, offline behavior and remote-CI boundary. This catalogue
 journey blocks service workers and does not substitute for that offline review.
+
+
+## Public publication
+
+Source `188d5092b4d4c84a6ddec9146cffe6f718a05a4e` and the normal fast-forward
+static revision `4f2517e` were pushed with the owner's explicit authorization.
+A fresh `npm ci` under Node 24.21.0 passed lint, formatting, all 45 checks and
+build. All **73 clean output files** match the reviewed checkout build:
+[clean inventory](clean-build.json).
+
+All **73 canonical public responses** matched before and after the public
+journeys: [before](hosted-before.json), [after](hosted-after.json).
+All **nine older public content paths** outside the new build still match
+their prior bytes: [retained assets](hosted-retained-assets.json).
+The branch control file was preserved separately.
+
+The [public journeys](public-journeys.json) repeat the complete Greek query,
+keyboard writing, pitch-reference comparison, local stop, verified whole-page
+blob and native immutable-review heading in both engines and widths. The actual
+[public search](https://antonsoo.github.io/officina/?q=κρουσεως#catalogue)
+opens this matching workshop. Public search captures were visually reviewed.
+The [final lesson entries](final-lesson-entries.json) re-check Gonia and Pyknon
+entries, workers and the notation manifest against their reviewed builds after
+this catalogue workflow. No remote source-CI success is inferred.

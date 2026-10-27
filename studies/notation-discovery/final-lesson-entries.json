@@ -1,0 +1,83 @@
+{
+  "scope": "Canonical lesson and worker identities after the public catalogue journey; complete current-build inventories were verified separately",
+  "checkedAtUtc": "2026-10-27T13:44:06.333Z",
+  "records": [
+    {
+      "project": "gonia",
+      "path": "index.html",
+      "url": "https://antonsoo.github.io/gonia/index.html",
+      "httpStatus": 200,
+      "expectedBytes": 1180,
+      "sha256": "da782b3cc57afe2aaec9f448a0b39f4ea4db1640a3b1f6176412afe5f5c63010",
+      "observedBytes": 1180,
+      "observedSha256": "da782b3cc57afe2aaec9f448a0b39f4ea4db1640a3b1f6176412afe5f5c63010",
+      "verified": true
+    },
+    {
+      "project": "gonia",
+      "path": "volute.html",
+      "url": "https://antonsoo.github.io/gonia/volute.html",
+      "httpStatus": 200,
+      "expectedBytes": 1229,
+      "sha256": "b2b4d2b099a388e58fe35bbd7e68d7f4ade2b12be702145a5fc26b58f929b59c",
+      "observedBytes": 1229,
+      "observedSha256": "b2b4d2b099a388e58fe35bbd7e68d7f4ade2b12be702145a5fc26b58f929b59c",
+      "verified": true
+    },
+    {
+      "project": "gonia",
+      "path": "sw.js",
+      "url": "https://antonsoo.github.io/gonia/sw.js",
+      "httpStatus": 200,
+      "expectedBytes": 19411,
+      "sha256": "39df5ad0cdfd79d16f9771728f6d6e24ec9f3c0e5b14e04c4a436661c52b647d",
+      "observedBytes": 19411,
+      "observedSha256": "39df5ad0cdfd79d16f9771728f6d6e24ec9f3c0e5b14e04c4a436661c52b647d",
+      "verified": true
+    },
+    {
+      "project": "pyknon",
+      "path": "index.html",
+      "url": "https://antonsoo.github.io/pyknon/index.html",
+      "httpStatus": 200,
+      "expectedBytes": 1051,
+      "sha256": "012725a68a6d6e8e955e7e494c915bef8d19d73c780637e66ee8336c41266e82",
+      "observedBytes": 1051,
+      "observedSha256": "012725a68a6d6e8e955e7e494c915bef8d19d73c780637e66ee8336c41266e82",
+      "verified": true
+    },
+    {
+      "project": "pyknon",
+      "path": "notation.html",
+      "url": "https://antonsoo.github.io/pyknon/notation.html",
+      "httpStatus": 200,
+      "expectedBytes": 1354,
+      "sha256": "c6bc0c02b0478a4503ab41d2cb37da436179313e13b8c659c4c16d7dfa19d4d9",
+      "observedBytes": 1354,
+      "observedSha256": "c6bc0c02b0478a4503ab41d2cb37da436179313e13b8c659c4c16d7dfa19d4d9",
+      "verified": true
+    },
+    {
+      "project": "pyknon",
+      "path": "sw.js",
+      "url": "https://antonsoo.github.io/pyknon/sw.js",
+      "httpStatus": 200,
+      "expectedBytes": 15561,
+      "sha256": "31c0ca6b5af32535db667b5b58e8b103a4747bee62d382fd66d43b021d625f49",
+      "observedBytes": 15561,
+      "observedSha256": "31c0ca6b5af32535db667b5b58e8b103a4747bee62d382fd66d43b021d625f49",
+      "verified": true
+    },
+    {
+      "project": "pyknon",
+      "path": "sources/notation/manifest.json",
+      "url": "https://antonsoo.github.io/pyknon/sources/notation/manifest.json",
+      "httpStatus": 200,
+      "expectedBytes": 3330,
+      "sha256": "e178fd0d3b0732a7a9eb501c8a31350c89e88502815106c00f16b81d57978a62",
+      "observedBytes": 3330,
+      "observedSha256": "e178fd0d3b0732a7a9eb501c8a31350c89e88502815106c00f16b81d57978a62",
+      "verified": true
+    }
+  ]
+}
