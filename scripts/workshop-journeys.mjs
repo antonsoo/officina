@@ -10,6 +10,10 @@ assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
   {
+    project: "gonia", id: "babylon", query: "nindanu", word: "nindanu",
+    path: "/gonia/babylon.html", heading: "What changed for the learner",
+  },
+  {
     project: "stoicheia", id: "quadratrix", query: "ουκετι", word: "οὐκέτι",
     path: "/stoicheia/quadratrix.html", heading: "What changed for the learner",
   },
@@ -104,6 +108,25 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if (id === "babylon") {
+    await expect(page.locator("#bb-supplied")).not.toBeChecked();
+    assert.match(await page.locator("#bb-total").textContent(), /84 m.*Total unresolved/);
+    await page.locator("#bb-conventional").focus();
+    await page.keyboard.press("Enter");
+    assert.match(await page.locator("#bb-total").textContent(), /90 m total/);
+    await page.locator('[data-bb-select="1"]').click();
+    assert.match(await page.locator("#bb-level-detail").textContent(), /18 m/);
+    assert.match(await page.locator("#bb-level-detail").textContent(), /9\.52 m/);
+    await page.locator("#bb-read-row").focus();
+    await page.keyboard.press("Enter");
+    await expect(page.locator("#bb-reading")).toHaveValue("1");
+    await expect(page.locator("#bb-source-title")).toBeFocused();
+    await page.waitForFunction(() => document.querySelector("#bb-source-status").textContent.startsWith("Verified"));
+    return {
+      action: "unknown sixth storey, disclosed 90 m completion, second-storey disagreement and corresponding numerical source",
+      source: await image(page, "#bb-source-image"),
+    };
+  }
   if (id === "quadratrix") {
     assert.equal(await page.locator("#qx-time").inputValue(), "999999");
     assert.equal(await page.locator(".qx-z").count(), 1);

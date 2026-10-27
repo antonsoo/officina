@@ -323,7 +323,7 @@
   },
   {
     "name": "gonia",
-    "description": "Build Vitruvius’s eight-channel water screw from a square grid. Change pitch and slope, follow a retained bucket, and read the Latin dimensions. Twelve rooms also cover temples, columns, theatres, hoists, sight lines and the names in a building account.",
+    "description": "Build Vitruvius’s eight-channel water screw from a square grid. Change pitch and slope, follow a retained bucket, and read the Latin dimensions. Thirteen rooms also compare Babylonian building evidence, temples, columns, theatres, hoists, sight lines and a building account.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gonia",
     "demoUrl": "https://antonsoo.github.io/gonia/screw.html?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=500&step=3&passage=11&page=238#sc-build",
@@ -411,6 +411,29 @@
           "IG I3 476",
           "uneven payments",
           "ownership identifiers"
+        ]
+      },
+      {
+        "id": "babylon",
+        "title": "A tower between two sources · Babylon",
+        "url": "https://antonsoo.github.io/gonia/babylon.html?supplied=0&selected=5&page=scheil-300#bb-bench",
+        "reviewUrl": "https://github.com/antonsoo/gonia/blob/f27c806b74efd0367ceae9ad60661fdc63abfd58/docs/babylon-review.md#what-changed-for-the-learner",
+        "searchTerms": [
+          "Babylon",
+          "Babylonian",
+          "Etemenanki",
+          "Esagil",
+          "AO 6555",
+          "missing sixth storey",
+          "nindanu",
+          "mēlû",
+          "šiddu",
+          "pūtu",
+          "SUKUD",
+          "stone scan",
+          "ziggurat",
+          "Akkadian measurements",
+          "Tower of Babylon stele"
         ]
       }
     ]
