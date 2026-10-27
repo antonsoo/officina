@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-10-27T21:23:03.257Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "solids",
+      "query": "aequiangulis",
+      "target": "https://antonsoo.github.io/stoicheia/solids.html?p=3&q=3&example=uniform&reading=0&page=336#sl-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/solids.html?p=3&q=3&example=uniform&reading=0&page=336#sl-bench",
+      "sourceWord": "ἴσων ἀλλήλοις",
+      "interaction": {
+        "action": "The sixth triangle lies flat. The same six-faced bipyramid has three-face tips and four-face belt vertices; assuming a uniform tip predicts four vertices, assuming a uniform belt predicts six, and the actual model retains five. Greek, Latin and the complete page remain.",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/078b366f-ef10-4b58-a446-5edd1748c599",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "47960a27f1f8c3c6a300dbab59c848f1f986d7d11ee1c69f1015f5601ed36a90"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/276131d7b17a61db2cd2a48fab92aba2de3f72ab/docs/solids-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 213.984375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "solids",
+      "query": "aequiangulis",
+      "target": "https://antonsoo.github.io/stoicheia/solids.html?p=3&q=3&example=uniform&reading=0&page=336#sl-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/solids.html?p=3&q=3&example=uniform&reading=0&page=336#sl-bench",
+      "sourceWord": "ἴσων ἀλλήλοις",
+      "interaction": {
+        "action": "The sixth triangle lies flat. The same six-faced bipyramid has three-face tips and four-face belt vertices; assuming a uniform tip predicts four vertices, assuming a uniform belt predicts six, and the actual model retains five. Greek, Latin and the complete page remain.",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/9e6577b4-ab61-49a7-9478-700aa0b15dca",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "47960a27f1f8c3c6a300dbab59c848f1f986d7d11ee1c69f1015f5601ed36a90"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/276131d7b17a61db2cd2a48fab92aba2de3f72ab/docs/solids-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 855.984375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "solids",
+      "query": "aequiangulis",
+      "target": "https://antonsoo.github.io/stoicheia/solids.html?p=3&q=3&example=uniform&reading=0&page=336#sl-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/solids.html?p=3&q=3&example=uniform&reading=0&page=336#sl-bench",
+      "sourceWord": "ἴσων ἀλλήλοις",
+      "interaction": {
+        "action": "The sixth triangle lies flat. The same six-faced bipyramid has three-face tips and four-face belt vertices; assuming a uniform tip predicts four vertices, assuming a uniform belt predicts six, and the actual model retains five. Greek, Latin and the complete page remain.",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/3c401ec8-a099-4426-9b0d-0ac3d707c6d5",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "47960a27f1f8c3c6a300dbab59c848f1f986d7d11ee1c69f1015f5601ed36a90"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/276131d7b17a61db2cd2a48fab92aba2de3f72ab/docs/solids-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 185.8000030517578,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "solids",
+      "query": "aequiangulis",
+      "target": "https://antonsoo.github.io/stoicheia/solids.html?p=3&q=3&example=uniform&reading=0&page=336#sl-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/solids.html?p=3&q=3&example=uniform&reading=0&page=336#sl-bench",
+      "sourceWord": "ἴσων ἀλλήλοις",
+      "interaction": {
+        "action": "The sixth triangle lies flat. The same six-faced bipyramid has three-face tips and four-face belt vertices; assuming a uniform tip predicts four vertices, assuming a uniform belt predicts six, and the actual model retains five. Greek, Latin and the complete page remain.",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/d2694efb-fe18-4434-a5c8-f1c76a65a1a1",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "47960a27f1f8c3c6a300dbab59c848f1f986d7d11ee1c69f1015f5601ed36a90"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/276131d7b17a61db2cd2a48fab92aba2de3f72ab/docs/solids-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 420.79998779296875,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
