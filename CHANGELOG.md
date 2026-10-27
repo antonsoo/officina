@@ -6,6 +6,9 @@ All notable changes to this project are documented in this file.
 
 ### Added
 
+- Find Euclid V.5 by its Greek or Latin words, compare 4,761 agreeing trials with
+  an exact counterexample, and open the pinned source-and-operation review.
+
 - Find Pappus's quadratrix through its source words and open the positive-time
   crossing beside the final-instant objection, with a pinned implementation review.
 - Index source words and lesson names separately from card descriptions; Greek

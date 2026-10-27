@@ -501,6 +501,24 @@
     ],
     "workshops": [
       {
+        "id": "ratios",
+        "title": "Thousands agree. One can disagree. · Euclid V.5",
+        "url": "https://antonsoo.github.io/stoicheia/ratios.html?kind=fraction&p=99&q=70&m=7&n=10&bound=69&reading=3&page=2#rt-bench",
+        "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/7082a2edabff8e6f9c24db82cc484bc9c5d4a7f8/docs/ratios-review.md#direct-review-of-the-book-v-ratio-workshop",
+        "searchTerms": [
+          "Euclid V.5 V.7 equimultiples",
+          "ἰσάκις",
+          "ὁποιονοῦν",
+          "aeque multiplices",
+          "whatever multiplication",
+          "4761",
+          "99/70 finite agreement",
+          "proportionales",
+          "bounded search",
+          "square diagonal"
+        ]
+      },
+      {
         "id": "quadratrix",
         "title": "The point the motion cannot draw · Pappus",
         "url": "https://antonsoo.github.io/stoicheia/quadratrix.html?tick=999999&timing=together&limit=1&reading=6&page=254#qx-bench",

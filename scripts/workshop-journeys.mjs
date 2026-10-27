@@ -10,6 +10,10 @@ assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
   {
+    project: "stoicheia", id: "ratios", query: "οποιονουν", word: "ὁποιονοῦν",
+    path: "/stoicheia/ratios.html", heading: "Direct review of the Book V ratio workshop",
+  },
+  {
     project: "pyknon", id: "vina", query: "dve vine", word: "dve vīṇe",
     path: "/pyknon/vina.html", heading: "What changed for the learner",
   },
@@ -112,6 +116,24 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if (id === "ratios") {
+    await expect(page.locator("#rt-bound")).toHaveValue("69");
+    await expect(page.locator("#rt-scan-result")).toContainText("4,761");
+    await expect(page.locator("#rt-find")).toBeDisabled();
+    await page.locator('[data-rt-bound="100"]').focus();
+    await page.keyboard.press("Enter");
+    await page.locator("#rt-find").focus();
+    await page.keyboard.press("Enter");
+    await expect(page.locator("#rt-m")).toHaveValue("70");
+    await expect(page.locator("#rt-n")).toHaveValue("99");
+    await expect(page.locator("#rt-signs")).toContainText("70√2 < 99");
+    await expect(page.locator("#rt-signs")).toContainText("6930 = 6930");
+    await expect(page.locator("#rt-excess-note")).toContainText("without having V.7");
+    return {
+      action: "4,761 agreeing comparisons through 69; keyboard-expanded search finds the exact 70/99 equality counterexample, distinguished from a V.7 strict-excess witness",
+      source: await image(page, "#rt-source-image"),
+    };
+  }
   if (id === "vina") {
     await expect(page.locator("#vn-tuning")).toHaveValue("comma");
     await expect(page.locator("#vn-pair")).toContainText("244.4444 Hz");
