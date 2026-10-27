@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T01:18:09.732Z",
+  "checkedAt": "2026-10-27T01:22:45.435Z",
   "base": "http://127.0.0.1:4369/officina/",
   "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
   "configurations": [
@@ -16,13 +16,13 @@
       "interaction": {
         "action": "unknown sixth storey, disclosed 90 m completion, second-storey disagreement and corresponding numerical source",
         "source": {
-          "src": "blob:https://antonsoo.github.io/b64c9281-f011-4992-bbbb-1fa1bb45818a",
+          "src": "blob:https://antonsoo.github.io/7933bd66-f177-4692-9801-6c41dce35f7c",
           "width": 1685,
           "height": 2140
         }
       },
-      "reviewURL": "https://github.com/antonsoo/gonia/blob/f27c806b74efd0367ceae9ad60661fdc63abfd58/docs/babylon-review.md#what-changed-for-the-learner",
-      "nativeReviewHeadingTop": 450.59375,
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/39778411184c531547ab418968b581a2cbb9bd46/docs/babylon-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 238.59375,
       "extraCatalogueRequests": [],
       "applicationErrors": []
     },
@@ -39,12 +39,12 @@
       "interaction": {
         "action": "unknown sixth storey, disclosed 90 m completion, second-storey disagreement and corresponding numerical source",
         "source": {
-          "src": "blob:https://antonsoo.github.io/6d12d636-21ce-43a7-a56c-40b5d90890f2",
+          "src": "blob:https://antonsoo.github.io/4df47b99-e35d-4ee5-9073-8f5babb489d7",
           "width": 1685,
           "height": 2140
         }
       },
-      "reviewURL": "https://github.com/antonsoo/gonia/blob/f27c806b74efd0367ceae9ad60661fdc63abfd58/docs/babylon-review.md#what-changed-for-the-learner",
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/39778411184c531547ab418968b581a2cbb9bd46/docs/babylon-review.md#what-changed-for-the-learner",
       "nativeReviewHeadingTop": 599.59375,
       "extraCatalogueRequests": [],
       "applicationErrors": []
@@ -62,12 +62,12 @@
       "interaction": {
         "action": "unknown sixth storey, disclosed 90 m completion, second-storey disagreement and corresponding numerical source",
         "source": {
-          "src": "blob:https://antonsoo.github.io/17be4574-7340-4011-8ecc-87914ed59a72",
+          "src": "blob:https://antonsoo.github.io/2f848909-0731-4636-8187-8134f53583ec",
           "width": 1685,
           "height": 2140
         }
       },
-      "reviewURL": "https://github.com/antonsoo/gonia/blob/f27c806b74efd0367ceae9ad60661fdc63abfd58/docs/babylon-review.md#what-changed-for-the-learner",
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/39778411184c531547ab418968b581a2cbb9bd46/docs/babylon-review.md#what-changed-for-the-learner",
       "nativeReviewHeadingTop": 182.60000610351562,
       "extraCatalogueRequests": [],
       "applicationErrors": []
@@ -85,13 +85,13 @@
       "interaction": {
         "action": "unknown sixth storey, disclosed 90 m completion, second-storey disagreement and corresponding numerical source",
         "source": {
-          "src": "blob:https://antonsoo.github.io/62406e2a-2c06-4d57-b9bc-6f77c5807708",
+          "src": "blob:https://antonsoo.github.io/75f619fc-18c2-49bb-b52f-d4362890289b",
           "width": 1685,
           "height": 2140
         }
       },
-      "reviewURL": "https://github.com/antonsoo/gonia/blob/f27c806b74efd0367ceae9ad60661fdc63abfd58/docs/babylon-review.md#what-changed-for-the-learner",
-      "nativeReviewHeadingTop": 374.6000061035156,
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/39778411184c531547ab418968b581a2cbb9bd46/docs/babylon-review.md#what-changed-for-the-learner",
+      "nativeReviewHeadingTop": 124.5999984741211,
       "extraCatalogueRequests": [],
       "applicationErrors": []
     }
