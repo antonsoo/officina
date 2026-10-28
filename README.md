@@ -238,3 +238,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 [MIT](LICENSE) (c) 2026 Anton Soloviev
+
+The arch route now has a separate [public discovery and operation review](docs/arch-publication.md), including native pinned-review navigation in both browsers.

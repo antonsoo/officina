@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-28T02:26:57.788Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "arch",
+      "query": "latiores",
+      "target": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "sourceWord": "cunei",
+      "interaction": {
+        "action": "Keyboard widening repairs the pier bases while keeping weight 1 W; a complete-model path and joint 4 remain inspectable beside the Latin and complete source page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/952b59df-dfe0-47d4-8cf1-d5b67a5111f6",
+          "width": 1414,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 538.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "arch",
+      "query": "latiores",
+      "target": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "sourceWord": "cunei",
+      "interaction": {
+        "action": "Keyboard widening repairs the pier bases while keeping weight 1 W; a complete-model path and joint 4 remain inspectable beside the Latin and complete source page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/b5148525-0fa1-48c7-9ddb-4365f8bf3be7",
+          "width": 1414,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 807.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "arch",
+      "query": "latiores",
+      "target": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "sourceWord": "cunei",
+      "interaction": {
+        "action": "Keyboard widening repairs the pier bases while keeping weight 1 W; a complete-model path and joint 4 remain inspectable beside the Latin and complete source page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/7d750478-62ae-4489-893c-70f13c572208",
+          "width": 1414,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 318.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "arch",
+      "query": "latiores",
+      "target": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "sourceWord": "cunei",
+      "interaction": {
+        "action": "Keyboard widening repairs the pier bases while keeping weight 1 W; a complete-model path and joint 4 remain inspectable beside the Latin and complete source page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/ec3be8dd-f198-4144-9de9-1a67870856c1",
+          "width": 1414,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 387.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
