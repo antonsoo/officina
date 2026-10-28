@@ -192,6 +192,11 @@ require the network. They exercise actual geometry, drawing and music controls,
 then follow the review's native heading anchor. They do not claim offline
 availability or physical audio output.
 
+The [finite-friction discovery review](studies/arch-friction/README.md) adds
+source-word searches and an operable distinction between fitting contacts and
+carrying shear. It follows the selected trial through repair, impossibility and
+base sliding, with weight and width kept separate.
+
 The [local arch discovery review](docs/arch-discovery.md) exercises five English
 and Latin searches through Gonia's arch-and-pier operation, actual source-page
 identity and an exact local review commit. It records the explicit local lesson

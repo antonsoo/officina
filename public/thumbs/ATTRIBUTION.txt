@@ -140,3 +140,8 @@ Stoicheia application-of-areas thumbnail (stoicheia-areas.png, 2026-10-28)
 Actual local browser capture of the VI.27–29 workshop: equal-area trials and
 similar square shortfalls. New code and diagrams: Anthony Mercer, MIT. Bundled
 Noto Serif: SIL OFL 1.1. No historical source image is shown in this thumbnail.
+
+Gonia arch friction thumbnail (gonia-arch.png, 2026-10-28)
+Actual browser capture of the finite-friction experiment, with red bearing
+contacts and separately passing base checks. Original diagrams and code:
+Anthony Mercer, MIT. No historical image appears in this capture.

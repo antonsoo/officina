@@ -66,9 +66,9 @@ its complete checks and independently reproduced the lesson’s built files.
 
 ## Publication boundary
 
-This is a local prepared addition. No push, hosted update, public raw-blob
-availability or remote CI execution is claimed. `HOUSE_STANDARDS.md` reserves
-publication for the coordinator. The project’s existing published circle
+The initial review above was local, before the user authorized publication.
+It made no public-delivery or remote-CI claim. The dated public review below
+records the subsequent publication. The project’s existing published circle
 workshop and other catalogue routes retain their own evidence.
 
 ## Public publication review, 2026-10-28

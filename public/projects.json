@@ -487,10 +487,10 @@
     "workshops": [
       {
         "id": "arch",
-        "title": "The arch and the pier: follow the push to the ground",
+        "title": "The arch and the pier: contact is not enough",
         "url": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
-        "reviewUrl": "https://github.com/antonsoo/gonia/blob/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md#try-the-actual-work",
-        "summary": "Fit every arch joint, then test the pier bases. Change rise, thickness, loading, thrust and base width; inspect the contacts beside Vitruvius’s Latin and whole printed pages.",
+        "reviewUrl": "https://github.com/antonsoo/gonia/blob/1ae2bf7915d2b303c57bcc4c3e175b739a85ce00/docs/arch-friction-review.md#try-the-actual-work",
+        "summary": "Fit every contact, then test whether the joints and bases can carry the shear. Compare finite friction, a repaired force path and a sliding base beside Vitruvius’s Latin and whole source pages.",
         "thumbnail": "thumbs/gonia-arch.png",
         "searchTerms": [
           "arch and pier",
@@ -506,7 +506,13 @@
           "base overturning",
           "relieving arch",
           "no tension",
-          "voussoirs"
+          "voussoirs",
+          "arch friction",
+          "Coulomb",
+          "friction cone",
+          "sliding base",
+          "normal and shear",
+          "static friction"
         ]
       },
       {
