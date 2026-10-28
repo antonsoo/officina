@@ -36,5 +36,14 @@ and 45 tests; all 79 production files match the reviewed workspace bytes.
 node scripts/parabola.mjs http://127.0.0.1:4369/officina/ http://127.0.0.1:4372/zygon/ /path/to/zygon /tmp/parabola-discovery
 ```
 
-Public verification is recorded separately after publication, with `--public`
-and no redirection.
+## Public delivery
+
+Source `4e7ecba` and fast-forward Pages `f12a2c4` were pushed on 2026-10-28.
+All 79 canonical files matched the clean build [before](public/files.json) and
+[after](public/files-after.json) [twenty actual public journeys](public/journeys.json).
+The public runner uses `--public` with no request redirection. Every case opens
+the actual GitHub pinned review and compares its public raw bytes with the
+committed blob, then operates the canonical public lesson and verifies the
+displayed source JPEG. Browser and file checks establish these claims without
+inferring a successful CI run. Zygon's independent public source/build/export
+and offline receipts remain in its own repository.
