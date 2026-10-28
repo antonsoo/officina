@@ -16,7 +16,8 @@ condition determine which constructions are possible.
 The English title, nineteen source/topic aliases, activity summary and real
 workshop screenshot live in `public/projects.json`. The recorded review points
 to feature commit `2bb7c8d48e406dcccacdee8f0b1f86b7a39ebd37` and its
-`docs/areas-review.md#try-the-actual-work` heading. The complete source pages,+modern model boundaries, native artifacts and direct review belong to Stoicheia.
+`docs/areas-review.md#try-the-actual-work` heading. The complete source pages,
+modern model boundaries, native artifacts and direct review belong to Stoicheia.
 
 ## Actual local journey
 
@@ -55,6 +56,13 @@ node scripts/areas-local.mjs http://127.0.0.1:4369/officina/ http://127.0.0.1:43
 The normal catalogue validation, lint, type checking, 45 tests and build passed.
 The thumbnail keeps the catalogue’s 1200:750 aspect ratio and comes from an
 unmodified 1280×800 browser capture of the real bench.
+
+A fresh archive of catalogue feature commit
+`2537340c16bc819fc81ec0337ad2ff1aa09bdbaf` passed `npm ci`, build, lint, type
+checking and all 45 tests on Node 24.22.1. Every output file matches the reviewed
+local build byte-for-byte. The [fresh-build inventory](clean-build.json) records
+the filenames, sizes and digests. The paired Stoicheia archive separately passed
+its complete checks and independently reproduced the lesson’s built files.
 
 ## Publication boundary
 
