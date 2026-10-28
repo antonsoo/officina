@@ -59,3 +59,12 @@ Every journey now rejects 5/4 at a finite layer, then retains the close guess's
 layer-10 account while verifying that the diagram stays at layer 7.
 Updated receipts live in [proposals](proposals/); the first edition's receipts
 above remain historical records of its earlier pin and workflow.
+
+The extension's source `3b954c7` and fast-forward Pages `a4e5cbe` were pushed.
+All 79 current canonical files match the clean Node 24 build
+[before](proposals/public/files.json) and [after](proposals/public/files-after.json)
+[twenty updated public journeys](proposals/public/journeys.json), with no request
+redirection. Each opens the actual new pinned GitHub review, compares its public
+raw bytes to the source blob, operates both the finite remainder and proposal
+workflow, and checks the complete displayed source scan. A successful CI run or
+deployment-job receipt is not inferred from these hosted-byte/browser results.
