@@ -395,7 +395,7 @@
         "id": "parabola",
         "title": "A third more · Archimedes’ parabola and its finite remainder",
         "url": "https://antonsoo.github.io/zygon/parabola.html#pa-bench",
-        "reviewUrl": "https://github.com/antonsoo/zygon/blob/82a5b6a4679f11f3cd32911faeb720e616cbeb48/docs/parabola-review.md#try-the-actual-work",
+        "reviewUrl": "https://github.com/antonsoo/zygon/blob/253e6d2da5fe63b25bf39433a84670ceb17a279a/docs/parabola-review.md#try-the-actual-work",
         "thumbnail": "thumbs/zygon-parabola.png",
         "searchTerms": [
           "parabola",
@@ -410,9 +410,13 @@
           "exhaustion",
           "οὐκ ἀποδέδεικται",
           "τοῦ ἐλαχίστου",
-          "4/3"
+          "4/3",
+          "finite rejection",
+          "wrong area",
+          "first rejecting layer",
+          "1333333/1000000"
         ],
-        "summary": "Find one arm for every interior section, then add finite inscribed layers. A third of the last layer corrects the area account without filling another triangle. Compare strict tangent bounds and the Greek/Latin proof qualification."
+        "summary": "Find one arm for every interior section, then test a proposed area against finite bounds. Reject wrong guesses, keep a close proposal’s layer-10 account distinct from the seven drawn refinements, and read the Greek/Latin proof qualification."
       }
     ]
   },
