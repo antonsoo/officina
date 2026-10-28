@@ -131,6 +131,12 @@ async function operate(page, id) {
   if(id === "primes") {
     await page.locator('#pr-title').waitFor();
     await expect(page.locator('#pr-result')).toContainText('Unresolved at this bound');
+    await page.locator('#pr-propose-unit').click();
+    await expect(page.locator('#pr-proposal')).toContainText('1 is the unit');
+    await page.locator('#pr-candidate').fill('59');
+    await page.locator('#pr-candidate').press('Enter');
+    await expect(page.locator('#pr-proposal')).toContainText('completes the composite branch');
+    await expect(page.locator('#pr-result')).toContainText('Unresolved at this bound');
     await page.locator('#pr-extend').focus();await page.keyboard.press('Enter');
     await expect(page.locator('#pr-result')).toContainText('30031 = 59 × 509');
     await page.locator('[data-pr-case="smaller"]').focus();await page.keyboard.press('Enter');
@@ -146,7 +152,7 @@ async function operate(page, id) {
       return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');
     });
     assert.equal(source.sha256,'c745b20db69c37d4d4dfb1a6c90a4a8bea6ac29f447d7c5493c8075486981b30');
-    return {action:'Extend a genuinely unresolved search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page',source};
+    return {action:'Reject the unit and verify a proposed prime witness while search stays unresolved; extend the search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page',source};
   }
   if(id === "arch") {
     await page.locator('#ar-title').waitFor();
