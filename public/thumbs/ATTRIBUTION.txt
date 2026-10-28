@@ -135,3 +135,8 @@ Weighted-string and square-frustum thumbnails, added 2026-10-25:
 Both are original MIT code/diagrams, Anton Soloviev, 2026. No source-page
 photographs appear in these frames. Exact capture URLs, viewport and hashes
 are retained in studies/weight-and-volume-discovery/results/thumbnails.json.
+
+Stoicheia application-of-areas thumbnail (stoicheia-areas.png, 2026-10-28)
+Actual local browser capture of the VI.27–29 workshop: equal-area trials and
+similar square shortfalls. New code and diagrams: Anthony Mercer, MIT. Bundled
+Noto Serif: SIL OFL 1.1. No historical source image is shown in this thumbnail.

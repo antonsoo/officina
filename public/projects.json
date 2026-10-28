@@ -708,6 +708,35 @@
     ],
     "workshops": [
       {
+        "id": "areas",
+        "title": "Two fits. One limit. · Euclid’s application of areas",
+        "url": "https://antonsoo.github.io/stoicheia/areas.html#ar-bench",
+        "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/2bb7c8d48e406dcccacdee8f0b1f86b7a39ebd37/docs/areas-review.md#try-the-actual-work",
+        "searchTerms": [
+          "application of areas",
+          "Euclid VI.27",
+          "Euclid VI.28",
+          "Euclid VI.29",
+          "falling short",
+          "exceeding",
+          "two fits",
+          "maximum area",
+          "impossible target",
+          "similar parallelograms",
+          "ἐλλεῖπον",
+          "ὑπερβάλλον",
+          "μὴ μεῖζον",
+          "ἡμισείας",
+          "deficiens",
+          "excedens",
+          "adplicare",
+          "perpendicular height",
+          "certified root bounds"
+        ],
+        "summary": "Find two area fits, meet at their maximum, then keep an impossible target while changing falling short to exceeding. Read the Greek and Latin condition beside whole pages; save exact work and certified bounds for irrational fits.",
+        "thumbnail": "thumbs/stoicheia-areas.png"
+      },
+      {
         "id": "primes",
         "title": "Euclid’s extra prime · IX.20 and the composite case",
         "url": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
