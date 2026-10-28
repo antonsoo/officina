@@ -240,3 +240,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 [MIT](LICENSE) (c) 2026 Anton Soloviev
 
 The arch route now has a separate [public discovery and operation review](docs/arch-publication.md), including native pinned-review navigation in both browsers.
+
+The [Euclid IX.20 public discovery review](docs/primes-publication.md) follows Greek search through the actual composite argument and pinned source-reading instructions.

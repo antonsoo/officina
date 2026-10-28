@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-10-28T03:01:18.314Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "primes",
+      "query": "πλειους",
+      "target": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "sourceWord": "πλείους",
+      "interaction": {
+        "action": "Extend a genuinely unresolved search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/dac1fc18-cffe-468b-b35d-e8f8eed1b022",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "c745b20db69c37d4d4dfb1a6c90a4a8bea6ac29f447d7c5493c8075486981b30"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/0b180f208baa372052b2ec2c173d7edaa9f6baac/docs/primes-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 306.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "primes",
+      "query": "πλειους",
+      "target": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "sourceWord": "πλείους",
+      "interaction": {
+        "action": "Extend a genuinely unresolved search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/d29f1094-d69d-48f7-a219-3438c5f4bcf6",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "c745b20db69c37d4d4dfb1a6c90a4a8bea6ac29f447d7c5493c8075486981b30"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/0b180f208baa372052b2ec2c173d7edaa9f6baac/docs/primes-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 743.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "primes",
+      "query": "πλειους",
+      "target": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "sourceWord": "πλείους",
+      "interaction": {
+        "action": "Extend a genuinely unresolved search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/827a1515-681e-4400-85b2-6aa4ea0438bf",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "c745b20db69c37d4d4dfb1a6c90a4a8bea6ac29f447d7c5493c8075486981b30"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/0b180f208baa372052b2ec2c173d7edaa9f6baac/docs/primes-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 217.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "primes",
+      "query": "πλειους",
+      "target": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "sourceWord": "πλείους",
+      "interaction": {
+        "action": "Extend a genuinely unresolved search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/ef176341-9d9e-413c-9baa-2e1e5c4f2baf",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "c745b20db69c37d4d4dfb1a6c90a4a8bea6ac29f447d7c5493c8075486981b30"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/0b180f208baa372052b2ec2c173d7edaa9f6baac/docs/primes-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 77.5999984741211,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}
