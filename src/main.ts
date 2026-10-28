@@ -283,13 +283,13 @@ async function main(): Promise<void> {
     <header class="masthead">
       <div class="wrap">
         <h1 class="wordmark">Officina<span class="dot">&middot;</span></h1>
-        <p class="tagline">open-source tools by Anton Soloviev</p>
+        <p class="tagline">open-source tools by Anthony Mercer</p>
         <div class="rule"><span class="lozenge"></span></div>
         <p class="intro">
           AI/ML engineer in San Francisco. Small, focused tools, built and documented in the open.
         </p>
         <p class="contact-line">
-          <a href="mailto:anton@praviel.com">anton@praviel.com</a>
+          <a href="mailto:anthony@praviel.com">anthony@praviel.com</a>
           <span>&middot;</span>
           <a href="https://github.com/antonsoo">github.com/antonsoo</a>
           <span>&middot;</span>

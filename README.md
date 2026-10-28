@@ -1,6 +1,6 @@
 # officina
 
-**An index of open-source tools by Anton Soloviev.**
+**An index of open-source tools by Anthony Mercer.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Live demo](https://img.shields.io/badge/demo-antonsoo.github.io%2Fofficina-8B1E1E)](https://antonsoo.github.io/officina/)
@@ -237,7 +237,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-[MIT](LICENSE) (c) 2026 Anton Soloviev
+[MIT](LICENSE) (c) 2026 Anthony Mercer
 
 The arch route now has a separate [public discovery and operation review](docs/arch-publication.md), including native pinned-review navigation in both browsers.
 
