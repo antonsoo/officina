@@ -9,6 +9,7 @@ const base = process.argv[2],
 assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
+  {project:"stoicheia",id:"primes",query:"πλειους",word:"πλείους",path:"/stoicheia/primes.html",heading:"Try the actual work"},
   {project:"gonia",id:"arch",query:"latiores",word:"cunei",path:"/gonia/arch.html",heading:"Try the actual work"},
   {project:"stoicheia",id:"solids",query:"aequiangulis",word:"ἴσων ἀλλήλοις",path:"/stoicheia/solids.html",heading:"Try the actual work"},
   {project:"pyknon",id:"helikon",query:"subductorium",word:"ὑπαγωγέα",path:"/pyknon/helikon.html",heading:"Try the actual work"},
@@ -127,6 +128,26 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if(id === "primes") {
+    await page.locator('#pr-title').waitFor();
+    await expect(page.locator('#pr-result')).toContainText('Unresolved at this bound');
+    await page.locator('#pr-extend').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#pr-result')).toContainText('30031 = 59 × 509');
+    await page.locator('[data-pr-case="smaller"]').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#pr-result')).toContainText('106 = 2 × 53');
+    for(const n of [1155,385,77,11])await page.locator(`[data-pr-divisor="${n}"]`).click();
+    await expect(page.locator('#pr-chain')).toContainText('reached a prime');
+    await page.locator('#pr-reading-select').selectOption('3');
+    await page.locator('#pr-greek').focus();await page.keyboard.press('Enter');
+    await expect(page.locator('#pr-source-caption')).toContainText('Printed p.390');
+    const source=await image(page,'#pr-source-image');
+    source.sha256=await page.locator('#pr-source-image').evaluate(async img=>{
+      const bytes=await window.__workshopBlobs.get(img.src).arrayBuffer();
+      return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');
+    });
+    assert.equal(source.sha256,'c745b20db69c37d4d4dfb1a6c90a4a8bea6ac29f447d7c5493c8075486981b30');
+    return {action:'Extend a genuinely unresolved search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page',source};
+  }
   if(id === "arch") {
     await page.locator('#ar-title').waitFor();
     await expect(page.locator('#ar-verdict')).toContainText('bases need more restraint');
@@ -496,6 +517,10 @@ for (const [name, engine] of [
             serviceWorkers: "block",
           }),
           page = await context.newPage();
+        if(c.id === "primes")await context.addInitScript(()=>{
+          window.__workshopBlobs=new Map();const create=URL.createObjectURL.bind(URL);
+          URL.createObjectURL=blob=>{const url=create(blob);window.__workshopBlobs.set(url,blob);return url;};
+        });
         const errors = [],
           failedRequests = [],
           consoleErrors = [];

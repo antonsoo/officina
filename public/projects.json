@@ -708,6 +708,35 @@
     ],
     "workshops": [
       {
+        "id": "primes",
+        "title": "Euclid’s extra prime · IX.20 and the composite case",
+        "url": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+        "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/0b180f208baa372052b2ec2c173d7edaa9f6baac/docs/primes-review.md#try-the-actual-work",
+        "searchTerms": [
+          "Euclid IX.20",
+          "Euclid IX20",
+          "Euclid VII.31",
+          "prime argument",
+          "product plus one",
+          "30031",
+          "59 × 509",
+          "prime divisor",
+          "πλείους",
+          "πρῶτος",
+          "μονάς",
+          "plures",
+          "metitur",
+          "unitas",
+          "divisor descent",
+          "composite Euclid number",
+          "infinitude of primes",
+          "least common multiple",
+          "ἤτοι"
+        ],
+        "summary": "Extend a bounded search to discover that 30031 is composite. Follow the prime divisor outside the given list, descend through smaller divisors, and read both Greek/Latin cases beside the whole printed pages.",
+        "thumbnail": "thumbs/stoicheia-primes.png"
+      },
+      {
         "id": "solids",
         "title": "Six faces. Still not one of five. · Euclid’s solid corners",
         "url": "https://antonsoo.github.io/stoicheia/solids.html?p=3&q=3&example=uniform&reading=0&page=336#sl-bench",
