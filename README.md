@@ -28,11 +28,11 @@ aisle measurement includes its pillar. The [three-middles review](docs/halves-di
 connects `superparticularis` to unequal ratio halves, a geometric mean and the
 whole-number premise in the Greek proof.
 
-The local **[application-of-areas discovery](studies/application-of-areas/README.md)**
+The **[application-of-areas discovery](studies/application-of-areas/README.md)**
 adds `ἐλλεῖπον`, `ὑπερβάλλον`, `deficiens` and `excedens`: two possible fits,
 one maximum, and a target that requires changing the construction condition.
-The addition and its pinned review are prepared for coordinator publication;
-its current verification is local.
+The published catalogue-to-lesson journey was replayed in Chromium and Firefox
+at desktop and phone widths, including the actual pinned review and source page.
 
 ![The officina index page, showing the header and the Ancient world section](docs/assets/hero.png)
 

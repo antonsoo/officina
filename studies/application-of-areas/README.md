@@ -70,3 +70,23 @@ This is a local prepared addition. No push, hosted update, public raw-blob
 availability or remote CI execution is claimed. `HOUSE_STANDARDS.md` reserves
 publication for the coordinator. The project’s existing published circle
 workshop and other catalogue routes retain their own evidence.
+
+## Public publication review, 2026-10-28
+
+The user explicitly authorized publication. Source `4b1be15` and Pages
+`0fd1438` were pushed. All 78 canonical build files matched.
+[Twenty public journeys](public/journeys.json) covered the same five queries,
+two engines and two widths, with no request redirection: shared search link,
+actual GitHub pinned review, canonical lesson, changed mathematical conditions
+and retained Greek source-image identity. The pin’s public raw bytes also matched
+the local Git blob. [Hosted file inventory](public/files.json).
+
+Reproduce the public journey after building both source checkouts:
+
+```sh
+node scripts/areas-local.mjs https://antonsoo.github.io/officina/ https://antonsoo.github.io/stoicheia/ ../stoicheia /tmp/areas-public --public
+```
+
+The local-only boundary above describes the initial review before authorization;
+this dated record supersedes it for publication. Local builds, hosted files and
+remote workflow execution remain separate claims.
