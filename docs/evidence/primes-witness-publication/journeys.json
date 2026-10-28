@@ -1,0 +1,195 @@
+{
+  "checkedAt": "2026-10-28T03:35:08.732Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "scope": "Native catalogue search -> matching workshop link -> actual public operation -> immutable review heading. Service workers blocked in these navigation contexts. Audio scheduling is observed, not physical speaker output.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "primes",
+      "query": "πλειους",
+      "target": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "sourceWord": "πλείους",
+      "interaction": {
+        "action": "Reject the unit and verify a proposed prime witness while search stays unresolved; extend the search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/e24d3453-a372-48fc-b861-cea4f5f5c827",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "c745b20db69c37d4d4dfb1a6c90a4a8bea6ac29f447d7c5493c8075486981b30"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/0e8659039ecdd706bb1827f990d2f5c4d66fcc13/docs/primes-witness-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 514.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "arch",
+      "query": "latiores",
+      "target": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "sourceWord": "cunei",
+      "interaction": {
+        "action": "Keyboard widening repairs the pier bases while keeping weight 1 W; a complete-model path and joint 4 remain inspectable beside the Latin and complete source page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/736df870-6b18-4987-bbf3-ad14a38870d6",
+          "width": 1414,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 538.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "primes",
+      "query": "πλειους",
+      "target": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "sourceWord": "πλείους",
+      "interaction": {
+        "action": "Reject the unit and verify a proposed prime witness while search stays unresolved; extend the search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/f318c0a1-c800-4217-a74a-4c8df154963a",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "c745b20db69c37d4d4dfb1a6c90a4a8bea6ac29f447d7c5493c8075486981b30"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/0e8659039ecdd706bb1827f990d2f5c4d66fcc13/docs/primes-witness-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 743.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "arch",
+      "query": "latiores",
+      "target": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "sourceWord": "cunei",
+      "interaction": {
+        "action": "Keyboard widening repairs the pier bases while keeping weight 1 W; a complete-model path and joint 4 remain inspectable beside the Latin and complete source page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/5f1730f1-a3f1-4ccb-bcb7-52cac6ecaeb8",
+          "width": 1414,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 482.59375,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "stoicheia",
+      "workshop": "primes",
+      "query": "πλειους",
+      "target": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "sourceWord": "πλείους",
+      "interaction": {
+        "action": "Reject the unit and verify a proposed prime witness while search stays unresolved; extend the search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/9d3d030b-2ce9-4dcd-ba62-003381a43889",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "c745b20db69c37d4d4dfb1a6c90a4a8bea6ac29f447d7c5493c8075486981b30"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/0e8659039ecdd706bb1827f990d2f5c4d66fcc13/docs/primes-witness-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 80.5999984741211,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1280,
+      "project": "gonia",
+      "workshop": "arch",
+      "query": "latiores",
+      "target": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "sourceWord": "cunei",
+      "interaction": {
+        "action": "Keyboard widening repairs the pier bases while keeping weight 1 W; a complete-model path and joint 4 remain inspectable beside the Latin and complete source page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/5b9b5981-b06b-4818-a12d-f1f4817cb537",
+          "width": 1414,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 212.60000610351562,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "stoicheia",
+      "workshop": "primes",
+      "query": "πλειους",
+      "target": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "initialAddress": "https://antonsoo.github.io/stoicheia/primes.html#pr-bench",
+      "sourceWord": "πλείους",
+      "interaction": {
+        "action": "Reject the unit and verify a proposed prime witness while search stays unresolved; extend the search to find a composite sum; obtain a smaller additional prime from a second list; descend through proper divisors to 11; read the composite branch beside the actual verified Greek page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/e238fe86-c01f-48c0-a27b-76391db527bc",
+          "width": 1388,
+          "height": 2200,
+          "sha256": "c745b20db69c37d4d4dfb1a6c90a4a8bea6ac29f447d7c5493c8075486981b30"
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/stoicheia/blob/0e8659039ecdd706bb1827f990d2f5c4d66fcc13/docs/primes-witness-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 319.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "project": "gonia",
+      "workshop": "arch",
+      "query": "latiores",
+      "target": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "initialAddress": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+      "sourceWord": "cunei",
+      "interaction": {
+        "action": "Keyboard widening repairs the pier bases while keeping weight 1 W; a complete-model path and joint 4 remain inspectable beside the Latin and complete source page",
+        "source": {
+          "src": "blob:https://antonsoo.github.io/47fd81da-30b2-4811-b483-772ce7ab8795",
+          "width": 1414,
+          "height": 2200
+        }
+      },
+      "reviewURL": "https://github.com/antonsoo/gonia/blob/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md#try-the-actual-work",
+      "nativeReviewHeadingTop": 273.6000061035156,
+      "extraCatalogueRequests": [],
+      "applicationErrors": []
+    }
+  ]
+}

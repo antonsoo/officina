@@ -241,4 +241,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 The arch route now has a separate [public discovery and operation review](docs/arch-publication.md), including native pinned-review navigation in both browsers.
 
-The [Euclid IX.20 public discovery review](docs/primes-publication.md) follows Greek search through the actual composite argument and pinned source-reading instructions.
+The [Euclid IX.20 public witness discovery review](docs/primes-witness-publication.md) follows Greek search through the actual composite argument and pinned source-reading instructions.
