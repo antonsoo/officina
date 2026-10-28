@@ -21,7 +21,7 @@ for (const [engine, launcher] of [
   const browser = await launcher.launch();
   try {
     for (const width of [1440, 375])
-      for (const query of ["parabola", "ἐπίτριτον", "tertia parte maius", "last layer", "Method I"]) {
+      for (const query of ["parabola", "ἐπίτριτον", "tertia parte maius", "last layer", "finite rejection"]) {
         console.log(`${engine} ${width} ${query}`);
         const context = await browser.newContext({
           viewport: { width, height: 1000 },
@@ -114,6 +114,16 @@ for (const [engine, launcher] of [
         await expect(page.locator("#pa-reading-text")).toContainText("tertia pars minimae");
         await page.locator("#pa-greek-page").click();
         await expect(page.locator("#pa-source-caption")).toContainText("identity verified");
+        await page.locator("#pa-guess-small").click();
+        await page.locator("#pa-reject").click();
+        await expect(page.locator("#pa-proposal-account")).toContainText("too small");
+        await page.locator("#pa-guess-close").click();
+        await page.locator("#pa-reject").click();
+        await expect(page.locator("#pa-depth")).toHaveValue("7");
+        await expect(page.locator("#pa-proposal-account")).toContainText("Rejecting account at layer 10");
+        await expect(page.locator("#pa-proposal-account")).toContainText(
+          "does not display these extra triangles",
+        );
         const sha = await page.locator("#pa-source-image").evaluate(async (img) => {
           await img.decode();
           const b = await window.__archBlobs.get(img.src).arrayBuffer();
@@ -134,7 +144,7 @@ for (const [engine, launcher] of [
           pinnedReviewSha256: createHash("sha256").update(pinned).digest("hex"),
           actualSourceImageSha256: sha,
           operation:
-            "Balance all interior cuts, reject an inconclusive endpoint, add a finite layer, retain the exact third and strict bound gap; read Greek/Latin and inspect the actual complete scan",
+            "Balance all interior cuts, reject an inconclusive endpoint, add a finite layer, retain the exact third and strict gap; reject a proposed area and retain a layer-10 account beyond the drawn mesh; read Greek/Latin and inspect the actual complete scan",
           publicDeliveryVerified: publicDelivery,
           errors,
         });

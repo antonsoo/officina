@@ -13,9 +13,10 @@ proof qualification. The sphere and floating-body routes retain their own pins.
 | last layer | Add a third of the final complete layer without filling another triangle |
 | Method I | Separate the mechanical identity from the author's proof qualification |
 
-The immutable [direct review at 82a5b6a](https://github.com/antonsoo/zygon/blob/82a5b6a4679f11f3cd32911faeb720e616cbeb48/docs/parabola-review.md#try-the-actual-work)
-contains the actual procedure, source decisions and local evidence. That pin
-does not turn later public delivery into an earlier claim.
+The initial [review at 82a5b6a](https://github.com/antonsoo/zygon/blob/82a5b6a4679f11f3cd32911faeb720e616cbeb48/docs/parabola-review.md#try-the-actual-work)
+contains the original procedure. The current catalogue pins the
+[finite-rejection extension at 253e6d2](https://github.com/antonsoo/zygon/blob/253e6d2da5fe63b25bf39433a84670ceb17a279a/docs/parabola-review.md#try-the-actual-work).
+Neither pin turns later public delivery into an earlier claim.
 
 [Twenty local journeys](local-journeys.json) cover five searches in Chromium and
 Firefox at 1440 and 375 pixels. Each uses the explicit shared search link,
@@ -47,3 +48,14 @@ committed blob, then operates the canonical public lesson and verifies the
 displayed source JPEG. Browser and file checks establish these claims without
 inferring a successful CI run. Zygon's independent public source/build/export
 and offline receipts remain in its own repository.
+
+## Finite-rejection extension
+
+The current row also identifies `finite rejection`, `wrong area`, `first
+rejecting layer` and the close proposal `1333333/1000000`. Its summary explains
+the difference between the drawn mesh and the exact account at layer 10.
+The updated runner tests the first four searches above plus `finite rejection`.
+Every journey now rejects 5/4 at a finite layer, then retains the close guess's
+layer-10 account while verifying that the diagram stays at layer 7.
+Updated receipts live in [proposals](proposals/); the first edition's receipts
+above remain historical records of its earlier pin and workflow.
