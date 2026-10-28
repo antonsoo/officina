@@ -26,7 +26,8 @@
     "test": "node --test tests/*.test.mjs",
     "test:browser": "npm run build && playwright test",
     "test:workshops": "node scripts/workshop-journeys.mjs",
-    "test:helikon-local": "node scripts/helikon-local.mjs"
+    "test:helikon-local": "node scripts/helikon-local.mjs",
+    "test:arch-local": "node scripts/arch-local.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
