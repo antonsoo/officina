@@ -9,6 +9,7 @@ const base = process.argv[2],
 assert(base && out, "Supply catalogue URL and review directory.");
 await mkdir(out, { recursive: true });
 const cases = [
+  {project:"gonia",id:"arch",query:"latiores",word:"cunei",path:"/gonia/arch.html",heading:"Try the actual work"},
   {project:"stoicheia",id:"solids",query:"aequiangulis",word:"ἴσων ἀλλήλοις",path:"/stoicheia/solids.html",heading:"Try the actual work"},
   {project:"pyknon",id:"helikon",query:"subductorium",word:"ὑπαγωγέα",path:"/pyknon/helikon.html",heading:"Try the actual work"},
   {project:"pyknon",id:"notation",query:"κρουσεως",word:"κρούσεως",path:"/pyknon/notation.html",heading:"Try the translation"},
@@ -126,6 +127,19 @@ async function image(page, selector) {
   return im.evaluate((i) => ({ src: i.currentSrc, width: i.naturalWidth, height: i.naturalHeight }));
 }
 async function operate(page, id) {
+  if(id === "arch") {
+    await page.locator('#ar-title').waitFor();
+    await expect(page.locator('#ar-verdict')).toContainText('bases need more restraint');
+    await page.locator('#ar-width').focus(); await page.keyboard.press('End');
+    await expect(page.locator('#ar-mass-value')).toHaveText('1');
+    await expect(page.locator('#ar-verdict')).toContainText('fits the arch and the bases');
+    await page.locator('#ar-fit-whole').focus(); await page.keyboard.press('Enter');
+    await expect(page.locator('#ar-status')).toContainText('Found one path');
+    await page.locator('#ar-joint').selectOption('4');
+    await expect(page.locator('#ar-contact-note')).toContainText('Joint 4: contact inside');
+    await expect(page.locator('#ar-source-caption')).toContainText('identity verified');
+    return {action:'Keyboard widening repairs the pier bases while keeping weight 1 W; a complete-model path and joint 4 remain inspectable beside the Latin and complete source page',source:await image(page,'#ar-source-image')};
+  }
   if (id === "solids") {
     await page.locator('#sl-title').waitFor();
     await expect(page.locator('#sl-result')).toContainText('tetrahedron');
