@@ -340,7 +340,7 @@
   },
   {
     "name": "zygon",
-    "description": "Operate Archimedes’ balance and floating bodies. Test why equal forces can leave an unstable solid, then read Greek and Latin beside their manuscript and printed witnesses.",
+    "description": "Operate Archimedes’ balances, finite parabola bounds and floating bodies. Read the Greek and Latin conditions beside complete manuscript and printed sources.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/zygon",
     "demoUrl": "https://antonsoo.github.io/zygon/?x=75&h=200&n=8&view=stack&read=8#workshop",
@@ -390,6 +390,29 @@
           "emiolium"
         ],
         "summary": "Balance equal vertical forces, then see a tall, light solid turn farther over. Change density, find an oblique equilibrium, and read the Greek dry-base condition."
+      },
+      {
+        "id": "parabola",
+        "title": "A third more · Archimedes’ parabola and its finite remainder",
+        "url": "https://antonsoo.github.io/zygon/parabola.html#pa-bench",
+        "reviewUrl": "https://github.com/antonsoo/zygon/blob/82a5b6a4679f11f3cd32911faeb720e616cbeb48/docs/parabola-review.md#try-the-actual-work",
+        "thumbnail": "thumbs/zygon-parabola.png",
+        "searchTerms": [
+          "parabola",
+          "Method I",
+          "Quadrature of the Parabola",
+          "ἐπίτριτον",
+          "tertia parte maius",
+          "last layer",
+          "finite correction",
+          "one third of the smallest",
+          "tangent covers",
+          "exhaustion",
+          "οὐκ ἀποδέδεικται",
+          "τοῦ ἐλαχίστου",
+          "4/3"
+        ],
+        "summary": "Find one arm for every interior section, then add finite inscribed layers. A third of the last layer corrects the area account without filling another triangle. Compare strict tangent bounds and the Greek/Latin proof qualification."
       }
     ]
   },
