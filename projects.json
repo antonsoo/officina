@@ -449,7 +449,7 @@
   },
   {
     "name": "gonia",
-    "description": "Draw an Ionic scroll with twelve compass centres. Test why meeting the eye does not make a tangent, read Vitruvius’s Latin, and inspect the printed guide and surviving stone. Explore thirteen more architectural experiments.",
+    "description": "Draw an Ionic scroll with twelve compass centres. Test why meeting the eye does not make a tangent, read Vitruvius’s Latin, and inspect the printed guide and surviving stone. Explore fourteen more architectural experiments.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/gonia",
     "demoUrl": "https://antonsoo.github.io/gonia/volute.html?moves=1.2.3.4&pin=5&join=1&repair=0&eye=12&page=2#vo-bench",
@@ -485,6 +485,30 @@
       "stone transport"
     ],
     "workshops": [
+      {
+        "id": "arch",
+        "title": "The arch and the pier: follow the push to the ground",
+        "url": "https://antonsoo.github.io/gonia/arch.html#ar-bench",
+        "reviewUrl": "https://github.com/antonsoo/gonia/blob/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md#try-the-actual-work",
+        "summary": "Fit every arch joint, then test the pier bases. Change rise, thickness, loading, thrust and base width; inspect the contacts beside Vitruvius’s Latin and whole printed pages.",
+        "thumbnail": "thumbs/gonia-arch.png",
+        "searchTerms": [
+          "arch and pier",
+          "masonry arch",
+          "pier thrust",
+          "Vitruvius VI.8",
+          "cuneus cunei cuneos",
+          "latiores",
+          "coagmentum coagmenta",
+          "incumbas",
+          "firmitatem",
+          "joint resultant",
+          "base overturning",
+          "relieving arch",
+          "no tension",
+          "voussoirs"
+        ]
+      },
       {
         "id": "fluting",
         "title": "The cut inside a column · Fluting",
