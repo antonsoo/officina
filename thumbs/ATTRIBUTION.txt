@@ -145,3 +145,8 @@ Gonia arch friction thumbnail (gonia-arch.png, 2026-10-28)
 Actual browser capture of the finite-friction experiment, with red bearing
 contacts and separately passing base checks. Original diagrams and code:
 Anthony Mercer, MIT. No historical image appears in this capture.
+
+Zygon parabola thumbnail (zygon-parabola.png, 2026-10-28)
+Actual Chromium 1280 x 800 local production capture of parabola.html?view=fill&depth=2#pa-bench.
+New diagrams and code: Anthony Mercer, MIT. Self-hosted Noto Serif and IBM Plex:
+SIL OFL 1.1. No historical source scan appears in the thumbnail.
