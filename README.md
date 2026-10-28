@@ -186,6 +186,11 @@ require the network. They exercise actual geometry, drawing and music controls,
 then follow the review's native heading anchor. They do not claim offline
 availability or physical audio output.
 
+The [local arch discovery review](docs/arch-discovery.md) exercises five English
+and Latin searches through Gonia's arch-and-pier operation, actual source-page
+identity and an exact local review commit. It records the explicit local lesson
+redirect and makes no public-delivery claim for the prepared addition.
+
 ## Verify a static publication
 
 A pushed deployment and an HTTP 200 response do not establish that the canonical
