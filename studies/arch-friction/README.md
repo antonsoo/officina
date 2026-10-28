@@ -26,4 +26,14 @@ routes and GitHub pinned review, without redirection:
 node scripts/arch-friction.mjs https://antonsoo.github.io/officina/ https://antonsoo.github.io/gonia/ ../gonia /tmp/arch-friction-public --public
 ```
 
-Publication evidence will be recorded separately from these local observations.
+## Public review, 2026-10-28
+
+Source `4a31fa8` and fast-forward Pages `87edd94` were pushed after the fresh
+Node 24 archive check. All 78 canonical production files match that build.
+[Twenty public journeys](public/journeys.json) use the actual search links,
+GitHub pinned review and canonical Gonia lesson, with no request redirection.
+The public raw review matches the Git blob; the source image actually rendered
+by the lesson matches its retained identity. Chromium and Firefox at both
+widths complete the friction repair, empty-domain and base-weight experiments.
+[Canonical file comparison](public/files.json). The local receipt above remains
+the earlier, explicitly redirected review. No remote CI execution is claimed.
