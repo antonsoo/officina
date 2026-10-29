@@ -33,14 +33,14 @@
       "dougong",
       "Templo Mayor",
       "Karnak",
-      "acanthus",
-      "volute",
-      "architecture vocabulary"
+      "architecture vocabulary",
+      "Pantheon",
+      "Persepolis"
     ]
   },
   {
     "name": "harmoniai",
-    "description": "Pluck the fifteen strings of the Greek two-octave system, hear Cleonides' seven octave species, and see how Dorian, Phrygian and Lydian moved to other scales.",
+    "description": "Pluck the fifteen strings of the Greek two-octave system, hear Cleonides' seven octave species, and run Bharata's two-vīṇā demonstration of the twenty-two śrutis.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/harmoniai",
     "demoUrl": "https://antonsoo.github.io/harmoniai/",
@@ -68,9 +68,13 @@
       "Greater Perfect System",
       "Plato",
       "Aristotle",
-      "Glarean",
       "modes",
-      "kithara"
+      "Bharata",
+      "Nāṭyaśāstra",
+      "śruti",
+      "vīṇā",
+      "mūrcchanā",
+      "Sanskrit"
     ]
   },
   {
