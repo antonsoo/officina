@@ -813,6 +813,60 @@
     ]
   },
   {
+    "name": "traditio",
+    "description": "Change a fact in Gaius's Roman ownership cases, follow possession and civil title, and build a counterexample supported by the Latin and complete source pages.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/traditio",
+    "demoUrl": "https://antonsoo.github.io/traditio/",
+    "thumbnail": "thumbs/traditio.png",
+    "status": "published",
+    "study": {
+      "finding": "A seller may know he is not the owner, yet an innocent later buyer can acquire. Test the exception in Gaius 2.51.",
+      "url": "https://github.com/antonsoo/traditio/blob/a6447b6e7647d3c28c721dceb20bac559d9b906c/docs/review.md#try-the-actual-work"
+    },
+    "searchTerms": [
+      "Roman law",
+      "Gaius",
+      "Institutes",
+      "Latin",
+      "usucapio",
+      "traditio",
+      "mancipatio",
+      "in bonis",
+      "ex iure Quiritium",
+      "civil title",
+      "possession",
+      "good faith",
+      "innocent buyer",
+      "stolen cup"
+    ],
+    "workshops": [
+      {
+        "id": "counterexample",
+        "title": "Build a counterexample in Gaius",
+        "url": "https://antonsoo.github.io/traditio/#argument",
+        "reviewUrl": "https://github.com/antonsoo/traditio/blob/a6447b6e7647d3c28c721dceb20bac559d9b906c/docs/review.md#try-the-actual-work",
+        "searchTerms": [
+          "Gaius",
+          "Roman law",
+          "counterexample",
+          "usucapio",
+          "quamvis",
+          "quamquam",
+          "sine vi",
+          "bona fide",
+          "in bonis",
+          "civil title",
+          "knowing seller",
+          "innocent buyer",
+          "Latin legal argument"
+        ],
+        "summary": "Submit a case that defeats an overbroad claim, distinguish false premises, cite Gaius's Latin, and keep the fixed submission with your explanation and complete sources.",
+        "thumbnail": "thumbs/traditio-argument.png"
+      }
+    ]
+  },
+  {
     "name": "stoicheia",
     "description": "Double a polygon’s sides, then change one root estimate: does Archimedes’ circle bound still have a proof? Read the Greek and Latin, inspect ten original pages and save the complete illustrated argument.",
     "group": "Ancient world",
