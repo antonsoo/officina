@@ -1,5 +1,116 @@
 [
   {
+    "name": "embater",
+    "description": "Count columns or the spaces between them; compare Vitruvius with 31 temple records and save the illustrated reading. Also explore the orders, temple plans and architectural vocabulary.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/embater",
+    "demoUrl": "https://antonsoo.github.io/embater/compare.html",
+    "thumbnail": "thumbs/embater-count.png",
+    "status": "published",
+    "study": {
+      "finding": "For six columns across, doubling five spaces gives eleven along the side. Compare the prescription with 31 Perseus records; two restorations are uncertain.",
+      "url": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md"
+    },
+    "searchTerms": [
+      "Vitruvius",
+      "ἐμβατήρ",
+      "module",
+      "triglyph",
+      "τρίγλυφος",
+      "metope",
+      "μετόπη",
+      "echinus",
+      "ἐχῖνος",
+      "Doric order",
+      "Ionic order",
+      "Corinthian order",
+      "Tuscan order",
+      "temple plan",
+      "peripteral",
+      "Perseus",
+      "stupa",
+      "ziggurat",
+      "dougong",
+      "Templo Mayor",
+      "Karnak",
+      "architecture vocabulary",
+      "Pantheon",
+      "Persepolis"
+    ],
+    "workshops": [
+      {
+        "id": "count",
+        "title": "Count the spaces",
+        "url": "https://antonsoo.github.io/embater/compare.html",
+        "reviewUrl": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md",
+        "searchTerms": [
+          "intercolumnia",
+          "totidem bis",
+          "count columns",
+          "temple counts",
+          "Selinus C"
+        ],
+        "summary": "Choose which noun to double, compare 31 temple records, and save a source-backed illustrated reading. Two uncertain restorations can be included in the tally.",
+        "thumbnail": "thumbs/embater-count.png"
+      }
+    ]
+  },
+  {
+    "name": "harmoniai",
+    "description": "Pluck the fifteen strings of the Greek two-octave system, hear Cleonides' seven octave species, and run Bharata's two-vīṇā demonstration of the twenty-two śrutis.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/harmoniai",
+    "demoUrl": "https://antonsoo.github.io/harmoniai/",
+    "thumbnail": "thumbs/harmoniai.webp",
+    "status": "published",
+    "study": {
+      "finding": "Cleonides' two descriptions of the octaves agree; on white keys his Dorian is today's Phrygian, and his Phrygian today's Dorian.",
+      "url": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/README.md#cleonides-checks-himself"
+    },
+    "searchTerms": [
+      "Cleonides",
+      "octave species",
+      "harmonia",
+      "ἁρμονία",
+      "Dorian",
+      "Phrygian",
+      "Lydian",
+      "Mixolydian",
+      "Locrian",
+      "Δωριστί",
+      "ὑπάτη",
+      "νήτη",
+      "μέση",
+      "λιχανός",
+      "Greater Perfect System",
+      "Plato",
+      "Aristotle",
+      "modes",
+      "Bharata",
+      "Nāṭyaśāstra",
+      "śruti",
+      "vīṇā",
+      "mūrcchanā",
+      "Sanskrit"
+    ],
+    "workshops": [
+      {
+        "id": "assumptions",
+        "title": "The same meetings, unequal lowerings",
+        "url": "https://antonsoo.github.io/harmoniai/vina.html#assumptions",
+        "reviewUrl": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/docs/publication-review.md",
+        "searchTerms": [
+          "unequal lowerings",
+          "equal srutis",
+          "pure fifth",
+          "Bernard Bel",
+          "Bharata counterexample"
+        ],
+        "summary": "The seven string meetings do not force equal steps. Inspect a pure-ratio counterexample, compare the two fifths by ear, and follow the source and tunable model."
+      }
+    ]
+  },
+  {
     "name": "haidao",
     "description": "Test Liu Hui’s sea-island recipe against two independent sightings. Read Classical Chinese beside a later printed witness, choose between two divisors, and explore uncertainty in the retreats.",
     "group": "Ancient world",
