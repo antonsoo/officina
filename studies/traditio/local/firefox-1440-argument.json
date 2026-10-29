@@ -1,0 +1,33 @@
+{
+  "format": "traditio-case",
+  "version": 2,
+  "current": {
+    "lesson": "land",
+    "entry": "violent",
+    "location": "italy",
+    "belief": "good",
+    "years": 2
+  },
+  "pinned": {
+    "lesson": "land",
+    "entry": "peaceful",
+    "location": "italy",
+    "belief": "good",
+    "years": 2
+  },
+  "argument": {
+    "claim": "knowing-seller",
+    "witness": {
+      "lesson": "land",
+      "entry": "peaceful",
+      "location": "italy",
+      "belief": "good",
+      "years": 2
+    },
+    "citations": [
+      "land",
+      "time"
+    ],
+    "note": "Marcus knows, but the later buyer receives in good faith. Quamvis concedes the first fact without defeating the second person's usucapion. Peaceful entry and two completed years matter."
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "date": "2026-10-29T23:30:28.036Z",
+  "catalogue": "http://127.0.0.1:4371/officina/",
+  "lesson": "https://antonsoo.github.io/traditio/#argument",
+  "reviewUrl": "https://github.com/antonsoo/traditio/blob/a6447b6e7647d3c28c721dceb20bac559d9b906c/docs/review.md#try-the-actual-work",
+  "reviewSha256": "98dbbc078529a7129031a78892639cd01b8c77239ce4e0a6e5257ef9cf148ad7",
+  "journeys": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sharedQueries": [
+        {
+          "query": "Roman law",
+          "shared": "http://127.0.0.1:4371/officina/?q=Roman+law&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "usucapio",
+          "shared": "http://127.0.0.1:4371/officina/?q=usucapio&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "in bonis",
+          "shared": "http://127.0.0.1:4371/officina/?q=in+bonis&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "quamvis",
+          "shared": "http://127.0.0.1:4371/officina/?q=quamvis&audience=Ancient+world#catalogue"
+        }
+      ],
+      "actualThumbnailSha256": "0e94164facc13ecc802acbe59d3e6d04ed4799d9ae2647896441b874de7b76f5",
+      "actualSourcePage149Sha256": "6b55c1f4bb0be66b9245cb1f1d6094b2eaec7abe8c8aaa22f3b2a453fd0f3810",
+      "nativeArgumentSha256": "2fd0844f7f5a974d20f19ff2126cb2edefd4fae080b48965859c0341973d49d6",
+      "keyboardReviewAndLessonNavigation": true,
+      "pinnedReviewActuallyOpened": true,
+      "falsePremiseRejected": true,
+      "submittedCounterexampleRetainedAfterLiveEdit": true,
+      "nativeArgumentReopened": true,
+      "catalogueAxeViolations": 0,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sharedQueries": [
+        {
+          "query": "Roman law",
+          "shared": "http://127.0.0.1:4371/officina/?q=Roman+law&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "usucapio",
+          "shared": "http://127.0.0.1:4371/officina/?q=usucapio&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "in bonis",
+          "shared": "http://127.0.0.1:4371/officina/?q=in+bonis&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "quamvis",
+          "shared": "http://127.0.0.1:4371/officina/?q=quamvis&audience=Ancient+world#catalogue"
+        }
+      ],
+      "actualThumbnailSha256": "0e94164facc13ecc802acbe59d3e6d04ed4799d9ae2647896441b874de7b76f5",
+      "actualSourcePage149Sha256": "6b55c1f4bb0be66b9245cb1f1d6094b2eaec7abe8c8aaa22f3b2a453fd0f3810",
+      "nativeArgumentSha256": "2fd0844f7f5a974d20f19ff2126cb2edefd4fae080b48965859c0341973d49d6",
+      "keyboardReviewAndLessonNavigation": true,
+      "pinnedReviewActuallyOpened": true,
+      "falsePremiseRejected": true,
+      "submittedCounterexampleRetainedAfterLiveEdit": true,
+      "nativeArgumentReopened": true,
+      "catalogueAxeViolations": 0,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sharedQueries": [
+        {
+          "query": "Roman law",
+          "shared": "http://127.0.0.1:4371/officina/?q=Roman+law&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "usucapio",
+          "shared": "http://127.0.0.1:4371/officina/?q=usucapio&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "in bonis",
+          "shared": "http://127.0.0.1:4371/officina/?q=in+bonis&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "quamvis",
+          "shared": "http://127.0.0.1:4371/officina/?q=quamvis&audience=Ancient+world#catalogue"
+        }
+      ],
+      "actualThumbnailSha256": "0e94164facc13ecc802acbe59d3e6d04ed4799d9ae2647896441b874de7b76f5",
+      "actualSourcePage149Sha256": "6b55c1f4bb0be66b9245cb1f1d6094b2eaec7abe8c8aaa22f3b2a453fd0f3810",
+      "nativeArgumentSha256": "2fd0844f7f5a974d20f19ff2126cb2edefd4fae080b48965859c0341973d49d6",
+      "keyboardReviewAndLessonNavigation": true,
+      "pinnedReviewActuallyOpened": true,
+      "falsePremiseRejected": true,
+      "submittedCounterexampleRetainedAfterLiveEdit": true,
+      "nativeArgumentReopened": true,
+      "catalogueAxeViolations": 0,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sharedQueries": [
+        {
+          "query": "Roman law",
+          "shared": "http://127.0.0.1:4371/officina/?q=Roman+law&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "usucapio",
+          "shared": "http://127.0.0.1:4371/officina/?q=usucapio&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "in bonis",
+          "shared": "http://127.0.0.1:4371/officina/?q=in+bonis&audience=Ancient+world#catalogue"
+        },
+        {
+          "query": "quamvis",
+          "shared": "http://127.0.0.1:4371/officina/?q=quamvis&audience=Ancient+world#catalogue"
+        }
+      ],
+      "actualThumbnailSha256": "0e94164facc13ecc802acbe59d3e6d04ed4799d9ae2647896441b874de7b76f5",
+      "actualSourcePage149Sha256": "6b55c1f4bb0be66b9245cb1f1d6094b2eaec7abe8c8aaa22f3b2a453fd0f3810",
+      "nativeArgumentSha256": "2fd0844f7f5a974d20f19ff2126cb2edefd4fae080b48965859c0341973d49d6",
+      "keyboardReviewAndLessonNavigation": true,
+      "pinnedReviewActuallyOpened": true,
+      "falsePremiseRejected": true,
+      "submittedCounterexampleRetainedAfterLiveEdit": true,
+      "nativeArgumentReopened": true,
+      "catalogueAxeViolations": 0,
+      "errors": []
+    }
+  ]
+}

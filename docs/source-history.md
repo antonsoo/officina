@@ -573,3 +573,7 @@ temporary-premise workflows.
 The [instrument and construction examinations](ancient-examinations-2026-10-24.md)
 connect Ptolemy’s equal-pitch string tests and the mesolabe’s two independent
 contacts to their public workshops, source words and portable readings.
+
+The [Gaius counterexample workshop](traditio-discovery-2026-10-29.md) connects
+Roman-law and Latin searches to a submitted case, cited passages and a portable
+argument, with the actual public source review and lesson operated in both browsers.

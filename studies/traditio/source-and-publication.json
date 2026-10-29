@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-29T23:41:12.493234+00:00",
+  "sourceCommit": "e1d96281f9a87a95ed614c29e59337768994d433",
+  "deploymentCommit": "83f8f29",
+  "remoteReferences": [
+    "83f8f296562f64c4bd6de172a4fc67b320f8a66e\trefs/heads/gh-pages",
+    "e1d96281f9a87a95ed614c29e59337768994d433\trefs/heads/main"
+  ],
+  "files": [
+    {
+      "path": "public/projects.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/e1d96281f9a87a95ed614c29e59337768994d433/public/projects.json",
+      "bytes": 60403,
+      "sha256": "5a0ad0df4ceb1d6f8de115c9f67474c111b657dfd40bb3447230418781189672"
+    },
+    {
+      "path": "public/thumbs/traditio.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/e1d96281f9a87a95ed614c29e59337768994d433/public/thumbs/traditio.png",
+      "bytes": 129822,
+      "sha256": "916ae6f7126267bdc534dc47fef38344ae09c4714d7da8b1154e75b17d6404f9"
+    },
+    {
+      "path": "public/thumbs/traditio-argument.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/e1d96281f9a87a95ed614c29e59337768994d433/public/thumbs/traditio-argument.png",
+      "bytes": 164964,
+      "sha256": "0e94164facc13ecc802acbe59d3e6d04ed4799d9ae2647896441b874de7b76f5"
+    }
+  ],
+  "pagesConfiguration": {
+    "html_url": "https://antonsoo.github.io/officina/",
+    "build_type": "legacy",
+    "source": {
+      "branch": "gh-pages",
+      "path": "/"
+    },
+    "status": null
+  },
+  "latestLegacyBuildMetadata": {
+    "status": "unavailable",
+    "httpStatus": 404
+  },
+  "reportedWorkflowRuns": []
+}
