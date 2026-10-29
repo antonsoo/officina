@@ -1,0 +1,189 @@
+{
+  "base": "https://antonsoo.github.io/officina/",
+  "receipts": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "colorScheme": "light",
+      "selections": [
+        "https://antonsoo.github.io/embater/compare.html",
+        "https://antonsoo.github.io/harmoniai/#names",
+        "https://antonsoo.github.io/stoicheia/circle.html",
+        "https://antonsoo.github.io/tracelens/"
+      ],
+      "workshops": [
+        {
+          "query": "intercolumnia",
+          "review": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md"
+        },
+        {
+          "query": "unequal lowerings",
+          "review": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/docs/publication-review.md"
+        }
+      ],
+      "accessibilityViolations": 0,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "colorScheme": "dark",
+      "selections": [
+        "https://antonsoo.github.io/embater/compare.html",
+        "https://antonsoo.github.io/harmoniai/#names",
+        "https://antonsoo.github.io/stoicheia/circle.html",
+        "https://antonsoo.github.io/tracelens/"
+      ],
+      "workshops": [
+        {
+          "query": "intercolumnia",
+          "review": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md"
+        },
+        {
+          "query": "unequal lowerings",
+          "review": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/docs/publication-review.md"
+        }
+      ],
+      "accessibilityViolations": 0,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "colorScheme": "light",
+      "selections": [
+        "https://antonsoo.github.io/embater/compare.html",
+        "https://antonsoo.github.io/harmoniai/#names",
+        "https://antonsoo.github.io/stoicheia/circle.html",
+        "https://antonsoo.github.io/tracelens/"
+      ],
+      "workshops": [
+        {
+          "query": "intercolumnia",
+          "review": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md"
+        },
+        {
+          "query": "unequal lowerings",
+          "review": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/docs/publication-review.md"
+        }
+      ],
+      "accessibilityViolations": 0,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "colorScheme": "dark",
+      "selections": [
+        "https://antonsoo.github.io/embater/compare.html",
+        "https://antonsoo.github.io/harmoniai/#names",
+        "https://antonsoo.github.io/stoicheia/circle.html",
+        "https://antonsoo.github.io/tracelens/"
+      ],
+      "workshops": [
+        {
+          "query": "intercolumnia",
+          "review": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md"
+        },
+        {
+          "query": "unequal lowerings",
+          "review": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/docs/publication-review.md"
+        }
+      ],
+      "accessibilityViolations": 0,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "colorScheme": "light",
+      "selections": [
+        "https://antonsoo.github.io/embater/compare.html",
+        "https://antonsoo.github.io/harmoniai/#names",
+        "https://antonsoo.github.io/stoicheia/circle.html",
+        "https://antonsoo.github.io/tracelens/"
+      ],
+      "workshops": [
+        {
+          "query": "intercolumnia",
+          "review": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md"
+        },
+        {
+          "query": "unequal lowerings",
+          "review": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/docs/publication-review.md"
+        }
+      ],
+      "accessibilityViolations": 0,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "colorScheme": "dark",
+      "selections": [
+        "https://antonsoo.github.io/embater/compare.html",
+        "https://antonsoo.github.io/harmoniai/#names",
+        "https://antonsoo.github.io/stoicheia/circle.html",
+        "https://antonsoo.github.io/tracelens/"
+      ],
+      "workshops": [
+        {
+          "query": "intercolumnia",
+          "review": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md"
+        },
+        {
+          "query": "unequal lowerings",
+          "review": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/docs/publication-review.md"
+        }
+      ],
+      "accessibilityViolations": 0,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "colorScheme": "light",
+      "selections": [
+        "https://antonsoo.github.io/embater/compare.html",
+        "https://antonsoo.github.io/harmoniai/#names",
+        "https://antonsoo.github.io/stoicheia/circle.html",
+        "https://antonsoo.github.io/tracelens/"
+      ],
+      "workshops": [
+        {
+          "query": "intercolumnia",
+          "review": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md"
+        },
+        {
+          "query": "unequal lowerings",
+          "review": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/docs/publication-review.md"
+        }
+      ],
+      "accessibilityViolations": 0,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "colorScheme": "dark",
+      "selections": [
+        "https://antonsoo.github.io/embater/compare.html",
+        "https://antonsoo.github.io/harmoniai/#names",
+        "https://antonsoo.github.io/stoicheia/circle.html",
+        "https://antonsoo.github.io/tracelens/"
+      ],
+      "workshops": [
+        {
+          "query": "intercolumnia",
+          "review": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md"
+        },
+        {
+          "query": "unequal lowerings",
+          "review": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/docs/publication-review.md"
+        }
+      ],
+      "accessibilityViolations": 0,
+      "errors": []
+    }
+  ]
+}

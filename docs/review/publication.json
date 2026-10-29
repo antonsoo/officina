@@ -1,0 +1,11 @@
+{
+  "project": "officina",
+  "source": "e23e5d4",
+  "pagesBranch": "3172284827c39c0176449c9b4723b3a999c72713",
+  "build_type": "legacy",
+  "url": "https://antonsoo.github.io/officina/",
+  "actionsEnabled": false,
+  "sourceWorkflowRuns": [],
+  "pagesBuildStatus": "Unavailable: latest-build API returns HTTP 404; do not infer a successful workflow from the live site.",
+  "canonicalFilesVerified": 84
+}

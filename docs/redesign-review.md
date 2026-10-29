@@ -46,3 +46,26 @@ and email; remote source heads were checked after each push. The
 [publication record](review/identity-publication.json) names the commits and files.
 This record establishes source publication, not rebuilt packages or updated Pages
 for those 28 repositories.
+
+## Public edition: 29 October 2026
+
+[Open Officina](https://antonsoo.github.io/officina/). The published source is
+`e23e5d4a1b1196d4675430d56e1bd0e4ca71ea16`; the reviewed `gh-pages` commit is
+`3172284827c39c0176449c9b4723b3a999c72713`. The clean Node 24.22.1 build and all
+84 canonical public files agree, including the project data, illustration, fonts
+and license notices. [Clean-build receipt](review/clean-build.json) and
+[hosted file hashes](review/hosted.json).
+
+[Eight public browser contexts](review/public-browser.json) cover Chromium and
+Firefox, 1440 and 375 pixels, light and dark themes. Each follows all four selected
+activities: changing the temple count; choosing and playing a Greek octave;
+breaking a polygon-bound calculation; and inspecting a recorded trace's token cost.
+Each also searches `intercolumnia` and `unequal lowerings`, checks the immutable
+review text, downloads the temple reading and changes Pyknon's tuning preparation.
+No accessibility violations or uncaught page errors occurred in the reviewed states.
+
+Repository Actions are disabled, and the workflow list is empty. The legacy Pages
+configuration points to the reviewed branch, but its latest-build endpoint returns
+404. The successful canonical-file comparison and public browser replay establish
+the serving result; no CI or deployment-workflow success is claimed for Officina.
+[Publication details](review/publication.json).
