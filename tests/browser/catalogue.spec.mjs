@@ -135,7 +135,8 @@ test("catalogue text is escaped and cannot add markup", async ({ page }) => {
   await page.goto("./");
   await expect(cards(page)).toHaveCount(1);
   await expect(page.locator(".card-name")).toHaveText(hostile);
-  expect(await page.locator("img").count()).toBe(1);
+  await expect(page.locator(".card-thumb img")).toHaveCount(1);
+  await expect(page.locator("img[onerror], img[src=x]")).toHaveCount(0);
   expect(await page.evaluate(() => window.injected)).toBeUndefined();
   await search(page).fill(hostile);
   await expect(cards(page)).toHaveCount(1);

@@ -1,5 +1,7 @@
 # Source update history
 
+2026-10-29: [Redesign and publication review](redesign-review.md) introduces selected experiments and a ruled index, publishes Embater and Harmoniai, and preserves search and evidence journeys.
+
 2026-10-26: [Find the actual reader](workshop-discovery-2026-10-26.md) adds eight curated workshop destinations to source-word search, with direct operations and immutable review headings. Book X queries now open Book X even while the project features Archimedes.
 
 2026-10-24: [A fixed inclination, a moving observer](viewpoint-2026-10-24.md) opens Gonia’s tenth room and retains its earlier architectural discoveries.

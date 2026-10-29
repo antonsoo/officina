@@ -1,5 +1,6 @@
 import "./fonts/fonts.css";
 import "./style.css";
+import { renderSelected } from "./selected";
 import type { Project, Workshop } from "./types";
 import { filterProjects, groupNames, matchingWorkshops, parseCatalogue } from "./catalogue";
 
@@ -25,7 +26,7 @@ function toggleTheme(): void {
   }
   const btn = document.getElementById("theme-toggle");
   if (btn) {
-    btn.textContent = next === "dark" ? "☀ Light" : "☽ Dark";
+    btn.textContent = next === "dark" ? "Light" : "Dark";
     btn.setAttribute("aria-label", `Switch to ${next === "dark" ? "light" : "dark"} theme`);
   }
 }
@@ -58,7 +59,7 @@ function renderCard(p: Project): string {
         <img src="${base}${esc(p.thumbnail)}" alt="${esc(p.name)} screenshot" loading="lazy" width="1200" height="750" />
       </div>
       <div class="card-body">
-        <span class="tag">${esc(p.group)}</span>
+
         <h3 class="card-name">${esc(p.name)}</h3>
         ${p.workshops?.length ? `<section class="card-workshops" aria-label="${esc(p.name)} matching workshops" hidden><p class="workshop-label">Matching workshops</p><ul role="list">${p.workshops.map(renderWorkshop).join("")}</ul></section>` : ""}
         <p class="card-desc">${esc(p.description)}</p>
@@ -87,7 +88,7 @@ function renderGroups(projects: Project[]): string {
     <section class="group">
       <div class="group-header">
         <h2 class="group-title">${esc(name)}</h2>
-        <div class="rule"><span class="lozenge"></span></div>
+        <span class="group-size">${groups.get(name)!.length} projects</span>
       </div>
       <ul class="grid" role="list">
         ${groups.get(name)!.map(renderCard).join("")}
@@ -104,7 +105,9 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
     container.innerHTML = '<p class="catalogue-message" role="status">No tools are listed yet.</p>';
     return;
   }
+  document.getElementById("selected")!.innerHTML = renderSelected(published);
   container.innerHTML = `
+    <div class="index-heading"><h2>All projects</h2><p>Search the work, the sources, or a question.</p></div>
     <form class="catalogue-controls" role="search" aria-label="Find a tool">
       <div class="search-row">
         <div class="search-field">
@@ -130,7 +133,7 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
           .join("")}
       </div>
     </form>
-    <p class="evidence-note">Evidence links open the recorded source revision. Demos and registry packages may use a different version.</p>
+    <p class="evidence-note">Recorded evidence links to the version reviewed; live demos and packages can differ.</p>
     <p class="result-count" role="status" aria-live="polite" aria-atomic="true"></p>
     <div id="groups">${renderGroups(published)}</div>
     <div class="empty-results" hidden>
@@ -255,11 +258,13 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
 
 async function loadCatalogue(container: HTMLElement, restoreFocus = false): Promise<void> {
   container.setAttribute("aria-busy", "true");
+  document.querySelector("main")?.setAttribute("aria-busy", "true");
   container.innerHTML = '<p class="catalogue-message" role="status">Loading tools&hellip;</p>';
   try {
     const res = await fetch(`${import.meta.env.BASE_URL}projects.json`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     renderCatalogue(parseCatalogue(await res.json()), container);
+    if (location.hash === "#catalogue") container.scrollIntoView();
     if (restoreFocus) container.querySelector<HTMLInputElement>("#tool-search")?.focus();
   } catch {
     container.innerHTML = `
@@ -271,35 +276,33 @@ async function loadCatalogue(container: HTMLElement, restoreFocus = false): Prom
     if (restoreFocus) container.querySelector<HTMLButtonElement>("#retry")!.focus();
   } finally {
     container.setAttribute("aria-busy", "false");
+    document.querySelector("main")?.setAttribute("aria-busy", "false");
   }
 }
 
 async function main(): Promise<void> {
   app.innerHTML = `
     <a class="skip-link" href="#catalogue">Skip to tools</a>
-    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to ${currentTheme() === "dark" ? "light" : "dark"} theme">
-      ${currentTheme() === "dark" ? "☀ Light" : "☽ Dark"}
-    </button>
-    <header class="masthead">
-      <div class="wrap">
-        <h1 class="wordmark">Officina<span class="dot">&middot;</span></h1>
-        <p class="tagline">open-source tools by Anthony Mercer</p>
-        <div class="rule"><span class="lozenge"></span></div>
-        <p class="intro">
-          AI/ML engineer in San Francisco. Small, focused tools, built and documented in the open.
-        </p>
-        <p class="contact-line">
-          <a href="mailto:anthony@praviel.com">anthony@praviel.com</a>
-          <span>&middot;</span>
-          <a href="https://github.com/antonsoo">github.com/antonsoo</a>
-          <span>&middot;</span>
-          <a href="https://praviel.com">praviel.com</a>
-        </p>
-      </div>
+    <header class="masthead wrap">
+      <a class="owner" href="https://github.com/antonsoo">Anthony Mercer</a>
+      <nav aria-label="Main navigation">
+        <a href="#catalogue">Project index</a>
+        <a href="https://github.com/antonsoo">GitHub ↗</a>
+        <a href="https://praviel.com">PRAVIEL ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to ${currentTheme() === "dark" ? "light" : "dark"} theme">${currentTheme() === "dark" ? "Light" : "Dark"}</button>
+      </nav>
     </header>
-    <main class="wrap" id="catalogue" tabindex="-1"></main>
-    <footer>
-      <div class="wrap">MIT-licensed. Source for this page: <a href="https://github.com/antonsoo/officina">github.com/antonsoo/officina</a></div>
+    <main class="wrap">
+      <div class="title-block">
+        <h1>Officina<span aria-hidden="true">.</span></h1>
+        <p>Open-source work<br> by <a href="https://github.com/antonsoo">Anthony Mercer</a></p>
+      </div>
+      <section id="selected" aria-label="Selected work"></section>
+      <div id="catalogue" tabindex="-1"></div>
+    </main>
+    <footer class="wrap">
+      <p>Officina <span lang="la">/ workshop</span></p>
+      <nav aria-label="Footer"><a href="https://github.com/antonsoo/officina">Page source</a><a href="mailto:anthony@praviel.com">Get in touch</a><a href="${import.meta.env.BASE_URL}FONT-LICENSE.txt">Font licenses</a><span>MIT licensed</span></nav>
     </footer>
   `;
 

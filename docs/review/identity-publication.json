@@ -1,0 +1,318 @@
+[
+  {
+    "repo": "am-i-unlucky",
+    "sha": "9534c07d1ffbe9bea7bb6d0f01fce76dad3d51f7",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "9534c07d1ffbe9bea7bb6d0f01fce76dad3d51f7"
+  },
+  {
+    "repo": "contextscope",
+    "sha": "7e69c0216f4598ee7265f640d3f4f892dc852db6",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "7e69c0216f4598ee7265f640d3f4f892dc852db6"
+  },
+  {
+    "repo": "dioptra",
+    "sha": "1c69ef591549d75e5a9e495edb247850acd36ead",
+    "files": [
+      "LICENSE",
+      "package.json"
+    ],
+    "remote": "1c69ef591549d75e5a9e495edb247850acd36ead"
+  },
+  {
+    "repo": "errorbars",
+    "sha": "68f6a7ad83c85efc9955514adca83ddcfd8d9984",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "pyproject.toml",
+      "web/package.json"
+    ],
+    "remote": "68f6a7ad83c85efc9955514adca83ddcfd8d9984"
+  },
+  {
+    "repo": "fieldproof",
+    "sha": "ea5f731a328bdd222be2f2562dbea3541da0dca6",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "pyproject.toml",
+      "web/package.json"
+    ],
+    "remote": "ea5f731a328bdd222be2f2562dbea3541da0dca6"
+  },
+  {
+    "repo": "flakemap",
+    "sha": "693a1437a5128ea895ed56185b3ddb302788b4ee",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "pyproject.toml"
+    ],
+    "remote": "693a1437a5128ea895ed56185b3ddb302788b4ee"
+  },
+  {
+    "repo": "ghostchars",
+    "sha": "6ea70c64c0a01092e8243f71da1ded2c62cb2e7a",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "6ea70c64c0a01092e8243f71da1ded2c62cb2e7a"
+  },
+  {
+    "repo": "gnomon",
+    "sha": "d192b41da3cacb485bad2ce350713ec55cfa59c5",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "d192b41da3cacb485bad2ce350713ec55cfa59c5"
+  },
+  {
+    "repo": "grama",
+    "sha": "87073c63e81619ffa2df64ce70aa847d2012995b",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "87073c63e81619ffa2df64ce70aa847d2012995b"
+  },
+  {
+    "repo": "haidao",
+    "sha": "0e8a3bf8a4c4419808a8a9aa1483c9a8073b4df7",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "0e8a3bf8a4c4419808a8a9aa1483c9a8073b4df7"
+  },
+  {
+    "repo": "horologium",
+    "sha": "e81bdd3bfddd498f2779771e928d6d1ef954d646",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "e81bdd3bfddd498f2779771e928d6d1ef954d646"
+  },
+  {
+    "repo": "logdelta",
+    "sha": "6b6ea630157acbc64f310626c56d816a46f32a73",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "Cargo.toml",
+      "LICENSE",
+      "README.md"
+    ],
+    "remote": "6b6ea630157acbc64f310626c56d816a46f32a73"
+  },
+  {
+    "repo": "mcplint",
+    "sha": "572d2d6b7dc0abaaaecbb50c7e568e3a43d17993",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "572d2d6b7dc0abaaaecbb50c7e568e3a43d17993"
+  },
+  {
+    "repo": "mergeglass",
+    "sha": "c877c79a6db730fb177942058de12345babdb684",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "pyproject.toml"
+    ],
+    "remote": "c877c79a6db730fb177942058de12345babdb684"
+  },
+  {
+    "repo": "planisphere",
+    "sha": "b07f3f99d87e909c016df6ca8189cbb6871fdc55",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "b07f3f99d87e909c016df6ca8189cbb6871fdc55"
+  },
+  {
+    "repo": "pnigeus",
+    "sha": "c6addf6bebcc46ea1116530dc1a1081ec15528a1",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "c6addf6bebcc46ea1116530dc1a1081ec15528a1"
+  },
+  {
+    "repo": "pyknon",
+    "sha": "0d27ede7acb1cde8c5b2f472abba08c762b0bc50",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "0d27ede7acb1cde8c5b2f472abba08c762b0bc50"
+  },
+  {
+    "repo": "rajju",
+    "sha": "b5d60d5084873960bc5c70d40254f03b5f6db52b",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "b5d60d5084873960bc5c70d40254f03b5f6db52b"
+  },
+  {
+    "repo": "sammu",
+    "sha": "f6794c6d874cfe93129655174c57a18d90f0021a",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "f6794c6d874cfe93129655174c57a18d90f0021a"
+  },
+  {
+    "repo": "seked",
+    "sha": "9e8a95b47933ac9d3800dc992268aa6c208e916f",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "9e8a95b47933ac9d3800dc992268aa6c208e916f"
+  },
+  {
+    "repo": "shiguzhai",
+    "sha": "f55e355c1dfa7ff51983117a01d57f2e4d931fe7",
+    "files": [
+      "LICENSE",
+      "package.json"
+    ],
+    "remote": "f55e355c1dfa7ff51983117a01d57f2e4d931fe7"
+  },
+  {
+    "repo": "splitscope",
+    "sha": "90f103e986e30c120ace25163f75dc2b19ad54f2",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "90f103e986e30c120ace25163f75dc2b19ad54f2"
+  },
+  {
+    "repo": "stutterscope",
+    "sha": "7c4bd526efbf25a4fca26aca0364bb96ab32cf4d",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "7c4bd526efbf25a4fca26aca0364bb96ab32cf4d"
+  },
+  {
+    "repo": "syngraphe",
+    "sha": "732e706abfd92c9cfbfd8f3861e6ce1fb0503c7e",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "package.json",
+      "public/LICENSE.txt"
+    ],
+    "remote": "732e706abfd92c9cfbfd8f3861e6ce1fb0503c7e"
+  },
+  {
+    "repo": "tonemirror",
+    "sha": "2e17607ed650704234eeb09db582449389b07054",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "2e17607ed650704234eeb09db582449389b07054"
+  },
+  {
+    "repo": "tracelens",
+    "sha": "bbd781b98e1daa179553513a6b07263b2c7be35a",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "package.json"
+    ],
+    "remote": "bbd781b98e1daa179553513a6b07263b2c7be35a"
+  },
+  {
+    "repo": "trainspotter",
+    "sha": "485d2a5c5f43cee15274f9de6b1cb86dc567a9ad",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "pyproject.toml"
+    ],
+    "remote": "485d2a5c5f43cee15274f9de6b1cb86dc567a9ad"
+  },
+  {
+    "repo": "veil",
+    "sha": "685b01617802e5d2b284788c842853b49c6d4c7e",
+    "files": [
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "pyproject.toml",
+      "web/package.json"
+    ],
+    "remote": "685b01617802e5d2b284788c842853b49c6d4c7e"
+  }
+]

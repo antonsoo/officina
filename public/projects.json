@@ -1,15 +1,15 @@
 [
   {
     "name": "embater",
-    "description": "Draw Doric, Ionic, Corinthian and Tuscan temple fronts from Vitruvius's Latin, name every part in Greek and Latin, and test his rules on 31 real temples.",
+    "description": "Count columns or the spaces between them; compare Vitruvius with 31 temple records and save the illustrated reading. Also explore the orders, temple plans and architectural vocabulary.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/embater",
-    "demoUrl": "https://antonsoo.github.io/embater/",
-    "thumbnail": "thumbs/embater.webp",
-    "status": "soon",
+    "demoUrl": "https://antonsoo.github.io/embater/compare.html",
+    "thumbnail": "thumbs/embater-count.png",
+    "status": "published",
     "study": {
-      "finding": "Median flank columns of six-column Greek temples fall from 15 before 500 BCE to 13, then Vitruvius's 11 after 400. No Doric column reaches his 7 diameters.",
-      "url": "https://github.com/antonsoo/embater#what-the-evidence-says"
+      "finding": "For six columns across, doubling five spaces gives eleven along the side. Compare the prescription with 31 Perseus records; two restorations are uncertain.",
+      "url": "https://github.com/antonsoo/embater/blob/5f128556103e4daa252a40fa009d97f58c64b1d5/docs/count-review.md"
     },
     "searchTerms": [
       "Vitruvius",
@@ -36,6 +36,23 @@
       "architecture vocabulary",
       "Pantheon",
       "Persepolis"
+    ],
+    "workshops": [
+      {
+        "id": "count",
+        "title": "Count the spaces",
+        "url": "https://antonsoo.github.io/embater/compare.html",
+        "reviewUrl": "https://github.com/antonsoo/embater/blob/5f128556103e4daa252a40fa009d97f58c64b1d5/docs/count-review.md",
+        "searchTerms": [
+          "intercolumnia",
+          "totidem bis",
+          "count columns",
+          "temple counts",
+          "Selinus C"
+        ],
+        "summary": "Choose which noun to double, compare 31 temple records, and save a source-backed illustrated reading. Two uncertain restorations can be included in the tally.",
+        "thumbnail": "thumbs/embater-count.png"
+      }
     ]
   },
   {
@@ -45,10 +62,10 @@
     "repoUrl": "https://github.com/antonsoo/harmoniai",
     "demoUrl": "https://antonsoo.github.io/harmoniai/",
     "thumbnail": "thumbs/harmoniai.webp",
-    "status": "soon",
+    "status": "published",
     "study": {
       "finding": "Cleonides' two descriptions of the octaves agree; on white keys his Dorian is today's Phrygian, and his Phrygian today's Dorian.",
-      "url": "https://github.com/antonsoo/harmoniai#cleonides-checks-himself"
+      "url": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/README.md#cleonides-checks-himself"
     },
     "searchTerms": [
       "Cleonides",
@@ -75,6 +92,22 @@
       "vīṇā",
       "mūrcchanā",
       "Sanskrit"
+    ],
+    "workshops": [
+      {
+        "id": "assumptions",
+        "title": "The same meetings, unequal lowerings",
+        "url": "https://antonsoo.github.io/harmoniai/vina.html#assumptions",
+        "reviewUrl": "https://github.com/antonsoo/harmoniai/blob/1a59ffde9daff9f3e3215e9ec182df9c4116a087/docs/publication-review.md",
+        "searchTerms": [
+          "unequal lowerings",
+          "equal srutis",
+          "pure fifth",
+          "Bernard Bel",
+          "Bharata counterexample"
+        ],
+        "summary": "The seven string meetings do not force equal steps. Inspect a pure-ratio counterexample, compare the two fifths by ear, and follow the source and tunable model."
+      }
     ]
   },
   {

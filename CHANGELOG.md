@@ -4,6 +4,16 @@ All notable changes to this project are documented in this file.
 
 ## Unreleased
 
+### Changed
+
+- Replace the repeated card grid with selected experiments and a ruled project index.
+  Introduce Anthony Mercer by name, with GitHub and PRAVIEL links.
+- Feature the temple-count comparison, Greek octave names, Archimedes' circle argument
+  and the trace reader. Publish Embater and Harmoniai in the index.
+- Retain native search, explicit shared links, pinned evidence and keyboard focus.
+  Move the long historical README into a linked guide.
+
+
 ### Added
 
 - Read a matching workshop’s own activity summary and actual preview in a wider
