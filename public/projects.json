@@ -9,7 +9,7 @@
     "status": "published",
     "study": {
       "finding": "For six columns across, doubling five spaces gives eleven along the side. Compare the prescription with 31 Perseus records; two restorations are uncertain.",
-      "url": "https://github.com/antonsoo/embater/blob/5f128556103e4daa252a40fa009d97f58c64b1d5/docs/count-review.md"
+      "url": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md"
     },
     "searchTerms": [
       "Vitruvius",
@@ -42,7 +42,7 @@
         "id": "count",
         "title": "Count the spaces",
         "url": "https://antonsoo.github.io/embater/compare.html",
-        "reviewUrl": "https://github.com/antonsoo/embater/blob/5f128556103e4daa252a40fa009d97f58c64b1d5/docs/count-review.md",
+        "reviewUrl": "https://github.com/antonsoo/embater/blob/1004ec903438e38ae7409724cab4c5f02c733db2/docs/count-review.md",
         "searchTerms": [
           "intercolumnia",
           "totidem bis",
