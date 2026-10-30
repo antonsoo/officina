@@ -1,0 +1,437 @@
+{
+  "date": "2026-10-30T06:30:33.767Z",
+  "catalogue": "http://127.0.0.1:4385/officina/",
+  "publicCatalogue": false,
+  "publicLessonAndReview": true,
+  "requestRedirection": false,
+  "records": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "query": "πιέζων",
+      "aliases": [
+        "authoritative urn",
+        "κύριος",
+        "ἂν δὲ ἴσαι"
+      ],
+      "sharedSearch": "http://127.0.0.1:4385/officina/?q=%CF%80%CE%B9%CE%AD%CE%B6%CF%89%CE%BD#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/#workbench",
+      "review": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "81c37a0a0be188c8ab84dfd8a93cd02f50266fe88b422b4b05d3c57426a60443",
+      "displayedSourceSha256": "459982e373f32e0e9fe0c4068d352dc593a05aba533262b58dc3255c75eda300",
+      "nativeRecord": {
+        "format": "psephos-court-record",
+        "version": 2,
+        "preset": "last-vote",
+        "actions": [
+          {
+            "type": "issue",
+            "pair": "mixed"
+          },
+          {
+            "type": "choose",
+            "ballot": "pierced"
+          },
+          {
+            "type": "choose",
+            "ballot": "solid"
+          },
+          {
+            "type": "cast"
+          },
+          {
+            "type": "count",
+            "urn": "bronze"
+          }
+        ],
+        "observation": {
+          "choice": "solid",
+          "covered": true
+        },
+        "knowledge": {
+          "target": 9,
+          "known": [],
+          "inspected": false
+        },
+        "note": "The covered ends remain identical for either private choice. Bronze alone counts; equal votes favor the defendant.",
+        "citations": [
+          "tie"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "query": "εὐαρίθμητοι",
+      "aliases": [
+        "known votes",
+        "252 arrangements",
+        "unanimity"
+      ],
+      "sharedSearch": "http://127.0.0.1:4385/officina/?q=%CE%B5%E1%BD%90%CE%B1%CF%81%CE%AF%CE%B8%CE%BC%CE%B7%CF%84%CE%BF%CE%B9#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/#inference",
+      "review": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "81c37a0a0be188c8ab84dfd8a93cd02f50266fe88b422b4b05d3c57426a60443",
+      "displayedSourceSha256": "459982e373f32e0e9fe0c4068d352dc593a05aba533262b58dc3255c75eda300",
+      "nativeRecord": {
+        "format": "psephos-court-record",
+        "version": 2,
+        "preset": "last-vote",
+        "actions": [
+          {
+            "type": "issue",
+            "pair": "mixed"
+          },
+          {
+            "type": "cast"
+          },
+          {
+            "type": "count",
+            "urn": "bronze"
+          }
+        ],
+        "observation": null,
+        "knowledge": {
+          "target": 9,
+          "known": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "inspected": true
+        },
+        "note": "Five known pierced choices force the remaining five solid. With no known choices the same public count permits 252 arrangements.",
+        "citations": [
+          "tie"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "query": "πιέζων",
+      "aliases": [
+        "authoritative urn",
+        "κύριος",
+        "ἂν δὲ ἴσαι"
+      ],
+      "sharedSearch": "http://127.0.0.1:4385/officina/?q=%CF%80%CE%B9%CE%AD%CE%B6%CF%89%CE%BD#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/#workbench",
+      "review": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "81c37a0a0be188c8ab84dfd8a93cd02f50266fe88b422b4b05d3c57426a60443",
+      "displayedSourceSha256": "459982e373f32e0e9fe0c4068d352dc593a05aba533262b58dc3255c75eda300",
+      "nativeRecord": {
+        "format": "psephos-court-record",
+        "version": 2,
+        "preset": "last-vote",
+        "actions": [
+          {
+            "type": "issue",
+            "pair": "mixed"
+          },
+          {
+            "type": "choose",
+            "ballot": "pierced"
+          },
+          {
+            "type": "choose",
+            "ballot": "solid"
+          },
+          {
+            "type": "cast"
+          },
+          {
+            "type": "count",
+            "urn": "bronze"
+          }
+        ],
+        "observation": {
+          "choice": "solid",
+          "covered": true
+        },
+        "knowledge": {
+          "target": 9,
+          "known": [],
+          "inspected": false
+        },
+        "note": "The covered ends remain identical for either private choice. Bronze alone counts; equal votes favor the defendant.",
+        "citations": [
+          "tie"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "query": "εὐαρίθμητοι",
+      "aliases": [
+        "known votes",
+        "252 arrangements",
+        "unanimity"
+      ],
+      "sharedSearch": "http://127.0.0.1:4385/officina/?q=%CE%B5%E1%BD%90%CE%B1%CF%81%CE%AF%CE%B8%CE%BC%CE%B7%CF%84%CE%BF%CE%B9#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/#inference",
+      "review": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "81c37a0a0be188c8ab84dfd8a93cd02f50266fe88b422b4b05d3c57426a60443",
+      "displayedSourceSha256": "459982e373f32e0e9fe0c4068d352dc593a05aba533262b58dc3255c75eda300",
+      "nativeRecord": {
+        "format": "psephos-court-record",
+        "version": 2,
+        "preset": "last-vote",
+        "actions": [
+          {
+            "type": "issue",
+            "pair": "mixed"
+          },
+          {
+            "type": "cast"
+          },
+          {
+            "type": "count",
+            "urn": "bronze"
+          }
+        ],
+        "observation": null,
+        "knowledge": {
+          "target": 9,
+          "known": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "inspected": true
+        },
+        "note": "Five known pierced choices force the remaining five solid. With no known choices the same public count permits 252 arrangements.",
+        "citations": [
+          "tie"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "query": "πιέζων",
+      "aliases": [
+        "authoritative urn",
+        "κύριος",
+        "ἂν δὲ ἴσαι"
+      ],
+      "sharedSearch": "http://127.0.0.1:4385/officina/?q=%CF%80%CE%B9%CE%AD%CE%B6%CF%89%CE%BD#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/#workbench",
+      "review": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "81c37a0a0be188c8ab84dfd8a93cd02f50266fe88b422b4b05d3c57426a60443",
+      "displayedSourceSha256": "459982e373f32e0e9fe0c4068d352dc593a05aba533262b58dc3255c75eda300",
+      "nativeRecord": {
+        "format": "psephos-court-record",
+        "version": 2,
+        "preset": "last-vote",
+        "actions": [
+          {
+            "type": "issue",
+            "pair": "mixed"
+          },
+          {
+            "type": "choose",
+            "ballot": "pierced"
+          },
+          {
+            "type": "choose",
+            "ballot": "solid"
+          },
+          {
+            "type": "cast"
+          },
+          {
+            "type": "count",
+            "urn": "bronze"
+          }
+        ],
+        "observation": {
+          "choice": "solid",
+          "covered": true
+        },
+        "knowledge": {
+          "target": 9,
+          "known": [],
+          "inspected": false
+        },
+        "note": "The covered ends remain identical for either private choice. Bronze alone counts; equal votes favor the defendant.",
+        "citations": [
+          "tie"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "query": "εὐαρίθμητοι",
+      "aliases": [
+        "known votes",
+        "252 arrangements",
+        "unanimity"
+      ],
+      "sharedSearch": "http://127.0.0.1:4385/officina/?q=%CE%B5%E1%BD%90%CE%B1%CF%81%CE%AF%CE%B8%CE%BC%CE%B7%CF%84%CE%BF%CE%B9#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/#inference",
+      "review": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "81c37a0a0be188c8ab84dfd8a93cd02f50266fe88b422b4b05d3c57426a60443",
+      "displayedSourceSha256": "459982e373f32e0e9fe0c4068d352dc593a05aba533262b58dc3255c75eda300",
+      "nativeRecord": {
+        "format": "psephos-court-record",
+        "version": 2,
+        "preset": "last-vote",
+        "actions": [
+          {
+            "type": "issue",
+            "pair": "mixed"
+          },
+          {
+            "type": "cast"
+          },
+          {
+            "type": "count",
+            "urn": "bronze"
+          }
+        ],
+        "observation": null,
+        "knowledge": {
+          "target": 9,
+          "known": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "inspected": true
+        },
+        "note": "Five known pierced choices force the remaining five solid. With no known choices the same public count permits 252 arrangements.",
+        "citations": [
+          "tie"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "query": "πιέζων",
+      "aliases": [
+        "authoritative urn",
+        "κύριος",
+        "ἂν δὲ ἴσαι"
+      ],
+      "sharedSearch": "http://127.0.0.1:4385/officina/?q=%CF%80%CE%B9%CE%AD%CE%B6%CF%89%CE%BD#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/#workbench",
+      "review": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "81c37a0a0be188c8ab84dfd8a93cd02f50266fe88b422b4b05d3c57426a60443",
+      "displayedSourceSha256": "459982e373f32e0e9fe0c4068d352dc593a05aba533262b58dc3255c75eda300",
+      "nativeRecord": {
+        "format": "psephos-court-record",
+        "version": 2,
+        "preset": "last-vote",
+        "actions": [
+          {
+            "type": "issue",
+            "pair": "mixed"
+          },
+          {
+            "type": "choose",
+            "ballot": "pierced"
+          },
+          {
+            "type": "choose",
+            "ballot": "solid"
+          },
+          {
+            "type": "cast"
+          },
+          {
+            "type": "count",
+            "urn": "bronze"
+          }
+        ],
+        "observation": {
+          "choice": "solid",
+          "covered": true
+        },
+        "knowledge": {
+          "target": 9,
+          "known": [],
+          "inspected": false
+        },
+        "note": "The covered ends remain identical for either private choice. Bronze alone counts; equal votes favor the defendant.",
+        "citations": [
+          "tie"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "query": "εὐαρίθμητοι",
+      "aliases": [
+        "known votes",
+        "252 arrangements",
+        "unanimity"
+      ],
+      "sharedSearch": "http://127.0.0.1:4385/officina/?q=%CE%B5%E1%BD%90%CE%B1%CF%81%CE%AF%CE%B8%CE%BC%CE%B7%CF%84%CE%BF%CE%B9#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/#inference",
+      "review": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "81c37a0a0be188c8ab84dfd8a93cd02f50266fe88b422b4b05d3c57426a60443",
+      "displayedSourceSha256": "459982e373f32e0e9fe0c4068d352dc593a05aba533262b58dc3255c75eda300",
+      "nativeRecord": {
+        "format": "psephos-court-record",
+        "version": 2,
+        "preset": "last-vote",
+        "actions": [
+          {
+            "type": "issue",
+            "pair": "mixed"
+          },
+          {
+            "type": "cast"
+          },
+          {
+            "type": "count",
+            "urn": "bronze"
+          }
+        ],
+        "observation": null,
+        "knowledge": {
+          "target": 9,
+          "known": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "inspected": true
+        },
+        "note": "Five known pierced choices force the remaining five solid. With no known choices the same public count permits 252 arrangements.",
+        "citations": [
+          "tie"
+        ]
+      },
+      "errors": []
+    }
+  ]
+}
