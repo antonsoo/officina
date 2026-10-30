@@ -43,3 +43,10 @@ Each journey:
 All sixteen local catalogue/lesson screenshots were visually inspected. Source
 build identity, canonical hosted bytes and a second complete set of journeys
 from the public catalogue will be recorded separately after publication.
+
+
+The [clean-build receipt](psephos/clean-build.json) records a fresh archive and
+Node 24.22.2: install, lint, formatting, strict types, 45 existing checks and the
+production build pass. The complete output is byte-identical to the reviewed
+working build; its inventory digest can be compared with the public-file
+verification receipt after deployment.

@@ -1,0 +1,19 @@
+{
+  "sourceCommit": "fdfb7c79f21981442ecb7e9a5f2e6d0ca8ad6e4f",
+  "node": "24.22.2",
+  "freshArchive": true,
+  "commands": [
+    "npm ci",
+    "npm run lint",
+    "npm run format:check",
+    "npm run typecheck",
+    "npm test",
+    "npm run build"
+  ],
+  "tests": 45,
+  "catalogueEntries": 36,
+  "byteIdenticalToReviewedBuild": true,
+  "fileCount": 93,
+  "totalBytes": 6652280,
+  "buildManifestSha256": "c121e66db42171295f2e3402767072a1d7e2fadea7c2f0886dc4790812bcd223"
+}
