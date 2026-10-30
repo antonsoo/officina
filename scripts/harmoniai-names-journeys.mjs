@@ -51,10 +51,13 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
       await page.goto(shared);
       await row.locator(".workshop-demo").focus(); await page.keyboard.press("Enter");
       await expect(page).toHaveURL(destination);
-      await page.locator("#compare-both").focus(); await page.keyboard.press("Enter");
+      await page.waitForLoadState("load");
+      await page.locator("#compare-both").focus();
+      await expect(page.locator("#compare-both")).toBeFocused();
+      await page.keyboard.press("Enter");
       try { await page.waitForFunction(() => document.querySelector("audio").currentTime > 0.1, null, {timeout: 10000}); }
       catch (error) {
-        console.error(await page.locator("audio").evaluate((a) => ({currentTime:a.currentTime,paused:a.paused,error:a.error?.message,readyState:a.readyState,networkState:a.networkState,active:document.activeElement?.outerHTML,label:document.querySelector("#audio-label")?.textContent})));
+        console.error(await page.locator("audio").evaluate((a) => ({currentTime:a.currentTime,paused:a.paused,error:a.error?.message,readyState:a.readyState,networkState:a.networkState,active:document.activeElement?.id || document.activeElement?.tagName,label:document.querySelector("#audio-label")?.textContent})));
         throw error;
       }
       await page.locator("#compare-stop").click();

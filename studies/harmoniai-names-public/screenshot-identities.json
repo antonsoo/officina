@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "capture": "chromium-1440-catalogue.png",
+      "sha256": "06d98ce31fc2a304ebe73275e3108d40c9e2ddcf5222bc567fa8b132b9269ba2",
+      "sameAsLocal": true,
+      "retainedAt": "../harmoniai-names-local/chromium-1440-catalogue.png"
+    },
+    {
+      "capture": "firefox-375-catalogue.png",
+      "sha256": "24efd80425aaaa011596b7fca5a45b9c42697d33c4cae8d6b201452a5198a107",
+      "sameAsLocal": true,
+      "retainedAt": "../harmoniai-names-local/firefox-375-catalogue.png"
+    },
+    {
+      "capture": "firefox-1440-catalogue.png",
+      "sha256": "21a34f0ae5fc2b9b975f5cbe6a0b9e05e33068b02c88da454393630c23cc3bcc",
+      "sameAsLocal": false,
+      "retainedAt": "firefox-1440-catalogue.png"
+    },
+    {
+      "capture": "chromium-375-catalogue.png",
+      "sha256": "6fa0a7eec6462b0e34ad273f1fb59763cfc9ee0ff3627ec61a445f2af86db973",
+      "sameAsLocal": true,
+      "retainedAt": "../harmoniai-names-local/chromium-375-catalogue.png"
+    }
+  ]
+}
