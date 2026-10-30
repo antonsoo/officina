@@ -57,7 +57,7 @@
   },
   {
     "name": "harmoniai",
-    "description": "Pluck the fifteen strings of the Greek two-octave system, hear Cleonides' seven octave species, and run Bharata's two-vīṇā demonstration of the twenty-two śrutis.",
+    "description": "Compare Greek and modern mode names from the same pitch, read Cleonides on the printed page, and explore the Greek octave species and Bharata’s two-vīṇā demonstration.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/harmoniai",
     "demoUrl": "https://antonsoo.github.io/harmoniai/",
@@ -94,6 +94,25 @@
       "Sanskrit"
     ],
     "workshops": [
+      {
+        "id": "names",
+        "title": "Which Dorian? Hear the names move",
+        "url": "https://antonsoo.github.io/harmoniai/compare.html?name=dorian#listen",
+        "reviewUrl": "https://github.com/antonsoo/harmoniai/blob/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md#try-the-actual-work",
+        "searchTerms": [
+          "Dorian",
+          "Phrygian",
+          "same starting pitch",
+          "same interval order",
+          "Cleonides",
+          "ἡμιτόνιον",
+          "βαρύ",
+          "ὀξύ",
+          "which Dorian"
+        ],
+        "summary": "Hold the starting pitch fixed, hear the two changed degrees, then choose the same interval order as a control. Save the sound, Greek reading and complete printed pages.",
+        "thumbnail": "thumbs/harmoniai-names.png"
+      },
       {
         "id": "assumptions",
         "title": "The same meetings, unequal lowerings",

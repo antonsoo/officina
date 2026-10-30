@@ -42,12 +42,13 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
         await page.locator("#temple").selectOption("aegina-temple-of-aphaia");
         await expect(page.locator("#count-result")).toContainText("counts agree: 12");
         await page.goto(base);
-        await page.getByRole("link", { name: "Play the octave species" }).click();
-        await expect(page.locator("#names-diagram svg")).toBeVisible();
-        await page.locator('button[data-species="3"]').click();
-        await expect(page.locator("#card")).toContainText("Phrygian");
-        await page.locator("#play").click();
-        await page.locator("#stop").click();
+        await page.getByRole("link", { name: "Hear the two Dorians" }).click();
+        await expect(page.locator("#compare-finding")).toContainText("Degrees 2 and 6 differ");
+        await page.locator("#compare-both").click();
+        await page.waitForFunction(() => document.querySelector("audio").currentTime > 0.1);
+        await page.locator("#compare-stop").click();
+        await page.locator("#compare-relation").selectOption("pattern");
+        await expect(page.locator("#compare-finding")).toContainText("All eight pitches agree");
         await page.goto(base);
         await page.getByRole("link", { name: "Try the argument" }).click();
         await page.locator('[data-stage="0"]').click();
@@ -70,7 +71,7 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
           await page.goto(base);
           await page.getByRole("link", { name: "Project index", exact: true }).click();
           await page.locator("#tool-search").fill(query);
-          const card = page.locator(`[data-project="${project}"]`);
+          const card = page.locator(`[data-project="${project}"] [data-workshop="${project === "embater" ? "count" : "assumptions"}"]`);
           await expect(card).toBeVisible();
           const review = await card.locator(".workshop-review").getAttribute("href");
           assert.match(review, /\/blob\/[a-f0-9]{40}\//);

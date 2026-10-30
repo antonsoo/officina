@@ -8,7 +8,7 @@ Open-source work by Anthony Mercer.
 
 A few concrete experiments to begin with, then a searchable index of the whole
 collection. The opening comparison asks why six columns across a temple do not
-imply twelve down its side. Other selections open Greek octave species,
+imply twelve down its side. Other selections compare Greek and modern Dorian from one pitch,
 Archimedes' circle argument and a local trace reader.
 
 The page identifies its author by name, with links to GitHub and PRAVIEL.
@@ -83,6 +83,7 @@ There is no analytics or third-party asset request. The catalogue remains
 filterable without a connection once loaded; links to other projects require
 those destinations to be available separately.
 
+[Greek music discovery journeys](docs/harmoniai-names-review.md) ·
 [Aristotle discovery journeys](docs/horos-review.md) ·
 [Redesign and publication review](docs/redesign-review.md) ·
 [Earlier catalogue guide and study links](docs/archive/catalogue-guide-2026-10-29.md) ·

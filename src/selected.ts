@@ -19,9 +19,9 @@ export function renderSelected(projects: Project[]): string {
     has("harmoniai")
       ? `<article class="feature feature-small">
       <p class="eyebrow">02 / Music · Harmoniai</p>
-      <h2>Dorian, in Greek.<br><i>Phrygian, today.</i></h2>
-      <p>One white-key pattern, two names. Compare Cleonides’ octave species with modern modes, pluck the strings, and read the Greek.</p>
-      <a class="feature-link" href="https://antonsoo.github.io/harmoniai/#names">Play the octave species <span aria-hidden="true">↗</span></a>
+      <h2>One name.<br><i>Two Dorians.</i></h2>
+      <p>Start on the same pitch. Hear the two degrees that differ between Greek and modern Dorian, then check Cleonides’ printed page.</p>
+      <a class="feature-link" href="https://antonsoo.github.io/harmoniai/compare.html?name=dorian#listen">Hear the two Dorians <span aria-hidden="true">↗</span></a>
     </article>`
       : "",
     has("stoicheia")

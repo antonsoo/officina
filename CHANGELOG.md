@@ -16,6 +16,10 @@ All notable changes to this project are documented in this file.
 
 ### Added
 
+- Discover Which Dorian through Greek interval words, compare the two meanings
+  from one pitch, and save the sound with its Greek reading and printed sources.
+  The selected music entry opens this experiment directly.
+
 - Find Horos through Aristotle's horse-and-stone example or Greek instance-taking
   terms; follow a direct investigation, inspect its witnesses and original scan,
   and save a notebook with a commit-pinned audit.
