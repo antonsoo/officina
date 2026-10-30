@@ -1,0 +1,50 @@
+[
+  {
+    "path": "chromium-1440-inhabitant-catalogue.png",
+    "sha256": "f2b66c3a39e512dfd5365ca7065acc085b68455e11ab996295bf7e1d461312ab",
+    "identicalToLocal": false,
+    "retainedAt": "chromium-1440-inhabitant-catalogue.png"
+  },
+  {
+    "path": "chromium-1440-two-worlds-catalogue.png",
+    "sha256": "abd35c368f63d930fb543014b485c574deb21971fbaf775a197c6a6550e73c4b",
+    "identicalToLocal": true,
+    "retainedAt": "../horos-local/chromium-1440-two-worlds-catalogue.png"
+  },
+  {
+    "path": "chromium-375-inhabitant-catalogue.png",
+    "sha256": "5ba142d2b454e3d028a68ac7aa815950f70c1852ee3da78823a001b014217bd9",
+    "identicalToLocal": false,
+    "retainedAt": "chromium-375-inhabitant-catalogue.png"
+  },
+  {
+    "path": "chromium-375-two-worlds-catalogue.png",
+    "sha256": "149668c9fbb244d6f9caa3c22cd3fbbf3fda6fed3cd0c0bf2322828816c59eef",
+    "identicalToLocal": true,
+    "retainedAt": "../horos-local/chromium-375-two-worlds-catalogue.png"
+  },
+  {
+    "path": "firefox-1440-inhabitant-catalogue.png",
+    "sha256": "74f89848324f810ea85046836aa28a7606dc886a383b02c6540f807298b55abf",
+    "identicalToLocal": false,
+    "retainedAt": "firefox-1440-inhabitant-catalogue.png"
+  },
+  {
+    "path": "firefox-1440-two-worlds-catalogue.png",
+    "sha256": "06ea9c3c3a8249cd33d50d8ee6e38edf3dbf70feaa9f8bbc6dbb91b191197c29",
+    "identicalToLocal": false,
+    "retainedAt": "firefox-1440-two-worlds-catalogue.png"
+  },
+  {
+    "path": "firefox-375-inhabitant-catalogue.png",
+    "sha256": "080f448f0f8275e176d23ac2582d2196f8dbeb90d0447a35f556eb14a11c48fe",
+    "identicalToLocal": false,
+    "retainedAt": "firefox-375-inhabitant-catalogue.png"
+  },
+  {
+    "path": "firefox-375-two-worlds-catalogue.png",
+    "sha256": "d1a8c72a4924b539499ca233642fd229822d3faa11435d8dc2f67d050eb1d9cd",
+    "identicalToLocal": true,
+    "retainedAt": "../horos-local/firefox-375-two-worlds-catalogue.png"
+  }
+]

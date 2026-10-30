@@ -1,15 +1,22 @@
 {
-  "date": "2026-10-30T01:22:03.909085+00:00",
-  "sourceCommit": "532c1838effdb1215914ec1c940c9d32abf5abdd",
+  "date": "2026-10-30T01:33:38.589084+00:00",
+  "sourceCommit": "be99a41e0cca261ed8e03836f7a10fcb1b58d0c7",
   "node": "v24.22.1",
   "commands": [
     "npm ci",
-    "npm run build",
-    "npm run lint",
-    "npm run format:check",
-    "npm test"
+    "npm run build"
   ],
   "matchesWorkingBuild": true,
+  "codeChecks": {
+    "sourceCommit": "532c1838effdb1215914ec1c940c9d32abf5abdd",
+    "commands": [
+      "npm run lint",
+      "npm run format:check",
+      "npm test"
+    ],
+    "testsPassed": 45,
+    "subsequentChanges": "Catalogue preview metadata and image only; catalogue validation and typecheck repeat in the final build."
+  },
   "files": [
     {
       "path": "FONT-LICENSE.txt",
@@ -123,8 +130,8 @@
     },
     {
       "path": "projects.json",
-      "bytes": 63316,
-      "sha256": "a902f8983ccbb17aad8b27b64b59f1aebcf820fdd48122e2859db115a5b26fca"
+      "bytes": 63327,
+      "sha256": "1fa0bf038f5f7dc2b1f20f253399ddf12c4f59bf623a83c758a8413a4a22070e"
     },
     {
       "path": "thumbs/ATTRIBUTION.txt",
@@ -235,6 +242,11 @@
       "path": "thumbs/horologium.webp",
       "bytes": 40948,
       "sha256": "98a65c11675733f82012623c1a56d4b7d186b34a29fecf53e62b46ef55c35c0e"
+    },
+    {
+      "path": "thumbs/horos-inhabitant.png",
+      "bytes": 144814,
+      "sha256": "fa20cf0a91a6066dc3c3248df389ba835a9dbf7ebaa9bf70f67b63c7c885f518"
     },
     {
       "path": "thumbs/horos.png",
@@ -446,6 +458,5 @@
       "bytes": 87693,
       "sha256": "da9a20d6d84c1ba1bcbdb2f84973545e2209cffc6bfed619358b9c554243f52f"
     }
-  ],
-  "testsPassed": 45
+  ]
 }

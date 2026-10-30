@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-30T01:40:03.170108+00:00",
+  "buildSource": "be99a41e0cca261ed8e03836f7a10fcb1b58d0c7",
+  "deploymentCommit": "73142bd3efdf73cb07665094c15077f8b6855338",
+  "pages": {
+    "html_url": "https://antonsoo.github.io/officina/",
+    "build_type": "legacy",
+    "source": {
+      "branch": "gh-pages",
+      "path": "/"
+    },
+    "status": null
+  },
+  "actionsRunListing": [],
+  "scope": "Pages configuration and empty Actions listing are observations, not passing-check evidence. The two canonical byte inventories and eight public journeys establish delivered behavior separately."
+}
