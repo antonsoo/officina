@@ -88,3 +88,5 @@ those destinations to be available separately.
 [Redesign and publication review](docs/redesign-review.md) ·
 [Earlier catalogue guide and study links](docs/archive/catalogue-guide-2026-10-29.md) ·
 [Contributing](CONTRIBUTING.md)
+
+[Temple-plan assumptions and 34/38-column discovery review](docs/embater-plans-review.md).

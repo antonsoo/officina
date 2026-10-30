@@ -1,7 +1,7 @@
 [
   {
     "name": "embater",
-    "description": "Count columns or the spaces between them; compare Vitruvius with 31 temple records and save the illustrated reading. Also explore the orders, temple plans and architectural vocabulary.",
+    "description": "Compare Vitruvius with temple records, then vary what his plan descriptions leave open. Inspect the Latin, room proportions and competing 34/38-column readings; save the illustrated evidence.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/embater",
     "demoUrl": "https://antonsoo.github.io/embater/compare.html",
@@ -52,6 +52,25 @@
         ],
         "summary": "Choose which noun to double, compare 31 temple records, and save a source-backed illustrated reading. Two uncertain restorations can be included in the tally.",
         "thumbnail": "thumbs/embater-count.png"
+      },
+      {
+        "id": "plans",
+        "title": "34 or 38 columns? Read the assumptions",
+        "url": "https://antonsoo.github.io/embater/plans.html#type=dipteral&clear=2&flank=17",
+        "reviewUrl": "https://github.com/antonsoo/embater/blob/2c49ccf3ccc80dc08e53cd38e9858bc11f6433e8/docs/plan-audit.md#try-the-actual-work",
+        "searchTerms": [
+          "amphiprostyle",
+          "ἀμφιπρόστυλος",
+          "δίπτερος",
+          "xxxiv xxxviii",
+          "Hermogenes",
+          "Philander",
+          "Vitruvian plans",
+          "cella proportions",
+          "in postico"
+        ],
+        "summary": "Change the assumed rectangle and the inner count changes from 34 to 38. Preserve the cella while adding rear columns; inspect seven printed pages and take the selected plan away with its sources.",
+        "thumbnail": "thumbs/embater-plans.png"
       }
     ]
   },

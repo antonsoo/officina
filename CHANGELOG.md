@@ -1,5 +1,8 @@
 # Changelog
 
+- Added Embater’s source-backed plan investigation, Greek/Latin discovery terms,
+  actual public preview and pinned 34/38-column exercise.
+
 All notable changes to this project are documented in this file.
 
 ## Unreleased
