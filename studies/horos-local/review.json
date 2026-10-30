@@ -1,0 +1,305 @@
+{
+  "date": "2026-10-30T01:01:57.929Z",
+  "catalogue": "http://127.0.0.1:4395/officina/",
+  "publicCatalogue": false,
+  "publicLessonAndReview": true,
+  "requestRedirection": false,
+  "records": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "query": "λίθος",
+      "aliases": [
+        "horse and stone",
+        "ὅροι",
+        "Analytica priora"
+      ],
+      "sharedSearch": "http://127.0.0.1:4395/officina/?q=%CE%BB%CE%AF%CE%B8%CE%BF%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": "https://github.com/antonsoo/horos/blob/987e6f1fe3b2cb9852d9385ed6866c6a8d4fde59/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "3a01c881536d3e9a0103be9a88758f06953c1df0aee2035f7393a37cff845c18",
+      "displayedSourceSha256": "13ce538bb4c850041e77f3672fe7228587a90cfbc1497c49190bd28f9e4d6048",
+      "nativeNotebook": {
+        "format": "horos",
+        "version": 1,
+        "current": {
+          "lesson": "two-worlds",
+          "kind": "all",
+          "existence": 7,
+          "world": 27
+        },
+        "pinned": {
+          "lesson": "two-worlds",
+          "kind": "all",
+          "existence": 7,
+          "world": 40
+        },
+        "note": "The C outside A defeats the universal while both premises survive.",
+        "citations": [
+          "two-worlds"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "query": "ἔκθεσις",
+      "aliases": [
+        "ekthesis",
+        "ἂν ληφθῇ",
+        "existential import"
+      ],
+      "sharedSearch": "http://127.0.0.1:4395/officina/?q=%E1%BC%94%CE%BA%CE%B8%CE%B5%CF%83%CE%B9%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/horos/?investigation=inhabitant#workshop",
+      "review": "https://github.com/antonsoo/horos/blob/987e6f1fe3b2cb9852d9385ed6866c6a8d4fde59/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "3a01c881536d3e9a0103be9a88758f06953c1df0aee2035f7393a37cff845c18",
+      "displayedSourceSha256": "a93760f9e0f3bc05114cc6e50e2e6dbd6b04d325baba2241cf0f2bd6801f4c9b",
+      "nativeNotebook": {
+        "format": "horos",
+        "version": 1,
+        "current": {
+          "lesson": "inhabitant",
+          "kind": "some",
+          "existence": 0,
+          "world": 1
+        },
+        "pinned": {
+          "lesson": "inhabitant",
+          "kind": "some",
+          "existence": 4,
+          "world": 128
+        },
+        "note": "Removing the existence assumption admits the outside object; the comparison changes assumptions.",
+        "citations": [
+          "inhabitant"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "query": "λίθος",
+      "aliases": [
+        "horse and stone",
+        "ὅροι",
+        "Analytica priora"
+      ],
+      "sharedSearch": "http://127.0.0.1:4395/officina/?q=%CE%BB%CE%AF%CE%B8%CE%BF%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": "https://github.com/antonsoo/horos/blob/987e6f1fe3b2cb9852d9385ed6866c6a8d4fde59/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "3a01c881536d3e9a0103be9a88758f06953c1df0aee2035f7393a37cff845c18",
+      "displayedSourceSha256": "13ce538bb4c850041e77f3672fe7228587a90cfbc1497c49190bd28f9e4d6048",
+      "nativeNotebook": {
+        "format": "horos",
+        "version": 1,
+        "current": {
+          "lesson": "two-worlds",
+          "kind": "all",
+          "existence": 7,
+          "world": 27
+        },
+        "pinned": {
+          "lesson": "two-worlds",
+          "kind": "all",
+          "existence": 7,
+          "world": 40
+        },
+        "note": "The C outside A defeats the universal while both premises survive.",
+        "citations": [
+          "two-worlds"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "query": "ἔκθεσις",
+      "aliases": [
+        "ekthesis",
+        "ἂν ληφθῇ",
+        "existential import"
+      ],
+      "sharedSearch": "http://127.0.0.1:4395/officina/?q=%E1%BC%94%CE%BA%CE%B8%CE%B5%CF%83%CE%B9%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/horos/?investigation=inhabitant#workshop",
+      "review": "https://github.com/antonsoo/horos/blob/987e6f1fe3b2cb9852d9385ed6866c6a8d4fde59/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "3a01c881536d3e9a0103be9a88758f06953c1df0aee2035f7393a37cff845c18",
+      "displayedSourceSha256": "a93760f9e0f3bc05114cc6e50e2e6dbd6b04d325baba2241cf0f2bd6801f4c9b",
+      "nativeNotebook": {
+        "format": "horos",
+        "version": 1,
+        "current": {
+          "lesson": "inhabitant",
+          "kind": "some",
+          "existence": 0,
+          "world": 1
+        },
+        "pinned": {
+          "lesson": "inhabitant",
+          "kind": "some",
+          "existence": 4,
+          "world": 128
+        },
+        "note": "Removing the existence assumption admits the outside object; the comparison changes assumptions.",
+        "citations": [
+          "inhabitant"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "query": "λίθος",
+      "aliases": [
+        "horse and stone",
+        "ὅροι",
+        "Analytica priora"
+      ],
+      "sharedSearch": "http://127.0.0.1:4395/officina/?q=%CE%BB%CE%AF%CE%B8%CE%BF%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": "https://github.com/antonsoo/horos/blob/987e6f1fe3b2cb9852d9385ed6866c6a8d4fde59/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "3a01c881536d3e9a0103be9a88758f06953c1df0aee2035f7393a37cff845c18",
+      "displayedSourceSha256": "13ce538bb4c850041e77f3672fe7228587a90cfbc1497c49190bd28f9e4d6048",
+      "nativeNotebook": {
+        "format": "horos",
+        "version": 1,
+        "current": {
+          "lesson": "two-worlds",
+          "kind": "all",
+          "existence": 7,
+          "world": 27
+        },
+        "pinned": {
+          "lesson": "two-worlds",
+          "kind": "all",
+          "existence": 7,
+          "world": 40
+        },
+        "note": "The C outside A defeats the universal while both premises survive.",
+        "citations": [
+          "two-worlds"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "query": "ἔκθεσις",
+      "aliases": [
+        "ekthesis",
+        "ἂν ληφθῇ",
+        "existential import"
+      ],
+      "sharedSearch": "http://127.0.0.1:4395/officina/?q=%E1%BC%94%CE%BA%CE%B8%CE%B5%CF%83%CE%B9%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/horos/?investigation=inhabitant#workshop",
+      "review": "https://github.com/antonsoo/horos/blob/987e6f1fe3b2cb9852d9385ed6866c6a8d4fde59/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "3a01c881536d3e9a0103be9a88758f06953c1df0aee2035f7393a37cff845c18",
+      "displayedSourceSha256": "a93760f9e0f3bc05114cc6e50e2e6dbd6b04d325baba2241cf0f2bd6801f4c9b",
+      "nativeNotebook": {
+        "format": "horos",
+        "version": 1,
+        "current": {
+          "lesson": "inhabitant",
+          "kind": "some",
+          "existence": 0,
+          "world": 1
+        },
+        "pinned": {
+          "lesson": "inhabitant",
+          "kind": "some",
+          "existence": 4,
+          "world": 128
+        },
+        "note": "Removing the existence assumption admits the outside object; the comparison changes assumptions.",
+        "citations": [
+          "inhabitant"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "query": "λίθος",
+      "aliases": [
+        "horse and stone",
+        "ὅροι",
+        "Analytica priora"
+      ],
+      "sharedSearch": "http://127.0.0.1:4395/officina/?q=%CE%BB%CE%AF%CE%B8%CE%BF%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": "https://github.com/antonsoo/horos/blob/987e6f1fe3b2cb9852d9385ed6866c6a8d4fde59/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "3a01c881536d3e9a0103be9a88758f06953c1df0aee2035f7393a37cff845c18",
+      "displayedSourceSha256": "13ce538bb4c850041e77f3672fe7228587a90cfbc1497c49190bd28f9e4d6048",
+      "nativeNotebook": {
+        "format": "horos",
+        "version": 1,
+        "current": {
+          "lesson": "two-worlds",
+          "kind": "all",
+          "existence": 7,
+          "world": 27
+        },
+        "pinned": {
+          "lesson": "two-worlds",
+          "kind": "all",
+          "existence": 7,
+          "world": 40
+        },
+        "note": "The C outside A defeats the universal while both premises survive.",
+        "citations": [
+          "two-worlds"
+        ]
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "query": "ἔκθεσις",
+      "aliases": [
+        "ekthesis",
+        "ἂν ληφθῇ",
+        "existential import"
+      ],
+      "sharedSearch": "http://127.0.0.1:4395/officina/?q=%E1%BC%94%CE%BA%CE%B8%CE%B5%CF%83%CE%B9%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/horos/?investigation=inhabitant#workshop",
+      "review": "https://github.com/antonsoo/horos/blob/987e6f1fe3b2cb9852d9385ed6866c6a8d4fde59/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "3a01c881536d3e9a0103be9a88758f06953c1df0aee2035f7393a37cff845c18",
+      "displayedSourceSha256": "a93760f9e0f3bc05114cc6e50e2e6dbd6b04d325baba2241cf0f2bd6801f4c9b",
+      "nativeNotebook": {
+        "format": "horos",
+        "version": 1,
+        "current": {
+          "lesson": "inhabitant",
+          "kind": "some",
+          "existence": 0,
+          "world": 1
+        },
+        "pinned": {
+          "lesson": "inhabitant",
+          "kind": "some",
+          "existence": 4,
+          "world": 128
+        },
+        "note": "Removing the existence assumption admits the outside object; the comparison changes assumptions.",
+        "citations": [
+          "inhabitant"
+        ]
+      },
+      "errors": []
+    }
+  ]
+}

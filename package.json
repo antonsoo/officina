@@ -30,7 +30,8 @@
     "test:arch-local": "node scripts/arch-local.mjs",
     "test:areas-local": "node scripts/areas-local.mjs",
     "test:arch-friction": "node scripts/arch-friction.mjs",
-    "test:parabola": "node scripts/parabola.mjs"
+    "test:parabola": "node scripts/parabola.mjs",
+    "test:horos": "node scripts/horos-journeys.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",

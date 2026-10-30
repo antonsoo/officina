@@ -867,6 +867,75 @@
     ]
   },
   {
+    "name": "horos",
+    "description": "Construct Aristotle's horse-and-stone counterexamples, expose an existence assumption, and read the Greek beside complete source pages. Keep both worlds and the reasoning in a portable illustrated notebook.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/horos",
+    "demoUrl": "https://antonsoo.github.io/horos/",
+    "thumbnail": "thumbs/horos.png",
+    "status": "published",
+    "study": {
+      "finding": "A true conclusion can fail to follow. Keep both premises true, move the witness, and see exactly where a counterexample can live.",
+      "url": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work"
+    },
+    "searchTerms": [
+      "Aristotle",
+      "Prior Analytics",
+      "Analytica priora",
+      "Ἀναλυτικὰ πρότερα",
+      "ὅρος",
+      "syllogism",
+      "counterexample",
+      "ekthesis",
+      "ἔκθεσις",
+      "conversion",
+      "existential import",
+      "horse and stone",
+      "Greek Latin philosophy"
+    ],
+    "workshops": [
+      {
+        "id": "two-worlds",
+        "title": "Aristotle's horse and stone: build a counterexample",
+        "url": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+        "reviewUrl": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "searchTerms": [
+          "Aristotle",
+          "horse and stone",
+          "counterexample",
+          "syllogism",
+          "Prior Analytics",
+          "ὅροι",
+          "λίθος",
+          "Analytica priora",
+          "Greek Latin philosophy"
+        ],
+        "summary": "Preserve the two premises while changing the conclusion. Compare worlds, inspect which regions remain available to a witness, read the Greek, and save the illustrated reasoning.",
+        "thumbnail": "thumbs/horos.png"
+      },
+      {
+        "id": "inhabitant",
+        "title": "Take one of the Cs: where does the witness come from?",
+        "url": "https://antonsoo.github.io/horos/?investigation=inhabitant#workshop",
+        "reviewUrl": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "searchTerms": [
+          "Aristotle",
+          "ekthesis",
+          "ἔκθεσις",
+          "τῷ ἐκθέσθαι",
+          "ἂν ληφθῇ",
+          "existential import",
+          "empty class",
+          "inhabitant",
+          "take one instance",
+          "Prior Analytics I.6"
+        ],
+        "summary": "Remove the shared instance, then change the existence assumption. Follow the blocked witness requirement and compare this modern empty-class model with Aristotle’s instance-taking passage.",
+        "thumbnail": "thumbs/horos.png"
+      }
+    ]
+  },
+  {
     "name": "stoicheia",
     "description": "Double a polygon’s sides, then change one root estimate: does Archimedes’ circle bound still have a proof? Read the Greek and Latin, inspect ten original pages and save the complete illustrated argument.",
     "group": "Ancient world",

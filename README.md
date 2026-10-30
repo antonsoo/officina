@@ -83,6 +83,7 @@ There is no analytics or third-party asset request. The catalogue remains
 filterable without a connection once loaded; links to other projects require
 those destinations to be available separately.
 
+[Aristotle discovery journeys](docs/horos-review.md) ·
 [Redesign and publication review](docs/redesign-review.md) ·
 [Earlier catalogue guide and study links](docs/archive/catalogue-guide-2026-10-29.md) ·
 [Contributing](CONTRIBUTING.md)

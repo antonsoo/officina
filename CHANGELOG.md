@@ -16,6 +16,10 @@ All notable changes to this project are documented in this file.
 
 ### Added
 
+- Find Horos through Aristotle's horse-and-stone example or Greek instance-taking
+  terms; follow a direct investigation, inspect its witnesses and original scan,
+  and save a notebook with a commit-pinned audit.
+
 - Read a matching workshop’s own activity summary and actual preview in a wider
   result. Clear restores the project overview, and project links are labeled
   separately from the matched workshop.
