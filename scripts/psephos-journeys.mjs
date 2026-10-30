@@ -12,6 +12,27 @@ await mkdir(output, { recursive: true });
 const repo = fileURLToPath(new URL("../../psephos", import.meta.url));
 const manifest = JSON.parse(await readFile(resolve(repo, "src/asset-manifest.json"), "utf8"));
 const sha = (b) => createHash("sha256").update(b).digest("hex");
+const canonicalFiles = await Promise.all(
+  [
+    ...["index.html", "projects.json", "thumbs/psephos-casting.png", "thumbs/psephos-inference.png"].map(
+      (path) => ({
+        url: new URL(path === "index.html" ? "" : path, catalogue).href,
+        file: resolve("dist", path),
+      }),
+    ),
+    { url: "https://antonsoo.github.io/psephos/", file: resolve(repo, "dist/index.html") },
+  ].map(async (item) => ({ url: item.url, bytes: await readFile(item.file) })),
+);
+async function canonical() {
+  await Promise.all(
+    canonicalFiles.map(async (item) => {
+      const response = await fetch(item.url, { cache: "no-store" });
+      assert.equal(response.status, 200, item.url);
+      assert.deepEqual(Buffer.from(await response.arrayBuffer()), item.bytes, item.url);
+    }),
+  );
+}
+await canonical();
 const records = [];
 const cases = [
   {
@@ -162,6 +183,7 @@ for (const [name, engine] of [
           errors,
         });
         await context.close();
+        await canonical();
         console.log(
           `${name}/${width}: ${investigation.query} -> ${investigation.id} -> source, native record, pinned review`,
         );
@@ -170,6 +192,7 @@ for (const [name, engine] of [
     await browser.close();
   }
 }
+await canonical();
 await writeFile(
   resolve(output, "review.json"),
   JSON.stringify(
@@ -179,6 +202,12 @@ await writeFile(
       publicCatalogue: new URL(catalogue).hostname === "antonsoo.github.io",
       publicLessonAndReview: true,
       requestRedirection: false,
+      canonicalRecheckedAfterEveryJourney: true,
+      canonicalFiles: canonicalFiles.map((item) => ({
+        url: item.url,
+        bytes: item.bytes.length,
+        sha256: sha(item.bytes),
+      })),
       records,
     },
     null,

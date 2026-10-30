@@ -50,3 +50,26 @@ Node 24.22.2: install, lint, formatting, strict types, 45 existing checks and th
 production build pass. The complete output is byte-identical to the reviewed
 working build; its inventory digest can be compared with the public-file
 verification receipt after deployment.
+
+
+## Public edition
+
+The [public file receipt](psephos/public-files.json) verifies **all 93 files**
+against that clean build inventory. All 35 previous catalogue entries are
+unchanged. Only `projects.json` and two new screenshot thumbnails changed in
+the served branch; its existing history was preserved.
+
+The [public journey receipt](psephos/public-journeys.json) repeats all eight
+continuous journeys from `https://antonsoo.github.io/officina/` into the public
+Psephos lessons and immutable review. It uses no request redirection. Every
+journey rechecks the canonical catalogue entry, catalogue data, both new
+thumbnails and the Psephos entry against the reviewed bytes. Native downloads
+preserve the expected explanation, citation and observer assumptions. All
+sixteen public screenshots were visually inspected; retained examples show
+[desktop](psephos/catalogue-1440.png) and [375px](psephos/catalogue-375.png).
+
+The [publication boundary](psephos/publication.json) records branch-based Pages
+configuration separately. The latest-build API returned HTTP 404 and the Actions
+query supplied no runs. No remote source-CI or deployment-workflow success is
+claimed from those unavailable results. Canonical hosted bytes and the actual
+public browser journeys are independently verified.

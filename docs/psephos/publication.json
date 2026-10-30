@@ -1,0 +1,12 @@
+{
+  "catalogueSourceCommit": "5902eb448c6853b51eba9f8537d339fc48ed8bd0",
+  "deploymentCommit": "5d337993d08a2530b36dcabd6b035c259f55348e",
+  "deploymentParent": "10f8f1d3cdcec324c748a0a00a11c075eb2e0c28",
+  "sourceReviewPin": "2deaf7db790c343b8a6fbfedb6f88ee2755a04e1",
+  "priorCatalogueEntriesUnchanged": 35,
+  "publicFileCount": 93,
+  "publicBrowserJourneys": 8,
+  "pagesBuildType": "legacy",
+  "pagesLatestBuildHttpStatus": 404,
+  "availableActionRuns": []
+}
