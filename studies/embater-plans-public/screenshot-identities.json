@@ -1,0 +1,17 @@
+[
+  {
+    "publicCapture": "chromium-1440-catalogue.png",
+    "identicalLocalCapture": "../embater-plans-local/chromium-1440-catalogue.png",
+    "sha256": "f37bdc4be4e3652912fc437c8faf08a67589e2fe82f7aae8a02db09a2d4c5d14"
+  },
+  {
+    "publicCapture": "firefox-375-catalogue.png",
+    "identicalLocalCapture": "../embater-plans-local/firefox-375-catalogue.png",
+    "sha256": "c62d0d8c08f27000be12b51b25c33d4c8e1a76c314a5b423b1e1a0ff420900e2"
+  },
+  {
+    "publicCapture": "chromium-375-catalogue.png",
+    "identicalLocalCapture": "../embater-plans-local/chromium-375-catalogue.png",
+    "sha256": "4ca657c661ccead7fe89a2ad41bdac1536c4791182f623d96cf1ba2321c3810b"
+  }
+]

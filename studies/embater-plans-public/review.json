@@ -1,0 +1,85 @@
+{
+  "base": "https://antonsoo.github.io/officina/",
+  "rows": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "terms": [
+        "amphiprostyle",
+        "ἀμφιπρόστυλος",
+        "δίπτερος",
+        "xxxiv xxxviii",
+        "in postico"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CE%B4%CE%AF%CF%80%CF%84%CE%B5%CF%81%CE%BF%CF%82#catalogue",
+      "destination": "https://antonsoo.github.io/embater/plans.html#type=dipteral&clear=2&flank=17",
+      "review": "https://github.com/antonsoo/embater/blob/2c49ccf3ccc80dc08e53cd38e9858bc11f6433e8/docs/plan-audit.md#try-the-actual-work",
+      "reviewSha256": "057a4c3f0eaa90253a05513023466b3a90e4c408a84dfb4d2bf60cd28327a418",
+      "sourceHash": "a7a7abd83e8ad3c98b62a7c843efdfbbef3d88ac8a3110a53999573afc74c060",
+      "sourceLoadMs": 803,
+      "htmlHash": "d5bd6b1006ff79ad419989c5b3e34fbb8df76decbc804cc433b2d3e8898aef4b",
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "terms": [
+        "amphiprostyle",
+        "ἀμφιπρόστυλος",
+        "δίπτερος",
+        "xxxiv xxxviii",
+        "in postico"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CE%B4%CE%AF%CF%80%CF%84%CE%B5%CF%81%CE%BF%CF%82#catalogue",
+      "destination": "https://antonsoo.github.io/embater/plans.html#type=dipteral&clear=2&flank=17",
+      "review": "https://github.com/antonsoo/embater/blob/2c49ccf3ccc80dc08e53cd38e9858bc11f6433e8/docs/plan-audit.md#try-the-actual-work",
+      "reviewSha256": "057a4c3f0eaa90253a05513023466b3a90e4c408a84dfb4d2bf60cd28327a418",
+      "sourceHash": "a7a7abd83e8ad3c98b62a7c843efdfbbef3d88ac8a3110a53999573afc74c060",
+      "sourceLoadMs": 196,
+      "htmlHash": "d5bd6b1006ff79ad419989c5b3e34fbb8df76decbc804cc433b2d3e8898aef4b",
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "terms": [
+        "amphiprostyle",
+        "ἀμφιπρόστυλος",
+        "δίπτερος",
+        "xxxiv xxxviii",
+        "in postico"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CE%B4%CE%AF%CF%80%CF%84%CE%B5%CF%81%CE%BF%CF%82#catalogue",
+      "destination": "https://antonsoo.github.io/embater/plans.html#type=dipteral&clear=2&flank=17",
+      "review": "https://github.com/antonsoo/embater/blob/2c49ccf3ccc80dc08e53cd38e9858bc11f6433e8/docs/plan-audit.md#try-the-actual-work",
+      "reviewSha256": "057a4c3f0eaa90253a05513023466b3a90e4c408a84dfb4d2bf60cd28327a418",
+      "sourceHash": "a7a7abd83e8ad3c98b62a7c843efdfbbef3d88ac8a3110a53999573afc74c060",
+      "sourceLoadMs": 352,
+      "htmlHash": "d5bd6b1006ff79ad419989c5b3e34fbb8df76decbc804cc433b2d3e8898aef4b",
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "terms": [
+        "amphiprostyle",
+        "ἀμφιπρόστυλος",
+        "δίπτερος",
+        "xxxiv xxxviii",
+        "in postico"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CE%B4%CE%AF%CF%80%CF%84%CE%B5%CF%81%CE%BF%CF%82#catalogue",
+      "destination": "https://antonsoo.github.io/embater/plans.html#type=dipteral&clear=2&flank=17",
+      "review": "https://github.com/antonsoo/embater/blob/2c49ccf3ccc80dc08e53cd38e9858bc11f6433e8/docs/plan-audit.md#try-the-actual-work",
+      "reviewSha256": "057a4c3f0eaa90253a05513023466b3a90e4c408a84dfb4d2bf60cd28327a418",
+      "sourceHash": "a7a7abd83e8ad3c98b62a7c843efdfbbef3d88ac8a3110a53999573afc74c060",
+      "sourceLoadMs": 820,
+      "htmlHash": "d5bd6b1006ff79ad419989c5b3e34fbb8df76decbc804cc433b2d3e8898aef4b",
+      "errors": []
+    }
+  ]
+}
