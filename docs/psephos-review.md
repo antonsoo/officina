@@ -73,3 +73,14 @@ configuration separately. The latest-build API returned HTTP 404 and the Actions
 query supplied no runs. No remote source-CI or deployment-workflow success is
 claimed from those unavailable results. Canonical hosted bytes and the actual
 public browser journeys are independently verified.
+
+
+## Shared-storage follow-up
+
+A subsequent two-tab audit found that a source failure discovered by a direct
+cached read notified only its own page. Psephos now broadcasts both discovered
+damage and fully verified recovery, without repeated notification loops. The
+[follow-up discovery receipt](psephos/followup-journeys.json) repeats all eight
+public catalogue journeys against that updated edition. The complete
+[cross-edition audit](offline-readiness-review.md) links immutable reviews and
+separates public transport tests from source CI.
