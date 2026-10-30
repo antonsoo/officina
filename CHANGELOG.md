@@ -1,5 +1,7 @@
 # Changelog
 
+- Add source-word discovery for Traditio’s formal conveyances: witnesses, balance holder, silence and the magistrate’s award, with an actual public thumbnail and pinned source review.
+
 - Added Embater’s source-backed plan investigation, Greek/Latin discovery terms,
   actual public preview and pinned 34/38-column exercise.
 

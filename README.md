@@ -90,3 +90,5 @@ those destinations to be available separately.
 [Contributing](CONTRIBUTING.md)
 
 [Temple-plan assumptions and 34/38-column discovery review](docs/embater-plans-review.md).
+
+The [Traditio ceremony discovery review](docs/traditio-ceremony-review.md) follows Latin source phrases into the actual formal-conveyance lesson and its portable record.

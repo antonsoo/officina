@@ -901,6 +901,27 @@
         ],
         "summary": "Submit a case that defeats an overbroad claim, distinguish false premises, cite Gaius's Latin, and keep the fixed submission with your explanation and complete sources.",
         "thumbnail": "thumbs/traditio-argument.png"
+      },
+      {
+        "id": "ceremony",
+        "title": "Five witnesses, and another person",
+        "url": "https://antonsoo.github.io/traditio/ceremony.html",
+        "reviewUrl": "https://github.com/antonsoo/traditio/blob/6d7fa829d2579a20e4776f59a59907070b34c16e/docs/ceremony-audit.md#try-the-actual-work",
+        "searchTerms": [
+          "mancipatio",
+          "libripens",
+          "praeterea alio",
+          "negante aut tacente",
+          "in iure cessio",
+          "Gaius ceremony",
+          "Roman legal formality",
+          "bronze and balance",
+          "five witnesses",
+          "magistrate",
+          "counterclaim"
+        ],
+        "summary": "Arrange the witnesses, rehearse the acquirer’s acts, then try the magistrate’s question, the owner’s silence and the award. Read the Latin and keep every attempt with its complete source pages.",
+        "thumbnail": "thumbs/traditio-ceremony.png"
       }
     ]
   },
