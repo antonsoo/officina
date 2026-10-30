@@ -22,4 +22,27 @@ The local catalogue-to-public-lesson journey passed in Chromium and Firefox at
 
 - [Local discovery journeys](../studies/traditio-ceremony-local/review.json)
 
-Public catalogue evidence is recorded below after publication.
+The clean Node 24.22.1 build from `00798bbcb908f61cb2274a6c4ae24d0a120e0675`
+contains 91 canonical files, identical to the working build. Deployment
+`10f8f1d3cdcec324c748a0a00a11c075eb2e0c28` serves those bytes. The complete
+canonical inventory and root aliases matched before and after the four public
+catalogue journeys. All four reached the pinned review, operated the actual
+lesson, verified the page-134 image and downloaded the identical rehearsal.
+
+The thumbnail was independently fetched from Traditio's public Git blob at
+`4222fed51ceb6d0dea91dea11eef33518054b8fe` and from this public catalogue.
+Both equal the 143,012-byte captured image, SHA-256
+`43d1bd2e817f9ac0be25d34c8b9631607e45891a721b2765c7951a8677d59665`.
+Byte-identical public screenshots reuse the retained local captures; distinct
+images remain in the public directory.
+
+Pages reports legacy publication from `gh-pages`. No Actions runs for the generated
+catalogue deployment were returned in the recorded query. This is not a CI-success
+claim; build, public bytes and actual browser operation are separate receipts.
+
+- [Clean build](../studies/traditio-ceremony-local/clean-build.json)
+- [Public discovery journeys](../studies/traditio-ceremony-public/review.json)
+- [Bytes before](../studies/traditio-ceremony-public/bytes-before.json) and [after](../studies/traditio-ceremony-public/bytes-after.json)
+- [Independent thumbnail identity](../studies/traditio-ceremony-public/thumbnail.json)
+- [Screenshot identities](../studies/traditio-ceremony-public/screenshot-identities.json)
+- [Publication state](../studies/traditio-ceremony-public/publication-state.json)

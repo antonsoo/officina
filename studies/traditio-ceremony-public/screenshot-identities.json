@@ -1,0 +1,17 @@
+[
+  {
+    "publicCapture": "chromium-1440-catalogue.png",
+    "identicalLocalCapture": "../traditio-ceremony-local/chromium-1440-catalogue.png",
+    "sha256": "fcb9c818b20a34d64a4aab81849bd252cbfc27a0eb0714fb0f412d694dfdeba2"
+  },
+  {
+    "publicCapture": "firefox-375-catalogue.png",
+    "identicalLocalCapture": "../traditio-ceremony-local/firefox-375-catalogue.png",
+    "sha256": "8d199ed53f6ee06b8d88ed1cfce0ad0d30318dce6a346d3ed62b661af235c5e4"
+  },
+  {
+    "publicCapture": "chromium-375-catalogue.png",
+    "identicalLocalCapture": "../traditio-ceremony-local/chromium-375-catalogue.png",
+    "sha256": "1c041bfb348d0e6c7a80a16022a42763136c866289093003878b820072c6a7e7"
+  }
+]

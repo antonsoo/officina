@@ -1,0 +1,22 @@
+{
+  "observedAt": "2026-10-30T04:56:19.213304+00:00",
+  "runtimeSource": "00798bbcb908f61cb2274a6c4ae24d0a120e0675",
+  "deployment": "10f8f1d3cdcec324c748a0a00a11c075eb2e0c28",
+  "pages": {
+    "url": "https://api.github.com/repos/antonsoo/officina/pages",
+    "status": null,
+    "cname": null,
+    "custom_404": false,
+    "html_url": "https://antonsoo.github.io/officina/",
+    "build_type": "legacy",
+    "source": {
+      "branch": "gh-pages",
+      "path": "/"
+    },
+    "public": true,
+    "protected_domain_state": null,
+    "pending_domain_unverified_at": null,
+    "https_enforced": true
+  },
+  "runs": []
+}

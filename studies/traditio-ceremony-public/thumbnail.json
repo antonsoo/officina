@@ -1,0 +1,12 @@
+{
+  "observedAt": "2026-10-30T04:54:00.085235+00:00",
+  "source": "4222fed51ceb6d0dea91dea11eef33518054b8fe",
+  "url": "https://raw.githubusercontent.com/antonsoo/traditio/4222fed51ceb6d0dea91dea11eef33518054b8fe/docs/ceremony-review/public/entry.png",
+  "bytes": 143012,
+  "sha256": "43d1bd2e817f9ac0be25d34c8b9631607e45891a721b2765c7951a8677d59665",
+  "identicalToCatalogueThumbnail": true,
+  "catalogueURL": "https://antonsoo.github.io/officina/thumbs/traditio-ceremony.png",
+  "catalogueBytes": 143012,
+  "catalogueSha256": "43d1bd2e817f9ac0be25d34c8b9631607e45891a721b2765c7951a8677d59665",
+  "catalogueMatchesPinnedPublicCapture": true
+}
