@@ -1,5 +1,72 @@
 [
   {
+    "name": "psephos",
+    "description": "Cast a concealed Athenian jury vote, audit which urn counts, and test what the published total can reveal. Read the Greek beside full printed pages and save the illustrated evidence.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/psephos",
+    "demoUrl": "https://antonsoo.github.io/psephos/",
+    "thumbnail": "thumbs/psephos-casting.png",
+    "status": "published",
+    "study": {
+      "finding": "Five/five permits 252 assignments when no individual choices are known. Knowing the five pierced choices forces the remaining five solid.",
+      "url": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work"
+    },
+    "searchTerms": [
+      "ψῆφος",
+      "Athenaion Politeia",
+      "Constitution of the Athenians",
+      "Athens",
+      "ancient law",
+      "Aristotle",
+      "Kenyon",
+      "juror",
+      "bronze ballot",
+      "concealed vote",
+      "legal Greek"
+    ],
+    "workshops": [
+      {
+        "id": "casting",
+        "title": "Two ballots. One unseen vote.",
+        "url": "https://antonsoo.github.io/psephos/#workbench",
+        "reviewUrl": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work",
+        "searchTerms": [
+          "πιέζων",
+          "κύριος",
+          "authoritative urn",
+          "ἂν δὲ ἴσαι",
+          "pierced axle",
+          "solid axle",
+          "unused ballot",
+          "defendant",
+          "equal votes",
+          "two urns"
+        ],
+        "summary": "Cover the ends, pin the view and change the private choice. Cast the last vote, count bronze, then test how a replacement preserves the total while changing the result. Read the Greek tie clause.",
+        "thumbnail": "thumbs/psephos-casting.png"
+      },
+      {
+        "id": "inference",
+        "title": "What can the count reveal?",
+        "url": "https://antonsoo.github.io/psephos/#inference",
+        "reviewUrl": "https://github.com/antonsoo/psephos/blob/2deaf7db790c343b8a6fbfedb6f88ee2755a04e1/docs/audit.md#try-the-actual-work",
+        "searchTerms": [
+          "εὐαρίθμητοι",
+          "known votes",
+          "252 arrangements",
+          "unanimity",
+          "hidden choice",
+          "compatible assignments",
+          "observer knowledge",
+          "ballot secrecy",
+          "five known choices"
+        ],
+        "summary": "Keep the public count fixed while changing what an observer is assumed to know. Compare arrangements with opposite target votes; discover why five known choices can suffice, and unanimity needs none.",
+        "thumbnail": "thumbs/psephos-inference.png"
+      }
+    ]
+  },
+  {
     "name": "embater",
     "description": "Compare Vitruvius with temple records, then vary what his plan descriptions leave open. Inspect the Latin, room proportions and competing 34/38-column readings; save the illustrated evidence.",
     "group": "Ancient world",
