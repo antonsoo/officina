@@ -32,7 +32,8 @@
     "test:arch-friction": "node scripts/arch-friction.mjs",
     "test:parabola": "node scripts/parabola.mjs",
     "test:horos": "node scripts/horos-journeys.mjs",
-    "test:psephos": "node scripts/psephos-journeys.mjs"
+    "test:psephos": "node scripts/psephos-journeys.mjs",
+    "test:readiness-public": "node scripts/readiness-public.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
