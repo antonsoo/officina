@@ -1,0 +1,23 @@
+{
+  "reviewedSource": "2d7d5027ce05ccef4d69bdf804b92dadcc85fce6",
+  "initialPublishedSource": "fbf971137f855c4e3fa6a6972ad5aa046b8d11dc",
+  "pagesCommit": "aa4ebe356ef6fa3605ff722859898353830bf337",
+  "previousPagesCommit": "f7c2a4d2845c721e41dce60f07041ac39f32091a",
+  "cleanBuildFiles": 100,
+  "preservedPreviousFiles": 97,
+  "changedPreviousFiles": [
+    "projects.json"
+  ],
+  "newFiles": [
+    "thumbs/psephos-allotment.png",
+    "thumbs/psephos-attendance.png"
+  ],
+  "removedFiles": [],
+  "registryRelease": false,
+  "nativePagesBuild": {
+    "available": false,
+    "status": 404
+  },
+  "recentWorkflowRuns": [],
+  "remoteCISuccessClaimed": false
+}

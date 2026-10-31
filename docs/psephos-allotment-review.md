@@ -81,3 +81,28 @@ accessibility. Clean installation passed lint, strict types, formatting,
 45 semantic checks and the catalogue/build validation of all 38 project records.
 These local results do not assert remote CI success. Deployment and workflow
 metadata are retained in [publication.json](../studies/psephos-allotment/publication.json).
+
+## Public result
+
+The two new routes passed all eight continuous public journeys. The existing
+casting and inference routes passed eight additional public journeys, retained
+in [existing-public.json](../studies/psephos-allotment/existing-public.json).
+All screenshots from both engines were visually inspected.
+
+All **100** canonical hosted files match the clean build. The Pages change
+`aa4ebe356ef6fa3605ff722859898353830bf337` preserves all 97 unchanged previous
+files, changes `projects.json` and adds the two actual workshop thumbnails.
+No previous file was removed. Source changes were initially published at
+`fbf971137f855c4e3fa6a6972ad5aa046b8d11dc`; subsequent commits retain these receipts
+and adjust the existing journey's wait for verified offline preparation.
+
+The latest native Pages build API returned 404 and the recent workflow list was
+empty. Those unavailable observations are retained separately from the successful
+canonical-byte and browser evidence. No remote CI success is asserted. No tag or
+registry release was made. The catalogue supports filtering its already loaded
+data offline; the lessons separately verify their own retained offline editions.
+
+- [Public attendance discovery, desktop](../studies/psephos-allotment/public-attendance-1440-catalogue.png).
+- [Public attendance discovery, phone](../studies/psephos-allotment/public-attendance-375-catalogue.png).
+- [Public row-selection discovery, desktop](../studies/psephos-allotment/public-allotment-1440-catalogue.png).
+- [Public row-selection discovery, phone](../studies/psephos-allotment/public-allotment-375-catalogue.png).

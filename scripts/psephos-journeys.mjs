@@ -111,7 +111,9 @@ for (const [name, engine] of [
         await row.locator(".workshop-demo").focus();
         await page.keyboard.press("Enter");
         await expect(page).toHaveURL(destination);
-        await expect(page.locator("#offline-status")).toContainText("This edition is available offline,");
+        await expect(page.locator("#offline-status")).toContainText("This edition is available offline,", {
+          timeout: 45000,
+        });
         await page.locator("#issue").focus();
         await page.keyboard.press("Enter");
         if (investigation.id === "casting") {

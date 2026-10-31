@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-31T21:41:49.156Z",
+  "catalogue": "https://antonsoo.github.io/officina/",
+  "publicCatalogue": true,
+  "publicLessons": true,
+  "canonicalRecheckedAfterEveryJourney": true,
+  "canonicalFiles": [
+    {
+      "url": "https://antonsoo.github.io/officina/",
+      "sha256": "66062664e7150e574352d878ef54f89daeb6d90601e3e046b8bcbbb1559c776b",
+      "bytes": 3058
+    },
+    {
+      "url": "https://antonsoo.github.io/officina/projects.json",
+      "sha256": "2026dd2b161d20f74c3428a6270ad0be16699a56f604b353214b45cc5b10dfa8",
+      "bytes": 78570
+    },
+    {
+      "url": "https://antonsoo.github.io/officina/thumbs/psephos-attendance.png",
+      "sha256": "589045a78a4bb3deab770fa31f335415bed2f5e2e9b9351bbe7e2d9cc536b3b5",
+      "bytes": 292770
+    },
+    {
+      "url": "https://antonsoo.github.io/officina/thumbs/psephos-allotment.png",
+      "sha256": "5aaff063191092a3f9e7d938722ce349a179f2768b1bfdf8bb372fe4fbbf35db",
+      "bytes": 247942
+    },
+    {
+      "url": "https://antonsoo.github.io/psephos/attendance.html",
+      "sha256": "6f11607061ded4629ad59e3c4b2bb8d137921b3efabcac2dcbeb5f4bb641dca7",
+      "bytes": 13144
+    },
+    {
+      "url": "https://antonsoo.github.io/psephos/allotment.html",
+      "sha256": "a610370ff73499f8810bffa664cdcd705efc4692500883666dc8539233a77794",
+      "bytes": 11759
+    }
+  ],
+  "records": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "id": "attendance",
+      "query": "παραπλησίως ἴσοι",
+      "aliases": [
+        "turnout",
+        "weighted patterns",
+        "finite population",
+        "7776"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CF%80%CE%B1%CF%81%CE%B1%CF%80%CE%BB%CE%B7%CF%83%CE%AF%CF%89%CF%82+%E1%BC%B4%CF%83%CE%BF%CE%B9#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/attendance.html#attendance",
+      "review": "https://github.com/antonsoo/psephos/blob/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md#try-the-actual-work",
+      "reviewSha256": "e8450cca8f41fc1cca1c8dc74c50a7e4b71fe6d29df9009fc34ef80aac9101b3",
+      "displayedSourceSha256": "bf3a3cca4bc30b275659b3a1278ad488c93c703789091933f4edffcb496d6a50",
+      "embeddedIdentities": 14,
+      "portableNativeStudyIdentical": true,
+      "offlineRefilterWithoutCatalogueFetch": true,
+      "lazyAssetRequests": [],
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "id": "allotment",
+      "query": "κατὰ πέντε πινάκια εἷς",
+      "aliases": [
+        "kleroterion",
+        "joint chance",
+        "same row",
+        "κύβοι"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CE%BA%CE%B1%CF%84%E1%BD%B0+%CF%80%CE%AD%CE%BD%CF%84%CE%B5+%CF%80%CE%B9%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1+%CE%B5%E1%BC%B7%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/allotment.html#allotment",
+      "review": "https://github.com/antonsoo/psephos/blob/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md#try-the-row-selection-comparison",
+      "reviewSha256": "e8450cca8f41fc1cca1c8dc74c50a7e4b71fe6d29df9009fc34ef80aac9101b3",
+      "displayedSourceSha256": "3447c785188478565385537024b21cff49c4b7488bc3208c4338c793c81dedfc",
+      "embeddedIdentities": 14,
+      "portableNativeStudyIdentical": true,
+      "offlineRefilterWithoutCatalogueFetch": true,
+      "lazyAssetRequests": [
+        {
+          "url": "https://antonsoo.github.io/officina/assets/hanken-grotesk-latin-ext-Dg-wlmqe.woff2",
+          "type": "font"
+        },
+        {
+          "url": "https://antonsoo.github.io/officina/thumbs/grama.png",
+          "type": "image"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "id": "attendance",
+      "query": "παραπλησίως ἴσοι",
+      "aliases": [
+        "turnout",
+        "weighted patterns",
+        "finite population",
+        "7776"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CF%80%CE%B1%CF%81%CE%B1%CF%80%CE%BB%CE%B7%CF%83%CE%AF%CF%89%CF%82+%E1%BC%B4%CF%83%CE%BF%CE%B9#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/attendance.html#attendance",
+      "review": "https://github.com/antonsoo/psephos/blob/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md#try-the-actual-work",
+      "reviewSha256": "e8450cca8f41fc1cca1c8dc74c50a7e4b71fe6d29df9009fc34ef80aac9101b3",
+      "displayedSourceSha256": "bf3a3cca4bc30b275659b3a1278ad488c93c703789091933f4edffcb496d6a50",
+      "embeddedIdentities": 14,
+      "portableNativeStudyIdentical": true,
+      "offlineRefilterWithoutCatalogueFetch": true,
+      "lazyAssetRequests": [],
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "id": "allotment",
+      "query": "κατὰ πέντε πινάκια εἷς",
+      "aliases": [
+        "kleroterion",
+        "joint chance",
+        "same row",
+        "κύβοι"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CE%BA%CE%B1%CF%84%E1%BD%B0+%CF%80%CE%AD%CE%BD%CF%84%CE%B5+%CF%80%CE%B9%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1+%CE%B5%E1%BC%B7%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/allotment.html#allotment",
+      "review": "https://github.com/antonsoo/psephos/blob/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md#try-the-row-selection-comparison",
+      "reviewSha256": "e8450cca8f41fc1cca1c8dc74c50a7e4b71fe6d29df9009fc34ef80aac9101b3",
+      "displayedSourceSha256": "3447c785188478565385537024b21cff49c4b7488bc3208c4338c793c81dedfc",
+      "embeddedIdentities": 14,
+      "portableNativeStudyIdentical": true,
+      "offlineRefilterWithoutCatalogueFetch": true,
+      "lazyAssetRequests": [
+        {
+          "url": "https://antonsoo.github.io/officina/assets/hanken-grotesk-latin-ext-Dg-wlmqe.woff2",
+          "type": "font"
+        },
+        {
+          "url": "https://antonsoo.github.io/officina/thumbs/grama.png",
+          "type": "image"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "id": "attendance",
+      "query": "παραπλησίως ἴσοι",
+      "aliases": [
+        "turnout",
+        "weighted patterns",
+        "finite population",
+        "7776"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CF%80%CE%B1%CF%81%CE%B1%CF%80%CE%BB%CE%B7%CF%83%CE%AF%CF%89%CF%82+%E1%BC%B4%CF%83%CE%BF%CE%B9#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/attendance.html#attendance",
+      "review": "https://github.com/antonsoo/psephos/blob/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md#try-the-actual-work",
+      "reviewSha256": "e8450cca8f41fc1cca1c8dc74c50a7e4b71fe6d29df9009fc34ef80aac9101b3",
+      "displayedSourceSha256": "bf3a3cca4bc30b275659b3a1278ad488c93c703789091933f4edffcb496d6a50",
+      "embeddedIdentities": 14,
+      "portableNativeStudyIdentical": true,
+      "offlineRefilterWithoutCatalogueFetch": true,
+      "lazyAssetRequests": [],
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "id": "allotment",
+      "query": "κατὰ πέντε πινάκια εἷς",
+      "aliases": [
+        "kleroterion",
+        "joint chance",
+        "same row",
+        "κύβοι"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CE%BA%CE%B1%CF%84%E1%BD%B0+%CF%80%CE%AD%CE%BD%CF%84%CE%B5+%CF%80%CE%B9%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1+%CE%B5%E1%BC%B7%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/allotment.html#allotment",
+      "review": "https://github.com/antonsoo/psephos/blob/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md#try-the-row-selection-comparison",
+      "reviewSha256": "e8450cca8f41fc1cca1c8dc74c50a7e4b71fe6d29df9009fc34ef80aac9101b3",
+      "displayedSourceSha256": "3447c785188478565385537024b21cff49c4b7488bc3208c4338c793c81dedfc",
+      "embeddedIdentities": 14,
+      "portableNativeStudyIdentical": true,
+      "offlineRefilterWithoutCatalogueFetch": true,
+      "lazyAssetRequests": [
+        {
+          "url": "https://antonsoo.github.io/officina/thumbs/grama.png",
+          "type": "image"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "id": "attendance",
+      "query": "παραπλησίως ἴσοι",
+      "aliases": [
+        "turnout",
+        "weighted patterns",
+        "finite population",
+        "7776"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CF%80%CE%B1%CF%81%CE%B1%CF%80%CE%BB%CE%B7%CF%83%CE%AF%CF%89%CF%82+%E1%BC%B4%CF%83%CE%BF%CE%B9#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/attendance.html#attendance",
+      "review": "https://github.com/antonsoo/psephos/blob/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md#try-the-actual-work",
+      "reviewSha256": "e8450cca8f41fc1cca1c8dc74c50a7e4b71fe6d29df9009fc34ef80aac9101b3",
+      "displayedSourceSha256": "bf3a3cca4bc30b275659b3a1278ad488c93c703789091933f4edffcb496d6a50",
+      "embeddedIdentities": 14,
+      "portableNativeStudyIdentical": true,
+      "offlineRefilterWithoutCatalogueFetch": true,
+      "lazyAssetRequests": [],
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "id": "allotment",
+      "query": "κατὰ πέντε πινάκια εἷς",
+      "aliases": [
+        "kleroterion",
+        "joint chance",
+        "same row",
+        "κύβοι"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=%CE%BA%CE%B1%CF%84%E1%BD%B0+%CF%80%CE%AD%CE%BD%CF%84%CE%B5+%CF%80%CE%B9%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1+%CE%B5%E1%BC%B7%CF%82#catalogue",
+      "lesson": "https://antonsoo.github.io/psephos/allotment.html#allotment",
+      "review": "https://github.com/antonsoo/psephos/blob/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md#try-the-row-selection-comparison",
+      "reviewSha256": "e8450cca8f41fc1cca1c8dc74c50a7e4b71fe6d29df9009fc34ef80aac9101b3",
+      "displayedSourceSha256": "3447c785188478565385537024b21cff49c4b7488bc3208c4338c793c81dedfc",
+      "embeddedIdentities": 14,
+      "portableNativeStudyIdentical": true,
+      "offlineRefilterWithoutCatalogueFetch": true,
+      "lazyAssetRequests": [],
+      "errors": []
+    }
+  ]
+}
