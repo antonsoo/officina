@@ -1,0 +1,81 @@
+{
+  "base": "http://127.0.0.1:4502/officina/",
+  "rows": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "terms": [
+        "libripens",
+        "praeterea alio",
+        "negante aut tacente",
+        "in iure cessio",
+        "bronze and balance"
+      ],
+      "shared": "http://127.0.0.1:4502/officina/?q=praeterea+alio#catalogue",
+      "destination": "https://antonsoo.github.io/traditio/ceremony.html",
+      "review": "https://github.com/antonsoo/traditio/blob/ec81539b6e3dbd6d8db4a58ac80d57f56b69b915/docs/ceremony-audit.md#try-the-actual-work",
+      "reviewSha256": "eed856a6663d22fc6981e951c6d8a6f12cb6848eb3ca53ffc84385a3cc6ac64e",
+      "sourceHash": "56dcb4c7a8c036c7c6d4c7e22885918d529e33eca4bc8edbb1ed13ede0621c39",
+      "htmlHash": "e9cd6f6fa877a115bea61a8f968ae2372534bad5f6462fa0cd8383a011d2c432",
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "terms": [
+        "libripens",
+        "praeterea alio",
+        "negante aut tacente",
+        "in iure cessio",
+        "bronze and balance"
+      ],
+      "shared": "http://127.0.0.1:4502/officina/?q=praeterea+alio#catalogue",
+      "destination": "https://antonsoo.github.io/traditio/ceremony.html",
+      "review": "https://github.com/antonsoo/traditio/blob/ec81539b6e3dbd6d8db4a58ac80d57f56b69b915/docs/ceremony-audit.md#try-the-actual-work",
+      "reviewSha256": "eed856a6663d22fc6981e951c6d8a6f12cb6848eb3ca53ffc84385a3cc6ac64e",
+      "sourceHash": "56dcb4c7a8c036c7c6d4c7e22885918d529e33eca4bc8edbb1ed13ede0621c39",
+      "htmlHash": "e9cd6f6fa877a115bea61a8f968ae2372534bad5f6462fa0cd8383a011d2c432",
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "terms": [
+        "libripens",
+        "praeterea alio",
+        "negante aut tacente",
+        "in iure cessio",
+        "bronze and balance"
+      ],
+      "shared": "http://127.0.0.1:4502/officina/?q=praeterea+alio#catalogue",
+      "destination": "https://antonsoo.github.io/traditio/ceremony.html",
+      "review": "https://github.com/antonsoo/traditio/blob/ec81539b6e3dbd6d8db4a58ac80d57f56b69b915/docs/ceremony-audit.md#try-the-actual-work",
+      "reviewSha256": "eed856a6663d22fc6981e951c6d8a6f12cb6848eb3ca53ffc84385a3cc6ac64e",
+      "sourceHash": "56dcb4c7a8c036c7c6d4c7e22885918d529e33eca4bc8edbb1ed13ede0621c39",
+      "htmlHash": "e9cd6f6fa877a115bea61a8f968ae2372534bad5f6462fa0cd8383a011d2c432",
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "terms": [
+        "libripens",
+        "praeterea alio",
+        "negante aut tacente",
+        "in iure cessio",
+        "bronze and balance"
+      ],
+      "shared": "http://127.0.0.1:4502/officina/?q=praeterea+alio#catalogue",
+      "destination": "https://antonsoo.github.io/traditio/ceremony.html",
+      "review": "https://github.com/antonsoo/traditio/blob/ec81539b6e3dbd6d8db4a58ac80d57f56b69b915/docs/ceremony-audit.md#try-the-actual-work",
+      "reviewSha256": "eed856a6663d22fc6981e951c6d8a6f12cb6848eb3ca53ffc84385a3cc6ac64e",
+      "sourceHash": "56dcb4c7a8c036c7c6d4c7e22885918d529e33eca4bc8edbb1ed13ede0621c39",
+      "htmlHash": "e9cd6f6fa877a115bea61a8f968ae2372534bad5f6462fa0cd8383a011d2c432",
+      "errors": []
+    }
+  ]
+}

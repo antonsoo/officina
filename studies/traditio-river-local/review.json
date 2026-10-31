@@ -1,0 +1,170 @@
+{
+  "at": "2026-10-31T09:23:39.653Z",
+  "base": "http://127.0.0.1:4502/officina/",
+  "rows": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "terms": [
+        "alluvion",
+        "avulsion",
+        "ex eo tempore",
+        "haec pars tua manet",
+        "radices egerint",
+        "Roman river law"
+      ],
+      "shared": "http://127.0.0.1:4502/officina/?q=ex+eo+tempore#catalogue",
+      "lesson": "https://antonsoo.github.io/traditio/river.html#river-bench",
+      "review": "https://github.com/antonsoo/traditio/blob/885ba4c0274cd09b4079012e060a079185ea4724/docs/river-audit.md#try-the-actual-work",
+      "reviewSha256": "2be963c2b4adfb943ff3ad632fde3441484097d8db8448b1852d6840c70214c3",
+      "displayedSource": "32b3308947bf4996ea237287abe4e6990f5ee306a0a94e13ee5e4e1530c9ccad",
+      "artifacts": {
+        "json": {
+          "bytes": 495,
+          "sha256": "aa7d097e339c2b5213084d8eca90ff3e71d23283489a6bdae7be45804a2bcbd6"
+        },
+        "csv": {
+          "bytes": 2228,
+          "sha256": "0bc51ef789ccd2ab226612687ae40ab754a583d0d1151aefe40f92c3dff0a03d"
+        },
+        "svg": {
+          "bytes": 2770,
+          "sha256": "8a583b826e5732521f94714d712238934cdb58410e0a786444356a58539a8c6c"
+        },
+        "html": {
+          "bytes": 6491600,
+          "sha256": "757f68b13833967e8f981ce3d4bd094edd3f3ac4b7531dc66a79e120370f929d"
+        }
+      },
+      "nativeScriptDisabled": true,
+      "nativeSourceAndFontBytesChecked": true,
+      "nativeLicenseBytesChecked": true,
+      "standaloneRequests": [],
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "terms": [
+        "alluvion",
+        "avulsion",
+        "ex eo tempore",
+        "haec pars tua manet",
+        "radices egerint",
+        "Roman river law"
+      ],
+      "shared": "http://127.0.0.1:4502/officina/?q=ex+eo+tempore#catalogue",
+      "lesson": "https://antonsoo.github.io/traditio/river.html#river-bench",
+      "review": "https://github.com/antonsoo/traditio/blob/885ba4c0274cd09b4079012e060a079185ea4724/docs/river-audit.md#try-the-actual-work",
+      "reviewSha256": "2be963c2b4adfb943ff3ad632fde3441484097d8db8448b1852d6840c70214c3",
+      "displayedSource": "32b3308947bf4996ea237287abe4e6990f5ee306a0a94e13ee5e4e1530c9ccad",
+      "artifacts": {
+        "json": {
+          "bytes": 495,
+          "sha256": "aa7d097e339c2b5213084d8eca90ff3e71d23283489a6bdae7be45804a2bcbd6"
+        },
+        "csv": {
+          "bytes": 2228,
+          "sha256": "0bc51ef789ccd2ab226612687ae40ab754a583d0d1151aefe40f92c3dff0a03d"
+        },
+        "svg": {
+          "bytes": 2770,
+          "sha256": "8a583b826e5732521f94714d712238934cdb58410e0a786444356a58539a8c6c"
+        },
+        "html": {
+          "bytes": 6491600,
+          "sha256": "757f68b13833967e8f981ce3d4bd094edd3f3ac4b7531dc66a79e120370f929d"
+        }
+      },
+      "nativeScriptDisabled": true,
+      "nativeSourceAndFontBytesChecked": true,
+      "nativeLicenseBytesChecked": true,
+      "standaloneRequests": [],
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "terms": [
+        "alluvion",
+        "avulsion",
+        "ex eo tempore",
+        "haec pars tua manet",
+        "radices egerint",
+        "Roman river law"
+      ],
+      "shared": "http://127.0.0.1:4502/officina/?q=ex+eo+tempore#catalogue",
+      "lesson": "https://antonsoo.github.io/traditio/river.html#river-bench",
+      "review": "https://github.com/antonsoo/traditio/blob/885ba4c0274cd09b4079012e060a079185ea4724/docs/river-audit.md#try-the-actual-work",
+      "reviewSha256": "2be963c2b4adfb943ff3ad632fde3441484097d8db8448b1852d6840c70214c3",
+      "displayedSource": "32b3308947bf4996ea237287abe4e6990f5ee306a0a94e13ee5e4e1530c9ccad",
+      "artifacts": {
+        "json": {
+          "bytes": 495,
+          "sha256": "aa7d097e339c2b5213084d8eca90ff3e71d23283489a6bdae7be45804a2bcbd6"
+        },
+        "csv": {
+          "bytes": 2228,
+          "sha256": "0bc51ef789ccd2ab226612687ae40ab754a583d0d1151aefe40f92c3dff0a03d"
+        },
+        "svg": {
+          "bytes": 2770,
+          "sha256": "8a583b826e5732521f94714d712238934cdb58410e0a786444356a58539a8c6c"
+        },
+        "html": {
+          "bytes": 6491600,
+          "sha256": "757f68b13833967e8f981ce3d4bd094edd3f3ac4b7531dc66a79e120370f929d"
+        }
+      },
+      "nativeScriptDisabled": true,
+      "nativeSourceAndFontBytesChecked": true,
+      "nativeLicenseBytesChecked": true,
+      "standaloneRequests": [],
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "terms": [
+        "alluvion",
+        "avulsion",
+        "ex eo tempore",
+        "haec pars tua manet",
+        "radices egerint",
+        "Roman river law"
+      ],
+      "shared": "http://127.0.0.1:4502/officina/?q=ex+eo+tempore#catalogue",
+      "lesson": "https://antonsoo.github.io/traditio/river.html#river-bench",
+      "review": "https://github.com/antonsoo/traditio/blob/885ba4c0274cd09b4079012e060a079185ea4724/docs/river-audit.md#try-the-actual-work",
+      "reviewSha256": "2be963c2b4adfb943ff3ad632fde3441484097d8db8448b1852d6840c70214c3",
+      "displayedSource": "32b3308947bf4996ea237287abe4e6990f5ee306a0a94e13ee5e4e1530c9ccad",
+      "artifacts": {
+        "json": {
+          "bytes": 495,
+          "sha256": "aa7d097e339c2b5213084d8eca90ff3e71d23283489a6bdae7be45804a2bcbd6"
+        },
+        "csv": {
+          "bytes": 2228,
+          "sha256": "0bc51ef789ccd2ab226612687ae40ab754a583d0d1151aefe40f92c3dff0a03d"
+        },
+        "svg": {
+          "bytes": 2770,
+          "sha256": "8a583b826e5732521f94714d712238934cdb58410e0a786444356a58539a8c6c"
+        },
+        "html": {
+          "bytes": 6491600,
+          "sha256": "757f68b13833967e8f981ce3d4bd094edd3f3ac4b7531dc66a79e120370f929d"
+        }
+      },
+      "nativeScriptDisabled": true,
+      "nativeSourceAndFontBytesChecked": true,
+      "nativeLicenseBytesChecked": true,
+      "standaloneRequests": [],
+      "errors": []
+    }
+  ]
+}

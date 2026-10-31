@@ -5,7 +5,7 @@ Traditio's companion lesson is discoverable through `libripens`, `praeterea alio
 called “Five witnesses, and another person.” It opens the actual ceremony page;
 the existing counterexample workshop remains available.
 
-Its review pins source `6d7fa829d2579a20e4776f59a59907070b34c16e`, including the
+Its review pins source `ec81539b6e3dbd6d8db4a58ac80d57f56b69b915`, including the
 source mapping and concrete exercise. The thumbnail is a public screenshot after
 Aulus has made the first claim with five witnesses and an additional balance
 holder; civil title still belongs to Lucius at that stage.
@@ -15,12 +15,14 @@ search link, follows the pinned review by keyboard and compares its raw public
 bytes with the Git blob. It then follows the lesson, checks the four-witness
 failure, enters the magistrate sequence and verifies that a disclaimer still
 awaits the award. It displays and hashes printed page 134 and downloads the same
-4,571,494-byte illustrated rehearsal independently reviewed in Traditio.
+4,573,041-byte illustrated rehearsal independently reviewed in Traditio.
 
 The local catalogue-to-public-lesson journey passed in Chromium and Firefox at
 1440 and 375 pixels. Editing the search does not rewrite the address bar.
 
 - [Local discovery journeys](../studies/traditio-ceremony-local/review.json)
+
+## Earlier publication record (30 October)
 
 The clean Node 24.22.1 build from `00798bbcb908f61cb2274a6c4ae24d0a120e0675`
 contains 91 canonical files, identical to the working build. Deployment
@@ -46,3 +48,12 @@ claim; build, public bytes and actual browser operation are separate receipts.
 - [Independent thumbnail identity](../studies/traditio-ceremony-public/thumbnail.json)
 - [Screenshot identities](../studies/traditio-ceremony-public/screenshot-identities.json)
 - [Publication state](../studies/traditio-ceremony-public/publication-state.json)
+
+## Retained-reading refresh (31 October)
+
+The source review now includes the corrected portable reading and current source
+notice. The saved rehearsal facts and four primary page images are unchanged.
+The current native HTML is 4,573,041 bytes, SHA-256
+`e9cd6f6fa877a115bea61a8f968ae2372534bad5f6462fa0cd8383a011d2c432`.
+The earlier 4,571,494-byte capture remains a historical receipt; it is not the
+current download. The discovery journey checks the refreshed capture.

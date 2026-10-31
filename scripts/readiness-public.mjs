@@ -44,6 +44,21 @@ const config = {
   ],
   traditio: [
     {
+      id: "river",
+      route: "river.html",
+      select: "#river-page",
+      page: "d1",
+      path: "sources/mommsen-1893-p644.jpg",
+      retry: "#river-retry",
+      status: "#river-scan-status",
+      image: "#river-scan",
+      note: "#river-note",
+      json: "#river-save-record",
+      html: "#river-save-reading",
+      open: "#river-open",
+      fileStatus: "#river-save-status",
+    },
+    {
       id: "ownership",
       route: "",
       select: "#page-select",
@@ -111,14 +126,21 @@ async function canonical() {
         const r = await fetch(url, { cache: "no-store", signal: AbortSignal.timeout(30000) });
         assert.equal(r.status, 200, url.href);
         const bytes = Buffer.from(await r.arrayBuffer());
-        assert.deepEqual(bytes, f.bytes, url.href);
+        assert.ok(
+          bytes.equals(f.bytes),
+          `${url.href}: expected ${f.bytes.length} bytes (${sha(f.bytes)}); got ${bytes.length} bytes (${sha(bytes)})`,
+        );
         results.push({ path: f.path, bytes: bytes.length, sha256: sha(bytes) });
       }
     }),
   );
   const r = await fetch(base, { cache: "no-store" });
   assert.equal(r.status, 200);
-  assert.deepEqual(Buffer.from(await r.arrayBuffer()), expected.find((f) => f.path === "index.html").bytes);
+  const rootBytes = Buffer.from(await r.arrayBuffer());
+  assert.ok(
+    rootBytes.equals(expected.find((f) => f.path === "index.html").bytes),
+    "Canonical root differs from the reviewed build",
+  );
   return results.sort((a, b) => a.path.localeCompare(b.path));
 }
 const before = await canonical();

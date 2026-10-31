@@ -2,3 +2,6 @@
 # Preserve redistributed license text byte-for-byte, including its original whitespace.
 public/FONT-LICENSE.txt -whitespace
 src/fonts/HANKEN-LICENSE.txt -whitespace
+
+# Preserve actual native river CSV downloads.
+studies/traditio-river-*/histories.csv -text -whitespace
