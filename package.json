@@ -37,7 +37,8 @@
     "test:akzent": "node scripts/akzent-journeys.mjs",
     "test:river": "node scripts/traditio-river-journeys.mjs",
     "test:nautikon-local": "node scripts/nautikon-local.mjs",
-    "test:nautikon": "node scripts/nautikon-journeys.mjs"
+    "test:nautikon": "node scripts/nautikon-journeys.mjs",
+    "test:psephos-allotment": "node scripts/psephos-allotment-journeys.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
