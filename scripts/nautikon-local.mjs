@@ -4,12 +4,12 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { createServer } from "node:http";
 import { extname, resolve, sep } from "node:path";
 import { chromium, firefox } from "@playwright/test";
-const out = resolve("studies/nautikon-local");
+const out = resolve("test-results/nautikon-local");
 await mkdir(out, { recursive: true });
 const projects = JSON.parse(await readFile("dist/projects.json", "utf8"));
 const entry = projects.find((p) => p.name === "nautikon");
-assert.equal(entry.status, "soon");
-assert.equal(entry.demoUrl, null);
+assert.equal(entry.status, "published");
+assert.equal(entry.demoUrl, "https://antonsoo.github.io/nautikon/");
 const pin = /\/blob\/([a-f0-9]{40})\/docs\/review.md/.exec(entry.workshops[0].reviewUrl)?.[1];
 assert(pin, "The staged review must identify a local source commit");
 const review = execFileSync("git", ["-C", "../nautikon", "show", `${pin}:docs/review.md`]);
@@ -59,21 +59,6 @@ try {
         const p = await context.newPage();
         const errors = [];
         p.on("pageerror", (e) => errors.push(e.message));
-        await p.goto(base);
-        await p.locator("#tool-search").waitFor();
-        await p.locator("#tool-search").fill("ἐκπλεύσωσιν");
-        assert.equal(
-          await p.locator('[data-project="nautikon"]').count(),
-          0,
-          "The unpublished entry must remain hidden",
-        );
-        const fixture = structuredClone(projects);
-        const local = fixture.find((p) => p.name === "nautikon");
-        local.status = "published";
-        local.demoUrl = "https://antonsoo.github.io/nautikon/";
-        await context.route("**/officina/projects.json", (r) =>
-          r.fulfill({ contentType: "application/json", body: JSON.stringify(fixture) }),
-        );
         await context.route("https://antonsoo.github.io/nautikon/**", async (route) => {
           try {
             await route.fulfill(await response("../nautikon/dist", route.request().url(), "/nautikon/"));
@@ -120,8 +105,8 @@ try {
         receipts.push({
           browser: name,
           width,
-          pendingEntryStayedHidden: true,
-          previewFixtureOnly: true,
+          publishedCatalogueEntry: true,
+          localLessonBytesOnly: true,
           departureRateAndSource: true,
           shortfallOperated: true,
           reviewCommit: pin,

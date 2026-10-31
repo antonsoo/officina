@@ -1,3 +1,10 @@
+> Historical local-only review, retained as recorded. Publication and the
+> current discovery journeys supersede this stage; see
+> [the public study](../nautikon-public/README.md). The current
+> `test:nautikon-local` command uses the real published catalogue entry and
+> local lesson/review bytes, writing new smoke receipts to
+> `test-results/nautikon-local/`. It does not overwrite these original receipts.
+
 # Nautikon: unpublished handoff and local discovery review
 
 2026-10-31. The new sea-loan workshop is local and unpublished. The actual

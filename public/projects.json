@@ -1,12 +1,12 @@
 [
   {
     "name": "nautikon",
-    "description": "Change an Athenian sea-loan voyage and read the Greek that distinguishes departure, arrival, debt and security. Keep two accounts and save the illustrated source dossier.",
+    "description": "Read an Athenian sea loan and its cargo testimony in Greek. Change voyage clauses, test what witnesses’ numbers establish, and save illustrated source readings.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/nautikon",
-    "demoUrl": null,
+    "demoUrl": "https://antonsoo.github.io/nautikon/",
     "thumbnail": "thumbs/nautikon-voyage.png",
-    "status": "soon",
+    "status": "published",
     "searchTerms": [
       "ναυτικόν",
       "Demosthenes",
@@ -22,14 +22,22 @@
       "ὑποθήκη",
       "collateral",
       "ancient Greek law",
-      "shortfall"
+      "shortfall",
+      "cargo testimony",
+      "witness",
+      "οὐδὲ πεντακόσια",
+      "τετρακόσια πεντήκοντα",
+      "Erasikles",
+      "Hippias",
+      "counterexample",
+      "upper bound"
     ],
     "workshops": [
       {
         "id": "departure",
         "title": "Which event changes the rate?",
         "url": "https://antonsoo.github.io/nautikon/#bench",
-        "reviewUrl": "https://github.com/antonsoo/nautikon/blob/17c62914d4231a69df70dc0c298fbc5387bee6b5/docs/review.md#try-the-actual-work",
+        "reviewUrl": "https://github.com/antonsoo/nautikon/blob/0dd1d56e7ccb63c720dfd4e191364fa5c62b8c35/docs/review.md#try-the-actual-work",
         "searchTerms": [
           "Arcturus",
           "ἐκπλεύσωσιν",
@@ -45,7 +53,7 @@
         "id": "shortfall",
         "title": "Who bears the shortfall?",
         "url": "https://antonsoo.github.io/nautikon/#default",
-        "reviewUrl": "https://github.com/antonsoo/nautikon/blob/17c62914d4231a69df70dc0c298fbc5387bee6b5/docs/review.md#try-the-actual-work",
+        "reviewUrl": "https://github.com/antonsoo/nautikon/blob/0dd1d56e7ccb63c720dfd4e191364fa5c62b8c35/docs/review.md#try-the-actual-work",
         "searchTerms": [
           "ὑποθήκη",
           "ἐλλείπῃ",
@@ -57,8 +65,32 @@
         ],
         "summary": "Keep a 3,675 debt and assume 2,000 sale proceeds. Cross the repayment interval, compare the 1,675 claim with full repayment, and inspect the separate salvage clause.",
         "thumbnail": "thumbs/nautikon-voyage.png"
+      },
+      {
+        "id": "testimony",
+        "title": "Does “not even 500” force 450?",
+        "url": "https://antonsoo.github.io/nautikon/testimony.html#evidence",
+        "reviewUrl": "https://github.com/antonsoo/nautikon/blob/0dd1d56e7ccb63c720dfd4e191364fa5c62b8c35/docs/review.md#try-the-actual-work",
+        "searchTerms": [
+          "οὐδὲ πεντακόσια",
+          "τετρακόσια πεντήκοντα",
+          "450 jars",
+          "cargo testimony",
+          "Erasikles",
+          "Hippias",
+          "witness",
+          "counterexample",
+          "upper bound",
+          "forensic speech"
+        ],
+        "summary": "Try 499 against the speaker’s allegation, add an attributed deposition reporting 450, and keep a check with its original premises. Read the Greek across pp. 110–111 without turning reports into proven cargo or jars into drachmas.",
+        "thumbnail": "thumbs/nautikon-testimony.png"
       }
-    ]
+    ],
+    "study": {
+      "finding": "“Not even 500” allows 499. A deposition reporting 450 fixes the count conditionally; jars are not drachmas.",
+      "url": "https://github.com/antonsoo/nautikon/blob/0dd1d56e7ccb63c720dfd4e191364fa5c62b8c35/docs/review.md#try-the-actual-work"
+    }
   },
   {
     "name": "akzent",
