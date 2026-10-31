@@ -1,0 +1,62 @@
+{
+  "checkedAtUtc": "2026-10-31T02:16:41.303020+00:00",
+  "pinnedLessonReview": "a5fd8d20abcf80246d1d1bcc5a5a3635f4364be6",
+  "catalogueReviewedSource": "6bd16e2",
+  "catalogueServedHead": "17d48b832a76d6498f8b499df90cbfdbc5f97387",
+  "lessonServedHead": "f6115a97750ecd4105eb4c3ca2f27eda45afc653",
+  "catalogueFollowupChangedOnly": "projects.json (three immutable review pins)",
+  "configurationsAndJobs": {
+    "akzent": {
+      "pages": {
+        "html_url": "https://antonsoo.github.io/akzent/",
+        "build_type": "legacy",
+        "source": {
+          "branch": "gh-pages",
+          "path": "/"
+        }
+      },
+      "sourceRuns": [
+        {
+          "id": 41158678890,
+          "workflow": "Check",
+          "head": "a5fd8d20abcf80246d1d1bcc5a5a3635f4364be6",
+          "conclusion": "failure",
+          "url": "https://github.com/antonsoo/akzent/actions/runs/41158678890",
+          "jobs": [
+            {
+              "name": "check",
+              "conclusion": "failure",
+              "steps": []
+            }
+          ]
+        },
+        {
+          "id": 41158678870,
+          "workflow": "Pages",
+          "head": "a5fd8d20abcf80246d1d1bcc5a5a3635f4364be6",
+          "conclusion": "failure",
+          "url": "https://github.com/antonsoo/akzent/actions/runs/41158678870",
+          "jobs": [
+            {
+              "name": "deploy",
+              "conclusion": "failure",
+              "steps": []
+            }
+          ]
+        }
+      ]
+    },
+    "officina": {
+      "pages": {
+        "html_url": "https://antonsoo.github.io/officina/",
+        "build_type": "legacy",
+        "source": {
+          "branch": "gh-pages",
+          "path": "/"
+        }
+      },
+      "sourceRuns": []
+    }
+  },
+  "boundary": "Canonical 95+25 expected file identities and eight current public journeys are separate receipts. No CI success is claimed for empty source-job step lists or an empty Actions query."
+}

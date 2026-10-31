@@ -80,8 +80,10 @@ canonical entry, explicit index and all 95 expected files after the public
 journeys. The [lesson recheck](akzent/lesson-after-journeys-021.json) compares
 all 25 Akzent files afterwards. Static-branch history and older hashed assets
 are preserved. The [initial publication metadata](akzent/publication.json)
-records Pages configuration and an empty Actions query; no source-CI or
-workflow-execution success is inferred from local checks or hosted availability.
+records the initial Pages configuration and empty Actions query. The
+[latest metadata](akzent/publication-021.json) records the follow-up static
+heads and current source jobs separately; no source-CI or workflow-execution
+success is inferred from local checks or hosted availability.
 
 Place the Akzent checkout beside Officina (the driver reads its source manifest
 and pinned Git object). Reproduce with:
