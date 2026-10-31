@@ -92,3 +92,5 @@ those destinations to be available separately.
 [Temple-plan assumptions and 34/38-column discovery review](docs/embater-plans-review.md).
 
 The [Traditio ceremony discovery review](docs/traditio-ceremony-review.md) follows Latin source phrases into the actual formal-conveyance lesson and its portable record.
+
+[Verner comparison and inverse-accent discovery review](docs/akzent-review.md) follows source-word searches into Akzent’s resistant comparison and its ambiguous, unique and impossible accent accounts.
