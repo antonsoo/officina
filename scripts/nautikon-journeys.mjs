@@ -32,6 +32,7 @@ assert.equal(worker, await readFile("../nautikon/dist/sw.js", "utf8"));
 const edition = /EDITION="([a-f0-9]+)"/.exec(worker)[1];
 const downloadsDir = resolve("test-results/nautikon-public");
 await mkdir(downloadsDir, { recursive: true });
+const sourceAssets = JSON.parse(await readFile("../nautikon/src/asset-manifest.json", "utf8"));
 const receipts = [],
   wait = (p, id, t) => p.locator(`#${id}`).filter({ hasText: t }).waitFor({ timeout: 45000 });
 const save = async (p, id, name) => {
@@ -137,6 +138,13 @@ try {
         const htmlPath = await save(p, "html", `${name}-${width}-testimony.html`),
           html = await readFile(htmlPath, "utf8");
         assert.ok(!html.includes("<script"));
+        for (const asset of sourceAssets)
+          if (/\.(jpg|woff2|xml)$/.test(asset.path)) {
+            assert.ok(
+              html.includes((await readFile(`../nautikon/public/${asset.path}`)).toString("base64")),
+              `Embedded public artifact source missing: ${asset.path}`,
+            );
+          }
         await p.locator("#erasikles").uncheck();
         await p.locator("#import").setInputFiles(json);
         await wait(p, "status", "Testimony reopened");
@@ -200,6 +208,7 @@ try {
           testimonyCounterexampleAndKeptPremises: true,
           nativeJsonAndReading: true,
           embeddedJsonRoundtrip: true,
+          embeddedImageFontAndTeiBytes: true,
           bothPagesBrowserOffline: true,
           twoTabDamageAndOnlineRepair: true,
           realReviewLink: true,
