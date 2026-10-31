@@ -1041,7 +1041,7 @@
         "id": "ceremony",
         "title": "Five witnesses, and another person",
         "url": "https://antonsoo.github.io/traditio/ceremony.html",
-        "reviewUrl": "https://github.com/antonsoo/traditio/blob/6d7fa829d2579a20e4776f59a59907070b34c16e/docs/ceremony-audit.md#try-the-actual-work",
+        "reviewUrl": "https://github.com/antonsoo/traditio/blob/ec81539b6e3dbd6d8db4a58ac80d57f56b69b915/docs/ceremony-audit.md#try-the-actual-work",
         "searchTerms": [
           "mancipatio",
           "libripens",
@@ -1057,6 +1057,30 @@
         ],
         "summary": "Arrange the witnesses, rehearse the acquirer’s acts, then try the magistrate’s question, the owner’s silence and the award. Read the Latin and keep every attempt with its complete source pages.",
         "thumbnail": "thumbs/traditio-ceremony.png"
+      },
+      {
+        "id": "river",
+        "title": "The bank moved. Did the title?",
+        "url": "https://antonsoo.github.io/traditio/river.html#river-bench",
+        "reviewUrl": "https://github.com/antonsoo/traditio/blob/885ba4c0274cd09b4079012e060a079185ea4724/docs/river-audit.md#try-the-actual-work",
+        "searchTerms": [
+          "alluvion",
+          "alluvio",
+          "adluvionem",
+          "avulsion",
+          "carried parcel",
+          "ex eo tempore",
+          "haec pars tua manet",
+          "radices egerint",
+          "Roman river law",
+          "Gaius roots",
+          "long attachment",
+          "Digest 41.1.7",
+          "flooded field",
+          "counterfactual history"
+        ],
+        "summary": "A carried piece remains its former owner’s. Add roots and long attachment, keep the original ending, and try a different continuation. Read the Latin conditions beside complete source pages and keep both histories offline.",
+        "thumbnail": "thumbs/traditio-river.png"
       }
     ]
   },
