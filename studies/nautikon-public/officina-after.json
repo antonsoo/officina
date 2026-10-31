@@ -8,9 +8,9 @@
   "baseURL": "https://antonsoo.github.io/officina/",
   "state": "verified",
   "attempts": 1,
-  "startedAtUtc": "2026-10-31T19:37:38.504Z",
-  "checkedAtUtc": "2026-10-31T19:37:41.859Z",
-  "buildManifestSha256": "f7f19ad0d96d95f0207cc7437797470dcb69e2d500d4868415a4882a7fb4dc4c",
+  "startedAtUtc": "2026-10-31T20:00:59.577Z",
+  "checkedAtUtc": "2026-10-31T20:01:04.811Z",
+  "buildManifestSha256": "14015fb2913cddd317746762bd2970a8c3aae74bf36b4454290e2c63448bb319",
   "expectedFileCount": 98,
   "checkedFileCount": 98,
   "verifiedFileCount": 98,
@@ -258,11 +258,11 @@
     {
       "path": "projects.json",
       "bytes": 76480,
-      "sha256": "9ff0d934cf7d59167582cd22cef065e124889077ddd7914453afe8ead8067a47",
+      "sha256": "c593e94646502cbfccf5f854dd40a4e15e07066f061f069f2d63b0c3a7071c39",
       "url": "https://antonsoo.github.io/officina/projects.json",
       "httpStatus": 200,
       "observedBytes": 76480,
-      "observedSha256": "9ff0d934cf7d59167582cd22cef065e124889077ddd7914453afe8ead8067a47",
+      "observedSha256": "c593e94646502cbfccf5f854dd40a4e15e07066f061f069f2d63b0c3a7071c39",
       "state": "verified"
     },
     {

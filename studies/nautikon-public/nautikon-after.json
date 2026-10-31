@@ -8,30 +8,30 @@
   "baseURL": "https://antonsoo.github.io/nautikon/",
   "state": "verified",
   "attempts": 1,
-  "startedAtUtc": "2026-10-31T19:37:41.880Z",
-  "checkedAtUtc": "2026-10-31T19:37:42.971Z",
-  "buildManifestSha256": "7e54f0af914fb8dd2a5635b790269ed7d2ee065863d3271b9121df5e5ca4adde",
+  "startedAtUtc": "2026-10-31T20:01:04.845Z",
+  "checkedAtUtc": "2026-10-31T20:01:06.567Z",
+  "buildManifestSha256": "97a2bf40a67905072ce099e03c80a2d2effffcf7245c95592578c397b0bca477",
   "expectedFileCount": 25,
   "checkedFileCount": 25,
   "verifiedFileCount": 25,
   "rootBefore": {
     "path": "index.html",
     "bytes": 1021,
-    "sha256": "920703ed5cc570de6d510f14bc8a120b60ae5e6b52355ddada54c3a9d73c502e",
+    "sha256": "19a1c4c2fea0c0a478cc897e25c11225bfd16594a98d304ece979e8bd989f485",
     "url": "https://antonsoo.github.io/nautikon/",
     "httpStatus": 200,
     "observedBytes": 1021,
-    "observedSha256": "920703ed5cc570de6d510f14bc8a120b60ae5e6b52355ddada54c3a9d73c502e",
+    "observedSha256": "19a1c4c2fea0c0a478cc897e25c11225bfd16594a98d304ece979e8bd989f485",
     "state": "verified"
   },
   "rootAfter": {
     "path": "index.html",
     "bytes": 1021,
-    "sha256": "920703ed5cc570de6d510f14bc8a120b60ae5e6b52355ddada54c3a9d73c502e",
+    "sha256": "19a1c4c2fea0c0a478cc897e25c11225bfd16594a98d304ece979e8bd989f485",
     "url": "https://antonsoo.github.io/nautikon/",
     "httpStatus": 200,
     "observedBytes": 1021,
-    "observedSha256": "920703ed5cc570de6d510f14bc8a120b60ae5e6b52355ddada54c3a9d73c502e",
+    "observedSha256": "19a1c4c2fea0c0a478cc897e25c11225bfd16594a98d304ece979e8bd989f485",
     "state": "verified"
   },
   "files": [
@@ -56,33 +56,33 @@
       "state": "verified"
     },
     {
-      "path": "assets/source-IzMkBer_.js",
-      "bytes": 36304,
-      "sha256": "93af2c408f9d47f27b859330824ffb0adabc072d1ba759fc992ae1c105282c27",
-      "url": "https://antonsoo.github.io/nautikon/assets/source-IzMkBer_.js",
+      "path": "assets/source-Cs4NB_yF.js",
+      "bytes": 36621,
+      "sha256": "967c7819fe9e11f1973bd539ee12b465ed1f059be6c987669077a7fd74bd09b0",
+      "url": "https://antonsoo.github.io/nautikon/assets/source-Cs4NB_yF.js",
       "httpStatus": 200,
-      "observedBytes": 36304,
-      "observedSha256": "93af2c408f9d47f27b859330824ffb0adabc072d1ba759fc992ae1c105282c27",
+      "observedBytes": 36621,
+      "observedSha256": "967c7819fe9e11f1973bd539ee12b465ed1f059be6c987669077a7fd74bd09b0",
       "state": "verified"
     },
     {
-      "path": "assets/testimony-lCUA7Ey_.js",
+      "path": "assets/testimony-CPl229_9.js",
       "bytes": 31464,
-      "sha256": "76d6191972e663636cf62b76b653c473acbc50d92ab3af76ab9ec7beb8b24edb",
-      "url": "https://antonsoo.github.io/nautikon/assets/testimony-lCUA7Ey_.js",
+      "sha256": "3a917f22403d0f15455a25a52d64ff7f02bc09312e9cbe8efbd26d451ef2920e",
+      "url": "https://antonsoo.github.io/nautikon/assets/testimony-CPl229_9.js",
       "httpStatus": 200,
       "observedBytes": 31464,
-      "observedSha256": "76d6191972e663636cf62b76b653c473acbc50d92ab3af76ab9ec7beb8b24edb",
+      "observedSha256": "3a917f22403d0f15455a25a52d64ff7f02bc09312e9cbe8efbd26d451ef2920e",
       "state": "verified"
     },
     {
-      "path": "assets/voyage-S8i1QPc3.js",
+      "path": "assets/voyage-B0D1yIud.js",
       "bytes": 24889,
-      "sha256": "7bcaa651f70d220fb5bafac406468434b2e4d5cd4720a6716c28df58045d0a18",
-      "url": "https://antonsoo.github.io/nautikon/assets/voyage-S8i1QPc3.js",
+      "sha256": "417b2ca1af45bcd71b794e9f688165af965ef924719a908a27a67c27ca3f67d5",
+      "url": "https://antonsoo.github.io/nautikon/assets/voyage-B0D1yIud.js",
       "httpStatus": 200,
       "observedBytes": 24889,
-      "observedSha256": "7bcaa651f70d220fb5bafac406468434b2e4d5cd4720a6716c28df58045d0a18",
+      "observedSha256": "417b2ca1af45bcd71b794e9f688165af965ef924719a908a27a67c27ca3f67d5",
       "state": "verified"
     },
     {
@@ -138,11 +138,11 @@
     {
       "path": "index.html",
       "bytes": 1021,
-      "sha256": "920703ed5cc570de6d510f14bc8a120b60ae5e6b52355ddada54c3a9d73c502e",
+      "sha256": "19a1c4c2fea0c0a478cc897e25c11225bfd16594a98d304ece979e8bd989f485",
       "url": "https://antonsoo.github.io/nautikon/index.html",
       "httpStatus": 200,
       "observedBytes": 1021,
-      "observedSha256": "920703ed5cc570de6d510f14bc8a120b60ae5e6b52355ddada54c3a9d73c502e",
+      "observedSha256": "19a1c4c2fea0c0a478cc897e25c11225bfd16594a98d304ece979e8bd989f485",
       "state": "verified"
     },
     {
@@ -268,21 +268,21 @@
     {
       "path": "sw.js",
       "bytes": 5778,
-      "sha256": "4f9cacd857207c58bee30165bbe52aec9eee385a5a53ca0d8d6c20191d11f4e3",
+      "sha256": "77db15f71977ee462f94ed03ad05254ae24ba80d83d1af15a26dc148f16306dd",
       "url": "https://antonsoo.github.io/nautikon/sw.js",
       "httpStatus": 200,
       "observedBytes": 5778,
-      "observedSha256": "4f9cacd857207c58bee30165bbe52aec9eee385a5a53ca0d8d6c20191d11f4e3",
+      "observedSha256": "77db15f71977ee462f94ed03ad05254ae24ba80d83d1af15a26dc148f16306dd",
       "state": "verified"
     },
     {
       "path": "testimony.html",
       "bytes": 1033,
-      "sha256": "6064d977adbfb04383caf34a3aa8d967545ecee4607a1249174b1d4f9e80f8ce",
+      "sha256": "e19459130941589096e69ac912e191010eb909098b7deaed203aeb7797730a0b",
       "url": "https://antonsoo.github.io/nautikon/testimony.html",
       "httpStatus": 200,
       "observedBytes": 1033,
-      "observedSha256": "6064d977adbfb04383caf34a3aa8d967545ecee4607a1249174b1d4f9e80f8ce",
+      "observedSha256": "e19459130941589096e69ac912e191010eb909098b7deaed203aeb7797730a0b",
       "state": "verified"
     }
   ],
