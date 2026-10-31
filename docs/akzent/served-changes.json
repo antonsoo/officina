@@ -1,0 +1,22 @@
+{
+  "previousServedHead": "5d337993d08a2530b36dcabd6b035c259f55348e",
+  "reviewedSource": "e671787",
+  "changes": [
+    {
+      "path": "projects.json",
+      "change": "updated",
+      "sha256": "d1a9dd695a75287afcc5e29996f3c85d9d876651365e8e7a26c0e18c82066aff"
+    },
+    {
+      "path": "thumbs/akzent-comparison.png",
+      "change": "added",
+      "sha256": "be9bd3dc2245894f6cfcf278229e8d12d1aa3262cea8656055431a6246009f93"
+    },
+    {
+      "path": "thumbs/akzent-inference.png",
+      "change": "added",
+      "sha256": "bc1a9497224ff74444e82654aeded55b4cb49ae949a52f1da946f283c88e00b0"
+    }
+  ],
+  "olderFilesPreserved": true
+}

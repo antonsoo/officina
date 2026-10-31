@@ -1,333 +1,346 @@
 {
-  "checkedAtUtc": "2026-10-31T01:48:26.052Z",
+  "checkedAtUtc": "2026-10-31T01:55:30.634Z",
   "repository": "https://github.com/antonsoo/akzent",
-  "sourceHead": "86b8b6ad5914c90b1d79168c65f685f044b9f245",
-  "remoteMain": "86b8b6ad5914c90b1d79168c65f685f044b9f245",
+  "sourceHead": "550e260f930cd9e91484f6b4eabfd7c0cf19e750",
+  "remoteMain": "550e260f930cd9e91484f6b4eabfd7c0cf19e750",
   "worktreeClean": true,
   "unauthenticatedRawFetch": true,
+  "pinnedReview": "86b8b6ad5914c90b1d79168c65f685f044b9f245",
+  "pinnedReviewMatchesCurrentAudit": true,
+  "filesChangedAfterReview": [
+    ".github/workflows/pages.yml",
+    "docs/publication.md"
+  ],
   "files": [
     {
+      "path": ".github/workflows/pages.yml",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/.github/workflows/pages.yml",
+      "bytes": 1579,
+      "sha256": "9422dbb9a57bfb6f8c7ffc3d5a1a40530a1d54580cb24308dad717897bf65070",
+      "publicBytesIdentical": true
+    },
+    {
       "path": "CHANGELOG.md",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/CHANGELOG.md",
       "bytes": 1401,
       "sha256": "8a21a560befba974fe7b77cdb1ee6677435d2d028f1fa3499e13089aeeddf086",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit.md",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit.md",
       "bytes": 9439,
       "sha256": "c2320bd0e528fba45f423b21cf453039c063682d0078f578621a6034c460fed9",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/artifacts.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/artifacts.json",
       "bytes": 3391,
       "sha256": "a5f7e8d8d5add387f4905193d231af0af8704bd17152fe07b3ed238c1ea45ae8",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/before-data-loss.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/before-data-loss.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/before-data-loss.json",
       "bytes": 538,
       "sha256": "e1f234e231746f8eeca66a5cc6b214f4a8943283e00ea8598e0a4a5d7d0f578d",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/browser-local.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/browser-local.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/browser-local.json",
       "bytes": 7798,
       "sha256": "bd28f624098268e613349c0bdf321ff3c222d5c7fe3d6b93f828344490b1b6a1",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/browser-public.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/browser-public.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/browser-public.json",
       "bytes": 7778,
       "sha256": "831f5851a51a1f2cdc149b97c58b0c8a2751c7a332a22a544749d90f9c874619",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/clean-build.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/clean-build.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/clean-build.json",
       "bytes": 4257,
       "sha256": "8dd0f6acb819ea4435e576a98ee49984b99e8dcebaaff6d1a267624772de44f1",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/hosted-after-browser.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/hosted-after-browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/hosted-after-browser.json",
       "bytes": 11101,
       "sha256": "f09bf46b5de3b74e8c4c82253addef825dd13d29ac93f5b550cb0efa7f5f940e",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/inference-local.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/inference-local.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/inference-local.json",
       "bytes": 1608,
       "sha256": "dcb74aeed8e1906cc8350a54cf2709ea5c254a43938b890c62fee495d7f83aa5",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/inference-public.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/inference-public.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/inference-public.json",
       "bytes": 1613,
       "sha256": "2968747553b1ed154147d740856788dca74217e82159a8f08a4ea0d17992ba8b",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/notebook-public.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/notebook-public.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/notebook-public.json",
       "bytes": 2004,
       "sha256": "155c54ef768fc645aaf4a6c8615d0f0209c2a4a9a97dc109bdba4fd5e7547483",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/notebook-recovery.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/notebook-recovery.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/notebook-recovery.json",
       "bytes": 1999,
       "sha256": "e451019856c8910fd0cdc4172527c2ff6ec80d2991a2e68f7c64fb6685ee3591",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/pdf-fonts.txt",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/pdf-fonts.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/pdf-fonts.txt",
       "bytes": 940,
       "sha256": "0471f40d54aa4c762407b1149ec9d13c429a08869ce037fea06dac5a43d1d3ae",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/pdf-images.txt",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/pdf-images.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/pdf-images.txt",
       "bytes": 744,
       "sha256": "4e18faf0ba23b792eb43b8271cb6ed01624cc9d6d4cdc504b319fe360200112e",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/pdf-info.txt",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/pdf-info.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/pdf-info.txt",
       "bytes": 513,
       "sha256": "6674fd58c57dadd1050100aea82dd4e94458ba63480c3aadaf19e4861428d1ab",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/remote-jobs.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/remote-jobs.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/remote-jobs.json",
       "bytes": 2912,
       "sha256": "37807ad2865e5d6f7448b163c59d3433c36cd011a839feec9ccd640dc1c8da40",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/audit/source-and-offline.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit/source-and-offline.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/audit/source-and-offline.json",
       "bytes": 719,
       "sha256": "319f95cf8e5a9c860591241db2eb8f5bd2fff929d5b2fe44032d04d7f194445d",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/model-and-sources.md",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/model-and-sources.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/model-and-sources.md",
       "bytes": 7848,
       "sha256": "6963abf3939489c34c8061b58eebedc7028f4cc2428059ba314f6cf83afa498c",
       "publicBytesIdentical": true
     },
     {
       "path": "docs/publication.md",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/publication.md",
-      "bytes": 3504,
-      "sha256": "db17250d9e16f8c372bc1a301125bc489a228a44cdf5165d18da74424e7908c5",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/docs/publication.md",
+      "bytes": 4099,
+      "sha256": "3c8fb6261d014a25fcad30cdd63462a074b31f36b94a4f6c76c6c777f5f9de4b",
       "publicBytesIdentical": true
     },
     {
       "path": "examples/akzent-accent-account.csv",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/examples/akzent-accent-account.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/examples/akzent-accent-account.csv",
       "bytes": 2639,
       "sha256": "528b51bea52ba29fefc6fdf461ad03a90c8ae59298fa98b6f4e144a62f246735",
       "publicBytesIdentical": true
     },
     {
       "path": "examples/akzent-comparisons.csv",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/examples/akzent-comparisons.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/examples/akzent-comparisons.csv",
       "bytes": 1394,
       "sha256": "ea9082ae5eaba5552889efbc515279c6285d1bf6d507337b0ab89f10402db498",
       "publicBytesIdentical": true
     },
     {
       "path": "examples/akzent-experiment.svg",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/examples/akzent-experiment.svg",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/examples/akzent-experiment.svg",
       "bytes": 1253,
       "sha256": "ebf714a8a650d2e235c4c090918e6f90e734f7caf5903625c96a4540c7f906b7",
       "publicBytesIdentical": true
     },
     {
       "path": "examples/akzent-notebook.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/examples/akzent-notebook.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/examples/akzent-notebook.json",
       "bytes": 2665,
       "sha256": "2a247f66a215ac413f018d8882965048e9a786d966e32ad2d39a2aed9d10470e",
       "publicBytesIdentical": true
     },
     {
       "path": "examples/akzent-reading.html",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/examples/akzent-reading.html",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/examples/akzent-reading.html",
       "bytes": 2554495,
       "sha256": "5c658ec533e47d62c426ac94ace3338e219c38513ec7e2db291b72708c27a751",
       "publicBytesIdentical": true
     },
     {
       "path": "examples/akzent-reading.pdf",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/examples/akzent-reading.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/examples/akzent-reading.pdf",
       "bytes": 1397473,
       "sha256": "3c6d7fa78dee135f7a37d559b60b3e79e12e6f2f998c19e2f6dc7ca30bbc4ab0",
       "publicBytesIdentical": true
     },
     {
       "path": "public/fonts/gentium-OFL.txt",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/fonts/gentium-OFL.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/fonts/gentium-OFL.txt",
       "bytes": 4507,
       "sha256": "c309a440be606e283ccacc746662d714b9c5b5a7a0a10dd2514b90206b55ddfe",
       "publicBytesIdentical": true
     },
     {
       "path": "public/fonts/gentium.ttf",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/fonts/gentium.ttf",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/fonts/gentium.ttf",
       "bytes": 822956,
       "sha256": "845e06bb4673a908a5f3b3b4ac9f38841750a07faa9aa45bfcb5796893346f0b",
       "publicBytesIdentical": true
     },
     {
       "path": "public/fonts/hanken-latin-ext.woff2",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/fonts/hanken-latin-ext.woff2",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/fonts/hanken-latin-ext.woff2",
       "bytes": 19588,
       "sha256": "768af2923e0ab1549f1dfba0a5c8ea749c4c01f01d8e77ffaf7fcd12f57a0a24",
       "publicBytesIdentical": true
     },
     {
       "path": "public/fonts/hanken-latin.woff2",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/fonts/hanken-latin.woff2",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/fonts/hanken-latin.woff2",
       "bytes": 34704,
       "sha256": "e9201eddf1d41d0b62253295d869ce3cf65768f7102b797f02c7f8c876b4a9d5",
       "publicBytesIdentical": true
     },
     {
       "path": "public/fonts/hanken-OFL.txt",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/fonts/hanken-OFL.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/fonts/hanken-OFL.txt",
       "bytes": 9377,
       "sha256": "26ff01d30304ca6dc862c560bc80cd145c7f9ede745b4bc801f0207f1438e417",
       "publicBytesIdentical": true
     },
     {
       "path": "public/fonts/provenance.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/fonts/provenance.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/fonts/provenance.json",
       "bytes": 1347,
       "sha256": "44e5299dc60cf15a478faa483e9915e2f6ceb68325f0805deb3b12d41144f00c",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/NOTICE.txt",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/NOTICE.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/NOTICE.txt",
       "bytes": 1206,
       "sha256": "d71f2a36d500c90b0643360785e90775f85bda97d56ebb8efe8858d4667f921a",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/provenance.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/provenance.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/provenance.json",
       "bytes": 2825,
       "sha256": "bf490a3e50a301cd8f1c6c770a7d7f7d5f3ed1c008c9659e3fa3fd8e396c54a4",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-100.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-100.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-100.png",
       "bytes": 191411,
       "sha256": "16b68b6db903a6960aa8f071eb522dfe272952860ceb8e717d941e409399c549",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-101.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-101.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-101.png",
       "bytes": 184841,
       "sha256": "17451bc658ed707f11671eaf97a5b17d714234f4564845035568030e44b7c485",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-102.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-102.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-102.png",
       "bytes": 175023,
       "sha256": "8f57f174b1a2ebd24f5139f1b4b1564012dd8535722097302e2be92d4de0a309",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-114.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-114.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-114.png",
       "bytes": 165386,
       "sha256": "973ae21daf264a435da88f721140ec47b613484ceb4df3273f3b0aabf2f3b73c",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-115.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-115.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-115.png",
       "bytes": 180996,
       "sha256": "cc1d278903ba8a55363bd160d6a44040781cf848549602c065a7a37dce15e342",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-117.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-117.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-117.png",
       "bytes": 184997,
       "sha256": "0cfbdfc133ea0c3040b29f8346c38a8ada6d8470198574720c96825eaca43c35",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-118.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-118.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-118.png",
       "bytes": 175954,
       "sha256": "71629a1884f4773cd7af1d7928cdd2f3f140b77902c27de0d2252f115f333411",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-119.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-119.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-119.png",
       "bytes": 163958,
       "sha256": "e1f6da2f63cec281e4b718f19bf2baeb6875e782cd88ee97f006f5552f6cc7a8",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-130.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-130.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-130.png",
       "bytes": 156240,
       "sha256": "9f51681d7d6a883432b0cb314bf4ab33094655c4202c048c0f03daff22eb8a90",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-97.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-97.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-97.png",
       "bytes": 130587,
       "sha256": "1a70f9257eb9e07555deff3319abf26574039347f91d9f45a81779d5ef24d104",
       "publicBytesIdentical": true
     },
     {
       "path": "public/sources/verner-99.png",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/public/sources/verner-99.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/public/sources/verner-99.png",
       "bytes": 190195,
       "sha256": "6442751b67139c52546f0ffcdcede5ec2cca16347cc4f02936b60d5495505b1d",
       "publicBytesIdentical": true
     },
     {
       "path": "README.md",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/README.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/README.md",
       "bytes": 11914,
       "sha256": "f62d87718aa905b5412879c7a2db3592d5ffb2ab02bb8218673a70a23f2bcc9e",
       "publicBytesIdentical": true
     },
     {
       "path": "src/asset-manifest.json",
-      "url": "https://raw.githubusercontent.com/antonsoo/akzent/86b8b6ad5914c90b1d79168c65f685f044b9f245/src/asset-manifest.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/550e260f930cd9e91484f6b4eabfd7c0cf19e750/src/asset-manifest.json",
       "bytes": 3309,
       "sha256": "6c3ea9fe2c377840b3344d5d9b4dc255aa7a9527680e0e204c98b002af030695",
       "publicBytesIdentical": true
     }
   ],
-  "boundary": "Clean synchronized Akzent source and pinned public evidence; distinct from canonical hosted build, remote CI and catalogue source."
+  "boundary": "Clean synchronized Akzent source, pinned argument and public evidence. The follow-up changes deployment workflow/documentation, with no application-output change; distinct from catalogue source, hosted bytes and CI."
 }

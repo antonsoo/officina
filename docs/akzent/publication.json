@@ -1,0 +1,17 @@
+{
+  "checkedAtUtc": "2026-10-31T01:56:18.903180+00:00",
+  "repository": "https://github.com/antonsoo/officina",
+  "reviewedSource": "e671787",
+  "servedBranchCommit": "5afa119a51a8124c7942b0657501969914bfe586",
+  "pages": {
+    "html_url": "https://antonsoo.github.io/officina/",
+    "status": null,
+    "build_type": "legacy",
+    "source": {
+      "branch": "gh-pages",
+      "path": "/"
+    }
+  },
+  "actionsRuns": [],
+  "boundary": "Canonical 95-file identities and eight public journeys are separate receipts. No source CI or deployment-workflow success is inferred from an empty Actions result."
+}

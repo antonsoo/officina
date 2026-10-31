@@ -1,0 +1,497 @@
+{
+  "date": "2026-10-31T01:54:57.401Z",
+  "catalogue": "https://antonsoo.github.io/officina/",
+  "publicCatalogue": true,
+  "publicLessonAndReview": true,
+  "requestRedirection": false,
+  "records": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "query": "katará",
+      "aliases": [
+        "katara",
+        "hvaþar",
+        "πότερος",
+        "páti"
+      ],
+      "sharedSearch": "https://antonsoo.github.io/officina/?q=katar%C3%A1#catalogue",
+      "lesson": "https://antonsoo.github.io/akzent/?word=which#selected-title",
+      "review": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "c2320bd0e528fba45f423b21cf453039c063682d0078f578621a6034c460fed9",
+      "thumbnailSha256": "be9bd3dc2245894f6cfcf278229e8d12d1aa3262cea8656055431a6246009f93",
+      "displayedSourceSha256": "e1f6da2f63cec281e4b718f19bf2baeb6875e782cd88ee97f006f5552f6cc7a8",
+      "nativeNotebook": {
+        "schema": "akzent-notebook",
+        "version": 1,
+        "rule": {
+          "accented": "voiceless",
+          "unaccented": "voiced"
+        },
+        "selected": "which",
+        "revealed": [
+          "father",
+          "brother",
+          "which"
+        ],
+        "trials": [
+          {
+            "word": "which",
+            "rule": {
+              "accented": "voiceless",
+              "unaccented": "voiced"
+            },
+            "prediction": "d"
+          }
+        ],
+        "accent": 0,
+        "order": "sounds-first",
+        "conditions": {
+          "initial": false,
+          "voicedNeighbors": true,
+          "precedingAccented": false
+        },
+        "inference": {
+          "evidence": {
+            "dorsal": "?",
+            "sibilant": "?",
+            "dental": "?"
+          },
+          "order": "sounds-first",
+          "accent": 0,
+          "submitted": null
+        },
+        "citations": [],
+        "note": "The simple accent rule still disagrees with hvaþar. I keep the mismatch rather than inventing an old accent."
+      },
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "query": "akasatam",
+      "aliases": [
+        "lost accent",
+        "partial evidence",
+        "event order",
+        "g z þ"
+      ],
+      "sharedSearch": "https://antonsoo.github.io/officina/?q=akasatam#catalogue",
+      "lesson": "https://antonsoo.github.io/akzent/#infer",
+      "review": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "c2320bd0e528fba45f423b21cf453039c063682d0078f578621a6034c460fed9",
+      "thumbnailSha256": "bc1a9497224ff74444e82654aeded55b4cb49ae949a52f1da946f283c88e00b0",
+      "displayedSourceSha256": "cc1d278903ba8a55363bd160d6a44040781cf848549602c065a7a37dce15e342",
+      "nativeNotebook": {
+        "schema": "akzent-notebook",
+        "version": 1,
+        "rule": {
+          "accented": "voiceless",
+          "unaccented": "voiceless"
+        },
+        "selected": "father",
+        "revealed": [
+          "father",
+          "brother"
+        ],
+        "trials": [],
+        "accent": 0,
+        "order": "sounds-first",
+        "conditions": {
+          "initial": false,
+          "voicedNeighbors": true,
+          "precedingAccented": false
+        },
+        "inference": {
+          "evidence": {
+            "dorsal": "g",
+            "sibilant": "z",
+            "dental": "þ"
+          },
+          "order": "unknown",
+          "accent": 3,
+          "submitted": {
+            "evidence": {
+              "dorsal": "h",
+              "sibilant": "z",
+              "dental": "d"
+            },
+            "order": "unknown",
+            "accent": 3
+          }
+        },
+        "citations": [],
+        "note": "Allowing either order leaves h/z/d ambiguous; g/z/þ permits only position 3. My earlier checked proposal keeps its assumptions."
+      },
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "query": "katará",
+      "aliases": [
+        "katara",
+        "hvaþar",
+        "πότερος",
+        "páti"
+      ],
+      "sharedSearch": "https://antonsoo.github.io/officina/?q=katar%C3%A1#catalogue",
+      "lesson": "https://antonsoo.github.io/akzent/?word=which#selected-title",
+      "review": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "c2320bd0e528fba45f423b21cf453039c063682d0078f578621a6034c460fed9",
+      "thumbnailSha256": "be9bd3dc2245894f6cfcf278229e8d12d1aa3262cea8656055431a6246009f93",
+      "displayedSourceSha256": "e1f6da2f63cec281e4b718f19bf2baeb6875e782cd88ee97f006f5552f6cc7a8",
+      "nativeNotebook": {
+        "schema": "akzent-notebook",
+        "version": 1,
+        "rule": {
+          "accented": "voiceless",
+          "unaccented": "voiced"
+        },
+        "selected": "which",
+        "revealed": [
+          "father",
+          "brother",
+          "which"
+        ],
+        "trials": [
+          {
+            "word": "which",
+            "rule": {
+              "accented": "voiceless",
+              "unaccented": "voiced"
+            },
+            "prediction": "d"
+          }
+        ],
+        "accent": 0,
+        "order": "sounds-first",
+        "conditions": {
+          "initial": false,
+          "voicedNeighbors": true,
+          "precedingAccented": false
+        },
+        "inference": {
+          "evidence": {
+            "dorsal": "?",
+            "sibilant": "?",
+            "dental": "?"
+          },
+          "order": "sounds-first",
+          "accent": 0,
+          "submitted": null
+        },
+        "citations": [],
+        "note": "The simple accent rule still disagrees with hvaþar. I keep the mismatch rather than inventing an old accent."
+      },
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "query": "akasatam",
+      "aliases": [
+        "lost accent",
+        "partial evidence",
+        "event order",
+        "g z þ"
+      ],
+      "sharedSearch": "https://antonsoo.github.io/officina/?q=akasatam#catalogue",
+      "lesson": "https://antonsoo.github.io/akzent/#infer",
+      "review": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "c2320bd0e528fba45f423b21cf453039c063682d0078f578621a6034c460fed9",
+      "thumbnailSha256": "bc1a9497224ff74444e82654aeded55b4cb49ae949a52f1da946f283c88e00b0",
+      "displayedSourceSha256": "cc1d278903ba8a55363bd160d6a44040781cf848549602c065a7a37dce15e342",
+      "nativeNotebook": {
+        "schema": "akzent-notebook",
+        "version": 1,
+        "rule": {
+          "accented": "voiceless",
+          "unaccented": "voiceless"
+        },
+        "selected": "father",
+        "revealed": [
+          "father",
+          "brother"
+        ],
+        "trials": [],
+        "accent": 0,
+        "order": "sounds-first",
+        "conditions": {
+          "initial": false,
+          "voicedNeighbors": true,
+          "precedingAccented": false
+        },
+        "inference": {
+          "evidence": {
+            "dorsal": "g",
+            "sibilant": "z",
+            "dental": "þ"
+          },
+          "order": "unknown",
+          "accent": 3,
+          "submitted": {
+            "evidence": {
+              "dorsal": "h",
+              "sibilant": "z",
+              "dental": "d"
+            },
+            "order": "unknown",
+            "accent": 3
+          }
+        },
+        "citations": [],
+        "note": "Allowing either order leaves h/z/d ambiguous; g/z/þ permits only position 3. My earlier checked proposal keeps its assumptions."
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "query": "katará",
+      "aliases": [
+        "katara",
+        "hvaþar",
+        "πότερος",
+        "páti"
+      ],
+      "sharedSearch": "https://antonsoo.github.io/officina/?q=katar%C3%A1#catalogue",
+      "lesson": "https://antonsoo.github.io/akzent/?word=which#selected-title",
+      "review": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "c2320bd0e528fba45f423b21cf453039c063682d0078f578621a6034c460fed9",
+      "thumbnailSha256": "be9bd3dc2245894f6cfcf278229e8d12d1aa3262cea8656055431a6246009f93",
+      "displayedSourceSha256": "e1f6da2f63cec281e4b718f19bf2baeb6875e782cd88ee97f006f5552f6cc7a8",
+      "nativeNotebook": {
+        "schema": "akzent-notebook",
+        "version": 1,
+        "rule": {
+          "accented": "voiceless",
+          "unaccented": "voiced"
+        },
+        "selected": "which",
+        "revealed": [
+          "father",
+          "brother",
+          "which"
+        ],
+        "trials": [
+          {
+            "word": "which",
+            "rule": {
+              "accented": "voiceless",
+              "unaccented": "voiced"
+            },
+            "prediction": "d"
+          }
+        ],
+        "accent": 0,
+        "order": "sounds-first",
+        "conditions": {
+          "initial": false,
+          "voicedNeighbors": true,
+          "precedingAccented": false
+        },
+        "inference": {
+          "evidence": {
+            "dorsal": "?",
+            "sibilant": "?",
+            "dental": "?"
+          },
+          "order": "sounds-first",
+          "accent": 0,
+          "submitted": null
+        },
+        "citations": [],
+        "note": "The simple accent rule still disagrees with hvaþar. I keep the mismatch rather than inventing an old accent."
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "query": "akasatam",
+      "aliases": [
+        "lost accent",
+        "partial evidence",
+        "event order",
+        "g z þ"
+      ],
+      "sharedSearch": "https://antonsoo.github.io/officina/?q=akasatam#catalogue",
+      "lesson": "https://antonsoo.github.io/akzent/#infer",
+      "review": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "c2320bd0e528fba45f423b21cf453039c063682d0078f578621a6034c460fed9",
+      "thumbnailSha256": "bc1a9497224ff74444e82654aeded55b4cb49ae949a52f1da946f283c88e00b0",
+      "displayedSourceSha256": "cc1d278903ba8a55363bd160d6a44040781cf848549602c065a7a37dce15e342",
+      "nativeNotebook": {
+        "schema": "akzent-notebook",
+        "version": 1,
+        "rule": {
+          "accented": "voiceless",
+          "unaccented": "voiceless"
+        },
+        "selected": "father",
+        "revealed": [
+          "father",
+          "brother"
+        ],
+        "trials": [],
+        "accent": 0,
+        "order": "sounds-first",
+        "conditions": {
+          "initial": false,
+          "voicedNeighbors": true,
+          "precedingAccented": false
+        },
+        "inference": {
+          "evidence": {
+            "dorsal": "g",
+            "sibilant": "z",
+            "dental": "þ"
+          },
+          "order": "unknown",
+          "accent": 3,
+          "submitted": {
+            "evidence": {
+              "dorsal": "h",
+              "sibilant": "z",
+              "dental": "d"
+            },
+            "order": "unknown",
+            "accent": 3
+          }
+        },
+        "citations": [],
+        "note": "Allowing either order leaves h/z/d ambiguous; g/z/þ permits only position 3. My earlier checked proposal keeps its assumptions."
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "query": "katará",
+      "aliases": [
+        "katara",
+        "hvaþar",
+        "πότερος",
+        "páti"
+      ],
+      "sharedSearch": "https://antonsoo.github.io/officina/?q=katar%C3%A1#catalogue",
+      "lesson": "https://antonsoo.github.io/akzent/?word=which#selected-title",
+      "review": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "c2320bd0e528fba45f423b21cf453039c063682d0078f578621a6034c460fed9",
+      "thumbnailSha256": "be9bd3dc2245894f6cfcf278229e8d12d1aa3262cea8656055431a6246009f93",
+      "displayedSourceSha256": "e1f6da2f63cec281e4b718f19bf2baeb6875e782cd88ee97f006f5552f6cc7a8",
+      "nativeNotebook": {
+        "schema": "akzent-notebook",
+        "version": 1,
+        "rule": {
+          "accented": "voiceless",
+          "unaccented": "voiced"
+        },
+        "selected": "which",
+        "revealed": [
+          "father",
+          "brother",
+          "which"
+        ],
+        "trials": [
+          {
+            "word": "which",
+            "rule": {
+              "accented": "voiceless",
+              "unaccented": "voiced"
+            },
+            "prediction": "d"
+          }
+        ],
+        "accent": 0,
+        "order": "sounds-first",
+        "conditions": {
+          "initial": false,
+          "voicedNeighbors": true,
+          "precedingAccented": false
+        },
+        "inference": {
+          "evidence": {
+            "dorsal": "?",
+            "sibilant": "?",
+            "dental": "?"
+          },
+          "order": "sounds-first",
+          "accent": 0,
+          "submitted": null
+        },
+        "citations": [],
+        "note": "The simple accent rule still disagrees with hvaþar. I keep the mismatch rather than inventing an old accent."
+      },
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "query": "akasatam",
+      "aliases": [
+        "lost accent",
+        "partial evidence",
+        "event order",
+        "g z þ"
+      ],
+      "sharedSearch": "https://antonsoo.github.io/officina/?q=akasatam#catalogue",
+      "lesson": "https://antonsoo.github.io/akzent/#infer",
+      "review": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+      "reviewSha256": "c2320bd0e528fba45f423b21cf453039c063682d0078f578621a6034c460fed9",
+      "thumbnailSha256": "bc1a9497224ff74444e82654aeded55b4cb49ae949a52f1da946f283c88e00b0",
+      "displayedSourceSha256": "cc1d278903ba8a55363bd160d6a44040781cf848549602c065a7a37dce15e342",
+      "nativeNotebook": {
+        "schema": "akzent-notebook",
+        "version": 1,
+        "rule": {
+          "accented": "voiceless",
+          "unaccented": "voiceless"
+        },
+        "selected": "father",
+        "revealed": [
+          "father",
+          "brother"
+        ],
+        "trials": [],
+        "accent": 0,
+        "order": "sounds-first",
+        "conditions": {
+          "initial": false,
+          "voicedNeighbors": true,
+          "precedingAccented": false
+        },
+        "inference": {
+          "evidence": {
+            "dorsal": "g",
+            "sibilant": "z",
+            "dental": "þ"
+          },
+          "order": "unknown",
+          "accent": 3,
+          "submitted": {
+            "evidence": {
+              "dorsal": "h",
+              "sibilant": "z",
+              "dental": "d"
+            },
+            "order": "unknown",
+            "accent": 3
+          }
+        },
+        "citations": [],
+        "note": "Allowing either order leaves h/z/d ambiguous; g/z/þ permits only position 3. My earlier checked proposal keeps its assumptions."
+      },
+      "errors": []
+    }
+  ]
+}
