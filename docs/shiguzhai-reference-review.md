@@ -62,6 +62,10 @@ npm run test:shiguzhai-reference-local -- /tmp/officina-bell-reference
 ```
 
 The general catalogue checks also pass: lint, type checking, source formatting,
-catalogue validation, unit checks and production build. Both output directories
-are `dist/`; their bases remain `/officina/` and `/shiguzhai/` respectively.
+catalogue validation, 45 unit checks, production build, and the 44 general browser
+checks. A fresh archive installed and built under Node 24.22.1 produces the
+same **103 files** as the journey's catalogue build:
+[clean-build receipt](shiguzhai-reference-clean-build.json).
+Both output directories are `dist/`; their bases remain `/officina/` and
+`/shiguzhai/` respectively.
 Publication remains reserved for the coordinator by `HOUSE_STANDARDS.md`.
