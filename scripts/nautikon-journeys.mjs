@@ -64,10 +64,20 @@ try {
         await p.goto(`${base}?q=${encodeURIComponent("ἐκπλεύσωσιν")}`);
         const departure = p.locator('[data-project="nautikon"] [data-workshop="departure"]');
         await departure.waitFor();
-        await departure.locator("img").evaluate((img) => img.decode());
         await p
           .locator(".index-heading")
           .evaluate((e) => window.scrollTo(0, e.getBoundingClientRect().top + scrollY - 20));
+        await departure.locator("img").waitFor({ state: "visible" });
+        await departure.locator("img").evaluate(async (img) => {
+          if (!img.complete || !img.naturalWidth)
+            await new Promise((resolve, reject) => {
+              img.addEventListener("load", resolve, { once: true });
+              img.addEventListener("error", () => reject(new Error("Workshop thumbnail did not load")), {
+                once: true,
+              });
+            });
+          await img.decode();
+        });
         await p.screenshot({ path: resolve(out, `${name}-${width}-discovery.png`) });
         assert.equal(
           await departure.locator(".workshop-review").getAttribute("href"),

@@ -27,3 +27,30 @@ Before this catalogue publication, Officina passed lint, TypeScript, its 45
 existing cases, catalogue validation of 38 entries and production build. Both
 engines and widths completed the local smoke. These checks are separate from
 public hosting and CI execution.
+
+## Operated canonical journeys
+
+Chromium 153 and Firefox 155 each completed the real search-to-lesson-to-review
+journey at 1440 and 375 px. Every journey operated the departure rate, the
+shortfall, the testimony counterexample and a kept inference. It followed
+Hippias to p. 111, keyboard-panned the checked scan, saved and reopened JSON,
+and saved a scriptless reading whose embedded JSON restored the captured work.
+
+Both lesson pages reloaded with browser networking disabled after current
+worker takeover. Removing a source invalidated readiness in two tabs; online
+retry repaired the complete edition and displayed the source again. There were
+zero page errors. No routes were intercepted and no fixture supplied public
+catalogue, lesson or review content.
+
+Canonical byte comparisons after the journeys matched **98/98 Officina files**
+and **25/25 Nautikon files**, including a fresh root check after each file pass.
+See `receipts.json`, `officina-before.json`, `officina-after.json` and
+`nautikon-after.json`. The eight screenshots were inspected. Native downloads
+remain in ignored `test-results/nautikon-public/`; the portable examples live in
+Nautikon's source repository.
+
+The first public script run reached the two Chromium journeys, then stopped
+because Firefox's lazy thumbnail had not started loading before `decode()` was
+called. The script now scrolls to it and waits for the real load before decode.
+Only the subsequent complete four-journey run is the retained success receipt.
+This changed the audit's waiting behavior, not the published image bytes.
