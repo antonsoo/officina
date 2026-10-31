@@ -1,0 +1,81 @@
+{
+  "scope": "Local catalogue-to-lesson route. Public lesson URLs and pinned review URL are fulfilled from local dist files and the actual local commit. Service workers blocked here; offline behavior verified separately in the lesson review. This is not public delivery evidence.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "terms": [
+        "269 Hz",
+        "439.523",
+        "reference boundary",
+        "classification",
+        "石鼓寨"
+      ],
+      "sharedQuery": "?q=%E7%9F%B3%E9%BC%93%E5%AF%A8&audience=Ancient+world",
+      "destination": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439.524&against=439.523#reference",
+      "review": "https://github.com/antonsoo/shiguzhai/blob/125083a4e292e8e97a4814756d05be7d4d708968/docs/reference-review.md#what-a-learner-can-do",
+      "localPinnedReviewSha256": "d1150c47b730d3da706708cc9641cc7e472e0ad9d31592689a2b61c90469eff4",
+      "actualReadingSha256": "c7b2c2003362b509d154a3dbddc893c791d30b0628d60a71bbe16f1e1dc4241a",
+      "actualReadingBytes": 1316943,
+      "sourceImageSha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968",
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "terms": [
+        "269 Hz",
+        "439.523",
+        "reference boundary",
+        "classification",
+        "石鼓寨"
+      ],
+      "sharedQuery": "?q=%E7%9F%B3%E9%BC%93%E5%AF%A8&audience=Ancient+world",
+      "destination": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439.524&against=439.523#reference",
+      "review": "https://github.com/antonsoo/shiguzhai/blob/125083a4e292e8e97a4814756d05be7d4d708968/docs/reference-review.md#what-a-learner-can-do",
+      "localPinnedReviewSha256": "d1150c47b730d3da706708cc9641cc7e472e0ad9d31592689a2b61c90469eff4",
+      "actualReadingSha256": "c7b2c2003362b509d154a3dbddc893c791d30b0628d60a71bbe16f1e1dc4241a",
+      "actualReadingBytes": 1316943,
+      "sourceImageSha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968",
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "terms": [
+        "269 Hz",
+        "439.523",
+        "reference boundary",
+        "classification",
+        "石鼓寨"
+      ],
+      "sharedQuery": "?q=%E7%9F%B3%E9%BC%93%E5%AF%A8&audience=Ancient+world",
+      "destination": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439.524&against=439.523#reference",
+      "review": "https://github.com/antonsoo/shiguzhai/blob/125083a4e292e8e97a4814756d05be7d4d708968/docs/reference-review.md#what-a-learner-can-do",
+      "localPinnedReviewSha256": "d1150c47b730d3da706708cc9641cc7e472e0ad9d31592689a2b61c90469eff4",
+      "actualReadingSha256": "c7b2c2003362b509d154a3dbddc893c791d30b0628d60a71bbe16f1e1dc4241a",
+      "actualReadingBytes": 1316943,
+      "sourceImageSha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968",
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "terms": [
+        "269 Hz",
+        "439.523",
+        "reference boundary",
+        "classification",
+        "石鼓寨"
+      ],
+      "sharedQuery": "?q=%E7%9F%B3%E9%BC%93%E5%AF%A8&audience=Ancient+world",
+      "destination": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439.524&against=439.523#reference",
+      "review": "https://github.com/antonsoo/shiguzhai/blob/125083a4e292e8e97a4814756d05be7d4d708968/docs/reference-review.md#what-a-learner-can-do",
+      "localPinnedReviewSha256": "d1150c47b730d3da706708cc9641cc7e472e0ad9d31592689a2b61c90469eff4",
+      "actualReadingSha256": "c7b2c2003362b509d154a3dbddc893c791d30b0628d60a71bbe16f1e1dc4241a",
+      "actualReadingBytes": 1316943,
+      "sourceImageSha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968",
+      "pageErrors": []
+    }
+  ]
+}

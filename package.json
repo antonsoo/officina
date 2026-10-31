@@ -39,7 +39,8 @@
     "test:nautikon-local": "node scripts/nautikon-local.mjs",
     "test:nautikon": "node scripts/nautikon-journeys.mjs",
     "test:psephos-allotment": "node scripts/psephos-allotment-journeys.mjs",
-    "test:embater-doorways": "node scripts/embater-doorway-journeys.mjs"
+    "test:embater-doorways": "node scripts/embater-doorway-journeys.mjs",
+    "test:shiguzhai-reference-local": "node scripts/shiguzhai-reference-local.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
