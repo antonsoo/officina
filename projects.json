@@ -1,5 +1,73 @@
 [
   {
+    "name": "akzent",
+    "description": "Risk an accent rule on Gothic and Sanskrit, keep the comparisons that resist it, then ask which older accents the fictional consonants can actually determine. Read Verner’s German beside complete source pages.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/akzent",
+    "demoUrl": "https://antonsoo.github.io/akzent/",
+    "thumbnail": "thumbs/akzent-comparison.png",
+    "status": "published",
+    "study": {
+      "finding": "h / z / d singles out accent 1 with voicing first, yet permits all four when either order is allowed. The invented word keeps the assumptions visible.",
+      "url": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work"
+    },
+    "searchTerms": [
+      "Verner",
+      "Verner’s law",
+      "historical linguistics",
+      "Gothic",
+      "Sanskrit",
+      "Germanic",
+      "etymology",
+      "lost accent",
+      "sound change",
+      "German reading",
+      "comparative method"
+    ],
+    "workshops": [
+      {
+        "id": "resistant",
+        "title": "Keep the word that resists the rule",
+        "url": "https://antonsoo.github.io/akzent/?word=which#selected-title",
+        "reviewUrl": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+        "searchTerms": [
+          "katará",
+          "hvaþar",
+          "πότερος",
+          "poteros",
+          "páti",
+          "fadi",
+          "fadar",
+          "brōþar",
+          "Verner",
+          "dental split"
+        ],
+        "summary": "Keep a prediction before revealing Gothic hvaþar. Compare its þ with the d predicted from Sanskrit katará-, inspect the p. 119 mismatch list, and leave the unresolved accent question in an exportable notebook.",
+        "thumbnail": "thumbs/akzent-comparison.png"
+      },
+      {
+        "id": "inverse",
+        "title": "Can the consonants give the accent back?",
+        "url": "https://antonsoo.github.io/akzent/#infer",
+        "reviewUrl": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+        "searchTerms": [
+          "akasatam",
+          "inverse accent",
+          "lost accent",
+          "accent reconstruction",
+          "consonant evidence",
+          "event order",
+          "partial evidence",
+          "compatible accent",
+          "h z d",
+          "g z þ"
+        ],
+        "summary": "Withhold consonants from Verner’s invented word and allow either event order. Compare unique, ambiguous and impossible accent accounts; check a proposal, change the evidence, and keep both accounts in the reading or CSV.",
+        "thumbnail": "thumbs/akzent-inference.png"
+      }
+    ]
+  },
+  {
     "name": "psephos",
     "description": "Cast a concealed Athenian jury vote, audit which urn counts, and test what the published total can reveal. Read the Greek beside full printed pages and save the illustrated evidence.",
     "group": "Ancient world",
