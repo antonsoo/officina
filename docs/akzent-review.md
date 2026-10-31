@@ -12,19 +12,38 @@ a checked argument and an editable notebook.
 | `akasatam`, `lost accent`, `partial evidence`, `event order` | `akzent/#infer` | Compare unique, ambiguous and impossible accounts, then keep a checked proposal while changing the evidence |
 
 The project and both workshop reviews pin the
-[actual task instructions](https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work).
+[actual task instructions and source correction](https://github.com/antonsoo/akzent/blob/a5fd8d20abcf80246d1d1bcc5a5a3635f4364be6/docs/audit.md#try-the-actual-work).
 The screenshots come from the application. The other 36 catalogue entries are
 identical to their preceding source versions.
 
-## Local catalogue to public lesson
+## Source correction discovered during the audit
 
-The [local journey receipt](akzent/local-journeys.json) records eight continuous
-journeys: both investigations in Chromium and Firefox at 1440/375px. The
-catalogue is local; the lesson and pinned review are the real public pages.
-No request is redirected to a local copy of the lesson.
+Comparing a fresh download of the original PDF and new page renders with the
+retained images found an early citation error: _-fadi-_ and the compound
+_brūþ-fadi-_ are on printed **98**, not 99. Their later resistant comparison
+remains on **119**. The corrected Akzent edition retains all twelve complete
+source pages and embeds seven in its actual 23-page portable reading.
+The _katará-_ comparison correctly keeps **99, 119**.
 
-Each journey searches multiple Greek/Latin-script aliases, confirms that typing
-does not change the URL, explicitly copies the search link, and restores it.
+The [current source-evidence receipt](akzent/source-evidence.json) verifies a
+clean `a5fd8d2` main equal to its remote and **62** immutable public files fetched
+without credentials. These include all **20** source/font/license/provenance
+assets, the new primary-volume/render receipt, code for the citation correction,
+the actual samples and build/browser/update receipts. The earlier
+[47-file receipt](akzent/source-evidence-020.json) is retained as history.
+
+Akzent's [publication audit](https://github.com/antonsoo/akzent/blob/a5fd8d20abcf80246d1d1bcc5a5a3635f4364be6/docs/publication.md)
+separates the **25** current hosted files, public forward/inverse/recovery
+operation, local real-origin outages and remote jobs that did not run checks.
+Its live update audit starts on the real previous edition: three old tabs stay
+coherent while the new worker waits; after the last closes, the new edition
+keeps the explanation and serves the corrected p. 98 offline. Both browsers
+and both widths pass. This is separate from fresh-context offline operation.
+
+## Continuous discovery
+
+The journey driver searches Greek and Latin-script aliases, confirms that typing
+keeps the URL unchanged, explicitly copies a search link, and restores it.
 It decodes the actual thumbnail and compares its bytes with the local PNG.
 Keyboard navigation opens the immutable review and checks its raw public bytes
 against the pinned Git object, then returns to the saved search and opens the
@@ -38,50 +57,34 @@ Each journey hashes the source image actually displayed, writes an explanation,
 and checks the actual native JSON download. Phone overflow and JavaScript
 errors are also checked.
 
-Retained and visually inspected examples: [desktop](akzent/catalogue-desktop.png)
-and [375px](akzent/catalogue-mobile.png).
-
-## Source and publication boundaries
-
-The [Akzent source-evidence receipt](akzent/source-evidence.json) verifies a clean
-local branch equal to remote main and **47** immutable public source/evidence
-files fetched without credentials. These include all 19 pinned source/font/
-license/provenance assets, the audit and publication documents, actual sample
-HTML/PDF/JSON/CSV/SVG files, the deployment workflow, and browser/build receipts.
-
-Akzent's own [publication audit](https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/publication.md)
-separates its 24 verified hosted files, public forward/inverse/recovery browser
-runs, actual local-origin outages, and the source CI jobs that failed with empty
-step lists. The successful static Pages build is a different result.
-
-The [clean-build receipt](akzent/clean-build.json) records a fresh Node 24.22.1
-install, lint, formatting, strict types, 45 existing checks and build. All
-**95 expected files** match the working build; all **36** previous entries are
-unchanged. The [served-change receipt](akzent/served-changes.json) identifies
-only `projects.json` and the two new screenshots as changed publication files.
-The static branch preserves its existing history and older hashed assets.
-
-The [public-file receipt](akzent/public-files.json) verifies the canonical entry,
-explicit index and all 95 expected files against that clean inventory **after**
-the public journeys. The [public journey receipt](akzent/public-journeys.json)
-repeats all eight workflows from the actual public catalogue, without request
-redirection. Both searches, copied/restored links, native keyboard navigation,
-immutable reviews, operated lessons, displayed scans and actual notebook
-downloads pass. Retained examples were visually inspected:
+The [initial local journeys](akzent/local-journeys.json) and
+[initial public journeys](akzent/public-journeys.json) are retained. The
+[citation-corrected local journeys](akzent/local-journeys-021.json) and
+[latest public journeys](akzent/public-journeys-021.json) repeat both workflows
+in Chromium/Firefox at 1440/375px, now using the corrected immutable review.
+There is no request redirection to local lessons or reviews.
+Retained and visually inspected examples:
 [desktop](akzent/public-desktop.png) and [375px](akzent/public-mobile.png).
 
-The [lesson recheck](akzent/lesson-after-journeys.json) verifies all **24** Akzent
-files again after catalogue navigation. The [publication metadata](akzent/publication.json)
-records the branch configuration separately: the Actions query returned no
-runs, so no catalogue source-CI or workflow-execution success is inferred.
-Canonical hosted bytes and actual public browser behavior passed independently.
+## Catalogue publication
 
-Akzent's subsequent deployment follow-up preserves history and older hashed
-assets. The source-evidence receipt checks its current clean `550e260` main;
-the catalogue's immutable `86b8b6a` review has identical argument bytes.
+The [new clean-build receipt](akzent/clean-build-021.json) checks a fresh Node 24
+install and build. All **95 expected files** match the working build, and all
+**36** previous entries remain identical. The initial publication changed only
+the catalogue data and two screenshots, as recorded in the
+[served-change receipt](akzent/served-changes.json); this follow-up updates only
+the three review pins within the Akzent catalogue entry.
+
+The [latest public-file receipt](akzent/public-files-021.json) compares the
+canonical entry, explicit index and all 95 expected files after the public
+journeys. The [lesson recheck](akzent/lesson-after-journeys-021.json) compares
+all 25 Akzent files afterwards. Static-branch history and older hashed assets
+are preserved. The [initial publication metadata](akzent/publication.json)
+records Pages configuration and an empty Actions query; no source-CI or
+workflow-execution success is inferred from local checks or hosted availability.
 
 Place the Akzent checkout beside Officina (the driver reads its source manifest
-and pinned Git object). Reproduce the continuous journey with:
+and pinned Git object). Reproduce with:
 
 ```sh
 npm run test:akzent -- http://127.0.0.1:4396/officina/ test-results/akzent-local

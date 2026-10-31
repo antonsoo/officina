@@ -9,7 +9,7 @@
     "status": "published",
     "study": {
       "finding": "h / z / d singles out accent 1 with voicing first, yet permits all four when either order is allowed. The invented word keeps the assumptions visible.",
-      "url": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work"
+      "url": "https://github.com/antonsoo/akzent/blob/a5fd8d20abcf80246d1d1bcc5a5a3635f4364be6/docs/audit.md#try-the-actual-work"
     },
     "searchTerms": [
       "Verner",
@@ -29,7 +29,7 @@
         "id": "resistant",
         "title": "Keep the word that resists the rule",
         "url": "https://antonsoo.github.io/akzent/?word=which#selected-title",
-        "reviewUrl": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+        "reviewUrl": "https://github.com/antonsoo/akzent/blob/a5fd8d20abcf80246d1d1bcc5a5a3635f4364be6/docs/audit.md#try-the-actual-work",
         "searchTerms": [
           "katará",
           "hvaþar",
@@ -49,7 +49,7 @@
         "id": "inverse",
         "title": "Can the consonants give the accent back?",
         "url": "https://antonsoo.github.io/akzent/#infer",
-        "reviewUrl": "https://github.com/antonsoo/akzent/blob/86b8b6ad5914c90b1d79168c65f685f044b9f245/docs/audit.md#try-the-actual-work",
+        "reviewUrl": "https://github.com/antonsoo/akzent/blob/a5fd8d20abcf80246d1d1bcc5a5a3635f4364be6/docs/audit.md#try-the-actual-work",
         "searchTerms": [
           "akasatam",
           "inverse accent",
