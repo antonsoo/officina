@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-31T10:32:34.277Z",
+  "commit": "473efd5e2e3003873521f503096afcd67dc8983a",
+  "refs": "ea0b34337453a95187b83b07dcb5335b20f49616\trefs/heads/gh-pages\n473efd5e2e3003873521f503096afcd67dc8983a\trefs/heads/main",
+  "pages": {
+    "build_type": "legacy",
+    "source": {
+      "branch": "gh-pages",
+      "path": "/"
+    },
+    "html_url": "https://antonsoo.github.io/officina/",
+    "status": null
+  },
+  "runs": [],
+  "deployment": "ea0b34337453a95187b83b07dcb5335b20f49616",
+  "previous": "17d48b832a76d6498f8b499df90cbfdbc5f97387",
+  "files": [
+    {
+      "path": "public/projects.json",
+      "bytes": 72667,
+      "sha256": "8f2a5f8a41e053c9d463162d3802eb04e9c7a00e490505a00badd6d3a6a039d7",
+      "equalPinnedBlob": true
+    },
+    {
+      "path": "public/thumbs/traditio-river.png",
+      "bytes": 136354,
+      "sha256": "ad8e3d10eed5167d0c9634924f38920308c937e059d45a441ee0dc414e3f95c6",
+      "equalPinnedBlob": true
+    },
+    {
+      "path": "docs/traditio-river-review.md",
+      "bytes": 2935,
+      "sha256": "0cc6f77d08d0168ae3a36eefd842f3f7548a98f2478d891337915a5f7a3e85ad",
+      "equalPinnedBlob": true
+    },
+    {
+      "path": "scripts/traditio-river-journeys.mjs",
+      "bytes": 11042,
+      "sha256": "a09d6757957d565b960c253fcc1c2eb2396d9b276981ceb8992cdc7b09774e01",
+      "equalPinnedBlob": true
+    },
+    {
+      "path": "scripts/readiness-public.mjs",
+      "bytes": 14961,
+      "sha256": "da0724464041228b8d5cbfe6cc7fc1060b41f5ec383943f28f77b4df3923bc3a",
+      "equalPinnedBlob": true
+    },
+    {
+      "path": "studies/traditio-river-local/histories.json",
+      "bytes": 495,
+      "sha256": "aa7d097e339c2b5213084d8eca90ff3e71d23283489a6bdae7be45804a2bcbd6",
+      "equalPinnedBlob": true
+    },
+    {
+      "path": "studies/traditio-river-local/histories.csv",
+      "bytes": 2228,
+      "sha256": "0bc51ef789ccd2ab226612687ae40ab754a583d0d1151aefe40f92c3dff0a03d",
+      "equalPinnedBlob": true
+    },
+    {
+      "path": "studies/traditio-river-local/histories.svg",
+      "bytes": 2770,
+      "sha256": "8a583b826e5732521f94714d712238934cdb58410e0a786444356a58539a8c6c",
+      "equalPinnedBlob": true
+    },
+    {
+      "path": "studies/traditio-river-local/reading.html.gz",
+      "bytes": 4829609,
+      "sha256": "f1696a6d98e6f7a33e91ba47cc9df3dde2e0887cd677666001b8e988188165db",
+      "equalPinnedBlob": true
+    }
+  ]
+}

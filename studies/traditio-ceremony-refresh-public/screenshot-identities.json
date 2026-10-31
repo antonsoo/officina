@@ -1,0 +1,30 @@
+[
+  {
+    "capture": "chromium-1440-catalogue.png",
+    "bytes": 366258,
+    "sha256": "58a7e67508547352ca948c18a4c9e19f32cb7410c5210460ed3d28970dd5b901",
+    "retainedAs": "../traditio-ceremony-refresh-local/chromium-1440-catalogue.png",
+    "identicalToLocal": true
+  },
+  {
+    "capture": "chromium-375-catalogue.png",
+    "bytes": 253102,
+    "sha256": "7c63545dbdcd3494f728f88f4c5319018f8574663910b24ab2090acacbd9fc81",
+    "retainedAs": "../traditio-ceremony-refresh-local/chromium-375-catalogue.png",
+    "identicalToLocal": true
+  },
+  {
+    "capture": "firefox-1440-catalogue.png",
+    "bytes": 489271,
+    "sha256": "d7c3ea7bb1016ef8a8da2be65b52655025f8ff37d40beba0f7ad094ed3c3b0e2",
+    "retainedAs": "firefox-1440-catalogue.png",
+    "identicalToLocal": false
+  },
+  {
+    "capture": "firefox-375-catalogue.png",
+    "bytes": 313433,
+    "sha256": "8adf2d4d72f1073efde8690e6cdc1a78ad7acc8cfdc8f9cd93fb24934f4dbd43",
+    "retainedAs": "../traditio-ceremony-refresh-local/firefox-375-catalogue.png",
+    "identicalToLocal": true
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-31T10:28:52.476Z",
+  "allPublicDownloadsIdenticalToRetainedLocalCaptures": true,
+  "aliases": [
+    {
+      "captured": "histories.json",
+      "retainedAs": "../traditio-river-local/histories.json",
+      "bytes": 495,
+      "sha256": "aa7d097e339c2b5213084d8eca90ff3e71d23283489a6bdae7be45804a2bcbd6"
+    },
+    {
+      "captured": "histories.csv",
+      "retainedAs": "../traditio-river-local/histories.csv",
+      "bytes": 2228,
+      "sha256": "0bc51ef789ccd2ab226612687ae40ab754a583d0d1151aefe40f92c3dff0a03d"
+    },
+    {
+      "captured": "histories.svg",
+      "retainedAs": "../traditio-river-local/histories.svg",
+      "bytes": 2770,
+      "sha256": "8a583b826e5732521f94714d712238934cdb58410e0a786444356a58539a8c6c"
+    },
+    {
+      "captured": "reading.html.gz",
+      "retainedAs": "../traditio-river-local/reading.html.gz",
+      "bytes": 4829609,
+      "sha256": "f1696a6d98e6f7a33e91ba47cc9df3dde2e0887cd677666001b8e988188165db"
+    }
+  ]
+}

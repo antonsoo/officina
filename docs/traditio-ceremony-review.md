@@ -20,7 +20,7 @@ awaits the award. It displays and hashes printed page 134 and downloads the same
 The local catalogue-to-public-lesson journey passed in Chromium and Firefox at
 1440 and 375 pixels. Editing the search does not rewrite the address bar.
 
-- [Local discovery journeys](../studies/traditio-ceremony-local/review.json)
+- [Local discovery journeys](../studies/traditio-ceremony-refresh-local/review.json)
 
 ## Earlier publication record (30 October)
 
@@ -57,3 +57,6 @@ The current native HTML is 4,573,041 bytes, SHA-256
 `e9cd6f6fa877a115bea61a8f968ae2372534bad5f6462fa0cd8383a011d2c432`.
 The earlier 4,571,494-byte capture remains a historical receipt; it is not the
 current download. The discovery journey checks the refreshed capture.
+
+The refreshed public catalogue journey passed in both browsers at desktop and
+phone widths: [current public review](../studies/traditio-ceremony-refresh-public/review.json).

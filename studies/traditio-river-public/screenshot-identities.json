@@ -1,0 +1,58 @@
+[
+  {
+    "capture": "chromium-1440-catalogue.png",
+    "bytes": 366823,
+    "sha256": "5ebcd9a21f9b138081555a06efc09bc038e804a124afa9d80da4d88771be9456",
+    "retainedAs": "chromium-1440-catalogue.png",
+    "identicalToLocal": false
+  },
+  {
+    "capture": "chromium-1440-comparison.png",
+    "bytes": 91953,
+    "sha256": "22effa8cfd02ae57ee80dd1ab80fdbcebec5613488d031a6ccb2b30cb0714053",
+    "retainedAs": "../traditio-river-local/chromium-1440-comparison.png",
+    "identicalToLocal": true
+  },
+  {
+    "capture": "chromium-375-catalogue.png",
+    "bytes": 253370,
+    "sha256": "af0b5fb7e7b45c934a86c766450d369c71d194af56567629ca7a807c5b73b2fd",
+    "retainedAs": "../traditio-river-local/chromium-375-catalogue.png",
+    "identicalToLocal": true
+  },
+  {
+    "capture": "chromium-375-comparison.png",
+    "bytes": 61675,
+    "sha256": "8cca65193231bf6e75c70e214555b3ac2ec2371fd263e5f48084e60636b2ffe3",
+    "retainedAs": "../traditio-river-local/chromium-375-comparison.png",
+    "identicalToLocal": true
+  },
+  {
+    "capture": "firefox-1440-catalogue.png",
+    "bytes": 491314,
+    "sha256": "efe5d1587b25beeb5fd51d6f058572f4ed8e156ae874561021449b0101e47a38",
+    "retainedAs": "firefox-1440-catalogue.png",
+    "identicalToLocal": false
+  },
+  {
+    "capture": "firefox-1440-comparison.png",
+    "bytes": 139041,
+    "sha256": "a754dc44d58a0da86f945c1f09afad8ba3ab427c3b8ad84047156f4465cb06f4",
+    "retainedAs": "../traditio-river-local/firefox-1440-comparison.png",
+    "identicalToLocal": true
+  },
+  {
+    "capture": "firefox-375-catalogue.png",
+    "bytes": 314622,
+    "sha256": "40b824da719846aeacb820d455553da15106f1b35dd81da7056271e5e6789762",
+    "retainedAs": "../traditio-river-local/firefox-375-catalogue.png",
+    "identicalToLocal": true
+  },
+  {
+    "capture": "firefox-375-comparison.png",
+    "bytes": 98555,
+    "sha256": "f6f061266737667f53997c90ebfd4a47f0db97cc7ff4f4fccbc2bce3edcfdf6c",
+    "retainedAs": "../traditio-river-local/firefox-375-comparison.png",
+    "identicalToLocal": true
+  }
+]
