@@ -54,3 +54,31 @@ inventory. The final catalogue pins Embater review
 used its ancestor `de85d41bd727ad363e3c4dacbf3a718a33b5be3f` before the public
 publication section was added. The lesson code is unchanged between those
 review revisions.
+
+## Public discovery and publication
+
+The catalogue and both workshops are public. Source main commit
+`9cfa0fafc7d531ffa5ba96f10cff7bf720352d84` contains the reviewed entries. Pages
+commit `2d5cb1ed0b54435ca0248f88e78f605ee51fdc00` is a normal fast-forward of
+the previously published Pages branch, copied from the independent build.
+
+| Boundary | Recorded result | Receipt |
+| --- | --- | --- |
+| Canonical catalogue before discovery | All 102 files and root match the reviewed build | [Before](review/embater-doorways/public-bytes-before.json) |
+| Continuous public discovery | Eight journeys; both engines, both widths, both workshops | [Public journeys](review/embater-doorways/public-journeys.json) |
+| Pinned primary/model review | Exact raw bytes at Embater revision `db1abef0c1885407e764aa4618431f9d2d2ab29d` | Same journey receipt |
+| Actual learner operation | Supplied-half switch and corner match; three-rule desk selection showing 14 mm and 28 mm residuals; source reading and actual HTML download | Same journey receipt |
+| Source images in actual downloads | Four images match the independently retained original-page hashes | Same journey receipt |
+| Canonical catalogue after discovery | All 102 files and root still match | [After](review/embater-doorways/public-bytes-after.json) |
+| Canonical Embater after discovery | All 54 files and root still match | [Embater recheck](review/embater-doorways/embater-after-discovery.json) |
+
+The public journey opens two selected fits on the survey desk; Embater's
+separate public matrix covers all six fits. Public screenshots were visually
+inspected: [desktop survey discovery](review/embater-doorways/chromium-1440-erechtheion-catalogue.png)
+and [phone Greek-word discovery](review/embater-doorways/firefox-375-doorways-catalogue.png).
+
+[Publication metadata](review/embater-doorways/publication.json) keeps source,
+build, hosted identity and browser behavior separate. Actions are disabled for
+this repository; its latest Pages-build endpoint returned HTTP 404. Those are
+unavailable CI/deployment-job boundaries, not a failed hosted-byte check. No
+source-CI success, tag or registry release is claimed.

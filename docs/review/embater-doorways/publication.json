@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-31T22:56:45.702716+00:00",
+  "reviewedBuildSource": "e4959193e7608314a98a7f90b8afc0eadd1523f3",
+  "sourcePublication": "9cfa0fafc7d531ffa5ba96f10cff7bf720352d84",
+  "previousPagesHead": "aa4ebe356ef6fa3605ff722859898353830bf337",
+  "pagesHead": "2d5cb1ed0b54435ca0248f88e78f605ee51fdc00",
+  "pagesHistory": "fast-forward; no force push",
+  "pinnedEmbaterReview": "db1abef0c1885407e764aa4618431f9d2d2ab29d",
+  "boundaries": {
+    "catalogueFilesVerifiedBefore": 102,
+    "catalogueFilesVerifiedAfter": 102,
+    "embaterFilesVerifiedAfterDiscovery": 54,
+    "continuousPublicJourneys": 8,
+    "browsers": [
+      "chromium",
+      "firefox"
+    ],
+    "widths": [
+      1440,
+      375
+    ],
+    "workshops": [
+      "doorways",
+      "erechtheion"
+    ]
+  },
+  "repositoryActionsEnabled": false,
+  "latestPagesBuildEndpoint": {
+    "httpStatus": 404,
+    "meaning": "API evidence unavailable; no deployment-job or source-CI success inferred"
+  },
+  "registryRelease": false,
+  "tag": false
+}
