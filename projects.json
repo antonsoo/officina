@@ -276,7 +276,7 @@
   },
   {
     "name": "embater",
-    "description": "Compare Vitruvius with temple records, then vary what his plan descriptions leave open. Inspect the Latin, room proportions and competing 34/38-column readings; save the illustrated evidence.",
+    "description": "Draw Vitruvius’s temple and doorway rules from Latin. Compare the supplied half, uncertain plan counts and a measured Erechtheion opening; keep the illustrated sources.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/embater",
     "demoUrl": "https://antonsoo.github.io/embater/compare.html",
@@ -346,6 +346,49 @@
         ],
         "summary": "Change the assumed rectangle and the inner count changes from 34 to 38. Preserve the cella while adding rear columns; inspect seven printed pages and take the selected plan away with its sources.",
         "thumbnail": "thumbs/embater-plans.png"
+      },
+      {
+        "id": "doorways",
+        "title": "A half changes the doorway",
+        "url": "https://antonsoo.github.io/embater/doorways.html",
+        "reviewUrl": "https://github.com/antonsoo/embater/blob/db1abef0c1885407e764aa4618431f9d2d2ab29d/docs/doorway-review.md#try-the-actual-work",
+        "searchTerms": [
+          "semis",
+          "thyromaton",
+          "θύρωμα",
+          "antepagmentum",
+          "supercilium",
+          "lumen",
+          "lacunar",
+          "doorway contraction",
+          "Vitruvius IV.6",
+          "jamb taper",
+          "supplied half"
+        ],
+        "summary": "Read a supplied Latin half under one ceiling: 20 or 16 feet. Move the upper corners, cross the contraction boundaries, read the complete pages and save the drawing with its sources.",
+        "thumbnail": "thumbs/embater-doorways.webp"
+      },
+      {
+        "id": "erechtheion",
+        "title": "Almost a double square",
+        "url": "https://antonsoo.github.io/embater/doorways.html#measured-doorway",
+        "reviewUrl": "https://github.com/antonsoo/embater/blob/db1abef0c1885407e764aa4618431f9d2d2ab29d/docs/doorway-review.md#almost-a-double-square",
+        "searchTerms": [
+          "Erechtheion",
+          "Erechtheum",
+          "North Door",
+          "double square",
+          "4.882",
+          "2.427",
+          "Stevens",
+          "Paton",
+          "later linings",
+          "measured opening",
+          "14 mm",
+          "28 mm"
+        ],
+        "summary": "Match the Erechtheion report’s height or lower width against three rules. The exact double square leaves 14 mm in width or 28 mm in height. Inspect the 1927 survey’s omitted later lining.",
+        "thumbnail": "thumbs/embater-erechtheion.webp"
       }
     ]
   },
