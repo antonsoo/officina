@@ -92,6 +92,7 @@ try {
           const heading = document.querySelector(".index-heading");
           window.scrollTo(0, heading.getBoundingClientRect().top + window.scrollY - 20);
         });
+        await row.locator("img").evaluate((img) => img.decode());
         await p.screenshot({ path: `${out}/${name}-${width}-search.png` });
         await row.locator(".workshop-demo").focus();
         await p.keyboard.press("Enter");
