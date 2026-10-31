@@ -42,3 +42,15 @@ The [local-catalogue receipt](review/embater-doorways/local-catalogue.json)
 records eight continuous local-catalogue to public-lesson journeys. It is not a
 public-catalogue publication claim. Build output and public-catalogue verification
 are recorded separately when that catalogue edition is published.
+
+## Independent build
+
+A fresh git archive of `e4959193e7608314a98a7f90b8afc0eadd1523f3` was installed
+under Node 24.22.1. Lint, typecheck, source formatting, all 45 tests and the
+production build passed. All 102 generated files byte-match the working build.
+The [clean-build receipt](review/embater-doorways/clean-build.json) retains the
+inventory. The final catalogue pins Embater review
+`db1abef0c1885407e764aa4618431f9d2d2ab29d`; the earlier local journey receipt
+used its ancestor `de85d41bd727ad363e3c4dacbf3a718a33b5be3f` before the public
+publication section was added. The lesson code is unchanged between those
+review revisions.
