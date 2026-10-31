@@ -88,6 +88,10 @@ try {
         await p.locator("#tool-search").fill("ἐκπλεύσωσιν");
         const row = p.locator('[data-project="nautikon"] [data-workshop="departure"]');
         await row.waitFor({ state: "visible" });
+        await p.evaluate(() => {
+          const heading = document.querySelector(".index-heading");
+          window.scrollTo(0, heading.getBoundingClientRect().top + window.scrollY - 20);
+        });
         await p.screenshot({ path: `${out}/${name}-${width}-search.png` });
         await row.locator(".workshop-demo").focus();
         await p.keyboard.press("Enter");
