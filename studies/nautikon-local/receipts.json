@@ -1,0 +1,42 @@
+[
+  {
+    "browser": "chromium",
+    "width": 1440,
+    "pendingEntryStayedHidden": true,
+    "previewFixtureOnly": true,
+    "departureRateAndSource": true,
+    "shortfallOperated": true,
+    "reviewCommit": "17c62914d4231a69df70dc0c298fbc5387bee6b5",
+    "remoteChecked": false
+  },
+  {
+    "browser": "chromium",
+    "width": 375,
+    "pendingEntryStayedHidden": true,
+    "previewFixtureOnly": true,
+    "departureRateAndSource": true,
+    "shortfallOperated": true,
+    "reviewCommit": "17c62914d4231a69df70dc0c298fbc5387bee6b5",
+    "remoteChecked": false
+  },
+  {
+    "browser": "firefox",
+    "width": 1440,
+    "pendingEntryStayedHidden": true,
+    "previewFixtureOnly": true,
+    "departureRateAndSource": true,
+    "shortfallOperated": true,
+    "reviewCommit": "17c62914d4231a69df70dc0c298fbc5387bee6b5",
+    "remoteChecked": false
+  },
+  {
+    "browser": "firefox",
+    "width": 375,
+    "pendingEntryStayedHidden": true,
+    "previewFixtureOnly": true,
+    "departureRateAndSource": true,
+    "shortfallOperated": true,
+    "reviewCommit": "17c62914d4231a69df70dc0c298fbc5387bee6b5",
+    "remoteChecked": false
+  }
+]

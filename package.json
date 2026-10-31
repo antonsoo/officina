@@ -35,7 +35,8 @@
     "test:psephos": "node scripts/psephos-journeys.mjs",
     "test:readiness-public": "node scripts/readiness-public.mjs",
     "test:akzent": "node scripts/akzent-journeys.mjs",
-    "test:river": "node scripts/traditio-river-journeys.mjs"
+    "test:river": "node scripts/traditio-river-journeys.mjs",
+    "test:nautikon-local": "node scripts/nautikon-local.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",

@@ -1,5 +1,66 @@
 [
   {
+    "name": "nautikon",
+    "description": "Change an Athenian sea-loan voyage and read the Greek that distinguishes departure, arrival, debt and security. Keep two accounts and save the illustrated source dossier.",
+    "group": "Ancient world",
+    "repoUrl": "https://github.com/antonsoo/nautikon",
+    "demoUrl": null,
+    "thumbnail": "thumbs/nautikon-voyage.png",
+    "status": "soon",
+    "searchTerms": [
+      "ναυτικόν",
+      "Demosthenes",
+      "Against Lacritus",
+      "sea loan",
+      "maritime loan",
+      "Arcturus",
+      "ἐκπλεύσωσιν",
+      "Mende",
+      "Hellespont",
+      "jettison",
+      "ἐκβολή",
+      "ὑποθήκη",
+      "collateral",
+      "ancient Greek law",
+      "shortfall"
+    ],
+    "workshops": [
+      {
+        "id": "departure",
+        "title": "Which event changes the rate?",
+        "url": "https://antonsoo.github.io/nautikon/#bench",
+        "reviewUrl": "https://github.com/antonsoo/nautikon/blob/17c62914d4231a69df70dc0c298fbc5387bee6b5/docs/review.md#try-the-actual-work",
+        "searchTerms": [
+          "Arcturus",
+          "ἐκπλεύσωσιν",
+          "departure evidence",
+          "225 per thousand",
+          "300 per thousand",
+          "late arrival"
+        ],
+        "summary": "Move arrival while departure stays fixed, then cross the Arcturus boundary with departure. Withhold departure evidence and inspect why arrival cannot determine the rate. Read the Greek verb.",
+        "thumbnail": "thumbs/nautikon-voyage.png"
+      },
+      {
+        "id": "shortfall",
+        "title": "Who bears the shortfall?",
+        "url": "https://antonsoo.github.io/nautikon/#default",
+        "reviewUrl": "https://github.com/antonsoo/nautikon/blob/17c62914d4231a69df70dc0c298fbc5387bee6b5/docs/review.md#try-the-actual-work",
+        "searchTerms": [
+          "ὑποθήκη",
+          "ἐλλείπῃ",
+          "shortfall",
+          "jettison",
+          "collateral sale",
+          "repayment interval",
+          "security survives"
+        ],
+        "summary": "Keep a 3,675 debt and assume 2,000 sale proceeds. Cross the repayment interval, compare the 1,675 claim with full repayment, and inspect the separate salvage clause.",
+        "thumbnail": "thumbs/nautikon-voyage.png"
+      }
+    ]
+  },
+  {
     "name": "akzent",
     "description": "Risk an accent rule on Gothic and Sanskrit, keep the comparisons that resist it, then ask which older accents the fictional consonants can actually determine. Read Verner’s German beside complete source pages.",
     "group": "Ancient world",
