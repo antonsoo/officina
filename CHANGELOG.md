@@ -21,6 +21,8 @@ All notable changes to this project are documented in this file.
 
 ### Added
 
+- Discover Psephos attendance and row selection by Greek source phrases, with actual operated previews, exact-model questions and immutable reviewed journeys.
+
 - Discover Which Dorian through Greek interval words, compare the two meanings
   from one pitch, and save the sound with its Greek reading and printed sources.
   The selected music entry opens this experiment directly.

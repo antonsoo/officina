@@ -1,0 +1,31 @@
+{
+  "head": "93aef778494fc053c2c31226be5c5cc8f99c6701",
+  "remote": "93aef778494fc053c2c31226be5c5cc8f99c6701",
+  "clean": true,
+  "artifacts": [
+    {
+      "path": "docs/attendance-review.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/psephos/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md",
+      "bytes": 11148,
+      "sha256": "e8450cca8f41fc1cca1c8dc74c50a7e4b71fe6d29df9009fc34ef80aac9101b3"
+    },
+    {
+      "path": "docs/attendance-model.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/psephos/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-model.md",
+      "bytes": 7696,
+      "sha256": "897b117bf02a85220e08f423400ec5ca2722c7f550578b8406dd40f1067898d6"
+    },
+    {
+      "path": "docs/attendance-publication.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/psephos/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-publication.md",
+      "bytes": 4974,
+      "sha256": "3b4768421e5bd5fcb4696d2927e7ae6228781c270c152c42bcb6ac772bb8e538"
+    },
+    {
+      "path": "docs/attendance-review/public-workshops.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/psephos/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review/public-workshops.json",
+      "bytes": 11763,
+      "sha256": "4d34af8158c9c9d7d67e7fe59eeeea3f281aa41da423150baa1ba5cd5e856804"
+    }
+  ]
+}

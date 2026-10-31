@@ -1,0 +1,93 @@
+npm notice run officina@0.1.0 test:browser
+npm notice run npm run build && playwright test
+npm notice run officina@0.1.0 build
+npm notice run npm run check:catalogue && tsc -p tsconfig.json --noEmit && vite build
+npm notice run officina@0.1.0 check:catalogue
+npm notice run node scripts/check-catalogue.mjs
+Catalogue checked: 38 entries and thumbnails.
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 8 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                               3.06 kB │ gzip: 1.22 kB
+dist/assets/eb-garamond-vietnamese-DvUmmjCN.woff2            10.95 kB
+dist/assets/eb-garamond-italic-vietnamese-2ii8blLS.woff2     11.02 kB
+dist/assets/eb-garamond-greek-ext-CW-BywWH.woff2             11.48 kB
+dist/assets/eb-garamond-italic-greek-ext-nvsmRjVx.woff2      11.96 kB
+dist/assets/eb-garamond-italic-greek-Dc0bJcw6.woff2          19.59 kB
+dist/assets/hanken-grotesk-latin-ext-Dg-wlmqe.woff2          19.59 kB
+dist/assets/eb-garamond-greek-DCPER7xl.woff2                 19.87 kB
+dist/assets/eb-garamond-cyrillic-DBa2mnKT.woff2              26.02 kB
+dist/assets/eb-garamond-italic-cyrillic-Cini1BOa.woff2       26.52 kB
+dist/assets/eb-garamond-cyrillic-ext-Bt3rCdHq.woff2          33.95 kB
+dist/assets/hanken-grotesk-latin-CaVRRdDk.woff2              34.70 kB
+dist/assets/eb-garamond-italic-cyrillic-ext-Ba0fXTjv.woff2   35.42 kB
+dist/assets/eb-garamond-latin-CRpggXlh.woff2                 44.34 kB
+dist/assets/eb-garamond-italic-latin-AvGrCMCN.woff2          47.94 kB
+dist/assets/eb-garamond-italic-latin-ext-CYvIfuu9.woff2      88.58 kB
+dist/assets/eb-garamond-latin-ext-B6IpcvL2.woff2            113.93 kB
+dist/assets/index-Dg7A3d63.css                               14.65 kB │ gzip: 3.50 kB
+dist/assets/index-4odtQgoo.js                                17.55 kB │ gzip: 6.14 kB │ map: 40.61 kB
+✓ built in 243ms
+[WebServer] npm notice run officina@0.1.0 preview
+[WebServer] npm notice run vite preview --host 127.0.0.1 --port 4188 --strictPort
+[WebServer] (node:415683) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 44 tests using 2 workers
+
+(node:415719) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:415720) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/browser/catalogue.spec.mjs:46:1 › keyboard users can skip the header, filter, and clear without losing their place (624ms)
+  ✓   1 [chromium] › tests/browser/catalogue.spec.mjs:28:1 › combines text and audience filters, keeps focus, and resets both (2.4s)
+  ✓   3 [chromium] › tests/browser/catalogue.spec.mjs:68:1 › filtering is local, preserves card nodes, and does not change the URL (1.7s)
+  ✓   4 [chromium] › tests/browser/catalogue.spec.mjs:88:3 › recovers from http with a keyboard-accessible retry (324ms)
+  ✓   5 [chromium] › tests/browser/catalogue.spec.mjs:88:3 › recovers from network with a keyboard-accessible retry (319ms)
+  ✓   6 [chromium] › tests/browser/catalogue.spec.mjs:88:3 › recovers from invalid-json with a keyboard-accessible retry (349ms)
+  ✓   7 [chromium] › tests/browser/catalogue.spec.mjs:88:3 › recovers from invalid-entry with a keyboard-accessible retry (365ms)
+  ✓   9 [chromium] › tests/browser/catalogue.spec.mjs:124:1 › empty catalogues show a useful status (172ms)
+  ✓   8 [chromium] › tests/browser/catalogue.spec.mjs:110:1 › unpublished projects stay absent even when their name matches (352ms)
+  ✓  10 [chromium] › tests/browser/catalogue.spec.mjs:130:1 › catalogue text is escaped and cannot add markup (221ms)
+  ✓  11 [chromium] › tests/browser/catalogue.spec.mjs:145:1 › themes remain usable when storage is unavailable (432ms)
+  ✓  12 [chromium] › tests/browser/catalogue.spec.mjs:165:5 › fits 375px in light theme (1.5s)
+  ✓  13 [chromium] › tests/browser/catalogue.spec.mjs:165:5 › fits 1280px in light theme (1.5s)
+  ✓  14 [chromium] › tests/browser/catalogue.spec.mjs:165:5 › fits 375px in dark theme (1.4s)
+  ✓  16 [chromium] › tests/browser/catalogue.spec.mjs:209:1 › cards state their recorded evidence and link to its source revision (344ms)
+  ✓  15 [chromium] › tests/browser/catalogue.spec.mjs:165:5 › fits 1280px in dark theme (1.5s)
+  ✓  17 [chromium] › tests/browser/catalogue.spec.mjs:225:1 › source-word searches expose keyboard-accessible links to the matching reader (580ms)
+  ✓  18 [chromium] › tests/browser/catalogue.spec.mjs:244:1 › matching workshop nodes survive searches and clear without leaking unrelated links (567ms)
+  ✓  19 [chromium] › tests/browser/catalogue.spec.mjs:270:1 › a specific workshop search keeps its own activity and restores the umbrella details on clear (512ms)
+  ✓  20 [chromium] › tests/browser/search-links.spec.mjs:6:1 › an incoming Greek search opens its workshop and Clear removes it for reload (488ms)
+  ✓  21 [chromium] › tests/browser/search-links.spec.mjs:21:1 › typing stays local and an explicit copied link restores both filters (532ms)
+  ✓  22 [chromium] › tests/browser/search-links.spec.mjs:53:1 › ambiguous or unknown filters reset together and markup is literal (597ms)
+(node:416249) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:416257) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  23 [firefox] › tests/browser/catalogue.spec.mjs:28:1 › combines text and audience filters, keeps focus, and resets both (1.8s)
+  ✓  24 [firefox] › tests/browser/catalogue.spec.mjs:46:1 › keyboard users can skip the header, filter, and clear without losing their place (1.9s)
+  ✓  25 [firefox] › tests/browser/catalogue.spec.mjs:68:1 › filtering is local, preserves card nodes, and does not change the URL (678ms)
+  ✓  27 [firefox] › tests/browser/catalogue.spec.mjs:88:3 › recovers from network with a keyboard-accessible retry (501ms)
+  ✓  26 [firefox] › tests/browser/catalogue.spec.mjs:88:3 › recovers from http with a keyboard-accessible retry (532ms)
+  ✓  29 [firefox] › tests/browser/catalogue.spec.mjs:88:3 › recovers from invalid-entry with a keyboard-accessible retry (467ms)
+  ✓  28 [firefox] › tests/browser/catalogue.spec.mjs:88:3 › recovers from invalid-json with a keyboard-accessible retry (479ms)
+  ✓  31 [firefox] › tests/browser/catalogue.spec.mjs:124:1 › empty catalogues show a useful status (349ms)
+  ✓  30 [firefox] › tests/browser/catalogue.spec.mjs:110:1 › unpublished projects stay absent even when their name matches (569ms)
+  ✓  32 [firefox] › tests/browser/catalogue.spec.mjs:130:1 › catalogue text is escaped and cannot add markup (474ms)
+  ✓  33 [firefox] › tests/browser/catalogue.spec.mjs:145:1 › themes remain usable when storage is unavailable (696ms)
+  ✓  34 [firefox] › tests/browser/catalogue.spec.mjs:165:5 › fits 375px in light theme (2.2s)
+  ✓  35 [firefox] › tests/browser/catalogue.spec.mjs:165:5 › fits 1280px in light theme (2.0s)
+  ✓  36 [firefox] › tests/browser/catalogue.spec.mjs:165:5 › fits 375px in dark theme (2.0s)
+  ✓  37 [firefox] › tests/browser/catalogue.spec.mjs:165:5 › fits 1280px in dark theme (2.1s)
+  ✓  38 [firefox] › tests/browser/catalogue.spec.mjs:209:1 › cards state their recorded evidence and link to its source revision (549ms)
+  ✓  39 [firefox] › tests/browser/catalogue.spec.mjs:225:1 › source-word searches expose keyboard-accessible links to the matching reader (838ms)
+  ✓  41 [firefox] › tests/browser/catalogue.spec.mjs:270:1 › a specific workshop search keeps its own activity and restores the umbrella details on clear (745ms)
+  ✓  40 [firefox] › tests/browser/catalogue.spec.mjs:244:1 › matching workshop nodes survive searches and clear without leaking unrelated links (1.7s)
+  ✓  43 [firefox] › tests/browser/search-links.spec.mjs:21:1 › typing stays local and an explicit copied link restores both filters (817ms)
+  ✓  42 [firefox] › tests/browser/search-links.spec.mjs:6:1 › an incoming Greek search opens its workshop and Clear removes it for reload (1.6s)
+  ✓  44 [firefox] › tests/browser/search-links.spec.mjs:53:1 › ambiguous or unknown filters reset together and markup is literal (784ms)
+
+  44 passed (23.3s)

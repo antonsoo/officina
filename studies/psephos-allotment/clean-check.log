@@ -1,0 +1,93 @@
+npm notice run officina@0.1.0 lint
+npm notice run eslint src scripts/verify-pages.mjs tests/verify-pages.test.mjs --max-warnings 0
+npm notice run officina@0.1.0 typecheck
+npm notice run tsc -p tsconfig.json --noEmit
+npm notice run officina@0.1.0 format:check
+npm notice run prettier --check src
+Checking formatting...
+All matched files use Prettier code style!
+npm notice run officina@0.1.0 test
+npm notice run node --test tests/*.test.mjs
+✔ reads the actual catalogue and all supported link kinds (12.91192ms)
+✔ accepts an empty catalogue and excludes unpublished entries from search and audiences (0.619269ms)
+✔ matches all query words, regardless of case, accents, order, or whitespace (0.270789ms)
+✔ combines search with audience and includes registry names (0.294755ms)
+✔ orders known audiences first and future audiences alphabetically (8.36124ms)
+✔ rejects malformed catalogue: null (0.287671ms)
+✔ rejects malformed catalogue: {} (0.270754ms)
+✔ rejects malformed catalogue: "catalogue" (0.114424ms)
+✔ rejects malformed catalogue: [null] (0.157968ms)
+✔ rejects malformed catalogue: [[]] (1.527698ms)
+✔ rejects malformed catalogue: [{"name":" ","description":"Compare café traces and model costs.","group":"AI engineering","repoUrl":"https://github.com/example/trace-tool","demoUrl":"https://example.com/trace-tool/","thumbnail":"thumbs/trace-tool.webp","status":"published","package":{"registry":"npm","url":"https://www.npmjs.com/package/trace-tool"}}] (0.165403ms)
+✔ rejects malformed catalogue: [{"name":"trace-tool","description":"Compare café traces and model costs.","group":"AI engineering","repoUrl":"https://github.com/example/trace-tool","demoUrl":"https://example.com/trace-tool/","thumbnail":"thumbs/trace-tool.webp","status":"live","package":{"registry":"npm","url":"https://www.npmjs.com/package/trace-tool"}}] (0.129373ms)
+✔ rejects malformed catalogue: [{"name":"trace-tool","description":"Compare café traces and model costs.","group":3,"repoUrl":"https://github.com/example/trace-tool","demoUrl":"https://example.com/trace-tool/","thumbnail":"thumbs/trace-tool.webp","status":"published","package":{"registry":"npm","url":"https://www.npmjs.com/package/trace-tool"}}] (0.10755ms)
+✔ rejects malformed catalogue: [{"name":"trace-tool","description":"Compare café traces and model costs.","group":"AI engineering","repoUrl":"https://github.com/example/trace-tool","thumbnail":"thumbs/trace-tool.webp","status":"published","package":{"registry":"npm","url":"https://www.npmjs.com/package/trace-tool"}}] (0.131166ms)
+✔ rejects malformed catalogue: [{"name":"trace-tool","description":"Compare café traces and model costs.","group":"AI engineering","repoUrl":"https://github.com/example/trace-tool","demoUrl":"https://example.com/trace-tool/","thumbnail":"thumbs/trace-tool.webp","status":"published","package":null}] (0.130725ms)
+✔ rejects malformed catalogue: [{"name":"trace-tool","description":"Compare café traces and model costs.","group":"AI engineering","repoUrl":"https://github.com/example/trace-tool","demoUrl":"https://example.com/trace-tool/","thumbnail":"thumbs/trace-tool.webp","status":"published","package":{"registry":"unknown","url":"https://github.com/example/trace-tool"}}] (0.072842ms)
+✔ rejects duplicate project names, including case and whitespace differences (0.226582ms)
+✔ rejects unsafe URL javascript:alert(1) in every link field (0.31787ms)
+✔ rejects unsafe URL data:text/html,x in every link field (0.092981ms)
+✔ rejects unsafe URL http://example.com in every link field (0.120004ms)
+✔ rejects unsafe URL //example.com in every link field (0.17426ms)
+✔ rejects unsafe URL https://user:password@example.com in every link field (0.269912ms)
+✔ rejects unsafe URL  https://example.com in every link field (0.106268ms)
+✔ rejects unsafe URL not a URL in every link field (0.095797ms)
+✔ rejects unsafe thumbnail path ../secret.png (0.269255ms)
+✔ rejects unsafe thumbnail path thumbs/../secret.png (0.141035ms)
+✔ rejects unsafe thumbnail path /thumbs/image.png (0.21792ms)
+✔ rejects unsafe thumbnail path https://example.com/image.png (0.109103ms)
+✔ rejects unsafe thumbnail path thumbs/image.webp" onerror="alert(1) (0.086689ms)
+✔ rejects unsafe thumbnail path thumbs/image.svg (0.049978ms)
+✔ search treats markup and regular expressions as literal text (0.100145ms)
+✔ source terms find the real Greek lesson with or without accents, within the selected audience (14.280292ms)
+✔ source terms reject malformed and ambiguous metadata (0.402385ms)
+✔ a study is one sentence with a link, and its finding is searchable (0.493624ms)
+✔ an HTTP 200 from the older canonical entry cannot verify newer build assets (70.752084ms)
+✔ complete canonical bytes, escaped paths and both entry aliases must agree (35.817259ms)
+✔ a stale explicit index or changed entry during the pass blocks verification (84.232685ms)
+✔ propagation retries canonical URLs until the complete build is available (653.398326ms)
+✔ missing HTTP evidence remains unavailable and is distinct from an oversized 200 body (230.148497ms)
+✔ non-artifact paths are refused before networking; CLI cannot add its receipt to the build (64.858415ms)
+✔ a source word identifies its actual workshop with case and accent folding (14.244437ms)
+✔ aliases from different rooms cannot fabricate one matching workshop (1.747717ms)
+✔ older catalogue entries and unpublished projects keep their existing behavior (0.436993ms)
+✔ workshop metadata rejects ambiguous identities, unsafe links and malformed aliases (1.220844ms)
+✔ workshop summaries survive validation and can identify the specific activity (0.196784ms)
+ℹ tests 45
+ℹ suites 0
+ℹ pass 45
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1234.529709
+npm notice run officina@0.1.0 build
+npm notice run npm run check:catalogue && tsc -p tsconfig.json --noEmit && vite build
+npm notice run officina@0.1.0 check:catalogue
+npm notice run node scripts/check-catalogue.mjs
+Catalogue checked: 38 entries and thumbnails.
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 8 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                               3.06 kB │ gzip: 1.22 kB
+dist/assets/eb-garamond-vietnamese-DvUmmjCN.woff2            10.95 kB
+dist/assets/eb-garamond-italic-vietnamese-2ii8blLS.woff2     11.02 kB
+dist/assets/eb-garamond-greek-ext-CW-BywWH.woff2             11.48 kB
+dist/assets/eb-garamond-italic-greek-ext-nvsmRjVx.woff2      11.96 kB
+dist/assets/eb-garamond-italic-greek-Dc0bJcw6.woff2          19.59 kB
+dist/assets/hanken-grotesk-latin-ext-Dg-wlmqe.woff2          19.59 kB
+dist/assets/eb-garamond-greek-DCPER7xl.woff2                 19.87 kB
+dist/assets/eb-garamond-cyrillic-DBa2mnKT.woff2              26.02 kB
+dist/assets/eb-garamond-italic-cyrillic-Cini1BOa.woff2       26.52 kB
+dist/assets/eb-garamond-cyrillic-ext-Bt3rCdHq.woff2          33.95 kB
+dist/assets/hanken-grotesk-latin-CaVRRdDk.woff2              34.70 kB
+dist/assets/eb-garamond-italic-cyrillic-ext-Ba0fXTjv.woff2   35.42 kB
+dist/assets/eb-garamond-latin-CRpggXlh.woff2                 44.34 kB
+dist/assets/eb-garamond-italic-latin-AvGrCMCN.woff2          47.94 kB
+dist/assets/eb-garamond-italic-latin-ext-CYvIfuu9.woff2      88.58 kB
+dist/assets/eb-garamond-latin-ext-B6IpcvL2.woff2            113.93 kB
+dist/assets/index-Dg7A3d63.css                               14.65 kB │ gzip: 3.50 kB
+dist/assets/index-4odtQgoo.js                                17.55 kB │ gzip: 6.14 kB │ map: 40.61 kB
+✓ built in 203ms
