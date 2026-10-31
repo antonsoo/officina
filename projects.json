@@ -162,7 +162,7 @@
   },
   {
     "name": "psephos",
-    "description": "Cast a concealed Athenian jury vote, audit which urn counts, and test what the published total can reveal. Read the Greek beside full printed pages and save the illustrated evidence.",
+    "description": "Exchange who attends, move juror tickets and cast a concealed Athenian vote. Inspect exact chances, unequal count-pattern weights and what a total can reveal; read the Greek beside full printed witnesses.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/psephos",
     "demoUrl": "https://antonsoo.github.io/psephos/",
@@ -183,7 +183,12 @@
       "juror",
       "bronze ballot",
       "concealed vote",
-      "legal Greek"
+      "legal Greek",
+      "jury selection",
+      "sortition",
+      "attendance",
+      "kleroterion",
+      "probability"
     ],
     "workshops": [
       {
@@ -224,6 +229,48 @@
         ],
         "summary": "Keep the public count fixed while changing what an observer is assumed to know. Compare arrangements with opposite target votes; discover why five known choices can suffice, and unanimity needs none.",
         "thumbnail": "thumbs/psephos-inference.png"
+      },
+      {
+        "id": "attendance",
+        "title": "Enough in total. One group empty.",
+        "url": "https://antonsoo.github.io/psephos/attendance.html#attendance",
+        "reviewUrl": "https://github.com/antonsoo/psephos/blob/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md#try-the-actual-work",
+        "searchTerms": [
+          "παραπλησίως ἴσοι",
+          "turnout",
+          "attendance",
+          "weighted patterns",
+          "finite population",
+          "7776",
+          "full rows",
+          "shortest group",
+          "uniform subset",
+          "registered groups",
+          "guaranteed total"
+        ],
+        "summary": "Keep ten arrivals in total while exchanging who attends. Make an empty group become two complete rows; inspect unequal pattern weights and the sharp guarantee. The small exact model does not infer historical turnout.",
+        "thumbnail": "thumbs/psephos-attendance.png"
+      },
+      {
+        "id": "allotment",
+        "title": "One cube. Five tickets.",
+        "url": "https://antonsoo.github.io/psephos/allotment.html#allotment",
+        "reviewUrl": "https://github.com/antonsoo/psephos/blob/93aef778494fc053c2c31226be5c5cc8f99c6701/docs/attendance-review.md#try-the-row-selection-comparison",
+        "searchTerms": [
+          "κατὰ πέντε πινάκια εἷς",
+          "κύβοι",
+          "kleroterion",
+          "joint chance",
+          "same row",
+          "ticket inserter",
+          "white cube",
+          "black cube",
+          "without replacement",
+          "fixed placement",
+          "independent placement"
+        ],
+        "summary": "Keep two tickets sharing a row, then move one. Both individual chances stay one half; their joint chance changes from one half to one sixth. Inspect every cube order, the placement assumption and the Greek inserter exception.",
+        "thumbnail": "thumbs/psephos-allotment.png"
       }
     ]
   },
