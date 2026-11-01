@@ -1199,7 +1199,7 @@
     "status": "published",
     "study": {
       "finding": "A design can expose both sample points somewhere along a chosen path while providing the wrong openable faces.",
-      "url": "https://github.com/antonsoo/syngraphe/blob/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md#try-the-actual-work"
+      "url": "https://github.com/antonsoo/syngraphe/blob/6e7f40dcfb12a2c1e73e0fb3d86d89b7fae82d77/docs/visibility-review.md#try-the-actual-work"
     },
     "searchTerms": [
       "IG II² 1668",
@@ -1251,7 +1251,7 @@
         "id": "seeing",
         "title": "Seeing while passing · Piraeus",
         "url": "https://antonsoo.github.io/syngraphe/seeing.html#sightline",
-        "reviewUrl": "https://github.com/antonsoo/syngraphe/blob/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md#try-the-actual-work",
+        "reviewUrl": "https://github.com/antonsoo/syngraphe/blob/6e7f40dcfb12a2c1e73e0fb3d86d89b7fae82d77/docs/visibility-review.md#try-the-actual-work",
         "searchTerms": [
           "ἀμφοτέρους",
           "amphoterous",

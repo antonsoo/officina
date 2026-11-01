@@ -37,7 +37,7 @@ Chromium and Firefox at 1440 and 375 pixels each exercise:
    and no document-width overflow.
 
 The full model, four-image/font/license identity, native record and offline audit
-belong to Syngraphe's [source review](https://github.com/antonsoo/syngraphe/blob/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md#try-the-actual-work).
+belong to Syngraphe's [source review](https://github.com/antonsoo/syngraphe/blob/6e7f40dcfb12a2c1e73e0fb3d86d89b7fae82d77/docs/visibility-review.md#try-the-actual-work).
 Officina's [local discovery receipt](review/syngraphe-seeing-discovery.json)
 records the continuous catalogue journey separately.
 
@@ -92,3 +92,14 @@ checks and the complete build passed. The general browser review passed 56
 scenarios in Chromium and Firefox, including light/dark phone layouts, sharing,
 keyboard navigation and loading recovery. The [build receipt](review/syngraphe-seeing-build.json)
 records the complete local file inventory; it is not a hosted-byte comparison.
+
+## Transfer correction
+
+The catalogue now pins the later source review containing the slow-connection
+correction. A shared 128,000-byte/s budget had exposed a 25-second offline-save
+failure and a 15-second twelve-page-reading failure. Both browsers now complete
+those transfers while rejecting stalled or wrong source data. The complete
+corrected public edition and real TLS-cut replay are audited in that pinned
+review. The screenshot, Greek readings and sightline model remain the same.
+The initial publication receipts above identify the earlier observation; the
+pin update receives a separate canonical byte and discovery check.
