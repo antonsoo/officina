@@ -574,7 +574,7 @@
   },
   {
     "name": "shiguzhai",
-    "description": "Explore two Chinese bell studies: keep Shiguzhai’s observed pitch lists, then couple Piao-shi bending patterns and compare a bell-maker’s Chinese proportions with measured dimensions.",
+    "description": "Keep Chinese bell measurements separate from modern key labels. Cross exact reference boundaries in Shiguzhai, then explore Piao-shi bending patterns and a maker’s Chinese proportions.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/shiguzhai",
     "demoUrl": "https://antonsoo.github.io/shiguzhai/shuang.html?bell=p08&strike=22&tuning=measured&rule=successive&read=4&scale=200#bench",
@@ -599,7 +599,35 @@
       "舞廣",
       "269 Hz",
       "87 frequencies",
-      "modern reference"
+      "modern reference",
+      "reference boundaries",
+      "classification sensitivity",
+      "439.523",
+      "439.524",
+      "石鼓寨"
+    ],
+    "workshops": [
+      {
+        "id": "reference-boundaries",
+        "title": "Cross a label boundary; keep the bell pitches",
+        "summary": "Compare the same 87 reported entries at A4 = 439.523 and 439.524 Hz: nine modern keys become ten. Hear the unchanged pitches and keep both references with the source table.",
+        "url": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439.524&against=439.523#reference",
+        "reviewUrl": "https://github.com/antonsoo/shiguzhai/blob/a969500956ab1e598b1b7cdf7d6942d87a717a80/docs/reference-audit.md#what-a-learner-can-do",
+        "searchTerms": [
+          "Shiguzhai",
+          "石鼓寨",
+          "269 Hz",
+          "439.523",
+          "439.524",
+          "modern reference",
+          "reference boundary",
+          "classification",
+          "87 frequencies",
+          "Li 2024",
+          "same pitches"
+        ],
+        "thumbnail": "thumbs/shiguzhai-reference.webp"
+      }
     ]
   },
   {
