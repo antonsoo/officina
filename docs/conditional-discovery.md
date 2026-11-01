@@ -49,3 +49,11 @@ These checks do not establish that this new catalogue entry is hosted.
 journeys. The catalogue was local; the lesson and immutable review were public.
 There was no request redirection. [Desktop discovery](conditional-discovery/chromium-1440.png)
 and [phone discovery](conditional-discovery/chromium-375.png) show the actual row.
+
+## Independent clean build
+
+[The clean receipt](conditional-discovery/clean-build.json) records a fresh
+archive of `87e5578`, a separate install and all documented checks
+under Node 24.22.1. All 104 built files (8,061,648 bytes) match the
+reviewed build, including the new source-word data and actual workshop preview.
+This inventory is not an initial page-transfer measurement.
