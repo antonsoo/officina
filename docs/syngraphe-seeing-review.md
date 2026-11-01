@@ -71,8 +71,18 @@ npm run test:syngraphe-seeing -- /tmp/officina-syngraphe-public
 ```
 
 The earlier HTTP-404 and local-redirect receipts are historical observations.
-Canonical hosted bytes and this unredirected public journey are checked after
-catalogue deployment.
+On 2026-11-01 UTC, all **106** canonical build files, plus the root before and
+after the asset pass, matched the independently installed Node 24.22.1 build:
+[hosted bytes](review/syngraphe-seeing-hosted-bytes.json).
+The actual unredirected journey passed in Chromium and Firefox at 1440 and
+375 pixels: [public journey](review/syngraphe-seeing-public.json).
+All four actual HTML downloads retained the selected state, exact four source
+images, font and full licenses; their bytes matched the clean local journey:
+[artifact audit](review/syngraphe-seeing-public-artifacts.json).
+Both remote source heads and nine immutable raw files matched the local
+committed bytes: [source observations](review/syngraphe-seeing-public-source.json).
+No repository CI run was returned by the observed Officina workflow endpoint;
+no remote CI success is inferred.
 
 `npm run build` produces Officina's complete `dist/` directory for `/officina/`.
 No opening-menu redesign or new repository was needed for this addition.

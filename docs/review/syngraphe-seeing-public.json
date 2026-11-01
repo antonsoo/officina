@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-11-01T05:52:26.116Z",
+  "boundary": "Canonical public catalogue, immutable GitHub review and lesson; no browser navigation interception; raw pinned review bytes matched",
+  "journeys": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "aliases": [
+        "ἀμφοτέρους",
+        "αμφοτερους",
+        "amphoterous",
+        "διεξιοῦσιν",
+        "διεξιουσιν",
+        "diexiousin",
+        "τὸμ πρόσθιον",
+        "public passage",
+        "chest faces",
+        "134 chests"
+      ],
+      "canonicalLesson": "https://antonsoo.github.io/syngraphe/seeing.html#sightline",
+      "canonicalReview": "https://github.com/antonsoo/syngraphe/blob/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md#try-the-actual-work",
+      "pinnedReviewSha256": "7dffa63640135abbe983db04a30af61c1cffe1b4744738d2bdac4c3516146ef5",
+      "rawReviewURL": "https://raw.githubusercontent.com/antonsoo/syngraphe/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md",
+      "actualChestOperation": true,
+      "greekPhraseToWholePage": true,
+      "portableBytes": 2663809,
+      "portableSha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "portableScriptsDisabled": true,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "aliases": [
+        "ἀμφοτέρους",
+        "αμφοτερους",
+        "amphoterous",
+        "διεξιοῦσιν",
+        "διεξιουσιν",
+        "diexiousin",
+        "τὸμ πρόσθιον",
+        "public passage",
+        "chest faces",
+        "134 chests"
+      ],
+      "canonicalLesson": "https://antonsoo.github.io/syngraphe/seeing.html#sightline",
+      "canonicalReview": "https://github.com/antonsoo/syngraphe/blob/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md#try-the-actual-work",
+      "pinnedReviewSha256": "7dffa63640135abbe983db04a30af61c1cffe1b4744738d2bdac4c3516146ef5",
+      "rawReviewURL": "https://raw.githubusercontent.com/antonsoo/syngraphe/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md",
+      "actualChestOperation": true,
+      "greekPhraseToWholePage": true,
+      "portableBytes": 2663809,
+      "portableSha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "portableScriptsDisabled": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "aliases": [
+        "ἀμφοτέρους",
+        "αμφοτερους",
+        "amphoterous",
+        "διεξιοῦσιν",
+        "διεξιουσιν",
+        "diexiousin",
+        "τὸμ πρόσθιον",
+        "public passage",
+        "chest faces",
+        "134 chests"
+      ],
+      "canonicalLesson": "https://antonsoo.github.io/syngraphe/seeing.html#sightline",
+      "canonicalReview": "https://github.com/antonsoo/syngraphe/blob/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md#try-the-actual-work",
+      "pinnedReviewSha256": "7dffa63640135abbe983db04a30af61c1cffe1b4744738d2bdac4c3516146ef5",
+      "rawReviewURL": "https://raw.githubusercontent.com/antonsoo/syngraphe/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md",
+      "actualChestOperation": true,
+      "greekPhraseToWholePage": true,
+      "portableBytes": 2663809,
+      "portableSha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "portableScriptsDisabled": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "aliases": [
+        "ἀμφοτέρους",
+        "αμφοτερους",
+        "amphoterous",
+        "διεξιοῦσιν",
+        "διεξιουσιν",
+        "diexiousin",
+        "τὸμ πρόσθιον",
+        "public passage",
+        "chest faces",
+        "134 chests"
+      ],
+      "canonicalLesson": "https://antonsoo.github.io/syngraphe/seeing.html#sightline",
+      "canonicalReview": "https://github.com/antonsoo/syngraphe/blob/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md#try-the-actual-work",
+      "pinnedReviewSha256": "7dffa63640135abbe983db04a30af61c1cffe1b4744738d2bdac4c3516146ef5",
+      "rawReviewURL": "https://raw.githubusercontent.com/antonsoo/syngraphe/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md",
+      "actualChestOperation": true,
+      "greekPhraseToWholePage": true,
+      "portableBytes": 2663809,
+      "portableSha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "portableScriptsDisabled": true,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-11-01T05:53:22.138986+00:00",
+  "boundary": "Actual native public catalogue-to-lesson downloads, parsed independently against retained binary files and selected settings",
+  "artifacts": [
+    {
+      "file": "chromium-1440-reading.html",
+      "bytes": 2663809,
+      "sha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "selectedState": {
+        "station": 20,
+        "wall": "front",
+        "pillar": "sides",
+        "reading": 3,
+        "page": 41
+      },
+      "wholeSourceImages": 4,
+      "fontAndLicenseBytesMatch": true,
+      "scriptFreeNoRemoteAssets": true,
+      "identicalToCleanLocalJourney": true
+    },
+    {
+      "file": "chromium-375-reading.html",
+      "bytes": 2663809,
+      "sha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "selectedState": {
+        "station": 20,
+        "wall": "front",
+        "pillar": "sides",
+        "reading": 3,
+        "page": 41
+      },
+      "wholeSourceImages": 4,
+      "fontAndLicenseBytesMatch": true,
+      "scriptFreeNoRemoteAssets": true,
+      "identicalToCleanLocalJourney": true
+    },
+    {
+      "file": "firefox-1440-reading.html",
+      "bytes": 2663809,
+      "sha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "selectedState": {
+        "station": 20,
+        "wall": "front",
+        "pillar": "sides",
+        "reading": 3,
+        "page": 41
+      },
+      "wholeSourceImages": 4,
+      "fontAndLicenseBytesMatch": true,
+      "scriptFreeNoRemoteAssets": true,
+      "identicalToCleanLocalJourney": true
+    },
+    {
+      "file": "firefox-375-reading.html",
+      "bytes": 2663809,
+      "sha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "selectedState": {
+        "station": 20,
+        "wall": "front",
+        "pillar": "sides",
+        "reading": 3,
+        "page": 41
+      },
+      "wholeSourceImages": 4,
+      "fontAndLicenseBytesMatch": true,
+      "scriptFreeNoRemoteAssets": true,
+      "identicalToCleanLocalJourney": true
+    }
+  ]
+}

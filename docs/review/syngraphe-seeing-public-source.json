@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-11-01T05:52:54.398Z",
+  "boundary": "Observed remote heads and exact immutable raw source bytes, separate from canonical static build and browser journeys",
+  "repositories": [
+    {
+      "repository": "officina",
+      "commit": "18a3bf85a03149c295107bacc5d84383b98f94ac",
+      "refs": [
+        "ebaf5186cfe171c962f2fbb5039c7b963f949164\trefs/heads/gh-pages",
+        "18a3bf85a03149c295107bacc5d84383b98f94ac\trefs/heads/main"
+      ],
+      "files": [
+        {
+          "file": "public/projects.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/18a3bf85a03149c295107bacc5d84383b98f94ac/public/projects.json",
+          "bytes": 85182,
+          "sha256": "2633a4c30895e4d73ba0845101d222b694c38a9131d27d098a76348e586bf2b3",
+          "matchesCommittedBytes": true
+        },
+        {
+          "file": "public/thumbs/syngraphe-seeing.png",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/18a3bf85a03149c295107bacc5d84383b98f94ac/public/thumbs/syngraphe-seeing.png",
+          "bytes": 146249,
+          "sha256": "4814e478f93f0f7d81ea26754b8708b95f14ef3e4c23914e11ee483b471c3998",
+          "matchesCommittedBytes": true
+        },
+        {
+          "file": "docs/syngraphe-seeing-review.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/18a3bf85a03149c295107bacc5d84383b98f94ac/docs/syngraphe-seeing-review.md",
+          "bytes": 4392,
+          "sha256": "ef198a2011120c3724b2fd226bd022925177ca84e359dd7a6dc50591305b8284",
+          "matchesCommittedBytes": true
+        },
+        {
+          "file": "scripts/syngraphe-seeing-local.mjs",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/18a3bf85a03149c295107bacc5d84383b98f94ac/scripts/syngraphe-seeing-local.mjs",
+          "bytes": 9150,
+          "sha256": "74b61ce404c6600209499c06a60d46685d2ecd381aa8fbc24de0859eb34ba78e",
+          "matchesCommittedBytes": true
+        },
+        {
+          "file": "package.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/18a3bf85a03149c295107bacc5d84383b98f94ac/package.json",
+          "bytes": 2725,
+          "sha256": "d2b5966103c8b3c1d16c9a973b0d836fdfe6295a3fb5d183323be511e1770f02",
+          "matchesCommittedBytes": true
+        }
+      ]
+    },
+    {
+      "repository": "syngraphe",
+      "commit": "fa50de96cb72cbfce3a3bd3bb910034903a10fbd",
+      "refs": [
+        "3afba2a4fe65772d65381ca49b89e918d77741a5\trefs/heads/gh-pages",
+        "fa50de96cb72cbfce3a3bd3bb910034903a10fbd\trefs/heads/main"
+      ],
+      "files": [
+        {
+          "file": "docs/visibility-review.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md",
+          "bytes": 10489,
+          "sha256": "7dffa63640135abbe983db04a30af61c1cffe1b4744738d2bdac4c3516146ef5",
+          "matchesCommittedBytes": true
+        },
+        {
+          "file": "docs/seeing-publication.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/seeing-publication.md",
+          "bytes": 7722,
+          "sha256": "7059b4ea7d4c173c04fead9e9d1331040f636015d2b6c3fb1129b37dbb5a92f0",
+          "matchesCommittedBytes": true
+        },
+        {
+          "file": "scripts/public-repair.mjs",
+          "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/scripts/public-repair.mjs",
+          "bytes": 5553,
+          "sha256": "b0b962de47b1622eaf303ed119fab15457cc7bf9e2307e661648d22381266cf0",
+          "matchesCommittedBytes": true
+        },
+        {
+          "file": "scripts/public-transport.mjs",
+          "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/scripts/public-transport.mjs",
+          "bytes": 2572,
+          "sha256": "1866fdb56f69cbe617485ebcb9b047bec8e4749504ea34514d5deb104f4aa214",
+          "matchesCommittedBytes": true
+        }
+      ]
+    }
+  ],
+  "officina": {
+    "pages": {
+      "status": null,
+      "buildType": "legacy",
+      "source": {
+        "branch": "gh-pages",
+        "path": "/"
+      }
+    },
+    "returnedWorkflowRuns": []
+  }
+}
