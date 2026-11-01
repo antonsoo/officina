@@ -65,3 +65,31 @@ Playwright Chromium and Firefox. Source/head synchronization, canonical static
 bytes, native browser operation and remote CI are separate claims.
 
 ![Opening menu with its measured-roof experiment](assets/hero.png)
+
+## Published catalogue
+
+The source update `3d7644d` was pushed to `main`. The reviewed runtime is from
+`083bf8d2e0d5e28b354cc538831e73ac6390a9db`; its [fresh-install inventory](embater-roof-review/clean-build.json)
+matches all **108** working build files. Lint, type checks, 45 unit checks and the
+production build completed; the ten menu browser cases also passed.
+
+Pages commit `85fb921` was pushed as a fast-forward from the current remote
+`gh-pages` tip `32a6ce8`. An initial attempt based on an older local tracking tip
+was rejected; it did not replace remote history. The deployment was rebuilt on
+the fetched current tip, preserving the publication history and `.nojekyll`.
+
+All [108 canonical files](embater-roof-review/public-files.json) match the captured
+clean-build inventory. The [public search journey](embater-roof-review/search-public.json)
+passes both engines and widths, including the exact immutable review pin,
+source page identity, the native portable reading, reopening its settings and
+its byte-identical controlled-offline counterpart. The
+[twenty public menu handoffs](embater-roof-review/menu-public.json) operate all
+five featured experiments in both engines and widths. The music handoff checks
+that the native audio clock advances; the other rooms operate their actual
+controls and inspect the resulting state.
+
+The [canonical root, explicit index and catalogue data](embater-roof-review/entries-after-browsers.json)
+were fetched again after these browser runs and still matched. This establishes
+static-site identity and operated public behavior; it does not claim a registry
+release, tag or source CI success. Later documentation-only changes do not alter
+the reviewed product bytes.
