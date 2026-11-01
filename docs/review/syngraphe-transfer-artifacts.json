@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-11-01T06:16:46.186415+00:00",
+  "boundary": "Canonical entries and metadata rechecked after actual public browser journeys; new native readings compared byte-for-byte with independently audited public source/font/license payloads",
+  "entries": [
+    {
+      "url": "https://antonsoo.github.io/syngraphe/",
+      "bytes": 1102,
+      "sha256": "08eacdb89ef19d32840c9ee1f14f8178f839da649b6aefdba314d07c940da697",
+      "matchesReviewedBuild": true
+    },
+    {
+      "url": "https://antonsoo.github.io/syngraphe/index.html",
+      "bytes": 1102,
+      "sha256": "08eacdb89ef19d32840c9ee1f14f8178f839da649b6aefdba314d07c940da697",
+      "matchesReviewedBuild": true
+    },
+    {
+      "url": "https://antonsoo.github.io/syngraphe/seeing.html",
+      "bytes": 1145,
+      "sha256": "7032fb7d8c25ca47a5a5f9f09f9545bf9bce1f6cd8c844cc13fc7cf94cfeb7a6",
+      "matchesReviewedBuild": true
+    },
+    {
+      "url": "https://antonsoo.github.io/syngraphe/sw.js",
+      "bytes": 7097,
+      "sha256": "4ae4b29d41c6d9c0aad804ef017f87d750160ba07924a3554086da85fb9db383",
+      "matchesReviewedBuild": true
+    },
+    {
+      "url": "https://antonsoo.github.io/officina/",
+      "bytes": 3058,
+      "sha256": "141f2637c487ebd7b34099ff6f480cfb3da495eb4e154c222bc3a647ec62712d",
+      "matchesReviewedBuild": true
+    },
+    {
+      "url": "https://antonsoo.github.io/officina/index.html",
+      "bytes": 3058,
+      "sha256": "141f2637c487ebd7b34099ff6f480cfb3da495eb4e154c222bc3a647ec62712d",
+      "matchesReviewedBuild": true
+    },
+    {
+      "url": "https://antonsoo.github.io/officina/projects.json",
+      "bytes": 85182,
+      "sha256": "ac011fe2bc784e38f3cbf239abb1e7f5fb981d69c0f358719e796916d66e860d",
+      "matchesReviewedBuild": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "chromium-1440-reading.html",
+      "bytes": 2663809,
+      "sha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "identicalToPreviouslyBinaryAuditedPublicReading": true
+    },
+    {
+      "file": "chromium-375-reading.html",
+      "bytes": 2663809,
+      "sha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "identicalToPreviouslyBinaryAuditedPublicReading": true
+    },
+    {
+      "file": "firefox-1440-reading.html",
+      "bytes": 2663809,
+      "sha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "identicalToPreviouslyBinaryAuditedPublicReading": true
+    },
+    {
+      "file": "firefox-375-reading.html",
+      "bytes": 2663809,
+      "sha256": "c9aab0bcaf6e98e5b26f7ba3f5a2bf23000a7d6662be955a8d67e691332899f3",
+      "identicalToPreviouslyBinaryAuditedPublicReading": true
+    }
+  ]
+}

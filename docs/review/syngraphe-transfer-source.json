@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-11-01T06:16:08.655861+00:00",
+  "boundary": "Current source heads equal observed remote main; exact immutable raw metadata, source review, publication review and changed implementation bytes",
+  "repositories": [
+    {
+      "repository": "officina",
+      "sourceCommit": "deba116b3941eae64723389559e767e4ee58646f",
+      "remoteRefs": [
+        "a988baa8992a530f8dfa2732f72936ae98859ec2\trefs/heads/gh-pages",
+        "deba116b3941eae64723389559e767e4ee58646f\trefs/heads/main"
+      ],
+      "files": [
+        {
+          "path": "public/projects.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/deba116b3941eae64723389559e767e4ee58646f/public/projects.json",
+          "bytes": 85182,
+          "sha256": "ac011fe2bc784e38f3cbf239abb1e7f5fb981d69c0f358719e796916d66e860d",
+          "matchesCommittedBytes": true
+        },
+        {
+          "path": "docs/syngraphe-seeing-review.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/deba116b3941eae64723389559e767e4ee58646f/docs/syngraphe-seeing-review.md",
+          "bytes": 5772,
+          "sha256": "63ba77352762b5655f9104c72285748efb4c7f41ccf034b15ec229feadec24ed",
+          "matchesCommittedBytes": true
+        },
+        {
+          "path": "scripts/syngraphe-seeing-local.mjs",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/deba116b3941eae64723389559e767e4ee58646f/scripts/syngraphe-seeing-local.mjs",
+          "bytes": 9150,
+          "sha256": "74b61ce404c6600209499c06a60d46685d2ecd381aa8fbc24de0859eb34ba78e",
+          "matchesCommittedBytes": true
+        }
+      ]
+    },
+    {
+      "repository": "syngraphe",
+      "sourceCommit": "6e7f40dcfb12a2c1e73e0fb3d86d89b7fae82d77",
+      "remoteRefs": [
+        "dee6a56531717f46674a2821d44482a9b522c92d\trefs/heads/gh-pages",
+        "6e7f40dcfb12a2c1e73e0fb3d86d89b7fae82d77\trefs/heads/main"
+      ],
+      "files": [
+        {
+          "path": "docs/visibility-review.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/6e7f40dcfb12a2c1e73e0fb3d86d89b7fae82d77/docs/visibility-review.md",
+          "bytes": 12750,
+          "sha256": "90eef11d83f053c8423e55881fadb76712fd253b22beaf029f2518fb684c014a",
+          "matchesCommittedBytes": true
+        },
+        {
+          "path": "docs/seeing-publication.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/6e7f40dcfb12a2c1e73e0fb3d86d89b7fae82d77/docs/seeing-publication.md",
+          "bytes": 9681,
+          "sha256": "710ff0d1627cc6e232e9d914cc27a3b18d0116f7d76d6a3bb6cb0c3c27cfdb4c",
+          "matchesCommittedBytes": true
+        },
+        {
+          "path": "src/assets.ts",
+          "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/6e7f40dcfb12a2c1e73e0fb3d86d89b7fae82d77/src/assets.ts",
+          "bytes": 3409,
+          "sha256": "57896405990e0a7674dec12e2bfe474adccea05962aef38de09af1689ff72f77",
+          "matchesCommittedBytes": true
+        },
+        {
+          "path": "src/offline.ts",
+          "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/6e7f40dcfb12a2c1e73e0fb3d86d89b7fae82d77/src/offline.ts",
+          "bytes": 7267,
+          "sha256": "2f556b37a0787f0d41a8a41c2b96fde20bd155b2d694be758543fadf3a322d96",
+          "matchesCommittedBytes": true
+        },
+        {
+          "path": "vite.config.ts",
+          "url": "https://raw.githubusercontent.com/antonsoo/syngraphe/6e7f40dcfb12a2c1e73e0fb3d86d89b7fae82d77/vite.config.ts",
+          "bytes": 6986,
+          "sha256": "290a42c46637c4c479347b8bcb1019c4ece8ebf9097bbd49e5062125bba1b406",
+          "matchesCommittedBytes": true
+        }
+      ]
+    }
+  ]
+}

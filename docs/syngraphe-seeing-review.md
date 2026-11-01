@@ -103,3 +103,15 @@ corrected public edition and real TLS-cut replay are audited in that pinned
 review. The screenshot, Greek readings and sightline model remain the same.
 The initial publication receipts above identify the earlier observation; the
 pin update receives a separate canonical byte and discovery check.
+
+The final pin was verified publicly in all four browser/width configurations:
+[continuous public journey](review/syngraphe-transfer-public.json).
+All 106 canonical catalogue files match the independent Node 24 build:
+[hosted bytes](review/syngraphe-transfer-hosted.json).
+Both remote source heads match, and eight immutable raw metadata, review and
+implementation files match committed bytes:
+[source identity](review/syngraphe-transfer-source.json).
+All four actual readings remain byte-identical to the previously audited
+source/font/license payloads. Both canonical roots, the lesson, worker and
+catalogue metadata were rechecked after the public journeys:
+[entry and artifact checks](review/syngraphe-transfer-artifacts.json).
