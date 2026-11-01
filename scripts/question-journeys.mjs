@@ -35,11 +35,20 @@ async function pinnedReview(url) {
   return result;
 }
 async function operate(page, id) {
-  if (id === "columns") {
-    await page.locator('input[name="reading"][value="columns"]').check();
-    await expect(page.locator("#count-equation")).toContainText("12 columns");
-    await expect(page.locator("#count-source")).toContainText(/Source|Perseus|Description/);
-    return { selector: "#count-equation", result: await page.locator("#count-equation").textContent() };
+  if (id === "roof") {
+    await page.getByRole("button", { name: "Try a middle ornament only h/8 tall" }).click();
+    await expect(page.locator("#roof-result")).toContainText("88.89% shorter");
+    await page.getByRole("button", { name: "Match Vitruvius’s middle height" }).click();
+    await expect(page.locator('[name="roof-trial"]')).toHaveValue("1.125");
+    await page.getByRole("button", { name: "Read complete printed page 74", exact: true }).click();
+    await expect(page.locator("#drill-source-status")).toContainText("Complete printed page 74.", {
+      timeout: 20000,
+    });
+    return {
+      selector: "#roof-result",
+      result: await page.locator("#roof-result").textContent(),
+      sourcePage: 74,
+    };
   }
   if (id === "counterexample") {
     await expect(page.locator("#scan-status")).toContainText("Printed page 26");
@@ -56,7 +65,19 @@ async function operate(page, id) {
     try {
       await page.waitForFunction(() => document.getElementById("comparison-audio").currentTime > 0);
     } catch (error) {
-      const state = await page.locator("#comparison-audio").evaluate((a) => ({ time: a.currentTime, paused: a.paused, ended: a.ended, duration: a.duration, ready: a.readyState, network: a.networkState, error: a.error?.message, source: a.currentSrc, status: document.getElementById("audio-label").textContent }));
+      const state = await page
+        .locator("#comparison-audio")
+        .evaluate((a) => ({
+          time: a.currentTime,
+          paused: a.paused,
+          ended: a.ended,
+          duration: a.duration,
+          ready: a.readyState,
+          network: a.networkState,
+          error: a.error?.message,
+          source: a.currentSrc,
+          status: document.getElementById("audio-label").textContent,
+        }));
       console.error("Native comparison playback did not advance:", state);
       throw error;
     }
@@ -100,7 +121,7 @@ try {
           serviceWorkers: "block",
         });
         const page = await context.newPage();
-        for (const id of ["columns", "counterexample", "dorian", "circle", "trace"]) {
+        for (const id of ["roof", "counterexample", "dorian", "circle", "trace"]) {
           await page.goto(catalogue);
           if (width === 375) await page.locator("#question-choice").selectOption(id);
           else {

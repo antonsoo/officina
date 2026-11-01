@@ -16,17 +16,17 @@ interface Selection {
 /** Each choice opens one concrete, already-published experiment. */
 const selections: Selection[] = [
   {
-    id: "columns",
+    id: "roof",
     project: "embater",
     subject: "Architecture",
-    question: "Why not twelve?",
-    title: "Six across. How many down the side?",
+    question: "An eighth as tall, or an eighth taller?",
+    title: "Measure the words above the roof.",
     description:
-      "Vitruvius doubles the spaces between columns. Try both readings, count the plan, then compare his rule with the temples in the catalogue.",
-    action: "Count the columns",
-    url: "https://antonsoo.github.io/embater/compare.html",
-    thumbnail: "thumbs/embater-count.png",
-    workshop: "count",
+      "Vitruvius makes the middle ornament an eighth taller. Move a measuring envelope, read the Latin and keep the drawing with its complete printed sources.",
+    action: "Measure the ornament",
+    url: "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+    thumbnail: "thumbs/embater-roof.png",
+    workshop: "roof",
   },
   {
     id: "counterexample",

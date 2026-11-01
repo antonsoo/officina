@@ -276,7 +276,7 @@
   },
   {
     "name": "embater",
-    "description": "Draw Vitruvius’s temple and doorway rules from Latin. Compare the supplied half, uncertain plan counts and a measured Erechtheion opening; keep the illustrated sources.",
+    "description": "Read Vitruvius’s temple, doorway and roof proportions in Latin. Compare uncertain plans and a measured Erechtheion opening; keep illustrated readings with their complete sources.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/embater",
     "demoUrl": "https://antonsoo.github.io/embater/compare.html",
@@ -407,6 +407,26 @@
         ],
         "summary": "Enlarge the same Ionic drawing, read centrum oculi on the printed page, and keep an illustrated study with its source and vocabulary CSV.",
         "thumbnail": "thumbs/embater-eye.png"
+      },
+      {
+        "id": "roof",
+        "title": "How tall is the ornament?",
+        "url": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+        "reviewUrl": "https://github.com/antonsoo/embater/blob/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md#try-the-actual-work",
+        "searchTerms": [
+          "acroterion",
+          "acroteria",
+          "ἀκρωτήριον",
+          "altiora octava parte",
+          "tam alta quantum",
+          "roof ornaments",
+          "pediment",
+          "Vitruvius III.5.12",
+          "tympanum",
+          "cornice proportions"
+        ],
+        "summary": "Measure a middle ornament at h/8, then read why the Latin gives h + h/8. Change the order, check the complete printed pages, and keep both drawings with their sources in a portable reading.",
+        "thumbnail": "thumbs/embater-roof.png"
       }
     ]
   },

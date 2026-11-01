@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
 const choices = [
-  ["columns", /embater\/compare.html$/, "embater-count.png"],
+  ["roof", /embater\/#order=doric&columns=6&view=roof&trial=0\.5$/, "embater-roof.png"],
   ["counterexample", /horos\/\?investigation=two-worlds#workshop$/, "horos.png"],
   ["dorian", /harmoniai\/compare.html\?name=dorian#listen$/, "harmoniai-names.png"],
   ["circle", /stoicheia\/circle.html$/, "stoicheia-circle.png"],
@@ -30,7 +30,7 @@ test("the question menu exposes every experiment, review and source with a keybo
     );
   }
   await page.keyboard.press("Home");
-  await expect(page.locator("#question-columns")).toBeFocused();
+  await expect(page.locator("#question-roof")).toBeFocused();
   await page.keyboard.press("End");
   await expect(page.locator("#question-trace")).toBeFocused();
   await page.keyboard.press("Tab");

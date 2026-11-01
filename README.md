@@ -4,11 +4,11 @@ Open-source work by Anthony Mercer.
 
 [Browse the site](https://antonsoo.github.io/officina/) · [GitHub](https://github.com/antonsoo) · [MIT](LICENSE)
 
-![Officina's question menu beside the selected temple-count experiment](docs/assets/hero.png)
+![Officina's question menu beside the roof-proportion experiment](docs/assets/hero.png)
 
 A question menu opens five concrete experiments, then a searchable index covers
 the whole collection. Choose a question to see its actual workshop view, the
-action you can take, and its recorded review: count temple spaces, build
+action you can take, and its recorded review: measure roof ornaments, build
 Aristotle's counterexample, compare two Dorians, alter Archimedes' circle bound,
 or open a trace.
 
@@ -113,3 +113,5 @@ searches to the moving sightline experiment and its portable Greek reading.
 The lesson and its immutable source review were published before this entry.
 
 [Architectural eye, Latin form and portable study discovery review](docs/embater-vocabulary-review.md).
+
+[Roof proportions, portable readings and source-word discovery](docs/embater-roof-review.md).

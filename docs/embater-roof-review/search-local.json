@@ -1,0 +1,97 @@
+{
+  "base": "http://127.0.0.1:4497/officina/",
+  "rows": [
+    {
+      "engine": "chromium",
+      "browser": "153.0.8010.12",
+      "width": 1440,
+      "terms": [
+        "acroteria",
+        "ἀκρωτήριον",
+        "altiora octava parte",
+        "tam alta quantum",
+        "roof ornaments"
+      ],
+      "shared": "http://127.0.0.1:4497/officina/?q=altiora+octava+parte#catalogue",
+      "destination": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": "https://github.com/antonsoo/embater/blob/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md#try-the-actual-work",
+      "reviewSha256": "e85061a87042cb88d5499e9f8c3a7324289ad38ed4da34438a34559c329b3bc1",
+      "sourceSha256": "e0d002b98c95e98774b8e4051e47b0de235a161aced5928c55e839cba6ca13bd",
+      "nativeReadingBytes": 2928648,
+      "nativeReadingSha256": "95dd30a632774b688f48bd299cc6b0c2743c06640081f5f24be24ee89ecb7ece",
+      "blueEnvelopeRetained": true,
+      "exactChoicesReopened": true,
+      "identicalControlledOfflineReading": true,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "browser": "153.0.8010.12",
+      "width": 375,
+      "terms": [
+        "acroteria",
+        "ἀκρωτήριον",
+        "altiora octava parte",
+        "tam alta quantum",
+        "roof ornaments"
+      ],
+      "shared": "http://127.0.0.1:4497/officina/?q=altiora+octava+parte#catalogue",
+      "destination": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": "https://github.com/antonsoo/embater/blob/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md#try-the-actual-work",
+      "reviewSha256": "e85061a87042cb88d5499e9f8c3a7324289ad38ed4da34438a34559c329b3bc1",
+      "sourceSha256": "e0d002b98c95e98774b8e4051e47b0de235a161aced5928c55e839cba6ca13bd",
+      "nativeReadingBytes": 2928648,
+      "nativeReadingSha256": "95dd30a632774b688f48bd299cc6b0c2743c06640081f5f24be24ee89ecb7ece",
+      "blueEnvelopeRetained": true,
+      "exactChoicesReopened": true,
+      "identicalControlledOfflineReading": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "browser": "155.0",
+      "width": 1440,
+      "terms": [
+        "acroteria",
+        "ἀκρωτήριον",
+        "altiora octava parte",
+        "tam alta quantum",
+        "roof ornaments"
+      ],
+      "shared": "http://127.0.0.1:4497/officina/?q=altiora+octava+parte#catalogue",
+      "destination": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": "https://github.com/antonsoo/embater/blob/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md#try-the-actual-work",
+      "reviewSha256": "e85061a87042cb88d5499e9f8c3a7324289ad38ed4da34438a34559c329b3bc1",
+      "sourceSha256": "e0d002b98c95e98774b8e4051e47b0de235a161aced5928c55e839cba6ca13bd",
+      "nativeReadingBytes": 2928648,
+      "nativeReadingSha256": "95dd30a632774b688f48bd299cc6b0c2743c06640081f5f24be24ee89ecb7ece",
+      "blueEnvelopeRetained": true,
+      "exactChoicesReopened": true,
+      "identicalControlledOfflineReading": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "browser": "155.0",
+      "width": 375,
+      "terms": [
+        "acroteria",
+        "ἀκρωτήριον",
+        "altiora octava parte",
+        "tam alta quantum",
+        "roof ornaments"
+      ],
+      "shared": "http://127.0.0.1:4497/officina/?q=altiora+octava+parte#catalogue",
+      "destination": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": "https://github.com/antonsoo/embater/blob/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md#try-the-actual-work",
+      "reviewSha256": "e85061a87042cb88d5499e9f8c3a7324289ad38ed4da34438a34559c329b3bc1",
+      "sourceSha256": "e0d002b98c95e98774b8e4051e47b0de235a161aced5928c55e839cba6ca13bd",
+      "nativeReadingBytes": 2928648,
+      "nativeReadingSha256": "95dd30a632774b688f48bd299cc6b0c2743c06640081f5f24be24ee89ecb7ece",
+      "blueEnvelopeRetained": true,
+      "exactChoicesReopened": true,
+      "identicalControlledOfflineReading": true,
+      "errors": []
+    }
+  ]
+}
