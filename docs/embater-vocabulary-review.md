@@ -52,3 +52,22 @@ Earlier source `efb06ac` and Pages `13f27d8` were publicly checked across all
 107 files, with the `.nojekyll` marker restored after a sync mistake. Source CI
 was not claimed: Officina's Actions API returned `total_count: 0`. The final
 source/Pages heads and hosted receipts follow once the pin update is published.
+
+## Final published pin
+
+Source `57d04a0fbcf2b7ecda2c0ca68300113c30d626e8` is on `main`; Pages commit
+`32a6ce803a9b4f9e3d3150a2dd029b0d10a37a53` publishes the final pin and retains
+`.nojekyll`. The [final hosted journey](embater-vocabulary-review/reader-public.json)
+passes both engines at both widths. The driver explicitly compares the observed
+review URL with the current repository's workshop data, not merely with any
+syntactically valid older immutable link. All four cases use Embater review
+`8fc4d7b5576391d81a54e7c32d22767e6d065f78`, reach its live selected eye, open the
+checked original page and save the actual study.
+
+All **107 canonical hosted files** match the reviewed data build through both
+[gzip after decompression](embater-vocabulary-review/reader-public-bytes.json) and
+[identity responses](embater-vocabulary-review/reader-public-identity.json).
+Immutable raw project data and the actual thumbnail also match their git blobs.
+The canonical entry was rechecked after browser operation. Documentation and
+verification-driver follow-ups do not change these product bytes. No new source
+CI success is claimed; the observed Pages deployment status is success separately.

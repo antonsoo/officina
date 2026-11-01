@@ -9,6 +9,10 @@ assert(base && output, "Supply catalogue URL and receipt directory");
 await mkdir(output, { recursive: true });
 const hash = (b) => createHash("sha256").update(b).digest("hex");
 const rows = [];
+const catalogue = JSON.parse(await readFile("public/projects.json", "utf8"));
+const expectedWorkshop = catalogue
+  .find((p) => p.name === "embater")
+  .workshops.find((w) => w.id === "vocabulary");
 const source = JSON.parse(
   await readFile("../embater/public/sources/vocabulary/manifest.json", "utf8"),
 ).plates.find((p) => p.page === 71);
@@ -37,6 +41,8 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
       await row.locator("img").evaluate((i) => i.decode());
       const destination = await row.locator(".workshop-demo").getAttribute("href");
       const review = await row.locator(".workshop-review").getAttribute("href");
+      assert.equal(destination, expectedWorkshop.url);
+      assert.equal(review, expectedWorkshop.reviewUrl, "browser uses the current reviewed catalogue pin");
       const commit = /\/blob\/([a-f0-9]{40})\/docs\/vocabulary-audit.md#/.exec(review)?.[1];
       assert(commit);
       const doc = execFileSync("git", ["-C", "../embater", "show", `${commit}:docs/vocabulary-audit.md`]);
