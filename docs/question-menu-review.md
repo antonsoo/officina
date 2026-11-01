@@ -95,6 +95,13 @@ makes no search or language-service request.
 
 ## Publication boundary
 
+[The clean-build receipt](question-menu-review/clean-build.json) records a fresh
+archive of `644778a`, a separate `npm ci`, all 45 unit checks, lint/types/format
+checks and a production build under **Node 24.22.1**. All **103 files**
+(7,951,536 bytes) match the reviewed build byte for byte. That inventory
+includes the existing catalogue images and fonts; it is not an initial-transfer
+measurement.
+
 The menu is a local source/build improvement. Its existing public destinations
 were operated, but that does not establish that this new menu is hosted. The
 new Horos conditional room is not advertised as deployed. Neither repository
