@@ -56,8 +56,10 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
       await expect(p).toHaveURL(destination);
       await expect(p.locator(".card-title")).toHaveText("eye of the volute");
       await expect(p.locator(".context-phrase")).toContainText("centrum oculi");
+      await p.evaluate(() => document.fonts.ready);
       const whole = await p.locator("#drill-plate svg").getAttribute("viewBox");
       await p.locator('[data-view="detail"]').click();
+      await expect(p.locator('[data-view="detail"]')).toHaveAttribute("aria-pressed", "true");
       await p.locator('[data-pan="in"]').click();
       assert.notEqual(await p.locator("#drill-plate svg").getAttribute("viewBox"), whole);
       await p.locator('[data-source-rule="ionic-capital"]').first().click();

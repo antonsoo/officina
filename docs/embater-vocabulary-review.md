@@ -11,7 +11,7 @@ page and a native vocabulary CSV. Geometry remains the existing modern drawing;
 the linked Embater review explains its limits, retained evidence and resource cost.
 
 The review is pinned to Embater commit
-`e332fea2443e1156d517e3613ff760ff9681d176`, including the source/model boundary,
+`7678dd16f844a2915a893c63cc045ce3d9ce0896`, including the completed hosted publication audit, source/model boundary,
 51 cited rules, 26 retained complete pages, corrected source spans and the actual
 local browser/file audits. The source feature code is at `5dac1e0`. This is not a
 claim of fresh philological review for every inherited world-vocabulary entry.
@@ -34,3 +34,15 @@ node scripts/embater-vocabulary-journeys.mjs http://127.0.0.1:4496/officina/ /tm
 
 The catalogue schema, existing unit checks, lint, type checks and source formatting
 checks pass. Hosted publication and browser receipts are recorded separately.
+
+The hosted catalogue was also operated in both engines and at both widths. The
+first public replay passed Chromium but lost a Firefox pointer activation during
+font loading. The driver now waits for the lesson fonts and explicitly checks the
+Local detail pressed state before zooming. The subsequent four-case replay passes.
+This is a harness observation, not proof that a font-layout shift was the cause;
+no application interaction code was changed to make that replay pass.
+
+The final review link includes the completed Embater publication receipts: all
+89 hosted files match through both gzip and identity responses, and the complete
+hosted grading/source/offline journeys pass. Source CI ran zero steps and is not
+reported as successful validation.
