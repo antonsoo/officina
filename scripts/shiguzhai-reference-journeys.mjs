@@ -6,14 +6,16 @@ import http from "node:http";
 import path from "node:path";
 import { chromium, firefox, expect } from "@playwright/test";
 
+const publicMode = process.argv.includes("--public");
 const output = path.resolve(process.argv[2] ?? "/tmp/officina-bell-reference");
 await mkdir(output, { recursive: true });
 const catalogue = JSON.parse(await readFile("public/projects.json", "utf8"));
 const workshop = catalogue.find((project) => project.name === "shiguzhai").workshops[0];
-const commit = /\/blob\/([a-f0-9]{40})\//.exec(workshop.reviewUrl)?.[1];
-assert(commit);
-const review = execFileSync("git", ["-C", "../shiguzhai", "show", `${commit}:docs/reference-review.md`]);
-assert.deepEqual(review, await readFile("../shiguzhai/docs/reference-review.md"));
+const pinned = /\/blob\/([a-f0-9]{40})\/(.+)$/.exec(new URL(workshop.reviewUrl).pathname);
+assert(pinned);
+const [, commit, reviewPath] = pinned;
+const review = execFileSync("git", ["-C", "../shiguzhai", "show", `${commit}:${reviewPath}`]);
+assert.deepEqual(review, await readFile(path.join("../shiguzhai", reviewPath)));
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const server = http.createServer(async (request, response) => {
   const url = new URL(request.url, "http://local");
@@ -47,7 +49,13 @@ const server = http.createServer(async (request, response) => {
 });
 await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
 const origin = `http://127.0.0.1:${server.address().port}`;
-const base = `${origin}/officina/`;
+const base = publicMode ? "https://antonsoo.github.io/officina/" : `${origin}/officina/`;
+if (publicMode) {
+  const raw = `https://raw.githubusercontent.com/antonsoo/shiguzhai/${commit}/${reviewPath}`;
+  const response = await fetch(raw, { signal: AbortSignal.timeout(20000) });
+  assert.equal(response.status, 200);
+  assert.deepEqual(Buffer.from(await response.arrayBuffer()), review);
+}
 const results = [];
 try {
   for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
@@ -62,19 +70,21 @@ try {
         });
         // These URLs retain their actual destinations while all bytes are from
         // local builds / the immutable local commit. This is not a hosted review.
-        await context.route("https://antonsoo.github.io/shiguzhai/**", async (route) => {
-          const requested = new URL(route.request().url());
-          const response = await fetch(origin + requested.pathname + requested.search);
-          await route.fulfill({
-            status: response.status,
-            headers: { "content-type": response.headers.get("content-type") },
-            body: Buffer.from(await response.arrayBuffer()),
+        if (!publicMode)
+          await context.route("https://antonsoo.github.io/shiguzhai/**", async (route) => {
+            const requested = new URL(route.request().url());
+            const response = await fetch(origin + requested.pathname + requested.search);
+            await route.fulfill({
+              status: response.status,
+              headers: { "content-type": response.headers.get("content-type") },
+              body: Buffer.from(await response.arrayBuffer()),
+            });
           });
-        });
-        await context.route("https://github.com/antonsoo/shiguzhai/blob/**", async (route) => {
-          assert.equal(new URL(route.request().url()).pathname, new URL(workshop.reviewUrl).pathname);
-          await route.fulfill({ contentType: "text/plain; charset=utf-8", body: review });
-        });
+        if (!publicMode)
+          await context.route("https://github.com/antonsoo/shiguzhai/blob/**", async (route) => {
+            assert.equal(new URL(route.request().url()).pathname, new URL(workshop.reviewUrl).pathname);
+            await route.fulfill({ contentType: "text/plain; charset=utf-8", body: review });
+          });
         const page = await context.newPage(),
           errors = [];
         page.on("pageerror", (error) => errors.push(error.message));
@@ -143,7 +153,8 @@ try {
           sharedQuery: new URL(shared).search,
           destination: workshop.url,
           review: workshop.reviewUrl,
-          localPinnedReviewSha256: hash(review),
+          pinnedReviewSha256: hash(review),
+          canonicalRawReviewByteEqual: publicMode,
           actualReadingSha256: hash(Buffer.from(html)),
           actualReadingBytes: Buffer.byteLength(html),
           sourceImageSha256: hash(Buffer.from(source)),
@@ -151,7 +162,7 @@ try {
         });
         await context.close();
         process.stdout.write(
-          `${engine} ${width}: search, shared link, pinned local review, operated lesson, source and downloaded reading passed\n`,
+          `${engine} ${width}: search, shared link, pinned ${publicMode ? "public" : "local"} review, operated lesson, source and downloaded reading passed\n`,
         );
       }
     } finally {
@@ -163,5 +174,5 @@ try {
 }
 await writeFile(
   path.join(output, "receipt.json"),
-  `${JSON.stringify({ scope: "Local catalogue-to-lesson route. Public lesson URLs and pinned review URL are fulfilled from local dist files and the actual local commit. Service workers blocked here; offline behavior verified separately in the lesson review. This is not public delivery evidence.", configurations: results }, null, 2)}\n`,
+  `${JSON.stringify({ scope: publicMode ? "Canonical public catalogue and lesson URLs without response interception, pinned GitHub review followed by keyboard and exact raw review byte comparison. Service workers blocked for fresh network discovery; public worker and offline behavior verified separately in Shiguzhai. This is browser delivery evidence, separate from source synchronization and remote CI." : "Local catalogue-to-lesson route. Public lesson URLs and pinned review URL are fulfilled from local dist files and the actual local commit. Service workers blocked here; offline behavior verified separately in the lesson review. This is not public delivery evidence.", configurations: results }, null, 2)}\n`,
 );
