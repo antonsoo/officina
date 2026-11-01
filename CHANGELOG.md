@@ -11,6 +11,10 @@ All notable changes to this project are documented in this file.
 
 ### Changed
 
+- Replace the long opening feature stack with five selectable questions, an
+  actual workshop preview and direct activity/review/source links. Desktop
+  selection supports arrows/Home/End; phones use a native select. Preserve
+  searches and keep activities accessible when a preview cannot load.
 - Replace the repeated card grid with selected experiments and a ruled project index.
   Introduce Anthony Mercer by name, with GitHub and PRAVIEL links.
 - Feature the temple-count comparison, Greek octave names, Archimedes' circle argument

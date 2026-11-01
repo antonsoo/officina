@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-11-01T01:24:40.046Z",
+  "baselineCommit": "9d6fb98e508a429400b25df9aad971eccaeef2c8",
+  "method": "Both source builds rendered at identical viewports after fonts and selected images decoded. Coordinates are document CSS pixels.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "theme": "light",
+      "before": {
+        "indexStartsAt": 1412,
+        "selectionHeight": 1014,
+        "documentFits": true
+      },
+      "after": {
+        "indexStartsAt": 958,
+        "selectionHeight": 632,
+        "documentFits": true
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "theme": "dark",
+      "before": {
+        "indexStartsAt": 1412,
+        "selectionHeight": 1014,
+        "documentFits": true
+      },
+      "after": {
+        "indexStartsAt": 958,
+        "selectionHeight": 632,
+        "documentFits": true
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "theme": "light",
+      "before": {
+        "indexStartsAt": 1996,
+        "selectionHeight": 1664,
+        "documentFits": true
+      },
+      "after": {
+        "indexStartsAt": 1066,
+        "selectionHeight": 745,
+        "documentFits": true
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "theme": "dark",
+      "before": {
+        "indexStartsAt": 1996,
+        "selectionHeight": 1664,
+        "documentFits": true
+      },
+      "after": {
+        "indexStartsAt": 1066,
+        "selectionHeight": 745,
+        "documentFits": true
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "theme": "light",
+      "before": {
+        "indexStartsAt": 1412,
+        "selectionHeight": 1015,
+        "documentFits": true
+      },
+      "after": {
+        "indexStartsAt": 958,
+        "selectionHeight": 632,
+        "documentFits": true
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "theme": "dark",
+      "before": {
+        "indexStartsAt": 1412,
+        "selectionHeight": 1015,
+        "documentFits": true
+      },
+      "after": {
+        "indexStartsAt": 958,
+        "selectionHeight": 632,
+        "documentFits": true
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "theme": "light",
+      "before": {
+        "indexStartsAt": 1996,
+        "selectionHeight": 1665,
+        "documentFits": true
+      },
+      "after": {
+        "indexStartsAt": 1066,
+        "selectionHeight": 745,
+        "documentFits": true
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "theme": "dark",
+      "before": {
+        "indexStartsAt": 1996,
+        "selectionHeight": 1665,
+        "documentFits": true
+      },
+      "after": {
+        "indexStartsAt": 1066,
+        "selectionHeight": 745,
+        "documentFits": true
+      }
+    }
+  ]
+}

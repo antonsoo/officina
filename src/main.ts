@@ -1,6 +1,6 @@
 import "./fonts/fonts.css";
 import "./style.css";
-import { renderSelected } from "./selected";
+import { mountSelected } from "./selected";
 import type { Project, Workshop } from "./types";
 import { filterProjects, groupNames, matchingWorkshops, parseCatalogue } from "./catalogue";
 
@@ -105,7 +105,7 @@ function renderCatalogue(projects: Project[], container: HTMLElement): void {
     container.innerHTML = '<p class="catalogue-message" role="status">No tools are listed yet.</p>';
     return;
   }
-  document.getElementById("selected")!.innerHTML = renderSelected(published);
+  mountSelected(published, document.getElementById("selected")!);
   container.innerHTML = `
     <div class="index-heading"><h2>All projects</h2><p>Search the work, the sources, or a question.</p></div>
     <form class="catalogue-controls" role="search" aria-label="Find a tool">

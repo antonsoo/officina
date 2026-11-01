@@ -4,12 +4,17 @@ Open-source work by Anthony Mercer.
 
 [Browse the site](https://antonsoo.github.io/officina/) · [GitHub](https://github.com/antonsoo) · [MIT](LICENSE)
 
-![Officina's selected work: a temple-count comparison, followed by music, geometry and software](docs/assets/hero.png)
+![Officina's question menu beside the selected temple-count experiment](docs/assets/hero.png)
 
-A few concrete experiments to begin with, then a searchable index of the whole
-collection. The opening comparison asks why six columns across a temple do not
-imply twelve down its side. Other selections compare Greek and modern Dorian from one pitch,
-Archimedes' circle argument and a local trace reader.
+A question menu opens five concrete experiments, then a searchable index covers
+the whole collection. Choose a question to see its actual workshop view, the
+action you can take, and its recorded review: count temple spaces, build
+Aristotle's counterexample, compare two Dorians, alter Archimedes' circle bound,
+or open a trace.
+
+Desktop selection supports arrow keys, Home and End. A phone uses a native
+selector for the same choices. Changing the preview preserves search and stays
+on the page. [Design and operated review](docs/question-menu-review.md).
 
 The page identifies its author by name, with links to GitHub and PRAVIEL.
 It does not lead with a professional title or location.
