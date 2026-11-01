@@ -1191,15 +1191,15 @@
   },
   {
     "name": "syngraphe",
-    "description": "Fifteen feet includes the pillar. Read the Piraeus naval-storehouse programme in Greek, correct two plausible misreadings and compare measured drawings with whole printed pages.",
+    "description": "Read a Greek storehouse programme through measured drawings and moving sightlines. Test inclusive dimensions, exceptional segments and chests with different opening faces beside whole printed pages.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/syngraphe",
     "demoUrl": "https://antonsoo.github.io/syngraphe/#width",
     "thumbnail": "thumbs/syngraphe.png",
     "status": "published",
     "study": {
-      "finding": "A thirty-foot total can still violate the first-segment clause. Inclusive Greek measurements constrain a drawing without completing a reconstruction.",
-      "url": "https://github.com/antonsoo/syngraphe/blob/35dfbe6cda4f9456eb58e8b555101cfbf1950650/docs/review.md#try-the-actual-work"
+      "finding": "A design can expose both sample points somewhere along a chosen path while providing the wrong openable faces.",
+      "url": "https://github.com/antonsoo/syngraphe/blob/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md#try-the-actual-work"
     },
     "searchTerms": [
       "IG II² 1668",
@@ -1213,7 +1213,16 @@
       "first segment",
       "inclusive width",
       "pillar capital",
-      "Greek building specification"
+      "Greek building specification",
+      "ἀμφοτέρους",
+      "amphoterous",
+      "διεξιοῦσιν",
+      "diexiousin",
+      "τὸμ πρόσθιον",
+      "chest faces",
+      "visibility",
+      "public passage",
+      "134 chests"
     ],
     "workshops": [
       {
@@ -1237,6 +1246,30 @@
         ],
         "summary": "Correct an inclusive width, expose a wrong first segment inside a matching total and compare two modern grids under selected clauses. Read the Greek and the whole printed evidence.",
         "thumbnail": "thumbs/syngraphe.png"
+      },
+      {
+        "id": "seeing",
+        "title": "Seeing while passing · Piraeus",
+        "url": "https://antonsoo.github.io/syngraphe/seeing.html#sightline",
+        "reviewUrl": "https://github.com/antonsoo/syngraphe/blob/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md#try-the-actual-work",
+        "searchTerms": [
+          "ἀμφοτέρους",
+          "amphoterous",
+          "διεξιοῦσιν",
+          "diexiousin",
+          "τὸμ πρόσθιον",
+          "chest faces",
+          "visibility",
+          "public passage",
+          "134 chests",
+          "both sides",
+          "front opening",
+          "wall chest",
+          "pillar chest",
+          "Philon"
+        ],
+        "summary": "Choose front or side openings, move a viewer past a support and distinguish seeing two samples from following the Greek. Keep five readings, four printed pages and the complete portable study.",
+        "thumbnail": "thumbs/syngraphe-seeing.png"
       }
     ]
   },
