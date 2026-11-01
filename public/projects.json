@@ -389,6 +389,24 @@
         ],
         "summary": "Match the Erechtheion report’s height or lower width against three rules. The exact double square leaves 14 mm in width or 28 mm in height. Inspect the 1927 survey’s omitted later lining.",
         "thumbnail": "thumbs/embater-erechtheion.webp"
+      },
+      {
+        "id": "vocabulary",
+        "title": "Find a column's eye",
+        "url": "https://antonsoo.github.io/embater/drill.html#deck=ionic&lang=la&mode=study&part=oculus",
+        "reviewUrl": "https://github.com/antonsoo/embater/blob/e332fea2443e1156d517e3613ff760ff9681d176/docs/vocabulary-audit.md#try-the-actual-work",
+        "searchTerms": [
+          "centrum oculi",
+          "oculus",
+          "oculi",
+          "ὀφθαλμός",
+          "volute eye",
+          "Latin genitive",
+          "architectural vocabulary",
+          "illustrated vocabulary study"
+        ],
+        "summary": "Enlarge the same Ionic drawing, read centrum oculi on the printed page, and keep an illustrated study with its source and vocabulary CSV.",
+        "thumbnail": "thumbs/embater-eye.png"
       }
     ]
   },

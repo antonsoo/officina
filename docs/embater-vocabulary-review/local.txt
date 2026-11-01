@@ -1,0 +1,4 @@
+chromium 1440: search, pinned review, selected eye, detail, checked page and native study verified
+chromium 375: search, pinned review, selected eye, detail, checked page and native study verified
+firefox 1440: search, pinned review, selected eye, detail, checked page and native study verified
+firefox 375: search, pinned review, selected eye, detail, checked page and native study verified
