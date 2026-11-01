@@ -1,0 +1,106 @@
+{
+  "checkedAt": "2026-11-01T05:21:55.618Z",
+  "boundary": "Local production catalogue and lesson builds; canonical navigations redirected to local fixtures; not public publication evidence",
+  "journeys": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "aliases": [
+        "ἀμφοτέρους",
+        "αμφοτερους",
+        "amphoterous",
+        "διεξιοῦσιν",
+        "διεξιουσιν",
+        "diexiousin",
+        "τὸμ πρόσθιον",
+        "public passage",
+        "chest faces",
+        "134 chests"
+      ],
+      "canonicalLesson": "https://antonsoo.github.io/syngraphe/seeing.html#sightline",
+      "canonicalReview": "https://github.com/antonsoo/syngraphe/blob/238b744dc0f5033ef2470a63d4d34905c3d07fd6/docs/visibility-review.md#try-the-actual-work",
+      "localPinnedReviewSha256": "5c0c2ed61e3d11dec35cdcb17c92cfcf739f3373523ede8af02457fed78996d0",
+      "actualChestOperation": true,
+      "greekPhraseToWholePage": true,
+      "portableBytes": 2662946,
+      "portableSha256": "049f40bbbb9a0e9d5a45f6d3e5aa4e7b98327e274f2d43c8d94d5f49d2daa244",
+      "portableScriptsDisabled": true,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "aliases": [
+        "ἀμφοτέρους",
+        "αμφοτερους",
+        "amphoterous",
+        "διεξιοῦσιν",
+        "διεξιουσιν",
+        "diexiousin",
+        "τὸμ πρόσθιον",
+        "public passage",
+        "chest faces",
+        "134 chests"
+      ],
+      "canonicalLesson": "https://antonsoo.github.io/syngraphe/seeing.html#sightline",
+      "canonicalReview": "https://github.com/antonsoo/syngraphe/blob/238b744dc0f5033ef2470a63d4d34905c3d07fd6/docs/visibility-review.md#try-the-actual-work",
+      "localPinnedReviewSha256": "5c0c2ed61e3d11dec35cdcb17c92cfcf739f3373523ede8af02457fed78996d0",
+      "actualChestOperation": true,
+      "greekPhraseToWholePage": true,
+      "portableBytes": 2662946,
+      "portableSha256": "049f40bbbb9a0e9d5a45f6d3e5aa4e7b98327e274f2d43c8d94d5f49d2daa244",
+      "portableScriptsDisabled": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "aliases": [
+        "ἀμφοτέρους",
+        "αμφοτερους",
+        "amphoterous",
+        "διεξιοῦσιν",
+        "διεξιουσιν",
+        "diexiousin",
+        "τὸμ πρόσθιον",
+        "public passage",
+        "chest faces",
+        "134 chests"
+      ],
+      "canonicalLesson": "https://antonsoo.github.io/syngraphe/seeing.html#sightline",
+      "canonicalReview": "https://github.com/antonsoo/syngraphe/blob/238b744dc0f5033ef2470a63d4d34905c3d07fd6/docs/visibility-review.md#try-the-actual-work",
+      "localPinnedReviewSha256": "5c0c2ed61e3d11dec35cdcb17c92cfcf739f3373523ede8af02457fed78996d0",
+      "actualChestOperation": true,
+      "greekPhraseToWholePage": true,
+      "portableBytes": 2662946,
+      "portableSha256": "049f40bbbb9a0e9d5a45f6d3e5aa4e7b98327e274f2d43c8d94d5f49d2daa244",
+      "portableScriptsDisabled": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "aliases": [
+        "ἀμφοτέρους",
+        "αμφοτερους",
+        "amphoterous",
+        "διεξιοῦσιν",
+        "διεξιουσιν",
+        "diexiousin",
+        "τὸμ πρόσθιον",
+        "public passage",
+        "chest faces",
+        "134 chests"
+      ],
+      "canonicalLesson": "https://antonsoo.github.io/syngraphe/seeing.html#sightline",
+      "canonicalReview": "https://github.com/antonsoo/syngraphe/blob/238b744dc0f5033ef2470a63d4d34905c3d07fd6/docs/visibility-review.md#try-the-actual-work",
+      "localPinnedReviewSha256": "5c0c2ed61e3d11dec35cdcb17c92cfcf739f3373523ede8af02457fed78996d0",
+      "actualChestOperation": true,
+      "greekPhraseToWholePage": true,
+      "portableBytes": 2662946,
+      "portableSha256": "049f40bbbb9a0e9d5a45f6d3e5aa4e7b98327e274f2d43c8d94d5f49d2daa244",
+      "portableScriptsDisabled": true,
+      "errors": []
+    }
+  ]
+}

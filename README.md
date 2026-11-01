@@ -107,3 +107,7 @@ The [Traditio ceremony discovery review](docs/traditio-ceremony-review.md) follo
 [Verner comparison and inverse-accent discovery review](docs/akzent-review.md) follows source-word searches into Akzent’s resistant comparison and its ambiguous, unique and impossible accent accounts.
 
 [Psephos attendance and row-selection discovery](docs/psephos-allotment-review.md) follows Greek phrases through the actual finite-population experiment, joint chances, primary pages and portable studies.
+
+[Syngraphe opening-face discovery](docs/syngraphe-seeing-review.md) stages source-word
+searches into the moving sightline experiment and its portable Greek reading.
+This local addition requires the lesson to be published before the catalogue.
