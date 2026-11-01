@@ -1297,7 +1297,7 @@
   },
   {
     "name": "horos",
-    "description": "Construct Aristotle's horse-and-stone counterexamples, expose an existence assumption, and read the Greek beside complete source pages. Keep both worlds and the reasoning in a portable illustrated notebook.",
+    "description": "Build Aristotle's counterexamples and test Sextus's disputed ‘if’. Change facts, expose assumptions, read Greek beside complete source pages, and keep the reasoning in a portable illustrated notebook.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/horos",
     "demoUrl": "https://antonsoo.github.io/horos/",
@@ -1361,6 +1361,34 @@
         ],
         "summary": "Remove the shared instance, then change the existence assumption. Follow the blocked witness requirement and compare this modern empty-class model with Aristotle’s instance-taking passage.",
         "thumbnail": "thumbs/horos-inhabitant.png"
+      },
+      {
+        "id": "conditionals",
+        "title": "When is “if” true? Philo, Diodorus and the disputed connection",
+        "url": "https://antonsoo.github.io/horos/conditionals.html#experiment",
+        "reviewUrl": "https://github.com/antonsoo/horos/blob/fa9968e748f55644d5d6dd8c4cd8f58419154ceb/docs/conditional-review.md#try-the-actual-work",
+        "searchTerms": [
+          "Sextus Empiricus",
+          "Outlines of Pyrrhonism",
+          "Philo",
+          "Diodorus",
+          "conditional",
+          "if it is day",
+          "συνημμένον",
+          "synēmmenon",
+          "συνάρτησις",
+          "συνάρτησιν",
+          "synartesis",
+          "synartēsin",
+          "μάχηται",
+          "makhetai",
+          "conexum",
+          "pugnet",
+          "finite compatibility",
+          "Hellenistic logic"
+        ],
+        "summary": "Hold the present facts fixed while changing the admitted cases. Compare two tests, diagnose an excluded present or vacuous pass, and read four ancient accounts without treating a modern table as their verdict.",
+        "thumbnail": "thumbs/horos-conditionals.png"
       }
     ]
   },
