@@ -109,3 +109,16 @@ catalogue, then follows the exact raw source pin and operates the public lesson
 in both browsers and widths. The [data-build comparison](embater-roof-review/pin-build.json)
 checks that `projects.json` matches source and the other 107 files remain
 identical to the independent clean build. The schema and production build pass.
+
+The clarified pin was published from source `4575efb`, with Pages fast-forward
+`10ebd0b0279537f31f4226b5d0b9fc96564a0d39`. All
+[108 canonical files](embater-roof-review/pin-public-files.json) match the
+reviewed data build. The [final public replay](embater-roof-review/pin-public.json)
+passes both engines and widths, explicitly comparing the menu and workshop pins
+with current catalogue data. All four journeys follow review
+`a19a6129bfb759b7c931f3e825714f475fabc429`, inspect the original page, retain and
+reopen the exact experiment, and obtain its identical offline reading. The
+[root, index and catalogue](embater-roof-review/pin-entries-after.json) still
+matched after the runs. Raw immutable catalogue data also matched local bytes.
+This pin update changes only `projects.json` among product files; no menu layout
+or route changed from the earlier twenty public handoffs.

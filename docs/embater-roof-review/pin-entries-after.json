@@ -1,0 +1,20 @@
+[
+  {
+    "path": "(root)",
+    "bytes": 3058,
+    "sha256": "c6a43d33735c242a9c1c4753b1f452b4b1154366962a89fc091e85d223828f62",
+    "matches": true
+  },
+  {
+    "path": "index.html",
+    "bytes": 3058,
+    "sha256": "c6a43d33735c242a9c1c4753b1f452b4b1154366962a89fc091e85d223828f62",
+    "matches": true
+  },
+  {
+    "path": "projects.json",
+    "bytes": 86907,
+    "sha256": "01052916c57456aa91d61fcf22a251af5e63c605273ed0e47fe32f7147dcec64",
+    "matches": true
+  }
+]
