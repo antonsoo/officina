@@ -564,7 +564,7 @@
         "id": "live",
         "title": "Turn the string while it sounds",
         "url": "https://antonsoo.github.io/sammu/practice.html?moves=LL&listen=partials&cents=110#practice",
-        "reviewUrl": "https://github.com/antonsoo/sammu/blob/5397736d442315183d07ab8b5aa62e9c3d2feafe/docs/live-review.md#try-the-actual-instrument",
+        "reviewUrl": "https://github.com/antonsoo/sammu/blob/c26656e1f9b0b4e572c95a744c51bb956b4582bb/docs/audit.md#hear-the-adjustment",
         "summary": "Keep the pair sounding as you adjust one string. Hear the beats slow down, then rise beyond the alignment; reveal the measurements afterward. This is a modern numerical realization of the reconstructed procedure.",
         "searchTerms": [
           "Mesopotamia",

@@ -8,19 +8,20 @@ import { chromium, firefox, expect } from "@playwright/test";
 
 const source = path.resolve(process.argv[2] ?? "../sammu");
 const output = path.resolve(process.argv[3] ?? "/tmp/officina-sammu-live");
+const publicReview = process.env.SAMMU_PUBLIC === "1";
 await mkdir(output, { recursive: true });
 const { reviewPreview } = await import(pathToFileURL(path.join(source, "scripts/review-preview.mjs")));
-const catalogueServer = reviewPreview(process.cwd(), 4414);
-const workshopServer = reviewPreview(source, 4415);
-const catalogue = "http://127.0.0.1:4414/officina/";
-const workshop = "http://127.0.0.1:4415/sammu/";
+const catalogueServer = publicReview ? null : reviewPreview(process.cwd(), 4414);
+const workshopServer = publicReview ? null : reviewPreview(source, 4415);
+const catalogue = publicReview ? "https://antonsoo.github.io/officina/" : "http://127.0.0.1:4414/officina/";
+const workshop = publicReview ? "https://antonsoo.github.io/sammu/" : "http://127.0.0.1:4415/sammu/";
 const rows = [];
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const edition = /const EDITION = "([a-f0-9]+)"/.exec(
   await readFile(path.join(source, "dist/sw.js"), "utf8"),
 )[1];
 try {
-  await Promise.all([catalogueServer.ready, workshopServer.ready]);
+  await Promise.all([catalogueServer?.ready, workshopServer?.ready]);
   for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
     const browser = await launcher.launch();
     try {
@@ -32,20 +33,32 @@ try {
         });
         try {
           const page = await context.newPage();
+          await page.addInitScript(() => {
+            window.__liveNodes = [];
+            window.__liveEnded = 0;
+            const create = AudioContext.prototype.createOscillator;
+            AudioContext.prototype.createOscillator = function () {
+              const oscillator = create.call(this);
+              window.__liveNodes.push(oscillator);
+              oscillator.addEventListener("ended", () => window.__liveEnded++);
+              return oscillator;
+            };
+          });
           const errors = [];
           page.on("pageerror", (error) => errors.push(error.message));
           // Exercise the real catalogue anchor. The local integration review
           // explicitly redirects its public destination to the reviewed build.
           // No public response or publication claim is substituted by this test.
-          await page.route("https://antonsoo.github.io/sammu/**", (route) => {
-            const url = new URL(route.request().url());
-            return route.fulfill({
-              status: 302,
-              headers: {
-                location: `${workshop}${url.pathname.slice("/sammu/".length)}${url.search}${url.hash}`,
-              },
+          if (!publicReview)
+            await page.route("https://antonsoo.github.io/sammu/**", (route) => {
+              const url = new URL(route.request().url());
+              return route.fulfill({
+                status: 302,
+                headers: {
+                  location: `${workshop}${url.pathname.slice("/sammu/".length)}${url.search}${url.hash}`,
+                },
+              });
             });
-          });
           await page.goto(catalogue);
           const row = page.locator('[data-project="sammu"] [data-workshop="live"]');
           for (const term of ["amplitude beats", "lā zakû", "la zaku", "nasāḫum", "sustained sound"]) {
@@ -62,12 +75,20 @@ try {
           await row.locator("img").evaluate((image) => image.decode());
           const destination = await row.locator(".workshop-demo").getAttribute("href");
           const review = await row.locator(".workshop-review").getAttribute("href");
-          const pin = /\/blob\/([a-f0-9]{40})\/docs\/live-review\.md#try-the-actual-instrument$/.exec(
-            review,
-          )?.[1];
+          const pin = /\/blob\/([a-f0-9]{40})\/docs\/audit\.md#hear-the-adjustment$/.exec(review)?.[1];
           assert.ok(pin);
-          const document = execFileSync("git", ["-C", source, "show", `${pin}:docs/live-review.md`]);
-          assert.match(document.toString(), /The current review is local/);
+          const document = execFileSync("git", ["-C", source, "show", `${pin}:docs/audit.md`]);
+          assert.match(document.toString(), /modern teaching signal/);
+          if (publicReview) {
+            const raw = await fetch(`https://raw.githubusercontent.com/antonsoo/sammu/${pin}/docs/audit.md`);
+            assert.equal(raw.status, 200);
+            assert.deepEqual(Buffer.from(await raw.arrayBuffer()), document);
+            await row.locator(".workshop-review").focus();
+            await page.keyboard.press("Enter");
+            await expect(page).toHaveURL(review);
+            await expect(page.locator("article")).toContainText("Hear the adjustment");
+            await page.goto(shared);
+          }
           const thumb = await readFile("public/thumbs/sammu-live.png");
           assert.deepEqual(thumb, await readFile(path.join(source, "docs/assets/live-workbench.png")));
           await page.screenshot({
@@ -85,15 +106,26 @@ try {
           await page.waitForFunction(
             () => document.getElementById("audio-status").dataset.playing === "true",
           );
+          const firstTime = await page.evaluate(() => {
+            if (window.__liveNodes.length !== 12) throw new Error("Expected twelve oscillators");
+            return window.__liveNodes[0].context.currentTime;
+          });
           await page.locator("#amount").focus();
           await page.keyboard.press("Shift+ArrowRight");
           await page.keyboard.press("Shift+ArrowRight");
           await expect(page.locator("#amount")).toHaveValue("112");
           await expect(page.locator("#audio-status")).toHaveAttribute("data-playing", "true");
+          await page.waitForFunction(
+            (first) => window.__liveNodes[0].context.currentTime > first + 0.1,
+            firstTime,
+          );
+          assert.equal(await page.evaluate(() => window.__liveNodes.length), 12);
+          assert.equal(await page.evaluate(() => window.__liveEnded), 0);
           await page.locator("#reveal").click();
           await expect(page.locator(".partial-gap")).toContainText("1.015608 Hz");
           await expect(page.locator("#base-summary")).toContainText("2 exact moves");
           await page.locator("#stop").click();
+          await page.waitForFunction(() => window.__liveEnded === 12);
           const waiting = page.waitForEvent("download");
           await page.locator("#save-json").click();
           const download = await waiting;
@@ -132,7 +164,9 @@ try {
             partialGap: "1.015608 Hz",
             attempt: file,
             sourcePreservationReached: true,
-            publicBytesChecked: false,
+            publicReviewBytesChecked: publicReview,
+            continuousClockAndSame12Nodes: true,
+            stoppedAll12Nodes: true,
             errors,
           });
         } finally {
@@ -144,15 +178,16 @@ try {
     }
   }
 } finally {
-  catalogueServer.stop();
-  workshopServer.stop();
+  catalogueServer?.stop();
+  workshopServer?.stop();
 }
 await writeFile(
   path.join(output, "receipt.json"),
   JSON.stringify(
     {
-      scope:
-        "Local discovery and operation only. Public workshop links redirect to the reviewed local build; the review pin is read from local Git, not from a public server.",
+      scope: publicReview
+        ? "Actual public catalogue, pinned review and workshop. Public review bytes compared with Git. Oscillator identity and clock observed; PCM is measured separately on the byte-identical local build."
+        : "Local discovery and operation only. Public workshop links redirect to the reviewed local build; the review pin is read from local Git, not from a public server.",
       passed: true,
       rows,
     },
@@ -161,5 +196,5 @@ await writeFile(
   ) + "\n",
 );
 process.stdout.write(
-  `Four local catalogue -> live practice -> retained attempt -> source journeys passed.\n`,
+  `Four ${publicReview ? "public" : "local"} catalogue -> review -> live practice -> retained attempt -> source journeys passed.\n`,
 );

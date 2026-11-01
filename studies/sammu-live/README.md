@@ -1,7 +1,7 @@
 # Find the pair. Keep it sounding.
 
 The catalogue now exposes Sammû's existing practice room through a specific
-workshop: **Turn the string while it sounds**. The new local source keeps the
+workshop: **Turn the string while it sounds**. The practice room keeps the
 pair sounding while the learner adjusts it. A source term such as `lā zakû` or
 `nasāḫum`, or a question about amplitude beats, leads directly to that exercise.
 Accent folding also finds it from `la zaku`. The thumbnail is an actual operated
@@ -17,17 +17,20 @@ without stopping it, reveals the 1.015608 Hz partial gap, downloads the real
 112-cent attempt, and follows the source reader to its preservation notes.
 The exact underlying `LL` history remains unchanged.
 
-The review link pins Sammû source
-`5397736d442315183d07ab8b5aa62e9c3d2feafe`, containing the continuous-signal,
-source-page, export, offline and upgrade evidence. That document identifies
-runtime source `e756a69`. Its bytes and thumbnail are checked against local Git
-and source files in these journeys.
+The current review link pins Sammû source `c26656e1f9b0b4e572c95a744c51bb956b4582bb` and
+[its instrument audit](https://github.com/antonsoo/sammu/blob/c26656e1f9b0b4e572c95a744c51bb956b4582bb/docs/audit.md#hear-the-adjustment).
+That review separates runtime source `3ce4352`, clean build identity, actual
+continuous audio, damaged-asset refusal, offline repair, first-install recovery
+and public delivery. Its thirteen canonical files match the reviewed build.
 
-This change has **not been published**. The local reviewer redirects the public
-workshop anchor to the local production build; it never treats that response
-as hosted evidence. The pinned review is read from local Git, and no public
-raw-document or hosted-file match is claimed. The new Sammû source and review
-must be published before this catalogue change is deployed.
+The original [local receipt](receipt.json) is retained as historical evidence:
+it explicitly redirects the public workshop anchor to a local production build
+and reads the earlier review from local Git. It makes no hosted claim.
+The updated reviewer supports a separate public mode that follows actual
+catalogue and review links, compares pinned public raw bytes, and observes the
+same twelve oscillators through a keyboard adjustment and an explicit stop.
+The audio-thread PCM measurements remain a local proof on the byte-identical
+workshop build.
 
 Both repositories were freshly installed and built under Node 24.22.1. Officina's
 lint, strict TypeScript, 45 existing checks, catalogue validation and build pass.
@@ -37,6 +40,7 @@ To repeat after building both repositories and installing their dependencies:
 
 ```sh
 npm run test:sammu-live-local -- ../sammu /tmp/officina-sammu-live
+npm run test:sammu-live -- ../sammu /tmp/officina-sammu-public
 ```
 
 This local reviewer owns ports 4414 and 4415 and expects a sibling Sammû
