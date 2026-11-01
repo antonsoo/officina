@@ -116,7 +116,7 @@ try {
         await page.keyboard.press("Enter");
         await expect(page).toHaveURL(workshop.url);
         await page.waitForFunction(
-          () => document.querySelector("#reference").getBoundingClientRect().top < 100,
+          () => (document.querySelector("#reference")?.getBoundingClientRect().top ?? Infinity) < 100,
         );
         await expect(page.locator("#reference-result")).toContainText(
           "Held 439.523 Hz: 9 keys. Current 439.524 Hz: 10 keys.",
