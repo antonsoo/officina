@@ -12,7 +12,7 @@ in `public/projects.json`. Both the menu and the matching workshop use the same
 immutable review pin. The preview is a native screenshot of the operated roof,
 not a reconstruction of a historical ornament.
 
-[Embater's source/model audit](https://github.com/antonsoo/embater/blob/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md#try-the-actual-work)
+[Embater's source/model audit](https://github.com/antonsoo/embater/blob/a19a6129bfb759b7c931f3e825714f475fabc429/docs/roof-audit.md#try-the-actual-work)
 records the source passages, corrected actual geometry, modern conventions,
 font reproduction and offline-update behavior. Its portable reading embeds the
 roof, full front for context, settings, Latin and English, three complete printed
@@ -93,3 +93,19 @@ were fetched again after these browser runs and still matched. This establishes
 static-site identity and operated public behavior; it does not claim a registry
 release, tag or source CI success. Later documentation-only changes do not alter
 the reviewed product bytes.
+
+
+## Clarified scroll source boundary
+
+The current roof review pin advances to Embater `a19a612`. It clarifies a source
+issue in the whole-front context: eight quarters around one fixed centre are a
+modern continuation, not a complete surviving compass prescription. The
+selected eye and volute connect that outline to Gonia's separately sourced later
+compass workshop. The earlier receipts above retain their actual earlier pins.
+
+The [current-pin local replay](embater-roof-review/pin-local.json) checks both
+the opening menu's review URL and the searchable workshop against the current
+catalogue, then follows the exact raw source pin and operates the public lesson
+in both browsers and widths. The [data-build comparison](embater-roof-review/pin-build.json)
+checks that `projects.json` matches source and the other 107 files remain
+identical to the independent clean build. The schema and production build pass.

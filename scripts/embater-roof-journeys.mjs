@@ -35,6 +35,8 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
       const errors = [];
       page.on("pageerror", (error) => errors.push(error.message));
       await page.goto(base);
+      await expect(page.locator(".question-open")).toHaveAttribute("href", workshop.url);
+      await expect(page.locator(".question-review")).toHaveAttribute("href", workshop.reviewUrl);
       const row = page.locator('[data-project="embater"] [data-workshop="roof"]');
       const terms = ["acroteria", "ἀκρωτήριον", "altiora octava parte", "tam alta quantum", "roof ornaments"];
       for (const term of terms) {
