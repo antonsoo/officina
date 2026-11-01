@@ -46,3 +46,23 @@ The final review link includes the completed Embater publication receipts: all
 89 hosted files match through both gzip and identity responses, and the complete
 hosted grading/source/offline journeys pass. Source CI ran zero steps and is not
 reported as successful validation.
+
+## Published catalogue
+
+Source `efb06ac5119eefe62c4d0f93261788fafcc21996` is on `main`. The final
+reviewed Pages branch is `13f27d8307bb05654b4a56e37c0546bbdfbc00a5`.
+The [107-file clean build](embater-vocabulary-review/build.json) and
+[all 107 canonical hosted files](embater-vocabulary-review/public-bytes.json)
+match byte for byte. The [.nojekyll marker](https://antonsoo.github.io/officina/.nojekyll)
+was restored after a second sync accidentally removed it; this final deployment
+retains the marker. No application asset differed from the reviewed build.
+
+The [final hosted journey](embater-vocabulary-review/public.json) passes Chromium
+and Firefox at both widths, including the final immutable review URL. Its raw
+review matches the git blob; the actual downloaded study retains the checked
+printed page and native CSV. The hosted lesson is selected at the eye on arrival.
+The final canonical catalogue entry was rechecked after browser operation.
+
+Officina's Actions API reported `total_count: 0`, so no source CI run is claimed.
+The Pages deployment status reports success separately. Publication did not change
+Pages settings, authentication or billing configuration.
