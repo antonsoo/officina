@@ -612,7 +612,7 @@
         "title": "Cross a label boundary; keep the bell pitches",
         "summary": "Compare the same 87 reported entries at A4 = 439.523 and 439.524 Hz: nine modern keys become ten. Hear the unchanged pitches and keep both references with the source table.",
         "url": "https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439.524&against=439.523#reference",
-        "reviewUrl": "https://github.com/antonsoo/shiguzhai/blob/a969500956ab1e598b1b7cdf7d6942d87a717a80/docs/reference-audit.md#what-a-learner-can-do",
+        "reviewUrl": "https://github.com/antonsoo/shiguzhai/blob/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/reference-audit.md#what-a-learner-can-do",
         "searchTerms": [
           "Shiguzhai",
           "石鼓寨",
