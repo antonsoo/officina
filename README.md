@@ -85,7 +85,7 @@ those destinations to be available separately.
 
 [Greek music discovery journeys](docs/harmoniai-names-review.md) ·
 [Aristotle discovery journeys](docs/horos-review.md) ·
-[Local bell-reference discovery review](docs/shiguzhai-reference-review.md) ·
+[Public bell-reference discovery review](docs/shiguzhai-reference-publication.md) ·
 [Redesign and publication review](docs/redesign-review.md) ·
 [Earlier catalogue guide and study links](docs/archive/catalogue-guide-2026-10-29.md) ·
 [Contributing](CONTRIBUTING.md)

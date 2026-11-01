@@ -5,12 +5,10 @@ The existing Shiguzhai project now has a specific matching workshop. Search
 Its preview and summary lead to the operated two-reference comparison in the
 original room. The Piao-shi craft bench remains the project's general demo link.
 
-The workshop's review URL pins Shiguzhai's local commit
-`125083a4e292e8e97a4814756d05be7d4d708968`. The actual review file exists in that
-commit and matches the working copy. This is a prepared local catalogue change;
-the new lesson, catalogue and pinned review have not been published in this run.
-The existing public pages can still use earlier editions. Publish the reviewed
-Shiguzhai source and build before this catalogue candidate is deployed.
+This records the initial local candidate. Its review URL pinned Shiguzhai commit
+`125083a4e292e8e97a4814756d05be7d4d708968`, before publication. The subsequent
+[public discovery review](shiguzhai-reference-publication.md) records the updated
+immutable audit pin, actual public journey and hosted-byte checks.
 
 ## Observed local journey
 
@@ -68,4 +66,4 @@ same **103 files** as the journey's catalogue build:
 [clean-build receipt](shiguzhai-reference-clean-build.json).
 Both output directories are `dist/`; their bases remain `/officina/` and
 `/shiguzhai/` respectively.
-Publication remains reserved for the coordinator by `HOUSE_STANDARDS.md`.
+The initial local results above are distinct from the later public delivery observations.
