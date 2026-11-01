@@ -1,0 +1,9 @@
+{
+  "cleanNode": "24.22.1",
+  "otherNode": "26.7.0",
+  "byteIdentical": true,
+  "files": 105,
+  "projectsSha256": "c6685b8757848ecfb83a7eab97cf143755c4dc9476517e9d051b34698693ba1e",
+  "thumbnailSha256": "ec9d57208e071b95c21a20195d6aec871ab935001e63f5c7020887c2d30bf3c0",
+  "publication": "Local only; neither repository was pushed or deployed."
+}
