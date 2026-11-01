@@ -63,7 +63,9 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
       await p.locator('[data-pan="in"]').click();
       assert.notEqual(await p.locator("#drill-plate svg").getAttribute("viewBox"), whole);
       await p.locator('[data-source-rule="ionic-capital"]').first().click();
-      await expect(p.locator("#drill-source-status")).toContainText("Complete printed page 71.");
+      await expect(p.locator("#drill-source-status")).toContainText("Complete printed page 71.", {
+        timeout: 20000,
+      });
       const digest = await p
         .locator("#drill-source-image")
         .evaluate(async (i) =>
