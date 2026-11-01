@@ -7,6 +7,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { chromium, firefox, expect } from "@playwright/test";
 
+const publicRun = process.env.SYNGRAPHE_PUBLIC === "1";
 const out = path.resolve(process.argv[2] ?? "test-results/syngraphe-seeing");
 const lesson = path.resolve(process.argv[3] ?? "../syngraphe/dist");
 await mkdir(out, { recursive: true });
@@ -17,6 +18,12 @@ const match = /\/blob\/([a-f0-9]{40})\/docs\/visibility-review\.md#try-the-actua
 );
 assert(match, "The staged review must identify an immutable source revision.");
 const review = execFileSync("git", ["-C", "../syngraphe", "show", `${match[1]}:docs/visibility-review.md`]);
+const rawReviewURL = `https://raw.githubusercontent.com/antonsoo/syngraphe/${match[1]}/docs/visibility-review.md`;
+if (publicRun) {
+  const response = await fetch(rawReviewURL, { signal: AbortSignal.timeout(15000) });
+  assert.equal(response.status, 200);
+  assert.deepEqual(Buffer.from(await response.arrayBuffer()), review);
+}
 const sha = (b) => createHash("sha256").update(b).digest("hex");
 const esc = (s) => s.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 const server = createServer(async (req, res) => {
@@ -62,7 +69,7 @@ const server = createServer(async (req, res) => {
   }
 });
 await new Promise((r) => server.listen(0, "127.0.0.1", r));
-const base = `http://127.0.0.1:${server.address().port}`;
+const base = publicRun ? "https://antonsoo.github.io" : `http://127.0.0.1:${server.address().port}`;
 const aliases = [
   "ἀμφοτέρους",
   "αμφοτερους",
@@ -87,13 +94,15 @@ try {
         const c = await browser.newContext({ viewport: { width, height: 1000 }, acceptDownloads: true });
         // Canonical links remain in the catalogue. This review explicitly redirects
         // their navigation to local source/build fixtures; it makes no public claim.
-        await c.route("https://antonsoo.github.io/syngraphe/**", (r) => {
-          const u = new URL(r.request().url());
-          return r.fulfill({ status: 302, headers: { location: base + u.pathname + u.search } });
-        });
-        await c.route(workshop.reviewUrl.split("#")[0], (r) =>
-          r.fulfill({ status: 302, headers: { location: base + "/review.html" } }),
-        );
+        if (!publicRun) {
+          await c.route("https://antonsoo.github.io/syngraphe/**", (r) => {
+            const u = new URL(r.request().url());
+            return r.fulfill({ status: 302, headers: { location: base + u.pathname + u.search } });
+          });
+          await c.route(workshop.reviewUrl.split("#")[0], (r) =>
+            r.fulfill({ status: 302, headers: { location: base + "/review.html" } }),
+          );
+        }
         const p = await c.newPage(),
           errors = [];
         p.on("pageerror", (e) => errors.push(e.message));
@@ -115,8 +124,13 @@ try {
         assert.equal(await row.locator(".workshop-demo").getAttribute("href"), workshop.url);
         await row.locator(".workshop-review").focus();
         await p.keyboard.press("Enter");
-        await expect(p.locator("article")).toContainText("Try the actual work");
-        assert.equal(await p.locator("pre").textContent(), review.toString());
+        if (publicRun) {
+          await p.waitForURL(workshop.reviewUrl);
+          await expect(p.getByRole("heading", { name: "Try the actual work", exact: true })).toBeVisible();
+        } else {
+          await expect(p.locator("article")).toContainText("Try the actual work");
+          assert.equal(await p.locator("pre").textContent(), review.toString());
+        }
         await p.goto(shared);
         await row.locator(".workshop-demo").focus();
         await p.keyboard.press("Enter");
@@ -151,7 +165,8 @@ try {
           aliases,
           canonicalLesson: workshop.url,
           canonicalReview: workshop.reviewUrl,
-          localPinnedReviewSha256: sha(review),
+          pinnedReviewSha256: sha(review),
+          rawReviewURL: publicRun ? rawReviewURL : null,
           actualChestOperation: true,
           greekPhraseToWholePage: true,
           portableBytes: bytes.length,
@@ -162,7 +177,7 @@ try {
         await pc.close();
         await c.close();
         console.log(
-          `${engine} ${width}: source-word search -> pinned local review -> operated sightline -> Greek -> printed page -> portable reading`,
+          `${engine} ${width}: source-word search -> ${publicRun ? "pinned public review" : "pinned local review"} -> operated sightline -> Greek -> printed page -> portable reading`,
         );
       }
     } finally {
@@ -178,8 +193,9 @@ await writeFile(
   JSON.stringify(
     {
       checkedAt: new Date().toISOString(),
-      boundary:
-        "Local production catalogue and lesson builds; canonical navigations redirected to local fixtures; not public publication evidence",
+      boundary: publicRun
+        ? "Canonical public catalogue, immutable GitHub review and lesson; no browser navigation interception; raw pinned review bytes matched"
+        : "Local production catalogue and lesson builds; canonical navigations redirected to local fixtures; not public publication evidence",
       journeys,
     },
     null,

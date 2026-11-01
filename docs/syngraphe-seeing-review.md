@@ -7,13 +7,14 @@ Greek notes, whole printed page and portable reading.
 
 | Search | What the learner reaches |
 | --- | --- |
-| ἀμφοτέρους / αμφοτερους / amphoterous | The two-side requirement, not merely one open side |
+| ἀμφοτέρους / αμφοτερους / amphoterous | Which two faces can open, distinguished from a temporarily closed panel |
 | διεξιοῦσιν / διεξιουσιν / diexiousin | Seeing while passing, with a movable modern viewer |
 | τὸμ πρόσθιον | The front-face clause for wall chests |
 | public passage / chest faces / 134 chests | The same specific sightline experiment |
 
 The image is a real operated view from Syngraphe. The project evidence and new
-workshop review point to an immutable local source revision. The earlier
+workshop review point to the immutable published source review, including the public delivery
+and offline-repair audit. The earlier
 measurement room keeps its own previously published review.
 
 ## Local journey
@@ -36,7 +37,7 @@ Chromium and Firefox at 1440 and 375 pixels each exercise:
    and no document-width overflow.
 
 The full model, four-image/font/license identity, native record and offline audit
-belong to Syngraphe's [source review](https://github.com/antonsoo/syngraphe/blob/238b744dc0f5033ef2470a63d4d34905c3d07fd6/docs/visibility-review.md#try-the-actual-work).
+belong to Syngraphe's [source review](https://github.com/antonsoo/syngraphe/blob/fa50de96cb72cbfce3a3bd3bb910034903a10fbd/docs/visibility-review.md#try-the-actual-work).
 Officina's [local discovery receipt](review/syngraphe-seeing-discovery.json)
 records the continuous catalogue journey separately.
 
@@ -51,14 +52,27 @@ The lesson needs its own prior `npm ci && npm run build`. The optional lesson-di
 argument after the output directory can select an independent Syngraphe `dist/` directory; the
 retained review used that independently installed build.
 
-## Publication order
+## Public journey
 
-This catalogue change is staged locally. The public lesson route returned 404
-in the read-only boundary check. No source push or Pages deployment is claimed.
-Publish Syngraphe's source and complete lesson first, then deploy this catalogue.
-Afterwards verify public canonical bytes and repeat the real, unredirected
-search -> review -> lesson -> source page -> portable-reading journey. The local
-redirect fixture is deliberately not evidence of public availability.
+Syngraphe's complete lesson was published and audited before this catalogue
+entry. Its 26 canonical files match the clean build; both rooms operate after
+TLS connections are cut; missing, wrong and evicted cache bytes can be detected
+and repaired without losing settings. Source CI and public Pages delivery have
+separate receipts in the pinned review.
+
+The public mode of the same journey script performs no navigation interception.
+It compares the immutable raw review with its committed bytes, follows the real
+GitHub review link by keyboard, returns through the explicitly shared catalogue
+search, operates the actual lesson, selects the Greek, opens the whole source
+page and downloads/reopens the illustrated reading with scripts disabled.
+
+```sh
+npm run test:syngraphe-seeing -- /tmp/officina-syngraphe-public
+```
+
+The earlier HTTP-404 and local-redirect receipts are historical observations.
+Canonical hosted bytes and this unredirected public journey are checked after
+catalogue deployment.
 
 `npm run build` produces Officina's complete `dist/` directory for `/officina/`.
 No opening-menu redesign or new repository was needed for this addition.

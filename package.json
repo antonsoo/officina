@@ -45,7 +45,8 @@
     "test:conditionals": "node scripts/conditional-journeys.mjs",
     "test:sammu-live-local": "node scripts/sammu-live-local.mjs",
     "test:sammu-live": "SAMMU_PUBLIC=1 node scripts/sammu-live-local.mjs",
-    "test:syngraphe-seeing-local": "node scripts/syngraphe-seeing-local.mjs"
+    "test:syngraphe-seeing-local": "node scripts/syngraphe-seeing-local.mjs",
+    "test:syngraphe-seeing": "SYNGRAPHE_PUBLIC=1 node scripts/syngraphe-seeing-local.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
