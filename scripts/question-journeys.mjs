@@ -14,6 +14,8 @@ const report = {
   date: new Date().toISOString(),
   scope:
     "Operated question-menu handoffs to public experiments, with pinned raw-review identity. Canonical hosted-file identity is recorded separately.",
+  state: "running",
+  expectedJourneys: 20,
   journeys: [],
 };
 async function pinnedReview(url) {
@@ -51,7 +53,13 @@ async function operate(page, id) {
     await page.locator("#compare-relation").selectOption("pattern");
     await expect(page.locator("#compare-finding")).toContainText("All eight pitches agree");
     await page.locator("#compare-both").click();
-    await page.waitForFunction(() => document.getElementById("comparison-audio").currentTime > 0);
+    try {
+      await page.waitForFunction(() => document.getElementById("comparison-audio").currentTime > 0);
+    } catch (error) {
+      const state = await page.locator("#comparison-audio").evaluate((a) => ({ time: a.currentTime, paused: a.paused, ended: a.ended, duration: a.duration, ready: a.readyState, network: a.networkState, error: a.error?.message, source: a.currentSrc, status: document.getElementById("audio-label").textContent }));
+      console.error("Native comparison playback did not advance:", state);
+      throw error;
+    }
     await page.locator("#compare-stop").click();
     await page.locator("#source-load").click();
     await expect(page.locator("#source-image")).toBeVisible();
@@ -118,6 +126,12 @@ try {
       await browser.close();
     }
   }
+  assert.equal(report.journeys.length, report.expectedJourneys);
+  report.state = "passed";
+} catch (error) {
+  report.state = "failed";
+  report.error = String(error);
+  throw error;
 } finally {
   await writeFile(resolve(output, "receipt.json"), `${JSON.stringify(report, null, 2)}\n`);
 }
