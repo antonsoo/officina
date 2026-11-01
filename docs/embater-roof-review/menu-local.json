@@ -1,0 +1,336 @@
+{
+  "date": "2026-11-01T21:34:41.435Z",
+  "scope": "Operated question-menu handoffs to public experiments, with pinned raw-review identity. Canonical hosted-file identity is recorded separately.",
+  "state": "passed",
+  "expectedJourneys": 20,
+  "journeys": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "roof",
+      "target": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": {
+        "url": "https://github.com/antonsoo/embater/blob/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/embater/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md",
+        "bytes": 10309,
+        "sha256": "e85061a87042cb88d5499e9f8c3a7324289ad38ed4da34438a34559c329b3bc1"
+      },
+      "operation": {
+        "selector": "#roof-result",
+        "result": "The blue envelope now matches the middle rule: h + h/8 = 9h/8.",
+        "sourcePage": 74
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "counterexample",
+      "target": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": {
+        "url": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/horos/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md",
+        "bytes": 8260,
+        "sha256": "ccd6d230e9b97e41e6b81bcfc58ed00d206dcda611b6b37f5f6604a7e32a39eb"
+      },
+      "operation": {
+        "selector": "#judgment",
+        "result": "You have a counterexampleEvery premise and existence requirement holds. The proposed conclusion is false. This one world defeats the claim that it follows under these assumptions."
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "dorian",
+      "target": "https://antonsoo.github.io/harmoniai/compare.html?name=dorian#listen",
+      "review": {
+        "url": "https://github.com/antonsoo/harmoniai/blob/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/harmoniai/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md",
+        "bytes": 8270,
+        "sha256": "a1673653b8080fe453aaff07be97772d9b8258a68aee11465f9af0af35e20edd"
+      },
+      "operation": {
+        "selector": "#compare-finding",
+        "result": "All eight pitches agree. Cleonides’ Dorian has the interval order called Phrygian today.",
+        "audioClockAdvanced": true
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "circle",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html",
+      "review": {
+        "url": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+        "raw": "https://raw.githubusercontent.com/antonsoo/stoicheia/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md",
+        "bytes": 11082,
+        "sha256": "1cfb053bf86df4585cafa4e91e4da3752d0ec63fa39d009827932705bf05e190"
+      },
+      "operation": {
+        "selector": "#ci-bound-status",
+        "result": "Both perimeter bounds at this stage are justified. The endpoint decimals are rounded for display. This row’s approximation is unsafe for a later bisection, although it is not needed for this current endpoint."
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "trace",
+      "target": "https://antonsoo.github.io/tracelens/",
+      "review": {
+        "url": "https://github.com/antonsoo/tracelens/tree/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector",
+        "raw": "https://raw.githubusercontent.com/antonsoo/tracelens/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector/README.md",
+        "bytes": 10958,
+        "sha256": "2f4d3d609c7c9b0433ce6deb08641fe24556f6676c22bbbfc6c12ad7755b30ee"
+      },
+      "operation": {
+        "selector": "#tl-span-filter-count",
+        "result": "6 of 16 spans match; 2 ancestors shown. Totals include the full trace."
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "roof",
+      "target": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": {
+        "url": "https://github.com/antonsoo/embater/blob/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/embater/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md",
+        "bytes": 10309,
+        "sha256": "e85061a87042cb88d5499e9f8c3a7324289ad38ed4da34438a34559c329b3bc1"
+      },
+      "operation": {
+        "selector": "#roof-result",
+        "result": "The blue envelope now matches the middle rule: h + h/8 = 9h/8.",
+        "sourcePage": 74
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "counterexample",
+      "target": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": {
+        "url": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/horos/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md",
+        "bytes": 8260,
+        "sha256": "ccd6d230e9b97e41e6b81bcfc58ed00d206dcda611b6b37f5f6604a7e32a39eb"
+      },
+      "operation": {
+        "selector": "#judgment",
+        "result": "You have a counterexampleEvery premise and existence requirement holds. The proposed conclusion is false. This one world defeats the claim that it follows under these assumptions."
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "dorian",
+      "target": "https://antonsoo.github.io/harmoniai/compare.html?name=dorian#listen",
+      "review": {
+        "url": "https://github.com/antonsoo/harmoniai/blob/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/harmoniai/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md",
+        "bytes": 8270,
+        "sha256": "a1673653b8080fe453aaff07be97772d9b8258a68aee11465f9af0af35e20edd"
+      },
+      "operation": {
+        "selector": "#compare-finding",
+        "result": "All eight pitches agree. Cleonides’ Dorian has the interval order called Phrygian today.",
+        "audioClockAdvanced": true
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "circle",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html",
+      "review": {
+        "url": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+        "raw": "https://raw.githubusercontent.com/antonsoo/stoicheia/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md",
+        "bytes": 11082,
+        "sha256": "1cfb053bf86df4585cafa4e91e4da3752d0ec63fa39d009827932705bf05e190"
+      },
+      "operation": {
+        "selector": "#ci-bound-status",
+        "result": "Both perimeter bounds at this stage are justified. The endpoint decimals are rounded for display. This row’s approximation is unsafe for a later bisection, although it is not needed for this current endpoint."
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "trace",
+      "target": "https://antonsoo.github.io/tracelens/",
+      "review": {
+        "url": "https://github.com/antonsoo/tracelens/tree/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector",
+        "raw": "https://raw.githubusercontent.com/antonsoo/tracelens/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector/README.md",
+        "bytes": 10958,
+        "sha256": "2f4d3d609c7c9b0433ce6deb08641fe24556f6676c22bbbfc6c12ad7755b30ee"
+      },
+      "operation": {
+        "selector": "#tl-span-filter-count",
+        "result": "6 of 16 spans match; 2 ancestors shown. Totals include the full trace."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "roof",
+      "target": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": {
+        "url": "https://github.com/antonsoo/embater/blob/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/embater/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md",
+        "bytes": 10309,
+        "sha256": "e85061a87042cb88d5499e9f8c3a7324289ad38ed4da34438a34559c329b3bc1"
+      },
+      "operation": {
+        "selector": "#roof-result",
+        "result": "The blue envelope now matches the middle rule: h + h/8 = 9h/8.",
+        "sourcePage": 74
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "counterexample",
+      "target": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": {
+        "url": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/horos/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md",
+        "bytes": 8260,
+        "sha256": "ccd6d230e9b97e41e6b81bcfc58ed00d206dcda611b6b37f5f6604a7e32a39eb"
+      },
+      "operation": {
+        "selector": "#judgment",
+        "result": "You have a counterexampleEvery premise and existence requirement holds. The proposed conclusion is false. This one world defeats the claim that it follows under these assumptions."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "dorian",
+      "target": "https://antonsoo.github.io/harmoniai/compare.html?name=dorian#listen",
+      "review": {
+        "url": "https://github.com/antonsoo/harmoniai/blob/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/harmoniai/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md",
+        "bytes": 8270,
+        "sha256": "a1673653b8080fe453aaff07be97772d9b8258a68aee11465f9af0af35e20edd"
+      },
+      "operation": {
+        "selector": "#compare-finding",
+        "result": "All eight pitches agree. Cleonides’ Dorian has the interval order called Phrygian today.",
+        "audioClockAdvanced": true
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "circle",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html",
+      "review": {
+        "url": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+        "raw": "https://raw.githubusercontent.com/antonsoo/stoicheia/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md",
+        "bytes": 11082,
+        "sha256": "1cfb053bf86df4585cafa4e91e4da3752d0ec63fa39d009827932705bf05e190"
+      },
+      "operation": {
+        "selector": "#ci-bound-status",
+        "result": "Both perimeter bounds at this stage are justified. The endpoint decimals are rounded for display. This row’s approximation is unsafe for a later bisection, although it is not needed for this current endpoint."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "trace",
+      "target": "https://antonsoo.github.io/tracelens/",
+      "review": {
+        "url": "https://github.com/antonsoo/tracelens/tree/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector",
+        "raw": "https://raw.githubusercontent.com/antonsoo/tracelens/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector/README.md",
+        "bytes": 10958,
+        "sha256": "2f4d3d609c7c9b0433ce6deb08641fe24556f6676c22bbbfc6c12ad7755b30ee"
+      },
+      "operation": {
+        "selector": "#tl-span-filter-count",
+        "result": "6 of 16 spans match; 2 ancestors shown. Totals include the full trace."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "roof",
+      "target": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": {
+        "url": "https://github.com/antonsoo/embater/blob/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/embater/934432fb2da774e69f398ab000142a48387b3a98/docs/roof-audit.md",
+        "bytes": 10309,
+        "sha256": "e85061a87042cb88d5499e9f8c3a7324289ad38ed4da34438a34559c329b3bc1"
+      },
+      "operation": {
+        "selector": "#roof-result",
+        "result": "The blue envelope now matches the middle rule: h + h/8 = 9h/8.",
+        "sourcePage": 74
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "counterexample",
+      "target": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": {
+        "url": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/horos/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md",
+        "bytes": 8260,
+        "sha256": "ccd6d230e9b97e41e6b81bcfc58ed00d206dcda611b6b37f5f6604a7e32a39eb"
+      },
+      "operation": {
+        "selector": "#judgment",
+        "result": "You have a counterexampleEvery premise and existence requirement holds. The proposed conclusion is false. This one world defeats the claim that it follows under these assumptions."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "dorian",
+      "target": "https://antonsoo.github.io/harmoniai/compare.html?name=dorian#listen",
+      "review": {
+        "url": "https://github.com/antonsoo/harmoniai/blob/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/harmoniai/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md",
+        "bytes": 8270,
+        "sha256": "a1673653b8080fe453aaff07be97772d9b8258a68aee11465f9af0af35e20edd"
+      },
+      "operation": {
+        "selector": "#compare-finding",
+        "result": "All eight pitches agree. Cleonides’ Dorian has the interval order called Phrygian today.",
+        "audioClockAdvanced": true
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "circle",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html",
+      "review": {
+        "url": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+        "raw": "https://raw.githubusercontent.com/antonsoo/stoicheia/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md",
+        "bytes": 11082,
+        "sha256": "1cfb053bf86df4585cafa4e91e4da3752d0ec63fa39d009827932705bf05e190"
+      },
+      "operation": {
+        "selector": "#ci-bound-status",
+        "result": "Both perimeter bounds at this stage are justified. The endpoint decimals are rounded for display. This row’s approximation is unsafe for a later bisection, although it is not needed for this current endpoint."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "trace",
+      "target": "https://antonsoo.github.io/tracelens/",
+      "review": {
+        "url": "https://github.com/antonsoo/tracelens/tree/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector",
+        "raw": "https://raw.githubusercontent.com/antonsoo/tracelens/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector/README.md",
+        "bytes": 10958,
+        "sha256": "2f4d3d609c7c9b0433ce6deb08641fe24556f6676c22bbbfc6c12ad7755b30ee"
+      },
+      "operation": {
+        "selector": "#tl-span-filter-count",
+        "result": "6 of 16 spans match; 2 ancestors shown. Totals include the full trace."
+      }
+    }
+  ]
+}

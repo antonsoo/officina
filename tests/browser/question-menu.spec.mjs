@@ -64,6 +64,15 @@ for (const theme of ["light", "dark"]) {
     await expect(page.getByRole("tablist")).toBeHidden();
     for (const [id, url] of choices) {
       await select.selectOption(id);
+      const labelFits = await select.evaluate((element) => {
+        const style = getComputedStyle(element);
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+        context.font = style.font;
+        const label = element.selectedOptions[0].label;
+        return context.measureText(label).width <= element.clientWidth - 40;
+      });
+      expect(labelFits, "the selected phone action fits without clipping").toBe(true);
       await expect(page.locator(".question-open")).toHaveAttribute("href", url);
       await expect
         .poll(() => page.locator(".question-preview img").evaluate((i) => i.naturalWidth))

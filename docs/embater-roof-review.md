@@ -38,8 +38,12 @@ checked printed page 71 and native illustrated study remain usable.
 
 The menu's local browser checks cover all five choices by keyboard and native
 phone selector, both themes, search preservation, unavailable-thumbnail recovery
-and axe accessibility. Ten cases passed. Publication evidence and the complete
-five-question public handoff review are recorded separately after completion.
+and axe accessibility. Ten cases passed. Phone options use short action labels
+rather than clipped questions; the actual selected text is measured against the
+control width. The twenty local handoffs cover all five public experiments at
+both widths in both engines, including native music playback and actual
+learner operations. [Handoff receipt](embater-roof-review/menu-local.json).
+Publication evidence is recorded separately after completion.
 
 ```sh
 npm ci
