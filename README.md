@@ -25,6 +25,11 @@ Search by project, task, source word or package registry. Select an audience to
 narrow the results. Greek terms work with or without accents. Selected workshop
 queries open a particular activity with its own preview and recorded review.
 
+For example, search `συνάρτησις`, `synartesis`, `Philo` or `pugnet` to open
+Horos’s disputed conditional: hold today’s facts fixed while changing the
+admitted cases, then read the Greek and teaching Latin.
+[Discovery and operated review](docs/conditional-discovery.md).
+
 Typing and filtering stay in the page. **Copy search link** explicitly shares
 the current query and audience; incoming links restore both. Clear filters also
 clears an incoming search from the address. Failed catalogue loads have a retry.

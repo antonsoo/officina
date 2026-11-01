@@ -93,7 +93,7 @@ npm run test:questions -- http://127.0.0.1:4195/officina/ test-results/question-
 were added. Image changes fetch only the selected preview; selection itself
 makes no search or language-service request.
 
-## Publication boundary
+## Original local boundary
 
 [The clean-build receipt](question-menu-review/clean-build.json) records a fresh
 archive of `644778a`, a separate `npm ci`, all 45 unit checks, lint/types/format
@@ -102,10 +102,11 @@ checks and a production build under **Node 24.22.1**. All **103 files**
 includes the existing catalogue images and fonts; it is not an initial-transfer
 measurement.
 
-The menu is a local source/build improvement. Its existing public destinations
+At that initial review the menu was a local source/build improvement. Its existing public destinations
 were operated, but that does not establish that this new menu is hosted. The
 new Horos conditional room is not advertised as deployed. Neither repository
-was pushed or deployed: workspace house standards leave publication for review.
+was pushed or deployed at that point: workspace house standards left publication for review.
+The later [conditional discovery and publication review](conditional-discovery.md) records the subsequent catalogue and hosted checks.
 No CI run or registry release is claimed.
 
 Suggested description: “Open-source experiments by Anthony Mercer: choose a

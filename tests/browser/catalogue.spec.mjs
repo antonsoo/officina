@@ -289,3 +289,24 @@ test("a specific workshop search keeps its own activity and restores the umbrell
   await expect(card.locator('.card-study')).toBeVisible();
   await expect(row).toBeHidden();
 });
+
+
+test("Sextus source words reveal the conditional room and preserve explicit sharing", async ({ page }) => {
+  await page.setViewportSize({ width: 375, height: 900 });
+  await page.goto("./");
+  const row = page.locator('[data-project="horos"] [data-workshop="conditionals"]');
+  for (const term of ["συνάρτησις", "συναρτησιν", "synartesis", "Philo", "Diodorus", "συνημμένον", "synemmenon", "pugnet"]) {
+    await search(page).fill(term);
+    await expect(row).toBeVisible();
+    await expect(row.locator('.workshop-demo')).toHaveAttribute('href', /horos\/conditionals\.html#experiment$/);
+    await expect(row.locator('.workshop-review')).toHaveAttribute('href', /horos\/blob\/[a-f0-9]{40}\/docs\/conditional-review\.md#try-the-actual-work$/);
+    await expect(row.locator('img')).toHaveAttribute('src', /horos-conditionals\.png$/);
+    expect(new URL(page.url()).search).toBe("");
+  }
+  await page.locator('#copy-search-link').click();
+  const shared = await page.locator('#filter-link-url').inputValue();
+  await page.goto(shared);
+  await expect(row).toBeVisible();
+  await expect(search(page)).toHaveValue('pugnet');
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});

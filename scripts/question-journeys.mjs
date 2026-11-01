@@ -6,14 +6,14 @@ import { resolve } from "node:path";
 import { chromium, firefox, expect } from "@playwright/test";
 
 const [catalogue, output] = process.argv.slice(2);
-assert(catalogue && output, "Supply the local catalogue URL and receipt directory.");
+assert(catalogue && output, "Supply the catalogue URL and receipt directory.");
 await mkdir(output, { recursive: true });
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const reviews = new Map();
 const report = {
   date: new Date().toISOString(),
   scope:
-    "Local question menu to existing public experiments. This does not verify publication of the new menu or the new conditional room.",
+    "Operated question-menu handoffs to public experiments, with pinned raw-review identity. Canonical hosted-file identity is recorded separately.",
   journeys: [],
 };
 async function pinnedReview(url) {

@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-01T01:49:42.430Z",
+  "catalogue": "http://127.0.0.1:4195/officina/",
+  "publicCatalogue": false,
+  "journeys": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "aliases": [
+        "συνάρτησις",
+        "συναρτησιν",
+        "synartesis",
+        "Philo",
+        "Diodorus",
+        "συνημμένον",
+        "synemmenon",
+        "pugnet"
+      ],
+      "shared": "http://127.0.0.1:4195/officina/?q=%CF%83%CF%85%CE%BD%CE%AC%CF%81%CF%84%CE%B7%CF%83%CE%B9%CF%82#catalogue",
+      "destination": "https://antonsoo.github.io/horos/conditionals.html#experiment",
+      "review": "https://github.com/antonsoo/horos/blob/fa9968e748f55644d5d6dd8c4cd8f58419154ceb/docs/conditional-review.md#try-the-actual-work",
+      "reviewSha256": "986a68c4ee0e6ee0abf0142b979a5d5ce4bc0c32f164636e93c78a23cbfd3b39",
+      "unchangedPresent": true,
+      "changedAssumptions": true,
+      "greekToLatin": "μάχηται -> pugnet",
+      "embeddedBinaryAssets": 4,
+      "nativeHtmlBytes": 2729895,
+      "editableRoundTrip": true,
+      "portableRequests": [],
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "aliases": [
+        "συνάρτησις",
+        "συναρτησιν",
+        "synartesis",
+        "Philo",
+        "Diodorus",
+        "συνημμένον",
+        "synemmenon",
+        "pugnet"
+      ],
+      "shared": "http://127.0.0.1:4195/officina/?q=%CF%83%CF%85%CE%BD%CE%AC%CF%81%CF%84%CE%B7%CF%83%CE%B9%CF%82#catalogue",
+      "destination": "https://antonsoo.github.io/horos/conditionals.html#experiment",
+      "review": "https://github.com/antonsoo/horos/blob/fa9968e748f55644d5d6dd8c4cd8f58419154ceb/docs/conditional-review.md#try-the-actual-work",
+      "reviewSha256": "986a68c4ee0e6ee0abf0142b979a5d5ce4bc0c32f164636e93c78a23cbfd3b39",
+      "unchangedPresent": true,
+      "changedAssumptions": true,
+      "greekToLatin": "μάχηται -> pugnet",
+      "embeddedBinaryAssets": 4,
+      "nativeHtmlBytes": 2729895,
+      "editableRoundTrip": true,
+      "portableRequests": [],
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "aliases": [
+        "συνάρτησις",
+        "συναρτησιν",
+        "synartesis",
+        "Philo",
+        "Diodorus",
+        "συνημμένον",
+        "synemmenon",
+        "pugnet"
+      ],
+      "shared": "http://127.0.0.1:4195/officina/?q=%CF%83%CF%85%CE%BD%CE%AC%CF%81%CF%84%CE%B7%CF%83%CE%B9%CF%82#catalogue",
+      "destination": "https://antonsoo.github.io/horos/conditionals.html#experiment",
+      "review": "https://github.com/antonsoo/horos/blob/fa9968e748f55644d5d6dd8c4cd8f58419154ceb/docs/conditional-review.md#try-the-actual-work",
+      "reviewSha256": "986a68c4ee0e6ee0abf0142b979a5d5ce4bc0c32f164636e93c78a23cbfd3b39",
+      "unchangedPresent": true,
+      "changedAssumptions": true,
+      "greekToLatin": "μάχηται -> pugnet",
+      "embeddedBinaryAssets": 4,
+      "nativeHtmlBytes": 2729895,
+      "editableRoundTrip": true,
+      "portableRequests": [],
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "aliases": [
+        "συνάρτησις",
+        "συναρτησιν",
+        "synartesis",
+        "Philo",
+        "Diodorus",
+        "συνημμένον",
+        "synemmenon",
+        "pugnet"
+      ],
+      "shared": "http://127.0.0.1:4195/officina/?q=%CF%83%CF%85%CE%BD%CE%AC%CF%81%CF%84%CE%B7%CF%83%CE%B9%CF%82#catalogue",
+      "destination": "https://antonsoo.github.io/horos/conditionals.html#experiment",
+      "review": "https://github.com/antonsoo/horos/blob/fa9968e748f55644d5d6dd8c4cd8f58419154ceb/docs/conditional-review.md#try-the-actual-work",
+      "reviewSha256": "986a68c4ee0e6ee0abf0142b979a5d5ce4bc0c32f164636e93c78a23cbfd3b39",
+      "unchangedPresent": true,
+      "changedAssumptions": true,
+      "greekToLatin": "μάχηται -> pugnet",
+      "embeddedBinaryAssets": 4,
+      "nativeHtmlBytes": 2729895,
+      "editableRoundTrip": true,
+      "portableRequests": [],
+      "errors": []
+    }
+  ]
+}
