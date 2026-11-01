@@ -97,7 +97,7 @@ The [public desktop menu](conditional-discovery/public-menu-1440.png) and
 captures. Both were visually inspected.
 
 The [remote source-workflow record](conditional-discovery/remote-checks.json)
-shows zero executed steps for the source CI/Pages jobs. The latest Pages-build
-API returned 404; hosted byte comparison and operated browser behavior are
-separate, successful evidence. No registry release or comprehensive accessibility
+records an empty Actions run listing; it does not establish CI execution or a
+job-step count. The latest Pages-build API returned 404. Hosted byte comparison
+and operated browser behavior are separate, successful evidence. No registry release or comprehensive accessibility
 certification is claimed.

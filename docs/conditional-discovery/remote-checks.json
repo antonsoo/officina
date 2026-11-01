@@ -1,8 +1,15 @@
 {
-  "checkedAt": "2026-11-01T01:56:37.769283+00:00",
+  "checkedAt": "2026-11-01T01:57:40.215579+00:00",
   "sourceWorkflows": [],
   "latestPagesBuildApi": {
     "status": 404,
     "scope": "Latest-build endpoint unavailable; canonical byte and browser evidence is separate."
-  }
+  },
+  "sourceRunListing": {
+    "repository": "antonsoo/officina",
+    "visibleRunCount": 0,
+    "httpStatus": 200,
+    "boundary": "The run listing returned no records. CI execution is not established; no job-step count is inferred."
+  },
+  "sourceAtCheck": "72b9bc656956fdde3a8a3ccb8abd99f7a5af3e5a"
 }
