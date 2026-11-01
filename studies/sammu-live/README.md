@@ -10,6 +10,24 @@ view of the reviewed build.
 [Desktop search](catalogue-desktop.png) · [Phone search](catalogue-phone.png) ·
 [Four continuous journeys](receipt.json) · [Clean build identity](build.json).
 
+The updated workshop and catalogue are now public. The
+[public journeys](public-receipt.json) follow the actual catalogue links in
+Chromium and Firefox at 1440 and 375 pixels, including the immutable GitHub
+review and its independently compared raw bytes. All twelve oscillators stay
+alive through the 110-to-112-cent adjustment, their audio clock advances, and
+all twelve end after Stop. The downloaded attempt retains 112 cents and the
+unchanged `LL` history; the source route reaches the restoration notes.
+
+[Public desktop](public-desktop.png) · [Public phone](public-phone.png) ·
+[Canonical delivery](public-bytes.json) · [After the browser runs](public-after-browser.json).
+All 105 canonical Officina files match the [clean Node 24 build](clean-build.json),
+which is byte-identical to the Node 26 build. The
+[publication receipt](publication.json) records source `04732dd` and the Pages
+branch commit separately. The Actions API returned no runs in that check; no
+remote CI success is inferred from public delivery. No browser runtime
+dependency was added. The retained build receipt also distinguishes an existing,
+unresolved development-tool advisory from the browser code shipped here.
+
 The local journeys run Chromium and Firefox at 1440 and 375 pixels. Each types
 five source/question terms, explicitly copies and reopens a search link,
 activates the workshop by keyboard, starts live sound, changes 110 to 112 cents

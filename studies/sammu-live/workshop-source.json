@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-11-01T03:30:00.028763+00:00",
+  "head": "c26656e1f9b0b4e572c95a744c51bb956b4582bb",
+  "remoteMain": "c26656e1f9b0b4e572c95a744c51bb956b4582bb",
+  "cleanTree": true,
+  "artifacts": [
+    {
+      "path": "docs/audit.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/docs/audit.md",
+      "bytes": 10640,
+      "sha256": "c9d3832951a4ae0dd21ba26967954b1a20e79355eb3a2a4876993c754090f713",
+      "equal": true
+    },
+    {
+      "path": "docs/audit/assets.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/docs/audit/assets.json",
+      "bytes": 3324,
+      "sha256": "2151d19b6db13e7b7770d61f900a9cd433c98d23a0bf2fa3208aad7854c5f31b",
+      "equal": true
+    },
+    {
+      "path": "docs/audit/audio-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/docs/audit/audio-after.json",
+      "bytes": 4526,
+      "sha256": "dac22121c6e0c70790684b998d72ceff5fa2bf180cd1942f5079519ba275a0c9",
+      "equal": true
+    },
+    {
+      "path": "docs/audit/source.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/docs/audit/source.json",
+      "bytes": 1119,
+      "sha256": "161efeea0b5b225ae59fdb34de0cfb52d76d85158d32288698c9b88bf2002671",
+      "equal": true
+    },
+    {
+      "path": "docs/audit/publication.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/docs/audit/publication.json",
+      "bytes": 3263,
+      "sha256": "127bd26d37ca91bb5e4e58de76374b8943ca44edd2977a75f259b475fcc96967",
+      "equal": true
+    },
+    {
+      "path": "docs/sources.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/docs/sources.md",
+      "bytes": 11562,
+      "sha256": "70d248835f76a71635a196ceded3db11bbe40f785226a43e1702718781a4905d",
+      "equal": true
+    },
+    {
+      "path": "examples/live-adjustment.wav",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/examples/live-adjustment.wav",
+      "bytes": 1138732,
+      "sha256": "2f52cec4f50abfdd44cc9a9421884306e437a57332ed08fb26aa1929e9d10f92",
+      "equal": true
+    },
+    {
+      "path": "public/fonts/AtkinsonHyperlegibleNext.ttf",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/public/fonts/AtkinsonHyperlegibleNext.ttf",
+      "bytes": 114552,
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745",
+      "equal": true
+    },
+    {
+      "path": "public/fonts/NotoSerif-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/public/fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "equal": true
+    },
+    {
+      "path": "public/fonts/Atkinson-OFL.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/public/fonts/Atkinson-OFL.txt",
+      "bytes": 4431,
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030",
+      "equal": true
+    },
+    {
+      "path": "public/fonts/NotoSerif-OFL.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/sammu/c26656e1f9b0b4e572c95a744c51bb956b4582bb/public/fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "equal": true
+    }
+  ],
+  "passed": true,
+  "scope": "Source synchronization and anonymous pinned raw-artifact identity. Hosted delivery and remote CI are separate receipts."
+}
