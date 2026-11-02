@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { chromium, firefox, expect } from "@playwright/test";
 
@@ -15,7 +15,8 @@ const report = {
   scope:
     "Operated question-menu handoffs to public experiments, with pinned raw-review identity. Canonical hosted-file identity is recorded separately.",
   state: "running",
-  expectedJourneys: 20,
+  expectedJourneys: 24,
+  searches: [],
   journeys: [],
 };
 async function pinnedReview(url) {
@@ -34,6 +35,7 @@ async function pinnedReview(url) {
   reviews.set(url, result);
   return result;
 }
+let cordDownloads = 0;
 async function operate(page, id) {
   if (id === "roof") {
     await page.getByRole("button", { name: "Try a middle ornament only h/8 tall" }).click();
@@ -65,19 +67,17 @@ async function operate(page, id) {
     try {
       await page.waitForFunction(() => document.getElementById("comparison-audio").currentTime > 0);
     } catch (error) {
-      const state = await page
-        .locator("#comparison-audio")
-        .evaluate((a) => ({
-          time: a.currentTime,
-          paused: a.paused,
-          ended: a.ended,
-          duration: a.duration,
-          ready: a.readyState,
-          network: a.networkState,
-          error: a.error?.message,
-          source: a.currentSrc,
-          status: document.getElementById("audio-label").textContent,
-        }));
+      const state = await page.locator("#comparison-audio").evaluate((a) => ({
+        time: a.currentTime,
+        paused: a.paused,
+        ended: a.ended,
+        duration: a.duration,
+        ready: a.readyState,
+        network: a.networkState,
+        error: a.error?.message,
+        source: a.currentSrc,
+        status: document.getElementById("audio-label").textContent,
+      }));
       console.error("Native comparison playback did not advance:", state);
       throw error;
     }
@@ -88,6 +88,50 @@ async function operate(page, id) {
       selector: "#compare-finding",
       result: await page.locator("#compare-finding").textContent(),
       audioClockAdvanced: true,
+    };
+  }
+  if (id === "cord") {
+    await expect(page.locator("#error-near")).toHaveValue("10");
+    await page.locator("#error-near").focus();
+    await page.keyboard.press("ArrowRight");
+    assert.equal(await page.locator("#error-near").inputValue(), "11");
+    assert(await page.locator("#error-near").evaluate((e) => document.activeElement === e));
+    await page.locator('[data-errors="-300,300"]').click();
+    await expect(page.locator('[data-error-method="51213"]')).toContainText("Cannot reach");
+    await page.locator('[data-errors="10,0"]').click();
+    await expect(page.locator('[data-error-method="51213"]')).toContainText("0.260013");
+    await page.locator("#error-source-link").click();
+    await page.locator("#field-source-image").waitFor({ state: "visible" });
+    const sourceSha = await page.locator("#field-source-image").evaluate(async (img) => {
+      const bytes = await (await fetch(img.src)).arrayBuffer();
+      return [...new Uint8Array(await crypto.subtle.digest("SHA-256", bytes))]
+        .map((n) => n.toString(16).padStart(2, "0"))
+        .join("");
+    });
+    assert.equal(sourceSha, "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba");
+    const pending = page.waitForEvent("download");
+    await page.locator("#field-save").click();
+    const download = await pending;
+    const file = resolve(output, `cord-${++cordDownloads}.html`);
+    await download.saveAs(file);
+    const html = await readFile(file);
+    assert(html.includes(Buffer.from("Near-segment error +0.1")));
+    assert(html.includes(Buffer.from("Required Notice: Copyright")));
+    const saved = await page.context().newPage(),
+      requests = [];
+    saved.on("request", (r) => {
+      if (/^https?:/.test(r.url())) requests.push(r.url());
+    });
+    await saved.goto(`file://${file}`);
+    await expect(saved.locator(".cord-error-study")).toContainText("0.260013");
+    assert.deepEqual(requests, []);
+    await saved.close();
+    return {
+      selector: "#error-summary",
+      result: await page.locator("#error-summary").textContent(),
+      sourceSha,
+      readingSha256: hash(html),
+      savedReadingRequests: requests,
     };
   }
   if (id === "circle") {
@@ -121,7 +165,24 @@ try {
           serviceWorkers: "block",
         });
         const page = await context.newPage();
-        for (const id of ["roof", "counterexample", "dorian", "circle", "trace"]) {
+        for (const term of ["cord errors", "lakṣaṇa", "measurement errors"]) {
+          await page.goto(catalogue);
+          await page.locator("#tool-search").fill(term);
+          await expect(page.locator('[data-project="rajju"] [data-workshop="cord-errors"]')).toBeVisible();
+        }
+        await page.locator("#copy-search-link").click();
+        const shared = await page.locator("#filter-link-url").inputValue();
+        await page.goto(shared);
+        await expect(page.locator("#tool-search")).toHaveValue("measurement errors");
+        const workshop = page.locator('[data-project="rajju"] [data-workshop="cord-errors"]');
+        const searchReview = await pinnedReview(
+          await workshop.locator(".workshop-review").getAttribute("href"),
+        );
+        await workshop.locator(".workshop-demo").focus();
+        await page.keyboard.press("Enter");
+        const searchOperation = await operate(page, "cord");
+        report.searches.push({ engine, width, shared, searchReview, operation: searchOperation });
+        for (const id of ["roof", "counterexample", "dorian", "circle", "cord", "trace"]) {
           await page.goto(catalogue);
           if (width === 375) await page.locator("#question-choice").selectOption(id);
           else {

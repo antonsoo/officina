@@ -6,13 +6,14 @@ const choices = [
   ["counterexample", /horos\/\?investigation=two-worlds#workshop$/, "horos.png"],
   ["dorian", /harmoniai\/compare.html\?name=dorian#listen$/, "harmoniai-names.png"],
   ["circle", /stoicheia\/circle.html$/, "stoicheia-circle.png"],
+  ["cord", /rajju\/field.html\?corner=en&nearerr=10&farerr=0#cord-errors$/, "rajju-errors.png"],
   ["trace", /tracelens\/$/, "tracelens.webp"],
 ];
 
 test("the question menu exposes every experiment, review and source with a keyboard", async ({ page }) => {
   await page.goto("./");
   const panel = page.getByRole("tabpanel");
-  await expect(page.getByRole("tab")).toHaveCount(5);
+  await expect(page.getByRole("tab")).toHaveCount(6);
   await page.getByRole("tab").first().focus();
   for (const [i, [id, url, thumbnail]] of choices.entries()) {
     if (i) await page.keyboard.press("ArrowDown");
@@ -55,7 +56,7 @@ test("changing the preview preserves searches and stays on the current page", as
 });
 
 for (const theme of ["light", "dark"]) {
-  test(`the phone selector uses the same five routes in ${theme}`, async ({ page }, testInfo) => {
+  test(`the phone selector uses the same six routes in ${theme}`, async ({ page }, testInfo) => {
     await page.setViewportSize({ width: 375, height: 1000 });
     await page.emulateMedia({ colorScheme: theme });
     await page.goto("./");

@@ -30,8 +30,8 @@ test("combines text and audience filters, keeps focus, and resets both", async (
   await expect(cards(page)).toHaveCount(visible.length);
   await search(page).fill("TRACE");
   await expect(search(page)).toBeFocused();
-  const matching = visible.filter((p) => `${p.name} ${p.description}`.toLowerCase().includes("trace"));
-  await expect(cards(page)).toHaveCount(matching.length);
+  // The hoist workshop says "Trace unequal tensions"; search includes workshops.
+  await expect(cards(page).getByRole("heading", { level: 3 })).toHaveText(["gonia", "tracelens"]);
   await audience(page, "Games").click();
   await expect(cards(page)).toHaveCount(0);
   await expect(page.getByRole("heading", { name: "No matching tools" })).toBeVisible();

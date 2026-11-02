@@ -68,6 +68,19 @@ const selections: Selection[] = [
     workshop: "circle",
   },
   {
+    id: "cord",
+    project: "rajju",
+    subject: "Measurement",
+    question: "Do four cords miss the same way?",
+    title: "Same error. Different miss.",
+    description:
+      "Give four source procedures the same chosen length errors. Compare their pegs, inspect the Sanskrit and printed pages, and keep the stated modern assumptions with your work.",
+    action: "Compare the four cords",
+    url: "https://antonsoo.github.io/rajju/field.html?corner=en&nearerr=10&farerr=0#cord-errors",
+    thumbnail: "thumbs/rajju-errors.png",
+    workshop: "cord-errors",
+  },
+  {
     id: "trace",
     project: "tracelens",
     subject: "Software",

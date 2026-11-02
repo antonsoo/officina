@@ -6,11 +6,11 @@ Open-source work by Anthony Mercer.
 
 ![Officina's question menu beside the roof-proportion experiment](docs/assets/hero.png)
 
-A question menu opens five concrete experiments, then a searchable index covers
+A question menu opens six concrete experiments, then a searchable index covers
 the whole collection. Choose a question to see its actual workshop view, the
 action you can take, and its recorded review: measure roof ornaments, build
 Aristotle's counterexample, compare two Dorians, alter Archimedes' circle bound,
-or open a trace.
+compare the sensitivity of four cord procedures, or open a trace.
 
 Desktop selection supports arrow keys, Home and End. A phone uses a native
 selector for the same choices. Changing the preview preserves search and stays
@@ -29,6 +29,10 @@ For example, search `συνάρτησις`, `synartesis`, `Philo` or `pugnet` to
 Horos’s disputed conditional: hold today’s facts fixed while changing the
 admitted cases, then read the Greek and teaching Latin.
 [Discovery and operated review](docs/conditional-discovery.md).
+
+Search `cord errors`, `lakṣaṇa` or `measurement errors` to compare four source
+procedures in Rajju. Change both segment errors, inspect the printed page and
+keep a complete illustrated reading. [Operated discovery review](docs/rajju-cord-review.md).
 
 Typing and filtering stay in the page. **Copy search link** explicitly shares
 the current query and audience; incoming links restore both. Clear filters also
