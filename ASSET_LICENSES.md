@@ -1,0 +1,7 @@
+# Separately identified assets
+
+Officina's code is MIT. The following thumbnail retains its own source license.
+
+| Asset                            | Source and terms                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `public/thumbs/gonia-hoist.webp` | Actual Gonia hoist screenshot, selected three-wheel source route at the chosen modern 90% transfer. Source implementation: [`e95faa0`](https://github.com/antonsoo/gonia/tree/e95faa0277497f1e57c601a1518277ad6f347e61). Code and original diagram: Anthony Mercer, PolyForm Noncommercial 1.0.0; [full notice and license](public/thumbs/gonia-hoist-LICENSE.txt). The numerical loss model is modern, not a measured ancient efficiency. |

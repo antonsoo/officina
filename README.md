@@ -115,3 +115,7 @@ The lesson and its immutable source review were published before this entry.
 [Architectural eye, Latin form and portable study discovery review](docs/embater-vocabulary-review.md).
 
 [Roof proportions, portable readings and source-word discovery](docs/embater-roof-review.md).
+
+[Unequal hoist tensions, Latin fastening clause and portable study discovery](docs/hoist-review.md).
+
+Thumbnail terms are identified separately in [ASSET_LICENSES.md](ASSET_LICENSES.md).

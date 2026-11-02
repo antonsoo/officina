@@ -1138,6 +1138,30 @@
         ]
       },
       {
+        "id": "hoist",
+        "title": "The same rope. Unequal pulls · Hoist",
+        "url": "https://antonsoo.github.io/gonia/hoist.html?rig=three&anchor=moving&hold=rise&distance=1&weight=600&arm=2&efficiency=90#hw-losses",
+        "reviewUrl": "https://github.com/antonsoo/gonia/blob/e95faa0277497f1e57c601a1518277ad6f347e61/docs/hoist-audit.md#try-the-actual-work",
+        "summary": "Keep Vitruvius’s rope route, then choose a modern loss assumption. Trace unequal tensions, compare hand effort with input work, and read the fastening clause beside its full printed page.",
+        "searchTerms": [
+          "trispastos",
+          "pentaspaston",
+          "religatur",
+          "sucula",
+          "ductarius funis",
+          "unequal tensions",
+          "pulley losses",
+          "windlass",
+          "hoist",
+          "input work",
+          "wheel efficiency",
+          "εὐθεῖαν",
+          "κυκλωτήν",
+          "ὑπομόχλιον"
+        ],
+        "thumbnail": "thumbs/gonia-hoist.webp"
+      },
+      {
         "id": "fluting",
         "title": "The cut inside a column · Fluting",
         "url": "https://antonsoo.github.io/gonia/fluting.html#fluting-workshop",

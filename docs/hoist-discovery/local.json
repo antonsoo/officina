@@ -1,0 +1,94 @@
+{
+  "base": "http://127.0.0.1:4369/officina/",
+  "checkedAt": "2026-11-02T07:03:34.953Z",
+  "rows": [
+    {
+      "engine": "chromium",
+      "browser": "153.0.8010.12",
+      "width": 1440,
+      "terms": [
+        "religatur",
+        "trispastos",
+        "unequal tensions",
+        "pulley losses",
+        "ὑπομόχλιον"
+      ],
+      "shared": "http://127.0.0.1:4369/officina/?q=religatur#catalogue",
+      "destination": "https://antonsoo.github.io/gonia/hoist.html?rig=three&anchor=moving&hold=rise&distance=1&weight=600&arm=2&efficiency=90#hw-losses",
+      "review": "https://github.com/antonsoo/gonia/blob/e95faa0277497f1e57c601a1518277ad6f347e61/docs/hoist-audit.md#try-the-actual-work",
+      "reviewSha256": "2fcf6e66cc3644aced10aceb499c73d59a36f34d09424593212a5c4824c14992",
+      "displayedSourceSha": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19",
+      "nativeReadingBytes": 4414912,
+      "nativeReadingSha256": "b8a099cfbec4273f6c4f0d9bebfdefc19cd48e4a61415020043b35381c9a5fd2",
+      "sameStudyBrowserOffline": true,
+      "standaloneRemoteRequests": 0,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "browser": "153.0.8010.12",
+      "width": 375,
+      "terms": [
+        "religatur",
+        "trispastos",
+        "unequal tensions",
+        "pulley losses",
+        "ὑπομόχλιον"
+      ],
+      "shared": "http://127.0.0.1:4369/officina/?q=religatur#catalogue",
+      "destination": "https://antonsoo.github.io/gonia/hoist.html?rig=three&anchor=moving&hold=rise&distance=1&weight=600&arm=2&efficiency=90#hw-losses",
+      "review": "https://github.com/antonsoo/gonia/blob/e95faa0277497f1e57c601a1518277ad6f347e61/docs/hoist-audit.md#try-the-actual-work",
+      "reviewSha256": "2fcf6e66cc3644aced10aceb499c73d59a36f34d09424593212a5c4824c14992",
+      "displayedSourceSha": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19",
+      "nativeReadingBytes": 4414912,
+      "nativeReadingSha256": "b8a099cfbec4273f6c4f0d9bebfdefc19cd48e4a61415020043b35381c9a5fd2",
+      "sameStudyBrowserOffline": true,
+      "standaloneRemoteRequests": 0,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "browser": "155.0",
+      "width": 1440,
+      "terms": [
+        "religatur",
+        "trispastos",
+        "unequal tensions",
+        "pulley losses",
+        "ὑπομόχλιον"
+      ],
+      "shared": "http://127.0.0.1:4369/officina/?q=religatur#catalogue",
+      "destination": "https://antonsoo.github.io/gonia/hoist.html?rig=three&anchor=moving&hold=rise&distance=1&weight=600&arm=2&efficiency=90#hw-losses",
+      "review": "https://github.com/antonsoo/gonia/blob/e95faa0277497f1e57c601a1518277ad6f347e61/docs/hoist-audit.md#try-the-actual-work",
+      "reviewSha256": "2fcf6e66cc3644aced10aceb499c73d59a36f34d09424593212a5c4824c14992",
+      "displayedSourceSha": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19",
+      "nativeReadingBytes": 4414800,
+      "nativeReadingSha256": "a6a38ea00a0588b8b9831b3fad0082e3cb4623bdf7179b581699d8055df17faf",
+      "sameStudyBrowserOffline": true,
+      "standaloneRemoteRequests": 0,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "browser": "155.0",
+      "width": 375,
+      "terms": [
+        "religatur",
+        "trispastos",
+        "unequal tensions",
+        "pulley losses",
+        "ὑπομόχλιον"
+      ],
+      "shared": "http://127.0.0.1:4369/officina/?q=religatur#catalogue",
+      "destination": "https://antonsoo.github.io/gonia/hoist.html?rig=three&anchor=moving&hold=rise&distance=1&weight=600&arm=2&efficiency=90#hw-losses",
+      "review": "https://github.com/antonsoo/gonia/blob/e95faa0277497f1e57c601a1518277ad6f347e61/docs/hoist-audit.md#try-the-actual-work",
+      "reviewSha256": "2fcf6e66cc3644aced10aceb499c73d59a36f34d09424593212a5c4824c14992",
+      "displayedSourceSha": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19",
+      "nativeReadingBytes": 4414800,
+      "nativeReadingSha256": "a6a38ea00a0588b8b9831b3fad0082e3cb4623bdf7179b581699d8055df17faf",
+      "sameStudyBrowserOffline": true,
+      "standaloneRemoteRequests": 0,
+      "errors": []
+    }
+  ]
+}
