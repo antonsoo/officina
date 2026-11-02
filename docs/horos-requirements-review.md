@@ -41,6 +41,20 @@ passed against the public Horos lesson. That first run used the preceding
 `9c2327e` review pin; the final pin adds its public evidence without changing the
 exercise. This does not establish delivery of the catalogue change.
 
+## Clean build
+
+A fresh archive of `7c42858` under Node 24.22.1 passed `npm ci`, lint,
+format checking, TypeScript, all 45 existing tests and the production build.
+All **113** static files agree byte for byte with the reviewed Node 26.7.0
+build: [inventory](../studies/horos-requirements-local/clean-build.json).
+Build with `npm run build`; output is `dist/`, base `/officina/`.
+
+The dependency audit reported the existing moderate
+[minimatch glob-amplification advisory](https://github.com/advisories/GHSA-g3hv-75wg-m249)
+through the development lint chain, with no automatic fix available. This content
+change does not alter that toolchain. The site has no production npm dependencies;
+this is not a claim that the development environment is vulnerability-free.
+
 ## Publication boundary
 
 The local catalogue and real published lesson have been operated. The clean
