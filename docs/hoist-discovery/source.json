@@ -1,0 +1,60 @@
+[
+  {
+    "repository": "gonia",
+    "head": "4cc1aa131e055d7e2ebd7f474cdbcdc466a39b28",
+    "remote": "4cc1aa131e055d7e2ebd7f474cdbcdc466a39b28",
+    "clean": true,
+    "files": [
+      {
+        "file": "docs/hoist-audit-publication.md",
+        "bytes": 2694,
+        "sha256": "20286de7418fae5e428a2384f479ee12506bfd27504903aabc168e45d355a6a7",
+        "matches": true
+      },
+      {
+        "file": "docs/hoist-audit-publication/hosted-files.json",
+        "bytes": 47179,
+        "sha256": "211076495ddc74ead186cfe38e2c63c8ec028e8663ed9a2b4870b841217bf38c",
+        "matches": true
+      },
+      {
+        "file": "docs/hoist-audit-publication/rooms.json",
+        "bytes": 17374,
+        "sha256": "26e3aeba13970e51435c16497712dce631dbdd058df8844b22c22af5b055cce5",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "repository": "officina",
+    "head": "55a831ff71403ae2e0b4919f294c4b4ca93ef115",
+    "remote": "55a831ff71403ae2e0b4919f294c4b4ca93ef115",
+    "clean": true,
+    "files": [
+      {
+        "file": "docs/hoist-review.md",
+        "bytes": 2912,
+        "sha256": "69ff411f1a0108a206cf26291a3ee7aaed46cce2c63c290a369b55c55ccc92d1",
+        "matches": true
+      },
+      {
+        "file": "docs/hoist-discovery/local.json",
+        "bytes": 4211,
+        "sha256": "02e91a365223352fd56a47eaeb0e148532d0460fb2ccd3730a2d33274ea4d4ff",
+        "matches": true
+      },
+      {
+        "file": "public/projects.json",
+        "bytes": 88902,
+        "sha256": "91acf783c748766df8623aadbf1daf9dadc20010248e216b59e691f7d0e56e3e",
+        "matches": true
+      },
+      {
+        "file": "public/thumbs/gonia-hoist-LICENSE.txt",
+        "bytes": 4651,
+        "sha256": "53ab24f9447e92562f4c7143b2c530d36a30ae8c752f7c6dd78455cd88866d9b",
+        "matches": true
+      }
+    ]
+  }
+]

@@ -30,3 +30,27 @@ The script intentionally uses the public destination, its real source-review URL
 ## Source and build checks
 
 A clean dependency installation under Node 24.22.1, lint, all 45 existing catalogue/publication unit checks, TypeScript checking and the production build passed. These checks support the change; the operated journey above is the learner-facing evidence. Remote CI and hosted bytes remain separate boundaries.
+
+## Public catalogue and lesson
+
+The same four journeys now pass from the **canonical public Officina site**, not a local catalogue: [public browser receipt](hoist-discovery/public.json). Actual screenshots were visually reviewed in both engines and widths. The real GitHub audit page opened with the keyboard; all five source images in each native study matched; online and browser-offline downloads were byte-identical within each configuration.
+
+| Boundary                            | Observed identity or result                                                                                                             |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Officina source                     | `55a831ff71403ae2e0b4919f294c4b4ca93ef115`                                                                                              |
+| Officina Pages                      | `30465a5fa594b2918da7d84fb67cf446c5bc48b5`                                                                                              |
+| Catalogue hosted files              | All 111 current build files match by size and SHA-256, before and after the public journeys; both directory and explicit index agree    |
+| Gonia reviewed runtime source       | `e95faa0277497f1e57c601a1518277ad6f347e61`                                                                                              |
+| Gonia Pages                         | `cc2b5c9ae144c354f4496a8db9cd3aacf185b9fd`                                                                                              |
+| Lesson hosted files after discovery | All 142 current build files match, including directory entry checks before and after the inventory                                      |
+| Public source                       | Both source trees were clean and matched their remote main revisions at the recorded check; seven selected pinned raw documents matched |
+
+Receipts: [catalogue before](hoist-discovery/hosted-before.json), [catalogue after](hoist-discovery/hosted-after.json), [lesson after](hoist-discovery/lesson-hosted-after.json), [source snapshot](hoist-discovery/source.json). The source snapshot includes Gonia's later documentation-only `4cc1aa1`; its runtime remains the reviewed edition. This follow-up also changes documentation only.
+
+The deployment used ordinary descendant commits on each existing Pages branch, preserving older hashed assets. No remote-CI success is inferred: Gonia's recorded check job reported failure with no steps, and the local checks, hosted file identities and public browser observations are independently recorded. These receipts concern the recorded publication, not a registry release or a guarantee against future cache eviction.
+
+Reproduce the public journey:
+
+```sh
+npm run test:hoist -- https://antonsoo.github.io/officina/ /tmp/officina-hoist-public
+```
