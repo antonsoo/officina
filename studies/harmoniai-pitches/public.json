@@ -1,0 +1,106 @@
+{
+  "base": "https://antonsoo.github.io/officina/",
+  "commit": "a7bc7542e3f518039e649f11ffb102e876d5b650",
+  "rows": [
+    {
+      "engine": "chromium",
+      "browser": "153.0.8010.12",
+      "width": 1440,
+      "terms": [
+        "τρίτη ὑπερβολαίων",
+        "tritē hyperbolaiōn",
+        "trite hyperbolaion",
+        "reference pitch",
+        "23.460 cents"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=trite+hyperbolaion#catalogue",
+      "destination": "https://antonsoo.github.io/harmoniai/?species=6&mese=330&selected=12&orientation=pitch#pitches",
+      "review": "https://github.com/antonsoo/harmoniai/blob/a7bc7542e3f518039e649f11ffb102e876d5b650/docs/edition-audit.md#what-the-learner-sees",
+      "reviewSha256": "4cc0ef1714a59c87e414d3d647a33336f38ef04077e461c513cc9b92bceacc2d",
+      "nativeStudyBytes": 5221341,
+      "nativeStudySha256": "a416b4493caaa82d0752884898ceb2c83cde49784dc7db6dca24f8491cb3c6ca",
+      "threeEmbeddedScansVerified": true,
+      "actualModelChange": [
+        521.4815,
+        523.8423
+      ],
+      "keyboardPluck": true,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "browser": "153.0.8010.12",
+      "width": 375,
+      "terms": [
+        "τρίτη ὑπερβολαίων",
+        "tritē hyperbolaiōn",
+        "trite hyperbolaion",
+        "reference pitch",
+        "23.460 cents"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=trite+hyperbolaion#catalogue",
+      "destination": "https://antonsoo.github.io/harmoniai/?species=6&mese=330&selected=12&orientation=pitch#pitches",
+      "review": "https://github.com/antonsoo/harmoniai/blob/a7bc7542e3f518039e649f11ffb102e876d5b650/docs/edition-audit.md#what-the-learner-sees",
+      "reviewSha256": "4cc0ef1714a59c87e414d3d647a33336f38ef04077e461c513cc9b92bceacc2d",
+      "nativeStudyBytes": 5221341,
+      "nativeStudySha256": "a416b4493caaa82d0752884898ceb2c83cde49784dc7db6dca24f8491cb3c6ca",
+      "threeEmbeddedScansVerified": true,
+      "actualModelChange": [
+        521.4815,
+        523.8423
+      ],
+      "keyboardPluck": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "browser": "155.0",
+      "width": 1440,
+      "terms": [
+        "τρίτη ὑπερβολαίων",
+        "tritē hyperbolaiōn",
+        "trite hyperbolaion",
+        "reference pitch",
+        "23.460 cents"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=trite+hyperbolaion#catalogue",
+      "destination": "https://antonsoo.github.io/harmoniai/?species=6&mese=330&selected=12&orientation=pitch#pitches",
+      "review": "https://github.com/antonsoo/harmoniai/blob/a7bc7542e3f518039e649f11ffb102e876d5b650/docs/edition-audit.md#what-the-learner-sees",
+      "reviewSha256": "4cc0ef1714a59c87e414d3d647a33336f38ef04077e461c513cc9b92bceacc2d",
+      "nativeStudyBytes": 5221341,
+      "nativeStudySha256": "a416b4493caaa82d0752884898ceb2c83cde49784dc7db6dca24f8491cb3c6ca",
+      "threeEmbeddedScansVerified": true,
+      "actualModelChange": [
+        521.4815,
+        523.8423
+      ],
+      "keyboardPluck": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "browser": "155.0",
+      "width": 375,
+      "terms": [
+        "τρίτη ὑπερβολαίων",
+        "tritē hyperbolaiōn",
+        "trite hyperbolaion",
+        "reference pitch",
+        "23.460 cents"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=trite+hyperbolaion#catalogue",
+      "destination": "https://antonsoo.github.io/harmoniai/?species=6&mese=330&selected=12&orientation=pitch#pitches",
+      "review": "https://github.com/antonsoo/harmoniai/blob/a7bc7542e3f518039e649f11ffb102e876d5b650/docs/edition-audit.md#what-the-learner-sees",
+      "reviewSha256": "4cc0ef1714a59c87e414d3d647a33336f38ef04077e461c513cc9b92bceacc2d",
+      "nativeStudyBytes": 5221341,
+      "nativeStudySha256": "a416b4493caaa82d0752884898ceb2c83cde49784dc7db6dca24f8491cb3c6ca",
+      "threeEmbeddedScansVerified": true,
+      "actualModelChange": [
+        521.4815,
+        523.8423
+      ],
+      "keyboardPluck": true,
+      "errors": []
+    }
+  ]
+}

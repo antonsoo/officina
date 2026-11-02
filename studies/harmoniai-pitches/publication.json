@@ -1,0 +1,11 @@
+{
+  "observedAt": "2026-11-02T00:08:38.574091+00:00",
+  "source": "c9a47290d68ae77e2cb8d28ee5e4d7c44dfbebdc",
+  "pagesCommit": "336981cbe760ec2ebc08eb6ab19e9100bd71b82c",
+  "cleanNode": "24.22.1",
+  "localTests": 45,
+  "canonicalFilesMatched": 109,
+  "publicJourneys": 4,
+  "reviewSource": "a7bc7542e3f518039e649f11ffb102e876d5b650",
+  "boundary": "Catalogue metadata, clean build, canonical hosted bytes, actual source-word discovery, pinned review, operated pitch models and real downloads. No remote CI or registry release claim."
+}
