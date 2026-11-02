@@ -432,7 +432,7 @@
   },
   {
     "name": "harmoniai",
-    "description": "Compare Greek and modern mode names from the same pitch, read Cleonides on the printed page, and explore the Greek octave species and Bharata’s two-vīṇā demonstration.",
+    "description": "Compare the pitch of one named Greek string across stated tuning models, hear Greek and modern Dorian from the same starting note, and explore Bharata’s two-vīṇā demonstration.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/harmoniai",
     "demoUrl": "https://antonsoo.github.io/harmoniai/",
@@ -469,6 +469,24 @@
       "Sanskrit"
     ],
     "workshops": [
+      {
+        "id": "pitches",
+        "title": "Does a Greek string name fix its pitch?",
+        "url": "https://antonsoo.github.io/harmoniai/?species=6&mese=330&selected=12&orientation=pitch#pitches",
+        "reviewUrl": "https://github.com/antonsoo/harmoniai/blob/a7bc7542e3f518039e649f11ffb102e876d5b650/docs/edition-audit.md#what-the-learner-sees",
+        "searchTerms": [
+          "τρίτη ὑπερβολαίων",
+          "tritē hyperbolaiōn",
+          "named pitches",
+          "mesē",
+          "reference pitch",
+          "pitch model",
+          "23.460 cents",
+          "tone and small step"
+        ],
+        "summary": "Keep mesē fixed, compare one named string in two stated tunings, then save the octave’s Greek reading, sound, measurements and complete printed sources. T and S reveal why two small steps need not equal one tone.",
+        "thumbnail": "thumbs/harmoniai-pitches.png"
+      },
       {
         "id": "names",
         "title": "Which Dorian? Hear the names move",
