@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-02T22:36:41.054Z",
+  "url": "https://antonsoo.github.io/horos/?investigation=inhabitant#existence-map",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "operations": [
+    "Load smallest refutation under None",
+    "Require C without moving object",
+    "Scroll comparison into view"
+  ],
+  "world": 1,
+  "existence": 4,
+  "bytes": 90025,
+  "sha256": "024f42ac5e0a9e2070a6721750bf514da7d2049017a2e020f5f45973a63573df"
+}

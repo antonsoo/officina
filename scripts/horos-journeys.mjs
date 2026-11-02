@@ -15,7 +15,7 @@ const sha = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const records = [];
 const cases = [
   { id: "two-worlds", query: "λίθος", aliases: ["horse and stone", "ὅροι", "Analytica priora"], page: 26 },
-  { id: "inhabitant", query: "ἔκθεσις", aliases: ["ekthesis", "ἂν ληφθῇ", "existential import"], page: 28 },
+  { id: "inhabitant", query: "ἔκθεσις", aliases: ["ekthesis", "ἂν ληφθῇ", "existential import", "weakest requirements", "eight existence requirements"], page: 28 },
 ];
 for (const [name, engine] of [
   ["chromium", chromium],
@@ -58,11 +58,11 @@ for (const [name, engine] of [
         const destination = await row.locator(".workshop-demo").getAttribute("href");
         const review = await row.locator(".workshop-review").getAttribute("href");
         assert.equal(new URL(destination).searchParams.get("investigation"), investigation.id);
-        const match = /\/blob\/([a-f0-9]{40})\/docs\/audit\.md#try-the-actual-work$/.exec(review);
+        const match = /\/blob\/([a-f0-9]{40})\/(docs\/(?:existence-audit|audit)\.md)#try-the-actual-work$/.exec(review);
         assert.ok(match);
-        const pinned = execFileSync("git", ["-C", repo, "show", `${match[1]}:docs/audit.md`]);
+        const pinned = execFileSync("git", ["-C", repo, "show", `${match[1]}:${match[2]}`]);
         const response = await fetch(
-          `https://raw.githubusercontent.com/antonsoo/horos/${match[1]}/docs/audit.md`,
+          `https://raw.githubusercontent.com/antonsoo/horos/${match[1]}/${match[2]}`,
         );
         assert.equal(response.status, 200);
         assert.deepEqual(Buffer.from(await response.arrayBuffer()), pinned);
@@ -98,18 +98,27 @@ for (const [name, engine] of [
           await page.locator("#load-trace").click();
           await expect(page.locator("#judgment")).toHaveAttribute("data-status", "counterexample");
         } else {
-          await page.locator("#region-7").click();
-          await page.locator("#region-0").click();
+          await expect(page.locator("#existence-disclosure")).toHaveAttribute("open", "");
+          await expect(page.locator("#existence-summary")).toContainText("Weakest sufficient requirements: C.");
+          await page.locator('[data-refute-mask="0"]').click();
+          await expect(page.locator("#judgment")).toHaveAttribute("data-status", "counterexample");
+          await page.locator("#pin").click();
+          const before = await page.locator('#board [aria-pressed="true"]').evaluateAll(
+            buttons => buttons.map(button => button.id),
+          );
+          assert.deepEqual(before, ["region-0"]);
+          await page.locator('[data-require-mask="4"]').click();
           await expect(page.locator("#judgment")).toHaveAttribute("data-status", "existence");
+          assert.deepEqual(await page.locator('#board [aria-pressed="true"]').evaluateAll(
+            buttons => buttons.map(button => button.id),
+          ), before);
+          await expect(page.locator("#comparison-note")).toContainText(
+            "Different questions or existence assumptions",
+          );
           await page.locator("#inspect").click();
           await page.locator(".trace summary").click();
           await expect(page.locator("#constraint-trace")).toContainText(
             "C must have an inhabitant has no available region",
-          );
-          await page.locator("#exists-c").uncheck();
-          await expect(page.locator("#judgment")).toHaveAttribute("data-status", "counterexample");
-          await expect(page.locator("#comparison-note")).toContainText(
-            "Different questions or existence assumptions",
           );
         }
         await page.locator("#locate-scan").click();
@@ -126,7 +135,7 @@ for (const [name, engine] of [
         const note =
           investigation.id === "two-worlds"
             ? "The C outside A defeats the universal while both premises survive."
-            : "Removing the existence assumption admits the outside object; the comparison changes assumptions.";
+            : "The same outside object refutes the conclusion under None and is inadmissible under C. C is the weakest sufficient requirement; requiring it excludes this world without moving the object.";
         await page.locator("#note").fill(note);
         const pending = page.waitForEvent("download");
         await page.locator("#save-json").click();
@@ -136,6 +145,12 @@ for (const [name, engine] of [
         assert.equal(saved.note, note);
         assert.ok(saved.citations.includes(investigation.id));
         assert.ok(saved.pinned);
+        if (investigation.id === "inhabitant") {
+          assert.equal(saved.current.world, 1);
+          assert.equal(saved.pinned.world, 1);
+          assert.equal(saved.current.existence, 4);
+          assert.equal(saved.pinned.existence, 0);
+        }
         assert.deepEqual(errors, []);
         assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
         records.push({

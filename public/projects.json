@@ -1510,7 +1510,9 @@
       "conversion",
       "existential import",
       "horse and stone",
-      "Greek Latin philosophy"
+      "Greek Latin philosophy",
+      "weakest requirements",
+      "existence assumptions"
     ],
     "workshops": [
       {
@@ -1534,9 +1536,9 @@
       },
       {
         "id": "inhabitant",
-        "title": "Take one of the Cs: where does the witness come from?",
-        "url": "https://antonsoo.github.io/horos/?investigation=inhabitant#workshop",
-        "reviewUrl": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "title": "Which inhabitant does the work? Compare all eight requirements",
+        "url": "https://antonsoo.github.io/horos/?investigation=inhabitant#existence-map",
+        "reviewUrl": "https://github.com/antonsoo/horos/blob/5088c1a6351e75036baeec8f2a720adf5e588d50/docs/existence-audit.md#try-the-actual-work",
         "searchTerms": [
           "Aristotle",
           "ekthesis",
@@ -1547,9 +1549,13 @@
           "empty class",
           "inhabitant",
           "take one instance",
-          "Prior Analytics I.6"
+          "Prior Analytics I.6",
+          "weakest requirements",
+          "eight existence requirements",
+          "smallest counterexample",
+          "existence assumptions"
         ],
-        "summary": "Remove the shared instance, then change the existence assumption. Follow the blocked witness requirement and compare this modern empty-class model with Aristotle’s instance-taking passage.",
+        "summary": "Keep the world fixed while changing which classes must have an inhabitant. Find the weakest sufficient requirement, load a smallest refutation, and compare the modern model with Aristotle’s instance-taking passage.",
         "thumbnail": "thumbs/horos-inhabitant.png"
       },
       {
