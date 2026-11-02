@@ -1,0 +1,486 @@
+{
+  "date": "2026-11-02T11:30:08.986Z",
+  "scope": "Operated question-menu handoffs to public experiments, with pinned raw-review identity. Canonical hosted-file identity is recorded separately.",
+  "state": "passed",
+  "expectedJourneys": 24,
+  "searches": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "shared": "https://antonsoo.github.io/officina/?q=measurement+errors#catalogue",
+      "searchReview": {
+        "url": "https://github.com/antonsoo/rajju/blob/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/rajju/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md",
+        "bytes": 11418,
+        "sha256": "2345413a3fa0d5f34af1c8e6cad0dd4d36946ca0343a6d976558f5167f0d08e5"
+      },
+      "operation": {
+        "selector": "#error-summary",
+        "result": "4 of four procedures can reach both anchors. 0 are collinear. The same length errors need not produce the same peg displacement. Overlapping symbols are possible; the table keeps every result.",
+        "sourceSha": "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba",
+        "readingSha256": "7cd7cbce4dad46431bb7ef0f6befb766874e4e8ae3b8fac675d2227d7912491d",
+        "savedReadingRequests": []
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "shared": "https://antonsoo.github.io/officina/?q=measurement+errors#catalogue",
+      "searchReview": {
+        "url": "https://github.com/antonsoo/rajju/blob/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/rajju/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md",
+        "bytes": 11418,
+        "sha256": "2345413a3fa0d5f34af1c8e6cad0dd4d36946ca0343a6d976558f5167f0d08e5"
+      },
+      "operation": {
+        "selector": "#error-summary",
+        "result": "4 of four procedures can reach both anchors. 0 are collinear. The same length errors need not produce the same peg displacement. Overlapping symbols are possible; the table keeps every result.",
+        "sourceSha": "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba",
+        "readingSha256": "7cd7cbce4dad46431bb7ef0f6befb766874e4e8ae3b8fac675d2227d7912491d",
+        "savedReadingRequests": []
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "shared": "https://antonsoo.github.io/officina/?q=measurement+errors#catalogue",
+      "searchReview": {
+        "url": "https://github.com/antonsoo/rajju/blob/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/rajju/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md",
+        "bytes": 11418,
+        "sha256": "2345413a3fa0d5f34af1c8e6cad0dd4d36946ca0343a6d976558f5167f0d08e5"
+      },
+      "operation": {
+        "selector": "#error-summary",
+        "result": "4 of four procedures can reach both anchors. 0 are collinear. The same length errors need not produce the same peg displacement. Overlapping symbols are possible; the table keeps every result.",
+        "sourceSha": "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba",
+        "readingSha256": "04491ec7d5aa646d230598a6ce6e260b7e254906f7d2f2ee576a187202efca25",
+        "savedReadingRequests": []
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "shared": "https://antonsoo.github.io/officina/?q=measurement+errors#catalogue",
+      "searchReview": {
+        "url": "https://github.com/antonsoo/rajju/blob/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/rajju/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md",
+        "bytes": 11418,
+        "sha256": "2345413a3fa0d5f34af1c8e6cad0dd4d36946ca0343a6d976558f5167f0d08e5"
+      },
+      "operation": {
+        "selector": "#error-summary",
+        "result": "4 of four procedures can reach both anchors. 0 are collinear. The same length errors need not produce the same peg displacement. Overlapping symbols are possible; the table keeps every result.",
+        "sourceSha": "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba",
+        "readingSha256": "04491ec7d5aa646d230598a6ce6e260b7e254906f7d2f2ee576a187202efca25",
+        "savedReadingRequests": []
+      }
+    }
+  ],
+  "journeys": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "roof",
+      "target": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": {
+        "url": "https://github.com/antonsoo/embater/blob/a19a6129bfb759b7c931f3e825714f475fabc429/docs/roof-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/embater/a19a6129bfb759b7c931f3e825714f475fabc429/docs/roof-audit.md",
+        "bytes": 10757,
+        "sha256": "1edd482717775db600b74a4550593043db3c55123c3ae7fce026d84858ed33e2"
+      },
+      "operation": {
+        "selector": "#roof-result",
+        "result": "The blue envelope now matches the middle rule: h + h/8 = 9h/8.",
+        "sourcePage": 74
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "counterexample",
+      "target": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": {
+        "url": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/horos/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md",
+        "bytes": 8260,
+        "sha256": "ccd6d230e9b97e41e6b81bcfc58ed00d206dcda611b6b37f5f6604a7e32a39eb"
+      },
+      "operation": {
+        "selector": "#judgment",
+        "result": "You have a counterexampleEvery premise and existence requirement holds. The proposed conclusion is false. This one world defeats the claim that it follows under these assumptions."
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "dorian",
+      "target": "https://antonsoo.github.io/harmoniai/compare.html?name=dorian#listen",
+      "review": {
+        "url": "https://github.com/antonsoo/harmoniai/blob/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/harmoniai/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md",
+        "bytes": 8270,
+        "sha256": "a1673653b8080fe453aaff07be97772d9b8258a68aee11465f9af0af35e20edd"
+      },
+      "operation": {
+        "selector": "#compare-finding",
+        "result": "All eight pitches agree. Cleonides’ Dorian has the interval order called Phrygian today.",
+        "audioClockAdvanced": true
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "circle",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html",
+      "review": {
+        "url": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+        "raw": "https://raw.githubusercontent.com/antonsoo/stoicheia/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md",
+        "bytes": 11082,
+        "sha256": "1cfb053bf86df4585cafa4e91e4da3752d0ec63fa39d009827932705bf05e190"
+      },
+      "operation": {
+        "selector": "#ci-bound-status",
+        "result": "Both perimeter bounds at this stage are justified. The endpoint decimals are rounded for display. This row’s approximation is unsafe for a later bisection, although it is not needed for this current endpoint."
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "cord",
+      "target": "https://antonsoo.github.io/rajju/field.html?corner=en&nearerr=10&farerr=0#cord-errors",
+      "review": {
+        "url": "https://github.com/antonsoo/rajju/blob/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/rajju/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md",
+        "bytes": 11418,
+        "sha256": "2345413a3fa0d5f34af1c8e6cad0dd4d36946ca0343a6d976558f5167f0d08e5"
+      },
+      "operation": {
+        "selector": "#error-summary",
+        "result": "4 of four procedures can reach both anchors. 0 are collinear. The same length errors need not produce the same peg displacement. Overlapping symbols are possible; the table keeps every result.",
+        "sourceSha": "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba",
+        "readingSha256": "7cd7cbce4dad46431bb7ef0f6befb766874e4e8ae3b8fac675d2227d7912491d",
+        "savedReadingRequests": []
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "id": "trace",
+      "target": "https://antonsoo.github.io/tracelens/",
+      "review": {
+        "url": "https://github.com/antonsoo/tracelens/tree/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector",
+        "raw": "https://raw.githubusercontent.com/antonsoo/tracelens/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector/README.md",
+        "bytes": 10958,
+        "sha256": "2f4d3d609c7c9b0433ce6deb08641fe24556f6676c22bbbfc6c12ad7755b30ee"
+      },
+      "operation": {
+        "selector": "#tl-span-filter-count",
+        "result": "6 of 16 spans match; 2 ancestors shown. Totals include the full trace."
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "roof",
+      "target": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": {
+        "url": "https://github.com/antonsoo/embater/blob/a19a6129bfb759b7c931f3e825714f475fabc429/docs/roof-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/embater/a19a6129bfb759b7c931f3e825714f475fabc429/docs/roof-audit.md",
+        "bytes": 10757,
+        "sha256": "1edd482717775db600b74a4550593043db3c55123c3ae7fce026d84858ed33e2"
+      },
+      "operation": {
+        "selector": "#roof-result",
+        "result": "The blue envelope now matches the middle rule: h + h/8 = 9h/8.",
+        "sourcePage": 74
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "counterexample",
+      "target": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": {
+        "url": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/horos/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md",
+        "bytes": 8260,
+        "sha256": "ccd6d230e9b97e41e6b81bcfc58ed00d206dcda611b6b37f5f6604a7e32a39eb"
+      },
+      "operation": {
+        "selector": "#judgment",
+        "result": "You have a counterexampleEvery premise and existence requirement holds. The proposed conclusion is false. This one world defeats the claim that it follows under these assumptions."
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "dorian",
+      "target": "https://antonsoo.github.io/harmoniai/compare.html?name=dorian#listen",
+      "review": {
+        "url": "https://github.com/antonsoo/harmoniai/blob/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/harmoniai/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md",
+        "bytes": 8270,
+        "sha256": "a1673653b8080fe453aaff07be97772d9b8258a68aee11465f9af0af35e20edd"
+      },
+      "operation": {
+        "selector": "#compare-finding",
+        "result": "All eight pitches agree. Cleonides’ Dorian has the interval order called Phrygian today.",
+        "audioClockAdvanced": true
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "circle",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html",
+      "review": {
+        "url": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+        "raw": "https://raw.githubusercontent.com/antonsoo/stoicheia/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md",
+        "bytes": 11082,
+        "sha256": "1cfb053bf86df4585cafa4e91e4da3752d0ec63fa39d009827932705bf05e190"
+      },
+      "operation": {
+        "selector": "#ci-bound-status",
+        "result": "Both perimeter bounds at this stage are justified. The endpoint decimals are rounded for display. This row’s approximation is unsafe for a later bisection, although it is not needed for this current endpoint."
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "cord",
+      "target": "https://antonsoo.github.io/rajju/field.html?corner=en&nearerr=10&farerr=0#cord-errors",
+      "review": {
+        "url": "https://github.com/antonsoo/rajju/blob/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/rajju/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md",
+        "bytes": 11418,
+        "sha256": "2345413a3fa0d5f34af1c8e6cad0dd4d36946ca0343a6d976558f5167f0d08e5"
+      },
+      "operation": {
+        "selector": "#error-summary",
+        "result": "4 of four procedures can reach both anchors. 0 are collinear. The same length errors need not produce the same peg displacement. Overlapping symbols are possible; the table keeps every result.",
+        "sourceSha": "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba",
+        "readingSha256": "7cd7cbce4dad46431bb7ef0f6befb766874e4e8ae3b8fac675d2227d7912491d",
+        "savedReadingRequests": []
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "id": "trace",
+      "target": "https://antonsoo.github.io/tracelens/",
+      "review": {
+        "url": "https://github.com/antonsoo/tracelens/tree/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector",
+        "raw": "https://raw.githubusercontent.com/antonsoo/tracelens/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector/README.md",
+        "bytes": 10958,
+        "sha256": "2f4d3d609c7c9b0433ce6deb08641fe24556f6676c22bbbfc6c12ad7755b30ee"
+      },
+      "operation": {
+        "selector": "#tl-span-filter-count",
+        "result": "6 of 16 spans match; 2 ancestors shown. Totals include the full trace."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "roof",
+      "target": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": {
+        "url": "https://github.com/antonsoo/embater/blob/a19a6129bfb759b7c931f3e825714f475fabc429/docs/roof-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/embater/a19a6129bfb759b7c931f3e825714f475fabc429/docs/roof-audit.md",
+        "bytes": 10757,
+        "sha256": "1edd482717775db600b74a4550593043db3c55123c3ae7fce026d84858ed33e2"
+      },
+      "operation": {
+        "selector": "#roof-result",
+        "result": "The blue envelope now matches the middle rule: h + h/8 = 9h/8.",
+        "sourcePage": 74
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "counterexample",
+      "target": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": {
+        "url": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/horos/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md",
+        "bytes": 8260,
+        "sha256": "ccd6d230e9b97e41e6b81bcfc58ed00d206dcda611b6b37f5f6604a7e32a39eb"
+      },
+      "operation": {
+        "selector": "#judgment",
+        "result": "You have a counterexampleEvery premise and existence requirement holds. The proposed conclusion is false. This one world defeats the claim that it follows under these assumptions."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "dorian",
+      "target": "https://antonsoo.github.io/harmoniai/compare.html?name=dorian#listen",
+      "review": {
+        "url": "https://github.com/antonsoo/harmoniai/blob/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/harmoniai/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md",
+        "bytes": 8270,
+        "sha256": "a1673653b8080fe453aaff07be97772d9b8258a68aee11465f9af0af35e20edd"
+      },
+      "operation": {
+        "selector": "#compare-finding",
+        "result": "All eight pitches agree. Cleonides’ Dorian has the interval order called Phrygian today.",
+        "audioClockAdvanced": true
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "circle",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html",
+      "review": {
+        "url": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+        "raw": "https://raw.githubusercontent.com/antonsoo/stoicheia/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md",
+        "bytes": 11082,
+        "sha256": "1cfb053bf86df4585cafa4e91e4da3752d0ec63fa39d009827932705bf05e190"
+      },
+      "operation": {
+        "selector": "#ci-bound-status",
+        "result": "Both perimeter bounds at this stage are justified. The endpoint decimals are rounded for display. This row’s approximation is unsafe for a later bisection, although it is not needed for this current endpoint."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "cord",
+      "target": "https://antonsoo.github.io/rajju/field.html?corner=en&nearerr=10&farerr=0#cord-errors",
+      "review": {
+        "url": "https://github.com/antonsoo/rajju/blob/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/rajju/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md",
+        "bytes": 11418,
+        "sha256": "2345413a3fa0d5f34af1c8e6cad0dd4d36946ca0343a6d976558f5167f0d08e5"
+      },
+      "operation": {
+        "selector": "#error-summary",
+        "result": "4 of four procedures can reach both anchors. 0 are collinear. The same length errors need not produce the same peg displacement. Overlapping symbols are possible; the table keeps every result.",
+        "sourceSha": "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba",
+        "readingSha256": "04491ec7d5aa646d230598a6ce6e260b7e254906f7d2f2ee576a187202efca25",
+        "savedReadingRequests": []
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "id": "trace",
+      "target": "https://antonsoo.github.io/tracelens/",
+      "review": {
+        "url": "https://github.com/antonsoo/tracelens/tree/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector",
+        "raw": "https://raw.githubusercontent.com/antonsoo/tracelens/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector/README.md",
+        "bytes": 10958,
+        "sha256": "2f4d3d609c7c9b0433ce6deb08641fe24556f6676c22bbbfc6c12ad7755b30ee"
+      },
+      "operation": {
+        "selector": "#tl-span-filter-count",
+        "result": "6 of 16 spans match; 2 ancestors shown. Totals include the full trace."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "roof",
+      "target": "https://antonsoo.github.io/embater/#order=doric&columns=6&view=roof&trial=0.5",
+      "review": {
+        "url": "https://github.com/antonsoo/embater/blob/a19a6129bfb759b7c931f3e825714f475fabc429/docs/roof-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/embater/a19a6129bfb759b7c931f3e825714f475fabc429/docs/roof-audit.md",
+        "bytes": 10757,
+        "sha256": "1edd482717775db600b74a4550593043db3c55123c3ae7fce026d84858ed33e2"
+      },
+      "operation": {
+        "selector": "#roof-result",
+        "result": "The blue envelope now matches the middle rule: h + h/8 = 9h/8.",
+        "sourcePage": 74
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "counterexample",
+      "target": "https://antonsoo.github.io/horos/?investigation=two-worlds#workshop",
+      "review": {
+        "url": "https://github.com/antonsoo/horos/blob/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/horos/c614f494177bda02d2818c1eeb7bbe75cf1b7459/docs/audit.md",
+        "bytes": 8260,
+        "sha256": "ccd6d230e9b97e41e6b81bcfc58ed00d206dcda611b6b37f5f6604a7e32a39eb"
+      },
+      "operation": {
+        "selector": "#judgment",
+        "result": "You have a counterexampleEvery premise and existence requirement holds. The proposed conclusion is false. This one world defeats the claim that it follows under these assumptions."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "dorian",
+      "target": "https://antonsoo.github.io/harmoniai/compare.html?name=dorian#listen",
+      "review": {
+        "url": "https://github.com/antonsoo/harmoniai/blob/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/harmoniai/ea7d7170c0aa0e2199f7f7f6b8b5d9a2a1c2ab23/docs/name-audit.md",
+        "bytes": 8270,
+        "sha256": "a1673653b8080fe453aaff07be97772d9b8258a68aee11465f9af0af35e20edd"
+      },
+      "operation": {
+        "selector": "#compare-finding",
+        "result": "All eight pitches agree. Cleonides’ Dorian has the interval order called Phrygian today.",
+        "audioClockAdvanced": true
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "circle",
+      "target": "https://antonsoo.github.io/stoicheia/circle.html",
+      "review": {
+        "url": "https://github.com/antonsoo/stoicheia/blob/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md#what-the-learner-can-do",
+        "raw": "https://raw.githubusercontent.com/antonsoo/stoicheia/115c3f3e55f22da1d1b1eb39c7900da864c71243/docs/circle-review.md",
+        "bytes": 11082,
+        "sha256": "1cfb053bf86df4585cafa4e91e4da3752d0ec63fa39d009827932705bf05e190"
+      },
+      "operation": {
+        "selector": "#ci-bound-status",
+        "result": "Both perimeter bounds at this stage are justified. The endpoint decimals are rounded for display. This row’s approximation is unsafe for a later bisection, although it is not needed for this current endpoint."
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "cord",
+      "target": "https://antonsoo.github.io/rajju/field.html?corner=en&nearerr=10&farerr=0#cord-errors",
+      "review": {
+        "url": "https://github.com/antonsoo/rajju/blob/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md#try-the-actual-work",
+        "raw": "https://raw.githubusercontent.com/antonsoo/rajju/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md",
+        "bytes": 11418,
+        "sha256": "2345413a3fa0d5f34af1c8e6cad0dd4d36946ca0343a6d976558f5167f0d08e5"
+      },
+      "operation": {
+        "selector": "#error-summary",
+        "result": "4 of four procedures can reach both anchors. 0 are collinear. The same length errors need not produce the same peg displacement. Overlapping symbols are possible; the table keeps every result.",
+        "sourceSha": "5cb1829e54f9ec8f812beb368fab1b68bdf1be130087776bf4b071327c4880ba",
+        "readingSha256": "04491ec7d5aa646d230598a6ce6e260b7e254906f7d2f2ee576a187202efca25",
+        "savedReadingRequests": []
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "id": "trace",
+      "target": "https://antonsoo.github.io/tracelens/",
+      "review": {
+        "url": "https://github.com/antonsoo/tracelens/tree/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector",
+        "raw": "https://raw.githubusercontent.com/antonsoo/tracelens/1e67140e7f08f08b87ede5facc145809d0539c53/studies/zstd-collector/README.md",
+        "bytes": 10958,
+        "sha256": "2f4d3d609c7c9b0433ce6deb08641fe24556f6676c22bbbfc6c12ad7755b30ee"
+      },
+      "operation": {
+        "selector": "#tl-span-filter-count",
+        "result": "6 of 16 spans match; 2 ancestors shown. Totals include the full trace."
+      }
+    }
+  ]
+}

@@ -54,3 +54,20 @@ searched only project descriptions. The actual filter includes workshop text:
 `TRACE` correctly finds both Gonia's unequal-tension workshop and Tracelens.
 The assertion now checks those concrete results. Menu checks cover all six
 routes in both themes, including phone action-label width.
+
+## Publication and public replay
+
+Source `59c144d` was pushed to `main`; the clean Node 24.22.1 build was
+published by a fast-forward `gh-pages` commit `144cbd2`. Its 113 files were
+identical to the Node 26.7.0 working build. The retained
+[build inventory](rajju-cord-review/clean-build.json) identifies every file.
+Local lint, type checking, formatting, 45 unit checks and 56 Chromium/Firefox
+browser checks passed. No remote CI run was observed in the separate query.
+
+The [public replay](rajju-cord-review/public.json) completed all 24 menu
+handoffs and four search/share journeys against the canonical public catalogue.
+All eight cord handoffs produced native illustrated files that opened without
+HTTP requests. The public menu captures matched the locally reviewed captures.
+After those browser journeys, the [hosted receipt](rajju-cord-review/hosted.json)
+verified all 113 canonical files and both entry aliases against the clean build.
+Rajju's own 30 hosted files and directory entry were checked again separately.
