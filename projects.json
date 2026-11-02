@@ -566,7 +566,40 @@
     "study": {
       "finding": "Holding at 15 makes a perpendicular; staking at 12 gives the prescribed ground. Staking both eastern grips changes area from 972 to 1080.",
       "url": "https://github.com/antonsoo/rajju/blob/12e1ddf3b0b53ca65f48c0f39a0cb2439fbcf02e/docs/field-model.md#what-can-be-learned"
-    }
+    },
+    "searchTerms": [
+      "Āpastamba",
+      "cord errors",
+      "measurement errors",
+      "lakṣaṇa",
+      "लक्षणं",
+      "5-12-13",
+      "5–12–13",
+      "near segment",
+      "return segment",
+      "same error different miss"
+    ],
+    "workshops": [
+      {
+        "id": "cord-errors",
+        "title": "Same error. Different miss.",
+        "url": "https://antonsoo.github.io/rajju/field.html?corner=en&nearerr=10&farerr=0#cord-errors",
+        "reviewUrl": "https://github.com/antonsoo/rajju/blob/cf3126955c2c61179a13700c48326856f136e274/docs/readiness-audit.md#try-the-actual-work",
+        "searchTerms": [
+          "cord errors",
+          "measurement errors",
+          "lakṣaṇa",
+          "लक्षणं",
+          "5-12-13",
+          "5–12–13",
+          "same error different miss",
+          "near segment",
+          "return segment"
+        ],
+        "summary": "Give four source procedures the same chosen cord-length errors. Compare their pegs, try an unreachable cord and keep the assumptions with the printed evidence.",
+        "thumbnail": "thumbs/rajju-errors.png"
+      }
+    ]
   },
   {
     "name": "pnigeus",

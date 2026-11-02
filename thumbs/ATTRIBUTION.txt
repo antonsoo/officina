@@ -150,3 +150,9 @@ Zygon parabola thumbnail (zygon-parabola.png, 2026-10-28)
 Actual Chromium 1280 x 800 local production capture of parabola.html?view=fill&depth=2#pa-bench.
 New diagrams and code: Anthony Mercer, MIT. Self-hosted Noto Serif and IBM Plex:
 SIL OFL 1.1. No historical source scan appears in the thumbnail.
+
+Rajju cord-error thumbnail (rajju-errors.png, 2026-11-02)
+Native Chromium capture of the published modern four-procedure comparison,
+1440 x 1000. Original interface and diagrams by Anthony Mercer, 2026.
+PolyForm Noncommercial License 1.0.0; the required notice and full terms are
+in rajju-errors-LICENSE.txt. No historical source image appears in this frame.
