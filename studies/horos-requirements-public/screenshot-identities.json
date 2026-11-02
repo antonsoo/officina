@@ -1,0 +1,50 @@
+[
+  {
+    "path": "chromium-1440-inhabitant-catalogue.png",
+    "bytes": 258602,
+    "sha256": "2c9be435600048e51316bc1ca2b622b19fdb56f26501a3db4f38720eba14b440",
+    "identicalToLocal": true
+  },
+  {
+    "path": "chromium-1440-two-worlds-catalogue.png",
+    "bytes": 268328,
+    "sha256": "89060b9646ba841ff050a8957a31728bc8c299f4fd94f6b7e9b26e8470d2f30c",
+    "identicalToLocal": true
+  },
+  {
+    "path": "chromium-375-inhabitant-catalogue.png",
+    "bytes": 161835,
+    "sha256": "0420487d76dd3d82fbfe0a62d8d60453819f5f9233fccea18bb34d82aeac527c",
+    "identicalToLocal": true
+  },
+  {
+    "path": "chromium-375-two-worlds-catalogue.png",
+    "bytes": 161547,
+    "sha256": "685bab31c988358f1e75d0f71b14b154d91f1c5df7f01c5d27c3f5fed71a2bc8",
+    "identicalToLocal": true
+  },
+  {
+    "path": "firefox-1440-inhabitant-catalogue.png",
+    "bytes": 349412,
+    "sha256": "2e5e61fe817f1a3ee5585162bc86aa6db9845a7dc3d27caaca6825f933020002",
+    "identicalToLocal": false
+  },
+  {
+    "path": "firefox-1440-two-worlds-catalogue.png",
+    "bytes": 364456,
+    "sha256": "4e13900ce3026271d263e66c50f2d9a1e95efc3f3856d4bb3030a8ab5e30f725",
+    "identicalToLocal": false
+  },
+  {
+    "path": "firefox-375-inhabitant-catalogue.png",
+    "bytes": 200920,
+    "sha256": "379082989189fd1aa577026b4bdf742b881284b1101b2ebf947910b03c3afd00",
+    "identicalToLocal": true
+  },
+  {
+    "path": "firefox-375-two-worlds-catalogue.png",
+    "bytes": 206498,
+    "sha256": "eece6b29212038894362cc806db243f3c6eaa708a8d9aa085dbec61bb3227633",
+    "identicalToLocal": true
+  }
+]

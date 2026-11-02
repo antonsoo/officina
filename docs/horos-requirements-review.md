@@ -57,7 +57,21 @@ this is not a claim that the development environment is vulnerability-free.
 
 ## Publication boundary
 
-The local catalogue and real published lesson have been operated. The clean
-catalogue build, hosted bytes, final pinned review and public discovery journeys
-will be recorded after publication. This focused handoff is not a new audit of
-the other 37 projects.
+Source `7c42858` and its clean-build review were pushed. The verified build was
+published by normal fast-forward push to `gh-pages`, deployment `7b6e367`.
+
+- All **113 canonical files**, including the catalogue JSON, new preview, root
+  and explicit index, agree with the clean build
+  [before](../studies/horos-requirements-public/bytes-before.json) and
+  [after](../studies/horos-requirements-public/bytes-after.json) the browser matrix.
+- [Eight public discovery journeys](../studies/horos-requirements-public/review.json)
+  passed with the final `5088c1a` review pin. All five instance-taking aliases
+  identify the comparison. Both rooms' paths use canonical links and real
+  application responses; no redirection or response substitution is used.
+- [Public screenshots](../studies/horos-requirements-public/screenshot-identities.json)
+  are retained and visually inspected, including phone layouts.
+- The Pages API returned a null status and the Actions run list was empty during
+  review. Hosted identity and actual browser behavior establish delivery;
+  remote CI success is not claimed.
+
+This focused handoff is not a new audit of the other 37 projects.
