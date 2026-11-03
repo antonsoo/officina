@@ -1628,6 +1628,32 @@
     ],
     "workshops": [
       {
+        "id": "intersection",
+        "title": "Both read 1.00. Only one is exact. · Euclid I.1",
+        "url": "https://antonsoo.github.io/stoicheia/#p=1&s=3&intersection=1",
+        "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/9d28d614d686f6d760be2478d23235b9de7fa001/docs/intersection-review.md#try-the-actual-work",
+        "searchTerms": [
+          "Euclid I.1",
+          "rational circle intersection",
+          "continuity",
+          "120/241",
+          "209/241",
+          "1/241",
+          "56/97",
+          "564719/978122",
+          "τέμνουσιν",
+          "temnousin",
+          "ἀλλήλους",
+          "inter se secant",
+          "rounded lengths",
+          "exact residual",
+          "irrational height",
+          "rational coordinate restriction"
+        ],
+        "summary": "Keep P exactly on the first circle while both lengths display 1.00. Inspect the second circle’s nonzero error, refine your fraction, then read the Greek and Latin command and save the illustrated I.1 argument. A modern rational-point restriction, not a reconstruction of Euclid’s assumptions.",
+        "thumbnail": "thumbs/stoicheia-intersection.png"
+      },
+      {
         "id": "areas",
         "title": "Two fits. One limit. · Euclid’s application of areas",
         "url": "https://antonsoo.github.io/stoicheia/areas.html#ar-bench",

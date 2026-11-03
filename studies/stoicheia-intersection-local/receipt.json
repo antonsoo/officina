@@ -1,0 +1,102 @@
+{
+  "checkedAt": "2026-11-03T21:33:45.773Z",
+  "catalogue": "http://127.0.0.1:4364/officina/",
+  "records": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "terms": [
+        "τέμνουσιν",
+        "τεμνουσιν",
+        "inter se secant",
+        "120/241",
+        "rational circle intersection"
+      ],
+      "shared": "http://127.0.0.1:4364/officina/?q=%CF%84%CE%AD%CE%BC%CE%BD%CE%BF%CF%85%CF%83%CE%B9%CE%BD#catalogue",
+      "destination": "https://antonsoo.github.io/stoicheia/#p=1&s=3&intersection=1",
+      "localCourse": "http://127.0.0.1:4352/stoicheia/",
+      "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/52715168c794f4b802d59ec5f2b0e37ce8c87067/docs/intersection-model.md",
+      "reviewSha256": "6a7329ee9441090bf9abdcf14c0ffcf40979ef91cc2d987c9f713bca779af636",
+      "remoteReviewVerified": false,
+      "sourcePage": 12,
+      "sourceSha256": "e5cc7d6bf3a2ec8dc3bcbf88803b8ee9e3d0315ae29221ed7d2fe9768356c2fd",
+      "nativeReadingBytes": 4625105,
+      "nativeReadingSha256": "fef2975d6247ac2c2a8171df73d937eb1bbff18c1fb3ac881bd86160b59d97de",
+      "embeddedScans": 10,
+      "portableNetworkRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "terms": [
+        "τέμνουσιν",
+        "τεμνουσιν",
+        "inter se secant",
+        "120/241",
+        "rational circle intersection"
+      ],
+      "shared": "http://127.0.0.1:4364/officina/?q=%CF%84%CE%AD%CE%BC%CE%BD%CE%BF%CF%85%CF%83%CE%B9%CE%BD#catalogue",
+      "destination": "https://antonsoo.github.io/stoicheia/#p=1&s=3&intersection=1",
+      "localCourse": "http://127.0.0.1:4352/stoicheia/",
+      "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/52715168c794f4b802d59ec5f2b0e37ce8c87067/docs/intersection-model.md",
+      "reviewSha256": "6a7329ee9441090bf9abdcf14c0ffcf40979ef91cc2d987c9f713bca779af636",
+      "remoteReviewVerified": false,
+      "sourcePage": 12,
+      "sourceSha256": "e5cc7d6bf3a2ec8dc3bcbf88803b8ee9e3d0315ae29221ed7d2fe9768356c2fd",
+      "nativeReadingBytes": 4625105,
+      "nativeReadingSha256": "fef2975d6247ac2c2a8171df73d937eb1bbff18c1fb3ac881bd86160b59d97de",
+      "embeddedScans": 10,
+      "portableNetworkRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "terms": [
+        "τέμνουσιν",
+        "τεμνουσιν",
+        "inter se secant",
+        "120/241",
+        "rational circle intersection"
+      ],
+      "shared": "http://127.0.0.1:4364/officina/?q=%CF%84%CE%AD%CE%BC%CE%BD%CE%BF%CF%85%CF%83%CE%B9%CE%BD#catalogue",
+      "destination": "https://antonsoo.github.io/stoicheia/#p=1&s=3&intersection=1",
+      "localCourse": "http://127.0.0.1:4352/stoicheia/",
+      "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/52715168c794f4b802d59ec5f2b0e37ce8c87067/docs/intersection-model.md",
+      "reviewSha256": "6a7329ee9441090bf9abdcf14c0ffcf40979ef91cc2d987c9f713bca779af636",
+      "remoteReviewVerified": false,
+      "sourcePage": 12,
+      "sourceSha256": "e5cc7d6bf3a2ec8dc3bcbf88803b8ee9e3d0315ae29221ed7d2fe9768356c2fd",
+      "nativeReadingBytes": 4625105,
+      "nativeReadingSha256": "fef2975d6247ac2c2a8171df73d937eb1bbff18c1fb3ac881bd86160b59d97de",
+      "embeddedScans": 10,
+      "portableNetworkRequests": 0,
+      "pageErrors": 0
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "terms": [
+        "τέμνουσιν",
+        "τεμνουσιν",
+        "inter se secant",
+        "120/241",
+        "rational circle intersection"
+      ],
+      "shared": "http://127.0.0.1:4364/officina/?q=%CF%84%CE%AD%CE%BC%CE%BD%CE%BF%CF%85%CF%83%CE%B9%CE%BD#catalogue",
+      "destination": "https://antonsoo.github.io/stoicheia/#p=1&s=3&intersection=1",
+      "localCourse": "http://127.0.0.1:4352/stoicheia/",
+      "reviewUrl": "https://github.com/antonsoo/stoicheia/blob/52715168c794f4b802d59ec5f2b0e37ce8c87067/docs/intersection-model.md",
+      "reviewSha256": "6a7329ee9441090bf9abdcf14c0ffcf40979ef91cc2d987c9f713bca779af636",
+      "remoteReviewVerified": false,
+      "sourcePage": 12,
+      "sourceSha256": "e5cc7d6bf3a2ec8dc3bcbf88803b8ee9e3d0315ae29221ed7d2fe9768356c2fd",
+      "nativeReadingBytes": 4625105,
+      "nativeReadingSha256": "fef2975d6247ac2c2a8171df73d937eb1bbff18c1fb3ac881bd86160b59d97de",
+      "embeddedScans": 10,
+      "portableNetworkRequests": 0,
+      "pageErrors": 0
+    }
+  ]
+}
