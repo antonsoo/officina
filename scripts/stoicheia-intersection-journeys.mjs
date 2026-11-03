@@ -125,6 +125,8 @@ for (const [engine, launcher] of [
       );
       const address = page.url();
       await context.setOffline(true);
+      await portable.reload();
+      await expect(portable.locator(".intersection-saved")).toContainText("-1/12545");
       const response = await page.reload();
       assert.equal(response.fromServiceWorker(), true);
       assert.equal(page.url(), address);
@@ -155,6 +157,7 @@ for (const [engine, launcher] of [
         embeddedScans: 10,
         portableNetworkRequests: 0,
         directOfflineReloadAndNativeReading: true,
+        portableReloadedOffline: true,
         pageErrors: 0,
       });
       await context.close();
