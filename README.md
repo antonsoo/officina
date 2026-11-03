@@ -123,3 +123,5 @@ The lesson and its immutable source review were published before this entry.
 [Unequal hoist tensions, Latin fastening clause and portable study discovery](docs/hoist-review.md).
 
 Thumbnail terms are identified separately in [ASSET_LICENSES.md](ASSET_LICENSES.md).
+
+[Traditio craft and recovery discovery](docs/traditio-craft-review.md) follows Latin source phrases to custody, title, an adapted claim and a retained illustrated notebook.

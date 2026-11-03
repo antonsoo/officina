@@ -48,7 +48,8 @@
     "test:syngraphe-seeing-local": "node scripts/syngraphe-seeing-local.mjs",
     "test:syngraphe-seeing": "SYNGRAPHE_PUBLIC=1 node scripts/syngraphe-seeing-local.mjs",
     "test:embater-roof": "node scripts/embater-roof-journeys.mjs",
-    "test:hoist": "node scripts/hoist-journeys.mjs"
+    "test:hoist": "node scripts/hoist-journeys.mjs",
+    "test:traditio-craft": "node scripts/traditio-craft-journeys.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
