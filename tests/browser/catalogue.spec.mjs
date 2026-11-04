@@ -247,12 +247,12 @@ test("matching workshop nodes survive searches and clear without leaking unrelat
   await page.goto("./");
   const search = page.getByRole("searchbox", { name: "Find a tool" });
   await search.fill("μηδέποτε");
-  await page.locator('[data-workshop="measure"] .workshop-demo').evaluate((e) => {
+  await page.locator('[data-project="stoicheia"] [data-workshop="measure"] .workshop-demo').evaluate((e) => {
     window.originalWorkshopLink = e;
   });
   await search.fill("horn angle");
   await expect(page.locator('[data-workshop="horn"] .workshop-demo')).toBeVisible();
-  await expect(page.locator('[data-workshop="measure"] .workshop-demo')).toBeHidden();
+  await expect(page.locator('[data-project="stoicheia"] [data-workshop="measure"] .workshop-demo')).toBeHidden();
   await search.fill("μηδέποτε 591.15");
   await expect(page.locator('[data-project="stoicheia"]')).toBeVisible();
   await expect(page.locator(".card-workshops:visible")).toHaveCount(0);
@@ -262,7 +262,7 @@ test("matching workshop nodes survive searches and clear without leaking unrelat
   await search.fill("μηδέποτε");
   expect(
     await page
-      .locator('[data-workshop="measure"] .workshop-demo')
+      .locator('[data-project="stoicheia"] [data-workshop="measure"] .workshop-demo')
       .evaluate((e) => e === window.originalWorkshopLink),
   ).toBe(true);
 });

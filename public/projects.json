@@ -276,7 +276,7 @@
   },
   {
     "name": "embater",
-    "description": "Read Vitruvius’s temple, doorway and roof proportions in Latin. Compare uncertain plans and a measured Erechtheion opening; keep illustrated readings with their complete sources.",
+    "description": "Read Vitruvius in Latin, hold a temple count fixed and change its proportions. Compare uncertain plans, roofs and a measured Erechtheion doorway; keep illustrated readings with complete sources.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/embater",
     "demoUrl": "https://antonsoo.github.io/embater/compare.html",
@@ -327,6 +327,22 @@
         ],
         "summary": "Choose which noun to double, compare 31 temple records, and save a source-backed illustrated reading. Two uncertain restorations can be included in the tally.",
         "thumbnail": "thumbs/embater-count.png"
+      },
+      {
+        "id": "measure",
+        "title": "Same columns. A different rectangle?",
+        "url": "https://antonsoo.github.io/embater/compare.html?temple=priene-temple-of-athena&measure=record#count-measuring",
+        "reviewUrl": "https://github.com/antonsoo/embater/blob/558f5b194758bcb2172404d3ec9d9dc230fd8024/docs/count-audit.md",
+        "searchTerms": [
+          "longitudo operis",
+          "axial pitch",
+          "column centres",
+          "same column count",
+          "hold a reference",
+          "temple proportions"
+        ],
+        "summary": "Hold a 6 × 11 trial, halve its flank pitch and watch a rectangle become square without losing a column. Change measuring endpoints, inspect the Latin and keep both trials with their count source.",
+        "thumbnail": "thumbs/embater-measure.png"
       },
       {
         "id": "plans",
