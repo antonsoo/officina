@@ -1,0 +1,54 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "sharedSearch": "https://antonsoo.github.io/officina/?q=longitudo+operis#catalogue",
+    "review": "https://github.com/antonsoo/embater/blob/558f5b194758bcb2172404d3ec9d9dc230fd8024/docs/count-audit.md",
+    "reviewSha256": "99b806e61cea9180c5b2dd0ae342dfd59a34c6780d39f900f4f9c3b66cce17c1",
+    "sourceHash": "29eb1a487e566f3ea1397f96412aeb7d51504f80c01741c81325f8eab77ec3fd",
+    "comparisonSha256": "85b128600651e548703c3eff0213b0a22ca537872ca6d84ae3e890cc57aeb89e",
+    "keyboardAndNativeReopen": true,
+    "sourceAndPortableReading": true,
+    "controlledOfflineDownloadMatches": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "sharedSearch": "https://antonsoo.github.io/officina/?q=longitudo+operis#catalogue",
+    "review": "https://github.com/antonsoo/embater/blob/558f5b194758bcb2172404d3ec9d9dc230fd8024/docs/count-audit.md",
+    "reviewSha256": "99b806e61cea9180c5b2dd0ae342dfd59a34c6780d39f900f4f9c3b66cce17c1",
+    "sourceHash": "29eb1a487e566f3ea1397f96412aeb7d51504f80c01741c81325f8eab77ec3fd",
+    "comparisonSha256": "85b128600651e548703c3eff0213b0a22ca537872ca6d84ae3e890cc57aeb89e",
+    "keyboardAndNativeReopen": true,
+    "sourceAndPortableReading": true,
+    "controlledOfflineDownloadMatches": true,
+    "errors": []
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "sharedSearch": "https://antonsoo.github.io/officina/?q=longitudo+operis#catalogue",
+    "review": "https://github.com/antonsoo/embater/blob/558f5b194758bcb2172404d3ec9d9dc230fd8024/docs/count-audit.md",
+    "reviewSha256": "99b806e61cea9180c5b2dd0ae342dfd59a34c6780d39f900f4f9c3b66cce17c1",
+    "sourceHash": "29eb1a487e566f3ea1397f96412aeb7d51504f80c01741c81325f8eab77ec3fd",
+    "comparisonSha256": "85b128600651e548703c3eff0213b0a22ca537872ca6d84ae3e890cc57aeb89e",
+    "keyboardAndNativeReopen": true,
+    "sourceAndPortableReading": true,
+    "controlledOfflineDownloadMatches": true,
+    "errors": []
+  },
+  {
+    "engine": "firefox",
+    "width": 375,
+    "sharedSearch": "https://antonsoo.github.io/officina/?q=longitudo+operis#catalogue",
+    "review": "https://github.com/antonsoo/embater/blob/558f5b194758bcb2172404d3ec9d9dc230fd8024/docs/count-audit.md",
+    "reviewSha256": "99b806e61cea9180c5b2dd0ae342dfd59a34c6780d39f900f4f9c3b66cce17c1",
+    "sourceHash": "29eb1a487e566f3ea1397f96412aeb7d51504f80c01741c81325f8eab77ec3fd",
+    "comparisonSha256": "85b128600651e548703c3eff0213b0a22ca537872ca6d84ae3e890cc57aeb89e",
+    "keyboardAndNativeReopen": true,
+    "sourceAndPortableReading": true,
+    "controlledOfflineDownloadMatches": true,
+    "errors": []
+  }
+]

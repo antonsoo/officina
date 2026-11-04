@@ -1,0 +1,20 @@
+[
+  {
+    "path": "index.html",
+    "bytes": 3058,
+    "sha256": "43f17c787c3b4db6c2b7a119928593cf532b52a053b760ca20f996d9707be51c",
+    "matchesAfterAllJourneys": true
+  },
+  {
+    "path": "projects.json",
+    "bytes": 94487,
+    "sha256": "0c14f637d1d11b89418e5a924d01fac90797e6c31f5d619d9b5e19567931cef2",
+    "matchesAfterAllJourneys": true
+  },
+  {
+    "path": "thumbs/embater-measure.png",
+    "bytes": 107806,
+    "sha256": "428ef6269d2ec3c4dab1927d0791193beb091f5e84b04d0ad174dd61878b98f5",
+    "matchesAfterAllJourneys": true
+  }
+]
