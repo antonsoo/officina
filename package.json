@@ -52,7 +52,8 @@
     "test:traditio-craft": "node scripts/traditio-craft-journeys.mjs",
     "test:sammu-routes-local": "node scripts/sammu-routes.mjs",
     "test:sammu-routes": "SAMMU_PUBLIC=1 node scripts/sammu-routes.mjs",
-    "test:embater-measure": "node scripts/embater-measure-journeys.mjs"
+    "test:embater-measure": "node scripts/embater-measure-journeys.mjs",
+    "test:grama": "node scripts/grama-listening-journeys.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
