@@ -18,6 +18,13 @@ const workshop = publicReview ? "https://antonsoo.github.io/sammu/" : "http://12
 const edition = /const EDITION = "([a-f0-9]+)"/.exec(await readFile(path.join(source, "dist/sw.js"), "utf8"))[1];
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const rows = [];
+async function canonicalEntry(url, file) {
+  const response = await fetch(url, { signal: AbortSignal.timeout(20000) });
+  assert.equal(response.status, 200);
+  const bytes = Buffer.from(await response.arrayBuffer());
+  assert.deepEqual(bytes, await readFile(file), "canonical entry changed after the hosted journey");
+  return hash(bytes);
+}
 async function download(page, selector, filename) {
   const waiting = page.waitForEvent("download"); await page.locator(selector).click();
   const item = await waiting; assert.equal(await item.failure(), null);
@@ -55,7 +62,7 @@ try {
           const document = execFileSync("git", ["-C", source, "show", `${pin}:docs/routes-review.md`]);
           assert.match(document.toString(), /modern modeling choices/);
           if (publicReview) {
-            const raw = await fetch(`https://raw.githubusercontent.com/antonsoo/sammu/${pin}/docs/routes-review.md`);
+            const raw = await fetch(`https://raw.githubusercontent.com/antonsoo/sammu/${pin}/docs/routes-review.md`, { signal: AbortSignal.timeout(20000) });
             assert.equal(raw.status, 200); assert.deepEqual(Buffer.from(await raw.arrayBuffer()), document);
             await row.locator(".workshop-review").focus(); await page.keyboard.press("Enter");
             await expect(page).toHaveURL(review); await expect(page.locator("article")).toContainText("The learning gap");
@@ -95,7 +102,11 @@ try {
           await expect(page.locator("#clauses")).toContainText("restored");
           assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
           assert.deepEqual(errors, []);
-          rows.push({ engine, width, shared, review, reviewSha256: hash(document), thumbnailSha256: hash(thumb), edition, recordSha256: hash(record.bytes), sourcePreservesPriorCycle: true, nativeReadingHasNoHttp: true, publicReviewBytesChecked: publicReview });
+          const canonicalEntries = publicReview ? {
+            catalogue: await canonicalEntry(catalogue, "dist/index.html"),
+            workshop: await canonicalEntry(workshop, path.join(source, "dist/index.html")),
+          } : null;
+          rows.push({ engine, width, shared, review, reviewSha256: hash(document), thumbnailSha256: hash(thumb), edition, recordSha256: hash(record.bytes), sourcePreservesPriorCycle: true, nativeReadingHasNoHttp: true, publicReviewBytesChecked: publicReview, canonicalEntries });
         } finally { await context.close(); }
       }
     } finally { await browser.close(); }

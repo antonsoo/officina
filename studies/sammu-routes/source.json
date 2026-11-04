@@ -1,0 +1,41 @@
+{
+  "source": "89869b79d3236e91960bff0dbf70a2f322b9b598",
+  "checkedAtUtc": "2026-11-04T02:11:02.384Z",
+  "rows": [
+    {
+      "path": "public/projects.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/89869b79d3236e91960bff0dbf70a2f322b9b598/public/projects.json",
+      "bytes": 93640,
+      "sha256": "9906c5ba5e9c4ad769642ffcbb1c83c4985ddf07ce9cfff88485c087cec34775",
+      "verified": true
+    },
+    {
+      "path": "public/thumbs/sammu-routes.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/89869b79d3236e91960bff0dbf70a2f322b9b598/public/thumbs/sammu-routes.png",
+      "bytes": 149093,
+      "sha256": "4d71d79cd68b3a83d59477498f2fe3496a70088cc9e2e8ba0fc6851cee90e96a",
+      "verified": true
+    },
+    {
+      "path": "public/thumbs/sammu-routes-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/89869b79d3236e91960bff0dbf70a2f322b9b598/public/thumbs/sammu-routes-LICENSE.txt",
+      "bytes": 4913,
+      "sha256": "940ae57f63eccaa83fe0ceedb76198b53b717ba772cda21a83d35a26179f00d6",
+      "verified": true
+    },
+    {
+      "path": "docs/sammu-routes-discovery.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/89869b79d3236e91960bff0dbf70a2f322b9b598/docs/sammu-routes-discovery.md",
+      "bytes": 3318,
+      "sha256": "8160e1ea7df17ad7f49f0572d3528c3b1d912780e9cd6e67ac6fa1c1ed290d70",
+      "verified": true
+    },
+    {
+      "path": "ASSET_LICENSES.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/89869b79d3236e91960bff0dbf70a2f322b9b598/ASSET_LICENSES.md",
+      "bytes": 2930,
+      "sha256": "6f0a1222548df96bb40b55b602c9d16a1bc026b7fa0685475ad59dbb0576e0f9",
+      "verified": true
+    }
+  ]
+}

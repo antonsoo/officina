@@ -1,0 +1,74 @@
+{
+  "scope": "Actual public catalogue and workshop, keyboard review navigation, immutable raw-byte check and native reading",
+  "passed": true,
+  "rows": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "shared": "https://antonsoo.github.io/officina/?q=two+roads#catalogue",
+      "review": "https://github.com/antonsoo/sammu/blob/edc9a242021d0cc8c1df05f0849da73fbe61387c/docs/routes-review.md#the-learning-gap",
+      "reviewSha256": "00ccfe7652e2dc8d933c19a178730b185fdafca353599e2f79bb578c6a34c631",
+      "thumbnailSha256": "4d71d79cd68b3a83d59477498f2fe3496a70088cc9e2e8ba0fc6851cee90e96a",
+      "edition": "3d64040e6dcc16afa71feaebc1305aa67bde9b474641d5c8c97fbe1ff0cdc399",
+      "recordSha256": "4726853a2fbfe183a67513df8c78ffc47723817035dab9b3e72dab9eb9cc57a2",
+      "sourcePreservesPriorCycle": true,
+      "nativeReadingHasNoHttp": true,
+      "publicReviewBytesChecked": true,
+      "canonicalEntries": {
+        "catalogue": "43f17c787c3b4db6c2b7a119928593cf532b52a053b760ca20f996d9707be51c",
+        "workshop": "d9f3cb5444d907e7a0aaaa9e2372fe521ff796782f4df00ca32076b157f518ea"
+      }
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "shared": "https://antonsoo.github.io/officina/?q=two+roads#catalogue",
+      "review": "https://github.com/antonsoo/sammu/blob/edc9a242021d0cc8c1df05f0849da73fbe61387c/docs/routes-review.md#the-learning-gap",
+      "reviewSha256": "00ccfe7652e2dc8d933c19a178730b185fdafca353599e2f79bb578c6a34c631",
+      "thumbnailSha256": "4d71d79cd68b3a83d59477498f2fe3496a70088cc9e2e8ba0fc6851cee90e96a",
+      "edition": "3d64040e6dcc16afa71feaebc1305aa67bde9b474641d5c8c97fbe1ff0cdc399",
+      "recordSha256": "4726853a2fbfe183a67513df8c78ffc47723817035dab9b3e72dab9eb9cc57a2",
+      "sourcePreservesPriorCycle": true,
+      "nativeReadingHasNoHttp": true,
+      "publicReviewBytesChecked": true,
+      "canonicalEntries": {
+        "catalogue": "43f17c787c3b4db6c2b7a119928593cf532b52a053b760ca20f996d9707be51c",
+        "workshop": "d9f3cb5444d907e7a0aaaa9e2372fe521ff796782f4df00ca32076b157f518ea"
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "shared": "https://antonsoo.github.io/officina/?q=two+roads#catalogue",
+      "review": "https://github.com/antonsoo/sammu/blob/edc9a242021d0cc8c1df05f0849da73fbe61387c/docs/routes-review.md#the-learning-gap",
+      "reviewSha256": "00ccfe7652e2dc8d933c19a178730b185fdafca353599e2f79bb578c6a34c631",
+      "thumbnailSha256": "4d71d79cd68b3a83d59477498f2fe3496a70088cc9e2e8ba0fc6851cee90e96a",
+      "edition": "3d64040e6dcc16afa71feaebc1305aa67bde9b474641d5c8c97fbe1ff0cdc399",
+      "recordSha256": "4726853a2fbfe183a67513df8c78ffc47723817035dab9b3e72dab9eb9cc57a2",
+      "sourcePreservesPriorCycle": true,
+      "nativeReadingHasNoHttp": true,
+      "publicReviewBytesChecked": true,
+      "canonicalEntries": {
+        "catalogue": "43f17c787c3b4db6c2b7a119928593cf532b52a053b760ca20f996d9707be51c",
+        "workshop": "d9f3cb5444d907e7a0aaaa9e2372fe521ff796782f4df00ca32076b157f518ea"
+      }
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "shared": "https://antonsoo.github.io/officina/?q=two+roads#catalogue",
+      "review": "https://github.com/antonsoo/sammu/blob/edc9a242021d0cc8c1df05f0849da73fbe61387c/docs/routes-review.md#the-learning-gap",
+      "reviewSha256": "00ccfe7652e2dc8d933c19a178730b185fdafca353599e2f79bb578c6a34c631",
+      "thumbnailSha256": "4d71d79cd68b3a83d59477498f2fe3496a70088cc9e2e8ba0fc6851cee90e96a",
+      "edition": "3d64040e6dcc16afa71feaebc1305aa67bde9b474641d5c8c97fbe1ff0cdc399",
+      "recordSha256": "4726853a2fbfe183a67513df8c78ffc47723817035dab9b3e72dab9eb9cc57a2",
+      "sourcePreservesPriorCycle": true,
+      "nativeReadingHasNoHttp": true,
+      "publicReviewBytesChecked": true,
+      "canonicalEntries": {
+        "catalogue": "43f17c787c3b4db6c2b7a119928593cf532b52a053b760ca20f996d9707be51c",
+        "workshop": "d9f3cb5444d907e7a0aaaa9e2372fe521ff796782f4df00ca32076b157f518ea"
+      }
+    }
+  ]
+}
