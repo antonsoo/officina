@@ -53,3 +53,13 @@ After publication, pass the canonical HTTPS catalogue URL to the same journey.
 The build command is `npm run build`, output `dist/`, base `/officina/`.
 The catalogue's existing validation, lint, type checking and 45 tests pass;
 no source-CI success is inferred from local checks or a Pages build.
+
+## Clean build
+
+A fresh archive of `4679668` was installed with Node 24.22.1 using `npm ci`.
+Lint, formatting, strict types, the 45 existing checks, all 38 catalogue entries
+and the production build passed. The [build inventory](evidence/haidao-error-pairs/clean-build.json)
+records all 120 files. Every byte equals the pre-dependency-change clean build
+and the working build. The [development dependency audit](development-dependencies.md)
+explains the matcher fix and its compatibility checks. This is local build
+verification; it does not establish hosted bytes or source-CI execution.
