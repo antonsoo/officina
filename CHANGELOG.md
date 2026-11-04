@@ -11,6 +11,9 @@ All notable changes to this project are documented in this file.
 
 ### Changed
 
+- Add Grāma’s concealed tuning and misplaced-count workshops, actual instrument
+  previews, source-word search and an immutable source/operation audit.
+
 - Replace the long opening feature stack with five selectable questions, an
   actual workshop preview and direct activity/review/source links. Desktop
   selection supports arrows/Home/End; phones use a native select. Preserve

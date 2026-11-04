@@ -88,6 +88,8 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox }).filter(
           return source;
         };
       });
+      const readingProgress = [];
+      let stopProgress = () => {};
       try {
         await page.goto(catalogue);
         const row = page.locator('[data-project="grama"] [data-workshop="listening"]');
@@ -150,10 +152,40 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox }).filter(
           ).join("");
         });
         assert.equal(source, expectedSource);
-        const save = page.waitForEvent("download");
+        const readingStarted = Date.now();
+        const save = page.waitForEvent("download", { timeout: 180000 });
         await page.locator("#listening-reading").click();
+        await expect(page.locator("#listening-file-status")).toContainText(/Preparing|Saved/);
+        const progressTimer = setInterval(() => {
+          void page
+            .locator("#listening-file-status")
+            .textContent()
+            .then(async (status) => {
+              readingProgress.push({ elapsedMs: Date.now() - readingStarted, status });
+              await writeFile(
+                resolve(output, `${engine}-${width}-reading-progress.json`),
+                `${JSON.stringify(readingProgress, null, 2)}\n`,
+              );
+            })
+            .catch(() => {});
+        }, 5000);
+        stopProgress = () => clearInterval(progressTimer);
+        const failedSave = page
+          .waitForFunction(
+            () => {
+              const status = document.querySelector("#listening-file-status")?.textContent ?? "";
+              return status && !/^(Preparing|Saved)/.test(status);
+            },
+            {},
+            { timeout: 180000 },
+          )
+          .then(async () => {
+            throw new Error(await page.locator("#listening-file-status").textContent());
+          });
         const study = resolve(output, `${engine}-${width}-study.html`);
-        await (await save).saveAs(study);
+        await (await Promise.race([save, failedSave])).saveAs(study);
+        stopProgress();
+        const readingSaveMs = Date.now() - readingStarted;
         const html = await readFile(study, "utf8");
         assert(!/<script\b/i.test(html));
         const portable = await context.newPage();
@@ -196,13 +228,38 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox }).filter(
           countPlacementDiscoveredAndOperated: true,
           sourceSha256: source,
           scriptFreeStudyWith11Pages: true,
+          readingSaveMs,
+          readingProgress,
           studySha256: digest(html),
           pageErrors: errors,
         });
         console.log(
           `${engine} ${width}: search -> listening -> native X -> record reopen -> source -> study passed (${mode})`,
         );
+      } catch (error) {
+        await writeFile(
+          resolve(output, `${engine}-${width}-failure.json`),
+          `${JSON.stringify(
+            {
+              error: String(error),
+              url: page.url(),
+              status: await page
+                .locator("#listening-file-status")
+                .textContent()
+                .catch(() => null),
+              offline: await page
+                .locator("#offline-status")
+                .textContent()
+                .catch(() => null),
+              readingProgress,
+            },
+            null,
+            2,
+          )}\n`,
+        );
+        throw error;
       } finally {
+        stopProgress();
         await context.close();
       }
     }

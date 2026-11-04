@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-11-04T23:53:23.146Z",
+  "mode": "public",
+  "scope": "Canonical public catalogue and lesson, pinned raw review, native downloads and a standalone study; canonical hosted identity is checked separately.",
+  "workshop": {
+    "id": "listening",
+    "title": "Same counts. Concealed sound. · Nāṭyaśāstra",
+    "url": "https://antonsoo.github.io/grama/tuning.html#listening",
+    "reviewUrl": "https://github.com/antonsoo/grama/blob/cdf94cece9811024263f6afadedf99d66a24886c/docs/listening-audit.md#what-changed-for-a-learner",
+    "searchTerms": [
+      "concealed listening",
+      "A/B/X",
+      "śruti",
+      "shruti",
+      "पञ्चम",
+      "pañcama",
+      "Bharata",
+      "Nāṭyaśāstra",
+      "same counts different sound",
+      "reopen listening record",
+      "ten cents",
+      "unchanged Ma control"
+    ],
+    "summary": "Freeze two modern tunings with the same ancient counts. Identify a concealed repeat, inspect the pitches, try an identical-note control, and reopen the complete listening record.",
+    "thumbnail": "thumbs/grama-listening.png"
+  },
+  "review": {
+    "sha256": "0204f68850e7e9f64386b7a364aee1c4e2c01de0119f22772675a7465248fbf4",
+    "bytes": 13432
+  },
+  "journeys": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "terms": 4,
+      "sharedSearchRestored": true,
+      "pinnedReviewFollowed": true,
+      "nativeXMatchesAssignedPCM": true,
+      "distinctSetupVerified": true,
+      "matchedAnswerRevealed": true,
+      "JSONDownloadedAndReopened": true,
+      "countPlacementDiscoveredAndOperated": true,
+      "sourceSha256": "a91b49178abfeea7daa478843f6d385ff4d0136d2733abdb95bd2bdca66bafe3",
+      "scriptFreeStudyWith11Pages": true,
+      "readingSaveMs": 10547,
+      "readingProgress": [
+        {
+          "elapsedMs": 5934,
+          "status": "Preparing the reading · 2033/4978 KiB received. Source identities are checked before saving."
+        }
+      ],
+      "studySha256": "873ac2af9acc84377cfbc2843b56b86000fe15b4b266284e678ae1e3a37165c7",
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "terms": 4,
+      "sharedSearchRestored": true,
+      "pinnedReviewFollowed": true,
+      "nativeXMatchesAssignedPCM": true,
+      "distinctSetupVerified": true,
+      "matchedAnswerRevealed": true,
+      "JSONDownloadedAndReopened": true,
+      "countPlacementDiscoveredAndOperated": true,
+      "sourceSha256": "a91b49178abfeea7daa478843f6d385ff4d0136d2733abdb95bd2bdca66bafe3",
+      "scriptFreeStudyWith11Pages": true,
+      "readingSaveMs": 2573,
+      "readingProgress": [],
+      "studySha256": "cc735dcf24ca15cd3981fcf9b489356e89cc7050c03f4f6af8aa1b5774b09b52",
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "terms": 4,
+      "sharedSearchRestored": true,
+      "pinnedReviewFollowed": true,
+      "nativeXMatchesAssignedPCM": true,
+      "distinctSetupVerified": true,
+      "matchedAnswerRevealed": true,
+      "JSONDownloadedAndReopened": true,
+      "countPlacementDiscoveredAndOperated": true,
+      "sourceSha256": "a91b49178abfeea7daa478843f6d385ff4d0136d2733abdb95bd2bdca66bafe3",
+      "scriptFreeStudyWith11Pages": true,
+      "readingSaveMs": 4405,
+      "readingProgress": [],
+      "studySha256": "873ac2af9acc84377cfbc2843b56b86000fe15b4b266284e678ae1e3a37165c7",
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "terms": 4,
+      "sharedSearchRestored": true,
+      "pinnedReviewFollowed": true,
+      "nativeXMatchesAssignedPCM": true,
+      "distinctSetupVerified": true,
+      "matchedAnswerRevealed": true,
+      "JSONDownloadedAndReopened": true,
+      "countPlacementDiscoveredAndOperated": true,
+      "sourceSha256": "a91b49178abfeea7daa478843f6d385ff4d0136d2733abdb95bd2bdca66bafe3",
+      "scriptFreeStudyWith11Pages": true,
+      "readingSaveMs": 836,
+      "readingProgress": [],
+      "studySha256": "cc735dcf24ca15cd3981fcf9b489356e89cc7050c03f4f6af8aa1b5774b09b52",
+      "pageErrors": []
+    }
+  ],
+  "state": "passed"
+}
