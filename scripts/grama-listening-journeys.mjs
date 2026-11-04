@@ -38,7 +38,9 @@ const report = {
   review: { sha256: digest(review), bytes: review.length },
   journeys: [],
 };
-for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
+for (const [engine, launcher] of Object.entries({ chromium, firefox }).filter(
+  ([engine]) => !process.argv[5] || process.argv[5] === engine,
+)) {
   const browser = await launcher.launch();
   try {
     for (const width of [1440, 375]) {
@@ -120,6 +122,11 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
         }
         const sounds = await page.evaluate(() => window.gramaJourneySounds);
         const pcm = (samples) => digest(Buffer.from(new Float32Array(samples).buffer));
+        assert.notEqual(
+          pcm(sounds[0]),
+          pcm(sounds[1]),
+          "The 10-cent setup must produce two distinct sounds before answering",
+        );
         const assignment = pcm(sounds[2]) === pcm(sounds[0]) ? "a" : "b";
         assert.equal(pcm(sounds[2]), pcm(sounds[assignment === "a" ? 0 : 1]));
         await page.locator(`#listening-answer-${assignment}`).click();
@@ -183,6 +190,7 @@ for (const [engine, launcher] of Object.entries({ chromium, firefox })) {
           sharedSearchRestored: true,
           pinnedReviewFollowed: mode === "public",
           nativeXMatchesAssignedPCM: true,
+          distinctSetupVerified: true,
           matchedAnswerRevealed: true,
           JSONDownloadedAndReopened: true,
           countPlacementDiscoveredAndOperated: true,
