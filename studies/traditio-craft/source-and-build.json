@@ -1,0 +1,27 @@
+{
+  "sourceCommit": "76185b2a850a2db8ee28102610dad105edec22ea",
+  "pagesCommit": "7770ec0fa59bf39870b831f145608a715b4a84ed",
+  "nodeForCleanBuild": "24.22.1",
+  "canonicalBuildFiles": 116,
+  "cleanAndWorkingBuildMatch": true,
+  "source": [
+    {
+      "path": "public/projects.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/76185b2a850a2db8ee28102610dad105edec22ea/public/projects.json",
+      "bytes": 92664,
+      "sha256": "4c67b7b8118f255d40a3d76bc3c53c2e624752efe7c4af67f0d0cdb992a98a79"
+    },
+    {
+      "path": "public/thumbs/traditio-craft.png",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/76185b2a850a2db8ee28102610dad105edec22ea/public/thumbs/traditio-craft.png",
+      "bytes": 112409,
+      "sha256": "1f474af4289ef6f97d007eb48fad44d14aa88e3dd6f427a1325282ba44d7e19a"
+    },
+    {
+      "path": "public/thumbs/traditio-craft-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/antonsoo/officina/76185b2a850a2db8ee28102610dad105edec22ea/public/thumbs/traditio-craft-LICENSE.txt",
+      "bytes": 4654,
+      "sha256": "2e1394011800d3798d977f92030f9a8a36d507640858447b092122aa9e397e84"
+    }
+  ]
+}

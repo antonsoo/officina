@@ -1,0 +1,170 @@
+{
+  "at": "2026-11-03T23:59:03.363Z",
+  "base": "https://antonsoo.github.io/officina/",
+  "rows": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "terms": [
+        "gold into a vessel",
+        "painting on a board",
+        "Sabinus and Cassius",
+        "utilis mihi actio",
+        "utique si",
+        "ownership and recovery"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=utilis+mihi+actio#catalogue",
+      "lesson": "https://antonsoo.github.io/traditio/work.html#craft-recovery",
+      "review": "https://github.com/antonsoo/traditio/blob/9c3e3072e91da7ed8f870857495afadc0d2f15c8/docs/craft-review.md#what-the-learner-can-do",
+      "reviewSha256": "ae0d27ad90e1908fc35a701273b00639082f0b1bcaf0fa960c81444d00a688c2",
+      "journey": {
+        "kind": "craft",
+        "edition": "a0da79a00a09748f2210",
+        "sourcePages": 2,
+        "displayedSources": [
+          {
+            "path": "sources/poste-1904-p162.jpg",
+            "bytes": 764906,
+            "sha256": "ad5c0888ef68476ac2149d91e672f99994e1204c3b740ab6779534fabfbc33a4"
+          },
+          {
+            "path": "sources/poste-1904-p163.jpg",
+            "bytes": 761492,
+            "sha256": "587c1415b2fd44d6f546e6819e6fd44e34e2fb6c40f1396d2318b8318bb23fcf"
+          }
+        ],
+        "nativeRoundTrip": true,
+        "noScriptOfflineReading": true,
+        "bytes": 2854929,
+        "sha256": "7aa663d2c63a7f710006d5b22fd4f38d8ede5baa6815a7e4ddd3605b54fc4334",
+        "errors": []
+      },
+      "offlineReplay": "Browser offline emulation; separate Traditio public audit refuses the actual TLS origin",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "terms": [
+        "gold into a vessel",
+        "painting on a board",
+        "Sabinus and Cassius",
+        "utilis mihi actio",
+        "utique si",
+        "ownership and recovery"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=utilis+mihi+actio#catalogue",
+      "lesson": "https://antonsoo.github.io/traditio/work.html#craft-recovery",
+      "review": "https://github.com/antonsoo/traditio/blob/9c3e3072e91da7ed8f870857495afadc0d2f15c8/docs/craft-review.md#what-the-learner-can-do",
+      "reviewSha256": "ae0d27ad90e1908fc35a701273b00639082f0b1bcaf0fa960c81444d00a688c2",
+      "journey": {
+        "kind": "craft",
+        "edition": "a0da79a00a09748f2210",
+        "sourcePages": 2,
+        "displayedSources": [
+          {
+            "path": "sources/poste-1904-p162.jpg",
+            "bytes": 764906,
+            "sha256": "ad5c0888ef68476ac2149d91e672f99994e1204c3b740ab6779534fabfbc33a4"
+          },
+          {
+            "path": "sources/poste-1904-p163.jpg",
+            "bytes": 761492,
+            "sha256": "587c1415b2fd44d6f546e6819e6fd44e34e2fb6c40f1396d2318b8318bb23fcf"
+          }
+        ],
+        "nativeRoundTrip": true,
+        "noScriptOfflineReading": true,
+        "bytes": 2854929,
+        "sha256": "7aa663d2c63a7f710006d5b22fd4f38d8ede5baa6815a7e4ddd3605b54fc4334",
+        "errors": []
+      },
+      "offlineReplay": "Browser offline emulation; separate Traditio public audit refuses the actual TLS origin",
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "terms": [
+        "gold into a vessel",
+        "painting on a board",
+        "Sabinus and Cassius",
+        "utilis mihi actio",
+        "utique si",
+        "ownership and recovery"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=utilis+mihi+actio#catalogue",
+      "lesson": "https://antonsoo.github.io/traditio/work.html#craft-recovery",
+      "review": "https://github.com/antonsoo/traditio/blob/9c3e3072e91da7ed8f870857495afadc0d2f15c8/docs/craft-review.md#what-the-learner-can-do",
+      "reviewSha256": "ae0d27ad90e1908fc35a701273b00639082f0b1bcaf0fa960c81444d00a688c2",
+      "journey": {
+        "kind": "craft",
+        "edition": "a0da79a00a09748f2210",
+        "sourcePages": 2,
+        "displayedSources": [
+          {
+            "path": "sources/poste-1904-p162.jpg",
+            "bytes": 764906,
+            "sha256": "ad5c0888ef68476ac2149d91e672f99994e1204c3b740ab6779534fabfbc33a4"
+          },
+          {
+            "path": "sources/poste-1904-p163.jpg",
+            "bytes": 761492,
+            "sha256": "587c1415b2fd44d6f546e6819e6fd44e34e2fb6c40f1396d2318b8318bb23fcf"
+          }
+        ],
+        "nativeRoundTrip": true,
+        "noScriptOfflineReading": true,
+        "bytes": 2854929,
+        "sha256": "7aa663d2c63a7f710006d5b22fd4f38d8ede5baa6815a7e4ddd3605b54fc4334",
+        "errors": []
+      },
+      "offlineReplay": "Browser offline emulation; separate Traditio public audit refuses the actual TLS origin",
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "terms": [
+        "gold into a vessel",
+        "painting on a board",
+        "Sabinus and Cassius",
+        "utilis mihi actio",
+        "utique si",
+        "ownership and recovery"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=utilis+mihi+actio#catalogue",
+      "lesson": "https://antonsoo.github.io/traditio/work.html#craft-recovery",
+      "review": "https://github.com/antonsoo/traditio/blob/9c3e3072e91da7ed8f870857495afadc0d2f15c8/docs/craft-review.md#what-the-learner-can-do",
+      "reviewSha256": "ae0d27ad90e1908fc35a701273b00639082f0b1bcaf0fa960c81444d00a688c2",
+      "journey": {
+        "kind": "craft",
+        "edition": "a0da79a00a09748f2210",
+        "sourcePages": 2,
+        "displayedSources": [
+          {
+            "path": "sources/poste-1904-p162.jpg",
+            "bytes": 764906,
+            "sha256": "ad5c0888ef68476ac2149d91e672f99994e1204c3b740ab6779534fabfbc33a4"
+          },
+          {
+            "path": "sources/poste-1904-p163.jpg",
+            "bytes": 761492,
+            "sha256": "587c1415b2fd44d6f546e6819e6fd44e34e2fb6c40f1396d2318b8318bb23fcf"
+          }
+        ],
+        "nativeRoundTrip": true,
+        "noScriptOfflineReading": true,
+        "bytes": 2854929,
+        "sha256": "7aa663d2c63a7f710006d5b22fd4f38d8ede5baa6815a7e4ddd3605b54fc4334",
+        "errors": []
+      },
+      "offlineReplay": "Browser offline emulation; separate Traditio public audit refuses the actual TLS origin",
+      "errors": []
+    }
+  ]
+}
