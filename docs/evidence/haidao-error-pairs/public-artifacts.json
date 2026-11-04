@@ -1,0 +1,94 @@
+{
+  "records": 12,
+  "method": "Python Fraction point-defined line determinant; exact embedded CSV parity; original JPEG SHA-256; actual diagram marker; no app imports",
+  "results": [
+    {
+      "file": "chromium-1440-reading.html",
+      "bytes": 6601838,
+      "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665",
+      "originalSourceImages": 5,
+      "nativeRecordIdentical": true,
+      "independentPointIntersection": {
+        "height": "1255",
+        "distance": "31250"
+      }
+    },
+    {
+      "file": "chromium-1440-offline-reading.html",
+      "bytes": 6601838,
+      "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665",
+      "originalSourceImages": 5,
+      "nativeRecordIdentical": true,
+      "independentPointIntersection": {
+        "height": "1255",
+        "distance": "31250"
+      }
+    },
+    {
+      "file": "chromium-375-reading.html",
+      "bytes": 6601838,
+      "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665",
+      "originalSourceImages": 5,
+      "nativeRecordIdentical": true,
+      "independentPointIntersection": {
+        "height": "1255",
+        "distance": "31250"
+      }
+    },
+    {
+      "file": "chromium-375-offline-reading.html",
+      "bytes": 6601838,
+      "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665",
+      "originalSourceImages": 5,
+      "nativeRecordIdentical": true,
+      "independentPointIntersection": {
+        "height": "1255",
+        "distance": "31250"
+      }
+    },
+    {
+      "file": "firefox-1440-reading.html",
+      "bytes": 6601838,
+      "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665",
+      "originalSourceImages": 5,
+      "nativeRecordIdentical": true,
+      "independentPointIntersection": {
+        "height": "1255",
+        "distance": "31250"
+      }
+    },
+    {
+      "file": "firefox-1440-offline-reading.html",
+      "bytes": 6601838,
+      "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665",
+      "originalSourceImages": 5,
+      "nativeRecordIdentical": true,
+      "independentPointIntersection": {
+        "height": "1255",
+        "distance": "31250"
+      }
+    },
+    {
+      "file": "firefox-375-reading.html",
+      "bytes": 6601838,
+      "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665",
+      "originalSourceImages": 5,
+      "nativeRecordIdentical": true,
+      "independentPointIntersection": {
+        "height": "1255",
+        "distance": "31250"
+      }
+    },
+    {
+      "file": "firefox-375-offline-reading.html",
+      "bytes": 6601838,
+      "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665",
+      "originalSourceImages": 5,
+      "nativeRecordIdentical": true,
+      "independentPointIntersection": {
+        "height": "1255",
+        "distance": "31250"
+      }
+    }
+  ]
+}

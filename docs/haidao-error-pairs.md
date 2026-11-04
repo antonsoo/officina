@@ -63,3 +63,43 @@ records all 120 files. Every byte equals the pre-dependency-change clean build
 and the working build. The [development dependency audit](development-dependencies.md)
 explains the matcher fix and its compatibility checks. This is local build
 verification; it does not establish hosted bytes or source-CI execution.
+
+## Public discovery and delivery
+
+The source was pushed and the Pages branch advanced without history rewriting
+from `d13d5ad835cf1e61b7ed1b1b6b40aca37a1733c8` to
+`2a49764e585052be757aca7fe846aee73a0e3266`. Previously served hashed assets were
+preserved. The branch uses the reviewed build above; later receipt-only commits
+do not change its static bytes.
+
+[All 120 canonical HTTPS files](evidence/haidao-error-pairs/hosted-files.json)
+match the clean inventory, with the directory checked before and after and the
+explicit index checked separately. This includes the actual catalogue metadata,
+the new thumbnail, fonts, licenses and assets. It uses ordinary canonical URLs.
+
+[The public journey](evidence/haidao-error-pairs/public-journeys.json) repeats
+the complete procedure above in all four browser/width configurations. Start
+from [the saved catalogue search](https://antonsoo.github.io/officina/?q=shared+offset&audience=Ancient+world#catalogue).
+The review is pinned to Haidao `355abcc85c84853d47f2807da08daec7d45c8183`;
+its anonymous raw bytes equal that commit. The actual lesson lands at its native
+fragment, accepts keyboard operations and exports its selected record. A
+separate [Python Fraction artifact review](evidence/haidao-error-pairs/public-artifacts.json)
+checks the twelve downloaded records by intersecting the point-defined sight
+lines, all original JPEG hashes, diagram markers and embedded CSV parity. The
+public app's offline export equals its online export. Haidao's own
+[real TLS outage review](https://github.com/antonsoo/haidao/blob/355abcc85c84853d47f2807da08daec7d45c8183/docs/audit-publication.md#a-real-public-https-outage)
+is separate from the catalogue journey's browser-offline check.
+
+[The final cross-site pass](evidence/haidao-error-pairs/haidao-hosted-after.json)
+rechecks Haidao's 19 files and both canonical entry forms after catalogue
+publication. [Clean source snapshots](evidence/haidao-error-pairs/source-snapshots.json)
+record both repositories' synchronized main revisions and eight anonymous pinned
+raw artifact comparisons. The Officina snapshot precedes this receipt-only
+commit; it is not a self-referential final-head claim.
+
+Public bytes and browser operation establish the delivery reviewed here. They
+do not establish source-CI success. The Officina Actions run listing and Pages
+build listing returned no records during this pass; its Pages configuration
+identifies the `gh-pages` branch. No successful remote job is inferred from the
+manual branch publication or matching public bytes. Haidao's source Checks and
+Pages-build observations remain in its separate publication review.

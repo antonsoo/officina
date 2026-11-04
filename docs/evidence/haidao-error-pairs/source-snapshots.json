@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-11-04T09:21:35.519Z",
+  "repositories": [
+    {
+      "repository": "haidao",
+      "head": "355abcc85c84853d47f2807da08daec7d45c8183",
+      "remoteHead": "355abcc85c84853d47f2807da08daec7d45c8183",
+      "clean": true,
+      "artifacts": [
+        {
+          "file": "docs/audit.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/haidao/355abcc85c84853d47f2807da08daec7d45c8183/docs/audit.md",
+          "bytes": 12245,
+          "sha256": "b542e5921b689b7e9b5a91084a053cdd132d07ee0753f74c0f2c51b64c66d0c4",
+          "equal": true
+        },
+        {
+          "file": "docs/audit-publication.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/haidao/355abcc85c84853d47f2807da08daec7d45c8183/docs/audit-publication.md",
+          "bytes": 5607,
+          "sha256": "1acad4e758ae4fceb599577cfa3ee67333169fa08b3e600a79a7ac16c9d3e067",
+          "equal": true
+        },
+        {
+          "file": "docs/evidence/audit-publication/outage.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/haidao/355abcc85c84853d47f2807da08daec7d45c8183/docs/evidence/audit-publication/outage.json",
+          "bytes": 5036,
+          "sha256": "434e006aaee1875f4d038f6de8f60d3642bc3727b5d8fa398186ba0ae28436d0",
+          "equal": true
+        },
+        {
+          "file": "examples/shared-offset/record.csv",
+          "url": "https://raw.githubusercontent.com/antonsoo/haidao/355abcc85c84853d47f2807da08daec7d45c8183/examples/shared-offset/record.csv",
+          "bytes": 5594,
+          "sha256": "fe265a7829950d66b869019b1431a49fe026f4437a7a0965dbb4a782a735fe3e",
+          "equal": true
+        }
+      ]
+    },
+    {
+      "repository": "officina",
+      "head": "bfbb98418dca8be2712e16f7b5c6dc8df1b9bd82",
+      "remoteHead": "bfbb98418dca8be2712e16f7b5c6dc8df1b9bd82",
+      "clean": true,
+      "artifacts": [
+        {
+          "file": "public/projects.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/bfbb98418dca8be2712e16f7b5c6dc8df1b9bd82/public/projects.json",
+          "bytes": 95502,
+          "sha256": "d53f19f40cfe659b79145f6193aceac81e19aae26872092df89d9dc778d22bab",
+          "equal": true
+        },
+        {
+          "file": "docs/haidao-error-pairs.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/bfbb98418dca8be2712e16f7b5c6dc8df1b9bd82/docs/haidao-error-pairs.md",
+          "bytes": 3590,
+          "sha256": "1f319c810256460faaa408016472c753538cbdb00fc57dda7f8f85f621403b90",
+          "equal": true
+        },
+        {
+          "file": "docs/development-dependencies.md",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/bfbb98418dca8be2712e16f7b5c6dc8df1b9bd82/docs/development-dependencies.md",
+          "bytes": 2558,
+          "sha256": "306959f9b7f9c5587fc6c4a8fe886214c4bbf4c2e490ec66ea02429d8700056a",
+          "equal": true
+        },
+        {
+          "file": "package-lock.json",
+          "url": "https://raw.githubusercontent.com/antonsoo/officina/bfbb98418dca8be2712e16f7b5c6dc8df1b9bd82/package-lock.json",
+          "bytes": 83629,
+          "sha256": "5459920054f91079542d701e4935b0951e23b4ba621ce485d79b53e12b49ad93",
+          "equal": true
+        }
+      ]
+    }
+  ],
+  "scope": "Recorded clean source snapshots and anonymous pinned raw artifacts; build/hosted/browser/CI claims are separate."
+}

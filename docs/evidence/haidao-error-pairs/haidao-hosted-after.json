@@ -1,0 +1,141 @@
+{
+  "base": "https://antonsoo.github.io/haidao/",
+  "checkedAt": "2026-11-04T09:21:03.167Z",
+  "canonicalDirectorySha256": "c0483187b872fd096bca47908e0d2d7ceb1122fc266f9c5310f3f2f9cac8a69a",
+  "directoryCheckedBeforeAndAfter": true,
+  "files": [
+    {
+      "path": "assets/index-C-39hrMN.css",
+      "bytes": 10683,
+      "sha256": "185768ef0b0fa8b5b57ff57c209a3ce7c99992b13a8019c469a238002cdc8738",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "assets/index-uwR9ZuhD.js",
+      "bytes": 61591,
+      "sha256": "0d8b259bdfd420e83ba5409e2e11704861c94ed86546386212ae37144e05204b",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 283,
+      "sha256": "d643c8d70cb63f8202d3ee4b959f22ae8b7f12978b4206bc1af669cdbb125058",
+      "status": 200,
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "fonts/Atkinson-OFL.txt",
+      "bytes": 4431,
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "fonts/AtkinsonHyperlegibleNext.ttf",
+      "bytes": 114552,
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745",
+      "status": 200,
+      "contentType": "font/ttf"
+    },
+    {
+      "path": "fonts/HaidaoCJK.woff2",
+      "bytes": 44284,
+      "sha256": "27a27fb302131881c0f1a600f6b62989a44622748490b36c57f11a7df456edaf",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "path": "fonts/Noto-NOTICE.txt",
+      "bytes": 118,
+      "sha256": "f0aeeb7b1cf3c018211e235091ad316e184e8d3bdac3922b03dca9598451d1ec",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "fonts/Noto-OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "fonts/characters.txt",
+      "bytes": 399,
+      "sha256": "4ad5a7fbd124841f41e752ab50b23f1563b3ca1dd37c15d45b4bdfdd1960ed4c",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "fonts/provenance.json",
+      "bytes": 344,
+      "sha256": "ad16696e82aa2e31a8b11d76316245a2c64e4e8a5832042b9289b54a29446664",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 18024,
+      "sha256": "c0483187b872fd096bca47908e0d2d7ceb1122fc266f9c5310f3f2f9cac8a69a",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "source-manifest.json",
+      "bytes": 2794,
+      "sha256": "657dc24c0291a3cf9d78f982291a9acd8fb09e164ae7b289864a6286a80ae5a8",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "sources/waseda-09.jpg",
+      "bytes": 944202,
+      "sha256": "bded88b54aad386512ddc06b8e28c5a37f6ae490558646013d597aaca9f27f43",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "sources/waseda-10.jpg",
+      "bytes": 796216,
+      "sha256": "2e2169694a4bc17830dc8415f5af3681fd2649fdd040c6bd51a36be47edbc3be",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "sources/waseda-11.jpg",
+      "bytes": 1018547,
+      "sha256": "620dd0b10c6f195385d9c2484cf42bac798d5006e7533fc282febd3f253d2db0",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "sources/waseda-12.jpg",
+      "bytes": 982697,
+      "sha256": "40b8b9dc5ef1f2e9bb3e8a4218117a15a49d47abe21568f29f47e125fbbada4e",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "sources/waseda-13.jpg",
+      "bytes": 1010533,
+      "sha256": "f460c01cc2aaba138cc779698996bba9a8b44aec76f20f7f5d17dad382c918c4",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "sources/waseda-metadata.json",
+      "bytes": 2294,
+      "sha256": "c34ac06a8920c62ea271561180e5ff089bdb06ba5972b5d1b874e91edd9b2341",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 10531,
+      "sha256": "2be4586fb1176b4c12ad8a5a1c8d80fe5982f5cec02d86856014f3ffe7d0caac",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8"
+    }
+  ]
+}

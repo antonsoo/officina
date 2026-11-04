@@ -1,0 +1,159 @@
+{
+  "base": "https://antonsoo.github.io/officina/",
+  "catalogueSha256": "d53f19f40cfe659b79145f6193aceac81e19aae26872092df89d9dc778d22bab",
+  "reviewPin": "355abcc85c84853d47f2807da08daec7d45c8183",
+  "results": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "terms": [
+        "shared offset",
+        "相多",
+        "independent errors"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=shared+offset&audience=Ancient+world#catalogue",
+      "landing": {
+        "x": 67.59375,
+        "y": 18.1875,
+        "width": 1304.8125,
+        "height": 2109.5625
+      },
+      "reviewUrl": "https://github.com/antonsoo/haidao/blob/355abcc85c84853d47f2807da08daec7d45c8183/docs/audit.md#try-the-actual-work",
+      "sourceSha256": "b542e5921b689b7e9b5a91084a053cdd132d07ee0753f74c0f2c51b64c66d0c4",
+      "downloads": [
+        {
+          "filename": "chromium-1440-record.csv",
+          "bytes": 5590,
+          "sha256": "f60abd740e2ceb80a43922d824bb328184fed9d3fe8d88aad697563fa5d3b03d"
+        },
+        {
+          "filename": "chromium-1440-reading.html",
+          "bytes": 6601838,
+          "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665"
+        },
+        {
+          "filename": "chromium-1440-offline-reading.html",
+          "bytes": 6601838,
+          "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665"
+        }
+      ],
+      "offlineNativeParity": true,
+      "canonicalEntryRechecked": true,
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "terms": [
+        "shared offset",
+        "相多",
+        "independent errors"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=shared+offset&audience=Ancient+world#catalogue",
+      "landing": {
+        "x": 17,
+        "y": 38.46875,
+        "width": 341,
+        "height": 3601.40625
+      },
+      "reviewUrl": "https://github.com/antonsoo/haidao/blob/355abcc85c84853d47f2807da08daec7d45c8183/docs/audit.md#try-the-actual-work",
+      "sourceSha256": "b542e5921b689b7e9b5a91084a053cdd132d07ee0753f74c0f2c51b64c66d0c4",
+      "downloads": [
+        {
+          "filename": "chromium-375-record.csv",
+          "bytes": 5590,
+          "sha256": "f60abd740e2ceb80a43922d824bb328184fed9d3fe8d88aad697563fa5d3b03d"
+        },
+        {
+          "filename": "chromium-375-reading.html",
+          "bytes": 6601838,
+          "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665"
+        },
+        {
+          "filename": "chromium-375-offline-reading.html",
+          "bytes": 6601838,
+          "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665"
+        }
+      ],
+      "offlineNativeParity": true,
+      "canonicalEntryRechecked": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "terms": [
+        "shared offset",
+        "相多",
+        "independent errors"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=shared+offset&audience=Ancient+world#catalogue",
+      "landing": {
+        "x": 67.5999984741211,
+        "y": 18,
+        "width": 1304.8000259399414,
+        "height": 2107.433349609375
+      },
+      "reviewUrl": "https://github.com/antonsoo/haidao/blob/355abcc85c84853d47f2807da08daec7d45c8183/docs/audit.md#try-the-actual-work",
+      "sourceSha256": "b542e5921b689b7e9b5a91084a053cdd132d07ee0753f74c0f2c51b64c66d0c4",
+      "downloads": [
+        {
+          "filename": "firefox-1440-record.csv",
+          "bytes": 5590,
+          "sha256": "f60abd740e2ceb80a43922d824bb328184fed9d3fe8d88aad697563fa5d3b03d"
+        },
+        {
+          "filename": "firefox-1440-reading.html",
+          "bytes": 6601838,
+          "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665"
+        },
+        {
+          "filename": "firefox-1440-offline-reading.html",
+          "bytes": 6601838,
+          "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665"
+        }
+      ],
+      "offlineNativeParity": true,
+      "canonicalEntryRechecked": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "terms": [
+        "shared offset",
+        "相多",
+        "independent errors"
+      ],
+      "shared": "https://antonsoo.github.io/officina/?q=shared+offset&audience=Ancient+world#catalogue",
+      "landing": {
+        "x": 17,
+        "y": 17,
+        "width": 341,
+        "height": 3631.25
+      },
+      "reviewUrl": "https://github.com/antonsoo/haidao/blob/355abcc85c84853d47f2807da08daec7d45c8183/docs/audit.md#try-the-actual-work",
+      "sourceSha256": "b542e5921b689b7e9b5a91084a053cdd132d07ee0753f74c0f2c51b64c66d0c4",
+      "downloads": [
+        {
+          "filename": "firefox-375-record.csv",
+          "bytes": 5590,
+          "sha256": "f60abd740e2ceb80a43922d824bb328184fed9d3fe8d88aad697563fa5d3b03d"
+        },
+        {
+          "filename": "firefox-375-reading.html",
+          "bytes": 6601838,
+          "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665"
+        },
+        {
+          "filename": "firefox-375-offline-reading.html",
+          "bytes": 6601838,
+          "sha256": "72ed851d9e355d591b8144ecbd425387d88d7c3a3137ae69080bc220e94e6665"
+        }
+      ],
+      "offlineNativeParity": true,
+      "canonicalEntryRechecked": true,
+      "errors": []
+    }
+  ]
+}
