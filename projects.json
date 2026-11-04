@@ -1030,6 +1030,49 @@
       "twenty-two",
       "22 EDO",
       "vīṇā"
+    ],
+    "workshops": [
+      {
+        "id": "listening",
+        "title": "Same counts. Concealed sound. · Nāṭyaśāstra",
+        "url": "https://antonsoo.github.io/grama/tuning.html#listening",
+        "reviewUrl": "https://github.com/antonsoo/grama/blob/d97eaa8b8a620476826411800ac5136477859673/docs/listening-audit.md#what-changed-for-a-learner",
+        "searchTerms": [
+          "concealed listening",
+          "A/B/X",
+          "śruti",
+          "shruti",
+          "पञ्चम",
+          "pañcama",
+          "Bharata",
+          "Nāṭyaśāstra",
+          "same counts different sound",
+          "reopen listening record",
+          "ten cents",
+          "unchanged Ma control"
+        ],
+        "summary": "Freeze two modern tunings with the same ancient counts. Identify a concealed repeat, inspect the pitches, try an identical-note control, and reopen the complete listening record.",
+        "thumbnail": "thumbs/grama-listening.png"
+      },
+      {
+        "id": "count-placement",
+        "title": "The octave closes. The wrong note moves.",
+        "url": "https://antonsoo.github.io/grama/?attachment=leaving#attachment",
+        "reviewUrl": "https://github.com/antonsoo/grama/blob/d97eaa8b8a620476826411800ac5136477859673/docs/listening-audit.md#the-octave-can-close-while-the-wrong-note-moves",
+        "searchTerms": [
+          "count placement",
+          "octave closes",
+          "wrong note",
+          "Dha",
+          "preceding interval",
+          "following interval",
+          "śrutyapakṛṣṭaḥ pañcamaḥ kāryaḥ",
+          "Grosset",
+          "named counts"
+        ],
+        "summary": "Make a deliberate reading error that preserves twenty-two counts, the octave, fourth and fifth. Hear why it moves Dha, then use the Sanskrit instruction to move Pa.",
+        "thumbnail": "thumbs/grama-count-placement.png"
+      }
     ]
   },
   {
