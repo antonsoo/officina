@@ -540,14 +540,14 @@
   },
   {
     "name": "haidao",
-    "description": "Test Liu Hui’s sea-island recipe against two independent sightings. Read Classical Chinese beside a later printed witness, choose between two divisors, and explore uncertainty in the retreats.",
+    "description": "Test Liu Hui’s sea-island recipe against two sightings, read Classical Chinese, and compare independent errors with shared additive offsets.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/haidao",
     "demoUrl": "https://antonsoo.github.io/haidao/?pole=5&gap=1000&front=123&rear=127&error=0&choice=gap&step=0&read=6&page=11#survey",
     "thumbnail": "thumbs/haidao.png",
     "status": "published",
     "study": {
-      "finding": "The pole-gap divisor passes the first sighting but misses the second by 4980/127 bu. Allowing ±2 bu in each retreat leaves no finite upper height bound.",
+      "finding": "The pole-gap divisor passes the first sighting but misses the second by 4980/127 bu. Independent ±2 bu retreat errors leave no finite upper height bound.",
       "url": "https://github.com/antonsoo/haidao/blob/f42a7c4681799710aa617a7bcc14e29a21335580/docs/review.md#try-the-received-wording"
     },
     "searchTerms": [
@@ -568,7 +568,34 @@
       "unbounded uncertainty",
       "海島算經",
       "海岛算经",
-      "pole gap"
+      "pole gap",
+      "shared offset",
+      "equal errors",
+      "independent errors",
+      "measurement uncertainty",
+      "error pairs"
+    ],
+    "workshops": [
+      {
+        "id": "error-pairs",
+        "title": "Same allowance. Different islands.",
+        "url": "https://antonsoo.github.io/haidao/?error=2&probe=99&rearProbe=-99&read=6&page=11&step=6#uncertainty",
+        "reviewUrl": "https://github.com/antonsoo/haidao/blob/355abcc85c84853d47f2807da08daec7d45c8183/docs/audit.md#try-the-actual-work",
+        "searchTerms": [
+          "shared offset",
+          "equal errors",
+          "independent errors",
+          "measurement uncertainty",
+          "error pairs",
+          "Liu Hui",
+          "相多",
+          "海島算經",
+          "retreat difference",
+          "parallel sightings"
+        ],
+        "summary": "Move front and rear errors separately. Make one pair equal, then narrow the whole assumption. Keep both bounds, the chosen pair and the Chinese evidence in a saved reading.",
+        "thumbnail": "thumbs/haidao-errors.png"
+      }
     ]
   },
   {
