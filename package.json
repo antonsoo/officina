@@ -49,7 +49,9 @@
     "test:syngraphe-seeing": "SYNGRAPHE_PUBLIC=1 node scripts/syngraphe-seeing-local.mjs",
     "test:embater-roof": "node scripts/embater-roof-journeys.mjs",
     "test:hoist": "node scripts/hoist-journeys.mjs",
-    "test:traditio-craft": "node scripts/traditio-craft-journeys.mjs"
+    "test:traditio-craft": "node scripts/traditio-craft-journeys.mjs",
+    "test:sammu-routes-local": "node scripts/sammu-routes.mjs",
+    "test:sammu-routes": "SAMMU_PUBLIC=1 node scripts/sammu-routes.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",

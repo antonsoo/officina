@@ -125,3 +125,8 @@ The lesson and its immutable source review were published before this entry.
 Thumbnail terms are identified separately in [ASSET_LICENSES.md](ASSET_LICENSES.md).
 
 [Traditio craft and recovery discovery](docs/traditio-craft-review.md) follows Latin source phrases to custody, title, an adapted claim and a retained illustrated notebook.
+
+Screenshots retain their source projects' licenses. The Sammû route screenshot
+has a [PolyForm Noncommercial notice](public/thumbs/sammu-routes-LICENSE.txt).
+
+[Two roads, one tuning discovery](docs/sammu-routes-discovery.md) follows a shared search to the same actual pitches, opposite retuning paths, and an offline illustrated reading.

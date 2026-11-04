@@ -302,7 +302,7 @@ async function main(): Promise<void> {
     </main>
     <footer class="wrap">
       <p>Officina <span lang="la">/ workshop</span></p>
-      <nav aria-label="Footer"><a href="https://github.com/antonsoo/officina">Page source</a><a href="mailto:anthony@praviel.com">Get in touch</a><a href="${import.meta.env.BASE_URL}FONT-LICENSE.txt">Font licenses</a><span>MIT licensed</span></nav>
+      <nav aria-label="Footer"><a href="https://github.com/antonsoo/officina">Page source</a><a href="mailto:anthony@praviel.com">Get in touch</a><a href="${import.meta.env.BASE_URL}FONT-LICENSE.txt">Font licenses</a><span>Code: MIT</span></nav>
     </footer>
   `;
 

@@ -646,7 +646,10 @@
       "embūbum",
       "kitmum",
       "Mirelman",
-      "Rahn"
+      "Rahn",
+      "two roads",
+      "transposition",
+      "pitch identity"
     ],
     "workshops": [
       {
@@ -674,6 +677,26 @@
           "Rahn"
         ],
         "thumbnail": "thumbs/sammu-live.png"
+      },
+      {
+        "id": "routes",
+        "title": "Two roads, one tuning",
+        "url": "https://antonsoo.github.io/sammu/routes.html?moves=LLLLLLL&target=embubum#comparison",
+        "reviewUrl": "https://github.com/antonsoo/sammu/blob/edc9a242021d0cc8c1df05f0849da73fbe61387c/docs/routes-review.md#the-learning-gap",
+        "summary": "Fork the same actual pitches, then loosen and tighten to one destination name. Hear the two endpoints; transpose one and test every string. The exact frequency gap belongs to an explicit modern realization of the reconstructed procedure.",
+        "searchTerms": [
+          "two roads",
+          "same tuning",
+          "same name",
+          "transposition",
+          "pitch identity",
+          "2187/2048",
+          "113.685",
+          "Mesopotamia",
+          "išartum",
+          "embūbum"
+        ],
+        "thumbnail": "thumbs/sammu-routes.png"
       }
     ]
   },
