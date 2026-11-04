@@ -1,0 +1,17 @@
+{
+  "eslint": "10.14.0",
+  "files": [
+    "scripts/verify-pages.mjs",
+    "src/catalogue.ts",
+    "src/main.ts",
+    "src/selected.ts",
+    "src/types.ts",
+    "tests/verify-pages.test.mjs"
+  ],
+  "tsCanary": [
+    "@typescript-eslint/no-unused-vars"
+  ],
+  "jsCanary": [
+    "no-undef"
+  ]
+}
