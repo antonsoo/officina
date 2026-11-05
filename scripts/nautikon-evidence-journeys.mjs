@@ -5,6 +5,7 @@ import { createServer } from "node:http";
 import { resolve, extname, sep } from "node:path";
 import { pathToFileURL } from "node:url";
 import { chromium, firefox } from "@playwright/test";
+import { waitForEdition } from "../../nautikon/scripts/current-edition.mjs";
 
 const published = process.env.NAUTIKON_PUBLIC === "1";
 const out = resolve(published ? "studies/nautikon-evidence-public" : "test-results/nautikon-evidence-local");
@@ -61,6 +62,7 @@ if (published) {
   base = `${origin}/officina/`;
   lesson = `${origin}/nautikon/`;
 }
+const expectedEdition = /EDITION="([a-f0-9]+)"/.exec(await readFile("../nautikon/dist/sw.js", "utf8"))[1];
 const observations = [];
 const wait = (p, id, text) => p.locator(`#${id}`).filter({ hasText: text }).waitFor({ timeout: 45000 });
 const save = async (p, id, name) => {
@@ -114,6 +116,8 @@ try {
         await row.locator(".workshop-demo").focus();
         await p.keyboard.press("Enter");
         await p.waitForURL((url) => url.href === `${lesson}#evidence`);
+        await waitForEdition(p, expectedEdition);
+        await p.reload();
         await p.locator("#withhold-departure").click();
         await p.locator("#check-debt").click();
         await wait(p, "debt-check", "Possible, but not established");

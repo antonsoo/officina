@@ -36,3 +36,8 @@ NAUTIKON_PUBLIC=1 node scripts/nautikon-evidence-journeys.mjs
 The three debt outcomes concern the modern selected-clause model. They do not
 establish the historical truth of a voyage or resolve the lawsuit. The lesson
 and its review preserve that boundary.
+
+The journey identifies the matching complete worker before reloading an untouched
+bootstrap tab. It then begins editing; an edited notebook is never reloaded by
+this preparation step. Public results are retained separately in
+[the canonical journey receipt](../nautikon-evidence-public/receipt.json).
