@@ -1,7 +1,7 @@
 [
   {
     "name": "nautikon",
-    "description": "Read an Athenian sea loan and its cargo testimony in Greek. Change voyage clauses, test what witnesses’ numbers establish, and save illustrated source readings.",
+    "description": "Read an Athenian sea-loan agreement in Greek. Test a debt against missing voyage evidence, keep the facts behind a claim, and compare the transmitted cargo reports.",
     "group": "Ancient world",
     "repoUrl": "https://github.com/antonsoo/nautikon",
     "demoUrl": "https://antonsoo.github.io/nautikon/",
@@ -46,7 +46,7 @@
           "300 per thousand",
           "late arrival"
         ],
-        "summary": "Move arrival while departure stays fixed, then cross the Arcturus boundary with departure. Withhold departure evidence and inspect why arrival cannot determine the rate. Read the Greek verb.",
+        "summary": "Move arrival while departure stays fixed, then cross the Arcturus boundary with departure. Withhold departure and compare what an early or late arrival can still establish. Read the Greek verb.",
         "thumbnail": "thumbs/nautikon-voyage.png"
       },
       {
@@ -85,6 +85,25 @@
         ],
         "summary": "Try 499 against the speaker’s allegation, add an attributed deposition reporting 450, and keep a check with its original premises. Read the Greek across pp. 110–111 without turning reports into proven cargo or jars into drachmas.",
         "thumbnail": "thumbs/nautikon-testimony.png"
+      },
+      {
+        "id": "missing-evidence",
+        "title": "A missing date. Two debts?",
+        "url": "https://antonsoo.github.io/nautikon/#evidence",
+        "reviewUrl": "https://github.com/antonsoo/nautikon/blob/df3b407e48adc1bf746e8fdaf47c58ac85d68a16/docs/departure-review.md#operate-the-investigation",
+        "searchTerms": [
+          "missing departure",
+          "missing date",
+          "incomplete evidence",
+          "3,800",
+          "3,675",
+          "3,900",
+          "discrete debts",
+          "Arcturus",
+          "ἐκπλεύσωσιν"
+        ],
+        "summary": "Withhold departure. Check 3,675, then 3,800 against every permitted departure. Move arrival earlier, keep the original facts, and save the checked proposal with its source pages.",
+        "thumbnail": "thumbs/nautikon-evidence.png"
       }
     ],
     "study": {
