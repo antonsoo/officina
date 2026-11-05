@@ -1,0 +1,731 @@
+{
+  "checkedAtUtc": "2026-11-05T22:18:40.817Z",
+  "sourceHead": "66610a4c480120d0fd16dd926c5e325cb6e78163",
+  "remoteHead": "66610a4c480120d0fd16dd926c5e325cb6e78163",
+  "cleanWorktree": true,
+  "verifiedFileCount": 103,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 3263,
+      "sha256": "3fd239b6c57d51d7dfe086c09ce08510309caa1719cae863d26c531b23577f24",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/CHANGELOG.md",
+      "verified": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 14443,
+      "sha256": "fed393769604f08613ae2e0951aacc6eb17e6f6c36673a5f7488ed8c77a80bdd",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/README.md",
+      "verified": true
+    },
+    {
+      "path": "docs/assets/inquiry-desktop-dark.png",
+      "bytes": 104709,
+      "sha256": "13f1d872bb9f95c4d6bbe09bfe55c66707836a63cab19910b364bcdcdd9145c7",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/assets/inquiry-desktop-dark.png",
+      "verified": true
+    },
+    {
+      "path": "docs/assets/inquiry-desktop.png",
+      "bytes": 103569,
+      "sha256": "e6a7a8b7d04ea953faba99d48881df36dded8a3862f34a5d50ebdab390799850",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/assets/inquiry-desktop.png",
+      "verified": true
+    },
+    {
+      "path": "docs/assets/inquiry-phone-dark.png",
+      "bytes": 106194,
+      "sha256": "086843ff1e88455b969e59f2967a768f2657fa110afed81660d7397acac347c4",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/assets/inquiry-phone-dark.png",
+      "verified": true
+    },
+    {
+      "path": "docs/assets/inquiry-phone.png",
+      "bytes": 70137,
+      "sha256": "15636eaf87a6781d2c4ab4893cc01d7bb4aad010acd934a441934f4731809213",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/assets/inquiry-phone.png",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-artifacts.json",
+      "bytes": 662,
+      "sha256": "305b326178903aa8c37bf349aa1bbdb600b4e7c2879d4297034ae421bf52d3aa",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-artifacts.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-audited-artifacts.json",
+      "bytes": 662,
+      "sha256": "305b326178903aa8c37bf349aa1bbdb600b4e7c2879d4297034ae421bf52d3aa",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-audited-artifacts.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-audited-drafts.json",
+      "bytes": 1999,
+      "sha256": "e451019856c8910fd0cdc4172527c2ff6ec80d2991a2e68f7c64fb6685ee3591",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-audited-drafts.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-audited-forward.json",
+      "bytes": 9142,
+      "sha256": "a914a8ed2dc9f89910714dee694ead154dc2b4f475c662eef3df5fb699a6c48e",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-audited-forward.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-audited-inverse.json",
+      "bytes": 1608,
+      "sha256": "dcb74aeed8e1906cc8350a54cf2709ea5c254a43938b890c62fee495d7f83aa5",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-audited-inverse.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-audited-local.json",
+      "bytes": 3112,
+      "sha256": "bd4590a8ee628cbd07e60da9b74aee2f4dbd82c2a6bfdc487b8a4864b5dc3499",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-audited-local.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-audited-public.json",
+      "bytes": 3147,
+      "sha256": "6b621874a90069f545e610661e123ac6114456ac42213cac6178740db1357919",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-audited-public.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-audited-sources.json",
+      "bytes": 719,
+      "sha256": "319f95cf8e5a9c860591241db2eb8f5bd2fff929d5b2fe44032d04d7f194445d",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-audited-sources.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-clean-build.json",
+      "bytes": 5917,
+      "sha256": "194e2ecb78d67327af95610c176ac3d41e84eda67df94033de322190f77e2866",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-clean-build.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-draft-regression.json",
+      "bytes": 1999,
+      "sha256": "e451019856c8910fd0cdc4172527c2ff6ec80d2991a2e68f7c64fb6685ee3591",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-draft-regression.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-forward-regression.json",
+      "bytes": 9142,
+      "sha256": "18736b3f34dd7962201ae066653abf650f26b7d2732240dfc068570f456d23bb",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-forward-regression.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-hosted-after.json",
+      "bytes": 11508,
+      "sha256": "580b065bcc1e6c9c102a5912a0435fbafcfefd82c519b96b155ef862f772d273",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-hosted-after.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-hosted-before.json",
+      "bytes": 11514,
+      "sha256": "8d8697a95935fe8b873a0fe7062bd9c6d8cad4a13c6a63d6f7754e148bc8995c",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-hosted-before.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-inverse-regression.json",
+      "bytes": 1608,
+      "sha256": "dcb74aeed8e1906cc8350a54cf2709ea5c254a43938b890c62fee495d7f83aa5",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-inverse-regression.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-local.json",
+      "bytes": 2960,
+      "sha256": "971b590bd74fb50602f6a622c7fafce53f62e673894120b8e5f096a2c63d5694",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-local.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-node24-build.json",
+      "bytes": 7228,
+      "sha256": "5fe27b01d05288e759bc865eec616987f71daf7d8416d4a47d6df5f2809e2128",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-node24-build.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-preserved-assets.json",
+      "bytes": 449,
+      "sha256": "f1b1dc206e2a195062f43e7f5d0dae4c49d646f9ddd46802d7541dab00ef2f9e",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-preserved-assets.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-primary-renders.json",
+      "bytes": 6589,
+      "sha256": "c5c06cb2c8c2ac4b0224b256c32e5bd6f137179087136dbb31f2bc5cf9241775",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-primary-renders.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-progress-corruption.json",
+      "bytes": 719,
+      "sha256": "319f95cf8e5a9c860591241db2eb8f5bd2fff929d5b2fe44032d04d7f194445d",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-progress-corruption.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-progress-hosted-after.json",
+      "bytes": 11508,
+      "sha256": "3311e8ec14ad9908af751e3d1a2895c37e36a7fcd9f1fb3cff4d9f090a1d75d8",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-progress-hosted-after.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-progress-hosted-before.json",
+      "bytes": 11513,
+      "sha256": "cd5cd043aa55e520fb56a4d2685d307dedad4fc7723d21a739c035ec229b67f2",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-progress-hosted-before.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-progress-local.json",
+      "bytes": 3112,
+      "sha256": "b8020087837a58057e11c8a62214e2191df225a9bab7479cbdb9ce41b6286859",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-progress-local.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-progress-node24.json",
+      "bytes": 4725,
+      "sha256": "16ea68b0736fe7c2a485a35324ad6b907058b6273fb0210ac24b680ce3000a4d",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-progress-node24.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-progress-preserved.json",
+      "bytes": 532,
+      "sha256": "95cc5f47d4440c1483349b98c4f9232cc005870423afdebdc74d5411c8a39ea3",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-progress-preserved.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-progress-public-upgrade.json",
+      "bytes": 2172,
+      "sha256": "594e244dd2dc8d4d75c9013e35d97f93d180b1307efd3404b88e7077e2648398",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-progress-public-upgrade.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-progress-public.json",
+      "bytes": 3147,
+      "sha256": "d7fcd756d73a69f8c4b2be5bb993ec13bc75c91343840083f21bbc693c8a0c1f",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-progress-public.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-public-upgrade.json",
+      "bytes": 2172,
+      "sha256": "aa1cfdff55ef1db5c7952242da21fbf0d47b353ff47dbb5c11684e948cdd44a0",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-public-upgrade.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-source-regression.json",
+      "bytes": 719,
+      "sha256": "319f95cf8e5a9c860591241db2eb8f5bd2fff929d5b2fe44032d04d7f194445d",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-source-regression.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-transfer-audit.json",
+      "bytes": 2644,
+      "sha256": "5fa1b6278a593c999a65c3d6c32f4472eb8d436a3ccfe17a151c348ae15eecac",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-transfer-audit.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-transfer-before.json",
+      "bytes": 868,
+      "sha256": "a7a8bc3d25d775180413d3833d5596ff2641fb9db6c80887acbc80da3a6578c4",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-transfer-before.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-worker-buffer-after.json",
+      "bytes": 701,
+      "sha256": "60c658af355aa1e79c62464aa79204c67229511f1ac969ba6d32829fb3f43e57",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-worker-buffer-after.json",
+      "verified": true
+    },
+    {
+      "path": "docs/audit/inquiry-worker-buffer-before.json",
+      "bytes": 951,
+      "sha256": "6ad4f933cec5ec3dcb3fb25133337714c25163317eff1f1a716076b31742cc19",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/audit/inquiry-worker-buffer-before.json",
+      "verified": true
+    },
+    {
+      "path": "docs/inquiry-audit.md",
+      "bytes": 11817,
+      "sha256": "8abbfbd7a9a843e7682ebb8fefb9a588179716bf2eaa7cf9fff9e52434cde4df",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/inquiry-audit.md",
+      "verified": true
+    },
+    {
+      "path": "docs/inquiry-review.md",
+      "bytes": 10248,
+      "sha256": "4a4e16e0ea33c0841b2f22fbddd583f9624d848eecda2737b25bb64dfcb712c4",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/inquiry-review.md",
+      "verified": true
+    },
+    {
+      "path": "examples/inquiry/reading-plan.csv",
+      "bytes": 9426,
+      "sha256": "229e824ad40b9181e9d37e0eae6fc65ccdbfc65ea4276b5673c7abe60ac9e643",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/examples/inquiry/reading-plan.csv",
+      "verified": true
+    },
+    {
+      "path": "examples/inquiry/reading-plan.html.gz",
+      "bytes": 1750884,
+      "sha256": "e26fab0281cc4272a4227f0c9ff41a734440f6ddea536c439534caaf354894f0",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/examples/inquiry/reading-plan.html.gz",
+      "verified": true
+    },
+    {
+      "path": "examples/inquiry/reading-plan.json",
+      "bytes": 714,
+      "sha256": "d5fd1a1fd808008ed1dd4534a6fce70d53f520c36813dcc7365fa155c6932cd7",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/examples/inquiry/reading-plan.json",
+      "verified": true
+    },
+    {
+      "path": "examples/inquiry/reading-plan.pdf",
+      "bytes": 1617454,
+      "sha256": "f41fd4144323da8ad96febaf4b8d3806fc695e00c0c7d0018ef8f6e09cca0f7b",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/examples/inquiry/reading-plan.pdf",
+      "verified": true
+    },
+    {
+      "path": "examples/inquiry/shared-output.csv",
+      "bytes": 1715,
+      "sha256": "90027b9417c5f9304c0c8da702a7777ad9e05d07865343288cc4a63a3d9d690d",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/examples/inquiry/shared-output.csv",
+      "verified": true
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 62064,
+      "sha256": "9874fb6659c22971410c876605b10fedd5d0cbd1965cc8dbf8356c3da7b28379",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/package-lock.json",
+      "verified": true
+    },
+    {
+      "path": "package.json",
+      "bytes": 1924,
+      "sha256": "28fed320a69b7fe88969a6caa5ce1e5ac00c63ffde1e468e11e4503d850ec580",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/package.json",
+      "verified": true
+    },
+    {
+      "path": "public/fonts/gentium-OFL.txt",
+      "bytes": 4507,
+      "sha256": "c309a440be606e283ccacc746662d714b9c5b5a7a0a10dd2514b90206b55ddfe",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/fonts/gentium-OFL.txt",
+      "verified": true
+    },
+    {
+      "path": "public/fonts/gentium.ttf",
+      "bytes": 822956,
+      "sha256": "845e06bb4673a908a5f3b3b4ac9f38841750a07faa9aa45bfcb5796893346f0b",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/fonts/gentium.ttf",
+      "verified": true
+    },
+    {
+      "path": "public/fonts/hanken-OFL.txt",
+      "bytes": 9377,
+      "sha256": "26ff01d30304ca6dc862c560bc80cd145c7f9ede745b4bc801f0207f1438e417",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/fonts/hanken-OFL.txt",
+      "verified": true
+    },
+    {
+      "path": "public/fonts/hanken-latin-ext.woff2",
+      "bytes": 19588,
+      "sha256": "768af2923e0ab1549f1dfba0a5c8ea749c4c01f01d8e77ffaf7fcd12f57a0a24",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/fonts/hanken-latin-ext.woff2",
+      "verified": true
+    },
+    {
+      "path": "public/fonts/hanken-latin.woff2",
+      "bytes": 34704,
+      "sha256": "e9201eddf1d41d0b62253295d869ce3cf65768f7102b797f02c7f8c876b4a9d5",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/fonts/hanken-latin.woff2",
+      "verified": true
+    },
+    {
+      "path": "public/fonts/provenance.json",
+      "bytes": 1347,
+      "sha256": "44e5299dc60cf15a478faa483e9915e2f6ceb68325f0805deb3b12d41144f00c",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/fonts/provenance.json",
+      "verified": true
+    },
+    {
+      "path": "public/icon.svg",
+      "bytes": 282,
+      "sha256": "45d0dc4ce5bb94003e9a534b34c10073493bcb361ec9c2656f6a70c36233a92f",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/icon.svg",
+      "verified": true
+    },
+    {
+      "path": "public/sources/NOTICE.txt",
+      "bytes": 1206,
+      "sha256": "5b14e6014e92b5b5532b73d7429f4f9eccc3dcd31a69b313b97909e1f9d597ef",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/NOTICE.txt",
+      "verified": true
+    },
+    {
+      "path": "public/sources/provenance.json",
+      "bytes": 3019,
+      "sha256": "1ae2cf56da5dbe2cabc8a0e2a68c2b270e7db3c3f99cbbb28adcbcba852f40fc",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/provenance.json",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-100.png",
+      "bytes": 191411,
+      "sha256": "16b68b6db903a6960aa8f071eb522dfe272952860ceb8e717d941e409399c549",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-100.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-101.png",
+      "bytes": 184841,
+      "sha256": "17451bc658ed707f11671eaf97a5b17d714234f4564845035568030e44b7c485",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-101.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-102.png",
+      "bytes": 175023,
+      "sha256": "8f57f174b1a2ebd24f5139f1b4b1564012dd8535722097302e2be92d4de0a309",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-102.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-114.png",
+      "bytes": 165386,
+      "sha256": "973ae21daf264a435da88f721140ec47b613484ceb4df3273f3b0aabf2f3b73c",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-114.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-115.png",
+      "bytes": 180996,
+      "sha256": "cc1d278903ba8a55363bd160d6a44040781cf848549602c065a7a37dce15e342",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-115.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-117.png",
+      "bytes": 184997,
+      "sha256": "0cfbdfc133ea0c3040b29f8346c38a8ada6d8470198574720c96825eaca43c35",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-117.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-118.png",
+      "bytes": 175954,
+      "sha256": "71629a1884f4773cd7af1d7928cdd2f3f140b77902c27de0d2252f115f333411",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-118.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-119.png",
+      "bytes": 163958,
+      "sha256": "e1f6da2f63cec281e4b718f19bf2baeb6875e782cd88ee97f006f5552f6cc7a8",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-119.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-130.png",
+      "bytes": 156240,
+      "sha256": "9f51681d7d6a883432b0cb314bf4ab33094655c4202c048c0f03daff22eb8a90",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-130.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-97.png",
+      "bytes": 130587,
+      "sha256": "1a70f9257eb9e07555deff3319abf26574039347f91d9f45a81779d5ef24d104",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-97.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-98.png",
+      "bytes": 182921,
+      "sha256": "d8c8833e202fb56cb83ba04bcca09512b6d41caa83070dacadca2771918625ce",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-98.png",
+      "verified": true
+    },
+    {
+      "path": "public/sources/verner-99.png",
+      "bytes": 190195,
+      "sha256": "6442751b67139c52546f0ffcdcede5ec2cca16347cc4f02936b60d5495505b1d",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/public/sources/verner-99.png",
+      "verified": true
+    },
+    {
+      "path": "scripts/audit.mjs",
+      "bytes": 9255,
+      "sha256": "cc3085278745c875c9bc792af6198ba38d21d00518d1fe379802725bbc5e0009",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/audit.mjs",
+      "verified": true
+    },
+    {
+      "path": "scripts/browser.mjs",
+      "bytes": 15448,
+      "sha256": "699740411e4e48973fd1555c2b82dedb2f6ec1499577d0b0568e25daf31de2ce",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/browser.mjs",
+      "verified": true
+    },
+    {
+      "path": "scripts/drafts-browser.mjs",
+      "bytes": 13946,
+      "sha256": "3b21fa7d9dd4aa6c66a5f1060afdb91ceadabcf00bcdfff82672f6a855ddb4e6",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/drafts-browser.mjs",
+      "verified": true
+    },
+    {
+      "path": "scripts/example.mjs",
+      "bytes": 4410,
+      "sha256": "794fcc7413f711d778a92597be4f05f6ef00448bf6715c8d8da7b1fa446db987",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/example.mjs",
+      "verified": true
+    },
+    {
+      "path": "scripts/inference-browser.mjs",
+      "bytes": 7542,
+      "sha256": "f9b7fbfefbb99f5b5549cc42df358af8b2c7e0990dcfe1b1191678373404dc11",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/inference-browser.mjs",
+      "verified": true
+    },
+    {
+      "path": "scripts/inquiry-artifacts.py",
+      "bytes": 4832,
+      "sha256": "1187255d9c310e8170f544ad4f02b264f87698cbdf6b8cda235eff2c9f23ff58",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/inquiry-artifacts.py",
+      "verified": true
+    },
+    {
+      "path": "scripts/inquiry-browser.mjs",
+      "bytes": 15440,
+      "sha256": "9b2833c6c7767244796931734e8b3b354d7776ba8a896ac130f6ec505eb800e8",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/inquiry-browser.mjs",
+      "verified": true
+    },
+    {
+      "path": "scripts/offline.mjs",
+      "bytes": 6607,
+      "sha256": "0dce25a32f86a8bab45e16a73068e36baf60bb8fe0fac40e1c451f6f0bbfc04a",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/offline.mjs",
+      "verified": true
+    },
+    {
+      "path": "scripts/transfer-browser.mjs",
+      "bytes": 10797,
+      "sha256": "618391981203c0a64b1e0e8ff5efeacdd3b878b53d211d9929ea8d7d09e569f9",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/transfer-browser.mjs",
+      "verified": true
+    },
+    {
+      "path": "scripts/update-browser.mjs",
+      "bytes": 6948,
+      "sha256": "76f59671f79903a7ea57a33fe5d13f1b55476d4ed005b8a318798aebf73b26b0",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/update-browser.mjs",
+      "verified": true
+    },
+    {
+      "path": "scripts/verify-pages.mjs",
+      "bytes": 9003,
+      "sha256": "8b1535da5ef6a0c8bff302a42999522ae7a76707559192a638d2006b1e496d59",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/verify-pages.mjs",
+      "verified": true
+    },
+    {
+      "path": "scripts/verify-reading.py",
+      "bytes": 3897,
+      "sha256": "e19d91bdae40e787c132f87f5184bba1d5373e88ffc222139843096d96a3d176",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/verify-reading.py",
+      "verified": true
+    },
+    {
+      "path": "scripts/verify-source-pages.py",
+      "bytes": 2915,
+      "sha256": "9d5223afcb52d0b0a0098ddce0a72dadae200f00fbfd3c841cb27f00b3af1fb3",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/verify-source-pages.py",
+      "verified": true
+    },
+    {
+      "path": "scripts/verify-sources.mjs",
+      "bytes": 1123,
+      "sha256": "300707d39fbfdd264ae38b093434df190acd7ca87e6566e39778c8d5fb2e45cb",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/scripts/verify-sources.mjs",
+      "verified": true
+    },
+    {
+      "path": "src/asset-manifest.json",
+      "bytes": 3482,
+      "sha256": "b10d52242b378ec7908a50dcc7f2841fb98f8c6767599fa05173717ca16b3565",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/asset-manifest.json",
+      "verified": true
+    },
+    {
+      "path": "src/assets.ts",
+      "bytes": 4415,
+      "sha256": "dae7f6150446ce5c5e788611f61f08f4cebf8888e91b1bed594ce82afaba69e2",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/assets.ts",
+      "verified": true
+    },
+    {
+      "path": "src/core/inference.ts",
+      "bytes": 3478,
+      "sha256": "1504c82228ae5c2682bc7a7d6074e3c58b098c462fc384fa7c730786a4d64479",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/core/inference.ts",
+      "verified": true
+    },
+    {
+      "path": "src/core/inquiry.ts",
+      "bytes": 6437,
+      "sha256": "fc3bd19ba7ca38212663f087fd8abd8864afbdcfe1480f5593e180d95cb6376e",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/core/inquiry.ts",
+      "verified": true
+    },
+    {
+      "path": "src/core/model.ts",
+      "bytes": 2525,
+      "sha256": "80f3ddcfa796612e4b964d05a0180327eca26e9b7ce6d96722cf54691ccbd7f3",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/core/model.ts",
+      "verified": true
+    },
+    {
+      "path": "src/core/record.ts",
+      "bytes": 6721,
+      "sha256": "154e0c57d25879e3598d9827aad85f1b8f1e499845d84dc585d3bb6d741065fe",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/core/record.ts",
+      "verified": true
+    },
+    {
+      "path": "src/html.ts",
+      "bytes": 754,
+      "sha256": "c3f3e94ac90c6705f68ade463f97f6237e366c3ad0d612a8260e77c6581b6217",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/html.ts",
+      "verified": true
+    },
+    {
+      "path": "src/inquiry-view.ts",
+      "bytes": 6181,
+      "sha256": "36fbfb41752173e71ae758435a92a8e601ef901228c9a4b76fc6b92121ea05d3",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/inquiry-view.ts",
+      "verified": true
+    },
+    {
+      "path": "src/main.ts",
+      "bytes": 48435,
+      "sha256": "f4b5acc8d70d0cc25a69f6f2d9954a65ac154d45a8c53c9e3ad1f9cdffe58596",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/main.ts",
+      "verified": true
+    },
+    {
+      "path": "src/notebook.ts",
+      "bytes": 13807,
+      "sha256": "b09f6be5f4e9b875ac160a68c169ba341a8d91dd789650b60db073e489d12a85",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/notebook.ts",
+      "verified": true
+    },
+    {
+      "path": "src/offline.ts",
+      "bytes": 3649,
+      "sha256": "da87ed218caa26d0c7eed3b9794b8510b0cb04f4858bcbfe7a06e3ac596608c6",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/offline.ts",
+      "verified": true
+    },
+    {
+      "path": "src/persistence.ts",
+      "bytes": 7993,
+      "sha256": "b936b011ab0b7b8a83666d571a85eb2b5a0a313c13ade22ee0fa47acf58659b0",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/persistence.ts",
+      "verified": true
+    },
+    {
+      "path": "src/presentation.ts",
+      "bytes": 7028,
+      "sha256": "a146283b450be84ee7b80841af61aaa1f83785533898cd09feacf3f7bdc449e1",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/presentation.ts",
+      "verified": true
+    },
+    {
+      "path": "src/readings.ts",
+      "bytes": 6353,
+      "sha256": "68b40c6d90fb9a3e3d3dc4af8d31dd6e0612b8feaf2ebfa1fb8c5c510b346993",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/readings.ts",
+      "verified": true
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 23706,
+      "sha256": "a3b27835856c95adbccddcb708b0f8927805dbef24d131c82e59663858638f0b",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/style.css",
+      "verified": true
+    },
+    {
+      "path": "src/transfer.ts",
+      "bytes": 3583,
+      "sha256": "46146aaca0ff1937b7c6f5d063aca04942bff48eb3d4388c2122769b978fd8a5",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/transfer.ts",
+      "verified": true
+    },
+    {
+      "path": "src/words.ts",
+      "bytes": 5287,
+      "sha256": "cfb1fb5e4e7ac565ad6c82a2d03b8c187326d3f6a718e259d9c898e25d7eaca0",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/src/words.ts",
+      "verified": true
+    },
+    {
+      "path": "tests/inference.test.ts",
+      "bytes": 4498,
+      "sha256": "4876e6420715007fcbe6a27f3f115e182cb74420e8d298ddaf25c33004ee28dc",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/tests/inference.test.ts",
+      "verified": true
+    },
+    {
+      "path": "tests/inquiry.test.ts",
+      "bytes": 6729,
+      "sha256": "b54be8e603fe36d5e420895968b7f74bc926fae9b4afc6ce50683bd5a5d91396",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/tests/inquiry.test.ts",
+      "verified": true
+    },
+    {
+      "path": "tests/model.test.ts",
+      "bytes": 5713,
+      "sha256": "9764277beffb064543df7534c4f971c1fb6db58dc806615333e3e55a035d0b5f",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/tests/model.test.ts",
+      "verified": true
+    },
+    {
+      "path": "tests/transfer.test.ts",
+      "bytes": 2322,
+      "sha256": "e787b33642e304faf2bb7f3020cec11e5f0c2473ae4b96292fc188ce3fa241d9",
+      "url": "https://raw.githubusercontent.com/antonsoo/akzent/66610a4c480120d0fd16dd926c5e325cb6e78163/tests/transfer.test.ts",
+      "verified": true
+    }
+  ],
+  "scope": "Public raw Git objects match the clean synchronized source. Hosted bytes, browser operation and CI are separate receipts."
+}

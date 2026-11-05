@@ -130,3 +130,7 @@ Screenshots retain their source projects' licenses. The Sammû route screenshot
 has a [PolyForm Noncommercial notice](public/thumbs/sammu-routes-LICENSE.txt).
 
 [Two roads, one tuning discovery](docs/sammu-routes-discovery.md) follows a shared search to the same actual pitches, opposite retuning paths, and an offline illustrated reading.
+
+
+[Next-consonant discovery and two different evidence goals](docs/akzent-inquiry-review.md)
+follows the actual inquiry, undo, original page and native reading plan.

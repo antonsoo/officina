@@ -176,6 +176,25 @@
         ],
         "summary": "Withhold consonants from Verner’s invented word and allow either event order. Compare unique, ambiguous and impossible accent accounts; check a proposal, change the evidence, and keep both accounts in the reading or CSV.",
         "thumbnail": "thumbs/akzent-inference.png"
+      },
+      {
+        "id": "next-reading",
+        "title": "Which consonant would you read next?",
+        "url": "https://antonsoo.github.io/akzent/#inquiry",
+        "reviewUrl": "https://github.com/antonsoo/akzent/blob/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/inquiry-audit.md#two-questions-two-rankings",
+        "searchTerms": [
+          "next consonant",
+          "accent positions",
+          "worst case",
+          "which consonant",
+          "information loss",
+          "reading plan",
+          "damaged copy",
+          "missing consonant",
+          "Verner"
+        ],
+        "summary": "Withhold letters from Verner’s fictional word. Compare the best next reading for complete explanations with the best for accent positions; try a branch, undo it, inspect the shared output, and keep the exact reading plan.",
+        "thumbnail": "thumbs/akzent-reading.png"
       }
     ]
   },
