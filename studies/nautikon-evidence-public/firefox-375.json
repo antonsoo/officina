@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "voyage": {
+    "departure": null,
+    "arrival": -5,
+    "days": 15,
+    "route": "pontus",
+    "outcome": "safe",
+    "loss": "none",
+    "lossAmount": 300,
+    "consent": true,
+    "sale": 2000,
+    "paid": false,
+    "otherPledge": false,
+    "sameVessel": true
+  },
+  "pinned": {
+    "departure": null,
+    "arrival": 25,
+    "days": 15,
+    "route": "pontus",
+    "outcome": "safe",
+    "loss": "none",
+    "lossAmount": 300,
+    "consent": true,
+    "sale": 2000,
+    "paid": false,
+    "otherPledge": false,
+    "sameVessel": true
+  },
+  "note": "Arrival constrains departure. Two possible debts do not form an interval. This is a conditional reading of the selected clauses.",
+  "claim": {
+    "amount": 3675,
+    "voyage": {
+      "departure": null,
+      "arrival": -5,
+      "days": 15,
+      "route": "pontus",
+      "outcome": "safe",
+      "loss": "none",
+      "lossAmount": 300,
+      "consent": true,
+      "sale": 2000,
+      "paid": false,
+      "otherPledge": false,
+      "sameVessel": true
+    }
+  }
+}

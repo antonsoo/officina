@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-11-05T01:55:07.467Z",
+  "catalogue": "https://antonsoo.github.io/officina/",
+  "lesson": "https://antonsoo.github.io/nautikon/",
+  "observations": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "queries": [
+        "missing departure",
+        "3,800",
+        "ἐκπλεύσωσιν"
+      ],
+      "published": true,
+      "routeInterceptionUsed": false,
+      "threeDebtVerdictsOperated": true,
+      "originalFactsKept": true,
+      "sourcePage107Read": true,
+      "nativeJsonAndReading": true,
+      "embeddedJsonRoundtrip": true,
+      "portableNetworkRequests": [],
+      "reviewUrl": "https://github.com/antonsoo/nautikon/blob/df3b407e48adc1bf746e8fdaf47c58ac85d68a16/docs/departure-review.md#operate-the-investigation",
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "queries": [
+        "missing departure",
+        "3,800",
+        "ἐκπλεύσωσιν"
+      ],
+      "published": true,
+      "routeInterceptionUsed": false,
+      "threeDebtVerdictsOperated": true,
+      "originalFactsKept": true,
+      "sourcePage107Read": true,
+      "nativeJsonAndReading": true,
+      "embeddedJsonRoundtrip": true,
+      "portableNetworkRequests": [],
+      "reviewUrl": "https://github.com/antonsoo/nautikon/blob/df3b407e48adc1bf746e8fdaf47c58ac85d68a16/docs/departure-review.md#operate-the-investigation",
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "queries": [
+        "missing departure",
+        "3,800",
+        "ἐκπλεύσωσιν"
+      ],
+      "published": true,
+      "routeInterceptionUsed": false,
+      "threeDebtVerdictsOperated": true,
+      "originalFactsKept": true,
+      "sourcePage107Read": true,
+      "nativeJsonAndReading": true,
+      "embeddedJsonRoundtrip": true,
+      "portableNetworkRequests": [],
+      "reviewUrl": "https://github.com/antonsoo/nautikon/blob/df3b407e48adc1bf746e8fdaf47c58ac85d68a16/docs/departure-review.md#operate-the-investigation",
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "queries": [
+        "missing departure",
+        "3,800",
+        "ἐκπλεύσωσιν"
+      ],
+      "published": true,
+      "routeInterceptionUsed": false,
+      "threeDebtVerdictsOperated": true,
+      "originalFactsKept": true,
+      "sourcePage107Read": true,
+      "nativeJsonAndReading": true,
+      "embeddedJsonRoundtrip": true,
+      "portableNetworkRequests": [],
+      "reviewUrl": "https://github.com/antonsoo/nautikon/blob/df3b407e48adc1bf746e8fdaf47c58ac85d68a16/docs/departure-review.md#operate-the-investigation",
+      "pageErrors": []
+    }
+  ]
+}
