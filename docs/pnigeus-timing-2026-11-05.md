@@ -46,3 +46,9 @@ against public bytes. The
 repeats all four complete journeys from the actual hosted catalogue, including
 the pinned review, operated timing rules, native notebook and offline Greek page.
 No hosted CI success is inferred from those separate observations.
+
+After Pnigeus's keyboard-focus correction was published, the
+[final public matrix](pnigeus-timing-2026-11-05/final-public-catalogue.json)
+again completed all four journeys. The
+[post-journey catalogue inventory](pnigeus-timing-2026-11-05/final-hosted-bytes.json)
+verifies all 124 current catalogue files and the canonical entry URLs.
