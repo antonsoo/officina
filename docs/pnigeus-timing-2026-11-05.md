@@ -35,3 +35,14 @@ node scripts/pnigeus-timing-journeys.mjs http://127.0.0.1:4390/officina/ /tmp/pn
 
 This document does not infer publication or hosted CI success from the local
 catalogue journey. Public catalogue verification is recorded separately.
+
+## Public catalogue verification
+
+The source change `54b2c16` and Pages change `120ebf6` were pushed on 2026-11-05.
+The [canonical inventory check](pnigeus-timing-2026-11-05/hosted-bytes.json)
+compares the current build's files, the real entry URL and explicit `index.html`
+against public bytes. The
+[public catalogue receipt](pnigeus-timing-2026-11-05/public-catalogue.json)
+repeats all four complete journeys from the actual hosted catalogue, including
+the pinned review, operated timing rules, native notebook and offline Greek page.
+No hosted CI success is inferred from those separate observations.

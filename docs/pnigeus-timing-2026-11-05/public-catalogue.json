@@ -1,0 +1,79 @@
+{
+  "base": "https://antonsoo.github.io/officina/",
+  "reviewPin": "dea993263241af26ed5aad4561ea19736d6544c0",
+  "pinnedReviewSha256": "36fa274eca742ec99beb657e699f1e2f2aca2391081657ec3c03093ee928e1d7",
+  "rows": [
+    {
+      "name": "chromium",
+      "width": 1440,
+      "searchTerms": [
+        "pump timing",
+        "\u03c0\u03bd\u03b9\u03b3\u03b5\u03cd\u03c2",
+        "unused air"
+      ],
+      "sharedSearch": true,
+      "pinnedReviewKeyboardOpened": true,
+      "fragmentLanding": 16.4375,
+      "operatedBothBudgetRules": true,
+      "actualNotebookAndNativeDownload": true,
+      "offlineReopen": true,
+      "offlineGreekSourceImage": true,
+      "notebookSha256": "4e19665cb39ff99595860738beef2f2e88eabfc1be82cac1cb45b53eddc66e66",
+      "pageErrors": []
+    },
+    {
+      "name": "chromium",
+      "width": 375,
+      "searchTerms": [
+        "pump timing",
+        "\u03c0\u03bd\u03b9\u03b3\u03b5\u03cd\u03c2",
+        "unused air"
+      ],
+      "sharedSearch": true,
+      "pinnedReviewKeyboardOpened": true,
+      "fragmentLanding": 16.484375,
+      "operatedBothBudgetRules": true,
+      "actualNotebookAndNativeDownload": true,
+      "offlineReopen": true,
+      "offlineGreekSourceImage": true,
+      "notebookSha256": "4e19665cb39ff99595860738beef2f2e88eabfc1be82cac1cb45b53eddc66e66",
+      "pageErrors": []
+    },
+    {
+      "name": "firefox",
+      "width": 1440,
+      "searchTerms": [
+        "pump timing",
+        "\u03c0\u03bd\u03b9\u03b3\u03b5\u03cd\u03c2",
+        "unused air"
+      ],
+      "sharedSearch": true,
+      "pinnedReviewKeyboardOpened": true,
+      "fragmentLanding": 16,
+      "operatedBothBudgetRules": true,
+      "actualNotebookAndNativeDownload": true,
+      "offlineReopen": true,
+      "offlineGreekSourceImage": true,
+      "notebookSha256": "4e19665cb39ff99595860738beef2f2e88eabfc1be82cac1cb45b53eddc66e66",
+      "pageErrors": []
+    },
+    {
+      "name": "firefox",
+      "width": 375,
+      "searchTerms": [
+        "pump timing",
+        "\u03c0\u03bd\u03b9\u03b3\u03b5\u03cd\u03c2",
+        "unused air"
+      ],
+      "sharedSearch": true,
+      "pinnedReviewKeyboardOpened": true,
+      "fragmentLanding": 16,
+      "operatedBothBudgetRules": true,
+      "actualNotebookAndNativeDownload": true,
+      "offlineReopen": true,
+      "offlineGreekSourceImage": true,
+      "notebookSha256": "4e19665cb39ff99595860738beef2f2e88eabfc1be82cac1cb45b53eddc66e66",
+      "pageErrors": []
+    }
+  ]
+}
