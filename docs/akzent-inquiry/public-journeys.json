@@ -1,0 +1,69 @@
+{
+  "catalogue": "https://antonsoo.github.io/officina/",
+  "records": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "shared": "https://antonsoo.github.io/officina/?q=next+consonant#catalogue",
+      "destination": "https://antonsoo.github.io/akzent/#inquiry",
+      "review": "https://github.com/antonsoo/akzent/blob/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/inquiry-audit.md#two-questions-two-rankings",
+      "reviewSha256": "8abbfbd7a9a843e7682ebb8fefb9a588179716bf2eaa7cf9fff9e52434cde4df",
+      "thumbnailSha256": "e6a7a8b7d04ea953faba99d48881df36dded8a3862f34a5d50ebdab390799850",
+      "actualCsvSha256": "229e824ad40b9181e9d37e0eae6fc65ccdbfc65ea4276b5673c7abe60ac9e643",
+      "nativeFragment": true,
+      "twoGoalsOperated": true,
+      "undo": true,
+      "sharedOutputScenarios": 5,
+      "sourcePage": 115,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "shared": "https://antonsoo.github.io/officina/?q=next+consonant#catalogue",
+      "destination": "https://antonsoo.github.io/akzent/#inquiry",
+      "review": "https://github.com/antonsoo/akzent/blob/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/inquiry-audit.md#two-questions-two-rankings",
+      "reviewSha256": "8abbfbd7a9a843e7682ebb8fefb9a588179716bf2eaa7cf9fff9e52434cde4df",
+      "thumbnailSha256": "e6a7a8b7d04ea953faba99d48881df36dded8a3862f34a5d50ebdab390799850",
+      "actualCsvSha256": "229e824ad40b9181e9d37e0eae6fc65ccdbfc65ea4276b5673c7abe60ac9e643",
+      "nativeFragment": true,
+      "twoGoalsOperated": true,
+      "undo": true,
+      "sharedOutputScenarios": 5,
+      "sourcePage": 115,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "shared": "https://antonsoo.github.io/officina/?q=next+consonant#catalogue",
+      "destination": "https://antonsoo.github.io/akzent/#inquiry",
+      "review": "https://github.com/antonsoo/akzent/blob/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/inquiry-audit.md#two-questions-two-rankings",
+      "reviewSha256": "8abbfbd7a9a843e7682ebb8fefb9a588179716bf2eaa7cf9fff9e52434cde4df",
+      "thumbnailSha256": "e6a7a8b7d04ea953faba99d48881df36dded8a3862f34a5d50ebdab390799850",
+      "actualCsvSha256": "229e824ad40b9181e9d37e0eae6fc65ccdbfc65ea4276b5673c7abe60ac9e643",
+      "nativeFragment": true,
+      "twoGoalsOperated": true,
+      "undo": true,
+      "sharedOutputScenarios": 5,
+      "sourcePage": 115,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "shared": "https://antonsoo.github.io/officina/?q=next+consonant#catalogue",
+      "destination": "https://antonsoo.github.io/akzent/#inquiry",
+      "review": "https://github.com/antonsoo/akzent/blob/66610a4c480120d0fd16dd926c5e325cb6e78163/docs/inquiry-audit.md#two-questions-two-rankings",
+      "reviewSha256": "8abbfbd7a9a843e7682ebb8fefb9a588179716bf2eaa7cf9fff9e52434cde4df",
+      "thumbnailSha256": "e6a7a8b7d04ea953faba99d48881df36dded8a3862f34a5d50ebdab390799850",
+      "actualCsvSha256": "229e824ad40b9181e9d37e0eae6fc65ccdbfc65ea4276b5673c7abe60ac9e643",
+      "nativeFragment": true,
+      "twoGoalsOperated": true,
+      "undo": true,
+      "sharedOutputScenarios": 5,
+      "sourcePage": 115,
+      "errors": []
+    }
+  ]
+}

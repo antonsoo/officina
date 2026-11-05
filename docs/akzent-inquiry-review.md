@@ -60,5 +60,15 @@ npm run test:akzent-inquiry -- http://127.0.0.1:4487/officina/ test-results/akze
 ```
 
 Build with `npm run build`; the complete static output is `dist/`, base
-`/officina/`. Public delivery and its final byte/browser receipts are recorded
-separately after publication.
+`/officina/`. The [public search](https://antonsoo.github.io/officina/?q=next%20consonant)
+now reaches the reviewed lesson. Source commit `517c522` is published in
+static commit `4771a5b`, preserving all 19 existing hashed assets.
+
+[Before-browser hosted bytes](akzent-inquiry/hosted-before.json),
+[public discovery journeys](akzent-inquiry/public-journeys.json),
+[after-browser hosted bytes](akzent-inquiry/hosted-after.json), and
+[asset preservation](akzent-inquiry/preserved-assets.json) are separate receipts.
+Both canonical entry URLs and all 126 current files match the clean build.
+The four public journeys repeat the full search-to-source-to-download-to-review
+work in both browsers and widths. No registry release or remote CI success is
+claimed.
