@@ -53,7 +53,8 @@
     "test:sammu-routes-local": "node scripts/sammu-routes.mjs",
     "test:sammu-routes": "SAMMU_PUBLIC=1 node scripts/sammu-routes.mjs",
     "test:embater-measure": "node scripts/embater-measure-journeys.mjs",
-    "test:grama": "node scripts/grama-listening-journeys.mjs"
+    "test:grama": "node scripts/grama-listening-journeys.mjs",
+    "test:pnigeus-timing": "node scripts/pnigeus-timing-journeys.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",

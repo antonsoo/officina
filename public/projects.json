@@ -677,6 +677,26 @@
     },
     "searchTerms": [
       "music"
+    ],
+    "workshops": [
+      {
+        "id": "pump-timing",
+        "title": "Must you spend all your air?",
+        "url": "https://antonsoo.github.io/pnigeus/timing.html?tank=6&pipes=1&strokes=7.0.0.0.0.0#timing",
+        "reviewUrl": "https://github.com/antonsoo/pnigeus/blob/dea993263241af26ed5aad4561ea19736d6544c0/docs/audit.md#try-the-actual-work",
+        "searchTerms": [
+          "pump timing",
+          "unused air",
+          "hydraulis",
+          "water organ",
+          "seven strokes",
+          "πνιγεύς",
+          "pressure history",
+          "editable notebook"
+        ],
+        "summary": "Place pump strokes over twelve seconds. Change whether every stroke must be spent, keep a pressure history for comparison and reopen both accounts from an editable notebook.",
+        "thumbnail": "thumbs/pnigeus-timing.png"
+      }
     ]
   },
   {
