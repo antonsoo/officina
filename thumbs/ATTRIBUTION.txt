@@ -1,6 +1,6 @@
 ToneMirror thumbnail (tonemirror.webp)
 
-Screenshot of ToneMirror by Anton Soloviev, comparing pitch curves derived
+Screenshot of ToneMirror by Anthony Mercer, comparing pitch curves derived
 from the rising and falling excerpts of FourMandarinTones.ogg by Wolfdog (2019).
 Original recording and source details:
 https://commons.wikimedia.org/w/index.php?title=File:FourMandarinTones.ogg&oldid=1277043205
@@ -15,7 +15,7 @@ No endorsement by the recording's creator is implied.
 
 Pyknon thumbnail (pyknon.png)
 
-Screenshot of Pyknon's Seikilos reader by Anton Soloviev. The inscription
+Screenshot of Pyknon's Seikilos reader by Anthony Mercer. The inscription
 photograph is by Lennart Larsen / Nationalmuseet, AS-10006:
 https://samlinger.natmus.dk/as/asset/10006
 Licensed under Creative Commons Attribution-ShareAlike 4.0:
@@ -32,7 +32,7 @@ Screenshot of the application's original frequency chart, based on the
 published measurement table in Li et al. (2024), Heritage Science 12:264:
 https://doi.org/10.1186/s40494-024-01377-0
 The article's data are CC0 unless otherwise stated. No museum photograph
-is included in this thumbnail. Screenshot and chart: Anton Soloviev, MIT.
+is included in this thumbnail. Screenshot and chart: Anthony Mercer, MIT.
 
 Other project thumbnails retain the repository's existing notices and MIT
 license unless separately attributed. This notice does not change the
@@ -42,21 +42,21 @@ Seked thumbnail (seked.png)
 
 Screenshot of the application's original measured section, unit triangle and
 new English explanation of Rhind problem 59. No source scan or museum photograph
-is included. Illustration, prose and screenshot: Anton Soloviev, MIT.
+is included. Illustration, prose and screenshot: Anthony Mercer, MIT.
 
 Pyknon octave-proof thumbnail (pyknon-canon.png, added 2026-10-22)
 
 Screenshot of the application's original pitch comparison and enlarged endpoint
 diagram. The two routes and frequencies are computed from the stated numerical
 model. No source-page scan, inscription photograph or recording is included.
-Diagram, explanatory prose and screenshot: Anton Soloviev, MIT. The earlier
+Diagram, explanatory prose and screenshot: Anthony Mercer, MIT. The earlier
 Seikilos thumbnail and its separate CC BY-SA notice remain above.
 
 Sammu retuning thumbnail (sammu.png, added 2026-10-22)
 
 Actual public-workshop screenshot after one loosening operation. Numbered
-strings, exact pitch traces and explanations are original work by Anton
-Soloviev, MIT. The diagram is a modern numerical realization, not the shape
+strings, exact pitch traces and explanations are original work by Anthony
+Mercer, MIT. The diagram is a modern numerical realization, not the shape
 or measured pitch of an excavated instrument. No tablet photograph, source
 figure, third-party recording or article excerpt is included.
 
@@ -64,20 +64,20 @@ Gonia sounding-vessel thumbnail (gonia.png, updated 2026-10-23)
 
 Actual screenshot of the thirteen places, pitch trace and Greek pitch controls.
 The plan and ratios are an identified modern realization of Vitruvius's text,
-not an excavated theatre. No source scan is included. Anton Soloviev, MIT.
+not an excavated theatre. No source scan is included. Anthony Mercer, MIT.
 
 Dioptra survey thumbnail (dioptra.png, added 2026-10-23)
 
 Actual screenshot of the measured circuit, outside aiming pegs and signed
-ledger. No scanned source page is included. Original diagram: Anton Soloviev,
-MIT. Original teaching text: Anton Soloviev, CC BY-SA 4.0; the screenshot is
+ledger. No scanned source page is included. Original diagram: Anthony Mercer,
+MIT. Original teaching text: Anthony Mercer, CC BY-SA 4.0; the screenshot is
 redistributed under CC BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/
 Source: https://github.com/antonsoo/dioptra ; no visual alterations.
 
 Stoicheia interior-route thumbnail (stoicheia.png, updated 2026-10-23)
 
 Actual I.21 proof and three-language reading. Greek and Latin: Heiberg 1883,
-public domain. New English, notes, diagram and screenshot: Anton Soloviev, MIT.
+public domain. New English, notes, diagram and screenshot: Anthony Mercer, MIT.
 No source-page scan is included. The native 1200 by 750 capture retains the
 complete triangle, selected interior point and three-language conclusion.
 
@@ -85,35 +85,35 @@ Stoicheia equal-area thumbnail (stoicheia.png, updated 2026-10-23)
 
 Actual screenshot of the original II.14 construction diagram and controls.
 The rectangle and constructed square use the same scale. No source-page scan
-or museum photograph is included. Diagram, prose and screenshot: Anton
-Soloviev, MIT.
+or museum photograph is included. Diagram, prose and screenshot: Anthony
+Mercer, MIT.
 
 Stoicheia equal-complements thumbnail (stoicheia.png, updated 2026-10-23)
 
 Actual screenshot of the I.43 oblique parallelogram and diagonal controls.
 The blue and green complements have equal areas. No source-page scan is included.
-Diagram, teaching prose and screenshot: Anton Soloviev, MIT. No visual alterations.
+Diagram, teaching prose and screenshot: Anthony Mercer, MIT. No visual alterations.
 
 Dioptra water-collection thumbnail (dioptra.png, updated 2026-10-23)
 
 Actual screenshot of equal wetted stream sections and two graduated receivers.
 The centimetres, seconds and litres are chosen modern teaching quantities.
-No source-page scan is included. Diagram: Anton Soloviev, MIT. Teaching text:
-Anton Soloviev, CC BY-SA 4.0; screenshot redistributed under CC BY-SA 4.0.
+No source-page scan is included. Diagram: Anthony Mercer, MIT. Teaching text:
+Anthony Mercer, CC BY-SA 4.0; screenshot redistributed under CC BY-SA 4.0.
 https://creativecommons.org/licenses/by-sa/4.0/ No visual alterations.
 
 Ptolemy string-trial and mesolabe thumbnails (2026-10-24)
 Files: pyknon-trial.png, stoicheia-mesolabe.png.
 Unedited 1200 x 750 browser screenshots of the actual hosted workshops, captured
-by Anton Soloviev. New diagrams and teaching text: MIT. Historical source text
+by Anthony Mercer. New diagrams and teaching text: MIT. Historical source text
 is public domain. These screenshots contain no museum photography. Exact URLs,
 framing selectors and SHA-256 identities are retained in the examination review.
 
 Operated lessons, 2026-10-24
-- grama.png: actual Grama count-row bench, public demo; MIT code and diagrams, Anton Soloviev, 2026.
-- pyknon-rhythm.png: actual Pyknon rhythm bench, public demo; MIT code and diagrams, Anton Soloviev, 2026.
-- gonia-hoist.png: actual Gonia hoist bench, public demo; MIT code and diagrams, Anton Soloviev, 2026.
-- stoicheia-desk.png: actual Stoicheia construction desk after six learner commands, with two possible crossings awaiting a choice; MIT code and diagrams, Anton Soloviev, 2026.
+- grama.png: actual Grama count-row bench, public demo; MIT code and diagrams, Anthony Mercer, 2026.
+- pyknon-rhythm.png: actual Pyknon rhythm bench, public demo; MIT code and diagrams, Anthony Mercer, 2026.
+- gonia-hoist.png: actual Gonia hoist bench, public demo; MIT code and diagrams, Anthony Mercer, 2026.
+- stoicheia-desk.png: actual Stoicheia construction desk after six learner commands, with two possible crossings awaiting a choice; MIT code and diagrams, Anthony Mercer, 2026.
 Exact URLs, captured state URLs, framing, dimensions and SHA-256 identities: docs/evidence/operated-lessons-2026-10-24/thumbnails.json.
 
 Water screw and Book X measurement (2026-10-25)
@@ -121,18 +121,18 @@ Files: gonia-screw.png, stoicheia-measure.png.
 Actual Chromium screenshots at 1200 by 750 pixels from the public workshops.
 Gonia shows its transparent eight-start screw at the source 3-4-5 slope;
 Stoicheia shows the initial 577/408 length and side before a copy is fitted.
-Original interface and diagrams: Anton Soloviev, 2026, MIT.
+Original interface and diagrams: Anthony Mercer, 2026, MIT.
 The captures contain no reconstructed historical photograph or generated art.
 Capture URLs, framing and SHA-256 identities are retained in
 docs/evidence/measure-and-water-2026-10-25/thumbnails.json.
 
 haidao.png: native Chromium capture of the published Haidao survey at 1200 x 750.
-Original modern geometry and interface, MIT, Anton Soloviev. No historical landscape or borrowed illustration.
+Original modern geometry and interface, MIT, Anthony Mercer. No historical landscape or borrowed illustration.
 
 Weighted-string and square-frustum thumbnails, added 2026-10-25:
 - pyknon-tension.png: actual published Nicomachus ideal-string comparison.
 - seked-frustum.png: actual published nine-piece square-frustum dissection.
-Both are original MIT code/diagrams, Anton Soloviev, 2026. No source-page
+Both are original MIT code/diagrams, Anthony Mercer, 2026. No source-page
 photographs appear in these frames. Exact capture URLs, viewport and hashes
 are retained in studies/weight-and-volume-discovery/results/thumbnails.json.
 
