@@ -19,7 +19,7 @@ independent SDK/Go decoders. Explicit missing loss and text `"NaN"` stay gaps;
 actual overflow stays observed divergence. The separate live browser workbench
 uses the pinned engine with a pure Python protobuf runtime, preserves native
 file identity and permits real chart downloads from its sandboxed preview.
-[Immutable published browser study](https://huggingface.co/spaces/antonsoloviev/trainspotter/blob/d29692cfe4f3dd7a0e3fbcdc989c0f335874f256/evidence/wandb-browser/README.md).
+[Immutable published browser study](https://huggingface.co/spaces/tonymerx/trainspotter/blob/d29692cfe4f3dd7a0e3fbcdc989c0f335874f256/evidence/wandb-browser/README.md).
 Its 92-file publication audit and 52 native workflows / 148 actual SVG downloads
 are separate from any registry release. The earlier
 [native MLflow scope study](https://github.com/antonsoo/trainspotter/tree/5b8b817705d698f700bf8b4e5e61f1eb0ba4ea4f/studies/mlflow-scopes)

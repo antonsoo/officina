@@ -2101,7 +2101,7 @@
     "demoUrl": "https://antonsoo.github.io/errorbars/",
     "thumbnail": "thumbs/errorbars.webp",
     "status": "published",
-    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/errorbars",
+    "spaceUrl": "https://huggingface.co/spaces/tonymerx/errorbars",
     "package": {
       "registry": "PyPI",
       "url": "https://pypi.org/project/errorbars/"
@@ -2183,7 +2183,7 @@
     "demoUrl": "https://antonsoo.github.io/veil/",
     "thumbnail": "thumbs/veil.webp",
     "status": "published",
-    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/veil",
+    "spaceUrl": "https://huggingface.co/spaces/tonymerx/veil",
     "package": {
       "registry": "PyPI",
       "url": "https://pypi.org/project/veil-pii/"
@@ -2218,14 +2218,14 @@
     "demoUrl": "https://antonsoo.github.io/trainspotter/",
     "thumbnail": "thumbs/trainspotter.webp",
     "status": "published",
-    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/trainspotter",
+    "spaceUrl": "https://huggingface.co/spaces/tonymerx/trainspotter",
     "package": {
       "registry": "PyPI",
       "url": "https://pypi.org/project/trainspotter/"
     },
     "study": {
       "finding": "Native W&B: 400 history packets match independent SDK/Go readers; text NaN remains a gap while observed overflow stays divergence.",
-      "url": "https://huggingface.co/spaces/antonsoloviev/trainspotter/blob/d29692cfe4f3dd7a0e3fbcdc989c0f335874f256/evidence/wandb-browser/README.md"
+      "url": "https://huggingface.co/spaces/tonymerx/trainspotter/blob/d29692cfe4f3dd7a0e3fbcdc989c0f335874f256/evidence/wandb-browser/README.md"
     }
   },
   {
@@ -2270,7 +2270,7 @@
     "demoUrl": "https://antonsoo.github.io/flakemap/",
     "thumbnail": "thumbs/flakemap.webp",
     "status": "published",
-    "spaceUrl": "https://huggingface.co/spaces/antonsoloviev/flakemap",
+    "spaceUrl": "https://huggingface.co/spaces/tonymerx/flakemap",
     "package": {
       "registry": "PyPI",
       "url": "https://pypi.org/project/flakemap/"

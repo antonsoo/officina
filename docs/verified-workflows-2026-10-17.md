@@ -49,8 +49,8 @@ These are eight-question controlled examples with fictional model names.
 [after](assets/verified-workflows-2026-10-17/metadata-after.json) retain exact
 CSV hashes, actual public downloads, manifest hashes, browser outcomes and
 Hub revisions. The final Errorbars bundle is
-[`447ca87`](https://huggingface.co/spaces/antonsoloviev/errorbars/tree/447ca87eb56b134fd8201b60d6945618929423e7); its
-[authored card](https://huggingface.co/spaces/antonsoloviev/errorbars/blob/447ca87eb56b134fd8201b60d6945618929423e7/README.md)
+[`447ca87`](https://huggingface.co/spaces/tonymerx/errorbars/tree/447ca87eb56b134fd8201b60d6945618929423e7); its
+[authored card](https://huggingface.co/spaces/tonymerx/errorbars/blob/447ca87eb56b134fd8201b60d6945618929423e7/README.md)
 documents the retained fields and limits. The publication receipt records
 [the exact manifest](assets/verified-workflows-2026-10-17/metadata-publication.json).
 

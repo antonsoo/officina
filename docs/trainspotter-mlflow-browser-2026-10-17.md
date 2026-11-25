@@ -37,9 +37,9 @@ uploading only a main file can lose evidence. The tested read-only backup
 procedure retains it and changes journal mode on the copy, leaving the source
 store intact.
 
-[The public workbench](https://antonsoloviev-trainspotter.static.hf.space/) is
+[The public workbench](https://tonymerx-trainspotter.static.hf.space/) is
 published at Hub commit `f47a4950399e2f3e18cdc6dfc6281cb75088f36f`.
-[Its adapter, original inputs and replay study](https://huggingface.co/spaces/antonsoloviev/trainspotter/tree/f47a4950399e2f3e18cdc6dfc6281cb75088f36f/evidence/mlflow-browser)
+[Its adapter, original inputs and replay study](https://huggingface.co/spaces/tonymerx/trainspotter/tree/f47a4950399e2f3e18cdc6dfc6281cb75088f36f/evidence/mlflow-browser)
 are public. All 33 engine files match the immutable public source pin,
 fresh installed package and browser archive. The actual worker reports
 Python 3.14.2, NumPy 2.4.6 and SQLite 3.39.0.
