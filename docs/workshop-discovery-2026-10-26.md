@@ -150,8 +150,9 @@ ae0a11d docs: retain public circle discovery and native learner journeys
 85d9c58 feat: discover and operate the Archimedes circle workshop
 ```
 
-Officina's GitHub description remains "Officina: an index of open-source tools
-by Anton Soloviev, from ancient calendars to LLM eval statistics." Its five
+Officina's GitHub description is "Open-source work by Anthony Mercer: ancient
+architecture, geometry, music, and tools for working with data." (description
+as of 2026-11-25). Its five
 topics are `ai-engineering`, `developer-tools`, `open-source`, `portfolio`,
 and `typescript`. Stoicheia's description was refreshed separately to "Euclid
 and Archimedes in Greek, Latin and English, with exact diagrams, original scans
