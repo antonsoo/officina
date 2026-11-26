@@ -2047,7 +2047,7 @@
     "status": "published",
     "package": {
       "registry": "npm",
-      "url": "https://www.npmjs.com/package/@antonsoloviev/horologium"
+      "url": "https://www.npmjs.com/package/@anthonymercer/horologium"
     },
     "study": {
       "finding": "74 sites across 2026: 90 false solar crossings removed; marginal polar events withheld. Terrain and weather remain outside the model.",
@@ -2134,7 +2134,7 @@
     "status": "published",
     "package": {
       "registry": "npm",
-      "url": "https://www.npmjs.com/package/@antonsoloviev/contextscope"
+      "url": "https://www.npmjs.com/package/@anthonymercer/contextscope"
     },
     "study": {
       "finding": "MCP URLs do not reveal model-visible tools: 11 SDK workflows now keep token/cache totals unknown; two local-tool controls retain known totals.",
@@ -2168,7 +2168,7 @@
     "status": "published",
     "package": {
       "registry": "npm",
-      "url": "https://www.npmjs.com/package/@antonsoloviev/mcplint"
+      "url": "https://www.npmjs.com/package/@anthonymercer/mcplint"
     },
     "study": {
       "finding": "Four native enum/type contradictions across three SVGverseAI tools; empty calls stay valid. Retained 25,799-tool audits preserve previous findings.",
@@ -2203,7 +2203,7 @@
     "status": "published",
     "package": {
       "registry": "npm",
-      "url": "https://www.npmjs.com/package/@antonsoloviev/tracelens"
+      "url": "https://www.npmjs.com/package/@anthonymercer/tracelens"
     },
     "study": {
       "finding": "Native Collector exports: all 5,001 SDK spans survive compressed imports offline. Damaged streams refuse; this is a controlled local workload.",
@@ -2238,7 +2238,7 @@
     "status": "published",
     "package": {
       "registry": "npm",
-      "url": "https://www.npmjs.com/package/@antonsoloviev/ghostchars"
+      "url": "https://www.npmjs.com/package/@anthonymercer/ghostchars"
     },
     "study": {
       "finding": "Source upgrade: 31 JavaScript controls with escaped identifiers expose 124 missed confusable spans; parsing checks names without resolving scope.",
@@ -2290,7 +2290,7 @@
     "status": "published",
     "package": {
       "registry": "npm",
-      "url": "https://www.npmjs.com/package/@antonsoloviev/stutterscope"
+      "url": "https://www.npmjs.com/package/@anthonymercer/stutterscope"
     },
     "study": {
       "finding": "Native PresentMon 2.6: 174 filtered frames retain CPU/GPU and latency; 83 clock gaps leave 90 observed pacing pairs.",
